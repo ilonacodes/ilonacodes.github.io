@@ -21,15 +21,15 @@ theme = "hugo-geo-modified"
 	
 	[[params.navlinks]]
 	name = "About"
-	url = "about"
+	url = ""
 	
 	[[params.navlinks]]
 	name = "Portfolio"
-	url = "Portfolio"
+	url = "portfolio"
 	
-	[[params.navlinks]]
-	name = "Blog"
-	url = "blog"
+	# [[params.navlinks]]
+	# name = "Blog"
+	# url = "blog"
 
 	[[params.navlinks]]
 	name = "Contact"
