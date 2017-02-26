@@ -1,0 +1,36 @@
+languageCode = "en-us"
+title = "My New Hugo Site"
+baseurl = "http://example.org/"
+theme = "hugo-geo-modified"
+
+[params]
+	showglobe = false
+
+	favicon = "favicon.ico"
+	
+	analytics = "code-here"
+
+	github = "https://github.com/ilonade"
+	email = "demiluri@gmail.com"
+	
+	profilepic = "img/ilonade.jpg"
+	
+	title = "ILONA DEMIDENKO"
+	subtitle = "Aspiring UI/UX Designer and Front-End Developer"
+	location = "Berlin, Germany"
+	
+	[[params.navlinks]]
+	name = "About"
+	url = "about"
+	
+	[[params.navlinks]]
+	name = "Portfolio"
+	url = "Portfolio"
+	
+	[[params.navlinks]]
+	name = "Blog"
+	url = "blog"
+
+	[[params.navlinks]]
+	name = "Contact"
+	url = "contact"
