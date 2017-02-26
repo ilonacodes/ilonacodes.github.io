@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ILONA DEMIDENKO</title>
-    <link>http://example.org/index.xml</link>
+    <link>https://ilonade.github.io/index.xml</link>
     <description>Recent content on ILONA DEMIDENKO</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 26 Feb 2017 15:35:55 +0100</lastBuildDate>
-    <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ilonade.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title></title>
-      <link>http://example.org/portfolio/</link>
+      <link>https://ilonade.github.io/portfolio/</link>
       <pubDate>Sun, 26 Feb 2017 15:35:55 +0100</pubDate>
       
-      <guid>http://example.org/portfolio/</guid>
+      <guid>https://ilonade.github.io/portfolio/</guid>
       <description>&lt;p&gt;&lt;center&gt;&lt;h1&gt;Portfolio&lt;/h1&gt;&lt;/center&gt;&lt;/p&gt;
 
 &lt;div class=&#34;row&#34;&gt;
     &lt;div class=&#34;col-xs-6 text-align: center&#34;&gt;
         &lt;a href=&#34;https://ilonade.github.io/MyToDoList/&#34;&gt;&lt;h4 style=&#34;text-align: center; color: blue;&#34;&gt;ToDo List&lt;/h4&gt;&lt;/a&gt;
-        &lt;img class=&#34;portfolio-half-screen-image&#34; style=&#34;max-width: 100%; max-height: 100%;&#34; src=&#34;http://example.org/img/ToDo.png&#34;&gt;
+        &lt;img class=&#34;portfolio-half-screen-image&#34; style=&#34;max-width: 100%; max-height: 100%;&#34; src=&#34;https://ilonade.github.io/img/ToDo.png&#34;&gt;
         &lt;p&gt;&lt;b&gt;Technologies: &lt;/b&gt;HTML5, CSS3, Bootstrap, JavaScript, jQuery, Jasmine&lt;/p&gt;
     &lt;/div&gt;
     &lt;div class=&#34;col-xs-6 text-align: center&#34;&gt;
         &lt;a href=&#34;https://github.com/ilonade/CampaignManager&#34;&gt;&lt;h4 style=&#34;text-align: center; color: blue;&#34;&gt;Campaign Manager&lt;/h4&gt;&lt;/a&gt;
-        &lt;img class=&#34;portfolio-half-screen-image&#34; style=&#34;max-width: 100%; max-height: 100%;&#34; src=&#34;http://example.org/img/CampaignManager.png&#34;&gt;
+        &lt;img class=&#34;portfolio-half-screen-image&#34; style=&#34;max-width: 100%; max-height: 100%;&#34; src=&#34;https://ilonade.github.io/img/CampaignManager.png&#34;&gt;
         &lt;br/&gt; 
         &lt;br/&gt;
         &lt;p&gt;&lt;b&gt;Technologies: &lt;/b&gt;HTML5, CSS3, Bootstrap, ECMAScript 6, React, Redux, Jasmine&lt;/p&gt;
@@ -35,12 +35,12 @@
 &lt;div class=&#34;row&#34;&gt;
     &lt;div class=&#34;col-xs-6 text-align: center&#34;&gt;
         &lt;a href=&#34;https://ilonade.github.io/FairyRings/Game.html&#34;&gt;&lt;h4 style=&#34;text-align: center; color: blue;&#34;&gt;Fairy Rings&lt;/h4&gt;&lt;/a&gt;
-        &lt;img class=&#34;portfolio-half-screen-image&#34; style=&#34;max-width: 100%; max-height: 100%;&#34; src=&#34;http://example.org/img/Rings.png&#34;&gt;
+        &lt;img class=&#34;portfolio-half-screen-image&#34; style=&#34;max-width: 100%; max-height: 100%;&#34; src=&#34;https://ilonade.github.io/img/Rings.png&#34;&gt;
         &lt;p&gt;&lt;b&gt;Technologies: &lt;/b&gt;HTML5, CSS3, Bootstrap, JavaScript, jQuery, Jasmine&lt;/p&gt;
     &lt;/div&gt;
     &lt;div class=&#34;col-xs-6 text-align: center&#34;&gt;
         &lt;a href=&#34;https://ilonade.github.io/Pomodoro/&#34;&gt;&lt;h4 style=&#34;text-align: center; color: blue;&#34;&gt;Pomodoro&lt;/h4&gt;&lt;/a&gt;
-        &lt;img class=&#34;portfolio-half-screen-image&#34; style=&#34;max-width: 100%; max-height: 100%;&#34; src=&#34;http://example.org/img/Pomodoro.png&#34;&gt;
+        &lt;img class=&#34;portfolio-half-screen-image&#34; style=&#34;max-width: 100%; max-height: 100%;&#34; src=&#34;https://ilonade.github.io/img/Pomodoro.png&#34;&gt;
         &lt;br/&gt;
         &lt;br/&gt;
         &lt;br/&gt;
@@ -53,27 +53,27 @@
 &lt;div class=&#34;row&#34;&gt;
 &lt;center&gt;&lt;h3&gt;Yoga is key to flexability&lt;/h3&gt;&lt;/center&gt;
 &lt;br/&gt;
-&lt;img class=&#34;portfolio-half-screen-image&#34; src=&#34;http://example.org/img/Yoga.jpg&#34;&gt;
+&lt;img class=&#34;portfolio-half-screen-image&#34; src=&#34;https://ilonade.github.io/img/Yoga.jpg&#34;&gt;
 
 &lt;center&gt;&lt;h3&gt;Turn your past into valuable experiences&lt;/h3&gt;&lt;/center&gt;
 &lt;br/&gt;
-&lt;img class=&#34;portfolio-half-screen-image&#34; src=&#34;http://example.org/img/ZONE 67.jpg&#34;&gt;
+&lt;img class=&#34;portfolio-half-screen-image&#34; src=&#34;https://ilonade.github.io/img/ZONE 67.jpg&#34;&gt;
 
 &lt;center&gt;&lt;h3&gt;People don’t take trips – trips take people&lt;/h3&gt;&lt;/center&gt;
 &lt;br/&gt;
-&lt;img class=&#34;portfolio-half-screen-image&#34; src=&#34;http://example.org/img/Website.jpg&#34;&gt;
+&lt;img class=&#34;portfolio-half-screen-image&#34; src=&#34;https://ilonade.github.io/img/Website.jpg&#34;&gt;
 
 &lt;center&gt;&lt;h3&gt;Simple steps to a happier life&lt;/h3&gt;&lt;/center&gt;
 &lt;br/&gt;
-&lt;img class=&#34;portfolio-half-screen-image&#34; src=&#34;http://example.org/img/Journal.jpg&#34;&gt;
+&lt;img class=&#34;portfolio-half-screen-image&#34; src=&#34;https://ilonade.github.io/img/Journal.jpg&#34;&gt;
 
 &lt;center&gt;&lt;h3&gt;We are problem solvers&lt;/h3&gt;&lt;/center&gt;
 &lt;br/&gt;
-&lt;img class=&#34;portfolio-half-screen-image&#34; src=&#34;http://example.org/img/Digit.png&#34;&gt;
+&lt;img class=&#34;portfolio-half-screen-image&#34; src=&#34;https://ilonade.github.io/img/Digit.png&#34;&gt;
 
 &lt;center&gt;&lt;h3&gt;The Jewelry of your life&lt;/h3&gt;&lt;/center&gt;
 &lt;br/&gt;
-&lt;img class=&#34;portfolio-half-screen-image&#34; src=&#34;http://example.org/img/BrilliantShop.jpg&#34;&gt;
+&lt;img class=&#34;portfolio-half-screen-image&#34; src=&#34;https://ilonade.github.io/img/BrilliantShop.jpg&#34;&gt;
 &lt;/div&gt;
 
 &lt;div style=&#34;text-align: center; opacity: 0.6&#34;&gt;&lt;p&gt;ilonade (c) 2017&lt;/p&gt;&lt;/div&gt;
@@ -82,40 +82,40 @@
     
     <item>
       <title>hello world</title>
-      <link>http://example.org/post/hello-world-2/</link>
+      <link>https://ilonade.github.io/post/hello-world-2/</link>
       <pubDate>Sat, 25 Feb 2017 19:05:12 +0100</pubDate>
       
-      <guid>http://example.org/post/hello-world-2/</guid>
+      <guid>https://ilonade.github.io/post/hello-world-2/</guid>
       <description>&lt;p&gt;on 25th of February I created my first post&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>hello world</title>
-      <link>http://example.org/post/hello-world-3/</link>
+      <link>https://ilonade.github.io/post/hello-world-3/</link>
       <pubDate>Sat, 25 Feb 2017 19:05:12 +0100</pubDate>
       
-      <guid>http://example.org/post/hello-world-3/</guid>
+      <guid>https://ilonade.github.io/post/hello-world-3/</guid>
       <description>&lt;p&gt;on 25th of February I created my first post&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>hello world</title>
-      <link>http://example.org/post/hello-world-6/</link>
+      <link>https://ilonade.github.io/post/hello-world-6/</link>
       <pubDate>Sat, 25 Feb 2017 19:05:12 +0100</pubDate>
       
-      <guid>http://example.org/post/hello-world-6/</guid>
+      <guid>https://ilonade.github.io/post/hello-world-6/</guid>
       <description>&lt;p&gt;on 25th of February I created my first post&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>hello world</title>
-      <link>http://example.org/post/hello-world/</link>
+      <link>https://ilonade.github.io/post/hello-world/</link>
       <pubDate>Sat, 25 Feb 2017 19:05:12 +0100</pubDate>
       
-      <guid>http://example.org/post/hello-world/</guid>
+      <guid>https://ilonade.github.io/post/hello-world/</guid>
       <description>&lt;p&gt;on 25th of February I created my first post&lt;/p&gt;
 </description>
     </item>
