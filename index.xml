@@ -18,32 +18,29 @@
       <description>&lt;p&gt;&lt;center&gt;&lt;h1&gt;Portfolio&lt;/h1&gt;&lt;/center&gt;&lt;/p&gt;
 
 &lt;div class=&#34;row&#34;&gt;
-    &lt;div class=&#34;col-xs-6 text-align: center&#34;&gt;
+    &lt;div class=&#34;col-xs-12 col-md-6 text-align: center&#34;&gt;
         &lt;a href=&#34;https://ilonade.github.io/MyToDoList/&#34;&gt;&lt;h4 style=&#34;text-align: center; color: blue;&#34;&gt;ToDo List&lt;/h4&gt;&lt;/a&gt;
         &lt;img class=&#34;portfolio-half-screen-image&#34; style=&#34;max-width: 100%; max-height: 100%;&#34; src=&#34;https://ilonade.github.io/img/ToDo.png&#34;&gt;
         &lt;p&gt;&lt;b&gt;Technologies: &lt;/b&gt;HTML5, CSS3, Bootstrap, JavaScript, jQuery, Jasmine&lt;/p&gt;
     &lt;/div&gt;
-    &lt;div class=&#34;col-xs-6 text-align: center&#34;&gt;
+    &lt;div class=&#34;col-xs-12 col-md-6 text-align: center&#34;&gt;
         &lt;a href=&#34;https://github.com/ilonade/CampaignManager&#34;&gt;&lt;h4 style=&#34;text-align: center; color: blue;&#34;&gt;Campaign Manager&lt;/h4&gt;&lt;/a&gt;
         &lt;img class=&#34;portfolio-half-screen-image&#34; style=&#34;max-width: 100%; max-height: 100%;&#34; src=&#34;https://ilonade.github.io/img/CampaignManager.png&#34;&gt;
-        &lt;br/&gt; 
-        &lt;br/&gt;
+        
         &lt;p&gt;&lt;b&gt;Technologies: &lt;/b&gt;HTML5, CSS3, Bootstrap, ECMAScript 6, React, Redux, Jasmine&lt;/p&gt;
     &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;row&#34;&gt;
-    &lt;div class=&#34;col-xs-6 text-align: center&#34;&gt;
+    &lt;div class=&#34;col-xs-12 col-md-6 text-align: center&#34;&gt;
         &lt;a href=&#34;https://ilonade.github.io/FairyRings/Game.html&#34;&gt;&lt;h4 style=&#34;text-align: center; color: blue;&#34;&gt;Fairy Rings&lt;/h4&gt;&lt;/a&gt;
         &lt;img class=&#34;portfolio-half-screen-image&#34; style=&#34;max-width: 100%; max-height: 100%;&#34; src=&#34;https://ilonade.github.io/img/Rings.png&#34;&gt;
         &lt;p&gt;&lt;b&gt;Technologies: &lt;/b&gt;HTML5, CSS3, Bootstrap, JavaScript, jQuery, Jasmine&lt;/p&gt;
     &lt;/div&gt;
-    &lt;div class=&#34;col-xs-6 text-align: center&#34;&gt;
+    &lt;div class=&#34;col-xs-12 col-md-6 text-align: center&#34;&gt;
         &lt;a href=&#34;https://ilonade.github.io/Pomodoro/&#34;&gt;&lt;h4 style=&#34;text-align: center; color: blue;&#34;&gt;Pomodoro&lt;/h4&gt;&lt;/a&gt;
         &lt;img class=&#34;portfolio-half-screen-image&#34; style=&#34;max-width: 100%; max-height: 100%;&#34; src=&#34;https://ilonade.github.io/img/Pomodoro.png&#34;&gt;
-        &lt;br/&gt;
-        &lt;br/&gt;
-        &lt;br/&gt;
+        
         &lt;p&gt;&lt;b&gt;Technologies: &lt;/b&gt;HTML5, CSS3, JavaScript, jQuery, Jasmine&lt;/p&gt;
     &lt;/div&gt;
     
