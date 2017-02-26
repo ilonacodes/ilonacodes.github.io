@@ -34,9 +34,9 @@ date = "2017-02-26T15:35:55+01:00"
 		<p><b>Technologies: </b>HTML5, CSS3, Bootstrap, JavaScript, jQuery, Jasmine</p>
 	</div>
 	<div class="col-xs-6 text-align: center">
-		<br/>
 		<a href="https://ilonade.github.io/Pomodoro/"><h4 style="text-align: center; color: blue;">Pomodoro</h4></a>
 		<img class="portfolio-half-screen-image" style="max-width: 100%; max-height: 100%;" src="/img/Pomodoro.png">
+		<br/>
 		<br/>
 		<br/>
 		<p><b>Technologies: </b>HTML5, CSS3, JavaScript, jQuery, Jasmine</p>

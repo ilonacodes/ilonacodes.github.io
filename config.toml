@@ -31,6 +31,6 @@ theme = "hugo-geo-modified"
 	# name = "Blog"
 	# url = "blog"
 
-	[[params.navlinks]]
-	name = "Contact"
-	url = "contact"
+	# [[params.navlinks]]
+	# name = "Contact"
+	# url = "contact"
