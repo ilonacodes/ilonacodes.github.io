@@ -62,6 +62,10 @@ date = "2017-02-26T15:35:55+01:00"
 <br/>
 <img class="portfolio-half-screen-image" src="/img/INFOGRAPHICS.png">
 
+<center><h3>Do Beautiful Things</h3></center>
+<br/>
+<img class="portfolio-half-screen-image" src="/img/Mobile.png">
+
 <center><h3>We are problem solvers</h3></center>
 <br/>
 <img class="portfolio-half-screen-image" src="/img/Digit.png">
