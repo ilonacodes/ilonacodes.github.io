@@ -1,15 +1,20 @@
+
+
+
 {{ partial "head.html" . }}
 {{ partial "nav.html" . }}
 
-<article>
-	<header>
-		<h1>{{ .Title }}</a></h1>
-	</header>
-<ul>
-	{{ range .Data.Pages }}
-	<li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
-	{{ end }}
-</ul>
-</article>
+<header>
+	<h1>What I'm Thinking</h1>
+</header>
+
+<!-- {{ $paginator := .Paginate (where .Data.Pages.ByDate.Reverse "Section" "blog") }} -->
+{{ range .Data.Pages }}
+	{{ .Render "summary"}}
+{{ end }}
+
+<div class="text-center center-block">
+	{{ template "_internal/pagination.html" . }}
+</div>
 
 {{ partial "footer.html" . }}

@@ -27,9 +27,9 @@ theme = "hugo-geo-modified"
 	name = "Portfolio"
 	url = "portfolio"
 	
-	# [[params.navlinks]]
-	# name = "Blog"
-	# url = "blog"
+	[[params.navlinks]]
+	name = "Blog"
+	url = "blog"
 
 	# [[params.navlinks]]
 	# name = "Contact"
