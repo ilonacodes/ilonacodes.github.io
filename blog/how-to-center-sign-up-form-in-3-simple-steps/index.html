@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# website: http://ogp.me/ns/website#">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta name="description" content="A couple of days ago I started creating my new project. And I have faced the following problem: I wanted to build a page with Sign Up form, and this page doesn&#39;t have any other content.  In that case, it made a lot of sense to center the form, both horizontally and vertically. First of all, I have done some research, tried some solutions, and I want to present what worked for me.">
+    <meta property="og:title" content="How to Center Sign Up Form in 3 Simple Steps">
+    
+    <meta property="og:type" content="article">
+    <meta property="article:published_time" content="2017-03-12">
+    
+    <meta property="og:description" content="A couple of days ago I started creating my new project. And I have faced the following problem: I wanted to build a page with Sign Up form, and this page doesn&#39;t have any other content.  In that case, it made a lot of sense to center the form, both horizontally and vertically. First of all, I have done some research, tried some solutions, and I want to present what worked for me.">
+    <meta property="og:url" content="https://ilonade.github.io/blog/how-to-center-sign-up-form-in-3-simple-steps/">
+    <meta property="og:site_name" content="ILONA DEMIDENKO">
+    
+    <meta property="og:tags" content="css">
+    
+    <meta property="og:tags" content="html">
+    
+    <meta name="generator" content="Hugo 0.18.1" />
+    <title>How to Center Sign Up Form in 3 Simple Steps &middot; ILONA DEMIDENKO</title>
+    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/styles/default.min.css">
+    
+    <link rel="stylesheet" href="https://ilonade.github.io/css/style.css">
+    
+    <link href="" rel="alternate" type="application/rss+xml" title="ILONA DEMIDENKO" />
+    
+    
+    <link rel="icon" href="https://ilonade.github.io/favicon.ico" />
+    
+
+    
+    
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top visible-xs">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			
+				<a class="navbar-brand" href="https://ilonade.github.io/">ILONA DEMIDENKO</a>
+			
+		</div>
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav">
+				
+				
+					<li><a href="https://ilonade.github.io/">About</a></li>
+				
+					<li><a href="https://ilonade.github.io/portfolio">Portfolio</a></li>
+				
+					<li><a href="https://ilonade.github.io/blog">Blog</a></li>
+				
+			</ul>
+		</div>
+	</div>
+</nav>
+<div class="container-fluid">
+	<div class="row">
+		<div id="menu" class="hidden-xs col-sm-4 col-md-3">
+	<div id="menu-content">
+		
+			<h1 class="text-center"><a href="https://ilonade.github.io/">ILONA DEMIDENKO</a></h1>
+		
+		
+		
+			<small class="text-center center-block">Aspiring UI/UX Designer and Front-End Developer</small>
+		
+
+		
+			<small class="text-center center-block">Berlin, Germany</small>
+				
+		
+		
+			<img id="profile-pic" src="https://ilonade.github.io//img/ilonade.jpg" alt="My Picture" class="center-block">
+		
+		<div id="social" class="text-center">
+			
+			
+			
+			<a href="https://github.com/ilonade"><i class="fa fa-github fa-2x"></i></a>
+			<a href="mailto:demiluri@gmail.com"><i class="fa fa-envelope-o fa-2x"></i></a>
+		</div>
+		<div id="links" class="text-center">
+			
+			
+				<div><a href="https://ilonade.github.io/">About</a></div>
+			
+				<div><a href="https://ilonade.github.io/portfolio">Portfolio</a></div>
+			
+				<div><a href="https://ilonade.github.io/blog">Blog</a></div>
+			
+		</div>
+	</div>
+</div>
+
+		<div id="content" class="col-xs-12 col-sm-8 col-md-9">
+			<div class="row">
+				<div class="paper">
+					<div id="post" class="col-sm-offset-1 col-sm-10 col-md-10 col-lg-10">
+
+<main>
+	<header>
+		<h1>How to Center Sign Up Form in 3 Simple Steps</h1>
+	</header>
+
+	<article>
+		
+
+<p>Hi, everyone!</p>
+
+<p>I am very happy to welcome you on my blog. A couple of days ago I started creating my new project (that I will have presented to you in a couple of weeks). And I have faced the following problem: I wanted to build a page with Sign Up form, and this page doesn&rsquo;t have any other content.  In that case, it made a lot of sense to center the form, both horizontally and vertically. First of all, I have done some research, tried some solutions, and I want to present what worked for me.</p>
+
+<h2 id="step-1-set-up-correct-markup-structure">Step 1:  Set up correct markup structure</h2>
+
+<p>My form had both header and form elements, so I had to wrap it in a &ldquo;div&rdquo; container with a particular class so that I can style it:</p>
+
+<pre><code class="language-html">&lt;div class=&quot;sign-up-form&quot;&gt;
+    &lt;h1 class=&quot;sign-up-title&quot;&gt;Sign Up&lt;/h1&gt;
+    &lt;form&gt;
+        &lt;input type=&quot;email&quot; placeholder=&quot;Email&quot; name=&quot;email&quot;/&gt;
+        &lt;input type=&quot;password&quot; placeholder=&quot;Password&quot; name=&quot;password&quot;/&gt;
+        &lt;input type=&quot;submit&quot; value=&quot;Continue&quot;/&gt;
+    &lt;/form&gt;
+&lt;/div&gt;
+</code></pre>
+
+<p>This container (with class &ldquo;sign-up-form&rdquo;) is the one that we want to center. Therefore, we need also to wrap it in another container (with class &ldquo;center-container&rdquo;) inside which we are centering:</p>
+
+<pre><code class="language-html">&lt;div class=&quot;center-container&quot;&gt;
+    &lt;div class=&quot;sign-up-form&quot;&gt;
+            ...
+    &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+
+<h2 id="step-2-preparing-the-page-for-centering">Step 2: Preparing the page for centering</h2>
+
+<p>The page should occupy the full screen so that we can center the form. That means we need give the page correct size, margins, and paddings:</p>
+
+<pre><code class="language-css">html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+</code></pre>
+
+<p>To be able to center the form container we can add &ldquo;display: table&rdquo;:</p>
+
+<pre><code class="language-css">html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+</code></pre>
+
+<h2 id="step-3-center-the-form-container">Step 3: Center the form container</h2>
+
+<p>Now we are going to center the form vertically and horizontally:</p>
+
+<pre><code class="language-css">.center-container {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+</code></pre>
+
+<p>Also, we have to make the form container of the same size as its content. For that, we can use &ldquo;display: table&rdquo; and &ldquo;margin: 0 auto&rdquo;:</p>
+
+<pre><code class="language-css">.sign-up-form {
+    display: table;
+    margin: 0 auto;
+}
+</code></pre>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>That&rsquo;s it. Now we can center our sign up form.</p>
+
+<p>Thank you for reading.</p>
+
+	</article>
+</main>
+
+<div id="bottom-nav" class="text-center center-block">
+</div>
+
+
+
+						  </div>
+            </div>
+					</div>
+				</div>
+			</div>
+		</div>
+  </div>
+  
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'code-here', 'auto');
+    ga('send', 'pageview');
+    window.baseURL = "https:\/\/ilonade.github.io\/";
+  </script>
+  
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  
+  
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/highlight.min.js"></script>
+  
+  <script src="https://ilonade.github.io//js/App.js"></script>
+  
+</body>
+</html>

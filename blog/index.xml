@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on ILONA DEMIDENKO</title>
+    <link>https://ilonade.github.io/blog/index.xml</link>
+    <description>Recent content in Blogs on ILONA DEMIDENKO</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 12 Mar 2017 16:34:40 +0100</lastBuildDate>
+    <atom:link href="https://ilonade.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>How to Center Sign Up Form in 3 Simple Steps</title>
+      <link>https://ilonade.github.io/blog/how-to-center-sign-up-form-in-3-simple-steps/</link>
+      <pubDate>Sun, 12 Mar 2017 16:34:40 +0100</pubDate>
+      
+      <guid>https://ilonade.github.io/blog/how-to-center-sign-up-form-in-3-simple-steps/</guid>
+      <description>
+
+&lt;p&gt;Hi, everyone!&lt;/p&gt;
+
+&lt;p&gt;I am very happy to welcome you on my blog. A couple of days ago I started creating my new project (that I will have presented to you in a couple of weeks). And I have faced the following problem: I wanted to build a page with Sign Up form, and this page doesn&amp;rsquo;t have any other content.  In that case, it made a lot of sense to center the form, both horizontally and vertically. First of all, I have done some research, tried some solutions, and I want to present what worked for me.&lt;/p&gt;
+
+&lt;h2 id=&#34;step-1-set-up-correct-markup-structure&#34;&gt;Step 1:  Set up correct markup structure&lt;/h2&gt;
+
+&lt;p&gt;My form had both header and form elements, so I had to wrap it in a &amp;ldquo;div&amp;rdquo; container with a particular class so that I can style it:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;div class=&amp;quot;sign-up-form&amp;quot;&amp;gt;
+    &amp;lt;h1 class=&amp;quot;sign-up-title&amp;quot;&amp;gt;Sign Up&amp;lt;/h1&amp;gt;
+    &amp;lt;form&amp;gt;
+        &amp;lt;input type=&amp;quot;email&amp;quot; placeholder=&amp;quot;Email&amp;quot; name=&amp;quot;email&amp;quot;/&amp;gt;
+        &amp;lt;input type=&amp;quot;password&amp;quot; placeholder=&amp;quot;Password&amp;quot; name=&amp;quot;password&amp;quot;/&amp;gt;
+        &amp;lt;input type=&amp;quot;submit&amp;quot; value=&amp;quot;Continue&amp;quot;/&amp;gt;
+    &amp;lt;/form&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This container (with class &amp;ldquo;sign-up-form&amp;rdquo;) is the one that we want to center. Therefore, we need also to wrap it in another container (with class &amp;ldquo;center-container&amp;rdquo;) inside which we are centering:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;div class=&amp;quot;center-container&amp;quot;&amp;gt;
+    &amp;lt;div class=&amp;quot;sign-up-form&amp;quot;&amp;gt;
+            ...
+    &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;step-2-preparing-the-page-for-centering&#34;&gt;Step 2: Preparing the page for centering&lt;/h2&gt;
+
+&lt;p&gt;The page should occupy the full screen so that we can center the form. That means we need give the page correct size, margins, and paddings:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;To be able to center the form container we can add &amp;ldquo;display: table&amp;rdquo;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;step-3-center-the-form-container&#34;&gt;Step 3: Center the form container&lt;/h2&gt;
+
+&lt;p&gt;Now we are going to center the form vertically and horizontally:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;.center-container {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Also, we have to make the form container of the same size as its content. For that, we can use &amp;ldquo;display: table&amp;rdquo; and &amp;ldquo;margin: 0 auto&amp;rdquo;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;.sign-up-form {
+    display: table;
+    margin: 0 auto;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;That&amp;rsquo;s it. Now we can center our sign up form.&lt;/p&gt;
+
+&lt;p&gt;Thank you for reading.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
