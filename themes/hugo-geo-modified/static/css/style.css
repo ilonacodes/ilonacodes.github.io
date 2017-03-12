@@ -6571,12 +6571,6 @@ body {
 body {
   font-weight: 300;
 }
-@media (max-width: 767px) {
-  body {
-    margin-top: 50px;
-    padding-bottom: 50px;
-  }
-}
 a:hover,
 a:active {
   text-decoration: none;
@@ -6647,6 +6641,9 @@ a:active {
   max-width: 100%;
   max-height: 100%;
   margin-bottom: 3rem;
+}
+#content .portfolio-row {
+  padding: 0;
 }
 #content .row {
   padding: 5rem;
@@ -6725,4 +6722,13 @@ pre {
 }
 pre {
   background-color: white;
+}
+@media (max-width: 767px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  #content .row {
+    padding: 40px 10px;
+  }
 }
