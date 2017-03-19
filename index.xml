@@ -94,7 +94,7 @@ export const form = (state = {}, action) =&amp;gt; {
 
 &lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
 
-&lt;p&gt;Now the form state clears itself on every navigation. You can find the whole code change here: &lt;a href=&#34;https://github.com/ilonade/bookshelf/commit/f961552b2e0a35dcfd6a6b01e52b2b847cae7fa2&#34;&gt;https://github.com/ilonade/bookshelf/commit/f961552b2e0a35dcfd6a6b01e52b2b847cae7fa2&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Now the form state clears itself on every navigation. You can find the whole code change &lt;a href=&#34;https://github.com/ilonade/bookshelf/commit/f961552b2e0a35dcfd6a6b01e52b2b847cae7fa2&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Thank you for reading!&lt;/p&gt;
 </description>
