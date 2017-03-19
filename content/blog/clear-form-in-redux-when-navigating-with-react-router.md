@@ -89,6 +89,6 @@ export const form = (state = {}, action) => {
 
 ## Conclusion
 
-Now the form state clears itself on every navigation. You can find the whole code change here: https://github.com/ilonade/bookshelf/commit/f961552b2e0a35dcfd6a6b01e52b2b847cae7fa2
+Now the form state clears itself on every navigation. You can find the whole code change [here](https://github.com/ilonade/bookshelf/commit/f961552b2e0a35dcfd6a6b01e52b2b847cae7fa2).
 
 Thank you for reading!
