@@ -3,18 +3,26 @@
 <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# website: http://ogp.me/ns/website#">
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-    <meta name="description" content="">
-    <meta property="og:title" content="">
+    <meta name="description" content="I have worked on my project using a React-Redux architecture with React-Router for navigation. I have implemented forms for adding and editing resources. I have observed weird behavior...">
+    <meta property="og:title" content="Clear Form in Redux when Navigating with React-Router">
     
     <meta property="og:type" content="article">
-    <meta property="article:published_time" content="2017-02-26">
+    <meta property="article:published_time" content="2017-03-19">
     
-    <meta property="og:description" content="">
-    <meta property="og:url" content="https://ilonade.github.io/portfolio/">
+    <meta property="og:description" content="I have worked on my project using a React-Redux architecture with React-Router for navigation. I have implemented forms for adding and editing resources. I have observed weird behavior...">
+    <meta property="og:url" content="https://ilonade.github.io/blog/clear-form-in-redux-when-navigating-with-react-router/">
     <meta property="og:site_name" content="ILONA DEMIDENKO">
     
+    <meta property="og:tags" content="javascript">
+    
+    <meta property="og:tags" content="react">
+    
+    <meta property="og:tags" content="redux">
+    
+    <meta property="og:tags" content="react-router">
+    
     <meta name="generator" content="Hugo 0.19" />
-    <title> &middot; ILONA DEMIDENKO</title>
+    <title>Clear Form in Redux when Navigating with React-Router &middot; ILONA DEMIDENKO</title>
     
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
     
@@ -105,77 +113,92 @@
 
 <main>
 	<header>
-		<h1></h1>
+		<h1>Clear Form in Redux when Navigating with React-Router</h1>
 	</header>
 
 	<article>
-		<p><center><h1>Portfolio</h1></center></p>
+		
 
-<div class="row">
-    <div class="col-xs-12 col-md-6 text-align: center">
-        <a href="https://ilonade.github.io/MyToDoList/"><h4 style="text-align: center; color: blue;">ToDo List</h4></a>
-        <img class="portfolio-half-screen-image" style="max-width: 100%; max-height: 100%;" src="/img/ToDo.png">
-        <p><b>Technologies: </b>HTML5, CSS3, Bootstrap, JavaScript, jQuery, Jasmine</p>
-    </div>
-    <div class="col-xs-12 col-md-6 text-align: center">
-        <a href="https://github.com/ilonade/CampaignManager"><h4 style="text-align: center; color: blue;">Campaign Manager</h4></a>
-        <img class="portfolio-half-screen-image" style="max-width: 100%; max-height: 100%;" src="/img/CampaignManager.png">
-        
-        <p><b>Technologies: </b>HTML5, CSS3, Bootstrap, ECMAScript 6, React, Redux, Jasmine</p>
-    </div>
-</div>
+<p>Hi there!</p>
 
-<div class="row">
-    <div class="col-xs-12 col-md-6 text-align: center">
-        <a href="https://ilonade.github.io/FairyRings/Game.html"><h4 style="text-align: center; color: blue;">Fairy Rings</h4></a>
-        <img class="portfolio-half-screen-image" style="max-width: 100%; max-height: 100%;" src="/img/Rings.png">
-        <p><b>Technologies: </b>HTML5, CSS3, Bootstrap, JavaScript, jQuery, Jasmine</p>
-    </div>
-    <div class="col-xs-12 col-md-6 text-align: center">
-        <a href="https://ilonade.github.io/Pomodoro/"><h4 style="text-align: center; color: blue;">Pomodoro</h4></a>
-        <img class="portfolio-half-screen-image" style="max-width: 100%; max-height: 100%;" src="/img/Pomodoro.png">
-        
-        <p><b>Technologies: </b>HTML5, CSS3, JavaScript, jQuery, Jasmine</p>
-    </div>
-    
+<p>I have worked on my project using a React-Redux architecture with React-Router for navigation. I have implemented forms for adding and editing resources. I have observed weird behavior:</p>
 
-<p></div></p>
+<ol>
+<li>Add new resource with a description: &ldquo;Hello World!&rdquo;</li>
+<li>Start editing another resource with a description: &ldquo;My new comment&hellip;&rdquo;</li>
+<li>Input for description contains a previous value: &ldquo;Hello World!&rdquo;</li>
+</ol>
 
-<div class="row">
-<center><h3>Yoga is key to flexability</h3></center>
-<br/>
-<img class="portfolio-half-screen-image" src="/img/Yoga.jpg">
+<p>I was expecting to see the current description of the resource: &ldquo;My new comment&hellip;&rdquo;, not the value from the previous form.</p>
 
-<center><h3>Turn your past into valuable experiences</h3></center>
-<br/>
-<img class="portfolio-half-screen-image" src="/img/ZONE 67.jpg">
+<p>In my case, I was handling the state of the current form by using the same reducer:</p>
 
-<center><h3>People don’t take trips – trips take people</h3></center>
-<br/>
-<img class="portfolio-half-screen-image" src="/img/Website.jpg">
+<pre><code class="language-javascript">// Change form action
+export const changeForm = (name, value) =&gt; {
+  let change = {};
+  change[name] = value;
+  return {
+    type: &quot;FORM_CHANGE&quot;,
+    change
+  }
+};
 
-<center><h3>Simple steps to a happier life</h3></center>
-<br/>
-<img class="portfolio-half-screen-image" src="/img/Journal.jpg">
+// form reducer
+export const form = (state = {}, action) =&gt; {
+  switch (action.type) {
+    case &quot;FORM_CHANGE&quot;:
+      return {
+          ...state,
+          ...action.change
+      }
 
-<center><h3>Infographic Elements</h3></center>
-<br/>
-<img class="portfolio-half-screen-image" src="/img/INFOGRAPHICS.png">
+    default:
+        return state;
+  }
+};
+</code></pre>
 
-<center><h3>Do Beautiful Things</h3></center>
-<br/>
-<img class="portfolio-half-screen-image" src="/img/Mobile.png">
+<p>I would like to share the solution that worked for me, my dear reader.</p>
 
-<center><h3>We are problem solvers</h3></center>
-<br/>
-<img class="portfolio-half-screen-image" src="/img/Digit.png">
+<h2 id="clear-state-of-the-form-on-every-navigation">Clear State of the Form on Every Navigation</h2>
 
-<center><h3>The Jewelry of your life</h3></center>
-<br/>
-<img class="portfolio-half-screen-image" src="/img/BrilliantShop.jpg">
-</div>
+<p>First of all,  we need to create a new action &ldquo;ROUTER.CHANGE&rdquo; in the routes for handling router change:</p>
 
-<div style="text-align: center; opacity: 0.6"><p>ilonade (c) 2017</p></div>
+<pre><code class="language-javascript">export const ROUTER = {
+  CHANGE: &quot;ROUTER_CHANGE&quot;
+};
+
+export const changeRouter = (change) =&gt; ({
+  type: ROUTER.CHANGE,
+  change
+});
+</code></pre>
+
+<p>Secondly, we should dispatch this action whenever the user navigates somewhere:</p>
+
+<pre><code class="language-javascript">hashHistory.listen(change =&gt; store.dispatch(changeRouter(change)));
+</code></pre>
+
+<p>The next step is to add a new case &ldquo;ROUTER.CHANGE&rdquo; in the form reducer and clean up the current state, by returning an empty object:</p>
+
+<pre><code class="language-javascript">// form reducer
+export const form = (state = {}, action) =&gt; {
+  switch (action.type) {
+    case &quot;FORM_CHANGE&quot;: ...
+
+    case ROUTER.CHANGE:
+       return {};
+
+    default: ...
+  }
+};
+</code></pre>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>Now the form state clears itself on every navigation. You can find the whole code change here: <a href="https://github.com/ilonade/bookshelf/commit/f961552b2e0a35dcfd6a6b01e52b2b847cae7fa2">https://github.com/ilonade/bookshelf/commit/f961552b2e0a35dcfd6a6b01e52b2b847cae7fa2</a></p>
+
+<p>Thank you for reading!</p>
 
 	</article>
 </main>
