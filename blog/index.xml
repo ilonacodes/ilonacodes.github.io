@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogs on Ilona Who Codes</title>
-    <link>https://ilonade.github.io/blog/index.xml</link>
+    <link>https://ilonacodes.github.io/blog/index.xml</link>
     <description>Recent content in Blogs on Ilona Who Codes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 19 Mar 2017 19:25:05 +0100</lastBuildDate>
-    <atom:link href="https://ilonade.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ilonacodes.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Clear Form in Redux when Navigating with React-Router</title>
-      <link>https://ilonade.github.io/blog/clear-form-in-redux-when-navigating-with-react-router/</link>
+      <link>https://ilonacodes.github.io/blog/clear-form-in-redux-when-navigating-with-react-router/</link>
       <pubDate>Sun, 19 Mar 2017 19:25:05 +0100</pubDate>
       
-      <guid>https://ilonade.github.io/blog/clear-form-in-redux-when-navigating-with-react-router/</guid>
+      <guid>https://ilonacodes.github.io/blog/clear-form-in-redux-when-navigating-with-react-router/</guid>
       <description>
 
 &lt;p&gt;Hi there!&lt;/p&gt;
@@ -102,10 +102,10 @@ export const form = (state = {}, action) =&amp;gt; {
     
     <item>
       <title>How to Center Sign Up Form in 3 Simple Steps</title>
-      <link>https://ilonade.github.io/blog/how-to-center-sign-up-form-in-3-simple-steps/</link>
+      <link>https://ilonacodes.github.io/blog/how-to-center-sign-up-form-in-3-simple-steps/</link>
       <pubDate>Sun, 12 Mar 2017 16:34:40 +0100</pubDate>
       
-      <guid>https://ilonade.github.io/blog/how-to-center-sign-up-form-in-3-simple-steps/</guid>
+      <guid>https://ilonacodes.github.io/blog/how-to-center-sign-up-form-in-3-simple-steps/</guid>
       <description>
 
 &lt;p&gt;Hi, everyone!&lt;/p&gt;

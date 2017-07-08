@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ilona Who Codes</title>
-    <link>https://ilonade.github.io/index.xml</link>
+    <link>https://ilonacodes.github.io/index.xml</link>
     <description>Recent content on Ilona Who Codes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 19 Mar 2017 19:25:05 +0100</lastBuildDate>
-    <atom:link href="https://ilonade.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ilonacodes.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Clear Form in Redux when Navigating with React-Router</title>
-      <link>https://ilonade.github.io/blog/clear-form-in-redux-when-navigating-with-react-router/</link>
+      <link>https://ilonacodes.github.io/blog/clear-form-in-redux-when-navigating-with-react-router/</link>
       <pubDate>Sun, 19 Mar 2017 19:25:05 +0100</pubDate>
       
-      <guid>https://ilonade.github.io/blog/clear-form-in-redux-when-navigating-with-react-router/</guid>
+      <guid>https://ilonacodes.github.io/blog/clear-form-in-redux-when-navigating-with-react-router/</guid>
       <description>
 
 &lt;p&gt;Hi there!&lt;/p&gt;
@@ -102,10 +102,10 @@ export const form = (state = {}, action) =&amp;gt; {
     
     <item>
       <title>How to Center Sign Up Form in 3 Simple Steps</title>
-      <link>https://ilonade.github.io/blog/how-to-center-sign-up-form-in-3-simple-steps/</link>
+      <link>https://ilonacodes.github.io/blog/how-to-center-sign-up-form-in-3-simple-steps/</link>
       <pubDate>Sun, 12 Mar 2017 16:34:40 +0100</pubDate>
       
-      <guid>https://ilonade.github.io/blog/how-to-center-sign-up-form-in-3-simple-steps/</guid>
+      <guid>https://ilonacodes.github.io/blog/how-to-center-sign-up-form-in-3-simple-steps/</guid>
       <description>
 
 &lt;p&gt;Hi, everyone!&lt;/p&gt;
@@ -187,21 +187,21 @@ export const form = (state = {}, action) =&amp;gt; {
     
     <item>
       <title></title>
-      <link>https://ilonade.github.io/portfolio/</link>
+      <link>https://ilonacodes.github.io/portfolio/</link>
       <pubDate>Sun, 26 Feb 2017 15:35:55 +0100</pubDate>
       
-      <guid>https://ilonade.github.io/portfolio/</guid>
+      <guid>https://ilonacodes.github.io/portfolio/</guid>
       <description>&lt;p&gt;&lt;center&gt;&lt;h1&gt;Portfolio&lt;/h1&gt;&lt;/center&gt;&lt;/p&gt;
 
 &lt;div class=&#34;row&#34;&gt;
     &lt;div class=&#34;col-xs-12 col-md-6 text-align: center&#34;&gt;
         &lt;a href=&#34;https://ilonade.github.io/MyToDoList/&#34;&gt;&lt;h4 style=&#34;text-align: center; color: blue;&#34;&gt;ToDo List&lt;/h4&gt;&lt;/a&gt;
-        &lt;img class=&#34;portfolio-half-screen-image&#34; style=&#34;max-width: 100%; max-height: 100%;&#34; src=&#34;https://ilonade.github.io/img/ToDo.png&#34;&gt;
+        &lt;img class=&#34;portfolio-half-screen-image&#34; style=&#34;max-width: 100%; max-height: 100%;&#34; src=&#34;https://ilonacodes.github.io/img/ToDo.png&#34;&gt;
         &lt;p&gt;&lt;b&gt;Technologies: &lt;/b&gt;HTML5, CSS3, Bootstrap, JavaScript, jQuery, Jasmine&lt;/p&gt;
     &lt;/div&gt;
     &lt;div class=&#34;col-xs-12 col-md-6 text-align: center&#34;&gt;
         &lt;a href=&#34;https://github.com/ilonade/CampaignManager&#34;&gt;&lt;h4 style=&#34;text-align: center; color: blue;&#34;&gt;Campaign Manager&lt;/h4&gt;&lt;/a&gt;
-        &lt;img class=&#34;portfolio-half-screen-image&#34; style=&#34;max-width: 100%; max-height: 100%;&#34; src=&#34;https://ilonade.github.io/img/CampaignManager.png&#34;&gt;
+        &lt;img class=&#34;portfolio-half-screen-image&#34; style=&#34;max-width: 100%; max-height: 100%;&#34; src=&#34;https://ilonacodes.github.io/img/CampaignManager.png&#34;&gt;
         
         &lt;p&gt;&lt;b&gt;Technologies: &lt;/b&gt;HTML5, CSS3, Bootstrap, ECMAScript 6, React, Redux, Jasmine&lt;/p&gt;
     &lt;/div&gt;
@@ -210,12 +210,12 @@ export const form = (state = {}, action) =&amp;gt; {
 &lt;div class=&#34;row&#34;&gt;
     &lt;div class=&#34;col-xs-12 col-md-6 text-align: center&#34;&gt;
         &lt;a href=&#34;https://ilonade.github.io/FairyRings/Game.html&#34;&gt;&lt;h4 style=&#34;text-align: center; color: blue;&#34;&gt;Fairy Rings&lt;/h4&gt;&lt;/a&gt;
-        &lt;img class=&#34;portfolio-half-screen-image&#34; style=&#34;max-width: 100%; max-height: 100%;&#34; src=&#34;https://ilonade.github.io/img/Rings.png&#34;&gt;
+        &lt;img class=&#34;portfolio-half-screen-image&#34; style=&#34;max-width: 100%; max-height: 100%;&#34; src=&#34;https://ilonacodes.github.io/img/Rings.png&#34;&gt;
         &lt;p&gt;&lt;b&gt;Technologies: &lt;/b&gt;HTML5, CSS3, Bootstrap, JavaScript, jQuery, Jasmine&lt;/p&gt;
     &lt;/div&gt;
     &lt;div class=&#34;col-xs-12 col-md-6 text-align: center&#34;&gt;
         &lt;a href=&#34;https://ilonade.github.io/Pomodoro/&#34;&gt;&lt;h4 style=&#34;text-align: center; color: blue;&#34;&gt;Pomodoro&lt;/h4&gt;&lt;/a&gt;
-        &lt;img class=&#34;portfolio-half-screen-image&#34; style=&#34;max-width: 100%; max-height: 100%;&#34; src=&#34;https://ilonade.github.io/img/Pomodoro.png&#34;&gt;
+        &lt;img class=&#34;portfolio-half-screen-image&#34; style=&#34;max-width: 100%; max-height: 100%;&#34; src=&#34;https://ilonacodes.github.io/img/Pomodoro.png&#34;&gt;
         
         &lt;p&gt;&lt;b&gt;Technologies: &lt;/b&gt;HTML5, CSS3, JavaScript, jQuery, Jasmine&lt;/p&gt;
     &lt;/div&gt;
@@ -226,35 +226,35 @@ export const form = (state = {}, action) =&amp;gt; {
 &lt;div class=&#34;row&#34;&gt;
 &lt;center&gt;&lt;h3&gt;Yoga is key to flexability&lt;/h3&gt;&lt;/center&gt;
 &lt;br/&gt;
-&lt;img class=&#34;portfolio-half-screen-image&#34; src=&#34;https://ilonade.github.io/img/Yoga.jpg&#34;&gt;
+&lt;img class=&#34;portfolio-half-screen-image&#34; src=&#34;https://ilonacodes.github.io/img/Yoga.jpg&#34;&gt;
 
 &lt;center&gt;&lt;h3&gt;Turn your past into valuable experiences&lt;/h3&gt;&lt;/center&gt;
 &lt;br/&gt;
-&lt;img class=&#34;portfolio-half-screen-image&#34; src=&#34;https://ilonade.github.io/img/ZONE 67.jpg&#34;&gt;
+&lt;img class=&#34;portfolio-half-screen-image&#34; src=&#34;https://ilonacodes.github.io/img/ZONE 67.jpg&#34;&gt;
 
 &lt;center&gt;&lt;h3&gt;People don’t take trips – trips take people&lt;/h3&gt;&lt;/center&gt;
 &lt;br/&gt;
-&lt;img class=&#34;portfolio-half-screen-image&#34; src=&#34;https://ilonade.github.io/img/Website.jpg&#34;&gt;
+&lt;img class=&#34;portfolio-half-screen-image&#34; src=&#34;https://ilonacodes.github.io/img/Website.jpg&#34;&gt;
 
 &lt;center&gt;&lt;h3&gt;Simple steps to a happier life&lt;/h3&gt;&lt;/center&gt;
 &lt;br/&gt;
-&lt;img class=&#34;portfolio-half-screen-image&#34; src=&#34;https://ilonade.github.io/img/Journal.jpg&#34;&gt;
+&lt;img class=&#34;portfolio-half-screen-image&#34; src=&#34;https://ilonacodes.github.io/img/Journal.jpg&#34;&gt;
 
 &lt;center&gt;&lt;h3&gt;Infographic Elements&lt;/h3&gt;&lt;/center&gt;
 &lt;br/&gt;
-&lt;img class=&#34;portfolio-half-screen-image&#34; src=&#34;https://ilonade.github.io/img/INFOGRAPHICS.png&#34;&gt;
+&lt;img class=&#34;portfolio-half-screen-image&#34; src=&#34;https://ilonacodes.github.io/img/INFOGRAPHICS.png&#34;&gt;
 
 &lt;center&gt;&lt;h3&gt;Do Beautiful Things&lt;/h3&gt;&lt;/center&gt;
 &lt;br/&gt;
-&lt;img class=&#34;portfolio-half-screen-image&#34; src=&#34;https://ilonade.github.io/img/Mobile.png&#34;&gt;
+&lt;img class=&#34;portfolio-half-screen-image&#34; src=&#34;https://ilonacodes.github.io/img/Mobile.png&#34;&gt;
 
 &lt;center&gt;&lt;h3&gt;We are problem solvers&lt;/h3&gt;&lt;/center&gt;
 &lt;br/&gt;
-&lt;img class=&#34;portfolio-half-screen-image&#34; src=&#34;https://ilonade.github.io/img/Digit.png&#34;&gt;
+&lt;img class=&#34;portfolio-half-screen-image&#34; src=&#34;https://ilonacodes.github.io/img/Digit.png&#34;&gt;
 
 &lt;center&gt;&lt;h3&gt;The Jewelry of your life&lt;/h3&gt;&lt;/center&gt;
 &lt;br/&gt;
-&lt;img class=&#34;portfolio-half-screen-image&#34; src=&#34;https://ilonade.github.io/img/BrilliantShop.jpg&#34;&gt;
+&lt;img class=&#34;portfolio-half-screen-image&#34; src=&#34;https://ilonacodes.github.io/img/BrilliantShop.jpg&#34;&gt;
 &lt;/div&gt;
 
 &lt;div style=&#34;text-align: center; opacity: 0.6&#34;&gt;&lt;p&gt;ilonade (c) 2017&lt;/p&gt;&lt;/div&gt;
