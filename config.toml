@@ -1,6 +1,6 @@
 languageCode = "en-us"
 title = "My New Hugo Site"
-baseurl = "https://ilonade.github.io/"
+baseurl = "https://ilonacodes.github.io/"
 theme = "hugo-geo-modified"
 
 [params]
@@ -10,10 +10,10 @@ theme = "hugo-geo-modified"
 
 	analytics = "code-here"
 
-	github = "https://github.com/ilonade"
+	github = "https://github.com/ilonacodes"
 	email = "demiluri@gmail.com"
 
-	profilepic = "img/ilonade.jpg"
+	profilepic = "img/IlonaCodes.jpg"
 
 	title = "Ilona Who Codes"
 	subtitle = "Aspiring UI/UX Designer and Front-End Developer"
