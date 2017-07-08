@@ -7,26 +7,26 @@ theme = "hugo-geo-modified"
 	showglobe = false
 
 	favicon = "favicon.ico"
-	
+
 	analytics = "code-here"
 
 	github = "https://github.com/ilonade"
 	email = "demiluri@gmail.com"
-	
+
 	profilepic = "img/ilonade.jpg"
-	
-	title = "ILONA DEMIDENKO"
+
+	title = "Ilona Who Codes"
 	subtitle = "Aspiring UI/UX Designer and Front-End Developer"
 	location = "Berlin, Germany"
-	
+
 	[[params.navlinks]]
 	name = "About"
 	url = ""
-	
+
 	[[params.navlinks]]
 	name = "Portfolio"
 	url = "portfolio"
-	
+
 	[[params.navlinks]]
 	name = "Blog"
 	url = "blog"
