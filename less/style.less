@@ -120,6 +120,22 @@ header > p {
 	}
 }
 
+.panel-body {
+	text-align: justify;
+}
+
+.blog-intro {
+	text-align: center;
+	font-weight: bold;
+}
+
+.panel-header h3 {
+	a {
+		color: #59A5D1;
+	}
+}
+
+
 #content {
 	overflow-y: auto;
 	background-color: #e6e6e6;
@@ -199,7 +215,7 @@ pre {
 }
 
 .panel-header a:hover {
-	color: lighten(@headings-color, 25%);
+	color: @link-hover-color;
 }
 
 .label {
@@ -250,7 +266,7 @@ pre {
 @media (max-width: @screen-xxs-max) {
 	h1, .h1 { font-size: @font-size-h1 * 0.7; }
 	h2, .h2 { font-size: @font-size-h2 * 0.5; }
-	h3, .h3 { font-size: @font-size-h3 * 0.5; }
+	h3, .h3 { font-size: @font-size-h3 * 0.7; }
 	h4, .h4 { font-size: @font-size-h4 * 0.5; }
 	h5, .h5 { font-size: @font-size-h5 * 0.5; }
 	h6, .h6 { font-size: @font-size-h6 * 0.5; }

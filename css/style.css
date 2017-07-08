@@ -6661,6 +6661,16 @@ header > p {
 .icon-links a:hover {
   color: #e60000;
 }
+.panel-body {
+  text-align: justify;
+}
+.blog-intro {
+  text-align: center;
+  font-weight: bold;
+}
+.panel-header h3 a {
+  color: #59A5D1;
+}
 #content {
   overflow-y: auto;
   background-color: #e6e6e6;
@@ -6733,7 +6743,7 @@ pre {
   text-decoration: none;
 }
 .panel-header a:hover {
-  color: #404040;
+  color: #e60000;
 }
 .label {
   font-family: 'helvetica', sans-serif;
@@ -6777,7 +6787,7 @@ pre {
   }
   h3,
   .h3 {
-    font-size: 19px;
+    font-size: 26.6px;
   }
   h4,
   .h4 {
