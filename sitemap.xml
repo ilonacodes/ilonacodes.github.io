@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://ilonacodes.github.io/blog/starting-with-REST-API/</loc>
+    <lastmod>2017-07-17T21:45:05+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ilonacodes.github.io/blog/css-sticky-footer/</loc>
     <lastmod>2017-07-08T20:25:05+01:00</lastmod>
   </url>
@@ -22,8 +27,26 @@
   </url>
   
   <url>
+    <loc>https://ilonacodes.github.io/tags/api/</loc>
+    <lastmod>2017-07-17T21:45:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ilonacodes.github.io/tags/backend/</loc>
+    <lastmod>2017-07-17T21:45:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ilonacodes.github.io/blog/</loc>
-    <lastmod>2017-07-08T20:25:05+01:00</lastmod>
+    <lastmod>2017-07-17T21:45:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ilonacodes.github.io/tags/client/</loc>
+    <lastmod>2017-07-17T21:45:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -47,7 +70,7 @@
   
   <url>
     <loc>https://ilonacodes.github.io/</loc>
-    <lastmod>2017-07-08T20:25:05+01:00</lastmod>
+    <lastmod>2017-07-17T21:45:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -78,6 +101,30 @@
   <url>
     <loc>https://ilonacodes.github.io/tags/redux/</loc>
     <lastmod>2017-03-19T19:25:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ilonacodes.github.io/tags/rest/</loc>
+    <lastmod>2017-07-17T21:45:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ilonacodes.github.io/tags/ruby/</loc>
+    <lastmod>2017-07-17T21:45:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ilonacodes.github.io/tags/server/</loc>
+    <lastmod>2017-07-17T21:45:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ilonacodes.github.io/tags/sinatra/</loc>
+    <lastmod>2017-07-17T21:45:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
