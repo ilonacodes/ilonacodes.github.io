@@ -11,38 +11,38 @@ if (!window.location.origin) {
 }
 
 $(document).ready(function() {
-	
+
 	// Change all href links that go out of the origin to open in a new window
 	// Relative links that start with /, #, or . (ie /post/my-post or ../post/my-post or #test)
 	// should be untouched
 	$("a").each(function(i, el) {
 		var href = $(el).attr("href");
-		
+
 		if (typeof href === "string" && href.indexOf(window.location.origin) === -1 && "/.#".indexOf(href[0]) === -1) {
-			$(el).attr("target", "_blank");
+			$(el).attr("target");
 		}
 	});
-	
+
 	// Wrap pygments tables in table-responsive classes
 	// Credit to GitHub user dazinator
 	// https://github.com/alexurquhart/hugo-geo/issues/17
 	$( ".highlighttable" ).wrap("<div class='table-responsive'></div>");
-	
+
 	// Highlight all on load if highlighting
 	if (typeof hljs !== "undefined") {
 		hljs.initHighlightingOnLoad();
 	}
-	
+
 	// If d3 is not loaded do not show the globe
 	if (typeof d3 === "undefined") {
 		return;
 	}
-	
+
 	// Peace out if in a mobile browser
 	if ($.browser.mobile) {
-		return;	
+		return;
 	}
-	
+
 	// If you are hosting your site on say GitHub pages at the URL
 	// "person.github.com/repo-name", loading the world.json file will
 	// fail unless the script knows the base url it's calling from
@@ -52,50 +52,50 @@ $(document).ready(function() {
 	if (typeof window.baseURL === "undefined") {
 		window.baseURL = window.location.origin;
 	}
-	
+
 	// Load world json file
 	d3.json(window.baseURL + "/js/world.json", function(error, world) {
 		if (error) {
 			return;
 		}
-		
+
 		var Start = Date.now();
 		var width = $('#menu').outerWidth(true);
 	   	var height = $('#menu').outerHeight(true);
 		var rotate = [10];
 	    var velocity = [0.001];
-	
+
 		var projection = d3.geo.orthographic()
 			.scale(1000)
 			.translate([250, height])
 			.rotate([-80])
 			.clipAngle(90)
 			.precision(0.1);
-	
+
 		var path = d3.geo.path()
 			.projection(projection);
-	
+
 		var graticule = d3.geo.graticule();
-	
+
 		var svg = d3.select("#menu").insert("svg", "#menu-content")
 			.attr("id", "menu-globe")
 			.attr("width", width)
 			.attr("height", height);
-	
+
 		svg.append("defs").append("path")
 			.datum({type: "Sphere"})
 			.attr("id", "sphere")
 			.attr("d", path);
-	
+
 		svg.append("use")
 			.attr("class", "stroke")
 			.attr("xlink:href", "#sphere");
-	
+
 		svg.append("path")
 			.datum(graticule)
 			.attr("class", "graticule")
 			.attr("d", path);
-		
+
 		svg.insert("path", ".graticule")
 			.datum(topojson.feature(world, world.objects.land))
 			.attr("class", "land")
@@ -105,7 +105,7 @@ $(document).ready(function() {
 			.datum(topojson.mesh(world, world.objects.countries, function(a, b) { return a !== b; }))
 			.attr("class", "boundary")
 			.attr("d", path);
-		
+
 		var feature = svg.selectAll("path");
 
 		d3.timer(function() {
@@ -113,11 +113,11 @@ $(document).ready(function() {
 			projection.rotate([rotate[0] + velocity[0] * dt]);
 			feature.attr("d", path);
 		});
-		
+
 		function updateWindow(){
 			var w = $('#menu').outerWidth(true);
 			var h = $('#menu').outerHeight(true);
-	
+
 			svg.attr("width", w).attr("height", h);
 		}
 		window.onresize = updateWindow;
