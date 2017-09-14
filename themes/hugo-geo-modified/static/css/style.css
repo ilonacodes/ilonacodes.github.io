@@ -6570,6 +6570,7 @@ body {
 }
 body {
   font-weight: 300;
+  padding-top: 10rem;
 }
 a:hover,
 a:active {
@@ -6637,11 +6638,16 @@ header > p {
 	MAIN POST CONTENT
 */
 .blog-link {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
   text-align: center;
-  padding: 2rem 0;
+  padding: 3rem 0;
 }
 .blog-link a {
   font-size: 3rem;
+  margin: 0 5rem;
 }
 .profile-photo {
   margin: 0 auto;
@@ -6773,10 +6779,13 @@ pre {
 @media (max-width: 767px) {
   body {
     margin: 0;
-    padding: 0;
+    padding-top: 16rem;
+  }
+  .blog-link {
+    padding: 3rem;
   }
 }
-@media (max-width: 420px) {
+@media (max-width: 320px) {
   h1,
   .h1 {
     font-size: 39.9px;
@@ -6803,6 +6812,9 @@ pre {
   }
   .icon-links {
     font-size: 44.8px;
+  }
+  .blog-link {
+    padding: 2rem;
   }
   header > p {
     padding: 0 1rem;

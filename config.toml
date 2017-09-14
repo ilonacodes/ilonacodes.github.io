@@ -20,15 +20,15 @@ theme = "hugo-geo-modified"
 	location = "Berlin, Germany"
 
 	[[params.navlinks]]
-	name = "About"
-	url = ""
+	name = "about me"
+	url = "/"
 
 	[[params.navlinks]]
-	name = "Portfolio"
-	url = "portfolio"
+	name = "ilonacodes"
+	url = "/"
 
 	[[params.navlinks]]
-	name = "Blog"
+	name = "read my blog"
 	url = "blog"
 
 	# [[params.navlinks]]

@@ -16,6 +16,7 @@ html, body {
 
 body {
   font-weight: 300;
+	padding-top: 10rem;
 }
 
 a:hover, a:active {
@@ -89,11 +90,18 @@ header > p {
 */
 
 .blog-link {
+
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
 	text-align: center;
-	padding: 2rem 0;
+	padding: 3rem 0;
 
 	a {
 		font-size: 3rem;
+		margin: 0 5rem;
+
 	}
 }
 
@@ -259,7 +267,11 @@ pre {
 @media (max-width: @screen-xs-max) {
 	body {
 		margin: 0;
-		padding: 0;
+		padding-top: 16rem;
+	}
+
+	.blog-link {
+		padding: 3rem;
 	}
 }
 
@@ -273,6 +285,10 @@ pre {
 
 	.icon-links {
 		font-size: @icon-link-font-size * 0.8;
+	}
+
+	.blog-link {
+		padding: 2rem;
 	}
 
 	header > p {
