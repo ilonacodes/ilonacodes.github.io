@@ -6572,6 +6572,9 @@ body {
   font-weight: 300;
   padding-top: 10rem;
 }
+main article {
+  text-align: justify;
+}
 a:hover,
 a:active {
   text-decoration: none;
@@ -6693,6 +6696,7 @@ header > p {
   display: flex;
   min-height: 100%;
   background-color: white;
+  overflow-x: hidden;
 }
 .vertical-align {
   position: relative;
@@ -6779,13 +6783,14 @@ pre {
 @media (max-width: 767px) {
   body {
     margin: 0;
-    padding-top: 16rem;
+    padding-top: 8rem;
   }
-  .blog-link {
-    padding: 3rem;
+  .blog-link a {
+    font-size: 2rem;
+    margin: 0 1rem;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 420px) {
   h1,
   .h1 {
     font-size: 39.9px;
@@ -6810,13 +6815,28 @@ pre {
   .h6 {
     font-size: 9.5px;
   }
+  body {
+    padding-top: 6rem;
+  }
   .icon-links {
     font-size: 44.8px;
   }
+  main {
+    width: 100%;
+  }
   .blog-link {
-    padding: 2rem;
+    padding-top: 1.5rem;
+  }
+  .blog-link a {
+    font-size: 1.8rem;
+    margin: 0 0.5rem;
   }
   header > p {
     padding: 0 1rem;
+  }
+}
+@media (max-width: 325px) {
+  main {
+    width: 92%;
   }
 }

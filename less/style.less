@@ -19,6 +19,10 @@ body {
 	padding-top: 10rem;
 }
 
+main article {
+	text-align: justify;
+}
+
 a:hover, a:active {
   text-decoration: none;
 	color: @link-hover-color;
@@ -101,7 +105,6 @@ header > p {
 	a {
 		font-size: 3rem;
 		margin: 0 5rem;
-
 	}
 }
 
@@ -164,6 +167,7 @@ header > p {
 	display: flex;
 	min-height: 100%;
 	background-color: white;
+	overflow-x: hidden;
 }
 
 .vertical-align {
@@ -258,20 +262,18 @@ pre {
 	background-color: white;
 }
 
-@media (max-height: @height-break-point) {
-	body {
-
-	}
-}
-
 @media (max-width: @screen-xs-max) {
 	body {
 		margin: 0;
-		padding-top: 16rem;
+		padding-top: 8rem;
 	}
 
 	.blog-link {
-		padding: 3rem;
+
+		a {
+			font-size: 2rem;
+			margin: 0 1rem;
+		}
 	}
 }
 
@@ -283,15 +285,35 @@ pre {
 	h5, .h5 { font-size: @font-size-h5 * 0.5; }
 	h6, .h6 { font-size: @font-size-h6 * 0.5; }
 
+	body {
+		padding-top: 6rem;
+	}
+
 	.icon-links {
 		font-size: @icon-link-font-size * 0.8;
 	}
 
+	main {
+		width: 100%;
+	}
+
 	.blog-link {
-		padding: 2rem;
+
+		padding-top: 1.5rem;
+
+		a {
+			font-size: 1.8rem;
+			margin: 0 0.5rem;
+		}
 	}
 
 	header > p {
 		padding: 0 1rem;
+	}
+}
+
+@media (max-width: @screen-iphone5-max-width) {
+	main {
+		width: 92%;
 	}
 }

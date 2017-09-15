@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>React on Ilona Who Codes</title>
-    <link>https://ilonacodes.github.io/tags/react/index.xml</link>
-    <description>Recent content in React on Ilona Who Codes</description>
+    <title>Letsgetcoding on Ilona Who Codes</title>
+    <link>https://ilonacodes.github.io/tags/letsgetcoding/index.xml</link>
+    <description>Recent content in Letsgetcoding on Ilona Who Codes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="https://ilonacodes.github.io/tags/react/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ilonacodes.github.io/tags/letsgetcoding/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>React for very very beginners</title>
@@ -122,97 +122,6 @@ export default App;
 &lt;p&gt;Hopefully,  you enjoyed my explanation how to start with React and would like to know more about the launching Redux, why we need it and look closer to all our dependencies in one file.&lt;/p&gt;
 
 &lt;p&gt;Thank you for reading and your kind interest in my post!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Clear Form in Redux when Navigating with React-Router</title>
-      <link>https://ilonacodes.github.io/blog/clear-form-in-redux-when-navigating-with-react-router/</link>
-      <pubDate>Sun, 19 Mar 2017 19:25:05 +0100</pubDate>
-      
-      <guid>https://ilonacodes.github.io/blog/clear-form-in-redux-when-navigating-with-react-router/</guid>
-      <description>
-
-&lt;p&gt;Hi there!&lt;/p&gt;
-
-&lt;p&gt;I have worked on my project using a React-Redux architecture with React-Router for navigation. I have implemented forms for adding and editing resources. I have observed weird behavior:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Add new resource with a description: &amp;ldquo;Hello World!&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;Start editing another resource with a description: &amp;ldquo;My new comment&amp;hellip;&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;Input for description contains a previous value: &amp;ldquo;Hello World!&amp;rdquo;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;I was expecting to see the current description of the resource: &amp;ldquo;My new comment&amp;hellip;&amp;rdquo;, not the value from the previous form.&lt;/p&gt;
-
-&lt;p&gt;In my case, I was handling the state of the current form by using the same reducer:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;// Change form action
-export const changeForm = (name, value) =&amp;gt; {
-  let change = {};
-  change[name] = value;
-  return {
-    type: &amp;quot;FORM_CHANGE&amp;quot;,
-    change
-  }
-};
-
-// form reducer
-export const form = (state = {}, action) =&amp;gt; {
-  switch (action.type) {
-    case &amp;quot;FORM_CHANGE&amp;quot;:
-      return {
-          ...state,
-          ...action.change
-      }
-
-    default:
-        return state;
-  }
-};
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;I would like to share the solution that worked for me, my dear reader.&lt;/p&gt;
-
-&lt;h2 id=&#34;clear-state-of-the-form-on-every-navigation&#34;&gt;Clear State of the Form on Every Navigation&lt;/h2&gt;
-
-&lt;p&gt;First of all,  we need to create a new action &amp;ldquo;ROUTER.CHANGE&amp;rdquo; in the routes for handling router change:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;export const ROUTER = {
-  CHANGE: &amp;quot;ROUTER_CHANGE&amp;quot;
-};
-
-export const changeRouter = (change) =&amp;gt; ({
-  type: ROUTER.CHANGE,
-  change
-});
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Secondly, we should dispatch this action whenever the user navigates somewhere:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;hashHistory.listen(change =&amp;gt; store.dispatch(changeRouter(change)));
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;The next step is to add a new case &amp;ldquo;ROUTER.CHANGE&amp;rdquo; in the form reducer and clean up the current state, by returning an empty object:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;// form reducer
-export const form = (state = {}, action) =&amp;gt; {
-  switch (action.type) {
-    case &amp;quot;FORM_CHANGE&amp;quot;: ...
-
-    case ROUTER.CHANGE:
-       return {};
-
-    default: ...
-  }
-};
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
-
-&lt;p&gt;Now the form state clears itself on every navigation. You can find the whole code change &lt;a href=&#34;https://github.com/ilonade/bookshelf/commit/f961552b2e0a35dcfd6a6b01e52b2b847cae7fa2&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Thank you for reading!&lt;/p&gt;
 </description>
     </item>
     

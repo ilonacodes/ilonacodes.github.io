@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://ilonacodes.github.io/blog/react-for-very-very-beginners/</loc>
+    <lastmod>2017-09-15T16:25:05+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ilonacodes.github.io/blog/starting-with-REST-API/</loc>
     <lastmod>2017-07-17T21:45:05+01:00</lastmod>
   </url>
@@ -39,14 +44,26 @@
   </url>
   
   <url>
+    <loc>https://ilonacodes.github.io/tags/beginners/</loc>
+    <lastmod>2017-09-15T16:25:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ilonacodes.github.io/blog/</loc>
-    <lastmod>2017-07-17T21:45:05+01:00</lastmod>
+    <lastmod>2017-09-15T16:25:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ilonacodes.github.io/tags/client/</loc>
     <lastmod>2017-07-17T21:45:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ilonacodes.github.io/tags/coding/</loc>
+    <lastmod>2017-09-15T16:25:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -70,7 +87,7 @@
   
   <url>
     <loc>https://ilonacodes.github.io/</loc>
-    <lastmod>2017-07-17T21:45:05+01:00</lastmod>
+    <lastmod>2017-09-15T16:25:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -87,14 +104,32 @@
   </url>
   
   <url>
+    <loc>https://ilonacodes.github.io/tags/learntocode/</loc>
+    <lastmod>2017-09-15T16:25:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ilonacodes.github.io/tags/letsgetcoding/</loc>
+    <lastmod>2017-09-15T16:25:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ilonacodes.github.io/tags/react/</loc>
-    <lastmod>2017-03-19T19:25:05+01:00</lastmod>
+    <lastmod>2017-09-15T16:25:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ilonacodes.github.io/tags/react-router/</loc>
     <lastmod>2017-03-19T19:25:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ilonacodes.github.io/tags/reactjs/</loc>
+    <lastmod>2017-09-15T16:25:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
