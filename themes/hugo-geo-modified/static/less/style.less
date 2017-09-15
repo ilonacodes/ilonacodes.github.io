@@ -19,6 +19,10 @@ body {
 	padding-top: 10rem;
 }
 
+main article {
+	text-align: justify;
+}
+
 a:hover, a:active {
   text-decoration: none;
 	color: @link-hover-color;
@@ -290,7 +294,7 @@ pre {
 	}
 
 	main {
-		width: 92%;
+		width: 100%;
 	}
 
 	.blog-link {
@@ -305,5 +309,11 @@ pre {
 
 	header > p {
 		padding: 0 1rem;
+	}
+}
+
+@media (max-width: @screen-iphone5-max-width) {
+	main {
+		width: 92%;
 	}
 }

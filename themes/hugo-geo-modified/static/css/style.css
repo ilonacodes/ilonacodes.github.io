@@ -6572,6 +6572,9 @@ body {
   font-weight: 300;
   padding-top: 10rem;
 }
+main article {
+  text-align: justify;
+}
 a:hover,
 a:active {
   text-decoration: none;
@@ -6819,7 +6822,7 @@ pre {
     font-size: 44.8px;
   }
   main {
-    width: 92%;
+    width: 100%;
   }
   .blog-link {
     padding-top: 1.5rem;
@@ -6830,5 +6833,10 @@ pre {
   }
   header > p {
     padding: 0 1rem;
+  }
+}
+@media (max-width: 325px) {
+  main {
+    width: 92%;
   }
 }
