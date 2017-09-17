@@ -5,7 +5,7 @@ date = "2017-09-15T16:25:05+01:00"
 scripts = []
 css = []
 highlight = true
-title = "React for very very beginners"
+title = "React For Very Very Beginners"
 description = "The biggest challenge for beginners not only in front end development but also in the whole web development world is to find the answer to the question: How / Where should I start to learn web development?"
 +++
 
