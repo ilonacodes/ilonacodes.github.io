@@ -25,7 +25,7 @@ You can read more about that [here](http://redux.js.org/).
 
 Let's come back to the `my-daily-todos` directory in the `workspace` that we set up in my previous post and change into `my-daily-todos/src/index.js` file.
 
-<span style="color:red">it's not a good style to write all code parts in one file, and I do that only for this example.</span>
+<span style="color:red">It's not a good style to write all code parts in one file, and I do that only for this example.</span>
 
 I recommend you to remove all code inside and just replace that with:
 
