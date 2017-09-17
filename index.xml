@@ -30,7 +30,7 @@ npm install --save-dev redux-devtools
 
 &lt;p&gt;Let&amp;rsquo;s come back to the &lt;code&gt;my-daily-todos&lt;/code&gt; directory in the &lt;code&gt;workspace&lt;/code&gt; that we set up in my previous post and change into &lt;code&gt;my-daily-todos/src/index.js&lt;/code&gt; file.&lt;/p&gt;
 
-&lt;p&gt;&lt;span style=&#34;color:red&#34;&gt;it&amp;rsquo;s not a good style to write all code parts in one file, and I do that only for this example.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:red&#34;&gt;It&amp;rsquo;s not a good style to write all code parts in one file, and I do that only for this example.&lt;/span&gt;&lt;/p&gt;
 
 &lt;p&gt;I recommend you to remove all code inside and just replace that with:&lt;/p&gt;
 
