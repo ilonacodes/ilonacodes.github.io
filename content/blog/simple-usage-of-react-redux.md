@@ -2,7 +2,7 @@
 css = []
 highlight = true
 date = "2017-09-17T20:00:05+01:00"
-title = "Simple Usage Of React+Redux"
+title = "Simple Usage of React+Redux"
 tags = ["react", "reactjs", "redux", "learntocode", "beginners", "coding", "letsgetcoding"]
 draft = false
 scripts = []
