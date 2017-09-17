@@ -13,13 +13,21 @@ As I promised in [my previous post](http://www.ilonacodes.com/blog/react-for-ver
 Let me introduce React+Redux co-working through the simple input change that should render `Hello, {any name / text}!` at the end and manage by redux states.
 
 Redux? What is it?
-Redux is a predictable state container for managing both UI-state and data-state in JavaScript applications. It helps you create applications that behave consistently and run in different environments like client, server, and native. You can read more about that [here](http://redux.js.org/).
+Redux is a predictable state container for managing both UI-state and data-state in JavaScript applications. It helps you create applications that behave consistently and run in different environments like client, server, and native. To add Redux dependencies to your application type and run in a command line:
+
+```
+npm install --save redux
+npm install --save react-redux
+npm install --save-dev redux-devtools
+```
+
+You can read more about that [here](http://redux.js.org/).
 
 Let's come back to the `my-daily-todos` directory in the `workspace` that we set up in my previous post and change into `my-daily-todos/src/index.js` file.
 
 <span style="color:red">it's not a good style to write all code parts in one file, and I do that only for this example.</span>
 
- I recommend you to remove all code inside and just replace that with:
+I recommend you to remove all code inside and just replace that with:
 
 ```javascript
 import React from 'react';
