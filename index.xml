@@ -19,7 +19,14 @@
 Let me introduce React+Redux co-working through the simple input change that should render &lt;code&gt;Hello, {any name / text}!&lt;/code&gt; at the end and manage by redux states.&lt;/p&gt;
 
 &lt;p&gt;Redux? What is it?
-Redux is a predictable state container for managing both UI-state and data-state in JavaScript applications. It helps you create applications that behave consistently and run in different environments like client, server, and native. You can read more about that &lt;a href=&#34;http://redux.js.org/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+Redux is a predictable state container for managing both UI-state and data-state in JavaScript applications. It helps you create applications that behave consistently and run in different environments like client, server, and native. To add Redux dependencies to your application type and run in a command line:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;npm install --save redux
+npm install --save react-redux
+npm install --save-dev redux-devtools
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You can read more about that &lt;a href=&#34;http://redux.js.org/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Let&amp;rsquo;s come back to the &lt;code&gt;my-daily-todos&lt;/code&gt; directory in the &lt;code&gt;workspace&lt;/code&gt; that we set up in my previous post and change into &lt;code&gt;my-daily-todos/src/index.js&lt;/code&gt; file.&lt;/p&gt;
 
