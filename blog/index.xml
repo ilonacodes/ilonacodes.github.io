@@ -6,8 +6,375 @@
     <description>Recent content in Blogs on Ilona Who Codes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 17 Sep 2017 20:00:05 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 21 Sep 2017 19:30:05 +0100</lastBuildDate>
     <atom:link href="https://ilonacodes.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>The First User Story, The First Feature With React&#43;Redux</title>
+      <link>https://ilonacodes.github.io/blog/the-first-user-story-the-first-feature/</link>
+      <pubDate>Thu, 21 Sep 2017 19:30:05 +0100</pubDate>
+      
+      <guid>https://ilonacodes.github.io/blog/the-first-user-story-the-first-feature/</guid>
+      <description>&lt;p&gt;Hi, everyone! I guess you are pretty encouraged to start coding our app. Just to remind: it will be an interactive daily ToDo List. Today I am going to explain: what is a user story? Why do we need to write it before implementing a feature? How will we organize and structure an app? What is, actually, a new feature?&lt;/p&gt;
+
+&lt;p&gt;Let&amp;rsquo;s start with the first question. In my opinion, user stories are efficient things. To be more preciously, we begin to write them from the perspective of the user and describe them in a very simple way with traditional structure. How it works:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;As a (name of the user)
+I want to (some actions or feature)
+so that/because (reason and value for the user)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;It&amp;rsquo;s possible to add some acceptance criteria to user stories that will indicate what should happen, driven by context and other situations.
+In our case, the user story for the first feature will look like:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;As Bob
+I want to add a new task.
+So that I remember what I should do today
+
+## Acceptance Criteria:
+
+Given there are no tasks
+And I (Bob) am on the dashboard screen
+When I input a new task title
+And press enter
+Then I see the task on the dashboard screen
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I guess, now you got an idea what the kind of functionality contains the first feature. I recommend writing user stories to understand clearly what the result we want to get and how it should work in the end.&lt;/p&gt;
+
+&lt;p&gt;Coming back to our app, I want you to change into the directory &lt;code&gt;my-daily-todos&lt;/code&gt; and there remove the whole code from the &lt;code&gt;index.js&lt;/code&gt;, because now we are going to structure an app:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Create a new folder &lt;code&gt;Tasks&lt;/code&gt; into &lt;code&gt;src&lt;/code&gt;.
+There we will store all our files for the task feature.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Add new files &lt;code&gt;actions.js&lt;/code&gt;, &lt;code&gt;reducers.js&lt;/code&gt;, &lt;code&gt;NewTask.js&lt;/code&gt;, &lt;code&gt;Task.js&lt;/code&gt;, &lt;code&gt;TaskList.js&lt;/code&gt; into &lt;code&gt;Tasks&lt;/code&gt; folder.
+As you know, &lt;code&gt;actions.js&lt;/code&gt; and &lt;code&gt;reducers.js&lt;/code&gt; we need for handling states, state changes, and actions. &lt;code&gt;NewTask.js&lt;/code&gt; will contain the component with the input form for a new task and will belong to the navigation bar. &lt;code&gt;Task.js&lt;/code&gt; is a component that presents the &lt;code&gt;task&lt;/code&gt; object with &lt;code&gt;id&lt;/code&gt; and &lt;code&gt;title&lt;/code&gt; properties. &lt;code&gt;TaskList&lt;/code&gt; is a component that presents all the tasks we have created and will appear as the rest of the &amp;ldquo;body&amp;rdquo; of the page.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;span style=&#34;color:red&#34;&gt;Notice! We still use &lt;code&gt;index.js&lt;/code&gt; to render the whole app &lt;code&gt;App.js&lt;/code&gt; in the browser; &lt;code&gt;App.js&lt;/code&gt; to connect &lt;code&gt;NewTask.js&lt;/code&gt; and &lt;code&gt;TaskList.js&lt;/code&gt;, and &lt;code&gt;App.css&lt;/code&gt; to make a basic design for our app.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;3&amp;hellip;2&amp;hellip;1&amp;hellip; And now. Finally, let&amp;rsquo;s start coding!
+To refer to the app structure, I advise you to start developing with the components and then add redux functionalities and properties such as actions and reducers with states. As I mentioned above, at the beginning I write the &lt;code&gt;NewTask.js&lt;/code&gt; component, so switch to there and begin your coding journey. I added some comment to make it easy to understand the basic principle how it works. Now you see what we have here:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;// my-daily-todos/src/Tasks/NewTask.js
+
+import React, { Component } from &#39;react&#39;;
+import { connect } from &#39;react-redux&#39;;
+
+import { actions } from &#39;./actions&#39;;
+
+// here we create a component that will connect to NewTask component
+
+const NewTaskComponent = ({addTask}) =&amp;gt; {
+
+// this function is in charge of handling Enter key on a new task submit
+
+function handleKeyPress (e) {
+  if (e.key === &#39;Enter&#39;) {
+    addTask(e.target.value);
+    e.target.value = &#39;&#39;;      // make an input field empty after pressing Enter
+    e.preventDefault();
+  }
+}
+
+// what UI component contains
+  return &amp;lt;div&amp;gt;
+    &amp;lt;input
+      type=&#39;text&#39;
+      placeholder=&#39;Add a new task...&#39;
+      onKeyPress={handleKeyPress}
+    /&amp;gt;
+  &amp;lt;/div&amp;gt;
+}
+
+const mapStateToProps = (state) =&amp;gt; {
+  return {
+
+  }
+}
+
+// which actions dispatch to reducer
+const mapDispatchToProps = (dispatch) =&amp;gt; {
+  return {
+    addTask: (title) =&amp;gt; dispatch(actions.addTask(title))
+  }
+}
+
+// export the NewTaks component to App.js
+export const NewTask = connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(NewTaskComponent);
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The next &lt;code&gt;Task.js&lt;/code&gt; component renders the &lt;code&gt;task&lt;/code&gt; object in the browser:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;// my-daily-todos/src/Tasks/Task.js
+
+import React from &#39;react&#39;;
+
+// the argument is a task object that return the title task
+export const Task = ({task}) =&amp;gt; {
+  return &amp;lt;div&amp;gt;
+    {task.title}
+  &amp;lt;/div&amp;gt;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;We also need a component &lt;code&gt;TaskList.js&lt;/code&gt; that will render all tasks that we have added/created through the input:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;// my-daily-todos/src/Tasks/TaskList.js
+
+import React, { Component } from &#39;react&#39;;
+import { connect } from &#39;react-redux&#39;;
+
+// import Task component
+import { Task } from &#39;./Task.js&#39;;
+
+const TaskListComponent = ({tasks}) =&amp;gt; {
+  return &amp;lt;div&amp;gt;
+    &amp;lt;ul&amp;gt;
+ // create a dynamic task list with javascript inside html and pass properties to the Task component
+      {tasks.map(task =&amp;gt;
+        &amp;lt;li&amp;gt;
+          // key={.. something unique ..} is important when rendering lists in react
+          &amp;lt;Task key={task.id} task={task} /&amp;gt;
+        &amp;lt;/li&amp;gt;
+      )}
+    &amp;lt;/ul&amp;gt;
+  &amp;lt;/div&amp;gt;
+}
+
+// collect the tasks state that would be passing to the store of states
+const mapStateToProps = (state) =&amp;gt; {
+  return {
+    tasks: state.tasks
+  }
+}
+
+const mapDispatchToProps = (dispatch) =&amp;gt; {
+  return {
+
+  }
+}
+
+// export the TaskList component to App.js
+export const TaskList = connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(TaskListComponent);
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;We still should make a couple of steps to make our app work. Also, the next step is to write action &lt;code&gt;addTask&lt;/code&gt; to &lt;code&gt;actions.js&lt;/code&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;// my-daily-todos/src/Tasks/actions.js
+
+// create t const to define a list actions
+export const t = {
+  ADD_TASK: &#39;ADD_TASK&#39;
+}
+
+// export actions with addTask action creator passing title as argument to component NewTask.js and reducers
+
+export const actions = {
+  addTask: title =&amp;gt; ({
+    type: t.ADD_TASK,
+    title
+  })
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Good job! As you noticed, we still don&amp;rsquo;t have any reducer. That&amp;rsquo;s why we open &lt;code&gt;reducers.js&lt;/code&gt; file and write a reducer:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;// my-daily-todos/src/Tasks/reducers.js
+
+import { t } from &#39;./actions&#39;;
+
+// create initial state. In our case, it is an empty list of tasks
+const initState = []
+
+// create a function that generates ID for every task randomly
+function generateID () {
+  return &#39;_&#39; + Math.random().toString(36).substr(2,9);
+}
+
+// create tasksReducer with state as initState and action as arguments
+
+export const tasksReducer = (state = initState, action) =&amp;gt; {
+
+  switch (action.type) {
+
+// the ADD_TASK action has to return all previous state and a new task with generated ID and typed title
+
+    case t.ADD_TASK:
+      return [
+        ...state,
+        {
+          id: generateID(),
+          title: action.title
+        }
+      ]
+
+// otherwise, return just previous state that is initState
+    default:
+      return state;
+  }
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;To store and to change states, it&amp;rsquo;s necessary to have a store with reducers and provide that states to render in the browser. All of that we should apply into &lt;code&gt;index.js&lt;/code&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;// my-daily-todos/src/index.js
+
+import React from &#39;react&#39;;
+import ReactDOM from &#39;react-dom&#39;;
+import { createStore, combineReducers } from &#39;redux&#39;;
+import { Provider } from &#39;react-redux&#39;;
+
+// all custom imports
+import &#39;./index.css&#39;;
+import { App } from &#39;./App.js&#39;;
+import { tasksReducer } from &#39;./Tasks/reducers.js&#39;;
+
+// create store using createStore() including combineReducers() to pass the taskReducer with name &amp;quot;tasks&amp;quot;
+
+let store = createStore(
+  combineReducers({
+    tasks: tasksReducer
+  }),
+);
+
+ReactDOM.render(
+// apply store to store states and make them available to dispatch in components
+
+  &amp;lt;Provider store={store}&amp;gt;
+    &amp;lt;App /&amp;gt;
+  &amp;lt;/Provider&amp;gt;,
+  document.getElementById(&#39;root&#39;)
+);
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Finally, we can connect all above components (apart from &lt;code&gt;Task.js&lt;/code&gt; that is already used inside of &lt;code&gt;TaskList.js&lt;/code&gt; component) in one component - &lt;code&gt;App.js&lt;/code&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;// my-daily-todos/src/App.js
+
+import React, { Component } from &#39;react&#39;;
+
+import &#39;./App.css&#39;;
+// import both components
+import { NewTask } from &#39;./Tasks/NewTask.js&#39;;
+import { TaskList } from &#39;./Tasks/TaskList.js&#39;;
+
+export const App = () =&amp;gt; {
+// pass both components to App.js
+  return &amp;lt;div&amp;gt;
+    &amp;lt;NewTask /&amp;gt;
+    &amp;lt;TaskList /&amp;gt;
+  &amp;lt;/div&amp;gt;
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;That&amp;rsquo;s it. Just change into &lt;code&gt;my-daily-todos&lt;/code&gt; directory and run your local server using &lt;code&gt;npm start&lt;/code&gt; command in the terminal.&lt;/p&gt;
+
+&lt;p&gt;If you want, to make your app fancy, then you can apply some CSS styles to classes that I assign in tags below. Just come back to &lt;code&gt;App.js&lt;/code&gt; component:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;// my-daily-todos/src/App.js
+
+import React, { Component } from &#39;react&#39;;
+import { connect } from &#39;react-redux&#39;;
+
+// we have already imported App.css to make things look good
+import &#39;./App.css&#39;;
+import { NewTask } from &#39;./Tasks/NewTask.js&#39;
+import { TasksList } from &#39;./Tasks/TasksList&#39;;
+
+export const App = () =&amp;gt; {
+// add one more div tag and assign the classes
+  return &amp;lt;div className=&#39;container&#39;&amp;gt;
+      &amp;lt;div className=&#39;navbar&#39;&amp;gt;
+        &amp;lt;div className=&#39;logo&#39;&amp;gt;
+          &amp;lt;h1&amp;gt;ToDoDaily&amp;lt;/h1&amp;gt;
+        &amp;lt;/div&amp;gt;
+        &amp;lt;NewTask /&amp;gt;
+      &amp;lt;/div&amp;gt;
+      &amp;lt;TasksList /&amp;gt;
+    &amp;lt;/div&amp;gt;
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The same thing we are doing for the &lt;code&gt;TaskList.js&lt;/code&gt; component. Just adding the &lt;code&gt;tasklist-container&lt;/code&gt; class to the div tag after return:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;my-daily-todos/src/Tasks/TaskList.js
+...
+export const TasksListComponent = ({tasks, completeTask}) =&amp;gt; {
+  return &amp;lt;div className=&amp;quot;taskslist-container&amp;quot;&amp;gt;
+    &amp;lt;ul&amp;gt;
+    {tasks.map(task =&amp;gt;
+      &amp;lt;li&amp;gt;
+...
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;span style=&#34;color:red&#34;&gt;If you take a look at &lt;code&gt;index.js&lt;/code&gt;, you will notice, that &lt;code&gt;App.js&lt;/code&gt; is already imported.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;All that remains is to design our app. As you noticed, we have already Logo, which with input field belongs to the navigation bar according to the idea how the app will look at the end. Now we are going to App.css and style our app with simple CSS rules:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;/* my-daily-todos/src/App.css */
+
+.container {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  background-color: #333;
+  overflow: hidden;
+  display: block;
+  width: 100%;
+  height: 80px;
+}
+
+.logo {
+  float: left;
+  color: white;
+  margin-left: 2rem;
+}
+
+input {
+  float: none;
+  color: black;
+  padding: 5px 25px;
+  margin: 1.8rem;
+  border-radius: 3px;
+  border-width: 1px;
+}
+
+.taskslist-container {
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.taskslist-container ul li .completed{
+  text-decoration: line-through;
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now we have completed the first feature for our app and can move forward to increase the functionality of the app by adding new features using React+Redux and their dependencies.&lt;/p&gt;
+
+&lt;p&gt;If you still have any questions how it works or why something doesn&amp;rsquo;t work for you, don&amp;rsquo;t hesitate and find me via my &lt;a href=&#34;mailto:demiluri@gmail.com&#34;&gt;email&lt;/a&gt; or on my &lt;a href=&#34;https://www.instagram.com/ilonacodes/&#34;&gt;Instagram profile&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Thank you for your reading and wish you the best luck by learning React+Redux frameworks!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Simple Usage of React&#43;Redux</title>

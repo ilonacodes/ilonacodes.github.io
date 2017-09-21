@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# website: http://ogp.me/ns/website#">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta name="description" content="I guess you are pretty encouraged to start coding our app. Just to remind: it will be an interactive daily ToDo List.">
+    <meta property="og:title" content="The First User Story, The First Feature With React&#43;Redux">
+    
+    <meta property="og:type" content="article">
+    <meta property="article:published_time" content="2017-09-21">
+    
+    <meta property="og:description" content="I guess you are pretty encouraged to start coding our app. Just to remind: it will be an interactive daily ToDo List.">
+    <meta property="og:url" content="https://ilonacodes.github.io/blog/the-first-user-story-the-first-feature/">
+    <meta property="og:site_name" content="Ilona Who Codes">
+    
+    <meta property="og:tags" content="react">
+    
+    <meta property="og:tags" content="reactjs">
+    
+    <meta property="og:tags" content="redux">
+    
+    <meta property="og:tags" content="learntocode">
+    
+    <meta property="og:tags" content="beginners">
+    
+    <meta property="og:tags" content="coding">
+    
+    <meta property="og:tags" content="letsgetcoding">
+    
+    <meta property="og:tags" content="user">
+    
+    <meta property="og:tags" content="userstory">
+    
+    <meta name="generator" content="Hugo 0.19" />
+    <title>The First User Story, The First Feature With React&#43;Redux &middot; Ilona Who Codes</title>
+    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/styles/default.min.css">
+    
+    <link rel="stylesheet" href="https://ilonacodes.github.io/css/style.css">
+    
+    <link href="" rel="alternate" type="application/rss+xml" title="Ilona Who Codes" />
+    
+    
+    <link rel="icon" href="https://ilonacodes.github.io/favicon.ico" />
+    
+
+    
+    
+</head>
+<body>
+
+
+<div class="blog-link">
+	<a href="/">ilonacodes</a>
+	<a href="/blog">read my blog</a>
+	<a href="/">about me</a>
+</div>
+
+<div class="container-fluid">
+	<div class="row">
+		<div id="content" class="col-xs-12 col-sm-12 col-md-12">
+			<div class="row">
+				<div class="paper">
+					<div id="post" class="col-sm-offset-1 col-sm-10 col-md-10 col-lg-10">
+
+
+<main>
+	<header>
+		<h1>The First User Story, The First Feature With React&#43;Redux</h1>
+	</header>
+
+	<article>
+		<p>Hi, everyone! I guess you are pretty encouraged to start coding our app. Just to remind: it will be an interactive daily ToDo List. Today I am going to explain: what is a user story? Why do we need to write it before implementing a feature? How will we organize and structure an app? What is, actually, a new feature?</p>
+
+<p>Let&rsquo;s start with the first question. In my opinion, user stories are efficient things. To be more preciously, we begin to write them from the perspective of the user and describe them in a very simple way with traditional structure. How it works:</p>
+
+<pre><code>As a (name of the user)
+I want to (some actions or feature)
+so that/because (reason and value for the user)
+</code></pre>
+
+<p>It&rsquo;s possible to add some acceptance criteria to user stories that will indicate what should happen, driven by context and other situations.
+In our case, the user story for the first feature will look like:</p>
+
+<pre><code class="language-javascript">As Bob
+I want to add a new task.
+So that I remember what I should do today
+
+## Acceptance Criteria:
+
+Given there are no tasks
+And I (Bob) am on the dashboard screen
+When I input a new task title
+And press enter
+Then I see the task on the dashboard screen
+</code></pre>
+
+<p>I guess, now you got an idea what the kind of functionality contains the first feature. I recommend writing user stories to understand clearly what the result we want to get and how it should work in the end.</p>
+
+<p>Coming back to our app, I want you to change into the directory <code>my-daily-todos</code> and there remove the whole code from the <code>index.js</code>, because now we are going to structure an app:</p>
+
+<ol>
+<li><p>Create a new folder <code>Tasks</code> into <code>src</code>.
+There we will store all our files for the task feature.</p></li>
+
+<li><p>Add new files <code>actions.js</code>, <code>reducers.js</code>, <code>NewTask.js</code>, <code>Task.js</code>, <code>TaskList.js</code> into <code>Tasks</code> folder.
+As you know, <code>actions.js</code> and <code>reducers.js</code> we need for handling states, state changes, and actions. <code>NewTask.js</code> will contain the component with the input form for a new task and will belong to the navigation bar. <code>Task.js</code> is a component that presents the <code>task</code> object with <code>id</code> and <code>title</code> properties. <code>TaskList</code> is a component that presents all the tasks we have created and will appear as the rest of the &ldquo;body&rdquo; of the page.</p></li>
+</ol>
+
+<p><span style="color:red">Notice! We still use <code>index.js</code> to render the whole app <code>App.js</code> in the browser; <code>App.js</code> to connect <code>NewTask.js</code> and <code>TaskList.js</code>, and <code>App.css</code> to make a basic design for our app.</span></p>
+
+<p>3&hellip;2&hellip;1&hellip; And now. Finally, let&rsquo;s start coding!
+To refer to the app structure, I advise you to start developing with the components and then add redux functionalities and properties such as actions and reducers with states. As I mentioned above, at the beginning I write the <code>NewTask.js</code> component, so switch to there and begin your coding journey. I added some comment to make it easy to understand the basic principle how it works. Now you see what we have here:</p>
+
+<pre><code class="language-javascript">// my-daily-todos/src/Tasks/NewTask.js
+
+import React, { Component } from 'react';
+import { connect } from 'react-redux';
+
+import { actions } from './actions';
+
+// here we create a component that will connect to NewTask component
+
+const NewTaskComponent = ({addTask}) =&gt; {
+
+// this function is in charge of handling Enter key on a new task submit
+
+function handleKeyPress (e) {
+  if (e.key === 'Enter') {
+    addTask(e.target.value);
+    e.target.value = '';      // make an input field empty after pressing Enter
+    e.preventDefault();
+  }
+}
+
+// what UI component contains
+  return &lt;div&gt;
+    &lt;input
+      type='text'
+      placeholder='Add a new task...'
+      onKeyPress={handleKeyPress}
+    /&gt;
+  &lt;/div&gt;
+}
+
+const mapStateToProps = (state) =&gt; {
+  return {
+
+  }
+}
+
+// which actions dispatch to reducer
+const mapDispatchToProps = (dispatch) =&gt; {
+  return {
+    addTask: (title) =&gt; dispatch(actions.addTask(title))
+  }
+}
+
+// export the NewTaks component to App.js
+export const NewTask = connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(NewTaskComponent);
+
+</code></pre>
+
+<p>The next <code>Task.js</code> component renders the <code>task</code> object in the browser:</p>
+
+<pre><code class="language-javascript">// my-daily-todos/src/Tasks/Task.js
+
+import React from 'react';
+
+// the argument is a task object that return the title task
+export const Task = ({task}) =&gt; {
+  return &lt;div&gt;
+    {task.title}
+  &lt;/div&gt;
+}
+</code></pre>
+
+<p>We also need a component <code>TaskList.js</code> that will render all tasks that we have added/created through the input:</p>
+
+<pre><code class="language-javascript">// my-daily-todos/src/Tasks/TaskList.js
+
+import React, { Component } from 'react';
+import { connect } from 'react-redux';
+
+// import Task component
+import { Task } from './Task.js';
+
+const TaskListComponent = ({tasks}) =&gt; {
+  return &lt;div&gt;
+    &lt;ul&gt;
+ // create a dynamic task list with javascript inside html and pass properties to the Task component
+      {tasks.map(task =&gt;
+        &lt;li&gt;
+          // key={.. something unique ..} is important when rendering lists in react
+          &lt;Task key={task.id} task={task} /&gt;
+        &lt;/li&gt;
+      )}
+    &lt;/ul&gt;
+  &lt;/div&gt;
+}
+
+// collect the tasks state that would be passing to the store of states
+const mapStateToProps = (state) =&gt; {
+  return {
+    tasks: state.tasks
+  }
+}
+
+const mapDispatchToProps = (dispatch) =&gt; {
+  return {
+
+  }
+}
+
+// export the TaskList component to App.js
+export const TaskList = connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(TaskListComponent);
+
+</code></pre>
+
+<p>We still should make a couple of steps to make our app work. Also, the next step is to write action <code>addTask</code> to <code>actions.js</code>:</p>
+
+<pre><code class="language-javascript">// my-daily-todos/src/Tasks/actions.js
+
+// create t const to define a list actions
+export const t = {
+  ADD_TASK: 'ADD_TASK'
+}
+
+// export actions with addTask action creator passing title as argument to component NewTask.js and reducers
+
+export const actions = {
+  addTask: title =&gt; ({
+    type: t.ADD_TASK,
+    title
+  })
+}
+
+</code></pre>
+
+<p>Good job! As you noticed, we still don&rsquo;t have any reducer. That&rsquo;s why we open <code>reducers.js</code> file and write a reducer:</p>
+
+<pre><code class="language-javascript">// my-daily-todos/src/Tasks/reducers.js
+
+import { t } from './actions';
+
+// create initial state. In our case, it is an empty list of tasks
+const initState = []
+
+// create a function that generates ID for every task randomly
+function generateID () {
+  return '_' + Math.random().toString(36).substr(2,9);
+}
+
+// create tasksReducer with state as initState and action as arguments
+
+export const tasksReducer = (state = initState, action) =&gt; {
+
+  switch (action.type) {
+
+// the ADD_TASK action has to return all previous state and a new task with generated ID and typed title
+
+    case t.ADD_TASK:
+      return [
+        ...state,
+        {
+          id: generateID(),
+          title: action.title
+        }
+      ]
+
+// otherwise, return just previous state that is initState
+    default:
+      return state;
+  }
+}
+
+</code></pre>
+
+<p>To store and to change states, it&rsquo;s necessary to have a store with reducers and provide that states to render in the browser. All of that we should apply into <code>index.js</code>:</p>
+
+<pre><code class="language-javascript">// my-daily-todos/src/index.js
+
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { createStore, combineReducers } from 'redux';
+import { Provider } from 'react-redux';
+
+// all custom imports
+import './index.css';
+import { App } from './App.js';
+import { tasksReducer } from './Tasks/reducers.js';
+
+// create store using createStore() including combineReducers() to pass the taskReducer with name &quot;tasks&quot;
+
+let store = createStore(
+  combineReducers({
+    tasks: tasksReducer
+  }),
+);
+
+ReactDOM.render(
+// apply store to store states and make them available to dispatch in components
+
+  &lt;Provider store={store}&gt;
+    &lt;App /&gt;
+  &lt;/Provider&gt;,
+  document.getElementById('root')
+);
+
+</code></pre>
+
+<p>Finally, we can connect all above components (apart from <code>Task.js</code> that is already used inside of <code>TaskList.js</code> component) in one component - <code>App.js</code>:</p>
+
+<pre><code class="language-javascript">// my-daily-todos/src/App.js
+
+import React, { Component } from 'react';
+
+import './App.css';
+// import both components
+import { NewTask } from './Tasks/NewTask.js';
+import { TaskList } from './Tasks/TaskList.js';
+
+export const App = () =&gt; {
+// pass both components to App.js
+  return &lt;div&gt;
+    &lt;NewTask /&gt;
+    &lt;TaskList /&gt;
+  &lt;/div&gt;
+}
+
+</code></pre>
+
+<p>That&rsquo;s it. Just change into <code>my-daily-todos</code> directory and run your local server using <code>npm start</code> command in the terminal.</p>
+
+<p>If you want, to make your app fancy, then you can apply some CSS styles to classes that I assign in tags below. Just come back to <code>App.js</code> component:</p>
+
+<pre><code class="language-javascript">// my-daily-todos/src/App.js
+
+import React, { Component } from 'react';
+import { connect } from 'react-redux';
+
+// we have already imported App.css to make things look good
+import './App.css';
+import { NewTask } from './Tasks/NewTask.js'
+import { TasksList } from './Tasks/TasksList';
+
+export const App = () =&gt; {
+// add one more div tag and assign the classes
+  return &lt;div className='container'&gt;
+      &lt;div className='navbar'&gt;
+        &lt;div className='logo'&gt;
+          &lt;h1&gt;ToDoDaily&lt;/h1&gt;
+        &lt;/div&gt;
+        &lt;NewTask /&gt;
+      &lt;/div&gt;
+      &lt;TasksList /&gt;
+    &lt;/div&gt;
+}
+
+</code></pre>
+
+<p>The same thing we are doing for the <code>TaskList.js</code> component. Just adding the <code>tasklist-container</code> class to the div tag after return:</p>
+
+<pre><code class="language-javascript">my-daily-todos/src/Tasks/TaskList.js
+...
+export const TasksListComponent = ({tasks, completeTask}) =&gt; {
+  return &lt;div className=&quot;taskslist-container&quot;&gt;
+    &lt;ul&gt;
+    {tasks.map(task =&gt;
+      &lt;li&gt;
+...
+
+</code></pre>
+
+<p><span style="color:red">If you take a look at <code>index.js</code>, you will notice, that <code>App.js</code> is already imported.</span></p>
+
+<p>All that remains is to design our app. As you noticed, we have already Logo, which with input field belongs to the navigation bar according to the idea how the app will look at the end. Now we are going to App.css and style our app with simple CSS rules:</p>
+
+<pre><code class="language-css">/* my-daily-todos/src/App.css */
+
+.container {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  background-color: #333;
+  overflow: hidden;
+  display: block;
+  width: 100%;
+  height: 80px;
+}
+
+.logo {
+  float: left;
+  color: white;
+  margin-left: 2rem;
+}
+
+input {
+  float: none;
+  color: black;
+  padding: 5px 25px;
+  margin: 1.8rem;
+  border-radius: 3px;
+  border-width: 1px;
+}
+
+.taskslist-container {
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.taskslist-container ul li .completed{
+  text-decoration: line-through;
+}
+
+</code></pre>
+
+<p>Now we have completed the first feature for our app and can move forward to increase the functionality of the app by adding new features using React+Redux and their dependencies.</p>
+
+<p>If you still have any questions how it works or why something doesn&rsquo;t work for you, don&rsquo;t hesitate and find me via my <a href="mailto:demiluri@gmail.com">email</a> or on my <a href="https://www.instagram.com/ilonacodes/">Instagram profile</a>.</p>
+
+<p>Thank you for your reading and wish you the best luck by learning React+Redux frameworks!</p>
+
+	</article>
+</main>
+
+<div id="bottom-nav" class="text-center center-block">
+</div>
+
+
+
+								<div class="footer-copy" style="text-align: center; opacity: 0.6"><p>&copy; 2017 ilonacodes</p></div>
+							</div>
+            </div>
+					</div>
+				</div>
+			</div>
+		</div>
+  </div>
+  
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'code-here', 'auto');
+    ga('send', 'pageview');
+    window.baseURL = "https:\/\/ilonacodes.github.io\/";
+  </script>
+  
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  
+  
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/highlight.min.js"></script>
+  
+  <script src="https://ilonacodes.github.io//js/App.js"></script>
+  
+</body>
+</html>
+
