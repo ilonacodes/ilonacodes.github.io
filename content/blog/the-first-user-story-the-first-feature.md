@@ -11,7 +11,7 @@ description = "I guess you are pretty encouraged to start coding our app. Just t
 
 Hi, everyone! I guess you are pretty encouraged to start coding our app. Just to remind: it will be an interactive daily ToDo List. Today I am going to explain: what is a user story? Why do we need to write it before implementing a feature? How will we organize and structure an app? What is, actually, a new feature?
 
-Let's start with the first question. In my opinion, user stories are efficient things. To be more preciously, we begin to write them from the perspective of the user and describe them in a very simple way with traditional structure. How it works:
+Let's start with the first question. In my opinion, user stories are efficient things. To be more precise, we begin to write them from the perspective of the user and describe them in a very simple way with traditional structure. How it works:
 
 ```
 As a (name of the user)
