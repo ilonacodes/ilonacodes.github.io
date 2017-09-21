@@ -135,9 +135,9 @@ const TaskListComponent = ({tasks}) => {
     <ul>
  // create a dynamic task list with javascript inside html and pass properties to the Task component
       {tasks.map(task =>
-        <li>
-          // key={.. something unique ..} is important when rendering lists in react
-          <Task key={task.id} task={task} />
+        // key={.. something unique ..} is important when rendering lists in react
+        <li key={task.id}>
+          <Task task={task} />
         </li>
       )}
     </ul>
