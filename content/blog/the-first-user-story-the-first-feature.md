@@ -365,10 +365,6 @@ input {
   margin-left: 1rem;
 }
 
-.taskslist-container ul li .completed{
-  text-decoration: line-through;
-}
-
 ```
 
 Now we have completed the first feature for our app and can move forward to increase the functionality of the app by adding new features using React+Redux and their dependencies.
