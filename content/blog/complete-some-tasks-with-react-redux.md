@@ -4,7 +4,7 @@ highlight = true
 date = "2017-09-26T19:30:05+01:00"
 title = "Let's complete some tasks with React+Redux"
 tags = ["react", "reactjs", "redux", "learntocode", "beginners", "coding", "letsgetcoding", "user", "userstory"]
-draft = true
+draft = false
 scripts = []
 description = "As you guess from the blog title, the next feature called `Complete a task`.  So, let's begin!"
 +++
