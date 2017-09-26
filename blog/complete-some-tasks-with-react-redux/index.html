@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# website: http://ogp.me/ns/website#">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta name="description" content="As you guess from the blog title, the next feature called `Complete a task`.  So, let&#39;s begin!">
+    <meta property="og:title" content="Let&#39;s complete some tasks with React&#43;Redux">
+    
+    <meta property="og:type" content="article">
+    <meta property="article:published_time" content="2017-09-26">
+    
+    <meta property="og:description" content="As you guess from the blog title, the next feature called `Complete a task`.  So, let&#39;s begin!">
+    <meta property="og:url" content="https://ilonacodes.github.io/blog/complete-some-tasks-with-react-redux/">
+    <meta property="og:site_name" content="Ilona Who Codes">
+    
+    <meta property="og:tags" content="react">
+    
+    <meta property="og:tags" content="reactjs">
+    
+    <meta property="og:tags" content="redux">
+    
+    <meta property="og:tags" content="learntocode">
+    
+    <meta property="og:tags" content="beginners">
+    
+    <meta property="og:tags" content="coding">
+    
+    <meta property="og:tags" content="letsgetcoding">
+    
+    <meta property="og:tags" content="user">
+    
+    <meta property="og:tags" content="userstory">
+    
+    <meta name="generator" content="Hugo 0.19" />
+    <title>Let&#39;s complete some tasks with React&#43;Redux &middot; Ilona Who Codes</title>
+    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/styles/default.min.css">
+    
+    <link rel="stylesheet" href="https://ilonacodes.github.io/css/style.css">
+    
+    <link href="" rel="alternate" type="application/rss+xml" title="Ilona Who Codes" />
+    
+    
+    <link rel="icon" href="https://ilonacodes.github.io/favicon.ico" />
+    
+
+    
+    
+</head>
+<body>
+
+
+<div class="blog-link">
+	<a href="/">ilonacodes</a>
+	<a href="/blog">read my blog</a>
+	<a href="/">about me</a>
+</div>
+
+<div class="container-fluid">
+	<div class="row">
+		<div id="content" class="col-xs-12 col-sm-12 col-md-12">
+			<div class="row">
+				<div class="paper">
+					<div id="post" class="col-sm-offset-1 col-sm-10 col-md-10 col-lg-10">
+
+
+<main>
+	<header>
+		<h1>Let&#39;s complete some tasks with React&#43;Redux</h1>
+	</header>
+
+	<article>
+		<p>Today we are going to implement the second feature for our app. If you are a new reader, then I highly recommend you to check my earlier blog posts <a href="http://www.ilonacodes.com/blog/react-for-very-very-beginners/">here</a>, where we started our learning journey in React+Redux, refer to the posts complete previous steps and continue with us to develop an interactive ToDo List from here.</p>
+
+<p>As you guess from the blog title, the next feature called <code>Complete a task</code>.  So, let&rsquo;s begin! At first, we start writing the next user story, and it will look like:</p>
+
+<pre><code>As Bob
+I want to complete the task
+So that I can keep track of what is completed and what is not
+
+## Acceptance Criteria:
+
+Given a task list
+And every task is listed
+And I am on a dashboard screen
+When I complete a task from the list
+And click on this chosen task
+Then I see the task is crossed out
+
+</code></pre>
+
+<p>Now you got the idea how it should work. Let&rsquo;s start to implement the new feature and come back to our project <code>my-daily-todos</code> directory changing into <code>Task.js</code> component, where we will add a new action <code>completeTask</code> to the <code>onClick</code>function:</p>
+
+<pre><code class="language-javascript">
+// my-daily-todos/src/Tasks/Task.js
+
+import React from 'react';
+
+export const Task = ({task, completeTask}) =&gt; {
+  return &lt;div onClick={e =&gt; completeTask(task.id)}&gt;
+    {task.title}
+  &lt;/div&gt;
+}
+
+</code></pre>
+
+<p>Afterwards, we have to dispatch the action to the store with states, that&rsquo;s why now we are changing into <code>TaskList.js</code> and add the action <code>completeTask</code> to <code>mapDispatchToProps</code> passing to <code>Task.js</code> component inside the <code>TaskListComponent</code>:</p>
+
+<pre><code class="language-javascript">
+// my-daily-todos/src/Tasks/TaskList.js
+
+import React, { Component } from 'react';
+import { connect } from 'react-redux';
+
+import { Task } from './Task.js';
+import { actions } from './actions';
+
+const TaskListComponent = ({tasks, completeTask}) =&gt; {
+  return &lt;div className=&quot;tasklist-container&quot;&gt;
+    &lt;ul&gt;
+      {tasks.map(task =&gt;
+        &lt;li key={task.id}&gt;
+
+          // pass the &quot;completeTask&quot; action to &quot;Task&quot; component
+          &lt;Task task={task} completeTask={completeTask} /&gt;
+        &lt;/li&gt;
+      )}
+    &lt;/ul&gt;
+  &lt;/div&gt;
+}
+
+const mapStateToProps = (state) =&gt; {
+  return {
+    tasks: state.tasks
+  }
+}
+
+const mapDispatchToProps = (dispatch) =&gt; {
+  return {
+
+    // dispatch the &quot;completeTask&quot; function with &quot;id&quot; parameter as an action to store of states
+    completeTask: (id) =&gt; dispatch(actions.completeTask(id))
+  }
+}
+
+export const TaskList = connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(TaskListComponent);
+
+</code></pre>
+
+<p>As you will take a look at the <code>actions.js</code> file, then you will have noticed that we still don&rsquo;t have the <code>completeTask</code> action. Let&rsquo;s create one into the <code>actions.js</code> file:</p>
+
+<pre><code class="language-javascript">
+// my-daily-todos/src/Tasks/actions.js
+
+export const t = {
+  ADD_TASK: 'ADD_TASK',
+  COMPLETE_TASK: 'COMPLETE_TASK'
+}
+
+export const actions = {
+  addTask: title =&gt; ({
+    type: t.ADD_TASK,
+    title
+  }),
+
+// create a new action function &quot;completeTask&quot; passing &quot;id&quot; as a parameter
+  completeTask: id =&gt; ({
+    type: t.COMPLETE_TASK,
+    id
+  }),
+}
+
+</code></pre>
+
+<p>Good job! The next step is to pass the action created above to our <code>tasksReducer</code>. Switch to <code>reducers.js</code> file and add a new case <code>t.COMPLETE_TASK</code> to the reducer:</p>
+
+<pre><code class="language-javascript">
+// my-daily-todos/src/Tasks/reducers.js
+
+import { t } from './actions';
+
+const initState = []
+
+function generateID () {
+  return '_' + Math.random().toString(36).substr(2,9);
+}
+
+export const tasksReducer = (state = initState, action) =&gt; {
+
+  switch (action.type) {
+    case t.ADD_TASK:
+      return [
+        ...state,
+        {
+          id: generateID(),
+          title: action.title
+        }
+      ]
+
+// add the new case that returns the task list
+    case t.COMPLETE_TASK:
+      return state.map(task =&gt; {
+// if the task is the one that is clicked by the user
+        if (task.id === action.id) {
+// then assign to a new property &quot;completed&quot; the &quot;true&quot; value
+          return { ...task, completed: true }
+        } else {
+// otherwise, return the task object
+          return task
+        }
+      })
+
+    default:
+      return state;
+  }
+}
+
+</code></pre>
+
+<p>You are right! From now there are already three properties (id, title and completed) that belong to the <code>task</code> object. To use the completed property, we are going to <code>Task.js</code> component and write the <code>if-statement</code>: if <code>task.completed</code> is <code>true</code> then we assign the <code>.completed</code> class name style to this task:</p>
+
+<pre><code class="language-javascript">
+// my-daily-todos/src/Tasks/Task.js
+
+import React from 'react';
+
+export const Task = ({task, completeTask}) =&gt; {
+
+// add the &quot;if-statement&quot;
+  return &lt;div className={`${task.completed ? 'completed' : ''}`} onClick={e =&gt; completeTask(task.id)}&gt;
+    {task.title}
+  &lt;/div&gt;
+}
+
+</code></pre>
+
+<p>Lastly, we have to add <code>line-through</code> style to <code>.completed</code> class into <code>App.css</code>, because we want to mark the completed task by crossing out that:</p>
+
+<pre><code class="language-css">// my-daily-todos/src/App.css
+
+...
+.tasklist-container ul li .completed{
+  text-decoration: line-through;
+}
+
+</code></pre>
+
+<p>The results of creating tasks and completing tasks are shown below:</p>
+
+<p><img src="/blog/images/add-tasks.png" alt="Add tasks:" /></p>
+
+<p><img src="/blog/images/complete-tasks.png" alt="Complete tasks:" /></p>
+
+<p>Congratulations! You finished the second feature for our app. To watch how it works in the browser, just run the localhost server by typing <code>npm start</code> in your terminal inside the <code>my-daily-todos</code> folder.</p>
+
+<p>Thank you for the reading. I hope you find useful the React+Redux tutorial series!</p>
+
+	</article>
+</main>
+
+<div id="bottom-nav" class="text-center center-block">
+</div>
+
+
+
+								<div class="footer-copy" style="text-align: center; opacity: 0.6"><p>&copy; 2017 ilonacodes</p></div>
+							</div>
+            </div>
+					</div>
+				</div>
+			</div>
+		</div>
+  </div>
+  
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'code-here', 'auto');
+    ga('send', 'pageview');
+    window.baseURL = "https:\/\/ilonacodes.github.io\/";
+  </script>
+  
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  
+  
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/highlight.min.js"></script>
+  
+  <script src="https://ilonacodes.github.io//js/App.js"></script>
+  
+</body>
+</html>
+

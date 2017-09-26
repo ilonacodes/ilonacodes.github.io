@@ -9,6 +9,202 @@
     <atom:link href="https://ilonacodes.github.io/tags/coding/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Let&#39;s complete some tasks with React&#43;Redux</title>
+      <link>https://ilonacodes.github.io/blog/complete-some-tasks-with-react-redux/</link>
+      <pubDate>Tue, 26 Sep 2017 19:30:05 +0100</pubDate>
+      
+      <guid>https://ilonacodes.github.io/blog/complete-some-tasks-with-react-redux/</guid>
+      <description>&lt;p&gt;Today we are going to implement the second feature for our app. If you are a new reader, then I highly recommend you to check my earlier blog posts &lt;a href=&#34;http://www.ilonacodes.com/blog/react-for-very-very-beginners/&#34;&gt;here&lt;/a&gt;, where we started our learning journey in React+Redux, refer to the posts complete previous steps and continue with us to develop an interactive ToDo List from here.&lt;/p&gt;
+
+&lt;p&gt;As you guess from the blog title, the next feature called &lt;code&gt;Complete a task&lt;/code&gt;.  So, let&amp;rsquo;s begin! At first, we start writing the next user story, and it will look like:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;As Bob
+I want to complete the task
+So that I can keep track of what is completed and what is not
+
+## Acceptance Criteria:
+
+Given a task list
+And every task is listed
+And I am on a dashboard screen
+When I complete a task from the list
+And click on this chosen task
+Then I see the task is crossed out
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now you got the idea how it should work. Let&amp;rsquo;s start to implement the new feature and come back to our project &lt;code&gt;my-daily-todos&lt;/code&gt; directory changing into &lt;code&gt;Task.js&lt;/code&gt; component, where we will add a new action &lt;code&gt;completeTask&lt;/code&gt; to the &lt;code&gt;onClick&lt;/code&gt;function:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;
+// my-daily-todos/src/Tasks/Task.js
+
+import React from &#39;react&#39;;
+
+export const Task = ({task, completeTask}) =&amp;gt; {
+  return &amp;lt;div onClick={e =&amp;gt; completeTask(task.id)}&amp;gt;
+    {task.title}
+  &amp;lt;/div&amp;gt;
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Afterwards, we have to dispatch the action to the store with states, that&amp;rsquo;s why now we are changing into &lt;code&gt;TaskList.js&lt;/code&gt; and add the action &lt;code&gt;completeTask&lt;/code&gt; to &lt;code&gt;mapDispatchToProps&lt;/code&gt; passing to &lt;code&gt;Task.js&lt;/code&gt; component inside the &lt;code&gt;TaskListComponent&lt;/code&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;
+// my-daily-todos/src/Tasks/TaskList.js
+
+import React, { Component } from &#39;react&#39;;
+import { connect } from &#39;react-redux&#39;;
+
+import { Task } from &#39;./Task.js&#39;;
+import { actions } from &#39;./actions&#39;;
+
+const TaskListComponent = ({tasks, completeTask}) =&amp;gt; {
+  return &amp;lt;div className=&amp;quot;tasklist-container&amp;quot;&amp;gt;
+    &amp;lt;ul&amp;gt;
+      {tasks.map(task =&amp;gt;
+        &amp;lt;li key={task.id}&amp;gt;
+
+          // pass the &amp;quot;completeTask&amp;quot; action to &amp;quot;Task&amp;quot; component
+          &amp;lt;Task task={task} completeTask={completeTask} /&amp;gt;
+        &amp;lt;/li&amp;gt;
+      )}
+    &amp;lt;/ul&amp;gt;
+  &amp;lt;/div&amp;gt;
+}
+
+const mapStateToProps = (state) =&amp;gt; {
+  return {
+    tasks: state.tasks
+  }
+}
+
+const mapDispatchToProps = (dispatch) =&amp;gt; {
+  return {
+
+    // dispatch the &amp;quot;completeTask&amp;quot; function with &amp;quot;id&amp;quot; parameter as an action to store of states
+    completeTask: (id) =&amp;gt; dispatch(actions.completeTask(id))
+  }
+}
+
+export const TaskList = connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(TaskListComponent);
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;As you will take a look at the &lt;code&gt;actions.js&lt;/code&gt; file, then you will have noticed that we still don&amp;rsquo;t have the &lt;code&gt;completeTask&lt;/code&gt; action. Let&amp;rsquo;s create one into the &lt;code&gt;actions.js&lt;/code&gt; file:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;
+// my-daily-todos/src/Tasks/actions.js
+
+export const t = {
+  ADD_TASK: &#39;ADD_TASK&#39;,
+  COMPLETE_TASK: &#39;COMPLETE_TASK&#39;
+}
+
+export const actions = {
+  addTask: title =&amp;gt; ({
+    type: t.ADD_TASK,
+    title
+  }),
+
+// create a new action function &amp;quot;completeTask&amp;quot; passing &amp;quot;id&amp;quot; as a parameter
+  completeTask: id =&amp;gt; ({
+    type: t.COMPLETE_TASK,
+    id
+  }),
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Good job! The next step is to pass the action created above to our &lt;code&gt;tasksReducer&lt;/code&gt;. Switch to &lt;code&gt;reducers.js&lt;/code&gt; file and add a new case &lt;code&gt;t.COMPLETE_TASK&lt;/code&gt; to the reducer:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;
+// my-daily-todos/src/Tasks/reducers.js
+
+import { t } from &#39;./actions&#39;;
+
+const initState = []
+
+function generateID () {
+  return &#39;_&#39; + Math.random().toString(36).substr(2,9);
+}
+
+export const tasksReducer = (state = initState, action) =&amp;gt; {
+
+  switch (action.type) {
+    case t.ADD_TASK:
+      return [
+        ...state,
+        {
+          id: generateID(),
+          title: action.title
+        }
+      ]
+
+// add the new case that returns the task list
+    case t.COMPLETE_TASK:
+      return state.map(task =&amp;gt; {
+// if the task is the one that is clicked by the user
+        if (task.id === action.id) {
+// then assign to a new property &amp;quot;completed&amp;quot; the &amp;quot;true&amp;quot; value
+          return { ...task, completed: true }
+        } else {
+// otherwise, return the task object
+          return task
+        }
+      })
+
+    default:
+      return state;
+  }
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You are right! From now there are already three properties (id, title and completed) that belong to the &lt;code&gt;task&lt;/code&gt; object. To use the completed property, we are going to &lt;code&gt;Task.js&lt;/code&gt; component and write the &lt;code&gt;if-statement&lt;/code&gt;: if &lt;code&gt;task.completed&lt;/code&gt; is &lt;code&gt;true&lt;/code&gt; then we assign the &lt;code&gt;.completed&lt;/code&gt; class name style to this task:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;
+// my-daily-todos/src/Tasks/Task.js
+
+import React from &#39;react&#39;;
+
+export const Task = ({task, completeTask}) =&amp;gt; {
+
+// add the &amp;quot;if-statement&amp;quot;
+  return &amp;lt;div className={`${task.completed ? &#39;completed&#39; : &#39;&#39;}`} onClick={e =&amp;gt; completeTask(task.id)}&amp;gt;
+    {task.title}
+  &amp;lt;/div&amp;gt;
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Lastly, we have to add &lt;code&gt;line-through&lt;/code&gt; style to &lt;code&gt;.completed&lt;/code&gt; class into &lt;code&gt;App.css&lt;/code&gt;, because we want to mark the completed task by crossing out that:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;// my-daily-todos/src/App.css
+
+...
+.tasklist-container ul li .completed{
+  text-decoration: line-through;
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The results of creating tasks and completing tasks are shown below:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://ilonacodes.github.io/blog/images/add-tasks.png&#34; alt=&#34;Add tasks:&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://ilonacodes.github.io/blog/images/complete-tasks.png&#34; alt=&#34;Complete tasks:&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Congratulations! You finished the second feature for our app. To watch how it works in the browser, just run the localhost server by typing &lt;code&gt;npm start&lt;/code&gt; in your terminal inside the &lt;code&gt;my-daily-todos&lt;/code&gt; folder.&lt;/p&gt;
+
+&lt;p&gt;Thank you for the reading. I hope you find useful the React+Redux tutorial series!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>The First User Story, The First Feature With React&#43;Redux</title>
       <link>https://ilonacodes.github.io/blog/the-first-user-story-the-first-feature/</link>
       <pubDate>Thu, 21 Sep 2017 19:30:05 +0100</pubDate>

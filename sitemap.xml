@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://ilonacodes.github.io/blog/complete-some-tasks-with-react-redux/</loc>
+    <lastmod>2017-09-26T19:30:05+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ilonacodes.github.io/blog/the-first-user-story-the-first-feature/</loc>
     <lastmod>2017-09-21T19:30:05+01:00</lastmod>
   </url>
@@ -55,13 +60,13 @@
   
   <url>
     <loc>https://ilonacodes.github.io/tags/beginners/</loc>
-    <lastmod>2017-09-21T19:30:05+01:00</lastmod>
+    <lastmod>2017-09-26T19:30:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ilonacodes.github.io/blog/</loc>
-    <lastmod>2017-09-21T19:30:05+01:00</lastmod>
+    <lastmod>2017-09-26T19:30:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -73,7 +78,7 @@
   
   <url>
     <loc>https://ilonacodes.github.io/tags/coding/</loc>
-    <lastmod>2017-09-21T19:30:05+01:00</lastmod>
+    <lastmod>2017-09-26T19:30:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -97,7 +102,7 @@
   
   <url>
     <loc>https://ilonacodes.github.io/</loc>
-    <lastmod>2017-09-21T19:30:05+01:00</lastmod>
+    <lastmod>2017-09-26T19:30:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -115,19 +120,19 @@
   
   <url>
     <loc>https://ilonacodes.github.io/tags/learntocode/</loc>
-    <lastmod>2017-09-21T19:30:05+01:00</lastmod>
+    <lastmod>2017-09-26T19:30:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ilonacodes.github.io/tags/letsgetcoding/</loc>
-    <lastmod>2017-09-21T19:30:05+01:00</lastmod>
+    <lastmod>2017-09-26T19:30:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ilonacodes.github.io/tags/react/</loc>
-    <lastmod>2017-09-21T19:30:05+01:00</lastmod>
+    <lastmod>2017-09-26T19:30:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -139,13 +144,13 @@
   
   <url>
     <loc>https://ilonacodes.github.io/tags/reactjs/</loc>
-    <lastmod>2017-09-21T19:30:05+01:00</lastmod>
+    <lastmod>2017-09-26T19:30:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ilonacodes.github.io/tags/redux/</loc>
-    <lastmod>2017-09-21T19:30:05+01:00</lastmod>
+    <lastmod>2017-09-26T19:30:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -180,13 +185,13 @@
   
   <url>
     <loc>https://ilonacodes.github.io/tags/user/</loc>
-    <lastmod>2017-09-21T19:30:05+01:00</lastmod>
+    <lastmod>2017-09-26T19:30:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ilonacodes.github.io/tags/userstory/</loc>
-    <lastmod>2017-09-21T19:30:05+01:00</lastmod>
+    <lastmod>2017-09-26T19:30:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
