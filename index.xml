@@ -6,13 +6,13 @@
     <description>Recent content on Ilona Who Codes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 30 Sep 2017 18:30:05 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 01 Oct 2017 19:30:05 +0100</lastBuildDate>
     <atom:link href="https://ilonacodes.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Categorize tasks with React&#43;Redux</title>
       <link>https://ilonacodes.github.io/blog/categorize-tasks-with-react-redux/</link>
-      <pubDate>Sat, 30 Sep 2017 18:30:05 +0100</pubDate>
+      <pubDate>Sun, 01 Oct 2017 19:30:05 +0100</pubDate>
       
       <guid>https://ilonacodes.github.io/blog/categorize-tasks-with-react-redux/</guid>
       <description>&lt;p&gt;The most valuable feature set for our Daily ToDo is already done. Today we are going to make an app more functional, separating tasks by categories. We want to be able to categorize task by typing &lt;code&gt;#&lt;/code&gt; and category after its title.&lt;/p&gt;
