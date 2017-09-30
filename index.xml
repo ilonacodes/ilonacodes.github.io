@@ -6,8 +6,168 @@
     <description>Recent content on Ilona Who Codes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 26 Sep 2017 19:30:05 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 30 Sep 2017 18:30:05 +0100</lastBuildDate>
     <atom:link href="https://ilonacodes.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Categorize tasks with React&#43;Redux</title>
+      <link>https://ilonacodes.github.io/blog/categorize-tasks-with-react-redux/</link>
+      <pubDate>Sat, 30 Sep 2017 18:30:05 +0100</pubDate>
+      
+      <guid>https://ilonacodes.github.io/blog/categorize-tasks-with-react-redux/</guid>
+      <description>&lt;p&gt;The most valuable feature set for our Daily ToDo is already done. Today we are going to make an app more functional, separating tasks by categories. We want to be able to categorize task by typing &lt;code&gt;#&lt;/code&gt; and category after its title.&lt;/p&gt;
+
+&lt;p&gt;For example: &lt;code&gt;practice a coding kata #programming&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;As always, we start with the simple &lt;code&gt;user story&lt;/code&gt; and the &lt;code&gt;acceptance criteria&lt;/code&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;As Bob
+I want to categorize tasks by adding tag into input
+So I see which task belongs to which category
+
+## Acceptance Criteria
+
+Given there are no tasks
+And I am on dashboard screen
+When I finish inputting a new task title
+And choose the category (tag) for a task
+And press Enter
+Then I see the categorized task by tag on the dashboard screen
+
+Tag examples: Programming, Sport, Languages, University, Reading, Routine
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;span style=&#34;color:red&#34;&gt;If you are a new reader of the tutorial series and don&amp;rsquo;t understand what is going on at the moment, then just check the previous posts starting with &lt;a href=&#34;http://www.ilonacodes.com/blog/react-for-very-very-beginners/&#34;&gt;React For Very Very Beginners&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;To add this feature,  we should extend the action &lt;code&gt;ADD_TASK&lt;/code&gt; in &lt;code&gt;reducers.js&lt;/code&gt; and add &lt;code&gt;tag&lt;/code&gt; property to a &lt;code&gt;task&lt;/code&gt; object by separating a &lt;code&gt;title&lt;/code&gt; into parts:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;// my-daily-todos/src/Tasks/reducers.js
+
+...
+// As I mentioned before we will change only &amp;quot;ADD_TASK&amp;quot; action in &amp;quot;tasksReducer&amp;quot;
+
+case t.ADD_TASK:
+
+// split a title by &amp;quot;#&amp;quot; into two parts
+      const titleParts = action.title.split(&#39;#&#39;)
+
+// the first part is a title task, where &amp;quot;trim&amp;quot; method removes whitespace from both ends of a string
+      const title = titleParts[0].trim()
+
+// the second part is a tag
+      const tag = titleParts[1]
+
+      return [
+        ...state,
+
+// now the &amp;quot;task&amp;quot; object contains three properties: id, title, and tag
+        {
+          id: generateID(),
+          title: title,
+          tag: tag
+        }
+      ]
+...
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;span style=&#34;color:red&#34;&gt;As usual, change into &lt;code&gt;my-daily-todos&lt;/code&gt; folder in your &lt;code&gt;workspace&lt;/code&gt; via your terminal and open the project in your favorite editor to continue implementing a new feature.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;The next step is to create a new component &lt;code&gt;TaskCategory.js&lt;/code&gt; in &lt;code&gt;Tasks&lt;/code&gt; folder that will contain and use &lt;code&gt;Task.js&lt;/code&gt; component.&lt;/p&gt;
+
+&lt;p&gt;You heard that right, &lt;code&gt;Task.js&lt;/code&gt; component is &lt;code&gt;moving&lt;/code&gt; from &lt;code&gt;TaskList.js&lt;/code&gt; component into &lt;code&gt;TaskCategory.js&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Now the &lt;code&gt;TaskList.js&lt;/code&gt; will include &lt;code&gt;TaskCategory.js&lt;/code&gt; instead of &lt;code&gt;Task.js&lt;/code&gt;. That is because we have extended the task object by a category and the &lt;code&gt;TaskList.js&lt;/code&gt; component renders all tasks that have been created through the user input field:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;// my-daily-todos/src/Tasks/TaskCategory.js
+
+import React from &#39;react&#39;;
+
+// import `Task.js` component
+import { Task } from &#39;./Task.js&#39;;
+
+// add states and actions into TaskCategory.js to handle them
+export const TaskCategory = ({category, tasks, completeTask}) =&amp;gt; {
+  return &amp;lt;div&amp;gt;
+// the &amp;quot;category&amp;quot; will render a &amp;quot;tag&amp;quot; name and sort tasks by tags
+    &amp;lt;h2&amp;gt;{category}&amp;lt;/h2&amp;gt;
+
+// take and add here this code snippet from &amp;quot;TaskList.js&amp;quot;
+    &amp;lt;ul&amp;gt;
+    {tasks.map(task =&amp;gt;
+      &amp;lt;li key={task.id}&amp;gt;
+        &amp;lt;Task task={task} completeTask={completeTask} /&amp;gt;
+      &amp;lt;/li&amp;gt;
+    )}
+    &amp;lt;/ul&amp;gt;
+  &amp;lt;/div&amp;gt;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The last changes what we have to do:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;To pass the &lt;code&gt;TaskCategory.js&lt;/code&gt; component into the &lt;code&gt;TaskList.js&lt;/code&gt; component;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;To write &lt;code&gt;unique&lt;/code&gt; function to categorize created tasks without any task duplication in a category;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;To filter tasks by a &lt;code&gt;tag&lt;/code&gt; that is equal to a &lt;code&gt;category&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;To make all things work, open the &lt;code&gt;TaskList.js&lt;/code&gt; component and rewrite a little bit of code there:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;// my-daily-todos/src/Tasks/TaskList.js
+
+import React, { Component } from &#39;react&#39;;
+import { connect } from &#39;react-redux&#39;;
+
+// import &amp;quot;TaskCategory.js&amp;quot; component
+import { TaskCategory } from &#39;./TaskCategory.js&#39;;
+
+import { Task } from &#39;./Task.js&#39;;
+import { actions } from &#39;./actions&#39;;
+
+// create the &amp;quot;unique&amp;quot; method that will take &amp;quot;array&amp;quot; as an argument, remove duplicate values from an array, and return a new array
+const unique = array =&amp;gt; {
+  return array.filter((item, index) =&amp;gt; {
+    return array.indexOf(item) === index
+  })
+}
+
+const TaskListComponent = ({tasks, completeTask}) =&amp;gt; {
+
+// apply the &amp;quot;unique&amp;quot; function for the categories array
+  const categories = unique(tasks.map(task =&amp;gt; task.tag))
+
+  return &amp;lt;div className=&amp;quot;tasklist-container&amp;quot;&amp;gt;
+// make a list for every of user category and pass the &amp;quot;TaskCategory.js&amp;quot; component here
+    {categories.map(category =&amp;gt;
+      &amp;lt;TaskCategory
+        key={category}
+        category={category}
+        completeTask={completeTask}
+
+// filter array of tasks that will manage by a tag to a category
+        tasks = {tasks.filter(task =&amp;gt; task.tag === category)}
+      /&amp;gt;
+    )}
+  &amp;lt;/div&amp;gt;
+}
+...
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The result in the case of the categorize tasks is shown here:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://ilonacodes.github.io/blog/images/read-a-book-category.png&#34; alt=&#34;Read a book&#34; /&gt;
+&lt;img src=&#34;https://ilonacodes.github.io/blog/images/do-yoga-category.png&#34; alt=&#34;Do yoga&#34; /&gt;
+&lt;img src=&#34;https://ilonacodes.github.io/blog/images/categories.png&#34; alt=&#34;Categories&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Before moving on, I hope you enjoyed and understand how to categorize tasks with &lt;code&gt;React+Redux&lt;/code&gt; and ready to the next challenge (new feature) for our interactive Daily ToDo app.&lt;/p&gt;
+
+&lt;p&gt;Thank you for the reading. If you have any questions or suggestions how it should have written on, then just get in touch with me either per &lt;a href=&#34;mailto:demiluri@gmail.com&#34;&gt;email&lt;/a&gt; or on my &lt;a href=&#34;https://www.instagram.com/ilonacodes/&#34;&gt;Instagram profile&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Let&#39;s complete some tasks with React&#43;Redux</title>

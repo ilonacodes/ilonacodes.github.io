@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# website: http://ogp.me/ns/website#">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta name="description" content="Today we are going to make an app more functional, separating tasks by categories.">
+    <meta property="og:title" content="Categorize tasks with React&#43;Redux">
+    
+    <meta property="og:type" content="article">
+    <meta property="article:published_time" content="2017-09-30">
+    
+    <meta property="og:description" content="Today we are going to make an app more functional, separating tasks by categories.">
+    <meta property="og:url" content="https://ilonacodes.github.io/blog/categorize-tasks-with-react-redux/">
+    <meta property="og:site_name" content="Ilona Who Codes">
+    
+    <meta property="og:tags" content="react">
+    
+    <meta property="og:tags" content="reactjs">
+    
+    <meta property="og:tags" content="redux">
+    
+    <meta property="og:tags" content="learntocode">
+    
+    <meta property="og:tags" content="beginners">
+    
+    <meta property="og:tags" content="coding">
+    
+    <meta property="og:tags" content="letsgetcoding">
+    
+    <meta property="og:tags" content="user">
+    
+    <meta property="og:tags" content="category">
+    
+    <meta property="og:tags" content="userstory">
+    
+    <meta name="generator" content="Hugo 0.19" />
+    <title>Categorize tasks with React&#43;Redux &middot; Ilona Who Codes</title>
+    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/styles/default.min.css">
+    
+    <link rel="stylesheet" href="https://ilonacodes.github.io/css/style.css">
+    
+    <link href="" rel="alternate" type="application/rss+xml" title="Ilona Who Codes" />
+    
+    
+    <link rel="icon" href="https://ilonacodes.github.io/favicon.ico" />
+    
+
+    
+    
+</head>
+<body>
+
+
+<div class="blog-link">
+	<a href="/">ilonacodes</a>
+	<a href="/blog">read my blog</a>
+	<a href="/">about me</a>
+</div>
+
+<div class="container-fluid">
+	<div class="row">
+		<div id="content" class="col-xs-12 col-sm-12 col-md-12">
+			<div class="row">
+				<div class="paper">
+					<div id="post" class="col-sm-offset-1 col-sm-10 col-md-10 col-lg-10">
+
+
+<main>
+	<header>
+		<h1>Categorize tasks with React&#43;Redux</h1>
+	</header>
+
+	<article>
+		<p>The most valuable feature set for our Daily ToDo is already done. Today we are going to make an app more functional, separating tasks by categories. We want to be able to categorize task by typing <code>#</code> and category after its title.</p>
+
+<p>For example: <code>practice a coding kata #programming</code>.</p>
+
+<p>As always, we start with the simple <code>user story</code> and the <code>acceptance criteria</code>:</p>
+
+<pre><code>As Bob
+I want to categorize tasks by adding tag into input
+So I see which task belongs to which category
+
+## Acceptance Criteria
+
+Given there are no tasks
+And I am on dashboard screen
+When I finish inputting a new task title
+And choose the category (tag) for a task
+And press Enter
+Then I see the categorized task by tag on the dashboard screen
+
+Tag examples: Programming, Sport, Languages, University, Reading, Routine
+</code></pre>
+
+<p><span style="color:red">If you are a new reader of the tutorial series and don&rsquo;t understand what is going on at the moment, then just check the previous posts starting with <a href="http://www.ilonacodes.com/blog/react-for-very-very-beginners/">React For Very Very Beginners</a></span></p>
+
+<p>To add this feature,  we should extend the action <code>ADD_TASK</code> in <code>reducers.js</code> and add <code>tag</code> property to a <code>task</code> object by separating a <code>title</code> into parts:</p>
+
+<pre><code class="language-javascript">// my-daily-todos/src/Tasks/reducers.js
+
+...
+// As I mentioned before we will change only &quot;ADD_TASK&quot; action in &quot;tasksReducer&quot;
+
+case t.ADD_TASK:
+
+// split a title by &quot;#&quot; into two parts
+      const titleParts = action.title.split('#')
+
+// the first part is a title task, where &quot;trim&quot; method removes whitespace from both ends of a string
+      const title = titleParts[0].trim()
+
+// the second part is a tag
+      const tag = titleParts[1]
+
+      return [
+        ...state,
+
+// now the &quot;task&quot; object contains three properties: id, title, and tag
+        {
+          id: generateID(),
+          title: title,
+          tag: tag
+        }
+      ]
+...
+
+</code></pre>
+
+<p><span style="color:red">As usual, change into <code>my-daily-todos</code> folder in your <code>workspace</code> via your terminal and open the project in your favorite editor to continue implementing a new feature.</span></p>
+
+<p>The next step is to create a new component <code>TaskCategory.js</code> in <code>Tasks</code> folder that will contain and use <code>Task.js</code> component.</p>
+
+<p>You heard that right, <code>Task.js</code> component is <code>moving</code> from <code>TaskList.js</code> component into <code>TaskCategory.js</code>.</p>
+
+<p>Now the <code>TaskList.js</code> will include <code>TaskCategory.js</code> instead of <code>Task.js</code>. That is because we have extended the task object by a category and the <code>TaskList.js</code> component renders all tasks that have been created through the user input field:</p>
+
+<pre><code class="language-javascript">// my-daily-todos/src/Tasks/TaskCategory.js
+
+import React from 'react';
+
+// import `Task.js` component
+import { Task } from './Task.js';
+
+// add states and actions into TaskCategory.js to handle them
+export const TaskCategory = ({category, tasks, completeTask}) =&gt; {
+  return &lt;div&gt;
+// the &quot;category&quot; will render a &quot;tag&quot; name and sort tasks by tags
+    &lt;h2&gt;{category}&lt;/h2&gt;
+
+// take and add here this code snippet from &quot;TaskList.js&quot;
+    &lt;ul&gt;
+    {tasks.map(task =&gt;
+      &lt;li key={task.id}&gt;
+        &lt;Task task={task} completeTask={completeTask} /&gt;
+      &lt;/li&gt;
+    )}
+    &lt;/ul&gt;
+  &lt;/div&gt;
+}
+</code></pre>
+
+<p>The last changes what we have to do:</p>
+
+<ol>
+<li><p>To pass the <code>TaskCategory.js</code> component into the <code>TaskList.js</code> component;</p></li>
+
+<li><p>To write <code>unique</code> function to categorize created tasks without any task duplication in a category;</p></li>
+
+<li><p>To filter tasks by a <code>tag</code> that is equal to a <code>category</code>.</p></li>
+</ol>
+
+<p>To make all things work, open the <code>TaskList.js</code> component and rewrite a little bit of code there:</p>
+
+<pre><code class="language-javascript">// my-daily-todos/src/Tasks/TaskList.js
+
+import React, { Component } from 'react';
+import { connect } from 'react-redux';
+
+// import &quot;TaskCategory.js&quot; component
+import { TaskCategory } from './TaskCategory.js';
+
+import { Task } from './Task.js';
+import { actions } from './actions';
+
+// create the &quot;unique&quot; method that will take &quot;array&quot; as an argument, remove duplicate values from an array, and return a new array
+const unique = array =&gt; {
+  return array.filter((item, index) =&gt; {
+    return array.indexOf(item) === index
+  })
+}
+
+const TaskListComponent = ({tasks, completeTask}) =&gt; {
+
+// apply the &quot;unique&quot; function for the categories array
+  const categories = unique(tasks.map(task =&gt; task.tag))
+
+  return &lt;div className=&quot;tasklist-container&quot;&gt;
+// make a list for every of user category and pass the &quot;TaskCategory.js&quot; component here
+    {categories.map(category =&gt;
+      &lt;TaskCategory
+        key={category}
+        category={category}
+        completeTask={completeTask}
+
+// filter array of tasks that will manage by a tag to a category
+        tasks = {tasks.filter(task =&gt; task.tag === category)}
+      /&gt;
+    )}
+  &lt;/div&gt;
+}
+...
+
+</code></pre>
+
+<p>The result in the case of the categorize tasks is shown here:</p>
+
+<p><img src="/blog/images/read-a-book-category.png" alt="Read a book" />
+<img src="/blog/images/do-yoga-category.png" alt="Do yoga" />
+<img src="/blog/images/categories.png" alt="Categories" /></p>
+
+<p>Before moving on, I hope you enjoyed and understand how to categorize tasks with <code>React+Redux</code> and ready to the next challenge (new feature) for our interactive Daily ToDo app.</p>
+
+<p>Thank you for the reading. If you have any questions or suggestions how it should have written on, then just get in touch with me either per <a href="mailto:demiluri@gmail.com">email</a> or on my <a href="https://www.instagram.com/ilonacodes/">Instagram profile</a>.</p>
+
+	</article>
+</main>
+
+<div id="bottom-nav" class="text-center center-block">
+</div>
+
+
+
+								<div class="footer-copy" style="text-align: center; opacity: 0.6"><p>&copy; 2017 ilonacodes</p></div>
+							</div>
+            </div>
+					</div>
+				</div>
+			</div>
+		</div>
+  </div>
+  
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'code-here', 'auto');
+    ga('send', 'pageview');
+    window.baseURL = "https:\/\/ilonacodes.github.io\/";
+  </script>
+  
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  
+  
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/highlight.min.js"></script>
+  
+  <script src="https://ilonacodes.github.io//js/App.js"></script>
+  
+</body>
+</html>
+
