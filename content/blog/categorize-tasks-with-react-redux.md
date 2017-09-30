@@ -1,10 +1,10 @@
 +++
 css = []
 highlight = true
-date = "2017-10-01T19:30:05+01:00"
+date = "2017-09-30T18:30:05+01:00"
 title = "Categorize tasks with React+Redux"
 tags = ["react", "reactjs", "redux", "learntocode", "beginners", "coding", "letsgetcoding", "user", "category", "userstory"]
-draft = true
+draft = false
 scripts = []
 description = "Today we are going to make an app more functional, separating tasks by categories."
 +++
