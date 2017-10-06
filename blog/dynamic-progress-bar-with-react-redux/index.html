@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# website: http://ogp.me/ns/website#">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta name="description" content="You are going to get to know how to implement a dynamic progress bar that will handle task completing status by percentage for every category.">
+    <meta property="og:title" content="Dynamic progress bar with React&#43;Redux">
+    
+    <meta property="og:type" content="article">
+    <meta property="article:published_time" content="2017-10-06">
+    
+    <meta property="og:description" content="You are going to get to know how to implement a dynamic progress bar that will handle task completing status by percentage for every category.">
+    <meta property="og:url" content="https://ilonacodes.github.io/blog/dynamic-progress-bar-with-react-redux/">
+    <meta property="og:site_name" content="Ilona Who Codes">
+    
+    <meta property="og:tags" content="react">
+    
+    <meta property="og:tags" content="reactjs">
+    
+    <meta property="og:tags" content="redux">
+    
+    <meta property="og:tags" content="learntocode">
+    
+    <meta property="og:tags" content="beginners">
+    
+    <meta property="og:tags" content="coding">
+    
+    <meta property="og:tags" content="letsgetcoding">
+    
+    <meta property="og:tags" content="user">
+    
+    <meta property="og:tags" content="category">
+    
+    <meta property="og:tags" content="userstory">
+    
+    <meta name="generator" content="Hugo 0.19" />
+    <title>Dynamic progress bar with React&#43;Redux &middot; Ilona Who Codes</title>
+    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/styles/default.min.css">
+    
+    <link rel="stylesheet" href="https://ilonacodes.github.io/css/style.css">
+    
+    <link href="" rel="alternate" type="application/rss+xml" title="Ilona Who Codes" />
+    
+    
+    <link rel="icon" href="https://ilonacodes.github.io/favicon.ico" />
+    
+
+    
+    
+</head>
+<body>
+
+
+<div class="blog-link">
+	<a href="/">ilonacodes</a>
+	<a href="/blog">read my blog</a>
+	<a href="/">about me</a>
+</div>
+
+<div class="container-fluid">
+	<div class="row">
+		<div id="content" class="col-xs-12 col-sm-12 col-md-12">
+			<div class="row">
+				<div class="paper">
+					<div id="post" class="col-sm-offset-1 col-sm-10 col-md-10 col-lg-10">
+
+
+<main>
+	<header>
+		<h1>Dynamic progress bar with React&#43;Redux</h1>
+	</header>
+
+	<article>
+		<p>Hi there! I am so happy that you continue developing our interactive Daily ToDo app with me. Today you are going to get to know how to implement a dynamic progress bar that will handle task completing status by percentage for every category.</p>
+
+<p><span style="color:red">But before moving on, if you are new here, please, have a look at the <a href="http://www.ilonacodes.com/blog/react-for-very-very-beginners/">previous posts</a>. You should start developing app there and then continue with us here.</span></p>
+
+<p>And now I would like to offer my approach how to add a simple but dynamic progress bar to every task category and finally, make our Daily ToDo app interactive.</p>
+
+<p>Let&rsquo;s change into <code>my-daily-todos</code> folder and start developing!</p>
+
+<p>Firstly, I recommend you to add a small library <code>w3.css</code> to our <code>index.html</code> where we store all style dependencies:</p>
+
+<pre><code class="language-html">
+// my-daily-todos/public/index.html
+
+&lt;!doctype html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+  &lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1, shrink-to-fit=no&quot;&gt;
+
+    &lt;link rel=&quot;manifest&quot; href=&quot;%PUBLIC_URL%/manifest.json&quot;&gt;
+
+// just add this library
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://www.w3schools.com/w3css/4/w3.css&quot;&gt;
+
+    &lt;title&gt;React App&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;div id=&quot;root&quot;&gt;&lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+
+</code></pre>
+
+<p><span style="color:red">If you open your <code>index.html</code> for the first time, you&rsquo;ll notice, that there lots of comments and some initial link tags. In this case, you can just rewrite your <code>index.html</code> in the way that I left above.</span></p>
+
+<p>The dynamic progress bar belongs to the <code>TaskCategory.js</code> component. That&rsquo;s why we have to open this file and step by step implement the new feature:</p>
+
+<ol>
+<li><p>To initialize <code>completed_tasks</code> constant, that will filter <code>tasks</code> by <code>completed</code> property and store them in;</p></li>
+
+<li><p>To initialize <code>percentage</code> constant to count the percentage of completed tasks with a simple formula and to round it with <code>floor</code> method;</p></li>
+
+<li><p>Apply classes from the <code>w3.css</code> library for tags inside the <code>TaskCategory.js</code> component and pass the value of <code>percentage</code>;</p></li>
+</ol>
+
+<pre><code class="language-javascript">
+// my-daily-todos/src/Tasks/TaskCategory.js
+
+...
+export const TaskCategory = ({category, tasks, completeTask}) =&gt; {
+
+// Step 1
+  const completed_tasks = tasks.filter(task =&gt; task.completed);
+
+// Step 2
+  const percentage = Math.floor(completed_tasks.length / tasks.length * 100);
+
+  return &lt;div&gt;
+    &lt;h2&gt;{category}&lt;/h2&gt;
+
+// Step 3
+      &lt;div className=&quot;w3-light-grey w3-round progress-bar&quot;&gt;
+       &lt;div className=&quot;w3-container w3-round w3-green progress-bar-indicator&quot;
+        style={{width: `${percentage}%`}}&gt;
+        {percentage}%
+       &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;ul&gt;
+    {tasks.map(task =&gt;
+      &lt;li key={task.id}&gt;
+        &lt;Task task={task} completeTask={completeTask} /&gt;
+      &lt;/li&gt;
+    )}
+    &lt;/ul&gt;
+  &lt;/div&gt;
+}
+
+</code></pre>
+
+<p>To make things look good, we should change into <code>App.js</code> and add styles to already created from the <code>w3.css</code> library <code>.progress-bar</code> and <code>.progress-bar-indicator</code> classes:</p>
+
+<pre><code class="language-css">
+// my-daily-todos/src/App.css
+
+...
+
+.taskslist-container .progress-bar {
+   width: 30%;
+   height: 25px;
+   text-align: center;
+   margin-bottom: 1rem;
+   font-size: 11px;
+ }
+
+ .taskslist-container .progress-bar-indicator {
+   height: 25px;
+   padding-top: 5px;
+ }
+
+</code></pre>
+
+<p><span style="color:red">To check how it looks like, don&rsquo;t forget to run a local server by the <code>npm start</code> in the terminal in <code>my-daily-todos</code> folder.</span></p>
+
+<p>You should get something like that at the end:</p>
+
+<p><img src="/blog/images/progress-bar.png" alt="Progress bar" /></p>
+
+<p>Thank you for the reading. Happily, you are enjoying developing with React+Redux and waiting for the next feature description. Have a nice coding!</p>
+
+	</article>
+</main>
+
+<div id="bottom-nav" class="text-center center-block">
+</div>
+
+
+
+								<div class="footer-copy" style="text-align: center; opacity: 0.6"><p>&copy; 2017 ilonacodes</p></div>
+							</div>
+            </div>
+					</div>
+				</div>
+			</div>
+		</div>
+  </div>
+  
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'code-here', 'auto');
+    ga('send', 'pageview');
+    window.baseURL = "https:\/\/ilonacodes.github.io\/";
+  </script>
+  
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  
+  
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/highlight.min.js"></script>
+  
+  <script src="https://ilonacodes.github.io//js/App.js"></script>
+  
+</body>
+</html>
+

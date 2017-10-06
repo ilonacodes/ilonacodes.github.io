@@ -9,6 +9,123 @@
     <atom:link href="https://ilonacodes.github.io/tags/react/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Dynamic progress bar with React&#43;Redux</title>
+      <link>https://ilonacodes.github.io/blog/dynamic-progress-bar-with-react-redux/</link>
+      <pubDate>Fri, 06 Oct 2017 19:30:05 +0100</pubDate>
+      
+      <guid>https://ilonacodes.github.io/blog/dynamic-progress-bar-with-react-redux/</guid>
+      <description>&lt;p&gt;Hi there! I am so happy that you continue developing our interactive Daily ToDo app with me. Today you are going to get to know how to implement a dynamic progress bar that will handle task completing status by percentage for every category.&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&#34;color:red&#34;&gt;But before moving on, if you are new here, please, have a look at the &lt;a href=&#34;http://www.ilonacodes.com/blog/react-for-very-very-beginners/&#34;&gt;previous posts&lt;/a&gt;. You should start developing app there and then continue with us here.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;And now I would like to offer my approach how to add a simple but dynamic progress bar to every task category and finally, make our Daily ToDo app interactive.&lt;/p&gt;
+
+&lt;p&gt;Let&amp;rsquo;s change into &lt;code&gt;my-daily-todos&lt;/code&gt; folder and start developing!&lt;/p&gt;
+
+&lt;p&gt;Firstly, I recommend you to add a small library &lt;code&gt;w3.css&lt;/code&gt; to our &lt;code&gt;index.html&lt;/code&gt; where we store all style dependencies:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;
+// my-daily-todos/public/index.html
+
+&amp;lt;!doctype html&amp;gt;
+&amp;lt;html lang=&amp;quot;en&amp;quot;&amp;gt;
+  &amp;lt;head&amp;gt;
+    &amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt;
+    &amp;lt;meta name=&amp;quot;viewport&amp;quot; content=&amp;quot;width=device-width, initial-scale=1, shrink-to-fit=no&amp;quot;&amp;gt;
+
+    &amp;lt;link rel=&amp;quot;manifest&amp;quot; href=&amp;quot;%PUBLIC_URL%/manifest.json&amp;quot;&amp;gt;
+
+// just add this library
+    &amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;https://www.w3schools.com/w3css/4/w3.css&amp;quot;&amp;gt;
+
+    &amp;lt;title&amp;gt;React App&amp;lt;/title&amp;gt;
+  &amp;lt;/head&amp;gt;
+  &amp;lt;body&amp;gt;
+    &amp;lt;div id=&amp;quot;root&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+  &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;span style=&#34;color:red&#34;&gt;If you open your &lt;code&gt;index.html&lt;/code&gt; for the first time, you&amp;rsquo;ll notice, that there lots of comments and some initial link tags. In this case, you can just rewrite your &lt;code&gt;index.html&lt;/code&gt; in the way that I left above.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;The dynamic progress bar belongs to the &lt;code&gt;TaskCategory.js&lt;/code&gt; component. That&amp;rsquo;s why we have to open this file and step by step implement the new feature:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;To initialize &lt;code&gt;completed_tasks&lt;/code&gt; constant, that will filter &lt;code&gt;tasks&lt;/code&gt; by &lt;code&gt;completed&lt;/code&gt; property and store them in;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;To initialize &lt;code&gt;percentage&lt;/code&gt; constant to count the percentage of completed tasks with a simple formula and to round it with &lt;code&gt;floor&lt;/code&gt; method;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Apply classes from the &lt;code&gt;w3.css&lt;/code&gt; library for tags inside the &lt;code&gt;TaskCategory.js&lt;/code&gt; component and pass the value of &lt;code&gt;percentage&lt;/code&gt;;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;
+// my-daily-todos/src/Tasks/TaskCategory.js
+
+...
+export const TaskCategory = ({category, tasks, completeTask}) =&amp;gt; {
+
+// Step 1
+  const completed_tasks = tasks.filter(task =&amp;gt; task.completed);
+
+// Step 2
+  const percentage = Math.floor(completed_tasks.length / tasks.length * 100);
+
+  return &amp;lt;div&amp;gt;
+    &amp;lt;h2&amp;gt;{category}&amp;lt;/h2&amp;gt;
+
+// Step 3
+      &amp;lt;div className=&amp;quot;w3-light-grey w3-round progress-bar&amp;quot;&amp;gt;
+       &amp;lt;div className=&amp;quot;w3-container w3-round w3-green progress-bar-indicator&amp;quot;
+        style={{width: `${percentage}%`}}&amp;gt;
+        {percentage}%
+       &amp;lt;/div&amp;gt;
+      &amp;lt;/div&amp;gt;
+    &amp;lt;ul&amp;gt;
+    {tasks.map(task =&amp;gt;
+      &amp;lt;li key={task.id}&amp;gt;
+        &amp;lt;Task task={task} completeTask={completeTask} /&amp;gt;
+      &amp;lt;/li&amp;gt;
+    )}
+    &amp;lt;/ul&amp;gt;
+  &amp;lt;/div&amp;gt;
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;To make things look good, we should change into &lt;code&gt;App.js&lt;/code&gt; and add styles to already created from the &lt;code&gt;w3.css&lt;/code&gt; library &lt;code&gt;.progress-bar&lt;/code&gt; and &lt;code&gt;.progress-bar-indicator&lt;/code&gt; classes:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;
+// my-daily-todos/src/App.css
+
+...
+
+.taskslist-container .progress-bar {
+   width: 30%;
+   height: 25px;
+   text-align: center;
+   margin-bottom: 1rem;
+   font-size: 11px;
+ }
+
+ .taskslist-container .progress-bar-indicator {
+   height: 25px;
+   padding-top: 5px;
+ }
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;span style=&#34;color:red&#34;&gt;To check how it looks like, don&amp;rsquo;t forget to run a local server by the &lt;code&gt;npm start&lt;/code&gt; in the terminal in &lt;code&gt;my-daily-todos&lt;/code&gt; folder.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;You should get something like that at the end:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://ilonacodes.github.io/blog/images/progress-bar.png&#34; alt=&#34;Progress bar&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Thank you for the reading. Happily, you are enjoying developing with React+Redux and waiting for the next feature description. Have a nice coding!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Categorize tasks with React&#43;Redux</title>
       <link>https://ilonacodes.github.io/blog/categorize-tasks-with-react-redux/</link>
       <pubDate>Sun, 01 Oct 2017 19:30:05 +0100</pubDate>
