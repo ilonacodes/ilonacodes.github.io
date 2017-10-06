@@ -4,7 +4,7 @@ highlight = true
 date = "2017-10-06T19:30:05+01:00"
 title = "Dynamic progress bar with React+Redux"
 tags = ["react", "reactjs", "redux", "learntocode", "beginners", "coding", "letsgetcoding", "user", "category", "userstory"]
-draft = true
+draft = false
 scripts = []
 description = "You are going to get to know how to implement a dynamic progress bar that will handle task completing status by percentage for every category."
 +++
