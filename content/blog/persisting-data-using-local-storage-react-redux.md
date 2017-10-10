@@ -4,7 +4,7 @@ highlight = true
 date = "2017-10-10T12:30:05+01:00"
 title = "Persisting data using local storage with React+Redux"
 tags = ["react", "reactjs", "redux", "learntocode", "beginners", "coding", "letsgetcoding", "data", "localstorage"]
-draft = true
+draft = false
 scripts = []
 description = "Today I would like to start the topic about persisting the data and restoring it after refreshing the page or starting a new session on the local machine with React+Redux."
 +++
