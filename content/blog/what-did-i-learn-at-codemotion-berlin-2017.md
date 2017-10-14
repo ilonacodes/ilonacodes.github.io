@@ -2,18 +2,18 @@
 css = []
 highlight = true
 date = "2017-10-14T22:30:05+01:00"
-title = "Persisting data using local storage with React+Redux"
+title = "What Did I Learn at Codemotion Berlin 2017"
 tags = ["IT", "codemotion", "learntocode", "conference", "coding", "impression", "berlin"]
 draft = false
 scripts = []
 description = "I am going to tell you about the international IT-conference Codemotion, that I have attended on 12-13. October in Berlin."
 +++
 
-Hi, everyone! 
+Hi, everyone!
 
 As you noticed, I post a new blog post about the development of an interactive ToDo list regularly, every five days. But today I am going to tell you about the international IT-conference [Codemotion](https://berlin2017.codemotionworld.com/), that I have attended on 12-13. October in Berlin.
 
-![Ilona-Codemotion](/blog/images/ilona-codemotion.JPG)
+![Codemotion](/blog/images/codemotion.JPG)
 
 There were a lot of informative and motivational topics, that can inspire everyone, who are interested or work in IT-branch.
 
@@ -28,9 +28,9 @@ The most interesting talks for me as a frontend developer, I included to `My Fav
 
 I would like to share more information about them with you:
 
-## 1. `Frontend Frameworkless Development` by Francesco Strazzullo | exstrategy
+### `Frontend Frameworkless Development` by Francesco Strazzullo | exstrategy
 
-![Speaker-1](/blog/images/speaker-1)
+![Speaker-1](/blog/images/speaker-1.JPG)
 
 The idea of the talk based on the possibility to develop new apps, new features for apps while not using any frameworks. The example code, the empty forms, are written in `Vanilla JavaScript` replacing `React+Redux` frameworks for that.
 
@@ -47,7 +47,7 @@ It's possible to write clean code without using any frameworks. Vanilla JavaScri
 Frameworks might die the following year.
 
 
-## 2. `How to rock the stage: public speaking for geeks` by Lorenzo Barbieri | Microsoft Western Europe
+### `How to rock the stage: public speaking for geeks` by Lorenzo Barbieri | Microsoft Western Europe
 
 I am an introvert.
 
@@ -55,9 +55,9 @@ Naturally, I have found this talk extremely useful for me. It is on how to impro
 
 The slide on the photo below describes some “icebreakers” that allow starting, keeping, and controlling a conversation in life, and on the stage.
 
-![Speaker-2](/blog/images/speaker-2)
+![Speaker-2](/blog/images/speaker-2.JPG)
 
-## 3. `Build bridges, not walls - Design for users across cultures` by Jenny Shen | Toptal
+### `Build bridges, not walls - Design for users across cultures` by Jenny Shen | Toptal
 
 I was lucky to meet and speak personally with the speaker [Jenny Shen](http://jennyshen.com/). They have worked in five countries before and currently are based in Amsterdam.
 
@@ -69,7 +69,7 @@ I have already moved to another country once. I can relate to that so much.
 
 Most of my development projects are for multicultural users. I think it is necessary to know most common obstacles that I could meet on my "development" path.
 
-![Speaker-3](/blog/images/speaker-3)
+![Speaker-3](/blog/images/speaker-3.JPG)
 
 [Codemotion](https://codemotionworld.com/) conferences are worldwide.
 
