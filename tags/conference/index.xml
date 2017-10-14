@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Conference on Ilona Who Codes</title>
+    <link>https://ilonacodes.github.io/tags/conference/index.xml</link>
+    <description>Recent content in Conference on Ilona Who Codes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://ilonacodes.github.io/tags/conference/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>What Did I Learn at Codemotion Berlin 2017</title>
+      <link>https://ilonacodes.github.io/blog/what-did-i-learn-at-codemotion-berlin-2017/</link>
+      <pubDate>Sat, 14 Oct 2017 22:30:05 +0100</pubDate>
+      
+      <guid>https://ilonacodes.github.io/blog/what-did-i-learn-at-codemotion-berlin-2017/</guid>
+      <description>
+
+&lt;p&gt;Hi, everyone!&lt;/p&gt;
+
+&lt;p&gt;As you noticed, I post a new blog post about the development of an interactive ToDo list regularly, every five days. But today I am going to tell you about the international IT-conference &lt;a href=&#34;https://berlin2017.codemotionworld.com/&#34;&gt;Codemotion&lt;/a&gt;, that I have attended on 12-13. October in Berlin.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://ilonacodes.github.io/blog/images/codemotion.JPG&#34; alt=&#34;Codemotion&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;There were a lot of informative and motivational topics, that can inspire everyone, who are interested or work in IT-branch.&lt;/p&gt;
+
+&lt;p&gt;All talks occurred in four different spaces and referred by the topic of the sessions. For example, in &lt;code&gt;Maschinenhaus&lt;/code&gt; speakers gave a speech mostly about technologies and practical approaches that they use. In &lt;code&gt;Community Stage&lt;/code&gt; the talks were related to motivational topics, discussing programming languages.&lt;/p&gt;
+
+&lt;p&gt;Also, there took place &lt;code&gt;Ruby on Rails Workshop&lt;/code&gt;. The full agenda of the conference you can check below:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://ilonacodes.github.io/blog/images/agenda-12-10.jpg&#34; alt=&#34;Agenda-1&#34; /&gt;
+&lt;img src=&#34;https://ilonacodes.github.io/blog/images/agenda-13-10.jpg&#34; alt=&#34;Agenda-2&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The most interesting talks for me as a frontend developer, I included to &lt;code&gt;My Favorites&lt;/code&gt; list.&lt;/p&gt;
+
+&lt;p&gt;I would like to share more information about them with you:&lt;/p&gt;
+
+&lt;h3 id=&#34;frontend-frameworkless-development-by-francesco-strazzullo-exstrategy&#34;&gt;&lt;code&gt;Frontend Frameworkless Development&lt;/code&gt; by Francesco Strazzullo | exstrategy&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://ilonacodes.github.io/blog/images/speaker-1.JPG&#34; alt=&#34;Speaker-1&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The idea of the talk based on the possibility to develop new apps, new features for apps while not using any frameworks. The example code, the empty forms, are written in &lt;code&gt;Vanilla JavaScript&lt;/code&gt; replacing &lt;code&gt;React+Redux&lt;/code&gt; frameworks for that.&lt;/p&gt;
+
+&lt;p&gt;Firstly, the speaker showed us that there is no dependency in &lt;code&gt;package.json&lt;/code&gt; (the file that includes all dependencies and configures the project).&lt;/p&gt;
+
+&lt;p&gt;Then they have implemented the function that is similar to ReactDOM rendering.&lt;/p&gt;
+
+&lt;p&gt;Next, they have replaced Redux features by creating variables &lt;code&gt;store&lt;/code&gt;, &lt;code&gt;state&lt;/code&gt;. They handle the current and calculation of the new state. Finally, they store new state back to &lt;code&gt;store&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;The conclusion.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s possible to write clean code without using any frameworks. Vanilla JavaScript still will be alive for the next tens of years.&lt;/p&gt;
+
+&lt;p&gt;Frameworks might die the following year.&lt;/p&gt;
+
+&lt;h3 id=&#34;how-to-rock-the-stage-public-speaking-for-geeks-by-lorenzo-barbieri-microsoft-western-europe&#34;&gt;&lt;code&gt;How to rock the stage: public speaking for geeks&lt;/code&gt; by Lorenzo Barbieri | Microsoft Western Europe&lt;/h3&gt;
+
+&lt;p&gt;I am an introvert.&lt;/p&gt;
+
+&lt;p&gt;Naturally, I have found this talk extremely useful for me. It is on how to improve my soft skills by speaking not only in front of the people but also with others.&lt;/p&gt;
+
+&lt;p&gt;The slide on the photo below describes some “icebreakers” that allow starting, keeping, and controlling a conversation in life, and on the stage.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://ilonacodes.github.io/blog/images/speaker-2.JPG&#34; alt=&#34;Speaker-2&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;build-bridges-not-walls-design-for-users-across-cultures-by-jenny-shen-toptal&#34;&gt;&lt;code&gt;Build bridges, not walls - Design for users across cultures&lt;/code&gt; by Jenny Shen | Toptal&lt;/h3&gt;
+
+&lt;p&gt;I was lucky to meet and speak personally with the speaker &lt;a href=&#34;http://jennyshen.com/&#34;&gt;Jenny Shen&lt;/a&gt;. They have worked in five countries before and currently are based in Amsterdam.&lt;/p&gt;
+
+&lt;p&gt;Using illustrative examples, Jenny showed us how important it is to know the culture of society you are developing for.&lt;/p&gt;
+
+&lt;p&gt;What kinds of problems can appear in design? Which data should be taken into account to make people of different cultures happy?&lt;/p&gt;
+
+&lt;p&gt;I have already moved to another country once. I can relate to that so much.&lt;/p&gt;
+
+&lt;p&gt;Most of my development projects are for multicultural users. I think it is necessary to know most common obstacles that I could meet on my &amp;ldquo;development&amp;rdquo; path.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://ilonacodes.github.io/blog/images/speaker-3.JPG&#34; alt=&#34;Speaker-3&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://codemotionworld.com/&#34;&gt;Codemotion&lt;/a&gt; conferences are worldwide.&lt;/p&gt;
+
+&lt;p&gt;They are suitable for any professional level of IT-people with different backgrounds. That helps to get to know more about IT-world at its current state.&lt;/p&gt;
+
+&lt;p&gt;It is fantastic to participate in workshops, and network with amazing people.&lt;/p&gt;
+
+&lt;p&gt;Thank you for reading!&lt;/p&gt;
+
+&lt;p&gt;I will be glad to answer any questions about my impression. Feel free to give any feedback for this post.&lt;/p&gt;
+
+&lt;p&gt;You can find me on &lt;a href=&#34;https://www.instagram.com/ilonacodes/&#34;&gt;Instagram&lt;/a&gt; or send me a private letter on my &lt;a href=&#34;mailto:demiluri@gmail.com&#34;&gt;email&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Cheers!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
