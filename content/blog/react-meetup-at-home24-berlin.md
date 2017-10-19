@@ -9,7 +9,7 @@ scripts = []
 description = "In this blog post, I’m going to share my impression about the React.js & React Native meetup in Berlin that I have visited at Home24 today."
 +++
 
-Hey, there! In this blog post, I’m going to share my impression about the React.js & React Native meetup in Berlin that I have visited at Home24 today.
+Hey, there! In this blog post, I’m going to share my impression about the React.js & React Native meetup in Berlin that I have visited at Home24 yesterday.
 
 If you still didn't have a look at the topic of my blog, so, as you noticed from the title, I am interested in front-end development and at the moments specialized in the JavaScript language and especially in React framework.
 
