@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Meetup on Ilona Who Codes</title>
+    <link>https://ilonacodes.github.io/tags/meetup/index.xml</link>
+    <description>Recent content in Meetup on Ilona Who Codes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://ilonacodes.github.io/tags/meetup/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>React.js &amp; React Native Meetup at Home24 in Berlin</title>
+      <link>https://ilonacodes.github.io/blog/react-meetup-at-home24-berlin/</link>
+      <pubDate>Thu, 19 Oct 2017 08:30:05 +0100</pubDate>
+      
+      <guid>https://ilonacodes.github.io/blog/react-meetup-at-home24-berlin/</guid>
+      <description>&lt;p&gt;Hey, there! In this blog post, I’m going to share my impression about the React.js &amp;amp; React Native meetup in Berlin that I have visited at Home24 today.&lt;/p&gt;
+
+&lt;p&gt;If you still didn&amp;rsquo;t have a look at the topic of my blog, so, as you noticed from the title, I am interested in front-end development and at the moments specialized in the JavaScript language and especially in React framework.&lt;/p&gt;
+
+&lt;p&gt;Close to the point, I would like to tell you a couple of words about the last meetup.&lt;/p&gt;
+
+&lt;p&gt;Traditionally, there were three talks, breaks, pizza+bier, and, definitely, the opportunity for networking and communicating with each other.&lt;/p&gt;
+
+&lt;p&gt;Now I’m going to tell you about the talks.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://ilonacodes.github.io/blog/images/react-meetup-1.jpg&#34; alt=&#34;Photo-1&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The first speaker, Shahjada Talukdar, Frontend Engineer at Perdoo presented &lt;code&gt;Build your dream app with CRA (Create React App)&lt;/code&gt;:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;How to build a simple app with Create React App (CRA) using the simple command &lt;code&gt;create-react-app name&lt;/code&gt; in the terminal;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;How to start/build/eject with &lt;a href=&#34;https://yarnpkg.com/lang/en/&#34;&gt;yarn&lt;/a&gt; that serving local and on network;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Why we should be using &lt;a href=&#34;https://developers.google.com/web/fundamentals/primers/service-workers/?hl=en&#34;&gt;service worker&lt;/a&gt; that controls what happens on a request-by-request basis and also allows React apps working offline.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://ilonacodes.github.io/blog/images/react-meetup-2.jpg&#34; alt=&#34;Photo-2&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The second talk called &lt;code&gt;React SSR featuring AWS Lambda&lt;/code&gt; by George Lolos, Frontend Squad Leader at Home24 AG.&lt;/p&gt;
+
+&lt;p&gt;The talk is about how to improve the performance, how to structure React app and how to solve small problems in front-end part. They’ve also told us about React SSR (Server Side Rendering).&lt;/p&gt;
+
+&lt;p&gt;React SSR renders basic pages, and AWS Lambda runs code without managing servers. And the biggest challenge was the massive size of Lambda. So, the speaker shared with us approaches how to minify it and the result that they have achieved.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://ilonacodes.github.io/blog/images/react-meetup-3.jpg&#34; alt=&#34;Photo-3&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Last but not least, the third talk &lt;code&gt;Beyond JavaScript: The Hidden Benefit of React Native&lt;/code&gt; by Wojciech Ogrodowczyk, Partner at Brains &amp;amp; Beards.&lt;/p&gt;
+
+&lt;p&gt;The talk refers to choosing an optimal programming language to optimize and to improve the performance of the code. The speaker also mentioned an approach how to solve the language problem.&lt;/p&gt;
+
+&lt;p&gt;For example, by dividing the team into groups. Then every group should decide which programming language they will choose.&lt;/p&gt;
+
+&lt;p&gt;Then they will implement a small project during the next couple of months. In the end, they will compare the performance of every group relative to each other.&lt;/p&gt;
+
+&lt;p&gt;However, we shouldn&amp;rsquo;t forget that in computer science everything depends on team skills, personality, and other things.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://ilonacodes.github.io/blog/images/react-meetup-4.jpg&#34; alt=&#34;Photo-4&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I have shared my thoughts and opinions above on how I understood the topics of the talks.&lt;/p&gt;
+
+&lt;p&gt;If you are located close to where React.js &amp;amp; React Native community meets and interested in front-end, then I highly recommend you to visit such meetings and get to learn more about it from competent people.&lt;/p&gt;
+
+&lt;p&gt;Thank you for the reading! Have a nice week!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

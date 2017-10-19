@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://ilonacodes.github.io/blog/react-meetup-at-home24-berlin/</loc>
+    <lastmod>2017-10-19T08:30:05+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ilonacodes.github.io/blog/what-did-i-learn-at-codemotion-berlin-2017/</loc>
     <lastmod>2017-10-14T22:30:05+01:00</lastmod>
   </url>
@@ -86,13 +91,13 @@
   
   <url>
     <loc>https://ilonacodes.github.io/tags/berlin/</loc>
-    <lastmod>2017-10-14T22:30:05+01:00</lastmod>
+    <lastmod>2017-10-19T08:30:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ilonacodes.github.io/blog/</loc>
-    <lastmod>2017-10-14T22:30:05+01:00</lastmod>
+    <lastmod>2017-10-19T08:30:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -116,7 +121,7 @@
   
   <url>
     <loc>https://ilonacodes.github.io/tags/coding/</loc>
-    <lastmod>2017-10-14T22:30:05+01:00</lastmod>
+    <lastmod>2017-10-19T08:30:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -152,7 +157,7 @@
   
   <url>
     <loc>https://ilonacodes.github.io/</loc>
-    <lastmod>2017-10-14T22:30:05+01:00</lastmod>
+    <lastmod>2017-10-19T08:30:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -163,8 +168,14 @@
   </url>
   
   <url>
+    <loc>https://ilonacodes.github.io/tags/inspiration/</loc>
+    <lastmod>2017-10-19T08:30:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ilonacodes.github.io/tags/it/</loc>
-    <lastmod>2017-10-14T22:30:05+01:00</lastmod>
+    <lastmod>2017-10-19T08:30:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -182,7 +193,7 @@
   
   <url>
     <loc>https://ilonacodes.github.io/tags/learntocode/</loc>
-    <lastmod>2017-10-14T22:30:05+01:00</lastmod>
+    <lastmod>2017-10-19T08:30:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -195,6 +206,12 @@
   <url>
     <loc>https://ilonacodes.github.io/tags/localstorage/</loc>
     <lastmod>2017-10-10T12:30:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ilonacodes.github.io/tags/meetup/</loc>
+    <lastmod>2017-10-19T08:30:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -248,6 +265,12 @@
   
   <url>
     <loc>https://ilonacodes.github.io/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ilonacodes.github.io/tags/talk/</loc>
+    <lastmod>2017-10-19T08:30:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
