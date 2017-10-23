@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://ilonacodes.github.io/blog/ada-lovelace-festival-2017-in-berlin/</loc>
+    <lastmod>2017-10-23T07:00:05+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ilonacodes.github.io/blog/react-meetup-at-home24-berlin/</loc>
     <lastmod>2017-10-19T08:30:05+01:00</lastmod>
   </url>
@@ -91,13 +96,13 @@
   
   <url>
     <loc>https://ilonacodes.github.io/tags/berlin/</loc>
-    <lastmod>2017-10-19T08:30:05+01:00</lastmod>
+    <lastmod>2017-10-23T07:00:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ilonacodes.github.io/blog/</loc>
-    <lastmod>2017-10-19T08:30:05+01:00</lastmod>
+    <lastmod>2017-10-23T07:00:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -121,13 +126,13 @@
   
   <url>
     <loc>https://ilonacodes.github.io/tags/coding/</loc>
-    <lastmod>2017-10-19T08:30:05+01:00</lastmod>
+    <lastmod>2017-10-23T07:00:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ilonacodes.github.io/tags/conference/</loc>
-    <lastmod>2017-10-14T22:30:05+01:00</lastmod>
+    <lastmod>2017-10-23T07:00:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -157,7 +162,7 @@
   
   <url>
     <loc>https://ilonacodes.github.io/</loc>
-    <lastmod>2017-10-19T08:30:05+01:00</lastmod>
+    <lastmod>2017-10-23T07:00:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -169,13 +174,13 @@
   
   <url>
     <loc>https://ilonacodes.github.io/tags/inspiration/</loc>
-    <lastmod>2017-10-19T08:30:05+01:00</lastmod>
+    <lastmod>2017-10-23T07:00:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ilonacodes.github.io/tags/it/</loc>
-    <lastmod>2017-10-19T08:30:05+01:00</lastmod>
+    <lastmod>2017-10-23T07:00:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -193,7 +198,7 @@
   
   <url>
     <loc>https://ilonacodes.github.io/tags/learntocode/</loc>
-    <lastmod>2017-10-19T08:30:05+01:00</lastmod>
+    <lastmod>2017-10-23T07:00:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -211,7 +216,7 @@
   
   <url>
     <loc>https://ilonacodes.github.io/tags/meetup/</loc>
-    <lastmod>2017-10-19T08:30:05+01:00</lastmod>
+    <lastmod>2017-10-23T07:00:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -270,7 +275,7 @@
   
   <url>
     <loc>https://ilonacodes.github.io/tags/talk/</loc>
-    <lastmod>2017-10-19T08:30:05+01:00</lastmod>
+    <lastmod>2017-10-23T07:00:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -283,6 +288,12 @@
   <url>
     <loc>https://ilonacodes.github.io/tags/userstory/</loc>
     <lastmod>2017-10-06T19:30:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ilonacodes.github.io/tags/womenintech/</loc>
+    <lastmod>2017-10-23T07:00:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
