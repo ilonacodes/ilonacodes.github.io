@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Category on Ilona Who Codes</title>
-    <link>https://ilonacodes.github.io/tags/category/index.xml</link>
+    <link>http://www.ilonacodes.com/tags/category/index.xml</link>
     <description>Recent content in Category on Ilona Who Codes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="https://ilonacodes.github.io/tags/category/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.ilonacodes.com/tags/category/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Dynamic progress bar with React&#43;Redux</title>
-      <link>https://ilonacodes.github.io/blog/dynamic-progress-bar-with-react-redux/</link>
+      <link>http://www.ilonacodes.com/blog/dynamic-progress-bar-with-react-redux/</link>
       <pubDate>Fri, 06 Oct 2017 19:30:05 +0100</pubDate>
       
-      <guid>https://ilonacodes.github.io/blog/dynamic-progress-bar-with-react-redux/</guid>
+      <guid>http://www.ilonacodes.com/blog/dynamic-progress-bar-with-react-redux/</guid>
       <description>&lt;p&gt;Hi there! I am so happy that you continue developing our interactive Daily ToDo app with me. Today you are going to get to know how to implement a dynamic progress bar that will handle task completing status by percentage for every category.&lt;/p&gt;
 
 &lt;p&gt;&lt;span style=&#34;color:red&#34;&gt;But before moving on, if you are new here, please, have a look at the &lt;a href=&#34;http://www.ilonacodes.com/blog/react-for-very-very-beginners/&#34;&gt;previous posts&lt;/a&gt;. You should start developing app there and then continue with us here.&lt;/span&gt;&lt;/p&gt;
@@ -119,7 +119,7 @@ export const TaskCategory = ({category, tasks, completeTask}) =&amp;gt; {
 
 &lt;p&gt;You should get something like that at the end:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://ilonacodes.github.io/blog/images/progress-bar.png&#34; alt=&#34;Progress bar&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://www.ilonacodes.com/blog/images/progress-bar.png&#34; alt=&#34;Progress bar&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Thank you for the reading. Happily, you are enjoying developing with React+Redux and waiting for the next feature description. Have a nice coding!&lt;/p&gt;
 </description>
@@ -127,10 +127,10 @@ export const TaskCategory = ({category, tasks, completeTask}) =&amp;gt; {
     
     <item>
       <title>Categorize tasks with React&#43;Redux</title>
-      <link>https://ilonacodes.github.io/blog/categorize-tasks-with-react-redux/</link>
+      <link>http://www.ilonacodes.com/blog/categorize-tasks-with-react-redux/</link>
       <pubDate>Sun, 01 Oct 2017 19:30:05 +0100</pubDate>
       
-      <guid>https://ilonacodes.github.io/blog/categorize-tasks-with-react-redux/</guid>
+      <guid>http://www.ilonacodes.com/blog/categorize-tasks-with-react-redux/</guid>
       <description>&lt;p&gt;The most valuable feature set for our Daily ToDo is already done. Today we are going to make an app more functional, separating tasks by categories. We want to be able to categorize task by typing &lt;code&gt;#&lt;/code&gt; and category after its title.&lt;/p&gt;
 
 &lt;p&gt;For example: &lt;code&gt;practice a coding kata #programming&lt;/code&gt;.&lt;/p&gt;
@@ -275,9 +275,9 @@ const TaskListComponent = ({tasks, completeTask}) =&amp;gt; {
 
 &lt;p&gt;The result in the case of the categorize tasks is shown here:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://ilonacodes.github.io/blog/images/read-a-book-category.png&#34; alt=&#34;Read a book&#34; /&gt;
-&lt;img src=&#34;https://ilonacodes.github.io/blog/images/do-yoga-category.png&#34; alt=&#34;Do yoga&#34; /&gt;
-&lt;img src=&#34;https://ilonacodes.github.io/blog/images/categories.png&#34; alt=&#34;Categories&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://www.ilonacodes.com/blog/images/read-a-book-category.png&#34; alt=&#34;Read a book&#34; /&gt;
+&lt;img src=&#34;http://www.ilonacodes.com/blog/images/do-yoga-category.png&#34; alt=&#34;Do yoga&#34; /&gt;
+&lt;img src=&#34;http://www.ilonacodes.com/blog/images/categories.png&#34; alt=&#34;Categories&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Before moving on, I hope you enjoyed and understand how to categorize tasks with &lt;code&gt;React+Redux&lt;/code&gt; and ready to the next challenge (new feature) for our interactive Daily ToDo app.&lt;/p&gt;
 

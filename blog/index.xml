@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogs on Ilona Who Codes</title>
-    <link>https://ilonacodes.github.io/blog/index.xml</link>
+    <link>http://www.ilonacodes.com/blog/index.xml</link>
     <description>Recent content in Blogs on Ilona Who Codes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 23 Oct 2017 07:00:05 +0100</lastBuildDate>
-    <atom:link href="https://ilonacodes.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.ilonacodes.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Ada Lovelace Festival 2017 in Berlin</title>
-      <link>https://ilonacodes.github.io/blog/ada-lovelace-festival-2017-in-berlin/</link>
+      <link>http://www.ilonacodes.com/blog/ada-lovelace-festival-2017-in-berlin/</link>
       <pubDate>Mon, 23 Oct 2017 07:00:05 +0100</pubDate>
       
-      <guid>https://ilonacodes.github.io/blog/ada-lovelace-festival-2017-in-berlin/</guid>
+      <guid>http://www.ilonacodes.com/blog/ada-lovelace-festival-2017-in-berlin/</guid>
       <description>&lt;p&gt;The last week I have attended Ada Lovelace Festival that occurred on 19-20 October 2017. The aim of the event to connect women in computing and technology.&lt;/p&gt;
 
 &lt;p&gt;Unfortunately, I was a bit too late for the keynote, because I had a lecture at the university. However, I joined the conference, and after registration, I got my bag with sponsors gifts.&lt;/p&gt;
@@ -27,13 +27,13 @@
 
 &lt;p&gt;The future turns digital. That means people keep up with the times, taking into consideration all the software industry aspects.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://ilonacodes.github.io/blog/images/ada-lovelace-1.jpg&#34; alt=&#34;Photo-1&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://www.ilonacodes.com/blog/images/ada-lovelace-1.jpg&#34; alt=&#34;Photo-1&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The next workshop, that gave me valuable tips and pointed out some ways how to grow your brand called &lt;code&gt;To be in the 1st row: Build your own brand&lt;/code&gt; by Regina Mehler, WOMEN SPEAKER FOUNDATION.&lt;/p&gt;
 
 &lt;p&gt;The speaker showed us the importance of networking, communication, and negotiation with top-brass people at occasional meetings, using examples from their career. The workshop finished with a practical session between participants.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://ilonacodes.github.io/blog/images/ada-lovelace-2.jpg&#34; alt=&#34;Photo-2&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://www.ilonacodes.com/blog/images/ada-lovelace-2.jpg&#34; alt=&#34;Photo-2&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;As a web developer, I couldn&amp;rsquo;t pass the talk &lt;code&gt;How to improve our technical decision-making skills&lt;/code&gt; by Duana Stanley, Clue. All developers know that the core skill of problem-solving is to find useful information quickly and to be able to make a decision based on the reliable information and requirements.&lt;/p&gt;
 
@@ -47,7 +47,7 @@
 &lt;li&gt;sleep on it.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://ilonacodes.github.io/blog/images/ada-lovelace-3.jpg&#34; alt=&#34;Photo-3&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://www.ilonacodes.com/blog/images/ada-lovelace-3.jpg&#34; alt=&#34;Photo-3&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;At this point, I’m going to finish the post. I have tried to share my impression from the Ada Lovelace Festival 2017 in Berlin with you, dear Techmakers. I hope you enjoyed the highlights of the event from my point of view.&lt;/p&gt;
 
@@ -57,10 +57,10 @@
     
     <item>
       <title>React.js &amp; React Native Meetup at Home24 in Berlin</title>
-      <link>https://ilonacodes.github.io/blog/react-meetup-at-home24-berlin/</link>
+      <link>http://www.ilonacodes.com/blog/react-meetup-at-home24-berlin/</link>
       <pubDate>Thu, 19 Oct 2017 08:30:05 +0100</pubDate>
       
-      <guid>https://ilonacodes.github.io/blog/react-meetup-at-home24-berlin/</guid>
+      <guid>http://www.ilonacodes.com/blog/react-meetup-at-home24-berlin/</guid>
       <description>&lt;p&gt;Hey, there! In this blog post, I’m going to share my impression about the React.js &amp;amp; React Native meetup in Berlin that I have visited at Home24 yesterday.&lt;/p&gt;
 
 &lt;p&gt;If you still didn&amp;rsquo;t have a look at the topic of my blog, so, as you noticed from the title, I am interested in front-end development and at the moments specialized in the JavaScript language and especially in React framework.&lt;/p&gt;
@@ -71,7 +71,7 @@
 
 &lt;p&gt;Now I’m going to tell you about the talks.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://ilonacodes.github.io/blog/images/react-meetup-1.jpg&#34; alt=&#34;Photo-1&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://www.ilonacodes.com/blog/images/react-meetup-1.jpg&#34; alt=&#34;Photo-1&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The first speaker, Shahjada Talukdar, Frontend Engineer at Perdoo presented &lt;code&gt;Build your dream app with CRA (Create React App)&lt;/code&gt;:&lt;/p&gt;
 
@@ -83,7 +83,7 @@
 &lt;li&gt;&lt;p&gt;Why we should be using &lt;a href=&#34;https://developers.google.com/web/fundamentals/primers/service-workers/?hl=en&#34;&gt;service worker&lt;/a&gt; that controls what happens on a request-by-request basis and also allows React apps working offline.&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://ilonacodes.github.io/blog/images/react-meetup-2.jpg&#34; alt=&#34;Photo-2&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://www.ilonacodes.com/blog/images/react-meetup-2.jpg&#34; alt=&#34;Photo-2&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The second talk called &lt;code&gt;React SSR featuring AWS Lambda&lt;/code&gt; by George Lolos, Frontend Squad Leader at Home24 AG.&lt;/p&gt;
 
@@ -91,7 +91,7 @@
 
 &lt;p&gt;React SSR renders basic pages, and AWS Lambda runs code without managing servers. And the biggest challenge was the massive size of Lambda. So, the speaker shared with us approaches how to minify it and the result that they have achieved.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://ilonacodes.github.io/blog/images/react-meetup-3.jpg&#34; alt=&#34;Photo-3&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://www.ilonacodes.com/blog/images/react-meetup-3.jpg&#34; alt=&#34;Photo-3&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Last but not least, the third talk &lt;code&gt;Beyond JavaScript: The Hidden Benefit of React Native&lt;/code&gt; by Wojciech Ogrodowczyk, Partner at Brains &amp;amp; Beards.&lt;/p&gt;
 
@@ -103,7 +103,7 @@
 
 &lt;p&gt;However, we shouldn&amp;rsquo;t forget that in computer science everything depends on team skills, personality, and other things.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://ilonacodes.github.io/blog/images/react-meetup-4.jpg&#34; alt=&#34;Photo-4&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://www.ilonacodes.com/blog/images/react-meetup-4.jpg&#34; alt=&#34;Photo-4&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I have shared my thoughts and opinions above on how I understood the topics of the talks.&lt;/p&gt;
 
@@ -115,17 +115,17 @@
     
     <item>
       <title>What Did I Learn at Codemotion Berlin 2017</title>
-      <link>https://ilonacodes.github.io/blog/what-did-i-learn-at-codemotion-berlin-2017/</link>
+      <link>http://www.ilonacodes.com/blog/what-did-i-learn-at-codemotion-berlin-2017/</link>
       <pubDate>Sat, 14 Oct 2017 22:30:05 +0100</pubDate>
       
-      <guid>https://ilonacodes.github.io/blog/what-did-i-learn-at-codemotion-berlin-2017/</guid>
+      <guid>http://www.ilonacodes.com/blog/what-did-i-learn-at-codemotion-berlin-2017/</guid>
       <description>
 
 &lt;p&gt;Hi, everyone!&lt;/p&gt;
 
 &lt;p&gt;As you noticed, I post a new blog post about the development of an interactive ToDo list regularly, every five days. But today I am going to tell you about the international IT-conference &lt;a href=&#34;https://berlin2017.codemotionworld.com/&#34;&gt;Codemotion&lt;/a&gt;, that I have attended on 12-13. October in Berlin.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://ilonacodes.github.io/blog/images/codemotion.JPG&#34; alt=&#34;Codemotion&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://www.ilonacodes.com/blog/images/codemotion.JPG&#34; alt=&#34;Codemotion&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;There were a lot of informative and motivational topics, that can inspire everyone, who are interested or work in IT-branch.&lt;/p&gt;
 
@@ -133,8 +133,8 @@
 
 &lt;p&gt;Also, there took place &lt;code&gt;Ruby on Rails Workshop&lt;/code&gt;. The full agenda of the conference you can check below:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://ilonacodes.github.io/blog/images/agenda-12-10.jpg&#34; alt=&#34;Agenda-1&#34; /&gt;
-&lt;img src=&#34;https://ilonacodes.github.io/blog/images/agenda-13-10.jpg&#34; alt=&#34;Agenda-2&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://www.ilonacodes.com/blog/images/agenda-12-10.jpg&#34; alt=&#34;Agenda-1&#34; /&gt;
+&lt;img src=&#34;http://www.ilonacodes.com/blog/images/agenda-13-10.jpg&#34; alt=&#34;Agenda-2&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The most interesting talks for me as a frontend developer, I included to &lt;code&gt;My Favorites&lt;/code&gt; list.&lt;/p&gt;
 
@@ -142,7 +142,7 @@
 
 &lt;h3 id=&#34;frontend-frameworkless-development-by-francesco-strazzullo-exstrategy&#34;&gt;&lt;code&gt;Frontend Frameworkless Development&lt;/code&gt; by Francesco Strazzullo | exstrategy&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://ilonacodes.github.io/blog/images/speaker-1.JPG&#34; alt=&#34;Speaker-1&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://www.ilonacodes.com/blog/images/speaker-1.JPG&#34; alt=&#34;Speaker-1&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The idea of the talk based on the possibility to develop new apps, new features for apps while not using any frameworks. The example code, the empty forms, are written in &lt;code&gt;Vanilla JavaScript&lt;/code&gt; replacing &lt;code&gt;React+Redux&lt;/code&gt; frameworks for that.&lt;/p&gt;
 
@@ -166,7 +166,7 @@
 
 &lt;p&gt;The slide on the photo below describes some “icebreakers” that allow starting, keeping, and controlling a conversation in life, and on the stage.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://ilonacodes.github.io/blog/images/speaker-2.JPG&#34; alt=&#34;Speaker-2&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://www.ilonacodes.com/blog/images/speaker-2.JPG&#34; alt=&#34;Speaker-2&#34; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;build-bridges-not-walls-design-for-users-across-cultures-by-jenny-shen-toptal&#34;&gt;&lt;code&gt;Build bridges, not walls - Design for users across cultures&lt;/code&gt; by Jenny Shen | Toptal&lt;/h3&gt;
 
@@ -180,7 +180,7 @@
 
 &lt;p&gt;Most of my development projects are for multicultural users. I think it is necessary to know most common obstacles that I could meet on my &amp;ldquo;development&amp;rdquo; path.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://ilonacodes.github.io/blog/images/speaker-3.JPG&#34; alt=&#34;Speaker-3&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://www.ilonacodes.com/blog/images/speaker-3.JPG&#34; alt=&#34;Speaker-3&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://codemotionworld.com/&#34;&gt;Codemotion&lt;/a&gt; conferences are worldwide.&lt;/p&gt;
 
@@ -200,10 +200,10 @@
     
     <item>
       <title>Persisting data using local storage with React&#43;Redux</title>
-      <link>https://ilonacodes.github.io/blog/persisting-data-using-local-storage-react-redux/</link>
+      <link>http://www.ilonacodes.com/blog/persisting-data-using-local-storage-react-redux/</link>
       <pubDate>Tue, 10 Oct 2017 12:30:05 +0100</pubDate>
       
-      <guid>https://ilonacodes.github.io/blog/persisting-data-using-local-storage-react-redux/</guid>
+      <guid>http://www.ilonacodes.com/blog/persisting-data-using-local-storage-react-redux/</guid>
       <description>&lt;p&gt;Let&amp;rsquo;s continue developing an Interactive ToDo List. Refer to the &lt;a href=&#34;http://www.ilonacodes.com/blog/react-for-very-very-beginners/&#34;&gt;previous posts&lt;/a&gt; you notice that we are almost done with the basic functionality of the application. And today I would like to start the topic about persisting the data and restoring it after refreshing the page or starting a new session on the local machine with React+Redux.&lt;/p&gt;
 
 &lt;p&gt;Changing into the &lt;code&gt;my-daily-todos&lt;/code&gt; project, then to &lt;code&gt;src&lt;/code&gt; folder where you find &lt;code&gt;index.js&lt;/code&gt;. Here we store all the app’s state in the &lt;code&gt;store&lt;/code&gt; variable. Now we are also going to add a new variable that will keep the initial state and a new constant &lt;code&gt;persistedState&lt;/code&gt; that allows us to get the persisted state from store passing to method &lt;code&gt;getItem&lt;/code&gt; of &lt;code&gt;localStorage&lt;/code&gt; =&amp;gt; &lt;code&gt;localStorage.getItem(&#39;reduxState&#39;)&lt;/code&gt;:&lt;/p&gt;
@@ -316,10 +316,10 @@ ReactDOM.render(
     
     <item>
       <title>Dynamic progress bar with React&#43;Redux</title>
-      <link>https://ilonacodes.github.io/blog/dynamic-progress-bar-with-react-redux/</link>
+      <link>http://www.ilonacodes.com/blog/dynamic-progress-bar-with-react-redux/</link>
       <pubDate>Fri, 06 Oct 2017 19:30:05 +0100</pubDate>
       
-      <guid>https://ilonacodes.github.io/blog/dynamic-progress-bar-with-react-redux/</guid>
+      <guid>http://www.ilonacodes.com/blog/dynamic-progress-bar-with-react-redux/</guid>
       <description>&lt;p&gt;Hi there! I am so happy that you continue developing our interactive Daily ToDo app with me. Today you are going to get to know how to implement a dynamic progress bar that will handle task completing status by percentage for every category.&lt;/p&gt;
 
 &lt;p&gt;&lt;span style=&#34;color:red&#34;&gt;But before moving on, if you are new here, please, have a look at the &lt;a href=&#34;http://www.ilonacodes.com/blog/react-for-very-very-beginners/&#34;&gt;previous posts&lt;/a&gt;. You should start developing app there and then continue with us here.&lt;/span&gt;&lt;/p&gt;
@@ -425,7 +425,7 @@ export const TaskCategory = ({category, tasks, completeTask}) =&amp;gt; {
 
 &lt;p&gt;You should get something like that at the end:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://ilonacodes.github.io/blog/images/progress-bar.png&#34; alt=&#34;Progress bar&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://www.ilonacodes.com/blog/images/progress-bar.png&#34; alt=&#34;Progress bar&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Thank you for the reading. Happily, you are enjoying developing with React+Redux and waiting for the next feature description. Have a nice coding!&lt;/p&gt;
 </description>
@@ -433,10 +433,10 @@ export const TaskCategory = ({category, tasks, completeTask}) =&amp;gt; {
     
     <item>
       <title>Categorize tasks with React&#43;Redux</title>
-      <link>https://ilonacodes.github.io/blog/categorize-tasks-with-react-redux/</link>
+      <link>http://www.ilonacodes.com/blog/categorize-tasks-with-react-redux/</link>
       <pubDate>Sun, 01 Oct 2017 19:30:05 +0100</pubDate>
       
-      <guid>https://ilonacodes.github.io/blog/categorize-tasks-with-react-redux/</guid>
+      <guid>http://www.ilonacodes.com/blog/categorize-tasks-with-react-redux/</guid>
       <description>&lt;p&gt;The most valuable feature set for our Daily ToDo is already done. Today we are going to make an app more functional, separating tasks by categories. We want to be able to categorize task by typing &lt;code&gt;#&lt;/code&gt; and category after its title.&lt;/p&gt;
 
 &lt;p&gt;For example: &lt;code&gt;practice a coding kata #programming&lt;/code&gt;.&lt;/p&gt;
@@ -581,9 +581,9 @@ const TaskListComponent = ({tasks, completeTask}) =&amp;gt; {
 
 &lt;p&gt;The result in the case of the categorize tasks is shown here:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://ilonacodes.github.io/blog/images/read-a-book-category.png&#34; alt=&#34;Read a book&#34; /&gt;
-&lt;img src=&#34;https://ilonacodes.github.io/blog/images/do-yoga-category.png&#34; alt=&#34;Do yoga&#34; /&gt;
-&lt;img src=&#34;https://ilonacodes.github.io/blog/images/categories.png&#34; alt=&#34;Categories&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://www.ilonacodes.com/blog/images/read-a-book-category.png&#34; alt=&#34;Read a book&#34; /&gt;
+&lt;img src=&#34;http://www.ilonacodes.com/blog/images/do-yoga-category.png&#34; alt=&#34;Do yoga&#34; /&gt;
+&lt;img src=&#34;http://www.ilonacodes.com/blog/images/categories.png&#34; alt=&#34;Categories&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Before moving on, I hope you enjoyed and understand how to categorize tasks with &lt;code&gt;React+Redux&lt;/code&gt; and ready to the next challenge (new feature) for our interactive Daily ToDo app.&lt;/p&gt;
 
@@ -593,10 +593,10 @@ const TaskListComponent = ({tasks, completeTask}) =&amp;gt; {
     
     <item>
       <title>Let&#39;s complete some tasks with React&#43;Redux</title>
-      <link>https://ilonacodes.github.io/blog/complete-some-tasks-with-react-redux/</link>
+      <link>http://www.ilonacodes.com/blog/complete-some-tasks-with-react-redux/</link>
       <pubDate>Tue, 26 Sep 2017 19:30:05 +0100</pubDate>
       
-      <guid>https://ilonacodes.github.io/blog/complete-some-tasks-with-react-redux/</guid>
+      <guid>http://www.ilonacodes.com/blog/complete-some-tasks-with-react-redux/</guid>
       <description>&lt;p&gt;Today we are going to implement the second feature for our app. If you are a new reader, then I highly recommend you to check my earlier blog posts &lt;a href=&#34;http://www.ilonacodes.com/blog/react-for-very-very-beginners/&#34;&gt;here&lt;/a&gt;, where we started our learning journey in React+Redux, refer to the posts complete previous steps and continue with us to develop an interactive ToDo List from here.&lt;/p&gt;
 
 &lt;p&gt;As you guess from the blog title, the next feature called &lt;code&gt;Complete a task&lt;/code&gt;.  So, let&amp;rsquo;s begin! At first, we start writing the next user story, and it will look like:&lt;/p&gt;
@@ -777,9 +777,9 @@ export const Task = ({task, completeTask}) =&amp;gt; {
 
 &lt;p&gt;The results of creating tasks and completing tasks are shown below:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://ilonacodes.github.io/blog/images/add-tasks.png&#34; alt=&#34;Add tasks:&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://www.ilonacodes.com/blog/images/add-tasks.png&#34; alt=&#34;Add tasks:&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://ilonacodes.github.io/blog/images/complete-tasks.png&#34; alt=&#34;Complete tasks:&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://www.ilonacodes.com/blog/images/complete-tasks.png&#34; alt=&#34;Complete tasks:&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Congratulations! You finished the second feature for our app. To watch how it works in the browser, just run the localhost server by typing &lt;code&gt;npm start&lt;/code&gt; in your terminal inside the &lt;code&gt;my-daily-todos&lt;/code&gt; folder.&lt;/p&gt;
 
@@ -789,10 +789,10 @@ export const Task = ({task, completeTask}) =&amp;gt; {
     
     <item>
       <title>The First User Story, The First Feature With React&#43;Redux</title>
-      <link>https://ilonacodes.github.io/blog/the-first-user-story-the-first-feature/</link>
+      <link>http://www.ilonacodes.com/blog/the-first-user-story-the-first-feature/</link>
       <pubDate>Thu, 21 Sep 2017 19:30:05 +0100</pubDate>
       
-      <guid>https://ilonacodes.github.io/blog/the-first-user-story-the-first-feature/</guid>
+      <guid>http://www.ilonacodes.com/blog/the-first-user-story-the-first-feature/</guid>
       <description>&lt;p&gt;Hi, everyone! I guess you are pretty encouraged to start coding our app. Just to remind: it will be an interactive daily ToDo List. Today I am going to explain: what is a user story? Why do we need to write it before implementing a feature? How will we organize and structure an app? What is, actually, a new feature?&lt;/p&gt;
 
 &lt;p&gt;Let&amp;rsquo;s start with the first question. In my opinion, user stories are efficient things. To be more precise, we begin to write them from the perspective of the user and describe them in a very simple way with traditional structure. How it works:&lt;/p&gt;
@@ -1152,10 +1152,10 @@ input {
     
     <item>
       <title>Simple Usage of React&#43;Redux</title>
-      <link>https://ilonacodes.github.io/blog/simple-usage-of-react-redux/</link>
+      <link>http://www.ilonacodes.com/blog/simple-usage-of-react-redux/</link>
       <pubDate>Sun, 17 Sep 2017 20:00:05 +0100</pubDate>
       
-      <guid>https://ilonacodes.github.io/blog/simple-usage-of-react-redux/</guid>
+      <guid>http://www.ilonacodes.com/blog/simple-usage-of-react-redux/</guid>
       <description>&lt;p&gt;As I promised in &lt;a href=&#34;http://www.ilonacodes.com/blog/react-for-very-very-beginners/&#34;&gt;my previous post&lt;/a&gt;, today I am going to tell you about Redux, why and how we need to use them in common.
 Let me introduce React+Redux co-working through the simple input change that should render &lt;code&gt;Hello, {any name / text}!&lt;/code&gt; at the end and manage by redux states.&lt;/p&gt;
 
@@ -1444,10 +1444,10 @@ ReactDOM.render(
     
     <item>
       <title>React For Very Very Beginners</title>
-      <link>https://ilonacodes.github.io/blog/react-for-very-very-beginners/</link>
+      <link>http://www.ilonacodes.com/blog/react-for-very-very-beginners/</link>
       <pubDate>Fri, 15 Sep 2017 16:25:05 +0100</pubDate>
       
-      <guid>https://ilonacodes.github.io/blog/react-for-very-very-beginners/</guid>
+      <guid>http://www.ilonacodes.com/blog/react-for-very-very-beginners/</guid>
       <description>&lt;p&gt;The biggest challenge for beginners not only in front end development but also in the whole web development world is to find the answer to the question: How / Where should I start to learn web development? Some of these questions I have already received via private messages on social networks, and that encouraged me to create a series of small posts to write and complete the first app using JS (ECMA6) with React-Redux frameworks on which technologies I specialize.&lt;/p&gt;
 
 &lt;p&gt;Our goal for the first application is to write an interactive daily TODO list application. In particular, by finishing this series, you should be able to understand the basic concepts, structures and &amp;ldquo;communication&amp;rdquo; between React-Redux in use.&lt;/p&gt;
@@ -1561,10 +1561,10 @@ export default App;
     
     <item>
       <title>Starting with REST API: Figuring out</title>
-      <link>https://ilonacodes.github.io/blog/starting-with-REST-API/</link>
+      <link>http://www.ilonacodes.com/blog/starting-with-REST-API/</link>
       <pubDate>Mon, 17 Jul 2017 21:45:05 +0100</pubDate>
       
-      <guid>https://ilonacodes.github.io/blog/starting-with-REST-API/</guid>
+      <guid>http://www.ilonacodes.com/blog/starting-with-REST-API/</guid>
       <description>&lt;p&gt;Today I started doing backend part for my project. It will be written in Ruby language and using Sinatra framework.&lt;/p&gt;
 
 &lt;p&gt;This post is directed at readers that have little experiences to understand the aim of REST API for a product development.&lt;/p&gt;
@@ -1630,10 +1630,10 @@ GET /preview/4
     
     <item>
       <title>CSS Sticky Footer</title>
-      <link>https://ilonacodes.github.io/blog/css-sticky-footer/</link>
+      <link>http://www.ilonacodes.com/blog/css-sticky-footer/</link>
       <pubDate>Sat, 08 Jul 2017 20:25:05 +0100</pubDate>
       
-      <guid>https://ilonacodes.github.io/blog/css-sticky-footer/</guid>
+      <guid>http://www.ilonacodes.com/blog/css-sticky-footer/</guid>
       <description>&lt;p&gt;Hi there!&lt;/p&gt;
 
 &lt;p&gt;There are a lot of ways how to implement a sticky footer on the page that will always remain at a fixed position on the screen no matter whether the user scroll or not. It will be visible all the time at that specific place (often on bottom).&lt;/p&gt;
@@ -1677,10 +1677,10 @@ GET /preview/4
     
     <item>
       <title>Clear Form in Redux when Navigating with React-Router</title>
-      <link>https://ilonacodes.github.io/blog/clear-form-in-redux-when-navigating-with-react-router/</link>
+      <link>http://www.ilonacodes.com/blog/clear-form-in-redux-when-navigating-with-react-router/</link>
       <pubDate>Sun, 19 Mar 2017 19:25:05 +0100</pubDate>
       
-      <guid>https://ilonacodes.github.io/blog/clear-form-in-redux-when-navigating-with-react-router/</guid>
+      <guid>http://www.ilonacodes.com/blog/clear-form-in-redux-when-navigating-with-react-router/</guid>
       <description>
 
 &lt;p&gt;Hi there!&lt;/p&gt;
@@ -1768,10 +1768,10 @@ export const form = (state = {}, action) =&amp;gt; {
     
     <item>
       <title>How to Center Sign Up Form in 3 Simple Steps</title>
-      <link>https://ilonacodes.github.io/blog/how-to-center-sign-up-form-in-3-simple-steps/</link>
+      <link>http://www.ilonacodes.com/blog/how-to-center-sign-up-form-in-3-simple-steps/</link>
       <pubDate>Sun, 12 Mar 2017 16:34:40 +0100</pubDate>
       
-      <guid>https://ilonacodes.github.io/blog/how-to-center-sign-up-form-in-3-simple-steps/</guid>
+      <guid>http://www.ilonacodes.com/blog/how-to-center-sign-up-form-in-3-simple-steps/</guid>
       <description>
 
 &lt;p&gt;Hi, everyone!&lt;/p&gt;

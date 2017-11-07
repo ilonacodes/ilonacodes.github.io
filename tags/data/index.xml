@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Data on Ilona Who Codes</title>
-    <link>https://ilonacodes.github.io/tags/data/index.xml</link>
+    <link>http://www.ilonacodes.com/tags/data/index.xml</link>
     <description>Recent content in Data on Ilona Who Codes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="https://ilonacodes.github.io/tags/data/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.ilonacodes.com/tags/data/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Persisting data using local storage with React&#43;Redux</title>
-      <link>https://ilonacodes.github.io/blog/persisting-data-using-local-storage-react-redux/</link>
+      <link>http://www.ilonacodes.com/blog/persisting-data-using-local-storage-react-redux/</link>
       <pubDate>Tue, 10 Oct 2017 12:30:05 +0100</pubDate>
       
-      <guid>https://ilonacodes.github.io/blog/persisting-data-using-local-storage-react-redux/</guid>
+      <guid>http://www.ilonacodes.com/blog/persisting-data-using-local-storage-react-redux/</guid>
       <description>&lt;p&gt;Let&amp;rsquo;s continue developing an Interactive ToDo List. Refer to the &lt;a href=&#34;http://www.ilonacodes.com/blog/react-for-very-very-beginners/&#34;&gt;previous posts&lt;/a&gt; you notice that we are almost done with the basic functionality of the application. And today I would like to start the topic about persisting the data and restoring it after refreshing the page or starting a new session on the local machine with React+Redux.&lt;/p&gt;
 
 &lt;p&gt;Changing into the &lt;code&gt;my-daily-todos&lt;/code&gt; project, then to &lt;code&gt;src&lt;/code&gt; folder where you find &lt;code&gt;index.js&lt;/code&gt;. Here we store all the app’s state in the &lt;code&gt;store&lt;/code&gt; variable. Now we are also going to add a new variable that will keep the initial state and a new constant &lt;code&gt;persistedState&lt;/code&gt; that allows us to get the persisted state from store passing to method &lt;code&gt;getItem&lt;/code&gt; of &lt;code&gt;localStorage&lt;/code&gt; =&amp;gt; &lt;code&gt;localStorage.getItem(&#39;reduxState&#39;)&lt;/code&gt;:&lt;/p&gt;

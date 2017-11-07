@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Beginners on Ilona Who Codes</title>
-    <link>https://ilonacodes.github.io/tags/beginners/index.xml</link>
+    <link>http://www.ilonacodes.com/tags/beginners/index.xml</link>
     <description>Recent content in Beginners on Ilona Who Codes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="https://ilonacodes.github.io/tags/beginners/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.ilonacodes.com/tags/beginners/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Persisting data using local storage with React&#43;Redux</title>
-      <link>https://ilonacodes.github.io/blog/persisting-data-using-local-storage-react-redux/</link>
+      <link>http://www.ilonacodes.com/blog/persisting-data-using-local-storage-react-redux/</link>
       <pubDate>Tue, 10 Oct 2017 12:30:05 +0100</pubDate>
       
-      <guid>https://ilonacodes.github.io/blog/persisting-data-using-local-storage-react-redux/</guid>
+      <guid>http://www.ilonacodes.com/blog/persisting-data-using-local-storage-react-redux/</guid>
       <description>&lt;p&gt;Let&amp;rsquo;s continue developing an Interactive ToDo List. Refer to the &lt;a href=&#34;http://www.ilonacodes.com/blog/react-for-very-very-beginners/&#34;&gt;previous posts&lt;/a&gt; you notice that we are almost done with the basic functionality of the application. And today I would like to start the topic about persisting the data and restoring it after refreshing the page or starting a new session on the local machine with React+Redux.&lt;/p&gt;
 
 &lt;p&gt;Changing into the &lt;code&gt;my-daily-todos&lt;/code&gt; project, then to &lt;code&gt;src&lt;/code&gt; folder where you find &lt;code&gt;index.js&lt;/code&gt;. Here we store all the app’s state in the &lt;code&gt;store&lt;/code&gt; variable. Now we are also going to add a new variable that will keep the initial state and a new constant &lt;code&gt;persistedState&lt;/code&gt; that allows us to get the persisted state from store passing to method &lt;code&gt;getItem&lt;/code&gt; of &lt;code&gt;localStorage&lt;/code&gt; =&amp;gt; &lt;code&gt;localStorage.getItem(&#39;reduxState&#39;)&lt;/code&gt;:&lt;/p&gt;
@@ -126,10 +126,10 @@ ReactDOM.render(
     
     <item>
       <title>Dynamic progress bar with React&#43;Redux</title>
-      <link>https://ilonacodes.github.io/blog/dynamic-progress-bar-with-react-redux/</link>
+      <link>http://www.ilonacodes.com/blog/dynamic-progress-bar-with-react-redux/</link>
       <pubDate>Fri, 06 Oct 2017 19:30:05 +0100</pubDate>
       
-      <guid>https://ilonacodes.github.io/blog/dynamic-progress-bar-with-react-redux/</guid>
+      <guid>http://www.ilonacodes.com/blog/dynamic-progress-bar-with-react-redux/</guid>
       <description>&lt;p&gt;Hi there! I am so happy that you continue developing our interactive Daily ToDo app with me. Today you are going to get to know how to implement a dynamic progress bar that will handle task completing status by percentage for every category.&lt;/p&gt;
 
 &lt;p&gt;&lt;span style=&#34;color:red&#34;&gt;But before moving on, if you are new here, please, have a look at the &lt;a href=&#34;http://www.ilonacodes.com/blog/react-for-very-very-beginners/&#34;&gt;previous posts&lt;/a&gt;. You should start developing app there and then continue with us here.&lt;/span&gt;&lt;/p&gt;
@@ -235,7 +235,7 @@ export const TaskCategory = ({category, tasks, completeTask}) =&amp;gt; {
 
 &lt;p&gt;You should get something like that at the end:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://ilonacodes.github.io/blog/images/progress-bar.png&#34; alt=&#34;Progress bar&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://www.ilonacodes.com/blog/images/progress-bar.png&#34; alt=&#34;Progress bar&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Thank you for the reading. Happily, you are enjoying developing with React+Redux and waiting for the next feature description. Have a nice coding!&lt;/p&gt;
 </description>
@@ -243,10 +243,10 @@ export const TaskCategory = ({category, tasks, completeTask}) =&amp;gt; {
     
     <item>
       <title>Categorize tasks with React&#43;Redux</title>
-      <link>https://ilonacodes.github.io/blog/categorize-tasks-with-react-redux/</link>
+      <link>http://www.ilonacodes.com/blog/categorize-tasks-with-react-redux/</link>
       <pubDate>Sun, 01 Oct 2017 19:30:05 +0100</pubDate>
       
-      <guid>https://ilonacodes.github.io/blog/categorize-tasks-with-react-redux/</guid>
+      <guid>http://www.ilonacodes.com/blog/categorize-tasks-with-react-redux/</guid>
       <description>&lt;p&gt;The most valuable feature set for our Daily ToDo is already done. Today we are going to make an app more functional, separating tasks by categories. We want to be able to categorize task by typing &lt;code&gt;#&lt;/code&gt; and category after its title.&lt;/p&gt;
 
 &lt;p&gt;For example: &lt;code&gt;practice a coding kata #programming&lt;/code&gt;.&lt;/p&gt;
@@ -391,9 +391,9 @@ const TaskListComponent = ({tasks, completeTask}) =&amp;gt; {
 
 &lt;p&gt;The result in the case of the categorize tasks is shown here:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://ilonacodes.github.io/blog/images/read-a-book-category.png&#34; alt=&#34;Read a book&#34; /&gt;
-&lt;img src=&#34;https://ilonacodes.github.io/blog/images/do-yoga-category.png&#34; alt=&#34;Do yoga&#34; /&gt;
-&lt;img src=&#34;https://ilonacodes.github.io/blog/images/categories.png&#34; alt=&#34;Categories&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://www.ilonacodes.com/blog/images/read-a-book-category.png&#34; alt=&#34;Read a book&#34; /&gt;
+&lt;img src=&#34;http://www.ilonacodes.com/blog/images/do-yoga-category.png&#34; alt=&#34;Do yoga&#34; /&gt;
+&lt;img src=&#34;http://www.ilonacodes.com/blog/images/categories.png&#34; alt=&#34;Categories&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Before moving on, I hope you enjoyed and understand how to categorize tasks with &lt;code&gt;React+Redux&lt;/code&gt; and ready to the next challenge (new feature) for our interactive Daily ToDo app.&lt;/p&gt;
 
@@ -403,10 +403,10 @@ const TaskListComponent = ({tasks, completeTask}) =&amp;gt; {
     
     <item>
       <title>Let&#39;s complete some tasks with React&#43;Redux</title>
-      <link>https://ilonacodes.github.io/blog/complete-some-tasks-with-react-redux/</link>
+      <link>http://www.ilonacodes.com/blog/complete-some-tasks-with-react-redux/</link>
       <pubDate>Tue, 26 Sep 2017 19:30:05 +0100</pubDate>
       
-      <guid>https://ilonacodes.github.io/blog/complete-some-tasks-with-react-redux/</guid>
+      <guid>http://www.ilonacodes.com/blog/complete-some-tasks-with-react-redux/</guid>
       <description>&lt;p&gt;Today we are going to implement the second feature for our app. If you are a new reader, then I highly recommend you to check my earlier blog posts &lt;a href=&#34;http://www.ilonacodes.com/blog/react-for-very-very-beginners/&#34;&gt;here&lt;/a&gt;, where we started our learning journey in React+Redux, refer to the posts complete previous steps and continue with us to develop an interactive ToDo List from here.&lt;/p&gt;
 
 &lt;p&gt;As you guess from the blog title, the next feature called &lt;code&gt;Complete a task&lt;/code&gt;.  So, let&amp;rsquo;s begin! At first, we start writing the next user story, and it will look like:&lt;/p&gt;
@@ -587,9 +587,9 @@ export const Task = ({task, completeTask}) =&amp;gt; {
 
 &lt;p&gt;The results of creating tasks and completing tasks are shown below:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://ilonacodes.github.io/blog/images/add-tasks.png&#34; alt=&#34;Add tasks:&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://www.ilonacodes.com/blog/images/add-tasks.png&#34; alt=&#34;Add tasks:&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://ilonacodes.github.io/blog/images/complete-tasks.png&#34; alt=&#34;Complete tasks:&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://www.ilonacodes.com/blog/images/complete-tasks.png&#34; alt=&#34;Complete tasks:&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Congratulations! You finished the second feature for our app. To watch how it works in the browser, just run the localhost server by typing &lt;code&gt;npm start&lt;/code&gt; in your terminal inside the &lt;code&gt;my-daily-todos&lt;/code&gt; folder.&lt;/p&gt;
 
@@ -599,10 +599,10 @@ export const Task = ({task, completeTask}) =&amp;gt; {
     
     <item>
       <title>The First User Story, The First Feature With React&#43;Redux</title>
-      <link>https://ilonacodes.github.io/blog/the-first-user-story-the-first-feature/</link>
+      <link>http://www.ilonacodes.com/blog/the-first-user-story-the-first-feature/</link>
       <pubDate>Thu, 21 Sep 2017 19:30:05 +0100</pubDate>
       
-      <guid>https://ilonacodes.github.io/blog/the-first-user-story-the-first-feature/</guid>
+      <guid>http://www.ilonacodes.com/blog/the-first-user-story-the-first-feature/</guid>
       <description>&lt;p&gt;Hi, everyone! I guess you are pretty encouraged to start coding our app. Just to remind: it will be an interactive daily ToDo List. Today I am going to explain: what is a user story? Why do we need to write it before implementing a feature? How will we organize and structure an app? What is, actually, a new feature?&lt;/p&gt;
 
 &lt;p&gt;Let&amp;rsquo;s start with the first question. In my opinion, user stories are efficient things. To be more precise, we begin to write them from the perspective of the user and describe them in a very simple way with traditional structure. How it works:&lt;/p&gt;
@@ -962,10 +962,10 @@ input {
     
     <item>
       <title>Simple Usage of React&#43;Redux</title>
-      <link>https://ilonacodes.github.io/blog/simple-usage-of-react-redux/</link>
+      <link>http://www.ilonacodes.com/blog/simple-usage-of-react-redux/</link>
       <pubDate>Sun, 17 Sep 2017 20:00:05 +0100</pubDate>
       
-      <guid>https://ilonacodes.github.io/blog/simple-usage-of-react-redux/</guid>
+      <guid>http://www.ilonacodes.com/blog/simple-usage-of-react-redux/</guid>
       <description>&lt;p&gt;As I promised in &lt;a href=&#34;http://www.ilonacodes.com/blog/react-for-very-very-beginners/&#34;&gt;my previous post&lt;/a&gt;, today I am going to tell you about Redux, why and how we need to use them in common.
 Let me introduce React+Redux co-working through the simple input change that should render &lt;code&gt;Hello, {any name / text}!&lt;/code&gt; at the end and manage by redux states.&lt;/p&gt;
 
@@ -1254,10 +1254,10 @@ ReactDOM.render(
     
     <item>
       <title>React For Very Very Beginners</title>
-      <link>https://ilonacodes.github.io/blog/react-for-very-very-beginners/</link>
+      <link>http://www.ilonacodes.com/blog/react-for-very-very-beginners/</link>
       <pubDate>Fri, 15 Sep 2017 16:25:05 +0100</pubDate>
       
-      <guid>https://ilonacodes.github.io/blog/react-for-very-very-beginners/</guid>
+      <guid>http://www.ilonacodes.com/blog/react-for-very-very-beginners/</guid>
       <description>&lt;p&gt;The biggest challenge for beginners not only in front end development but also in the whole web development world is to find the answer to the question: How / Where should I start to learn web development? Some of these questions I have already received via private messages on social networks, and that encouraged me to create a series of small posts to write and complete the first app using JS (ECMA6) with React-Redux frameworks on which technologies I specialize.&lt;/p&gt;
 
 &lt;p&gt;Our goal for the first application is to write an interactive daily TODO list application. In particular, by finishing this series, you should be able to understand the basic concepts, structures and &amp;ldquo;communication&amp;rdquo; between React-Redux in use.&lt;/p&gt;

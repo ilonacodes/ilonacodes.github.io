@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Css on Ilona Who Codes</title>
-    <link>https://ilonacodes.github.io/tags/css/index.xml</link>
+    <link>http://www.ilonacodes.com/tags/css/index.xml</link>
     <description>Recent content in Css on Ilona Who Codes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="https://ilonacodes.github.io/tags/css/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.ilonacodes.com/tags/css/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>CSS Sticky Footer</title>
-      <link>https://ilonacodes.github.io/blog/css-sticky-footer/</link>
+      <link>http://www.ilonacodes.com/blog/css-sticky-footer/</link>
       <pubDate>Sat, 08 Jul 2017 20:25:05 +0100</pubDate>
       
-      <guid>https://ilonacodes.github.io/blog/css-sticky-footer/</guid>
+      <guid>http://www.ilonacodes.com/blog/css-sticky-footer/</guid>
       <description>&lt;p&gt;Hi there!&lt;/p&gt;
 
 &lt;p&gt;There are a lot of ways how to implement a sticky footer on the page that will always remain at a fixed position on the screen no matter whether the user scroll or not. It will be visible all the time at that specific place (often on bottom).&lt;/p&gt;
@@ -57,10 +57,10 @@
     
     <item>
       <title>How to Center Sign Up Form in 3 Simple Steps</title>
-      <link>https://ilonacodes.github.io/blog/how-to-center-sign-up-form-in-3-simple-steps/</link>
+      <link>http://www.ilonacodes.com/blog/how-to-center-sign-up-form-in-3-simple-steps/</link>
       <pubDate>Sun, 12 Mar 2017 16:34:40 +0100</pubDate>
       
-      <guid>https://ilonacodes.github.io/blog/how-to-center-sign-up-form-in-3-simple-steps/</guid>
+      <guid>http://www.ilonacodes.com/blog/how-to-center-sign-up-form-in-3-simple-steps/</guid>
       <description>
 
 &lt;p&gt;Hi, everyone!&lt;/p&gt;
