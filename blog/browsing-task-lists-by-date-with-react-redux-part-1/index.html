@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# website: http://ogp.me/ns/website#">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta name="description" content="Last weeks I was a little bit busy with attending the tech events (some of them I have already spotlighted in previous posts), and unfortunately didn&#39;t have enough time to write a new post about React&#43;Redux...">
+    <meta property="og:title" content="Browsing task lists by date with React&#43;Redux. Part 1.">
+    
+    <meta property="og:type" content="article">
+    <meta property="article:published_time" content="2017-11-07">
+    
+    <meta property="og:description" content="Last weeks I was a little bit busy with attending the tech events (some of them I have already spotlighted in previous posts), and unfortunately didn&#39;t have enough time to write a new post about React&#43;Redux...">
+    <meta property="og:url" content="http://www.ilonacodes.com/blog/browsing-task-lists-by-date-with-react-redux-part-1/">
+    <meta property="og:site_name" content="Ilona Who Codes">
+    
+    <meta property="og:tags" content="react">
+    
+    <meta property="og:tags" content="reactjs">
+    
+    <meta property="og:tags" content="redux">
+    
+    <meta property="og:tags" content="learntocode">
+    
+    <meta property="og:tags" content="beginners">
+    
+    <meta property="og:tags" content="coding">
+    
+    <meta property="og:tags" content="letsgetcoding">
+    
+    <meta property="og:tags" content="user">
+    
+    <meta property="og:tags" content="date">
+    
+    <meta name="generator" content="Hugo 0.19" />
+    <title>Browsing task lists by date with React&#43;Redux. Part 1. &middot; Ilona Who Codes</title>
+    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/styles/default.min.css">
+    
+    <link rel="stylesheet" href="http://www.ilonacodes.com/css/style.css">
+    
+    <link href="" rel="alternate" type="application/rss+xml" title="Ilona Who Codes" />
+    
+    
+    <link rel="icon" href="http://www.ilonacodes.com/favicon.ico" />
+    
+
+    
+    
+</head>
+<body>
+
+
+<div class="blog-link">
+	<a href="/">ilonacodes</a>
+	<a href="/blog">read my blog</a>
+	<a href="/">about me</a>
+</div>
+
+<div class="container-fluid">
+	<div class="row">
+		<div id="content" class="col-xs-12 col-sm-12 col-md-12">
+			<div class="row">
+				<div class="paper">
+					<div id="post" class="col-sm-offset-1 col-sm-10 col-md-10 col-lg-10">
+
+
+<main>
+	<header>
+		<h1>Browsing task lists by date with React&#43;Redux. Part 1.</h1>
+	</header>
+
+	<article>
+		<p>Hi, there!</p>
+
+<p>Last weeks I was a little bit busy with attending the tech events (some of them I have already spotlighted in previous posts), and unfortunately didn&rsquo;t have enough time to write a new post about React+Redux&hellip;</p>
+
+<p>However, today I am going to continue the tutorial series <a href="http://www.ilonacodes.com/blog/react-for-very-very-beginners/">how to develop an interactive ToDo List with React+Redux</a>.</p>
+
+<p>We can already create a task by tag, complete that by crossing out and even added the dynamic progress bar to follow the flow of completed or uncompleted tasks. Just to remind, we stopped <a href="http://www.ilonacodes.com/blog/persisting-data-using-local-storage-react-redux/">here</a>.</p>
+
+<p>As I mentioned on the <a href="https://www.instagram.com/ilonacodes/">Instagram profile</a> and <a href="https://twitter.com/ilonacodes">Twitter</a>, we will focus on handling dates, comparing them and serializing them (saving to and loading from local storage).</p>
+
+<p>Let&rsquo;s get started!</p>
+
+<p>Come back into the <code>my-daily-todos</code> folder, and open the project in your favorite text editor.</p>
+
+<p>Yeah, it&rsquo;s been a long time here. So, just in case, take a look at the code base and try to remember why we need actions, reducers, components, etc. I recommend you also to run the app on a local server via <code>npm start</code> command in the terminal to see your current development progress.</p>
+
+<p>Afterwards, get back to the code and keep on coding using the next instructions:</p>
+
+<p>To be able toggling task lists by dates and, we have to do the following:</p>
+
+<ol>
+<li><p>Create two new  <code>goToPreviousDay</code> and <code>goToNextDay</code> actions in <code>actions.js</code>:</p>
+
+<pre><code class="language-javascript">
+// src/Tasks/actions.js
+
+export const t = {
+  ...
+  GO_TO_PREVIOUS_DAY: 'GO_TO_PREVIOUS_DAY',
+  GO_TO_NEXT_DAY: 'GO_TO_NEXT_DAY',
+}
+
+...
+
+  goToPreviousDay: () =&gt; ({
+    type: t.GO_TO_PREVIOUS_DAY,
+  }),
+
+  goToNextDay: () =&gt; ({
+    type: t.GO_TO_NEXT_DAY,
+  }),
+}
+
+</code></pre></li>
+
+<li><p>Go to the <code>reducers.js</code>, write a new reducer <code>dateReducer</code> and &ldquo;add the logic&rdquo; to this reducer using the above-created actions:</p>
+
+<pre><code class="language-javascript">
+// src/Tasks/reducers.js
+
+...
+
+function generateID () {
+  return '_' + Math.random().toString(36).substr(2,9);
+}
+
+// a new initial State is a date object
+export const dateReducer = (state = new Date(), action) =&gt; {
+
+  // store the value of current date in copiedDate variable
+  let copiedDate = new Date(state.valueOf());
+
+  switch (action.type) {
+    case t.GO_TO_PREVIOUS_DAY:
+     // this action case passes on the previous date
+      copiedDate.setDate(copiedDate.getDate()-1);
+      return copiedDate;
+
+    case t.GO_TO_NEXT_DAY:
+   // this action case passes on the previous date
+      copiedDate.setDate(copiedDate.getDate()+1);
+      return copiedDate;
+
+    default:
+      return state;
+  }
+}
+
+...
+
+</code></pre></li>
+
+<li><p>To render and present a date feature we are going to the <code>TasksList.js</code> component:</p>
+
+<pre><code class="language-javascript">
+// src/Tasks/TasksList.js
+
+...
+
+// create an array of months
+const monthNames = [&quot;January&quot;, &quot;February&quot;, &quot;March&quot;, &quot;April&quot;, &quot;May&quot;, &quot;June&quot;, &quot;July&quot;, &quot;July&quot;, &quot;August&quot;, &quot;September&quot;, &quot;October&quot;, &quot;November&quot;, &quot;December&quot;];
+
+// create a function that will format a date to &quot;DD Month YYYY&quot;
+function formatDate(date) {
+  let day = date.getDate();
+  let monthIndex = date.getMonth();
+  let year = date.getFullYear();
+
+  return day + ' ' + monthNames[monthIndex] + ' ' + year;
+}
+
+// there are new props currentDate, goToPreviousDay, goToNextDay
+export const TasksListComponent = ({tasks, completeTask, currentDate, goToPreviousDay, goToNextDay}) =&gt; {
+  const categories = unique(tasks.map(task =&gt; task.tag))
+
+  return &lt;div className=&quot;taskslist-container&quot;&gt;
+
+ // add two links and formatted currentDate property to div-container to make it visible in the browser
+    &lt;div&gt;
+      &lt;a href=&quot;#&quot; onClick={goToPreviousDay}&gt;Prev&lt;/a&gt;
+      {formatDate(currentDate)}
+      &lt;a href=&quot;#&quot; onClick={goToNextDay}&gt;Next&lt;/a&gt;
+    &lt;/div&gt;
+
+   ...
+
+const mapStateToProps = (state) =&gt; {
+  return {
+    tasks: state.tasks,
+    // currentDate state connect to store
+    currentDate: state.currentDate
+  }
+}
+
+
+const mapDispatchToProps = (dispatch) =&gt; {
+  return {
+    completeTask: (id) =&gt; dispatch(actions.completeTask(id)),
+  // dispatch new actions
+    goToPreviousDay: () =&gt; dispatch(actions.goToPreviousDay()),
+    goToNextDay: () =&gt; dispatch(actions.goToNextDay()),
+  }
+}
+
+export const TasksList = connect(
+  mapStateToProps,
+  mapDispatchToProps,
+)(TasksListComponent);
+
+</code></pre></li>
+
+<li><p>The next step is to import the new <code>dateReducer</code> to <code>index.js</code> and <code>currentDate</code> assign to it:</p>
+
+<pre><code class="language-javascript">
+// src/index.js
+
+import { createStore, combineReducers } from 'redux';
+
+  import { App } from './App.js';
+
+  // import the dateReducer
+  import { tasksReducer, dateReducer } from './Tasks/reducers.js';
+  import './index.css';
+
+  let initState = {}
+  let store = createStore(
+    combineReducers({
+      tasks: tasksReducer,
+     // assing dateReducer to currentDate
+      currentDate: dateReducer,
+    }),
+    initState
+  );
+
+  store.subscribe(() =&gt; {
+    let state = store.getState()
+    localStorage.setItem('reduxState', JSON.stringify({
+      ...state,
+     // add a new currentDate as undefined to a new property
+      currentDate: undefined,
+    }))
+  })
+
+...
+
+</code></pre>
+
+<p><span style="color:red">We have to store the current date as undefined so that the user sees “today” date every time they reload the application. Essentially, we don’t want to persist what is the current date.</span></p></li>
+</ol>
+
+<p>That&rsquo;s it for today. Now we can see the current day on the dashboard of the app and change the date by clicking on the <code>Previous Date</code> and <code>Next Date</code>.</p>
+
+<p>In the next blog post, I will tell you how to use a date as a calendar day by removing hours, minutes, seconds and milliseconds on every date creation, filter all tasks by the current date before categorizing them, and make date-bar looks good.</p>
+
+<p>I hope you enjoyed reading the post and got to know new useful information about the managing dates with React+Redux.</p>
+
+	</article>
+</main>
+
+<div id="bottom-nav" class="text-center center-block">
+</div>
+
+
+
+								<div class="footer-copy" style="text-align: center; opacity: 0.6"><p>&copy; 2017 ilonacodes</p></div>
+							</div>
+            </div>
+					</div>
+				</div>
+			</div>
+		</div>
+  </div>
+  
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-109315732-1', 'auto');
+    ga('send', 'pageview');
+    window.baseURL = "http:\/\/www.ilonacodes.com\/";
+  </script>
+  
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  
+  
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/highlight.min.js"></script>
+  
+  <script src="http://www.ilonacodes.com//js/App.js"></script>
+  
+</body>
+</html>
+

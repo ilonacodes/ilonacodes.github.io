@@ -9,6 +9,200 @@
     <atom:link href="http://www.ilonacodes.com/tags/beginners/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Browsing task lists by date with React&#43;Redux. Part 1.</title>
+      <link>http://www.ilonacodes.com/blog/browsing-task-lists-by-date-with-react-redux-part-1/</link>
+      <pubDate>Tue, 07 Nov 2017 21:10:05 +0100</pubDate>
+      
+      <guid>http://www.ilonacodes.com/blog/browsing-task-lists-by-date-with-react-redux-part-1/</guid>
+      <description>&lt;p&gt;Hi, there!&lt;/p&gt;
+
+&lt;p&gt;Last weeks I was a little bit busy with attending the tech events (some of them I have already spotlighted in previous posts), and unfortunately didn&amp;rsquo;t have enough time to write a new post about React+Redux&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;However, today I am going to continue the tutorial series &lt;a href=&#34;http://www.ilonacodes.com/blog/react-for-very-very-beginners/&#34;&gt;how to develop an interactive ToDo List with React+Redux&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;We can already create a task by tag, complete that by crossing out and even added the dynamic progress bar to follow the flow of completed or uncompleted tasks. Just to remind, we stopped &lt;a href=&#34;http://www.ilonacodes.com/blog/persisting-data-using-local-storage-react-redux/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;As I mentioned on the &lt;a href=&#34;https://www.instagram.com/ilonacodes/&#34;&gt;Instagram profile&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/ilonacodes&#34;&gt;Twitter&lt;/a&gt;, we will focus on handling dates, comparing them and serializing them (saving to and loading from local storage).&lt;/p&gt;
+
+&lt;p&gt;Let&amp;rsquo;s get started!&lt;/p&gt;
+
+&lt;p&gt;Come back into the &lt;code&gt;my-daily-todos&lt;/code&gt; folder, and open the project in your favorite text editor.&lt;/p&gt;
+
+&lt;p&gt;Yeah, it&amp;rsquo;s been a long time here. So, just in case, take a look at the code base and try to remember why we need actions, reducers, components, etc. I recommend you also to run the app on a local server via &lt;code&gt;npm start&lt;/code&gt; command in the terminal to see your current development progress.&lt;/p&gt;
+
+&lt;p&gt;Afterwards, get back to the code and keep on coding using the next instructions:&lt;/p&gt;
+
+&lt;p&gt;To be able toggling task lists by dates and, we have to do the following:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Create two new  &lt;code&gt;goToPreviousDay&lt;/code&gt; and &lt;code&gt;goToNextDay&lt;/code&gt; actions in &lt;code&gt;actions.js&lt;/code&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;
+// src/Tasks/actions.js
+
+export const t = {
+  ...
+  GO_TO_PREVIOUS_DAY: &#39;GO_TO_PREVIOUS_DAY&#39;,
+  GO_TO_NEXT_DAY: &#39;GO_TO_NEXT_DAY&#39;,
+}
+
+...
+
+  goToPreviousDay: () =&amp;gt; ({
+    type: t.GO_TO_PREVIOUS_DAY,
+  }),
+
+  goToNextDay: () =&amp;gt; ({
+    type: t.GO_TO_NEXT_DAY,
+  }),
+}
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Go to the &lt;code&gt;reducers.js&lt;/code&gt;, write a new reducer &lt;code&gt;dateReducer&lt;/code&gt; and &amp;ldquo;add the logic&amp;rdquo; to this reducer using the above-created actions:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;
+// src/Tasks/reducers.js
+
+...
+
+function generateID () {
+  return &#39;_&#39; + Math.random().toString(36).substr(2,9);
+}
+
+// a new initial State is a date object
+export const dateReducer = (state = new Date(), action) =&amp;gt; {
+
+  // store the value of current date in copiedDate variable
+  let copiedDate = new Date(state.valueOf());
+
+  switch (action.type) {
+    case t.GO_TO_PREVIOUS_DAY:
+     // this action case passes on the previous date
+      copiedDate.setDate(copiedDate.getDate()-1);
+      return copiedDate;
+
+    case t.GO_TO_NEXT_DAY:
+   // this action case passes on the previous date
+      copiedDate.setDate(copiedDate.getDate()+1);
+      return copiedDate;
+
+    default:
+      return state;
+  }
+}
+
+...
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;To render and present a date feature we are going to the &lt;code&gt;TasksList.js&lt;/code&gt; component:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;
+// src/Tasks/TasksList.js
+
+...
+
+// create an array of months
+const monthNames = [&amp;quot;January&amp;quot;, &amp;quot;February&amp;quot;, &amp;quot;March&amp;quot;, &amp;quot;April&amp;quot;, &amp;quot;May&amp;quot;, &amp;quot;June&amp;quot;, &amp;quot;July&amp;quot;, &amp;quot;July&amp;quot;, &amp;quot;August&amp;quot;, &amp;quot;September&amp;quot;, &amp;quot;October&amp;quot;, &amp;quot;November&amp;quot;, &amp;quot;December&amp;quot;];
+
+// create a function that will format a date to &amp;quot;DD Month YYYY&amp;quot;
+function formatDate(date) {
+  let day = date.getDate();
+  let monthIndex = date.getMonth();
+  let year = date.getFullYear();
+
+  return day + &#39; &#39; + monthNames[monthIndex] + &#39; &#39; + year;
+}
+
+// there are new props currentDate, goToPreviousDay, goToNextDay
+export const TasksListComponent = ({tasks, completeTask, currentDate, goToPreviousDay, goToNextDay}) =&amp;gt; {
+  const categories = unique(tasks.map(task =&amp;gt; task.tag))
+
+  return &amp;lt;div className=&amp;quot;taskslist-container&amp;quot;&amp;gt;
+
+ // add two links and formatted currentDate property to div-container to make it visible in the browser
+    &amp;lt;div&amp;gt;
+      &amp;lt;a href=&amp;quot;#&amp;quot; onClick={goToPreviousDay}&amp;gt;Prev&amp;lt;/a&amp;gt;
+      {formatDate(currentDate)}
+      &amp;lt;a href=&amp;quot;#&amp;quot; onClick={goToNextDay}&amp;gt;Next&amp;lt;/a&amp;gt;
+    &amp;lt;/div&amp;gt;
+
+   ...
+
+const mapStateToProps = (state) =&amp;gt; {
+  return {
+    tasks: state.tasks,
+    // currentDate state connect to store
+    currentDate: state.currentDate
+  }
+}
+
+
+const mapDispatchToProps = (dispatch) =&amp;gt; {
+  return {
+    completeTask: (id) =&amp;gt; dispatch(actions.completeTask(id)),
+  // dispatch new actions
+    goToPreviousDay: () =&amp;gt; dispatch(actions.goToPreviousDay()),
+    goToNextDay: () =&amp;gt; dispatch(actions.goToNextDay()),
+  }
+}
+
+export const TasksList = connect(
+  mapStateToProps,
+  mapDispatchToProps,
+)(TasksListComponent);
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The next step is to import the new &lt;code&gt;dateReducer&lt;/code&gt; to &lt;code&gt;index.js&lt;/code&gt; and &lt;code&gt;currentDate&lt;/code&gt; assign to it:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;
+// src/index.js
+
+import { createStore, combineReducers } from &#39;redux&#39;;
+
+  import { App } from &#39;./App.js&#39;;
+
+  // import the dateReducer
+  import { tasksReducer, dateReducer } from &#39;./Tasks/reducers.js&#39;;
+  import &#39;./index.css&#39;;
+
+  let initState = {}
+  let store = createStore(
+    combineReducers({
+      tasks: tasksReducer,
+     // assing dateReducer to currentDate
+      currentDate: dateReducer,
+    }),
+    initState
+  );
+
+  store.subscribe(() =&amp;gt; {
+    let state = store.getState()
+    localStorage.setItem(&#39;reduxState&#39;, JSON.stringify({
+      ...state,
+     // add a new currentDate as undefined to a new property
+      currentDate: undefined,
+    }))
+  })
+
+...
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;span style=&#34;color:red&#34;&gt;We have to store the current date as undefined so that the user sees “today” date every time they reload the application. Essentially, we don’t want to persist what is the current date.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;That&amp;rsquo;s it for today. Now we can see the current day on the dashboard of the app and change the date by clicking on the &lt;code&gt;Previous Date&lt;/code&gt; and &lt;code&gt;Next Date&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;In the next blog post, I will tell you how to use a date as a calendar day by removing hours, minutes, seconds and milliseconds on every date creation, filter all tasks by the current date before categorizing them, and make date-bar looks good.&lt;/p&gt;
+
+&lt;p&gt;I hope you enjoyed reading the post and got to know new useful information about the managing dates with React+Redux.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Persisting data using local storage with React&#43;Redux</title>
       <link>http://www.ilonacodes.com/blog/persisting-data-using-local-storage-react-redux/</link>
       <pubDate>Tue, 10 Oct 2017 12:30:05 +0100</pubDate>
