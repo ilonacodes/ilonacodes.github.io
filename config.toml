@@ -1,6 +1,6 @@
 languageCode = "en-us"
 title = "My New Hugo Site"
-baseurl = "https://ilonacodes.github.io/"
+baseurl = "http://www.ilonacodes.com/"
 theme = "hugo-geo-modified"
 
 [params]
@@ -8,7 +8,7 @@ theme = "hugo-geo-modified"
 
 	favicon = "favicon.ico"
 
-	analytics = "code-here"
+	analytics = "UA-109315732-1"
 
 	github = "https://github.com/ilonacodes"
 	email = "demiluri@gmail.com"
