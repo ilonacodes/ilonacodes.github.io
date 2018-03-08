@@ -2,8 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://www.ilonacodes.com/blog/browsing-task-lists-by-date-with-react-redux-part-1/</loc>
-    <lastmod>2017-11-07T21:10:05+01:00</lastmod>
+    <loc>http://www.ilonacodes.com/blog/front-end-shorts-how-to-scroll-to-element-in-jquery-with-animation/</loc>
+    <lastmod>2018-03-08T16:30:05+01:00</lastmod>
   </url>
   
   <url>
@@ -82,6 +82,12 @@
   </url>
   
   <url>
+    <loc>http://www.ilonacodes.com/tags/animate/</loc>
+    <lastmod>2018-03-08T16:30:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://www.ilonacodes.com/tags/api/</loc>
     <lastmod>2017-07-17T21:45:05+01:00</lastmod>
     <priority>0</priority>
@@ -95,7 +101,7 @@
   
   <url>
     <loc>http://www.ilonacodes.com/tags/beginners/</loc>
-    <lastmod>2017-11-07T21:10:05+01:00</lastmod>
+    <lastmod>2017-10-10T12:30:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -107,7 +113,7 @@
   
   <url>
     <loc>http://www.ilonacodes.com/blog/</loc>
-    <lastmod>2017-11-07T21:10:05+01:00</lastmod>
+    <lastmod>2018-03-08T16:30:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -131,7 +137,7 @@
   
   <url>
     <loc>http://www.ilonacodes.com/tags/coding/</loc>
-    <lastmod>2017-11-07T21:10:05+01:00</lastmod>
+    <lastmod>2018-03-08T16:30:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -154,14 +160,14 @@
   </url>
   
   <url>
-    <loc>http://www.ilonacodes.com/tags/date/</loc>
-    <lastmod>2017-11-07T21:10:05+01:00</lastmod>
+    <loc>http://www.ilonacodes.com/tags/footer/</loc>
+    <lastmod>2017-07-08T20:25:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.ilonacodes.com/tags/footer/</loc>
-    <lastmod>2017-07-08T20:25:05+01:00</lastmod>
+    <loc>http://www.ilonacodes.com/tags/frontend/</loc>
+    <lastmod>2018-03-08T16:30:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -173,7 +179,7 @@
   
   <url>
     <loc>http://www.ilonacodes.com/</loc>
-    <lastmod>2017-11-07T21:10:05+01:00</lastmod>
+    <lastmod>2018-03-08T16:30:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -197,7 +203,13 @@
   
   <url>
     <loc>http://www.ilonacodes.com/tags/javascript/</loc>
-    <lastmod>2017-03-19T19:25:05+01:00</lastmod>
+    <lastmod>2018-03-08T16:30:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ilonacodes.com/tags/jquery/</loc>
+    <lastmod>2018-03-08T16:30:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -209,13 +221,13 @@
   
   <url>
     <loc>http://www.ilonacodes.com/tags/learntocode/</loc>
-    <lastmod>2017-11-07T21:10:05+01:00</lastmod>
+    <lastmod>2018-03-08T16:30:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.ilonacodes.com/tags/letsgetcoding/</loc>
-    <lastmod>2017-11-07T21:10:05+01:00</lastmod>
+    <lastmod>2018-03-08T16:30:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -233,7 +245,7 @@
   
   <url>
     <loc>http://www.ilonacodes.com/tags/react/</loc>
-    <lastmod>2017-11-07T21:10:05+01:00</lastmod>
+    <lastmod>2017-10-10T12:30:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -245,13 +257,13 @@
   
   <url>
     <loc>http://www.ilonacodes.com/tags/reactjs/</loc>
-    <lastmod>2017-11-07T21:10:05+01:00</lastmod>
+    <lastmod>2017-10-10T12:30:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.ilonacodes.com/tags/redux/</loc>
-    <lastmod>2017-11-07T21:10:05+01:00</lastmod>
+    <lastmod>2017-10-10T12:30:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -264,6 +276,12 @@
   <url>
     <loc>http://www.ilonacodes.com/tags/ruby/</loc>
     <lastmod>2017-07-17T21:45:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ilonacodes.com/tags/scrolling/</loc>
+    <lastmod>2018-03-08T16:30:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -292,7 +310,7 @@
   
   <url>
     <loc>http://www.ilonacodes.com/tags/user/</loc>
-    <lastmod>2017-11-07T21:10:05+01:00</lastmod>
+    <lastmod>2017-10-06T19:30:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -305,6 +323,12 @@
   <url>
     <loc>http://www.ilonacodes.com/tags/womenintech/</loc>
     <lastmod>2017-10-23T07:00:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ilonacodes.com/tags/womenwhocode/</loc>
+    <lastmod>2018-03-08T16:30:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
