@@ -9,6 +9,47 @@
     <atom:link href="http://www.ilonacodes.com/tags/letsgetcoding/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Front-end Shorts: How to Create Parallax Effect With Vanilla JS</title>
+      <link>http://www.ilonacodes.com/blog/how-to-create-parallax-effect-with-vanilla-js/</link>
+      <pubDate>Sat, 10 Mar 2018 20:45:05 +0100</pubDate>
+      
+      <guid>http://www.ilonacodes.com/blog/how-to-create-parallax-effect-with-vanilla-js/</guid>
+      <description>&lt;p&gt;Hi, there! I hope you enjoy your weekend, and ready for a new post.&lt;/p&gt;
+
+&lt;p&gt;Recently there are a lot of sites, which have featured with parallax scrolling effect, that represents them in more interactive &amp;ldquo;professionally-made&amp;rdquo; way.&lt;/p&gt;
+
+&lt;p&gt;This fact made me recreate the effect using Vanilla JavaScript, an example of which you can see below.&lt;/p&gt;
+
+&lt;p&gt;Let&amp;rsquo;s a look at the implementation of &lt;code&gt;parallax effect in Vanilla JavaScript&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;I have used a &amp;lsquo;scroll&amp;rsquo; event on browser &amp;lsquo;window,&amp;rsquo; and retrieved the number of pixels the document is currently scrolled along the vertical axis from &amp;lsquo;window.pageYOffset&amp;rsquo;.&lt;/p&gt;
+
+&lt;p&gt;The constant &amp;lsquo;background&amp;rsquo; consists of the image for which we are going to apply the parallax effect.&lt;/p&gt;
+
+&lt;p&gt;Finally, I compute the scrolling interval in pixels for the &amp;lsquo;top&amp;rsquo; attribute.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;
+    window.addEventListener(&#39;scroll&#39;, function (e) {
+        // will not work on IE &amp;lt; 9
+        var scrolled = window.pageYOffset;
+        // will not work on IE &amp;lt; 8
+        const background = document.querySelector(&#39;.background&#39;);
+        background.style.top = - (scrolled * 0.2) + &#39;px&#39;;
+    });
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Tune the coefficient &amp;lsquo;0.2&amp;rsquo; to your liking.&lt;/p&gt;
+
+&lt;p&gt;If you liked the article, it would make me happy if you shared it on your favourite social networks!&lt;/p&gt;
+
+&lt;p&gt;If you have any questions, suggestions or recommendations feel free to reach out to me &lt;a href=&#34;https://twitter.com/ilonacodes&#34;&gt;on Twitter&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Happy coding!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Front-end Shorts: How to Scroll to Element in jQuery With Animation</title>
       <link>http://www.ilonacodes.com/blog/front-end-shorts-how-to-scroll-to-element-in-jquery-with-animation/</link>
       <pubDate>Thu, 08 Mar 2018 16:30:05 +0100</pubDate>

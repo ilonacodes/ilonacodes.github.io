@@ -6,8 +6,49 @@
     <description>Recent content in Blogs on Ilona Who Codes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 08 Mar 2018 16:30:05 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 10 Mar 2018 20:45:05 +0100</lastBuildDate>
     <atom:link href="http://www.ilonacodes.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Front-end Shorts: How to Create Parallax Effect With Vanilla JS</title>
+      <link>http://www.ilonacodes.com/blog/how-to-create-parallax-effect-with-vanilla-js/</link>
+      <pubDate>Sat, 10 Mar 2018 20:45:05 +0100</pubDate>
+      
+      <guid>http://www.ilonacodes.com/blog/how-to-create-parallax-effect-with-vanilla-js/</guid>
+      <description>&lt;p&gt;Hi, there! I hope you enjoy your weekend, and ready for a new post.&lt;/p&gt;
+
+&lt;p&gt;Recently there are a lot of sites, which have featured with parallax scrolling effect, that represents them in more interactive &amp;ldquo;professionally-made&amp;rdquo; way.&lt;/p&gt;
+
+&lt;p&gt;This fact made me recreate the effect using Vanilla JavaScript, an example of which you can see below.&lt;/p&gt;
+
+&lt;p&gt;Let&amp;rsquo;s a look at the implementation of &lt;code&gt;parallax effect in Vanilla JavaScript&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;I have used a &amp;lsquo;scroll&amp;rsquo; event on browser &amp;lsquo;window,&amp;rsquo; and retrieved the number of pixels the document is currently scrolled along the vertical axis from &amp;lsquo;window.pageYOffset&amp;rsquo;.&lt;/p&gt;
+
+&lt;p&gt;The constant &amp;lsquo;background&amp;rsquo; consists of the image for which we are going to apply the parallax effect.&lt;/p&gt;
+
+&lt;p&gt;Finally, I compute the scrolling interval in pixels for the &amp;lsquo;top&amp;rsquo; attribute.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;
+    window.addEventListener(&#39;scroll&#39;, function (e) {
+        // will not work on IE &amp;lt; 9
+        var scrolled = window.pageYOffset;
+        // will not work on IE &amp;lt; 8
+        const background = document.querySelector(&#39;.background&#39;);
+        background.style.top = - (scrolled * 0.2) + &#39;px&#39;;
+    });
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Tune the coefficient &amp;lsquo;0.2&amp;rsquo; to your liking.&lt;/p&gt;
+
+&lt;p&gt;If you liked the article, it would make me happy if you shared it on your favourite social networks!&lt;/p&gt;
+
+&lt;p&gt;If you have any questions, suggestions or recommendations feel free to reach out to me &lt;a href=&#34;https://twitter.com/ilonacodes&#34;&gt;on Twitter&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Happy coding!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Front-end Shorts: How to Scroll to Element in jQuery With Animation</title>
@@ -1796,91 +1837,6 @@ export const form = (state = {}, action) =&amp;gt; {
 &lt;p&gt;Now the form state clears itself on every navigation. You can find the whole code change &lt;a href=&#34;https://github.com/ilonade/bookshelf/commit/f961552b2e0a35dcfd6a6b01e52b2b847cae7fa2&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Thank you for reading!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>How to Center Sign Up Form in 3 Simple Steps</title>
-      <link>http://www.ilonacodes.com/blog/how-to-center-sign-up-form-in-3-simple-steps/</link>
-      <pubDate>Sun, 12 Mar 2017 16:34:40 +0100</pubDate>
-      
-      <guid>http://www.ilonacodes.com/blog/how-to-center-sign-up-form-in-3-simple-steps/</guid>
-      <description>
-
-&lt;p&gt;Hi, everyone!&lt;/p&gt;
-
-&lt;p&gt;I am very happy to welcome you on my blog. A couple of days ago I started creating my new project (that I will have presented to you in a couple of weeks). And I have faced the following problem: I wanted to build a page with Sign Up form, and this page doesn&amp;rsquo;t have any other content.  In that case, it made a lot of sense to center the form, both horizontally and vertically. First of all, I have done some research, tried some solutions, and I want to present what worked for me.&lt;/p&gt;
-
-&lt;h2 id=&#34;step-1-set-up-correct-markup-structure&#34;&gt;Step 1:  Set up correct markup structure&lt;/h2&gt;
-
-&lt;p&gt;My form had both header and form elements, so I had to wrap it in a &amp;ldquo;div&amp;rdquo; container with a particular class so that I can style it:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;div class=&amp;quot;sign-up-form&amp;quot;&amp;gt;
-    &amp;lt;h1 class=&amp;quot;sign-up-title&amp;quot;&amp;gt;Sign Up&amp;lt;/h1&amp;gt;
-    &amp;lt;form&amp;gt;
-        &amp;lt;input type=&amp;quot;email&amp;quot; placeholder=&amp;quot;Email&amp;quot; name=&amp;quot;email&amp;quot;/&amp;gt;
-        &amp;lt;input type=&amp;quot;password&amp;quot; placeholder=&amp;quot;Password&amp;quot; name=&amp;quot;password&amp;quot;/&amp;gt;
-        &amp;lt;input type=&amp;quot;submit&amp;quot; value=&amp;quot;Continue&amp;quot;/&amp;gt;
-    &amp;lt;/form&amp;gt;
-&amp;lt;/div&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;This container (with class &amp;ldquo;sign-up-form&amp;rdquo;) is the one that we want to center. Therefore, we need also to wrap it in another container (with class &amp;ldquo;center-container&amp;rdquo;) inside which we are centering:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;div class=&amp;quot;center-container&amp;quot;&amp;gt;
-    &amp;lt;div class=&amp;quot;sign-up-form&amp;quot;&amp;gt;
-            ...
-    &amp;lt;/div&amp;gt;
-&amp;lt;/div&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;step-2-preparing-the-page-for-centering&#34;&gt;Step 2: Preparing the page for centering&lt;/h2&gt;
-
-&lt;p&gt;The page should occupy the full screen so that we can center the form. That means we need give the page correct size, margins, and paddings:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;html, body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;To be able to center the form container we can add &amp;ldquo;display: table&amp;rdquo;:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;html, body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-    display: table;
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;step-3-center-the-form-container&#34;&gt;Step 3: Center the form container&lt;/h2&gt;
-
-&lt;p&gt;Now we are going to center the form vertically and horizontally:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;.center-container {
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Also, we have to make the form container of the same size as its content. For that, we can use &amp;ldquo;display: table&amp;rdquo; and &amp;ldquo;margin: 0 auto&amp;rdquo;:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;.sign-up-form {
-    display: table;
-    margin: 0 auto;
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
-
-&lt;p&gt;That&amp;rsquo;s it. Now we can center our sign up form.&lt;/p&gt;
-
-&lt;p&gt;Thank you for reading.&lt;/p&gt;
 </description>
     </item>
     

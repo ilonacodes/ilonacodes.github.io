@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# website: http://ogp.me/ns/website#">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta name="description" content="Recently there are a lot of sites, which have featured with parallax scrolling effect, that represents them in more interactive professionally-made way.">
+    <meta property="og:title" content="Front-end Shorts: How to Create Parallax Effect With Vanilla JS">
+    
+    <meta property="og:type" content="article">
+    <meta property="article:published_time" content="2018-03-10">
+    
+    <meta property="og:description" content="Recently there are a lot of sites, which have featured with parallax scrolling effect, that represents them in more interactive professionally-made way.">
+    <meta property="og:url" content="http://www.ilonacodes.com/blog/how-to-create-parallax-effect-with-vanilla-js/">
+    <meta property="og:site_name" content="Ilona Who Codes">
+    
+    <meta property="og:tags" content="scrolling">
+    
+    <meta property="og:tags" content="parallax">
+    
+    <meta property="og:tags" content="javascript">
+    
+    <meta property="og:tags" content="frontend">
+    
+    <meta property="og:tags" content="learntocode">
+    
+    <meta property="og:tags" content="animate">
+    
+    <meta property="og:tags" content="coding">
+    
+    <meta property="og:tags" content="letsgetcoding">
+    
+    <meta property="og:tags" content="womenwhocode">
+    
+    <meta name="generator" content="Hugo 0.19" />
+    <title>Front-end Shorts: How to Create Parallax Effect With Vanilla JS &middot; Ilona Who Codes</title>
+    
+    
+    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/styles/default.min.css">
+    
+    <link rel="stylesheet" href="http://www.ilonacodes.com/css/style.css">
+    
+    <link href="" rel="alternate" type="application/rss+xml" title="Ilona Who Codes" />
+    
+    
+    <link rel="icon" href="http://www.ilonacodes.com/favicon.ico" />
+    
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    
+    
+</head>
+<body>
+
+
+<div class="blog-link">
+	<a href="/">ilonacodes</a>
+	<a href="/blog">read my blog</a>
+	<a href="/">about me</a>
+</div>
+
+<div class="container-fluid">
+	<div class="row">
+		<div id="content" class="col-xs-12 col-sm-12 col-md-12">
+			<div class="row">
+				<div class="paper">
+					<div id="post" class="col-sm-offset-1 col-sm-10 col-md-10 col-lg-10">
+
+
+<main>
+	<header>
+		<h1>Front-end Shorts: How to Create Parallax Effect With Vanilla JS</h1>
+	</header>
+
+	<article>
+		<p>Hi, there! I hope you enjoy your weekend, and ready for a new post.</p>
+
+<p>Recently there are a lot of sites, which have featured with parallax scrolling effect, that represents them in more interactive &ldquo;professionally-made&rdquo; way.</p>
+
+<p>This fact made me recreate the effect using Vanilla JavaScript, an example of which you can see below.</p>
+
+<p>Let&rsquo;s a look at the implementation of <code>parallax effect in Vanilla JavaScript</code>.</p>
+
+<p>I have used a &lsquo;scroll&rsquo; event on browser &lsquo;window,&rsquo; and retrieved the number of pixels the document is currently scrolled along the vertical axis from &lsquo;window.pageYOffset&rsquo;.</p>
+
+<p>The constant &lsquo;background&rsquo; consists of the image for which we are going to apply the parallax effect.</p>
+
+<p>Finally, I compute the scrolling interval in pixels for the &lsquo;top&rsquo; attribute.</p>
+
+<pre><code class="language-javascript">
+    window.addEventListener('scroll', function (e) {
+        // will not work on IE &lt; 9
+        var scrolled = window.pageYOffset;
+        // will not work on IE &lt; 8
+        const background = document.querySelector('.background');
+        background.style.top = - (scrolled * 0.2) + 'px';
+    });
+
+</code></pre>
+
+<p>Tune the coefficient &lsquo;0.2&rsquo; to your liking.</p>
+
+<p>If you liked the article, it would make me happy if you shared it on your favourite social networks!</p>
+
+<p>If you have any questions, suggestions or recommendations feel free to reach out to me <a href="https://twitter.com/ilonacodes">on Twitter</a>.</p>
+
+<p>Happy coding!</p>
+
+	</article>
+</main>
+
+<div id="bottom-nav" class="text-center center-block">
+</div>
+
+
+
+								<div class="footer-copy" style="text-align: center; opacity: 0.6"><p>&copy; 2018 ilonacodes</p></div>
+							</div>
+            </div>
+					</div>
+				</div>
+			</div>
+		</div>
+  </div>
+  
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-109315732-1', 'auto');
+    ga('send', 'pageview');
+    window.baseURL = "http:\/\/www.ilonacodes.com\/";
+  </script>
+  
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  
+  
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/highlight.min.js"></script>
+  
+  <script src="http://www.ilonacodes.com//js/App.js"></script>
+  
+</body>
+</html>
+

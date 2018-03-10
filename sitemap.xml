@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.ilonacodes.com/blog/how-to-create-parallax-effect-with-vanilla-js/</loc>
+    <lastmod>2018-03-10T20:45:05+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.ilonacodes.com/blog/front-end-shorts-how-to-scroll-to-element-in-jquery-with-animation/</loc>
     <lastmod>2018-03-08T16:30:05+01:00</lastmod>
   </url>
@@ -83,7 +88,7 @@
   
   <url>
     <loc>http://www.ilonacodes.com/tags/animate/</loc>
-    <lastmod>2018-03-08T16:30:05+01:00</lastmod>
+    <lastmod>2018-03-10T20:45:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -113,7 +118,7 @@
   
   <url>
     <loc>http://www.ilonacodes.com/blog/</loc>
-    <lastmod>2018-03-08T16:30:05+01:00</lastmod>
+    <lastmod>2018-03-10T20:45:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -137,7 +142,7 @@
   
   <url>
     <loc>http://www.ilonacodes.com/tags/coding/</loc>
-    <lastmod>2018-03-08T16:30:05+01:00</lastmod>
+    <lastmod>2018-03-10T20:45:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -167,7 +172,7 @@
   
   <url>
     <loc>http://www.ilonacodes.com/tags/frontend/</loc>
-    <lastmod>2018-03-08T16:30:05+01:00</lastmod>
+    <lastmod>2018-03-10T20:45:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -179,7 +184,7 @@
   
   <url>
     <loc>http://www.ilonacodes.com/</loc>
-    <lastmod>2018-03-08T16:30:05+01:00</lastmod>
+    <lastmod>2018-03-10T20:45:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -203,7 +208,7 @@
   
   <url>
     <loc>http://www.ilonacodes.com/tags/javascript/</loc>
-    <lastmod>2018-03-08T16:30:05+01:00</lastmod>
+    <lastmod>2018-03-10T20:45:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -221,13 +226,13 @@
   
   <url>
     <loc>http://www.ilonacodes.com/tags/learntocode/</loc>
-    <lastmod>2018-03-08T16:30:05+01:00</lastmod>
+    <lastmod>2018-03-10T20:45:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.ilonacodes.com/tags/letsgetcoding/</loc>
-    <lastmod>2018-03-08T16:30:05+01:00</lastmod>
+    <lastmod>2018-03-10T20:45:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -240,6 +245,12 @@
   <url>
     <loc>http://www.ilonacodes.com/tags/meetup/</loc>
     <lastmod>2017-10-23T07:00:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ilonacodes.com/tags/parallax/</loc>
+    <lastmod>2018-03-10T20:45:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -281,7 +292,7 @@
   
   <url>
     <loc>http://www.ilonacodes.com/tags/scrolling/</loc>
-    <lastmod>2018-03-08T16:30:05+01:00</lastmod>
+    <lastmod>2018-03-10T20:45:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -328,7 +339,7 @@
   
   <url>
     <loc>http://www.ilonacodes.com/tags/womenwhocode/</loc>
-    <lastmod>2018-03-08T16:30:05+01:00</lastmod>
+    <lastmod>2018-03-10T20:45:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
