@@ -9,6 +9,63 @@
     <atom:link href="http://www.ilonacodes.com/tags/womenwhocode/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Front-end Shorts: Setting up React-Router-Redux</title>
+      <link>http://www.ilonacodes.com/blog/frontend-shorts-setting-up-react-router-redux/</link>
+      <pubDate>Wed, 14 Mar 2018 15:30:05 +0100</pubDate>
+      
+      <guid>http://www.ilonacodes.com/blog/frontend-shorts-setting-up-react-router-redux/</guid>
+      <description>&lt;p&gt;Hi, everyone! How is your week going?&lt;/p&gt;
+
+&lt;p&gt;Yesterday I worked with the web application written on React + Redux and had had some problem with the &lt;code&gt;react-router-redux&lt;/code&gt; library. In short, the &lt;code&gt;push&lt;/code&gt; method (using for navigation outside of components) didn&amp;rsquo;t work.&lt;/p&gt;
+
+&lt;p&gt;Firstly, I have tried to set the Route component in the &amp;ldquo;traditional&amp;rdquo; way such as with react-router library. That might get the history props. Unfortunately, that also didn&amp;rsquo;t work.
+Because of Redux framework.&lt;/p&gt;
+
+&lt;p&gt;After spending time on the Internet, I found the issue how to navigate events via Redux actions: I missed routerMiddleware as the second parameter for my store:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;// index.js
+
+import React from &#39;react&#39;;
+import ReactDOM from &#39;react-dom&#39;;
+import {applyMiddleware, combineReducers, compose, createStore} from &#39;redux&#39;;
+import {browserHistory} from &#39;react-router&#39;;
+import {routerMiddleware, routerReducer, syncHistoryWithStore} from &#39;react-router-redux&#39;;
+
+import {Routes} from &#39;./components/Routes&#39;;
+import {expenseFormReducer, expensesReducer} from &#39;./reducers/expensesReducer&#39;;
+
+import &#39;./index.css&#39;;
+
+const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
+
+let store = createStore(
+    combineReducers({
+        routing: routerReducer,
+        expenses: expensesReducer,
+        expenseForm: expenseFormReducer
+    }),
+    composeEnhancers(
+        applyMiddleware(
+            routerMiddleware(browserHistory)
+        )
+    ),
+);
+
+const history = syncHistoryWithStore(browserHistory, store);
+
+ReactDOM.render(&amp;lt;Routes history={history} store={store}/&amp;gt;,
+    document.getElementById(&#39;root&#39;)
+);
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;After applying that all routes to different component work correctly.&lt;/p&gt;
+
+&lt;p&gt;Thank you for the reading. If you have any questions or suggestions how it should have written on, then just get in touch with me either on my &lt;a href=&#34;https://twitter.com/ilonacodes&#34;&gt;Twitter&lt;/a&gt; or &lt;a href=&#34;https://www.instagram.com/ilonacodes&#34;&gt;Instagram&lt;/a&gt; profiles.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Front-end Shorts: How to Create Parallax Effect With Vanilla JS</title>
       <link>http://www.ilonacodes.com/blog/how-to-create-parallax-effect-with-vanilla-js/</link>
       <pubDate>Sat, 10 Mar 2018 20:45:05 +0100</pubDate>
