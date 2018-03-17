@@ -19,7 +19,7 @@
 
 &lt;p&gt;In my case, the task looks like:&lt;/p&gt;
 
-&lt;p&gt;I have a URL, for example: &lt;code&gt;https://myrestapi.example.com/api/v1/expenses/&lt;/code&gt; which will give the following JSON data, and I want to get this data in my UI.&lt;/p&gt;
+&lt;p&gt;I have a URL, for example: &lt;code&gt;https://api.com/v1/expenses/&lt;/code&gt; which will give the following JSON data, and I want to get this data in my UI.&lt;/p&gt;
 
 &lt;p&gt;To solve this task, I decided to use JavaScript’s &lt;code&gt;fetch&lt;/code&gt; method. So in this way, I shouldn&amp;rsquo;t rely on any external libraries (given my target browsers are remotely up-to-date).&lt;/p&gt;
 
@@ -29,7 +29,7 @@
 
 &lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;
 const loadExpenses = () =&amp;gt; {
-       fetch(&#39;https://myrestapi.example.com/api/v1/expenses/&#39;)
+       fetch(&#39;https://api.com/v1/expenses/&#39;)
             .then(response =&amp;gt; response.json())
             .then(expenses =&amp;gt; loadedExpenses(expenses))
 };
