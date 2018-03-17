@@ -6,8 +6,41 @@
     <description>Recent content on Ilona Who Codes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 14 Mar 2018 15:30:05 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 17 Mar 2018 15:00:05 +0100</lastBuildDate>
     <atom:link href="http://www.ilonacodes.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Front-end Shorts: Fetch List of Resources From REST-API</title>
+      <link>http://www.ilonacodes.com/blog/front-end-shorts-fetch-list-of-resources-from-rest-api/</link>
+      <pubDate>Sat, 17 Mar 2018 15:00:05 +0100</pubDate>
+      
+      <guid>http://www.ilonacodes.com/blog/front-end-shorts-fetch-list-of-resources-from-rest-api/</guid>
+      <description>&lt;p&gt;Today I am going to tell you how to get JSON data from the Rest-API to UI using React+Redux frameworks.&lt;/p&gt;
+
+&lt;p&gt;In my case, the task looks like:&lt;/p&gt;
+
+&lt;p&gt;I have a URL, for example: &lt;code&gt;https://myrestapi.example.com/api/v1/expenses/&lt;/code&gt; which will give the following JSON data, and I want to get this data in my UI.&lt;/p&gt;
+
+&lt;p&gt;To solve this task, I decided to use JavaScript’s &lt;code&gt;fetch&lt;/code&gt; method. So in this way, I shouldn&amp;rsquo;t rely on any external libraries (given my target browsers are remotely up-to-date).&lt;/p&gt;
+
+&lt;p&gt;What is nice, that by default the fetch method uses &lt;code&gt;GET&lt;/code&gt; and I don&amp;rsquo;t have to specify any options, however, you can do all that if you want. For further reference: &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch#Response_objects&#34;&gt;Fetch API reference&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Let&amp;rsquo;s look at the following code snippet of my implementation:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;
+const loadExpenses = () =&amp;gt; {
+       fetch(&#39;https://myrestapi.example.com/api/v1/expenses/&#39;)
+            .then(response =&amp;gt; response.json())
+            .then(expenses =&amp;gt; loadedExpenses(expenses))
+};
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;*loadedExpenses is a function that dispatches action to Redux and then reducer stores the data in the store.&lt;/p&gt;
+
+&lt;p&gt;Thank you for reading and have a lovely weekend!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Front-end Shorts: Setting up React-Router-Redux</title>
@@ -1756,53 +1789,6 @@ GET /preview/4
 &lt;p&gt;I hope, my plot is readable enough and understandable, so you can get an idea how I am going to implement the request-response interaction between the client application and the server.&lt;/p&gt;
 
 &lt;p&gt;Thank you for reading!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>CSS Sticky Footer</title>
-      <link>http://www.ilonacodes.com/blog/css-sticky-footer/</link>
-      <pubDate>Sat, 08 Jul 2017 20:25:05 +0100</pubDate>
-      
-      <guid>http://www.ilonacodes.com/blog/css-sticky-footer/</guid>
-      <description>&lt;p&gt;Hi there!&lt;/p&gt;
-
-&lt;p&gt;There are a lot of ways how to implement a sticky footer on the page that will always remain at a fixed position on the screen no matter whether the user scroll or not. It will be visible all the time at that specific place (often on bottom).&lt;/p&gt;
-
-&lt;p&gt;I would like to share my way how I added the sticky footer on my site.&lt;/p&gt;
-
-&lt;p&gt;Firstly, I added two separated &lt;div&gt; tags inside the body in index.html and thereby assigning two classes .container and .footer to them:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;body&amp;gt;
-  &amp;lt;div class=&amp;quot;container&amp;quot;&amp;gt;
-    ...
-  &amp;lt;/div&amp;gt;
-
-  &amp;lt;div class=&amp;quot;footer&amp;quot;&amp;gt;
-    ...
-  &amp;lt;/div&amp;gt;
-&amp;lt;/body&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;The next step is creating the CSS styles in the index.css file and styling these two containers from index.html, where .container will get a margin-bottom with the value equal to the size of the .footer:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;.container {
-  margin-bottom: 60px;
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;And then .footer styles will be consisted of the following properties:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;.footer {
-  width: 100%;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  margin: 0 auto;
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;That&amp;rsquo;s it. I hope this post helped you added a sticky (floating) footer to your site.&lt;/p&gt;
 </description>
     </item>
     

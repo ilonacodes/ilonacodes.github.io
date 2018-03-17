@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# website: http://ogp.me/ns/website#">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta name="description" content="Today I am going to tell you how to get JSON data from the Rest-API to UI using React&#43;Redux frameworks.">
+    <meta property="og:title" content="Front-end Shorts: Fetch List of Resources From REST-API">
+    
+    <meta property="og:type" content="article">
+    <meta property="article:published_time" content="2018-03-17">
+    
+    <meta property="og:description" content="Today I am going to tell you how to get JSON data from the Rest-API to UI using React&#43;Redux frameworks.">
+    <meta property="og:url" content="http://www.ilonacodes.com/blog/front-end-shorts-fetch-list-of-resources-from-rest-api/">
+    <meta property="og:site_name" content="Ilona Who Codes">
+    
+    <meta property="og:tags" content="react">
+    
+    <meta property="og:tags" content="redux">
+    
+    <meta property="og:tags" content="fetch">
+    
+    <meta property="og:tags" content="javascript">
+    
+    <meta property="og:tags" content="frontend">
+    
+    <meta property="og:tags" content="learntocode">
+    
+    <meta property="og:tags" content="coding">
+    
+    <meta property="og:tags" content="letsgetcoding">
+    
+    <meta property="og:tags" content="womenwhocode">
+    
+    <meta name="generator" content="Hugo 0.19" />
+    <title>Front-end Shorts: Fetch List of Resources From REST-API &middot; Ilona Who Codes</title>
+    
+    
+    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/styles/default.min.css">
+    
+    <link rel="stylesheet" href="http://www.ilonacodes.com/css/style.css">
+    
+    <link href="" rel="alternate" type="application/rss+xml" title="Ilona Who Codes" />
+    
+    
+    <link rel="icon" href="http://www.ilonacodes.com/favicon.ico" />
+    
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    
+    
+</head>
+<body>
+
+
+<div class="blog-link">
+	<a href="/">ilonacodes</a>
+	<a href="/blog">read my blog</a>
+	<a href="/">about me</a>
+</div>
+
+<div class="container-fluid">
+	<div class="row">
+		<div id="content" class="col-xs-12 col-sm-12 col-md-12">
+			<div class="row">
+				<div class="paper">
+					<div id="post" class="col-sm-offset-1 col-sm-10 col-md-10 col-lg-10">
+
+
+<main>
+	<header>
+		<h1>Front-end Shorts: Fetch List of Resources From REST-API</h1>
+	</header>
+
+	<article>
+		<p>Today I am going to tell you how to get JSON data from the Rest-API to UI using React+Redux frameworks.</p>
+
+<p>In my case, the task looks like:</p>
+
+<p>I have a URL, for example: <code>https://myrestapi.example.com/api/v1/expenses/</code> which will give the following JSON data, and I want to get this data in my UI.</p>
+
+<p>To solve this task, I decided to use JavaScript’s <code>fetch</code> method. So in this way, I shouldn&rsquo;t rely on any external libraries (given my target browsers are remotely up-to-date).</p>
+
+<p>What is nice, that by default the fetch method uses <code>GET</code> and I don&rsquo;t have to specify any options, however, you can do all that if you want. For further reference: <a href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch#Response_objects">Fetch API reference</a>.</p>
+
+<p>Let&rsquo;s look at the following code snippet of my implementation:</p>
+
+<pre><code class="language-javascript">
+const loadExpenses = () =&gt; {
+       fetch('https://myrestapi.example.com/api/v1/expenses/')
+            .then(response =&gt; response.json())
+            .then(expenses =&gt; loadedExpenses(expenses))
+};
+
+</code></pre>
+
+<p>*loadedExpenses is a function that dispatches action to Redux and then reducer stores the data in the store.</p>
+
+<p>Thank you for reading and have a lovely weekend!</p>
+
+	</article>
+</main>
+
+<div id="bottom-nav" class="text-center center-block">
+</div>
+
+
+
+								<div class="footer-copy" style="text-align: center; opacity: 0.6"><p>&copy; 2018 ilonacodes</p></div>
+							</div>
+            </div>
+					</div>
+				</div>
+			</div>
+		</div>
+  </div>
+  
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-109315732-1', 'auto');
+    ga('send', 'pageview');
+    window.baseURL = "http:\/\/www.ilonacodes.com\/";
+  </script>
+  
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  
+  
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/highlight.min.js"></script>
+  
+  <script src="http://www.ilonacodes.com//js/App.js"></script>
+  
+</body>
+</html>
+

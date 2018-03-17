@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.ilonacodes.com/blog/front-end-shorts-fetch-list-of-resources-from-rest-api/</loc>
+    <lastmod>2018-03-17T15:00:05+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.ilonacodes.com/blog/frontend-shorts-setting-up-react-router-redux/</loc>
     <lastmod>2018-03-14T15:30:05+01:00</lastmod>
   </url>
@@ -123,7 +128,7 @@
   
   <url>
     <loc>http://www.ilonacodes.com/blog/</loc>
-    <lastmod>2018-03-14T15:30:05+01:00</lastmod>
+    <lastmod>2018-03-17T15:00:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -147,7 +152,7 @@
   
   <url>
     <loc>http://www.ilonacodes.com/tags/coding/</loc>
-    <lastmod>2018-03-14T15:30:05+01:00</lastmod>
+    <lastmod>2018-03-17T15:00:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -170,6 +175,12 @@
   </url>
   
   <url>
+    <loc>http://www.ilonacodes.com/tags/fetch/</loc>
+    <lastmod>2018-03-17T15:00:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://www.ilonacodes.com/tags/footer/</loc>
     <lastmod>2017-07-08T20:25:05+01:00</lastmod>
     <priority>0</priority>
@@ -177,7 +188,7 @@
   
   <url>
     <loc>http://www.ilonacodes.com/tags/frontend/</loc>
-    <lastmod>2018-03-14T15:30:05+01:00</lastmod>
+    <lastmod>2018-03-17T15:00:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -189,7 +200,7 @@
   
   <url>
     <loc>http://www.ilonacodes.com/</loc>
-    <lastmod>2018-03-14T15:30:05+01:00</lastmod>
+    <lastmod>2018-03-17T15:00:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -213,7 +224,7 @@
   
   <url>
     <loc>http://www.ilonacodes.com/tags/javascript/</loc>
-    <lastmod>2018-03-14T15:30:05+01:00</lastmod>
+    <lastmod>2018-03-17T15:00:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -231,13 +242,13 @@
   
   <url>
     <loc>http://www.ilonacodes.com/tags/learntocode/</loc>
-    <lastmod>2018-03-14T15:30:05+01:00</lastmod>
+    <lastmod>2018-03-17T15:00:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.ilonacodes.com/tags/letsgetcoding/</loc>
-    <lastmod>2018-03-14T15:30:05+01:00</lastmod>
+    <lastmod>2018-03-17T15:00:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -261,7 +272,7 @@
   
   <url>
     <loc>http://www.ilonacodes.com/tags/react/</loc>
-    <lastmod>2018-03-14T15:30:05+01:00</lastmod>
+    <lastmod>2018-03-17T15:00:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -285,7 +296,7 @@
   
   <url>
     <loc>http://www.ilonacodes.com/tags/redux/</loc>
-    <lastmod>2018-03-14T15:30:05+01:00</lastmod>
+    <lastmod>2018-03-17T15:00:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -350,7 +361,7 @@
   
   <url>
     <loc>http://www.ilonacodes.com/tags/womenwhocode/</loc>
-    <lastmod>2018-03-14T15:30:05+01:00</lastmod>
+    <lastmod>2018-03-17T15:00:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   

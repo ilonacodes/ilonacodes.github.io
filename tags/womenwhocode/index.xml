@@ -9,6 +9,39 @@
     <atom:link href="http://www.ilonacodes.com/tags/womenwhocode/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Front-end Shorts: Fetch List of Resources From REST-API</title>
+      <link>http://www.ilonacodes.com/blog/front-end-shorts-fetch-list-of-resources-from-rest-api/</link>
+      <pubDate>Sat, 17 Mar 2018 15:00:05 +0100</pubDate>
+      
+      <guid>http://www.ilonacodes.com/blog/front-end-shorts-fetch-list-of-resources-from-rest-api/</guid>
+      <description>&lt;p&gt;Today I am going to tell you how to get JSON data from the Rest-API to UI using React+Redux frameworks.&lt;/p&gt;
+
+&lt;p&gt;In my case, the task looks like:&lt;/p&gt;
+
+&lt;p&gt;I have a URL, for example: &lt;code&gt;https://myrestapi.example.com/api/v1/expenses/&lt;/code&gt; which will give the following JSON data, and I want to get this data in my UI.&lt;/p&gt;
+
+&lt;p&gt;To solve this task, I decided to use JavaScript’s &lt;code&gt;fetch&lt;/code&gt; method. So in this way, I shouldn&amp;rsquo;t rely on any external libraries (given my target browsers are remotely up-to-date).&lt;/p&gt;
+
+&lt;p&gt;What is nice, that by default the fetch method uses &lt;code&gt;GET&lt;/code&gt; and I don&amp;rsquo;t have to specify any options, however, you can do all that if you want. For further reference: &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch#Response_objects&#34;&gt;Fetch API reference&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Let&amp;rsquo;s look at the following code snippet of my implementation:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;
+const loadExpenses = () =&amp;gt; {
+       fetch(&#39;https://myrestapi.example.com/api/v1/expenses/&#39;)
+            .then(response =&amp;gt; response.json())
+            .then(expenses =&amp;gt; loadedExpenses(expenses))
+};
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;*loadedExpenses is a function that dispatches action to Redux and then reducer stores the data in the store.&lt;/p&gt;
+
+&lt;p&gt;Thank you for reading and have a lovely weekend!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Front-end Shorts: Setting up React-Router-Redux</title>
       <link>http://www.ilonacodes.com/blog/frontend-shorts-setting-up-react-router-redux/</link>
       <pubDate>Wed, 14 Mar 2018 15:30:05 +0100</pubDate>
