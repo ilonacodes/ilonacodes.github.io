@@ -13,7 +13,7 @@ Today I am going to tell you how to get JSON data from the Rest-API to UI using 
 
 In my case, the task looks like:
 
-I have a URL, for example: `https://myrestapi.example.com/api/v1/expenses/` which will give the following JSON data, and I want to get this data in my UI.
+I have a URL, for example: `https://api.com/v1/expenses/` which will give the following JSON data, and I want to get this data in my UI.
 
 To solve this task, I decided to use JavaScript’s `fetch` method. So in this way, I shouldn't rely on any external libraries (given my target browsers are remotely up-to-date).
 
@@ -24,7 +24,7 @@ Let's look at the following code snippet of my implementation:
 ```javascript
 
 const loadExpenses = () => {
-       fetch('https://myrestapi.example.com/api/v1/expenses/')
+       fetch('https://api.com/v1/expenses/')
             .then(response => response.json())
             .then(expenses => loadedExpenses(expenses))
 };
