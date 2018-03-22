@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# website: http://ogp.me/ns/website#">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    
+
+    <meta name="description" content="There are many possibilities how to remove multiple items from the array with JavaScript. So in this tutorial, I am going to share my approach to delete function with React&#43;Redux.">
+    <meta property="og:title" content="Front-end Shorts: How to Delete Item From The List With React&#43;Redux">
+    
+    <meta property="og:type" content="article">
+    <meta property="article:published_time" content="2018-03-22">
+    
+    <meta property="og:description" content="There are many possibilities how to remove multiple items from the array with JavaScript. So in this tutorial, I am going to share my approach to delete function with React&#43;Redux.">
+    <meta property="og:url" content="http://www.ilonacodes.com/blog/front-end-shorts-how-to-delete-item-from-the-list-with-react-redux/">
+    <meta property="og:site_name" content="Ilona Who Codes">
+    
+    <meta property="og:tags" content="react">
+    
+    <meta property="og:tags" content="redux">
+    
+    <meta property="og:tags" content="javascript">
+    
+    <meta property="og:tags" content="frontend">
+    
+    <meta property="og:tags" content="learntocode">
+    
+    <meta property="og:tags" content="coding">
+    
+    <meta property="og:tags" content="letsgetcoding">
+    
+    <meta property="og:tags" content="womenwhocode">
+    
+    <meta name="generator" content="Hugo 0.19" />
+    <title>Front-end Shorts: How to Delete Item From The List With React&#43;Redux &middot; Ilona Who Codes</title>
+    
+    
+    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/styles/default.min.css">
+    
+    <link rel="stylesheet" href="http://www.ilonacodes.com/css/style.css">
+    
+    <link href="" rel="alternate" type="application/rss+xml" title="Ilona Who Codes" />
+    
+    
+    <link rel="icon" href="http://www.ilonacodes.com/favicon.ico" />
+    
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    
+    
+</head>
+<body>
+
+
+<div class="blog-link">
+	<a href="/">ilonacodes</a>
+	<a href="/blog">read my blog</a>
+	<a href="/">about me</a>
+</div>
+
+<div class="container-fluid">
+	<div class="row">
+		<div id="content" class="col-xs-12 col-sm-12 col-md-12">
+			<div class="row">
+				<div class="paper">
+					<div id="post" class="col-sm-offset-1 col-sm-10 col-md-10 col-lg-10">
+
+
+<main>
+	<header>
+		<h1>Front-end Shorts: How to Delete Item From The List With React&#43;Redux</h1>
+	</header>
+
+	<article>
+		<p>There are many possibilities how to remove multiple items from the array with JavaScript. So in this tutorial, I am going to share my approach to delete function with React+Redux.</p>
+
+<p>It&rsquo;s front-end shorts, and I am trying to highlight the most important information. Thus, just let’s have a look at the significant code snippets with explanations:</p>
+
+<p>I have created the action:</p>
+
+<pre><code class="language-javascript">// expenseActions.js
+
+export const t = {
+    ...
+    DELETE_EXPENSE: 'DELETE_EXPENSE',
+    ...
+};
+
+export const actions = {
+  ...
+
+    deleteExpense: payload =&gt; ({
+        type: t.DELETE_EXPENSE,
+        payload
+    }),
+...
+};
+
+</code></pre>
+
+<p>The second step is using action in <code>expensesReducer</code>. Here I am using <code>filter</code> method comparing id of the current object &lsquo;expense&rsquo; and the object dispatched from the store. All changes are made to the original array:</p>
+
+<pre><code class="language-javascript">// expensesReducer.js
+
+export const expensesReducer = (state = initState, action) =&gt; {
+    switch (action.type) {
+    ...
+
+        case t.DELETE_EXPENSE:
+            return state.filter(expense =&gt; expense.id !== action.payload.id);
+
+      ...
+
+        default:
+            return state;
+    }
+};
+
+</code></pre>
+
+<p>Last but not least, I pass <code>deleteExpense</code> to props of the <code>Expenses</code> component and provide it for a button’s <code>onClick</code> event listener:</p>
+
+<pre><code class="language-javascript">// Dashboard.js
+
+const Expense = ({expense, deleteExpense}) =&gt; {
+return (
+        &lt;div className='expense-container'&gt;
+...
+          &lt;div className='delete-container' onClick={() =&gt; deleteExpense(expense)}&gt;
+                &lt;div&gt;&lt;a className='delete-button'&gt;
+                    -
+                &lt;/a&gt;&lt;/div&gt;
+          &lt;/div&gt;
+...
+        &lt;/div&gt;
+      );
+}
+
+const ExpensesComponent = ({expenses, deleteExpense}) =&gt; {
+...
+return (
+        &lt;div&gt;
+            {
+                expenses.map(expense =&gt; {
+                    return &lt;Expense
+                                   ...
+                                    expense={expense}
+                                    deleteExpense={deleteExpense}
+                    /&gt;
+                })
+            }
+        &lt;/div&gt;
+    )
+}
+
+const Expenses = connect(
+    (state) =&gt; ({
+        expenses: state.expenses,
+    }),
+
+    (dispatch) =&gt; ({
+        deleteExpense: (expense) =&gt; {
+            dispatch(actions.deleteExpense(expense))
+        },
+...
+)(ExpensesComponent);
+
+</code></pre>
+
+<p>That&rsquo;s it.
+Thank you for reading! Also, if you’ve made this far, feel free to connect with me on <a href="https://twitter.com/ilonacodes">Twitter</a> or <a href="https://www.instagram.com/ilonacodes/">Instagram</a>.</p>
+
+<p>Happy coding!</p>
+
+	</article>
+</main>
+
+<div id="bottom-nav" class="text-center center-block">
+</div>
+
+
+
+								<div class="footer-copy" style="text-align: center; opacity: 0.6"><p>&copy; 2018 ilonacodes</p></div>
+							</div>
+            </div>
+					</div>
+				</div>
+			</div>
+		</div>
+  </div>
+  
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-109315732-1', 'auto');
+    ga('send', 'pageview');
+    window.baseURL = "http:\/\/www.ilonacodes.com\/";
+  </script>
+  
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  
+  
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/highlight.min.js"></script>
+  
+  <script src="http://www.ilonacodes.com//js/App.js"></script>
+  
+</body>
+</html>
+

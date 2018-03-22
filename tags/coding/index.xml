@@ -9,6 +9,114 @@
     <atom:link href="http://www.ilonacodes.com/tags/coding/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Front-end Shorts: How to Delete Item From The List With React&#43;Redux</title>
+      <link>http://www.ilonacodes.com/blog/front-end-shorts-how-to-delete-item-from-the-list-with-react-redux/</link>
+      <pubDate>Thu, 22 Mar 2018 20:40:05 +0100</pubDate>
+      
+      <guid>http://www.ilonacodes.com/blog/front-end-shorts-how-to-delete-item-from-the-list-with-react-redux/</guid>
+      <description>&lt;p&gt;There are many possibilities how to remove multiple items from the array with JavaScript. So in this tutorial, I am going to share my approach to delete function with React+Redux.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s front-end shorts, and I am trying to highlight the most important information. Thus, just let’s have a look at the significant code snippets with explanations:&lt;/p&gt;
+
+&lt;p&gt;I have created the action:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;// expenseActions.js
+
+export const t = {
+    ...
+    DELETE_EXPENSE: &#39;DELETE_EXPENSE&#39;,
+    ...
+};
+
+export const actions = {
+  ...
+
+    deleteExpense: payload =&amp;gt; ({
+        type: t.DELETE_EXPENSE,
+        payload
+    }),
+...
+};
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The second step is using action in &lt;code&gt;expensesReducer&lt;/code&gt;. Here I am using &lt;code&gt;filter&lt;/code&gt; method comparing id of the current object &amp;lsquo;expense&amp;rsquo; and the object dispatched from the store. All changes are made to the original array:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;// expensesReducer.js
+
+export const expensesReducer = (state = initState, action) =&amp;gt; {
+    switch (action.type) {
+    ...
+
+        case t.DELETE_EXPENSE:
+            return state.filter(expense =&amp;gt; expense.id !== action.payload.id);
+
+      ...
+
+        default:
+            return state;
+    }
+};
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Last but not least, I pass &lt;code&gt;deleteExpense&lt;/code&gt; to props of the &lt;code&gt;Expenses&lt;/code&gt; component and provide it for a button’s &lt;code&gt;onClick&lt;/code&gt; event listener:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;// Dashboard.js
+
+const Expense = ({expense, deleteExpense}) =&amp;gt; {
+return (
+        &amp;lt;div className=&#39;expense-container&#39;&amp;gt;
+...
+          &amp;lt;div className=&#39;delete-container&#39; onClick={() =&amp;gt; deleteExpense(expense)}&amp;gt;
+                &amp;lt;div&amp;gt;&amp;lt;a className=&#39;delete-button&#39;&amp;gt;
+                    -
+                &amp;lt;/a&amp;gt;&amp;lt;/div&amp;gt;
+          &amp;lt;/div&amp;gt;
+...
+        &amp;lt;/div&amp;gt;
+      );
+}
+
+const ExpensesComponent = ({expenses, deleteExpense}) =&amp;gt; {
+...
+return (
+        &amp;lt;div&amp;gt;
+            {
+                expenses.map(expense =&amp;gt; {
+                    return &amp;lt;Expense
+                                   ...
+                                    expense={expense}
+                                    deleteExpense={deleteExpense}
+                    /&amp;gt;
+                })
+            }
+        &amp;lt;/div&amp;gt;
+    )
+}
+
+const Expenses = connect(
+    (state) =&amp;gt; ({
+        expenses: state.expenses,
+    }),
+
+    (dispatch) =&amp;gt; ({
+        deleteExpense: (expense) =&amp;gt; {
+            dispatch(actions.deleteExpense(expense))
+        },
+...
+)(ExpensesComponent);
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;That&amp;rsquo;s it.
+Thank you for reading! Also, if you’ve made this far, feel free to connect with me on &lt;a href=&#34;https://twitter.com/ilonacodes&#34;&gt;Twitter&lt;/a&gt; or &lt;a href=&#34;https://www.instagram.com/ilonacodes/&#34;&gt;Instagram&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Happy coding!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Front-end Shorts: Fetch List of Resources From REST-API</title>
       <link>http://www.ilonacodes.com/blog/front-end-shorts-fetch-list-of-resources-from-rest-api/</link>
       <pubDate>Sat, 17 Mar 2018 15:00:05 +0100</pubDate>
