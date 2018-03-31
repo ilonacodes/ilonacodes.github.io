@@ -6,8 +6,62 @@
     <description>Recent content in Blogs on Ilona Who Codes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 22 Mar 2018 20:40:05 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 31 Mar 2018 18:30:05 +0100</lastBuildDate>
     <atom:link href="http://www.ilonacodes.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Front-end Shorts: How to Read Content From The File Input in React</title>
+      <link>http://www.ilonacodes.com/blog/frontend-shorts-how-to-read-content-from-the-file-input-in-react/</link>
+      <pubDate>Sat, 31 Mar 2018 18:30:05 +0100</pubDate>
+      
+      <guid>http://www.ilonacodes.com/blog/frontend-shorts-how-to-read-content-from-the-file-input-in-react/</guid>
+      <description>&lt;p&gt;Hi, everyone! How is your weekend going?&lt;/p&gt;
+
+&lt;p&gt;As you know, I prefer learning to code by doing things. So, the last feature I have implemented for the app is the reading of the content from the uploaded (local) &lt;code&gt;.csv&lt;/code&gt; file from the user.&lt;/p&gt;
+
+&lt;p&gt;To do so without a server or any back-end—is a challenge.&lt;/p&gt;
+
+&lt;p&gt;To make things work properly in React+Redux, I have created the following component:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;
+const ImportFromFileBodyComponent = () =&amp;gt; {
+    let fileReader;
+
+    const handleFileRead = (e) =&amp;gt; {
+        const content = fileReader.result;
+        console.log(content);
+        // … do something with the &#39;content&#39; …
+    };
+
+    const handleFileChosen = (file) =&amp;gt; {
+        fileReader = new FileReader();
+        fileReader.onloadend = handleFileRead;
+        fileReader.readAsText(file);
+    };
+
+    return &amp;lt;div className=&#39;upload-expense&#39;&amp;gt;
+        &amp;lt;input type=&#39;file&#39;
+               id=&#39;file&#39;
+               className=&#39;input-file&#39;
+               accept=&#39;.csv&#39;
+               onChange={e =&amp;gt; handleFileChosen(e.target.files[0])}
+        /&amp;gt;
+    &amp;lt;/div&amp;gt;;
+};
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The &lt;code&gt;FileReader&lt;/code&gt; object lets web apps asynchronously read the contents of files stored in the user&amp;rsquo;s computer, using &lt;code&gt;File&lt;/code&gt; or &lt;code&gt;Blob&lt;/code&gt; objects to specify the file or data to read.&lt;/p&gt;
+
+&lt;p&gt;Then the &lt;code&gt;readAsText&lt;/code&gt; method is used to read the contents of the specified &lt;code&gt;Blob&lt;/code&gt; or &lt;code&gt;File&lt;/code&gt;. When the read operation is complete, the state is changed to &lt;code&gt;done&lt;/code&gt;; the &lt;code&gt;onloadend&lt;/code&gt; is triggered, and, if &lt;code&gt;Filereader.result&lt;/code&gt; is not null, the constant &lt;code&gt;content&lt;/code&gt; contains the contents of the file as a text string.&lt;/p&gt;
+
+&lt;p&gt;Any &lt;code&gt;load&lt;/code&gt; event of &lt;code&gt;fileReader&lt;/code&gt; object sets the result value asynchronously,  and according to the code snippet above the &lt;code&gt;fileReader.onloadend&lt;/code&gt; callback can access the result of uploaded file by the user.&lt;/p&gt;
+
+&lt;p&gt;If you would like to know more, then read about &lt;code&gt;FileReader&lt;/code&gt;, &lt;code&gt;File&lt;/code&gt;, and &lt;code&gt;readAsText&lt;/code&gt; at &lt;a href=&#34;https://developer.mozilla.org/en-US/&#34;&gt;MDN&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Thank you for reading. I hope you find the post useful and will still be looking forward to new updates on &lt;a href=&#34;http://www.ilonacodes.com/blog/&#34;&gt;my blog&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Front-end Shorts: How to Delete Item From The List With React&#43;Redux</title>
@@ -1711,123 +1765,6 @@ ReactDOM.render(
 &lt;p&gt;In the next post, we will start writing an interactive TODO list with user stories step by step using React+Redux technologies stack.&lt;/p&gt;
 
 &lt;p&gt;Thank you for reading! Happily, you got the basic idea of React+Redux &amp;ldquo;co-working&amp;rdquo; and became ready to start your journey within.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>React For Very Very Beginners</title>
-      <link>http://www.ilonacodes.com/blog/react-for-very-very-beginners/</link>
-      <pubDate>Fri, 15 Sep 2017 16:25:05 +0100</pubDate>
-      
-      <guid>http://www.ilonacodes.com/blog/react-for-very-very-beginners/</guid>
-      <description>&lt;p&gt;The biggest challenge for beginners not only in front end development but also in the whole web development world is to find the answer to the question: How / Where should I start to learn web development? Some of these questions I have already received via private messages on social networks, and that encouraged me to create a series of small posts to write and complete the first app using JS (ECMA6) with React-Redux frameworks on which technologies I specialize.&lt;/p&gt;
-
-&lt;p&gt;Our goal for the first application is to write an interactive daily TODO list application. In particular, by finishing this series, you should be able to understand the basic concepts, structures and &amp;ldquo;communication&amp;rdquo; between React-Redux in use.&lt;/p&gt;
-
-&lt;p&gt;No more talking and let&amp;rsquo;s start. I am sure my readers are pretty curious about how to manage and control operation flow on the computer and already familiar with some Unix commands to manage their stuff in command line. However, I am going to write down some of them that we will use. First, we should make a workspace directory for the app and then change into this directory.&lt;/p&gt;
-
-&lt;p&gt;Type in the command line:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;cd
-mkdir workspace
-cd workspace
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;And voilà! We are already inside the directory for our app!&lt;/p&gt;
-
-&lt;p&gt;The next step is to install npm. It is a package manager for Node.js that creates some of your directory structure/organization. Also, helps with installing various packages and resolving their dependencies.&lt;/p&gt;
-
-&lt;p&gt;&lt;span style=&#34;color:red&#34;&gt; If you didn&amp;rsquo;t use Node.js before, you should install it. Just visit this link &lt;a href=&#34;https://nodejs.org/en/download/&#34;&gt;https://nodejs.org/en/download/&lt;/a&gt; and install it. &lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;It will be enough for our app to type this command in the Unix command line:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;npm install npm@latest -g
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Don&amp;rsquo;t forget to check the version of npm (double-check if it has been installed correctly) running this command in your terminal:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;npm -v
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Finally, we are ready to create our first React-App! Notice that we are still in the workspace directory and continue typing in the terminal the commands below:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;npm install -g create-react-app
-create-react-app my-daily-todos
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Yeah, here we are getting started with React. The first line allows us to install the global package and the second one to use it to create a new React App with the name &amp;ldquo;my-daily-todos&amp;rdquo;.&lt;/p&gt;
-
-&lt;p&gt;Congratulations! You have installed your first React-App. And to see the results, how it looks like, we have to launch the development server:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;npm start
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;And the browser will automatically open URL of the created React application on the random localhost address.
-Sure, you are encouraged to learn more about the React structure.&lt;/p&gt;
-
-&lt;p&gt;So now we are moving to the next step: open our app and take a look at the code in your favorite text/code editor.
-Don&amp;rsquo;t forget that the local server is still working and we could check our changes in the code by refreshing the page with the localhost address. Now I am going to render &amp;ldquo;Oh, hi there!&amp;rdquo; message. In our case, we have to open App.js (my-daily-todos/src/App.js). What should you see on the screen:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;import React, { Component } from &#39;react&#39;;
-import logo from &#39;./logo.svg&#39;;
-import &#39;./App.css&#39;;
-
-class App extends Component {
-  render() {
-    return (
-      &amp;lt;div className=&amp;quot;App&amp;quot;&amp;gt;
-        &amp;lt;div className=&amp;quot;App-header&amp;quot;&amp;gt;
-          &amp;lt;img src={logo} className=&amp;quot;App-logo&amp;quot; alt=&amp;quot;logo&amp;quot; /&amp;gt;
-          &amp;lt;h2&amp;gt;Welcome to React&amp;lt;/h2&amp;gt;
-        &amp;lt;/div&amp;gt;
-        &amp;lt;p className=&amp;quot;App-intro&amp;quot;&amp;gt;
-          To get started, edit &amp;lt;code&amp;gt;src/App.js&amp;lt;/code&amp;gt; and save to reload.
-        &amp;lt;/p&amp;gt;
-      &amp;lt;/div&amp;gt;
-    );
-  }
-}
-
-export default App;
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;And then just to add a new paragraph-tag with the text: &amp;ldquo;Oh, hi there!&amp;rdquo; inside the &lt;code&gt;className&lt;/code&gt; &amp;ldquo;App&amp;rdquo;, after the &lt;code&gt;className&lt;/code&gt; &amp;ldquo;App-intro&amp;rdquo;:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;import React, { Component } from &#39;react&#39;;
-import logo from &#39;./logo.svg&#39;;
-import &#39;./App.css&#39;;
-
-class App extends Component {
-  render() {
-    return (
-      &amp;lt;div className=&amp;quot;App&amp;quot;&amp;gt;
-        &amp;lt;div className=&amp;quot;App-header&amp;quot;&amp;gt;
-          &amp;lt;img src={logo} className=&amp;quot;App-logo&amp;quot; alt=&amp;quot;logo&amp;quot; /&amp;gt;
-          &amp;lt;h2&amp;gt;Welcome to React&amp;lt;/h2&amp;gt;
-        &amp;lt;/div&amp;gt;
-        &amp;lt;p className=&amp;quot;App-intro&amp;quot;&amp;gt;
-          To get started, edit &amp;lt;code&amp;gt;src/App.js&amp;lt;/code&amp;gt; and save to reload.
-        &amp;lt;/p&amp;gt;
-
-        &amp;lt;p&amp;gt;
-          Oh, hi there!
-        &amp;lt;/p&amp;gt;
-
-      &amp;lt;/div&amp;gt;
-    );
-  }
-}
-
-export default App;
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;After refreshing the localhost page, you should see the added text below the previous content.&lt;/p&gt;
-
-&lt;p&gt;Hopefully,  you enjoyed my explanation how to start with React and would like to know more about the launching Redux, why we need it and look closer to all our dependencies in one file.&lt;/p&gt;
-
-&lt;p&gt;Thank you for reading and your kind interest in my post!&lt;/p&gt;
 </description>
     </item>
     

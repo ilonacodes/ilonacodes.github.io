@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# website: http://ogp.me/ns/website#">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    
+
+    <meta name="description" content="As you know, I prefer learning to code by doing things. So, the last feature I have implemented for the app is the reading of the content from the uploaded (local) `.csv` file from the user.">
+    <meta property="og:title" content="Front-end Shorts: How to Read Content From The File Input in React">
+    
+    <meta property="og:type" content="article">
+    <meta property="article:published_time" content="2018-03-31">
+    
+    <meta property="og:description" content="As you know, I prefer learning to code by doing things. So, the last feature I have implemented for the app is the reading of the content from the uploaded (local) `.csv` file from the user.">
+    <meta property="og:url" content="http://www.ilonacodes.com/blog/frontend-shorts-how-to-read-content-from-the-file-input-in-react/">
+    <meta property="og:site_name" content="Ilona Who Codes">
+    
+    <meta property="og:tags" content="react">
+    
+    <meta property="og:tags" content="redux">
+    
+    <meta property="og:tags" content="javascript">
+    
+    <meta property="og:tags" content="file">
+    
+    <meta property="og:tags" content="input">
+    
+    <meta property="og:tags" content="frontend">
+    
+    <meta property="og:tags" content="learntocode">
+    
+    <meta property="og:tags" content="coding">
+    
+    <meta property="og:tags" content="letsgetcoding">
+    
+    <meta property="og:tags" content="womenwhocode">
+    
+    <meta name="generator" content="Hugo 0.19" />
+    <title>Front-end Shorts: How to Read Content From The File Input in React &middot; Ilona Who Codes</title>
+    
+    
+    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/styles/default.min.css">
+    
+    <link rel="stylesheet" href="http://www.ilonacodes.com/css/style.css">
+    
+    <link href="" rel="alternate" type="application/rss+xml" title="Ilona Who Codes" />
+    
+    
+    <link rel="icon" href="http://www.ilonacodes.com/favicon.ico" />
+    
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    
+    
+</head>
+<body>
+
+
+<div class="blog-link">
+	<a href="/">ilonacodes</a>
+	<a href="/blog">read my blog</a>
+	<a href="/">about me</a>
+</div>
+
+<div class="container-fluid">
+	<div class="row">
+		<div id="content" class="col-xs-12 col-sm-12 col-md-12">
+			<div class="row">
+				<div class="paper">
+					<div id="post" class="col-sm-offset-1 col-sm-10 col-md-10 col-lg-10">
+
+
+<main>
+	<header>
+		<h1>Front-end Shorts: How to Read Content From The File Input in React</h1>
+	</header>
+
+	<article>
+		<p>Hi, everyone! How is your weekend going?</p>
+
+<p>As you know, I prefer learning to code by doing things. So, the last feature I have implemented for the app is the reading of the content from the uploaded (local) <code>.csv</code> file from the user.</p>
+
+<p>To do so without a server or any back-end—is a challenge.</p>
+
+<p>To make things work properly in React+Redux, I have created the following component:</p>
+
+<pre><code class="language-javascript">
+const ImportFromFileBodyComponent = () =&gt; {
+    let fileReader;
+
+    const handleFileRead = (e) =&gt; {
+        const content = fileReader.result;
+        console.log(content);
+        // … do something with the 'content' …
+    };
+
+    const handleFileChosen = (file) =&gt; {
+        fileReader = new FileReader();
+        fileReader.onloadend = handleFileRead;
+        fileReader.readAsText(file);
+    };
+
+    return &lt;div className='upload-expense'&gt;
+        &lt;input type='file'
+               id='file'
+               className='input-file'
+               accept='.csv'
+               onChange={e =&gt; handleFileChosen(e.target.files[0])}
+        /&gt;
+    &lt;/div&gt;;
+};
+
+</code></pre>
+
+<p>The <code>FileReader</code> object lets web apps asynchronously read the contents of files stored in the user&rsquo;s computer, using <code>File</code> or <code>Blob</code> objects to specify the file or data to read.</p>
+
+<p>Then the <code>readAsText</code> method is used to read the contents of the specified <code>Blob</code> or <code>File</code>. When the read operation is complete, the state is changed to <code>done</code>; the <code>onloadend</code> is triggered, and, if <code>Filereader.result</code> is not null, the constant <code>content</code> contains the contents of the file as a text string.</p>
+
+<p>Any <code>load</code> event of <code>fileReader</code> object sets the result value asynchronously,  and according to the code snippet above the <code>fileReader.onloadend</code> callback can access the result of uploaded file by the user.</p>
+
+<p>If you would like to know more, then read about <code>FileReader</code>, <code>File</code>, and <code>readAsText</code> at <a href="https://developer.mozilla.org/en-US/">MDN</a>.</p>
+
+<p>Thank you for reading. I hope you find the post useful and will still be looking forward to new updates on <a href="http://www.ilonacodes.com/blog/">my blog</a>.</p>
+
+	</article>
+</main>
+
+<div id="bottom-nav" class="text-center center-block">
+</div>
+
+
+
+								<div class="footer-copy" style="text-align: center; opacity: 0.6"><p>&copy; 2018 ilonacodes</p></div>
+							</div>
+            </div>
+					</div>
+				</div>
+			</div>
+		</div>
+  </div>
+  
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-109315732-1', 'auto');
+    ga('send', 'pageview');
+    window.baseURL = "http:\/\/www.ilonacodes.com\/";
+  </script>
+  
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  
+  
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/highlight.min.js"></script>
+  
+  <script src="http://www.ilonacodes.com//js/App.js"></script>
+  
+</body>
+</html>
+

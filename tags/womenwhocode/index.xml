@@ -9,6 +9,60 @@
     <atom:link href="http://www.ilonacodes.com/tags/womenwhocode/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Front-end Shorts: How to Read Content From The File Input in React</title>
+      <link>http://www.ilonacodes.com/blog/frontend-shorts-how-to-read-content-from-the-file-input-in-react/</link>
+      <pubDate>Sat, 31 Mar 2018 18:30:05 +0100</pubDate>
+      
+      <guid>http://www.ilonacodes.com/blog/frontend-shorts-how-to-read-content-from-the-file-input-in-react/</guid>
+      <description>&lt;p&gt;Hi, everyone! How is your weekend going?&lt;/p&gt;
+
+&lt;p&gt;As you know, I prefer learning to code by doing things. So, the last feature I have implemented for the app is the reading of the content from the uploaded (local) &lt;code&gt;.csv&lt;/code&gt; file from the user.&lt;/p&gt;
+
+&lt;p&gt;To do so without a server or any back-end—is a challenge.&lt;/p&gt;
+
+&lt;p&gt;To make things work properly in React+Redux, I have created the following component:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;
+const ImportFromFileBodyComponent = () =&amp;gt; {
+    let fileReader;
+
+    const handleFileRead = (e) =&amp;gt; {
+        const content = fileReader.result;
+        console.log(content);
+        // … do something with the &#39;content&#39; …
+    };
+
+    const handleFileChosen = (file) =&amp;gt; {
+        fileReader = new FileReader();
+        fileReader.onloadend = handleFileRead;
+        fileReader.readAsText(file);
+    };
+
+    return &amp;lt;div className=&#39;upload-expense&#39;&amp;gt;
+        &amp;lt;input type=&#39;file&#39;
+               id=&#39;file&#39;
+               className=&#39;input-file&#39;
+               accept=&#39;.csv&#39;
+               onChange={e =&amp;gt; handleFileChosen(e.target.files[0])}
+        /&amp;gt;
+    &amp;lt;/div&amp;gt;;
+};
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The &lt;code&gt;FileReader&lt;/code&gt; object lets web apps asynchronously read the contents of files stored in the user&amp;rsquo;s computer, using &lt;code&gt;File&lt;/code&gt; or &lt;code&gt;Blob&lt;/code&gt; objects to specify the file or data to read.&lt;/p&gt;
+
+&lt;p&gt;Then the &lt;code&gt;readAsText&lt;/code&gt; method is used to read the contents of the specified &lt;code&gt;Blob&lt;/code&gt; or &lt;code&gt;File&lt;/code&gt;. When the read operation is complete, the state is changed to &lt;code&gt;done&lt;/code&gt;; the &lt;code&gt;onloadend&lt;/code&gt; is triggered, and, if &lt;code&gt;Filereader.result&lt;/code&gt; is not null, the constant &lt;code&gt;content&lt;/code&gt; contains the contents of the file as a text string.&lt;/p&gt;
+
+&lt;p&gt;Any &lt;code&gt;load&lt;/code&gt; event of &lt;code&gt;fileReader&lt;/code&gt; object sets the result value asynchronously,  and according to the code snippet above the &lt;code&gt;fileReader.onloadend&lt;/code&gt; callback can access the result of uploaded file by the user.&lt;/p&gt;
+
+&lt;p&gt;If you would like to know more, then read about &lt;code&gt;FileReader&lt;/code&gt;, &lt;code&gt;File&lt;/code&gt;, and &lt;code&gt;readAsText&lt;/code&gt; at &lt;a href=&#34;https://developer.mozilla.org/en-US/&#34;&gt;MDN&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Thank you for reading. I hope you find the post useful and will still be looking forward to new updates on &lt;a href=&#34;http://www.ilonacodes.com/blog/&#34;&gt;my blog&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Front-end Shorts: How to Delete Item From The List With React&#43;Redux</title>
       <link>http://www.ilonacodes.com/blog/front-end-shorts-how-to-delete-item-from-the-list-with-react-redux/</link>
       <pubDate>Thu, 22 Mar 2018 20:40:05 +0100</pubDate>
