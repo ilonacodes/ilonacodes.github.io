@@ -9,6 +9,66 @@
     <atom:link href="http://www.ilonacodes.com/tags/frontend/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Front-end Shorts: Storybook With React</title>
+      <link>http://www.ilonacodes.com/blog/frontend-shorts-storybook-with-react/</link>
+      <pubDate>Wed, 18 Apr 2018 12:00:05 +0100</pubDate>
+      
+      <guid>http://www.ilonacodes.com/blog/frontend-shorts-storybook-with-react/</guid>
+      <description>&lt;p&gt;Hey there, that’s me again and a new post from me!&lt;/p&gt;
+
+&lt;p&gt;Lately, I worked on the project that generates live documentation of the front-end components for apps built with create-react-app, and this UI development environment is called &lt;a href=&#34;https://storybook.js.org&#34;&gt;Storybook&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;What is the significant purpose for using this tool?&lt;/p&gt;
+
+&lt;p&gt;First of all, it helps to avoid code duplications and to make it easy to know which components there are already, what they are doing and how they are being used.&lt;/p&gt;
+
+&lt;p&gt;Secondly, it allows to display and to test component behavior by showcase, which is very useful in getting quick feedback on everything we develop.&lt;/p&gt;
+
+&lt;p&gt;Another fantastic thing, &lt;code&gt;React Storybook&lt;/code&gt; is an isolated app.
+After declaring stories, you can start to create components in isolation with quick iteration, and that allows us to create component documentation (style guide) without explicitly doing so, and keeps it up-to-date.&lt;/p&gt;
+
+&lt;p&gt;Now it’s time to show you how it works and which components are involved.&lt;/p&gt;
+
+&lt;p&gt;But before trying my example, you have to install and run Storybook with React. You can read about that &lt;a href=&#34;https://storybook.js.org/basics/guide-react/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;After you installed &lt;code&gt;React Storybook&lt;/code&gt;, let&amp;rsquo;s have a look at my footer implementation:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;// ./components/footer/Footer.js
+
+import React from &#39;react&#39;;
+import DisplayFooter from &#39;./DisplayFooter&#39;;
+import ResponsiveFooter from &#39;./ResponsiveFooter&#39;;
+
+const Footer = props =&amp;gt; (
+  &amp;lt;div className=&#39;footer&#39;&amp;gt;
+    &amp;lt;DisplayFooter {...props} /&amp;gt;
+    &amp;lt;ResponsiveFooter {...props} /&amp;gt;
+  &amp;lt;/div&amp;gt;
+)
+
+export default Footer
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Above you see standard React component. The next step is creating &lt;code&gt;Footer.stories.js&lt;/code&gt; file and to add &lt;code&gt;Footer&lt;/code&gt; component to stories:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;// ./components/footer/Footer.stories.js
+
+import React from &#39;react&#39;;
+import { storiesOf } from &#39;@storybook/react&#39;
+import Footer from &#39;./Footer&#39;
+
+storiesOf(&#39;Footer&#39;, module).add(&#39;default&#39;, () =&amp;gt; &amp;lt;Footer /&amp;gt;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;To see the result, you have to type this command &lt;code&gt;npm run storybook&lt;/code&gt; in your project path in the console line, what will run that on your localhost.&lt;/p&gt;
+
+&lt;p&gt;It might work with apps that have a similar Webpack configuration to create-react-app, for example, for Angular or Vue web apps.&lt;/p&gt;
+
+&lt;p&gt;Let me know what you think about using &lt;code&gt;Storybook with React&lt;/code&gt;. Thank you for reading!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Front-end Shorts: How to Read Content From The File Input in React</title>
       <link>http://www.ilonacodes.com/blog/frontend-shorts-how-to-read-content-from-the-file-input-in-react/</link>
       <pubDate>Sat, 31 Mar 2018 18:30:05 +0100</pubDate>

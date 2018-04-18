@@ -9,6 +9,66 @@
     <atom:link href="http://www.ilonacodes.com/tags/coding/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Front-end Shorts: Storybook With React</title>
+      <link>http://www.ilonacodes.com/blog/frontend-shorts-storybook-with-react/</link>
+      <pubDate>Wed, 18 Apr 2018 12:00:05 +0100</pubDate>
+      
+      <guid>http://www.ilonacodes.com/blog/frontend-shorts-storybook-with-react/</guid>
+      <description>&lt;p&gt;Hey there, that’s me again and a new post from me!&lt;/p&gt;
+
+&lt;p&gt;Lately, I worked on the project that generates live documentation of the front-end components for apps built with create-react-app, and this UI development environment is called &lt;a href=&#34;https://storybook.js.org&#34;&gt;Storybook&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;What is the significant purpose for using this tool?&lt;/p&gt;
+
+&lt;p&gt;First of all, it helps to avoid code duplications and to make it easy to know which components there are already, what they are doing and how they are being used.&lt;/p&gt;
+
+&lt;p&gt;Secondly, it allows to display and to test component behavior by showcase, which is very useful in getting quick feedback on everything we develop.&lt;/p&gt;
+
+&lt;p&gt;Another fantastic thing, &lt;code&gt;React Storybook&lt;/code&gt; is an isolated app.
+After declaring stories, you can start to create components in isolation with quick iteration, and that allows us to create component documentation (style guide) without explicitly doing so, and keeps it up-to-date.&lt;/p&gt;
+
+&lt;p&gt;Now it’s time to show you how it works and which components are involved.&lt;/p&gt;
+
+&lt;p&gt;But before trying my example, you have to install and run Storybook with React. You can read about that &lt;a href=&#34;https://storybook.js.org/basics/guide-react/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;After you installed &lt;code&gt;React Storybook&lt;/code&gt;, let&amp;rsquo;s have a look at my footer implementation:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;// ./components/footer/Footer.js
+
+import React from &#39;react&#39;;
+import DisplayFooter from &#39;./DisplayFooter&#39;;
+import ResponsiveFooter from &#39;./ResponsiveFooter&#39;;
+
+const Footer = props =&amp;gt; (
+  &amp;lt;div className=&#39;footer&#39;&amp;gt;
+    &amp;lt;DisplayFooter {...props} /&amp;gt;
+    &amp;lt;ResponsiveFooter {...props} /&amp;gt;
+  &amp;lt;/div&amp;gt;
+)
+
+export default Footer
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Above you see standard React component. The next step is creating &lt;code&gt;Footer.stories.js&lt;/code&gt; file and to add &lt;code&gt;Footer&lt;/code&gt; component to stories:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;// ./components/footer/Footer.stories.js
+
+import React from &#39;react&#39;;
+import { storiesOf } from &#39;@storybook/react&#39;
+import Footer from &#39;./Footer&#39;
+
+storiesOf(&#39;Footer&#39;, module).add(&#39;default&#39;, () =&amp;gt; &amp;lt;Footer /&amp;gt;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;To see the result, you have to type this command &lt;code&gt;npm run storybook&lt;/code&gt; in your project path in the console line, what will run that on your localhost.&lt;/p&gt;
+
+&lt;p&gt;It might work with apps that have a similar Webpack configuration to create-react-app, for example, for Angular or Vue web apps.&lt;/p&gt;
+
+&lt;p&gt;Let me know what you think about using &lt;code&gt;Storybook with React&lt;/code&gt;. Thank you for reading!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Front-end Shorts: How to Read Content From The File Input in React</title>
       <link>http://www.ilonacodes.com/blog/frontend-shorts-how-to-read-content-from-the-file-input-in-react/</link>
       <pubDate>Sat, 31 Mar 2018 18:30:05 +0100</pubDate>
@@ -1472,298 +1532,6 @@ input {
 &lt;p&gt;If you still have any questions how it works or why something doesn&amp;rsquo;t work for you, don&amp;rsquo;t hesitate and find me via my &lt;a href=&#34;mailto:demiluri@gmail.com&#34;&gt;email&lt;/a&gt; or on my &lt;a href=&#34;https://www.instagram.com/ilonacodes/&#34;&gt;Instagram profile&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Thank you for your reading and wish you the best luck by learning React+Redux frameworks!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Simple Usage of React&#43;Redux</title>
-      <link>http://www.ilonacodes.com/blog/simple-usage-of-react-redux/</link>
-      <pubDate>Sun, 17 Sep 2017 20:00:05 +0100</pubDate>
-      
-      <guid>http://www.ilonacodes.com/blog/simple-usage-of-react-redux/</guid>
-      <description>&lt;p&gt;As I promised in &lt;a href=&#34;http://www.ilonacodes.com/blog/react-for-very-very-beginners/&#34;&gt;my previous post&lt;/a&gt;, today I am going to tell you about Redux, why and how we need to use them in common.
-Let me introduce React+Redux co-working through the simple input change that should render &lt;code&gt;Hello, {any name / text}!&lt;/code&gt; at the end and manage by redux states.&lt;/p&gt;
-
-&lt;p&gt;Redux? What is it?
-Redux is a predictable state container for managing both UI-state and data-state in JavaScript applications. It helps you create applications that behave consistently and run in different environments like client, server, and native. To add Redux dependencies to your application type and run in a command line:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;npm install --save redux
-npm install --save react-redux
-npm install --save-dev redux-devtools
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;You can read more about that &lt;a href=&#34;http://redux.js.org/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Let&amp;rsquo;s come back to the &lt;code&gt;my-daily-todos&lt;/code&gt; directory in the &lt;code&gt;workspace&lt;/code&gt; that we set up in my previous post and change into &lt;code&gt;my-daily-todos/src/index.js&lt;/code&gt; file.&lt;/p&gt;
-
-&lt;p&gt;&lt;span style=&#34;color:red&#34;&gt;It&amp;rsquo;s not a good style to write all code parts in one file, and I do that only for this example.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;I recommend you to remove all code inside and just replace that with:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;import React from &#39;react&#39;;
-import ReactDOM from &#39;react-dom&#39;;
-import &#39;./index.css&#39;;
-
-const Hello = () =&amp;gt; {
-  return &amp;lt;div&amp;gt;
-    &amp;lt;input type=&#39;text&#39; /&amp;gt;
-    &amp;lt;p&amp;gt;Hello, World!&amp;lt;/p&amp;gt;
-  &amp;lt;/div&amp;gt;
-}
-
-ReactDOM.render(&amp;lt;Hello /&amp;gt;,
-  document.getElementById(&#39;root&#39;)
-);
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;As you noticed, now we are going to render the &lt;code&gt;Hello&lt;/code&gt; component in the browser.&lt;/p&gt;
-
-&lt;p&gt;&lt;span style=&#34;color:red&#34;&gt;Don&amp;rsquo;t forget run local server on your computer from the &lt;code&gt;my-daily-todos&lt;/code&gt; directory using &lt;code&gt;npm start&lt;/code&gt; in the command line.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;What you should see in the browser is an input field and the simple message &lt;code&gt;Hello, World!&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Now I am going to add some props to our code, which could make you confused, but don&amp;rsquo;t worry I will explain that below:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;import React from &#39;react&#39;;
-import ReactDOM from &#39;react-dom&#39;;
-import { connect, Provider } from &#39;react-redux&#39;;
-
-import &#39;./index.css&#39;;
-
-const HelloComponent = ({name, updateName}) =&amp;gt; {
-  return &amp;lt;div&amp;gt;
-    &amp;lt;input type=&#39;text&#39;
-           value={name}
-           onChange={e =&amp;gt; updateName(e.target.value)}
-    /&amp;gt;
-    &amp;lt;p&amp;gt;Hello, World!&amp;lt;/p&amp;gt;
-  &amp;lt;/div&amp;gt;
-}
-
-const mapStateToProps = (state) =&amp;gt; {
-  return {
-
-  }
-}
-
-const mapDispatchToProps = (dispatch) =&amp;gt; {
-  return {
-
-  }
-}
-
-const Hello = connect(
-  mapStateToProps,
-  mapDispatchToProps
-)(HelloComponent);
-
-ReactDOM.render(
-  &amp;lt;Provider&amp;gt;
-    &amp;lt;Hello /&amp;gt;
-  &amp;lt;/Provider&amp;gt;,
-  document.getElementById(&#39;root&#39;)
-);
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Yeah, it doesn&amp;rsquo;t render anymore, does it? ;) First of all, you see some values inside the &lt;code&gt;Hello&lt;/code&gt; component and don&amp;rsquo;t have any idea from where they come. Secondly, you noticed three new constants &lt;code&gt;mapStateToProps&lt;/code&gt;,  &lt;code&gt;mapDispatchToProps&lt;/code&gt; and &lt;code&gt;Hello&lt;/code&gt;. As you guess, the last one connects two previous via &lt;code&gt;HelloComponent&lt;/code&gt; connector and all these elements with all props should be rendering in &amp;ldquo;Hello&amp;rdquo; component via &lt;code&gt;Provider&lt;/code&gt; component. That is where Redux comes in: &lt;code&gt;mapStateToProps&lt;/code&gt; allows to read any application state, and &lt;code&gt;mapDispatchToProps&lt;/code&gt; allows to dispatch state changes.
-Right now, the logical question: &amp;ldquo;Where should it manage state and dispatch actions?&amp;rdquo;&lt;/p&gt;
-
-&lt;p&gt;The answer is into the store:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;import { connect, Provider } from &#39;react-redux&#39;;
-import { createStore, combineReducers } from &#39;redux&#39;;
-
-// ...
-
-const Hello = connect(
-  mapStateToProps,
-  mapDispatchToProps
-)(HelloComponent);
-
-let store = createStore(
-  combineReducers({}),
-);
-
-ReactDOM.render(
-  &amp;lt;Provider store={store}&amp;gt;
-    &amp;lt;Hello /&amp;gt;
-  &amp;lt;/Provider&amp;gt;,
-  document.getElementById(&#39;root&#39;)
-);
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;We created a store variable using &lt;code&gt;createStore&lt;/code&gt; function to create a store and combineReducers function to add reducers (we will speak about that a bit later).&lt;/p&gt;
-
-&lt;p&gt;&lt;span style=&#34;color:red&#34;&gt;Notice! All components and functions that belong to React and Redux must be imported at the beginning of the file.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;Finally, it renders correctly in the browser, and still, nothing changed. As I mentioned above, we need to add a reducer, but I would like to start from the action creating:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;// ...
-
-const Hello = connect(
-  mapStateToProps,
-  mapDispatchToProps
-)(HelloComponent);
-
-/* Action */
-// create action type
-const UPDATE_NAME = &#39;UPDATE_NAME&#39;
-
-// action creators
-function updateName(name) {
-  return { type: UPDATE_NAME, name }
-}
-
-// ...
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;We are using the action to send data from the application to the store via dispatch function that notifies store about the current state that the store gets from the reducer:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;/* Reducer */
-
-//create an initial state with empty name as a value
-const initState = { name: &#39;&#39; }
-
-// create a reducer
-const greetingReducer = (state = initState, action) =&amp;gt; {
-  switch (action.type) {
-    case UPDATE_NAME:
-      return Object.assign({}, state, {
-        name: action.name
-      })
-
-    default:
-      return state;
-  }
-}
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;These are action cases that are responsible for the defined behavior for the dispatched action. In our case, our goal is to update the name by input = change the input value and see results on the screen in the browser. After creating the reducer, we have to combine it via &lt;code&gt;combineReducers&lt;/code&gt; in the store and give it a name to use:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;// ...
-
-let store = createStore(
-  combineReducers({
-    greeting: greetingReducer
-  }),
-);
-
-//...
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Finally, we are ready to provide all states and all actions (for this feature we have only one state and one action) adding them to
-&lt;code&gt;mapStateToProps&lt;/code&gt; and &lt;code&gt;mapDispatchToProps&lt;/code&gt;:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;const mapStateToProps = (state) =&amp;gt; {
-  return {
-    name: state.greeting.name
-  }
-}
-
-const mapDispatchToProps = (dispatch) =&amp;gt; {
-  return {
-    updateName: (name) =&amp;gt; dispatch(updateName(name))
-  }
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;And all these props are already used in &lt;code&gt;HelloComponent&lt;/code&gt;. Just check this component and find them.&lt;/p&gt;
-
-&lt;p&gt;The last step is to make things work properly and see the results on the screen in the browser. So, we have to add &lt;code&gt;{name}&lt;/code&gt; property instead of the &amp;ldquo;World&amp;rdquo; inside the &amp;ldquo;Hello, World!&amp;rdquo;:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;const HelloComponent = ({name, updateName}) =&amp;gt; {
-  return &amp;lt;div&amp;gt;
-    &amp;lt;input type=&#39;text&#39;
-           value={name}
-           onChange={e =&amp;gt; updateName(e.target.value)}
-    /&amp;gt;
-    &amp;lt;p&amp;gt;Hello, {name}!&amp;lt;/p&amp;gt;
-  &amp;lt;/div&amp;gt;
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;That&amp;rsquo;s it. It should work. If you have any questions, you can reach me through the &lt;a href=&#34;mailto:demiluri@gmail.com&#34;&gt;email&lt;/a&gt; or in direct messages on &lt;a href=&#34;https://www.instagram.com/ilonacodes/&#34;&gt;Instagram&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;The whole code is below:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;import React from &#39;react&#39;;
-import ReactDOM from &#39;react-dom&#39;;
-import { connect, Provider } from &#39;react-redux&#39;;
-import { createStore, combineReducers } from &#39;redux&#39;;
-
-import &#39;./index.css&#39;;
-
-/* Component */
-const HelloComponent = ({name, updateName}) =&amp;gt; {
-  return &amp;lt;div&amp;gt;
-    &amp;lt;input type=&#39;text&#39;
-           value={name}
-           onChange={e =&amp;gt; updateName(e.target.value)}
-    /&amp;gt;
-    &amp;lt;p&amp;gt;Hello, {name}!&amp;lt;/p&amp;gt;
-  &amp;lt;/div&amp;gt;
-}
-
-const mapStateToProps = (state) =&amp;gt; {
-  return {
-    name: state.greeting.name
-  }
-}
-
-const mapDispatchToProps = (dispatch) =&amp;gt; {
-  return {
-    updateName: (name) =&amp;gt; dispatch(updateName(name))
-  }
-}
-
-const Hello = connect(
-  mapStateToProps,
-  mapDispatchToProps
-)(HelloComponent);
-
-/* Action */
-const UPDATE_NAME = &#39;UPDATE_NAME&#39;
-
-function updateName(name) {
-  return { type: UPDATE_NAME, name }
-}
-
-/* Reducer */
-const initState = { name: &#39;&#39; }
-
-const greetingReducer = (state = initState, action) =&amp;gt; {
-  switch (action.type) {
-    case UPDATE_NAME:
-      return Object.assign({}, state, {
-        name: action.name
-      })
-
-    default:
-      return state;
-  }
-}
-
-/* store */
-let store = createStore(
-  combineReducers({
-    greeting: greetingReducer
-  }),
-);
-
-/* Provider using store */
-ReactDOM.render(
-  &amp;lt;Provider store={store}&amp;gt;
-    &amp;lt;Hello /&amp;gt;
-  &amp;lt;/Provider&amp;gt;,
-  document.getElementById(&#39;root&#39;)
-);
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;In the next post, we will start writing an interactive TODO list with user stories step by step using React+Redux technologies stack.&lt;/p&gt;
-
-&lt;p&gt;Thank you for reading! Happily, you got the basic idea of React+Redux &amp;ldquo;co-working&amp;rdquo; and became ready to start your journey within.&lt;/p&gt;
 </description>
     </item>
     
