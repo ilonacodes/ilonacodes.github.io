@@ -21,25 +21,25 @@ I recommend you to read about [Aristotle’s Seven Elements of Storytelling](htt
 
 Let's imagine we have a yoga school website project.
 
-1. Plot
+1. <b>Plot</b> <br/>
 There is a group of yoga teachers, and they want to launch a yoga school website.
 
-2. Character
+2. <b>Character</b> <br/>
 A small group of certified yoga teachers of different ages, ethnicities, and financial statuses. They are driven to do good in the world by bringing peace through yoga.
 
-3. Theme
+3. <b>Theme</b> <br/>
 Unfortunately, there is a surplus of yoga schools, and many new yoga schools are popping up every day. So, yoga teachers need help determining the best conditions to set-up the school.
 
-4. Dialogue
+4. <b>Dialogue</b> <br/>
 They are very motivated to teach and share their yoga knowledge but worry about how they can do so successfully. They have fears about the finances.
 
-5. Melody/Chorus
+5. <b>Melody/Chorus</b> <br/>
 They want to follow yoga principles of integrity and launch the school properly, according to the yoga tradition.
 
-6. Décor
+6. <b>Décor</b> <br/>
 After the yoga practice typically they are drinking tea in the yoga studio discussing their dreams and plans for the school.
 
-7. Spectacle
+7. <b>Spectacle</b> <br/>
 Once yoga teachers start to get focused mainly on expected profits, they lose sight of their original purpose of spreading peace and love. Eventually, they do an extended meditation and return to their original purpose.
 
 According to Aristotle’s Seven Elements of Storytelling, the UI/UX designer can help yoga teachers to succeed in launching a yoga school website.
