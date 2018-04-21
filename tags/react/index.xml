@@ -9,6 +9,57 @@
     <atom:link href="http://www.ilonacodes.com/tags/react/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Front-end Shorts: Good Storytelling Elements</title>
+      <link>http://www.ilonacodes.com/blog/frontend-shorts-good-storytelling-elements/</link>
+      <pubDate>Sat, 21 Apr 2018 19:15:05 +0100</pubDate>
+      
+      <guid>http://www.ilonacodes.com/blog/frontend-shorts-good-storytelling-elements/</guid>
+      <description>&lt;p&gt;Happy Friday, my readers!&lt;/p&gt;
+
+&lt;p&gt;As a front-end web developer, I am also interested in UI/UX design, and that is why I’ve decided me to do a UI/UX research using &lt;a href=&#34;http://johnnyholland.org/2011/01/aristotle%E2%80%99s-storytelling-framework-for-interactive-products/&#34;&gt;Aristotle’s Seven Elements of Storytelling framework&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;It is notably practical, and many designers, web developers, will benefit from applying this method for creating user-friendly interfaces.&lt;/p&gt;
+
+&lt;p&gt;In my opinion, it&amp;rsquo;s important to understand the users and to make it easier for them to use apps.&lt;/p&gt;
+
+&lt;p&gt;I recommend you to read about &lt;a href=&#34;http://johnnyholland.org/2011/01/aristotle%E2%80%99s-storytelling-framework-for-interactive-products/&#34;&gt;Aristotle’s Seven Elements of Storytelling&lt;/a&gt;, before proceeding to my example.&lt;/p&gt;
+
+&lt;p&gt;Let&amp;rsquo;s imagine we have a yoga school website project.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Plot
+There is a group of yoga teachers, and they want to launch a yoga school website.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Character
+A small group of certified yoga teachers of different ages, ethnicities, and financial statuses. They are driven to do good in the world by bringing peace through yoga.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Theme
+Unfortunately, there is a surplus of yoga schools, and many new yoga schools are popping up every day. So, yoga teachers need help determining the best conditions to set-up the school.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Dialogue
+They are very motivated to teach and share their yoga knowledge but worry about how they can do so successfully. They have fears about the finances.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Melody/Chorus
+They want to follow yoga principles of integrity and launch the school properly, according to the yoga tradition.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Décor
+After the yoga practice typically they are drinking tea in the yoga studio discussing their dreams and plans for the school.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Spectacle
+Once yoga teachers start to get focused mainly on expected profits, they lose sight of their original purpose of spreading peace and love. Eventually, they do an extended meditation and return to their original purpose.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;According to Aristotle’s Seven Elements of Storytelling, the UI/UX designer can help yoga teachers to succeed in launching a yoga school website.&lt;/p&gt;
+
+&lt;p&gt;The designer will apply empathic methods like immersing in their environment, observe, doing interviews with potential/future clients or brainstorming.&lt;/p&gt;
+
+&lt;p&gt;Usually, every storytelling gives deep understanding in which direction the idea should go.&lt;/p&gt;
+
+&lt;p&gt;Thank you for reading!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Front-end Shorts: Storybook With React</title>
       <link>http://www.ilonacodes.com/blog/frontend-shorts-storybook-with-react/</link>
       <pubDate>Wed, 18 Apr 2018 12:00:05 +0100</pubDate>
