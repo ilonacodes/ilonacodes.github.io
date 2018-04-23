@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Opacity on Ilona Who Codes</title>
+    <link>http://www.ilonacodes.com/tags/opacity/index.xml</link>
+    <description>Recent content in Opacity on Ilona Who Codes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://www.ilonacodes.com/tags/opacity/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Front-end Shorts: CSS3 Opacity - Background Only</title>
+      <link>http://www.ilonacodes.com/blog/frontend-shorts-css3-opacity-background-only/</link>
+      <pubDate>Mon, 23 Apr 2018 23:30:05 +0100</pubDate>
+      
+      <guid>http://www.ilonacodes.com/blog/frontend-shorts-css3-opacity-background-only/</guid>
+      <description>&lt;p&gt;Hi everyone! It&amp;rsquo;s time for a new post.&lt;/p&gt;
+
+&lt;p&gt;What we do (I mean front-end web developers) isn&amp;rsquo;t all that unique.
+Often we face the problem that seems easy to solve. However, sometimes we spend hours on finding the solution.&lt;/p&gt;
+
+&lt;p&gt;In this case, I wanted to change the opacity of the app teaser background color and don&amp;rsquo;t change the opacity of links. I have tried some silly approaches that seemed logical to me, and they all have failed.&lt;/p&gt;
+
+&lt;p&gt;In the end, I have found the right way to do that, and I&amp;rsquo;m going to share it with you.&lt;/p&gt;
+
+&lt;p&gt;My solution is to create three &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt; elements.&lt;/p&gt;
+
+&lt;p&gt;One will contain the other two.&lt;/p&gt;
+
+&lt;p&gt;The first one is with the transparent background and the second one with the content.&lt;/p&gt;
+
+&lt;p&gt;Then I make the container &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt; position relative. For the &lt;div&gt; with the transparent background I set z-index with the negative number.&lt;/p&gt;
+
+&lt;p&gt;Finally, I adjust the position of the content to fit over the transparent background.&lt;/p&gt;
+
+&lt;p&gt;Voila, there is no issue with absolute positioning.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;!-- index.html --&amp;gt;
+
+&amp;lt;div class=&amp;quot;container&amp;quot;&amp;gt;
+  &amp;lt;div class=&amp;quot;opacity&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+  &amp;lt;div class=&amp;quot;content&amp;quot;&amp;gt;Hello, World!&amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;/* index.css */
+
+.container {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.content {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  z-index: 1;
+  top: 40%;
+  left: 5%;
+}
+
+.opacity {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  z-index: -1;
+  background-color: green;
+  opacity: 0.2;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt; element with the &lt;code&gt;container&lt;/code&gt; class should have relative positioning, and absolute for others, so it&amp;rsquo;s possible to move and to adjust them inside the parent &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Please keep in mind, that &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt; with transparent background and the one with the content should not contain each other. These &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt;&amp;rsquo;s should be siblings and be children of the container &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt; element.&lt;/p&gt;
+
+&lt;p&gt;We apply the opacity to a separate &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt; and position the text on top of it.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.ilonacodes.com/blog/images/css3-opacity.png&#34; alt=&#34;Result&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Thank you for reading. Hope these tips help you and your team balance the details with the big picture.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
