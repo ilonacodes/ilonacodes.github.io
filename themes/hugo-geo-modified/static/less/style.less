@@ -330,9 +330,11 @@ article img {
 	flex-direction: row;
 	justify-content: space-around;
 	margin-top: 3rem;
+	width: 100%;
 
 	img {
-		width: 225px;
+		// width: 225px;
+		width: 100%;
 		height: 100%;
 		cursor: pointer;
 		border: 3px solid #777;
@@ -351,6 +353,25 @@ article img {
 		img {
 			width: 100%;
 			margin-bottom: 1rem;
+
+		}
+	}
+}
+
+@media (min-width: 1025px) and (max-width: 1600px) {
+	.projects {
+		img {
+			width: 250px;
+			margin: 0 2rem 1rem 2rem;
+		}
+	}
+}
+
+@media (min-width: 1601px) {
+	.projects {
+		img {
+			width: 500px;
+			margin: 0 2rem 1rem 2rem;
 		}
 	}
 }
