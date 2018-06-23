@@ -11,6 +11,106 @@
     
     <item>
       <title></title>
+      <link>http://www.ilonacodes.com/beauty-calendar-app/</link>
+      <pubDate>Sat, 23 Jun 2018 10:35:55 +0100</pubDate>
+      
+      <guid>http://www.ilonacodes.com/beauty-calendar-app/</guid>
+      <description>&lt;p&gt;&lt;h1&gt;Hello World!!!&lt;/h2&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.ilonacodes.com/berlin-wall-quiz-app/</link>
+      <pubDate>Sat, 23 Jun 2018 10:35:55 +0100</pubDate>
+      
+      <guid>http://www.ilonacodes.com/berlin-wall-quiz-app/</guid>
+      <description>&lt;p&gt;&lt;h3&gt;1. Overview&lt;/h3&gt;
+&lt;p&gt;There are many ways of discovering Berlin: with a travel guide or an informative website or on the spot with a practical app. The Berlin Wall Quiz is an interactive app which helps users to get more information or learn the history and interesting facts about the Berlin Wall. Photos, audio, and video clips, texts are presented in historical chronology. At the end of the every chronological time slot, there is an opportunity to start a quiz and see results after the completion.
+&lt;/p&gt;
+&lt;h3&gt;2. Process&lt;/h3&gt;
+&lt;p&gt;I decided to create affinity diagrams of the ideas to highlight the most essential feature set. The chart below shows the prioritized ideas that would go into primary user flow.
+&lt;/p&gt;
+&lt;img src=&#34;http://www.ilonacodes.com/diagram-berlin-wall.png&#34;&gt;
+&lt;h3&gt;3. Research &amp;amp; Personas&lt;/h3&gt;
+&lt;p&gt;I have described user personas based on a broad target market that would use the Berlin Wall Quiz app. Visual information categorized chronologically because users want to get the information about a specific time frame.
+&lt;/p&gt;
+&lt;p&gt;What users would expect from this kind of app:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The platform that easy to use on the go. Definitely, it would be a mobile app&lt;/li&gt;
+&lt;li&gt;Supporting landscape screen to make it easy to use audio/video controls; make videos bigger by increasing their size to full-screen&lt;/li&gt;
+&lt;li&gt;Testing the gained knowledge using quiz feature&lt;/li&gt;
+&lt;li&gt;Implementing the way to review the app and give it ratings&lt;/li&gt;
+&lt;li&gt;Opportunity to share interesting audio records, video clips, texts with other people via social media&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;What business expects from this app:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Increased user base growth through partially locked content that is unlocked by sharing the parts of the application with friends&lt;/li&gt;
+&lt;/ul&gt;
+&lt;img src=&#34;http://www.ilonacodes.com/personas-berlin-wall.png&#34;&gt;
+&lt;h3&gt;4. Wireframes &amp;amp; User Flows&lt;/h3&gt;
+&lt;img src=&#34;http://www.ilonacodes.com/wireframes-berlin-wall-app.png&#34;&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;b&gt;Welcome Screen&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;With app specific images. Slide through the views to start using the app.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;b&gt;Timeline Overview&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;The story of the city and Berlin Wall in a unique circular timeline, each point on the navigation represents a milestone in the story.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;b&gt;Timeline Screen&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Once a timeline story has been selected, the page shows the full story of the chosen milestone. This page can contain multiple elements like text, images, video, audio, etc.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;b&gt;Timeline Continued&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Some content is locked, tapping on this will launch a window showing the user how to unlock the feature. Throughout the app, a share button will activate the native share dialog, where users can share parts of the app. This will provide unlocking functionality.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;b&gt;Landscape Screen&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Ensure the app supports landscape mode for screens that make sense, for example: movie player screen, audio player, timeline overview.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;b&gt;Main Navigation&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;It will sit in the top right corner (top left when open) and can be accessed from all areas of the app.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;b&gt;Audio Player&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;This page acts as a portal to all audio files within the timeline page. All audio files are listed for direct play.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;b&gt;Movie Player&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;This page acts as a portal to all movies within the timeline page. All videos are available for immediate playing.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;b&gt;Quiz&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Users can take a quiz any time when they want.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;b&gt;Results&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;After completing the quiz, users are able to see their results.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;b&gt;Reviews&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Users can read the latest review posts, and also create their own. Adding a review unlocks a new feature.&lt;/p&gt;
+&lt;h3&gt;5. Interface Design&lt;/h3&gt;
+&lt;img src=&#34;http://www.ilonacodes.com/interface-berlin-wall-app.png&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.ilonacodes.com/beuth-box-website/</link>
+      <pubDate>Sat, 23 Jun 2018 10:35:55 +0100</pubDate>
+      
+      <guid>http://www.ilonacodes.com/beuth-box-website/</guid>
+      <description>&lt;p&gt;&lt;h1&gt;Coming soon!&lt;/h2&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.ilonacodes.com/online-fashion-shopping-app/</link>
+      <pubDate>Sat, 23 Jun 2018 10:35:55 +0100</pubDate>
+      
+      <guid>http://www.ilonacodes.com/online-fashion-shopping-app/</guid>
+      <description>&lt;p&gt;&lt;h1&gt;Hello World!!&lt;/h2&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>http://www.ilonacodes.com/ui-ux-projects/</link>
       <pubDate>Sat, 23 Jun 2018 10:35:55 +0100</pubDate>
       
@@ -19,10 +119,10 @@
 &lt;img src=&#34;http://www.ilonacodes.com/toolstack.png&#34;&gt;&lt;/img&gt;
 &lt;!-- &lt;h3 style=&#34;text-align: center&#34;&gt;Projects&lt;/h3&gt; --&gt;
 &lt;div class=&#34;projects&#34;&gt;
-  &lt;img src=&#34;http://www.ilonacodes.com/berlin-wall-quiz-app.png&#34;&gt;
-  &lt;img src=&#34;http://www.ilonacodes.com/online-fashion-shopping-app.png&#34;&gt;
-  &lt;img src=&#34;http://www.ilonacodes.com/beauty-calendar-app.png&#34;&gt;
-  &lt;img src=&#34;http://www.ilonacodes.com/beuth-box-website.png&#34;&gt;
+  &lt;a href=&#34;http://www.ilonacodes.com/berlin-wall-quiz-app&#34;&gt;&lt;img src=&#34;http://www.ilonacodes.com/berlin-wall-quiz-app.png&#34;&gt;&lt;/a&gt;
+  &lt;a href=&#34;http://www.ilonacodes.com/online-fashion-shopping-app&#34;&gt;&lt;img src=&#34;http://www.ilonacodes.com/online-fashion-shopping-app.png&#34;&gt;&lt;/a&gt;
+  &lt;a href=&#34;http://www.ilonacodes.com/beauty-calendar-app&#34;&gt;&lt;img src=&#34;http://www.ilonacodes.com/beauty-calendar-app.png&#34;&gt;&lt;/a&gt;
+  &lt;a href=&#34;http://www.ilonacodes.com/beuth-box-website&#34;&gt;&lt;img src=&#34;http://www.ilonacodes.com/beuth-box-website.png&#34;&gt;&lt;/a&gt;
 &lt;/div&gt;&lt;/p&gt;
 </description>
     </item>
@@ -582,382 +682,6 @@ return the coordinates of the element relative to the DOM, and top param gives u
 &lt;p&gt;At this point, I’m going to finish the post. I have tried to share my impression from the Ada Lovelace Festival 2017 in Berlin with you, dear Techmakers. I hope you enjoyed the highlights of the event from my point of view.&lt;/p&gt;
 
 &lt;p&gt;Wish you a great week and new achievements.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>React.js &amp; React Native Meetup at Home24 in Berlin</title>
-      <link>http://www.ilonacodes.com/blog/react-meetup-at-home24-berlin/</link>
-      <pubDate>Thu, 19 Oct 2017 08:30:05 +0100</pubDate>
-      
-      <guid>http://www.ilonacodes.com/blog/react-meetup-at-home24-berlin/</guid>
-      <description>&lt;p&gt;Hey, there! In this blog post, I’m going to share my impression about the React.js &amp;amp; React Native meetup in Berlin that I have visited at Home24 yesterday.&lt;/p&gt;
-
-&lt;p&gt;If you still didn&amp;rsquo;t have a look at the topic of my blog, so, as you noticed from the title, I am interested in front-end development and at the moments specialized in the JavaScript language and especially in React framework.&lt;/p&gt;
-
-&lt;p&gt;Close to the point, I would like to tell you a couple of words about the last meetup.&lt;/p&gt;
-
-&lt;p&gt;Traditionally, there were three talks, breaks, pizza+bier, and, definitely, the opportunity for networking and communicating with each other.&lt;/p&gt;
-
-&lt;p&gt;Now I’m going to tell you about the talks.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://www.ilonacodes.com/blog/images/react-meetup-1.jpg&#34; alt=&#34;Photo-1&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The first speaker, Shahjada Talukdar, Frontend Engineer at Perdoo presented &lt;code&gt;Build your dream app with CRA (Create React App)&lt;/code&gt;:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;How to build a simple app with Create React App (CRA) using the simple command &lt;code&gt;create-react-app name&lt;/code&gt; in the terminal;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;How to start/build/eject with &lt;a href=&#34;https://yarnpkg.com/lang/en/&#34;&gt;yarn&lt;/a&gt; that serving local and on network;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Why we should be using &lt;a href=&#34;https://developers.google.com/web/fundamentals/primers/service-workers/?hl=en&#34;&gt;service worker&lt;/a&gt; that controls what happens on a request-by-request basis and also allows React apps working offline.&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://www.ilonacodes.com/blog/images/react-meetup-2.jpg&#34; alt=&#34;Photo-2&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The second talk called &lt;code&gt;React SSR featuring AWS Lambda&lt;/code&gt; by George Lolos, Frontend Squad Leader at Home24 AG.&lt;/p&gt;
-
-&lt;p&gt;The talk is about how to improve the performance, how to structure React app and how to solve small problems in front-end part. They’ve also told us about React SSR (Server Side Rendering).&lt;/p&gt;
-
-&lt;p&gt;React SSR renders basic pages, and AWS Lambda runs code without managing servers. And the biggest challenge was the massive size of Lambda. So, the speaker shared with us approaches how to minify it and the result that they have achieved.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://www.ilonacodes.com/blog/images/react-meetup-3.jpg&#34; alt=&#34;Photo-3&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Last but not least, the third talk &lt;code&gt;Beyond JavaScript: The Hidden Benefit of React Native&lt;/code&gt; by Wojciech Ogrodowczyk, Partner at Brains &amp;amp; Beards.&lt;/p&gt;
-
-&lt;p&gt;The talk refers to choosing an optimal programming language to optimize and to improve the performance of the code. The speaker also mentioned an approach how to solve the language problem.&lt;/p&gt;
-
-&lt;p&gt;For example, by dividing the team into groups. Then every group should decide which programming language they will choose.&lt;/p&gt;
-
-&lt;p&gt;Then they will implement a small project during the next couple of months. In the end, they will compare the performance of every group relative to each other.&lt;/p&gt;
-
-&lt;p&gt;However, we shouldn&amp;rsquo;t forget that in computer science everything depends on team skills, personality, and other things.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://www.ilonacodes.com/blog/images/react-meetup-4.jpg&#34; alt=&#34;Photo-4&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I have shared my thoughts and opinions above on how I understood the topics of the talks.&lt;/p&gt;
-
-&lt;p&gt;If you are located close to where React.js &amp;amp; React Native community meets and interested in front-end, then I highly recommend you to visit such meetings and get to learn more about it from competent people.&lt;/p&gt;
-
-&lt;p&gt;Thank you for the reading! Have a nice week!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>What Did I Learn at Codemotion Berlin 2017</title>
-      <link>http://www.ilonacodes.com/blog/what-did-i-learn-at-codemotion-berlin-2017/</link>
-      <pubDate>Sat, 14 Oct 2017 22:30:05 +0100</pubDate>
-      
-      <guid>http://www.ilonacodes.com/blog/what-did-i-learn-at-codemotion-berlin-2017/</guid>
-      <description>
-
-&lt;p&gt;Hi, everyone!&lt;/p&gt;
-
-&lt;p&gt;As you noticed, I post a new blog post about the development of an interactive ToDo list regularly, every five days. But today I am going to tell you about the international IT-conference &lt;a href=&#34;https://berlin2017.codemotionworld.com/&#34;&gt;Codemotion&lt;/a&gt;, that I have attended on 12-13. October in Berlin.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://www.ilonacodes.com/blog/images/codemotion.JPG&#34; alt=&#34;Codemotion&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;There were a lot of informative and motivational topics, that can inspire everyone, who are interested or work in IT-branch.&lt;/p&gt;
-
-&lt;p&gt;All talks occurred in four different spaces and referred by the topic of the sessions. For example, in &lt;code&gt;Maschinenhaus&lt;/code&gt; speakers gave a speech mostly about technologies and practical approaches that they use. In &lt;code&gt;Community Stage&lt;/code&gt; the talks were related to motivational topics, discussing programming languages.&lt;/p&gt;
-
-&lt;p&gt;Also, there took place &lt;code&gt;Ruby on Rails Workshop&lt;/code&gt;. The full agenda of the conference you can check below:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://www.ilonacodes.com/blog/images/agenda-12-10.jpg&#34; alt=&#34;Agenda-1&#34; /&gt;
-&lt;img src=&#34;http://www.ilonacodes.com/blog/images/agenda-13-10.jpg&#34; alt=&#34;Agenda-2&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The most interesting talks for me as a frontend developer, I included to &lt;code&gt;My Favorites&lt;/code&gt; list.&lt;/p&gt;
-
-&lt;p&gt;I would like to share more information about them with you:&lt;/p&gt;
-
-&lt;h3 id=&#34;frontend-frameworkless-development-by-francesco-strazzullo-exstrategy&#34;&gt;&lt;code&gt;Frontend Frameworkless Development&lt;/code&gt; by Francesco Strazzullo | exstrategy&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://www.ilonacodes.com/blog/images/speaker-1.JPG&#34; alt=&#34;Speaker-1&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The idea of the talk based on the possibility to develop new apps, new features for apps while not using any frameworks. The example code, the empty forms, are written in &lt;code&gt;Vanilla JavaScript&lt;/code&gt; replacing &lt;code&gt;React+Redux&lt;/code&gt; frameworks for that.&lt;/p&gt;
-
-&lt;p&gt;Firstly, the speaker showed us that there is no dependency in &lt;code&gt;package.json&lt;/code&gt; (the file that includes all dependencies and configures the project).&lt;/p&gt;
-
-&lt;p&gt;Then they have implemented the function that is similar to ReactDOM rendering.&lt;/p&gt;
-
-&lt;p&gt;Next, they have replaced Redux features by creating variables &lt;code&gt;store&lt;/code&gt;, &lt;code&gt;state&lt;/code&gt;. They handle the current and calculation of the new state. Finally, they store new state back to &lt;code&gt;store&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;The conclusion.&lt;/p&gt;
-
-&lt;p&gt;It&amp;rsquo;s possible to write clean code without using any frameworks. Vanilla JavaScript still will be alive for the next tens of years.&lt;/p&gt;
-
-&lt;p&gt;Frameworks might die the following year.&lt;/p&gt;
-
-&lt;h3 id=&#34;how-to-rock-the-stage-public-speaking-for-geeks-by-lorenzo-barbieri-microsoft-western-europe&#34;&gt;&lt;code&gt;How to rock the stage: public speaking for geeks&lt;/code&gt; by Lorenzo Barbieri | Microsoft Western Europe&lt;/h3&gt;
-
-&lt;p&gt;I am an introvert.&lt;/p&gt;
-
-&lt;p&gt;Naturally, I have found this talk extremely useful for me. It is on how to improve my soft skills by speaking not only in front of the people but also with others.&lt;/p&gt;
-
-&lt;p&gt;The slide on the photo below describes some “icebreakers” that allow starting, keeping, and controlling a conversation in life, and on the stage.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://www.ilonacodes.com/blog/images/speaker-2.JPG&#34; alt=&#34;Speaker-2&#34; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;build-bridges-not-walls-design-for-users-across-cultures-by-jenny-shen-toptal&#34;&gt;&lt;code&gt;Build bridges, not walls - Design for users across cultures&lt;/code&gt; by Jenny Shen | Toptal&lt;/h3&gt;
-
-&lt;p&gt;I was lucky to meet and speak personally with the speaker &lt;a href=&#34;http://jennyshen.com/&#34;&gt;Jenny Shen&lt;/a&gt;. They have worked in five countries before and currently are based in Amsterdam.&lt;/p&gt;
-
-&lt;p&gt;Using illustrative examples, Jenny showed us how important it is to know the culture of society you are developing for.&lt;/p&gt;
-
-&lt;p&gt;What kinds of problems can appear in design? Which data should be taken into account to make people of different cultures happy?&lt;/p&gt;
-
-&lt;p&gt;I have already moved to another country once. I can relate to that so much.&lt;/p&gt;
-
-&lt;p&gt;Most of my development projects are for multicultural users. I think it is necessary to know most common obstacles that I could meet on my &amp;ldquo;development&amp;rdquo; path.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://www.ilonacodes.com/blog/images/speaker-3.JPG&#34; alt=&#34;Speaker-3&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://codemotionworld.com/&#34;&gt;Codemotion&lt;/a&gt; conferences are worldwide.&lt;/p&gt;
-
-&lt;p&gt;They are suitable for any professional level of IT-people with different backgrounds. That helps to get to know more about IT-world at its current state.&lt;/p&gt;
-
-&lt;p&gt;It is fantastic to participate in workshops, and network with amazing people.&lt;/p&gt;
-
-&lt;p&gt;Thank you for reading!&lt;/p&gt;
-
-&lt;p&gt;I will be glad to answer any questions about my impression. Feel free to give any feedback for this post.&lt;/p&gt;
-
-&lt;p&gt;You can find me on &lt;a href=&#34;https://www.instagram.com/ilonacodes/&#34;&gt;Instagram&lt;/a&gt; or send me a private letter on my &lt;a href=&#34;mailto:demiluri@gmail.com&#34;&gt;email&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Cheers!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Persisting data using local storage with React&#43;Redux</title>
-      <link>http://www.ilonacodes.com/blog/persisting-data-using-local-storage-react-redux/</link>
-      <pubDate>Tue, 10 Oct 2017 12:30:05 +0100</pubDate>
-      
-      <guid>http://www.ilonacodes.com/blog/persisting-data-using-local-storage-react-redux/</guid>
-      <description>&lt;p&gt;Let&amp;rsquo;s continue developing an Interactive ToDo List. Refer to the &lt;a href=&#34;http://www.ilonacodes.com/blog/react-for-very-very-beginners/&#34;&gt;previous posts&lt;/a&gt; you notice that we are almost done with the basic functionality of the application. And today I would like to start the topic about persisting the data and restoring it after refreshing the page or starting a new session on the local machine with React+Redux.&lt;/p&gt;
-
-&lt;p&gt;Changing into the &lt;code&gt;my-daily-todos&lt;/code&gt; project, then to &lt;code&gt;src&lt;/code&gt; folder where you find &lt;code&gt;index.js&lt;/code&gt;. Here we store all the app’s state in the &lt;code&gt;store&lt;/code&gt; variable. Now we are also going to add a new variable that will keep the initial state and a new constant &lt;code&gt;persistedState&lt;/code&gt; that allows us to get the persisted state from store passing to method &lt;code&gt;getItem&lt;/code&gt; of &lt;code&gt;localStorage&lt;/code&gt; =&amp;gt; &lt;code&gt;localStorage.getItem(&#39;reduxState&#39;)&lt;/code&gt;:&lt;/p&gt;
-
-&lt;p&gt;So, the &lt;code&gt;initState&lt;/code&gt; variable has the default value – empty &lt;code&gt;{}&lt;/code&gt;. If there is no persisted state in the local storage, it is going to stay empty.&lt;/p&gt;
-
-&lt;p&gt;On the other hand, when there is some persisted state in the local storage, we are going to load that state and set &lt;code&gt;initState&lt;/code&gt; to value, that we have just loaded.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;// my-daily-todos/src/index.js
-
-...
-
-import { App } from &#39;./App.js&#39;;
-import { tasksReducer } from &#39;./Tasks/reducers.js&#39;;
-import &#39;./index.css&#39;;
-
-let initState = {}
-const persistedState = localStorage.getItem(&#39;reduxState&#39;)
-
-// if persistedState is not empty then assign parsed persistedState to initState
-if (persistedState) {
-  initState = JSON.parse(persistedState)
-}
-
-...
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;span style=&#34;color:red&#34;&gt;Notice that we are passing the second parameter &lt;code&gt;initState&lt;/code&gt; to &lt;code&gt;createStore&lt;/code&gt; method in &lt;code&gt;store&lt;/code&gt;. The second parameter of &lt;code&gt;createStore&lt;/code&gt; function is for setting the initial state of the store when the application is launched:&lt;/span&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;// my-daily-todos/src/index.js
-
-...
-
-let store = createStore(
-  combineReducers({
-    tasks: tasksReducer,
-  }),
-  initState
-);
-
-...
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Onward!&lt;/p&gt;
-
-&lt;p&gt;We are going to use &lt;code&gt;subscribe&lt;/code&gt; method of our &lt;code&gt;store&lt;/code&gt;. That method will trigger the function we provide every time there is any change to the application state.&lt;/p&gt;
-
-&lt;p&gt;We are going to supply a function that will get the whole state from the store using &lt;code&gt;getState()&lt;/code&gt; method of &lt;code&gt;store&lt;/code&gt;. Then it is going to convert that state object to a string using &lt;code&gt;JSON.stringify()&lt;/code&gt;. Finally, it is going to persist that state using &lt;code&gt;localStorage.setItem()&lt;/code&gt;:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;// my-daily-todos/src/index.js
-
-...
-
-store.subscribe(() =&amp;gt; {
-  localStorage.setItem(&#39;reduxState&#39;, JSON.stringify(store.getState()))
-})
-
-...
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;That&amp;rsquo;s it.&lt;/p&gt;
-
-&lt;p&gt;To check how it works run the local server on your computer in the project folder with the &lt;code&gt;npm start&lt;/code&gt; command. Afterwards, try to add and categorize some tasks by tags, then close the tab with the application or refresh the page to see that the data is stored successfully.&lt;/p&gt;
-
-&lt;p&gt;Did you find another way how to implement it in our project? Let me know by &lt;a href=&#34;mailto:demiluri@gmail.com&#34;&gt;email&lt;/a&gt; or write me a direct message on &lt;a href=&#34;https://www.instagram.com/ilonacodes/&#34;&gt;Instagram&lt;/a&gt;. That is how the &lt;code&gt;index.js&lt;/code&gt; should look like now:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;// my-daily-todos/src/index.js
-
-import React from &#39;react&#39;;
-import ReactDOM from &#39;react-dom&#39;;
-import { Provider } from &#39;react-redux&#39;;
-import { createStore, combineReducers } from &#39;redux&#39;;
-
-import { App } from &#39;./App.js&#39;;
-import { tasksReducer } from &#39;./Tasks/reducers.js&#39;;
-import &#39;./index.css&#39;;
-
-let initState = {}
-const persistedState = localStorage.getItem(&#39;reduxState&#39;)
-if (persistedState) {
-  initState = JSON.parse(persistedState)
-}
-
-let store = createStore(
-  combineReducers({
-    tasks: tasksReducer,
-  }),
-  initState
-);
-
-store.subscribe(() =&amp;gt; {
-  localStorage.setItem(&#39;reduxState&#39;, JSON.stringify(store.getState()))
-})
-
-ReactDOM.render(
-  &amp;lt;Provider store={store}&amp;gt;
-    &amp;lt;App /&amp;gt;
-  &amp;lt;/Provider&amp;gt;,
-  document.getElementById(&#39;root&#39;)
-);
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;If you enjoyed this post, I would be very grateful if you would help me spread the word by emailing it to a friend or sharing it on social networks. Thank you!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Dynamic progress bar with React&#43;Redux</title>
-      <link>http://www.ilonacodes.com/blog/dynamic-progress-bar-with-react-redux/</link>
-      <pubDate>Fri, 06 Oct 2017 19:30:05 +0100</pubDate>
-      
-      <guid>http://www.ilonacodes.com/blog/dynamic-progress-bar-with-react-redux/</guid>
-      <description>&lt;p&gt;Hi there! I am so happy that you continue developing our interactive Daily ToDo app with me. Today you are going to get to know how to implement a dynamic progress bar that will handle task completing status by percentage for every category.&lt;/p&gt;
-
-&lt;p&gt;&lt;span style=&#34;color:red&#34;&gt;But before moving on, if you are new here, please, have a look at the &lt;a href=&#34;http://www.ilonacodes.com/blog/react-for-very-very-beginners/&#34;&gt;previous posts&lt;/a&gt;. You should start developing app there and then continue with us here.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;And now I would like to offer my approach how to add a simple but dynamic progress bar to every task category and finally, make our Daily ToDo app interactive.&lt;/p&gt;
-
-&lt;p&gt;Let&amp;rsquo;s change into &lt;code&gt;my-daily-todos&lt;/code&gt; folder and start developing!&lt;/p&gt;
-
-&lt;p&gt;Firstly, I recommend you to add a small library &lt;code&gt;w3.css&lt;/code&gt; to our &lt;code&gt;index.html&lt;/code&gt; where we store all style dependencies:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;
-// my-daily-todos/public/index.html
-
-&amp;lt;!doctype html&amp;gt;
-&amp;lt;html lang=&amp;quot;en&amp;quot;&amp;gt;
-  &amp;lt;head&amp;gt;
-    &amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt;
-    &amp;lt;meta name=&amp;quot;viewport&amp;quot; content=&amp;quot;width=device-width, initial-scale=1, shrink-to-fit=no&amp;quot;&amp;gt;
-
-    &amp;lt;link rel=&amp;quot;manifest&amp;quot; href=&amp;quot;%PUBLIC_URL%/manifest.json&amp;quot;&amp;gt;
-
-// just add this library
-    &amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;https://www.w3schools.com/w3css/4/w3.css&amp;quot;&amp;gt;
-
-    &amp;lt;title&amp;gt;React App&amp;lt;/title&amp;gt;
-  &amp;lt;/head&amp;gt;
-  &amp;lt;body&amp;gt;
-    &amp;lt;div id=&amp;quot;root&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
-  &amp;lt;/body&amp;gt;
-&amp;lt;/html&amp;gt;
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;span style=&#34;color:red&#34;&gt;If you open your &lt;code&gt;index.html&lt;/code&gt; for the first time, you&amp;rsquo;ll notice, that there lots of comments and some initial link tags. In this case, you can just rewrite your &lt;code&gt;index.html&lt;/code&gt; in the way that I left above.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;The dynamic progress bar belongs to the &lt;code&gt;TaskCategory.js&lt;/code&gt; component. That&amp;rsquo;s why we have to open this file and step by step implement the new feature:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;To initialize &lt;code&gt;completed_tasks&lt;/code&gt; constant, that will filter &lt;code&gt;tasks&lt;/code&gt; by &lt;code&gt;completed&lt;/code&gt; property and store them in;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;To initialize &lt;code&gt;percentage&lt;/code&gt; constant to count the percentage of completed tasks with a simple formula and to round it with &lt;code&gt;floor&lt;/code&gt; method;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Apply classes from the &lt;code&gt;w3.css&lt;/code&gt; library for tags inside the &lt;code&gt;TaskCategory.js&lt;/code&gt; component and pass the value of &lt;code&gt;percentage&lt;/code&gt;;&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;
-// my-daily-todos/src/Tasks/TaskCategory.js
-
-...
-export const TaskCategory = ({category, tasks, completeTask}) =&amp;gt; {
-
-// Step 1
-  const completed_tasks = tasks.filter(task =&amp;gt; task.completed);
-
-// Step 2
-  const percentage = Math.floor(completed_tasks.length / tasks.length * 100);
-
-  return &amp;lt;div&amp;gt;
-    &amp;lt;h2&amp;gt;{category}&amp;lt;/h2&amp;gt;
-
-// Step 3
-      &amp;lt;div className=&amp;quot;w3-light-grey w3-round progress-bar&amp;quot;&amp;gt;
-       &amp;lt;div className=&amp;quot;w3-container w3-round w3-green progress-bar-indicator&amp;quot;
-        style={{width: `${percentage}%`}}&amp;gt;
-        {percentage}%
-       &amp;lt;/div&amp;gt;
-      &amp;lt;/div&amp;gt;
-    &amp;lt;ul&amp;gt;
-    {tasks.map(task =&amp;gt;
-      &amp;lt;li key={task.id}&amp;gt;
-        &amp;lt;Task task={task} completeTask={completeTask} /&amp;gt;
-      &amp;lt;/li&amp;gt;
-    )}
-    &amp;lt;/ul&amp;gt;
-  &amp;lt;/div&amp;gt;
-}
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;To make things look good, we should change into &lt;code&gt;App.js&lt;/code&gt; and add styles to already created from the &lt;code&gt;w3.css&lt;/code&gt; library &lt;code&gt;.progress-bar&lt;/code&gt; and &lt;code&gt;.progress-bar-indicator&lt;/code&gt; classes:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;
-// my-daily-todos/src/App.css
-
-...
-
-.taskslist-container .progress-bar {
-   width: 30%;
-   height: 25px;
-   text-align: center;
-   margin-bottom: 1rem;
-   font-size: 11px;
- }
-
- .taskslist-container .progress-bar-indicator {
-   height: 25px;
-   padding-top: 5px;
- }
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;span style=&#34;color:red&#34;&gt;To check how it looks like, don&amp;rsquo;t forget to run a local server by the &lt;code&gt;npm start&lt;/code&gt; in the terminal in &lt;code&gt;my-daily-todos&lt;/code&gt; folder.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;You should get something like that at the end:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://www.ilonacodes.com/blog/images/progress-bar.png&#34; alt=&#34;Progress bar&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Thank you for the reading. Happily, you are enjoying developing with React+Redux and waiting for the next feature description. Have a nice coding!&lt;/p&gt;
 </description>
     </item>
     
