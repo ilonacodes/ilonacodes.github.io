@@ -15,7 +15,15 @@
       <pubDate>Sat, 23 Jun 2018 10:35:55 +0100</pubDate>
       
       <guid>http://www.ilonacodes.com/ui-ux-projects/</guid>
-      <description>&lt;p&gt;Hello World!&lt;/p&gt;
+      <description>&lt;p&gt;&lt;h3 style=&#34;text-align: center&#34;&gt;Tool Stack&lt;/h3&gt;
+&lt;img src=&#34;http://www.ilonacodes.com/toolstack.png&#34;&gt;&lt;/img&gt;
+&lt;!-- &lt;h3 style=&#34;text-align: center&#34;&gt;Projects&lt;/h3&gt; --&gt;
+&lt;div class=&#34;projects&#34;&gt;
+  &lt;img src=&#34;http://www.ilonacodes.com/berlin-wall-quiz-app.png&#34;&gt;
+  &lt;img src=&#34;http://www.ilonacodes.com/online-fashion-shopping-app.png&#34;&gt;
+  &lt;img src=&#34;http://www.ilonacodes.com/beauty-calendar-app.png&#34;&gt;
+  &lt;img src=&#34;http://www.ilonacodes.com/beuth-box-website.png&#34;&gt;
+&lt;/div&gt;&lt;/p&gt;
 </description>
     </item>
     

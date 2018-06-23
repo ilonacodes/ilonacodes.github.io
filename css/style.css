@@ -6665,7 +6665,6 @@ header > p {
 }
 .icon-links a {
   color: #000000;
-  margin: 0 2rem;
 }
 .icon-links a:hover {
   color: #e60000;
@@ -6842,5 +6841,29 @@ article img {
 @media (max-width: 325px) {
   main {
     width: 92%;
+  }
+}
+.projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 3rem;
+}
+.projects img {
+  width: 225px;
+  height: 100%;
+  cursor: pointer;
+  border: 3px solid #777;
+}
+.projects img:hover {
+  opacity: .8;
+}
+@media (max-width: 1024px) {
+  .projects {
+    flex-direction: column;
+  }
+  .projects img {
+    width: 100%;
+    margin-bottom: 1rem;
   }
 }
