@@ -15,7 +15,7 @@
       <pubDate>Sat, 23 Jun 2018 10:35:55 +0100</pubDate>
       
       <guid>http://www.ilonacodes.com/beauty-calendar-app/</guid>
-      <description>&lt;p&gt;&lt;h1&gt;Hello World!!!&lt;/h2&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;h1&gt;Hello World&lt;/h2&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -95,7 +95,7 @@
       <pubDate>Sat, 23 Jun 2018 10:35:55 +0100</pubDate>
       
       <guid>http://www.ilonacodes.com/beuth-box-website/</guid>
-      <description>&lt;p&gt;&lt;h1&gt;Coming soon!&lt;/h2&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;h1&gt;Coming soon&amp;hellip;&lt;/h2&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -105,7 +105,60 @@
       <pubDate>Sat, 23 Jun 2018 10:35:55 +0100</pubDate>
       
       <guid>http://www.ilonacodes.com/online-fashion-shopping-app/</guid>
-      <description>&lt;p&gt;&lt;h1&gt;Hello World!!&lt;/h2&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;h3&gt;1. Overview&lt;/h3&gt;
+&lt;p&gt;Talking about e-commerce shopping, it&amp;rsquo;s vital to understand that selling the products once via the website or mobile app is only the minimal course of action for the user. What business really aims for is having the user buying via that website or app again and again. The goal is that people would like to use the e-commerce platform and buy items offered on it. Many customers prefer doing shopping online because it&amp;rsquo;s faster, more comfortable and more convenient. iLookStore is the mobile app for fashion shopping that helps users quickly and easily shop and purchase clothing items online, and then have them delivered promptly at little to no cost.&lt;/p&gt;
+&lt;h3&gt;2. Process&lt;/h3&gt;
+&lt;p&gt;To put together the vision of the shopping app I have created a list of tasks I could choose from depending on what stage of a project they should be implemented. I decided to have clean and straightforward color palette and layouts. Also, I have built a user flow chart that contains listings of the available products, category links, etc.&lt;/p&gt;
+&lt;img src=&#34;http://www.ilonacodes.com/diagram-online-fashion-shopping-app.png&#34;&gt;
+&lt;h3&gt;3. Research &amp;amp; Personas&lt;/h3&gt;
+&lt;p&gt;To figure out which customers to target with the online fashion shopping app, I did user research. As results, I have determined that busy young professionals make up a significant portion of the app&amp;rsquo;s target market.&lt;/p&gt;
+&lt;p&gt;What is expected business outcome?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Expanding customers base and market share&lt;/li&gt;
+&lt;li&gt;Delivering the products/items to other cities around the country and abroad&lt;/li&gt;
+&lt;li&gt;Being competitive on the fashion market in online ordering and deliveries of products&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;What are the user&amp;rsquo;s goals?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Shopping quickly and easily without spending extra time on it - purchase online&lt;/li&gt;
+&lt;li&gt;Getting ordered items delivered promptly&lt;/li&gt;
+&lt;/ul&gt;
+&lt;img src=&#34;http://www.ilonacodes.com/personas-fashion-online-shopping-app.png&#34;&gt;
+&lt;h3&gt;4. Wireframes &amp;amp; User Flows&lt;/h3&gt;
+&lt;img src=&#34;http://www.ilonacodes.com/wireframes-online-fashion-shopping-app.png&#34;&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;b&gt;Welcome Screen&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Start page contains online shopping categories by gender&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;b&gt;Home&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;This page shows to the user the latest trends and the best deals  + Tab Bar at the bottom of the app screen that provides the ability to quickly switch between different sections of the app like &amp;ldquo;Start Page,&amp;rdquo; &amp;ldquo;Cart,&amp;rdquo; &amp;ldquo;Wishlist&amp;rdquo; and &amp;ldquo;Account.&amp;rdquo;&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;b&gt;Shopping Category&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Here is the entire product catalog navigation within a single navigation category. The categories displayed in the sidebar of the product catalog. The user can also change the clothing gender and find all brands which available for buying online + there is also the support for subcategories in multiple parent categories.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;b&gt;Shopping Page&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;This page can be scrolled vertically. Enable the user to get the overview of the product list.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;b&gt;Filter&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Users are able to narrow down a product list with thousands of generic products to only a few items relevant to their needs, for example, by color, size, price, brand, etc.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;b&gt;Item Details&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;The page presents the user with sufficient product information to adequately assess product suitability (to their unique needs and desires)&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;b&gt;Shopping Cart&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;This feature is global to the app and can contain any items user wants to buy until the user goes through the checkout.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;b&gt;Checkout&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;The current page shows the total amount (in the local currency) and option to review shopping cart once more. The user can edit the shipping address or change the payment method.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;b&gt;Account&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;It includes personal user data, the status of the bought items (delivered or in delivery), app settings, etc.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;b&gt;Wishlist&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;The possibility to match potentially interesting products/items and add them to the wishlist. That helps users to save time by searching once again for &amp;ldquo;wish&amp;rdquo; item from the product catalog.&lt;/p&gt;
+&lt;h3&gt;5. Interface Design&lt;/h3&gt;
+&lt;img src=&#34;http://www.ilonacodes.com/interface-online-fashion-shopping-app.png&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
