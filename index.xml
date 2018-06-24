@@ -15,7 +15,56 @@
       <pubDate>Sat, 23 Jun 2018 10:35:55 +0100</pubDate>
       
       <guid>http://www.ilonacodes.com/beauty-calendar-app/</guid>
-      <description>&lt;p&gt;&lt;h1&gt;Hello World&lt;/h2&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;h3&gt;1. Overview&lt;/h3&gt;
+&lt;p&gt;Considering so many women now use beauty treatment services it seems worth to implement the app that allows managing appointments for beauty care procedures by categories. Choose a date, create a new beauty appointment relevant to the beauty category, and you will not be confused anymore with the uncategorized beauty appointment list.&lt;/p&gt;
+&lt;h3&gt;2. Process&lt;/h3&gt;
+&lt;p&gt;On the top place, the product strategy took into account to create MVP model with the primary feature set I was working on. The requested features were:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Creating beauty appointments&lt;/li&gt;
+&lt;li&gt;Categorizing beauty appointments&lt;/li&gt;
+&lt;li&gt;Deleting beauty appointments&lt;/li&gt;
+&lt;li&gt;Integrating date picker view&lt;/li&gt;
+&lt;li&gt;Making the list of beauty appointments&lt;/li&gt;
+&lt;li&gt;Sending automatic notifications to remind the user about the upcoming appointment&lt;/li&gt;
+&lt;/ul&gt;
+&lt;img src=&#34;http://www.ilonacodes.com/diagram-beauty-calendar.png&#34;&gt;
+&lt;h3&gt;3. Research &amp;amp; Personas&lt;/h3&gt;
+&lt;p&gt;I conducted competitive analysis research on similar products that were already out on the international market. I found many apps did not offer the same feature set in one place such as I have implemented, and it could be something unique that would stand out.&lt;/p&gt;
+&lt;p&gt;Why users need this kind of app?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The easy using mobile platform for managing lots of beauty appointments by categories&lt;/li&gt;
+&lt;li&gt;Sending notifications in short before the beauty appointment&lt;/li&gt;
+&lt;li&gt;Supporting user-friendly interface&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;What are the business expectations?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Collaborating with beauty salons or studios in future&lt;/li&gt;
+&lt;li&gt;Running ads after increasing user base&lt;/li&gt;
+&lt;/ul&gt;
+&lt;img src=&#34;http://www.ilonacodes.com/personas-beauty-calendar-app.png&#34;&gt;
+&lt;h3&gt;4. Wireframes &amp;amp; User Flows&lt;/h3&gt;
+&lt;img src=&#34;http://www.ilonacodes.com/wireframes-beauty-calendar-app.png&#34;&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;b&gt;Home&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;On this starting page, users are able to choose in which category they would like to make a beauty appointment.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;b&gt;Category Screen&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;After choosing the category, users end up on the appointment list, and they see the calendar for the current week, that belong to the category screen. The user can also add a new appointment or use a sidebar menu.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;b&gt;Sidebar&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;To navigate the app or to access other categories users can use a sidebar menu for that by tapping the hamburger icon at the top left corner.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;b&gt;Date Picker&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;The feature allows users to pick an appointment date. Either &amp;ldquo;+&amp;rdquo; or &amp;ldquo;+ Add Appointment&amp;rdquo; buttons provide users to &amp;ldquo;+ Add Appointment&amp;rdquo; screen.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;b&gt;Add Appointment Screen&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Here users input the type of procedure and the appointment time. After the appointment confirmation, users would be redirected to the category screen with the appointment list relevant to this category. The &amp;ldquo;back&amp;rdquo; button allows users to return to the previous category page.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;b&gt;Category Screen with the Appointment List&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;All new appointments are added to this page. It&amp;rsquo;s possible to delete an appointment any time by tapping on the &amp;ldquo;X&amp;rdquo; button.&lt;/p&gt;
+&lt;h3&gt;5. Interface Design&lt;/h3&gt;
+&lt;img src=&#34;http://www.ilonacodes.com/interface-beauty-calendar-app.png&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -95,7 +144,7 @@
       <pubDate>Sat, 23 Jun 2018 10:35:55 +0100</pubDate>
       
       <guid>http://www.ilonacodes.com/beuth-box-website/</guid>
-      <description>&lt;p&gt;&lt;h1&gt;Coming soon&amp;hellip;&lt;/h2&gt;&lt;/p&gt;
+      <description>&lt;h3&gt;Coming soon...&lt;/h3&gt;
 </description>
     </item>
     
