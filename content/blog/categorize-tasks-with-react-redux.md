@@ -32,7 +32,7 @@ Then I see the categorized task by tag on the dashboard screen
 Tag examples: Programming, Sport, Languages, University, Reading, Routine
 ```
 
-<span style="color:red">If you are a new reader of the tutorial series and don't understand what is going on at the moment, then just check the previous posts starting with [React For Very Very Beginners](http://www.ilonacodes.com/blog/react-for-very-very-beginners/)</span>
+<span style="color:red">If you are a new reader of the tutorial series and don't understand what is going on at the moment, then just check the previous posts starting with [React For Very Very Beginners](/blog/react-for-very-very-beginners/)</span>
 
 To add this feature,  we should extend the action `ADD_TASK` in `reducers.js` and add `tag` property to a `task` object by separating a `title` into parts:
 

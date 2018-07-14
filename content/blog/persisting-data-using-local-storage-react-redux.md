@@ -9,7 +9,7 @@ scripts = []
 description = "Today I would like to start the topic about persisting the data and restoring it after refreshing the page or starting a new session on the local machine with React+Redux."
 +++
 
-Let's continue developing an Interactive ToDo List. Refer to the [previous posts](http://www.ilonacodes.com/blog/react-for-very-very-beginners/) you notice that we are almost done with the basic functionality of the application. And today I would like to start the topic about persisting the data and restoring it after refreshing the page or starting a new session on the local machine with React+Redux.
+Let's continue developing an Interactive ToDo List. Refer to the [previous posts](/blog/react-for-very-very-beginners/) you notice that we are almost done with the basic functionality of the application. And today I would like to start the topic about persisting the data and restoring it after refreshing the page or starting a new session on the local machine with React+Redux.
 
 Changing into the `my-daily-todos` project, then to `src` folder where you find `index.js`. Here we store all the app’s state in the `store` variable. Now we are also going to add a new variable that will keep the initial state and a new constant `persistedState` that allows us to get the persisted state from store passing to method `getItem` of `localStorage` => `localStorage.getItem('reduxState')`:
 

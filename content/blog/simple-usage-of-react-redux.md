@@ -9,7 +9,7 @@ scripts = []
 description = "Let me introduce React+Redux co-working through the simple input change that should render \"Hello, {any name / text}!\" at the end and manage by redux states."
 +++
 
-As I promised in [my previous post](http://www.ilonacodes.com/blog/react-for-very-very-beginners/), today I am going to tell you about Redux, why and how we need to use them in common.
+As I promised in [my previous post](/blog/react-for-very-very-beginners/), today I am going to tell you about Redux, why and how we need to use them in common.
 Let me introduce React+Redux co-working through the simple input change that should render `Hello, {any name / text}!` at the end and manage by redux states.
 
 Redux? What is it?

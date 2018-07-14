@@ -9,7 +9,7 @@ scripts = []
 description = "As you guess from the blog title, the next feature called `Complete a task`.  So, let's begin!"
 +++
 
-Today we are going to implement the second feature for our app. If you are a new reader, then I highly recommend you to check my earlier blog posts [here](http://www.ilonacodes.com/blog/react-for-very-very-beginners/), where we started our learning journey in React+Redux, refer to the posts complete previous steps and continue with us to develop an interactive ToDo List from here.
+Today we are going to implement the second feature for our app. If you are a new reader, then I highly recommend you to check my earlier blog posts [here](/blog/react-for-very-very-beginners/), where we started our learning journey in React+Redux, refer to the posts complete previous steps and continue with us to develop an interactive ToDo List from here.
 
 As you guess from the blog title, the next feature called `Complete a task`.  So, let's begin! At first, we start writing the next user story, and it will look like:
 

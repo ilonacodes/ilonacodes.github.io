@@ -1,6 +1,6 @@
 languageCode = "en-us"
 title = "My New Hugo Site"
-baseurl = "http://www.ilonacodes.com/"
+baseurl = "//www.ilonacodes.com/"
 theme = "hugo-geo-modified"
 
 [params]

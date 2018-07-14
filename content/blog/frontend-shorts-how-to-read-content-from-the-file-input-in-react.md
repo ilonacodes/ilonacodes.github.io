@@ -54,4 +54,4 @@ Any `load` event of `fileReader` object sets the result value asynchronously,  a
 
 If you would like to know more, then read about `FileReader`, `File`, and `readAsText` at [MDN](https://developer.mozilla.org/en-US/).
 
-Thank you for reading. I hope you find the post useful and will still be looking forward to new updates on [my blog](http://www.ilonacodes.com/blog/).
+Thank you for reading. I hope you find the post useful and will still be looking forward to new updates on [my blog](/blog/).

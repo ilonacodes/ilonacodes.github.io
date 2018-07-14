@@ -11,7 +11,7 @@ description = "You are going to get to know how to implement a dynamic progress 
 
 Hi there! I am so happy that you continue developing our interactive Daily ToDo app with me. Today you are going to get to know how to implement a dynamic progress bar that will handle task completing status by percentage for every category.
 
-<span style="color:red">But before moving on, if you are new here, please, have a look at the [previous posts](http://www.ilonacodes.com/blog/react-for-very-very-beginners/). You should start developing app there and then continue with us here.</span>
+<span style="color:red">But before moving on, if you are new here, please, have a look at the [previous posts](/blog/react-for-very-very-beginners/). You should start developing app there and then continue with us here.</span>
 
 And now I would like to offer my approach how to add a simple but dynamic progress bar to every task category and finally, make our Daily ToDo app interactive.
 
