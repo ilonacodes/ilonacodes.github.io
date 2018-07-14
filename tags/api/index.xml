@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Api on Ilona Who Codes</title>
-    <link>http://www.ilonacodes.com/tags/api/index.xml</link>
+    <link>//www.ilonacodes.com/tags/api/index.xml</link>
     <description>Recent content in Api on Ilona Who Codes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://www.ilonacodes.com/tags/api/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//www.ilonacodes.com/tags/api/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Starting with REST API: Figuring out</title>
-      <link>http://www.ilonacodes.com/blog/starting-with-REST-API/</link>
+      <link>//www.ilonacodes.com/blog/starting-with-REST-API/</link>
       <pubDate>Mon, 17 Jul 2017 21:45:05 +0100</pubDate>
       
-      <guid>http://www.ilonacodes.com/blog/starting-with-REST-API/</guid>
+      <guid>//www.ilonacodes.com/blog/starting-with-REST-API/</guid>
       <description>&lt;p&gt;Today I started doing backend part for my project. It will be written in Ruby language and using Sinatra framework.&lt;/p&gt;
 
 &lt;p&gt;This post is directed at readers that have little experiences to understand the aim of REST API for a product development.&lt;/p&gt;

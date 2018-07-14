@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>File on Ilona Who Codes</title>
-    <link>http://www.ilonacodes.com/tags/file/index.xml</link>
+    <link>//www.ilonacodes.com/tags/file/index.xml</link>
     <description>Recent content in File on Ilona Who Codes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://www.ilonacodes.com/tags/file/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//www.ilonacodes.com/tags/file/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Front-end Shorts: How to Read Content From The File Input in React</title>
-      <link>http://www.ilonacodes.com/blog/frontend-shorts-how-to-read-content-from-the-file-input-in-react/</link>
+      <link>//www.ilonacodes.com/blog/frontend-shorts-how-to-read-content-from-the-file-input-in-react/</link>
       <pubDate>Sat, 31 Mar 2018 18:30:05 +0100</pubDate>
       
-      <guid>http://www.ilonacodes.com/blog/frontend-shorts-how-to-read-content-from-the-file-input-in-react/</guid>
+      <guid>//www.ilonacodes.com/blog/frontend-shorts-how-to-read-content-from-the-file-input-in-react/</guid>
       <description>&lt;p&gt;Hi, everyone! How is your weekend going?&lt;/p&gt;
 
 &lt;p&gt;As you know, I prefer learning to code by doing things. So, the last feature I have implemented for the app is the reading of the content from the uploaded (local) &lt;code&gt;.csv&lt;/code&gt; file from the user.&lt;/p&gt;
@@ -58,7 +58,7 @@ const ImportFromFileBodyComponent = () =&amp;gt; {
 
 &lt;p&gt;If you would like to know more, then read about &lt;code&gt;FileReader&lt;/code&gt;, &lt;code&gt;File&lt;/code&gt;, and &lt;code&gt;readAsText&lt;/code&gt; at &lt;a href=&#34;https://developer.mozilla.org/en-US/&#34;&gt;MDN&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Thank you for reading. I hope you find the post useful and will still be looking forward to new updates on &lt;a href=&#34;http://www.ilonacodes.com/blog/&#34;&gt;my blog&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Thank you for reading. I hope you find the post useful and will still be looking forward to new updates on &lt;a href=&#34;//www.ilonacodes.com/blog/&#34;&gt;my blog&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     

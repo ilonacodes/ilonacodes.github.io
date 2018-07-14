@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogs on Ilona Who Codes</title>
-    <link>http://www.ilonacodes.com/blog/index.xml</link>
+    <link>//www.ilonacodes.com/blog/index.xml</link>
     <description>Recent content in Blogs on Ilona Who Codes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 23 Apr 2018 23:30:05 +0100</lastBuildDate>
-    <atom:link href="http://www.ilonacodes.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//www.ilonacodes.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Front-end Shorts: CSS3 Opacity - Background Only</title>
-      <link>http://www.ilonacodes.com/blog/frontend-shorts-css3-opacity-background-only/</link>
+      <link>//www.ilonacodes.com/blog/frontend-shorts-css3-opacity-background-only/</link>
       <pubDate>Mon, 23 Apr 2018 23:30:05 +0100</pubDate>
       
-      <guid>http://www.ilonacodes.com/blog/frontend-shorts-css3-opacity-background-only/</guid>
+      <guid>//www.ilonacodes.com/blog/frontend-shorts-css3-opacity-background-only/</guid>
       <description>&lt;p&gt;Hi everyone! It&amp;rsquo;s time for a new post.&lt;/p&gt;
 
 &lt;p&gt;What we do (I mean front-end web developers) isn&amp;rsquo;t all that unique.
@@ -78,7 +78,7 @@ Often we face the problem that seems easy to solve. However, sometimes we spend 
 
 &lt;p&gt;We apply the opacity to a separate &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt; and position the text on top of it.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.ilonacodes.com/blog/images/css3-opacity.png&#34; alt=&#34;Result&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//www.ilonacodes.com/blog/images/css3-opacity.png&#34; alt=&#34;Result&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Thank you for reading. Hope these tips help you and your team balance the details with the big picture.&lt;/p&gt;
 </description>
@@ -86,10 +86,10 @@ Often we face the problem that seems easy to solve. However, sometimes we spend 
     
     <item>
       <title>Front-end Shorts: Good Storytelling Elements</title>
-      <link>http://www.ilonacodes.com/blog/frontend-shorts-good-storytelling-elements/</link>
+      <link>//www.ilonacodes.com/blog/frontend-shorts-good-storytelling-elements/</link>
       <pubDate>Sat, 21 Apr 2018 19:15:05 +0100</pubDate>
       
-      <guid>http://www.ilonacodes.com/blog/frontend-shorts-good-storytelling-elements/</guid>
+      <guid>//www.ilonacodes.com/blog/frontend-shorts-good-storytelling-elements/</guid>
       <description>&lt;p&gt;Happy Friday, my readers!&lt;/p&gt;
 
 &lt;p&gt;As a front-end web developer, I am also interested in UI/UX design, and that is why I’ve decided me to do a UI/UX research using &lt;a href=&#34;http://johnnyholland.org/2011/01/aristotle%E2%80%99s-storytelling-framework-for-interactive-products/&#34;&gt;Aristotle’s Seven Elements of Storytelling framework&lt;/a&gt;.&lt;/p&gt;
@@ -137,10 +137,10 @@ Once yoga teachers start to get focused mainly on expected profits, they lose si
     
     <item>
       <title>Front-end Shorts: Storybook With React</title>
-      <link>http://www.ilonacodes.com/blog/frontend-shorts-storybook-with-react/</link>
+      <link>//www.ilonacodes.com/blog/frontend-shorts-storybook-with-react/</link>
       <pubDate>Wed, 18 Apr 2018 12:00:05 +0100</pubDate>
       
-      <guid>http://www.ilonacodes.com/blog/frontend-shorts-storybook-with-react/</guid>
+      <guid>//www.ilonacodes.com/blog/frontend-shorts-storybook-with-react/</guid>
       <description>&lt;p&gt;Hey there, that’s me again and a new post from me!&lt;/p&gt;
 
 &lt;p&gt;Lately, I worked on the project that generates live documentation of the front-end components for apps built with create-react-app, and this UI development environment is called &lt;a href=&#34;https://storybook.js.org&#34;&gt;Storybook&lt;/a&gt;.&lt;/p&gt;
@@ -197,10 +197,10 @@ storiesOf(&#39;Footer&#39;, module).add(&#39;default&#39;, () =&amp;gt; &amp;lt;
     
     <item>
       <title>Front-end Shorts: How to Read Content From The File Input in React</title>
-      <link>http://www.ilonacodes.com/blog/frontend-shorts-how-to-read-content-from-the-file-input-in-react/</link>
+      <link>//www.ilonacodes.com/blog/frontend-shorts-how-to-read-content-from-the-file-input-in-react/</link>
       <pubDate>Sat, 31 Mar 2018 18:30:05 +0100</pubDate>
       
-      <guid>http://www.ilonacodes.com/blog/frontend-shorts-how-to-read-content-from-the-file-input-in-react/</guid>
+      <guid>//www.ilonacodes.com/blog/frontend-shorts-how-to-read-content-from-the-file-input-in-react/</guid>
       <description>&lt;p&gt;Hi, everyone! How is your weekend going?&lt;/p&gt;
 
 &lt;p&gt;As you know, I prefer learning to code by doing things. So, the last feature I have implemented for the app is the reading of the content from the uploaded (local) &lt;code&gt;.csv&lt;/code&gt; file from the user.&lt;/p&gt;
@@ -245,16 +245,16 @@ const ImportFromFileBodyComponent = () =&amp;gt; {
 
 &lt;p&gt;If you would like to know more, then read about &lt;code&gt;FileReader&lt;/code&gt;, &lt;code&gt;File&lt;/code&gt;, and &lt;code&gt;readAsText&lt;/code&gt; at &lt;a href=&#34;https://developer.mozilla.org/en-US/&#34;&gt;MDN&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Thank you for reading. I hope you find the post useful and will still be looking forward to new updates on &lt;a href=&#34;http://www.ilonacodes.com/blog/&#34;&gt;my blog&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Thank you for reading. I hope you find the post useful and will still be looking forward to new updates on &lt;a href=&#34;//www.ilonacodes.com/blog/&#34;&gt;my blog&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Front-end Shorts: How to Delete Item From The List With React&#43;Redux</title>
-      <link>http://www.ilonacodes.com/blog/front-end-shorts-how-to-delete-item-from-the-list-with-react-redux/</link>
+      <link>//www.ilonacodes.com/blog/front-end-shorts-how-to-delete-item-from-the-list-with-react-redux/</link>
       <pubDate>Thu, 22 Mar 2018 20:40:05 +0100</pubDate>
       
-      <guid>http://www.ilonacodes.com/blog/front-end-shorts-how-to-delete-item-from-the-list-with-react-redux/</guid>
+      <guid>//www.ilonacodes.com/blog/front-end-shorts-how-to-delete-item-from-the-list-with-react-redux/</guid>
       <description>&lt;p&gt;There are many possibilities how to remove multiple items from the array with JavaScript. So in this tutorial, I am going to share my approach to delete function with React+Redux.&lt;/p&gt;
 
 &lt;p&gt;It&amp;rsquo;s front-end shorts, and I am trying to highlight the most important information. Thus, just let’s have a look at the significant code snippets with explanations:&lt;/p&gt;
@@ -359,10 +359,10 @@ Thank you for reading! Also, if you’ve made this far, feel free to connect wit
     
     <item>
       <title>Front-end Shorts: Fetch List of Resources From REST-API</title>
-      <link>http://www.ilonacodes.com/blog/front-end-shorts-fetch-list-of-resources-from-rest-api/</link>
+      <link>//www.ilonacodes.com/blog/front-end-shorts-fetch-list-of-resources-from-rest-api/</link>
       <pubDate>Sat, 17 Mar 2018 15:00:05 +0100</pubDate>
       
-      <guid>http://www.ilonacodes.com/blog/front-end-shorts-fetch-list-of-resources-from-rest-api/</guid>
+      <guid>//www.ilonacodes.com/blog/front-end-shorts-fetch-list-of-resources-from-rest-api/</guid>
       <description>&lt;p&gt;Today I am going to tell you how to get JSON data from the Rest-API to UI using React+Redux frameworks.&lt;/p&gt;
 
 &lt;p&gt;In my case, the task looks like:&lt;/p&gt;
@@ -392,10 +392,10 @@ const loadExpenses = () =&amp;gt; {
     
     <item>
       <title>Front-end Shorts: Setting up React-Router-Redux</title>
-      <link>http://www.ilonacodes.com/blog/frontend-shorts-setting-up-react-router-redux/</link>
+      <link>//www.ilonacodes.com/blog/frontend-shorts-setting-up-react-router-redux/</link>
       <pubDate>Wed, 14 Mar 2018 15:30:05 +0100</pubDate>
       
-      <guid>http://www.ilonacodes.com/blog/frontend-shorts-setting-up-react-router-redux/</guid>
+      <guid>//www.ilonacodes.com/blog/frontend-shorts-setting-up-react-router-redux/</guid>
       <description>&lt;p&gt;Hi, everyone! How is your week going?&lt;/p&gt;
 
 &lt;p&gt;Yesterday I worked with the web application written on React + Redux and had had some problem with the &lt;code&gt;react-router-redux&lt;/code&gt; library. In short, the &lt;code&gt;push&lt;/code&gt; method (using for navigation outside of components) didn&amp;rsquo;t work.&lt;/p&gt;
@@ -449,10 +449,10 @@ ReactDOM.render(&amp;lt;Routes history={history} store={store}/&amp;gt;,
     
     <item>
       <title>Front-end Shorts: How to Create Parallax Effect With Vanilla JS</title>
-      <link>http://www.ilonacodes.com/blog/how-to-create-parallax-effect-with-vanilla-js/</link>
+      <link>//www.ilonacodes.com/blog/how-to-create-parallax-effect-with-vanilla-js/</link>
       <pubDate>Sat, 10 Mar 2018 20:45:05 +0100</pubDate>
       
-      <guid>http://www.ilonacodes.com/blog/how-to-create-parallax-effect-with-vanilla-js/</guid>
+      <guid>//www.ilonacodes.com/blog/how-to-create-parallax-effect-with-vanilla-js/</guid>
       <description>&lt;p&gt;Hi, there! I hope you enjoy your weekend, and ready for a new post.&lt;/p&gt;
 
 &lt;p&gt;Recently there are a lot of sites, which have featured with parallax scrolling effect, that represents them in more interactive &amp;ldquo;professionally-made&amp;rdquo; way.&lt;/p&gt;
@@ -490,10 +490,10 @@ ReactDOM.render(&amp;lt;Routes history={history} store={store}/&amp;gt;,
     
     <item>
       <title>Front-end Shorts: How to Scroll to Element in jQuery With Animation</title>
-      <link>http://www.ilonacodes.com/blog/front-end-shorts-how-to-scroll-to-element-in-jquery-with-animation/</link>
+      <link>//www.ilonacodes.com/blog/front-end-shorts-how-to-scroll-to-element-in-jquery-with-animation/</link>
       <pubDate>Thu, 08 Mar 2018 16:30:05 +0100</pubDate>
       
-      <guid>http://www.ilonacodes.com/blog/front-end-shorts-how-to-scroll-to-element-in-jquery-with-animation/</guid>
+      <guid>//www.ilonacodes.com/blog/front-end-shorts-how-to-scroll-to-element-in-jquery-with-animation/</guid>
       <description>&lt;p&gt;Here I am back and decided to continue blogging with front-end shorts. Unfortunately, I don&amp;rsquo;t have enough time to write big posts, but I would be happy to share some frontend tips and tricks that I have already applied for some of my projects.&lt;/p&gt;
 
 &lt;p&gt;The last days I had to work with Javascript and jQuery a lot apart from React and spent much time on creating templates. As you know, nowadays modern web pages include animated scrolling, which makes any site look professional and more elegant (instead of simple link element reference in HTML5).&lt;/p&gt;
@@ -523,10 +523,10 @@ return the coordinates of the element relative to the DOM, and top param gives u
     
     <item>
       <title>Ada Lovelace Festival 2017 in Berlin</title>
-      <link>http://www.ilonacodes.com/blog/ada-lovelace-festival-2017-in-berlin/</link>
+      <link>//www.ilonacodes.com/blog/ada-lovelace-festival-2017-in-berlin/</link>
       <pubDate>Mon, 23 Oct 2017 07:00:05 +0100</pubDate>
       
-      <guid>http://www.ilonacodes.com/blog/ada-lovelace-festival-2017-in-berlin/</guid>
+      <guid>//www.ilonacodes.com/blog/ada-lovelace-festival-2017-in-berlin/</guid>
       <description>&lt;p&gt;The last week I have attended Ada Lovelace Festival that occurred on 19-20 October 2017. The aim of the event to connect women in computing and technology.&lt;/p&gt;
 
 &lt;p&gt;Unfortunately, I was a bit too late for the keynote, because I had a lecture at the university. However, I joined the conference, and after registration, I got my bag with sponsors gifts.&lt;/p&gt;
@@ -539,13 +539,13 @@ return the coordinates of the element relative to the DOM, and top param gives u
 
 &lt;p&gt;The future turns digital. That means people keep up with the times, taking into consideration all the software industry aspects.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.ilonacodes.com/blog/images/ada-lovelace-1.jpg&#34; alt=&#34;Photo-1&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//www.ilonacodes.com/blog/images/ada-lovelace-1.jpg&#34; alt=&#34;Photo-1&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The next workshop, that gave me valuable tips and pointed out some ways how to grow your brand called &lt;code&gt;To be in the 1st row: Build your own brand&lt;/code&gt; by Regina Mehler, WOMEN SPEAKER FOUNDATION.&lt;/p&gt;
 
 &lt;p&gt;The speaker showed us the importance of networking, communication, and negotiation with top-brass people at occasional meetings, using examples from their career. The workshop finished with a practical session between participants.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.ilonacodes.com/blog/images/ada-lovelace-2.jpg&#34; alt=&#34;Photo-2&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//www.ilonacodes.com/blog/images/ada-lovelace-2.jpg&#34; alt=&#34;Photo-2&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;As a web developer, I couldn&amp;rsquo;t pass the talk &lt;code&gt;How to improve our technical decision-making skills&lt;/code&gt; by Duana Stanley, Clue. All developers know that the core skill of problem-solving is to find useful information quickly and to be able to make a decision based on the reliable information and requirements.&lt;/p&gt;
 
@@ -559,7 +559,7 @@ return the coordinates of the element relative to the DOM, and top param gives u
 &lt;li&gt;sleep on it.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.ilonacodes.com/blog/images/ada-lovelace-3.jpg&#34; alt=&#34;Photo-3&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//www.ilonacodes.com/blog/images/ada-lovelace-3.jpg&#34; alt=&#34;Photo-3&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;At this point, I’m going to finish the post. I have tried to share my impression from the Ada Lovelace Festival 2017 in Berlin with you, dear Techmakers. I hope you enjoyed the highlights of the event from my point of view.&lt;/p&gt;
 
@@ -569,10 +569,10 @@ return the coordinates of the element relative to the DOM, and top param gives u
     
     <item>
       <title>React.js &amp; React Native Meetup at Home24 in Berlin</title>
-      <link>http://www.ilonacodes.com/blog/react-meetup-at-home24-berlin/</link>
+      <link>//www.ilonacodes.com/blog/react-meetup-at-home24-berlin/</link>
       <pubDate>Thu, 19 Oct 2017 08:30:05 +0100</pubDate>
       
-      <guid>http://www.ilonacodes.com/blog/react-meetup-at-home24-berlin/</guid>
+      <guid>//www.ilonacodes.com/blog/react-meetup-at-home24-berlin/</guid>
       <description>&lt;p&gt;Hey, there! In this blog post, I’m going to share my impression about the React.js &amp;amp; React Native meetup in Berlin that I have visited at Home24 yesterday.&lt;/p&gt;
 
 &lt;p&gt;If you still didn&amp;rsquo;t have a look at the topic of my blog, so, as you noticed from the title, I am interested in front-end development and at the moments specialized in the JavaScript language and especially in React framework.&lt;/p&gt;
@@ -583,7 +583,7 @@ return the coordinates of the element relative to the DOM, and top param gives u
 
 &lt;p&gt;Now I’m going to tell you about the talks.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.ilonacodes.com/blog/images/react-meetup-1.jpg&#34; alt=&#34;Photo-1&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//www.ilonacodes.com/blog/images/react-meetup-1.jpg&#34; alt=&#34;Photo-1&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The first speaker, Shahjada Talukdar, Frontend Engineer at Perdoo presented &lt;code&gt;Build your dream app with CRA (Create React App)&lt;/code&gt;:&lt;/p&gt;
 
@@ -595,7 +595,7 @@ return the coordinates of the element relative to the DOM, and top param gives u
 &lt;li&gt;&lt;p&gt;Why we should be using &lt;a href=&#34;https://developers.google.com/web/fundamentals/primers/service-workers/?hl=en&#34;&gt;service worker&lt;/a&gt; that controls what happens on a request-by-request basis and also allows React apps working offline.&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.ilonacodes.com/blog/images/react-meetup-2.jpg&#34; alt=&#34;Photo-2&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//www.ilonacodes.com/blog/images/react-meetup-2.jpg&#34; alt=&#34;Photo-2&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The second talk called &lt;code&gt;React SSR featuring AWS Lambda&lt;/code&gt; by George Lolos, Frontend Squad Leader at Home24 AG.&lt;/p&gt;
 
@@ -603,7 +603,7 @@ return the coordinates of the element relative to the DOM, and top param gives u
 
 &lt;p&gt;React SSR renders basic pages, and AWS Lambda runs code without managing servers. And the biggest challenge was the massive size of Lambda. So, the speaker shared with us approaches how to minify it and the result that they have achieved.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.ilonacodes.com/blog/images/react-meetup-3.jpg&#34; alt=&#34;Photo-3&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//www.ilonacodes.com/blog/images/react-meetup-3.jpg&#34; alt=&#34;Photo-3&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Last but not least, the third talk &lt;code&gt;Beyond JavaScript: The Hidden Benefit of React Native&lt;/code&gt; by Wojciech Ogrodowczyk, Partner at Brains &amp;amp; Beards.&lt;/p&gt;
 
@@ -615,7 +615,7 @@ return the coordinates of the element relative to the DOM, and top param gives u
 
 &lt;p&gt;However, we shouldn&amp;rsquo;t forget that in computer science everything depends on team skills, personality, and other things.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.ilonacodes.com/blog/images/react-meetup-4.jpg&#34; alt=&#34;Photo-4&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//www.ilonacodes.com/blog/images/react-meetup-4.jpg&#34; alt=&#34;Photo-4&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I have shared my thoughts and opinions above on how I understood the topics of the talks.&lt;/p&gt;
 
@@ -627,17 +627,17 @@ return the coordinates of the element relative to the DOM, and top param gives u
     
     <item>
       <title>What Did I Learn at Codemotion Berlin 2017</title>
-      <link>http://www.ilonacodes.com/blog/what-did-i-learn-at-codemotion-berlin-2017/</link>
+      <link>//www.ilonacodes.com/blog/what-did-i-learn-at-codemotion-berlin-2017/</link>
       <pubDate>Sat, 14 Oct 2017 22:30:05 +0100</pubDate>
       
-      <guid>http://www.ilonacodes.com/blog/what-did-i-learn-at-codemotion-berlin-2017/</guid>
+      <guid>//www.ilonacodes.com/blog/what-did-i-learn-at-codemotion-berlin-2017/</guid>
       <description>
 
 &lt;p&gt;Hi, everyone!&lt;/p&gt;
 
 &lt;p&gt;As you noticed, I post a new blog post about the development of an interactive ToDo list regularly, every five days. But today I am going to tell you about the international IT-conference &lt;a href=&#34;https://berlin2017.codemotionworld.com/&#34;&gt;Codemotion&lt;/a&gt;, that I have attended on 12-13. October in Berlin.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.ilonacodes.com/blog/images/codemotion.JPG&#34; alt=&#34;Codemotion&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//www.ilonacodes.com/blog/images/codemotion.JPG&#34; alt=&#34;Codemotion&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;There were a lot of informative and motivational topics, that can inspire everyone, who are interested or work in IT-branch.&lt;/p&gt;
 
@@ -645,8 +645,8 @@ return the coordinates of the element relative to the DOM, and top param gives u
 
 &lt;p&gt;Also, there took place &lt;code&gt;Ruby on Rails Workshop&lt;/code&gt;. The full agenda of the conference you can check below:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.ilonacodes.com/blog/images/agenda-12-10.jpg&#34; alt=&#34;Agenda-1&#34; /&gt;
-&lt;img src=&#34;http://www.ilonacodes.com/blog/images/agenda-13-10.jpg&#34; alt=&#34;Agenda-2&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//www.ilonacodes.com/blog/images/agenda-12-10.jpg&#34; alt=&#34;Agenda-1&#34; /&gt;
+&lt;img src=&#34;//www.ilonacodes.com/blog/images/agenda-13-10.jpg&#34; alt=&#34;Agenda-2&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The most interesting talks for me as a frontend developer, I included to &lt;code&gt;My Favorites&lt;/code&gt; list.&lt;/p&gt;
 
@@ -654,7 +654,7 @@ return the coordinates of the element relative to the DOM, and top param gives u
 
 &lt;h3 id=&#34;frontend-frameworkless-development-by-francesco-strazzullo-exstrategy&#34;&gt;&lt;code&gt;Frontend Frameworkless Development&lt;/code&gt; by Francesco Strazzullo | exstrategy&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.ilonacodes.com/blog/images/speaker-1.JPG&#34; alt=&#34;Speaker-1&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//www.ilonacodes.com/blog/images/speaker-1.JPG&#34; alt=&#34;Speaker-1&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The idea of the talk based on the possibility to develop new apps, new features for apps while not using any frameworks. The example code, the empty forms, are written in &lt;code&gt;Vanilla JavaScript&lt;/code&gt; replacing &lt;code&gt;React+Redux&lt;/code&gt; frameworks for that.&lt;/p&gt;
 
@@ -678,7 +678,7 @@ return the coordinates of the element relative to the DOM, and top param gives u
 
 &lt;p&gt;The slide on the photo below describes some “icebreakers” that allow starting, keeping, and controlling a conversation in life, and on the stage.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.ilonacodes.com/blog/images/speaker-2.JPG&#34; alt=&#34;Speaker-2&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//www.ilonacodes.com/blog/images/speaker-2.JPG&#34; alt=&#34;Speaker-2&#34; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;build-bridges-not-walls-design-for-users-across-cultures-by-jenny-shen-toptal&#34;&gt;&lt;code&gt;Build bridges, not walls - Design for users across cultures&lt;/code&gt; by Jenny Shen | Toptal&lt;/h3&gt;
 
@@ -692,7 +692,7 @@ return the coordinates of the element relative to the DOM, and top param gives u
 
 &lt;p&gt;Most of my development projects are for multicultural users. I think it is necessary to know most common obstacles that I could meet on my &amp;ldquo;development&amp;rdquo; path.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.ilonacodes.com/blog/images/speaker-3.JPG&#34; alt=&#34;Speaker-3&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//www.ilonacodes.com/blog/images/speaker-3.JPG&#34; alt=&#34;Speaker-3&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://codemotionworld.com/&#34;&gt;Codemotion&lt;/a&gt; conferences are worldwide.&lt;/p&gt;
 
@@ -712,11 +712,11 @@ return the coordinates of the element relative to the DOM, and top param gives u
     
     <item>
       <title>Persisting data using local storage with React&#43;Redux</title>
-      <link>http://www.ilonacodes.com/blog/persisting-data-using-local-storage-react-redux/</link>
+      <link>//www.ilonacodes.com/blog/persisting-data-using-local-storage-react-redux/</link>
       <pubDate>Tue, 10 Oct 2017 12:30:05 +0100</pubDate>
       
-      <guid>http://www.ilonacodes.com/blog/persisting-data-using-local-storage-react-redux/</guid>
-      <description>&lt;p&gt;Let&amp;rsquo;s continue developing an Interactive ToDo List. Refer to the &lt;a href=&#34;http://www.ilonacodes.com/blog/react-for-very-very-beginners/&#34;&gt;previous posts&lt;/a&gt; you notice that we are almost done with the basic functionality of the application. And today I would like to start the topic about persisting the data and restoring it after refreshing the page or starting a new session on the local machine with React+Redux.&lt;/p&gt;
+      <guid>//www.ilonacodes.com/blog/persisting-data-using-local-storage-react-redux/</guid>
+      <description>&lt;p&gt;Let&amp;rsquo;s continue developing an Interactive ToDo List. Refer to the &lt;a href=&#34;//www.ilonacodes.com/blog/react-for-very-very-beginners/&#34;&gt;previous posts&lt;/a&gt; you notice that we are almost done with the basic functionality of the application. And today I would like to start the topic about persisting the data and restoring it after refreshing the page or starting a new session on the local machine with React+Redux.&lt;/p&gt;
 
 &lt;p&gt;Changing into the &lt;code&gt;my-daily-todos&lt;/code&gt; project, then to &lt;code&gt;src&lt;/code&gt; folder where you find &lt;code&gt;index.js&lt;/code&gt;. Here we store all the app’s state in the &lt;code&gt;store&lt;/code&gt; variable. Now we are also going to add a new variable that will keep the initial state and a new constant &lt;code&gt;persistedState&lt;/code&gt; that allows us to get the persisted state from store passing to method &lt;code&gt;getItem&lt;/code&gt; of &lt;code&gt;localStorage&lt;/code&gt; =&amp;gt; &lt;code&gt;localStorage.getItem(&#39;reduxState&#39;)&lt;/code&gt;:&lt;/p&gt;
 
@@ -828,13 +828,13 @@ ReactDOM.render(
     
     <item>
       <title>Dynamic progress bar with React&#43;Redux</title>
-      <link>http://www.ilonacodes.com/blog/dynamic-progress-bar-with-react-redux/</link>
+      <link>//www.ilonacodes.com/blog/dynamic-progress-bar-with-react-redux/</link>
       <pubDate>Fri, 06 Oct 2017 19:30:05 +0100</pubDate>
       
-      <guid>http://www.ilonacodes.com/blog/dynamic-progress-bar-with-react-redux/</guid>
+      <guid>//www.ilonacodes.com/blog/dynamic-progress-bar-with-react-redux/</guid>
       <description>&lt;p&gt;Hi there! I am so happy that you continue developing our interactive Daily ToDo app with me. Today you are going to get to know how to implement a dynamic progress bar that will handle task completing status by percentage for every category.&lt;/p&gt;
 
-&lt;p&gt;&lt;span style=&#34;color:red&#34;&gt;But before moving on, if you are new here, please, have a look at the &lt;a href=&#34;http://www.ilonacodes.com/blog/react-for-very-very-beginners/&#34;&gt;previous posts&lt;/a&gt;. You should start developing app there and then continue with us here.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:red&#34;&gt;But before moving on, if you are new here, please, have a look at the &lt;a href=&#34;//www.ilonacodes.com/blog/react-for-very-very-beginners/&#34;&gt;previous posts&lt;/a&gt;. You should start developing app there and then continue with us here.&lt;/span&gt;&lt;/p&gt;
 
 &lt;p&gt;And now I would like to offer my approach how to add a simple but dynamic progress bar to every task category and finally, make our Daily ToDo app interactive.&lt;/p&gt;
 
@@ -937,7 +937,7 @@ export const TaskCategory = ({category, tasks, completeTask}) =&amp;gt; {
 
 &lt;p&gt;You should get something like that at the end:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.ilonacodes.com/blog/images/progress-bar.png&#34; alt=&#34;Progress bar&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//www.ilonacodes.com/blog/images/progress-bar.png&#34; alt=&#34;Progress bar&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Thank you for the reading. Happily, you are enjoying developing with React+Redux and waiting for the next feature description. Have a nice coding!&lt;/p&gt;
 </description>
@@ -945,10 +945,10 @@ export const TaskCategory = ({category, tasks, completeTask}) =&amp;gt; {
     
     <item>
       <title>Categorize tasks with React&#43;Redux</title>
-      <link>http://www.ilonacodes.com/blog/categorize-tasks-with-react-redux/</link>
+      <link>//www.ilonacodes.com/blog/categorize-tasks-with-react-redux/</link>
       <pubDate>Sun, 01 Oct 2017 19:30:05 +0100</pubDate>
       
-      <guid>http://www.ilonacodes.com/blog/categorize-tasks-with-react-redux/</guid>
+      <guid>//www.ilonacodes.com/blog/categorize-tasks-with-react-redux/</guid>
       <description>&lt;p&gt;The most valuable feature set for our Daily ToDo is already done. Today we are going to make an app more functional, separating tasks by categories. We want to be able to categorize task by typing &lt;code&gt;#&lt;/code&gt; and category after its title.&lt;/p&gt;
 
 &lt;p&gt;For example: &lt;code&gt;practice a coding kata #programming&lt;/code&gt;.&lt;/p&gt;
@@ -971,7 +971,7 @@ Then I see the categorized task by tag on the dashboard screen
 Tag examples: Programming, Sport, Languages, University, Reading, Routine
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;span style=&#34;color:red&#34;&gt;If you are a new reader of the tutorial series and don&amp;rsquo;t understand what is going on at the moment, then just check the previous posts starting with &lt;a href=&#34;http://www.ilonacodes.com/blog/react-for-very-very-beginners/&#34;&gt;React For Very Very Beginners&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:red&#34;&gt;If you are a new reader of the tutorial series and don&amp;rsquo;t understand what is going on at the moment, then just check the previous posts starting with &lt;a href=&#34;//www.ilonacodes.com/blog/react-for-very-very-beginners/&#34;&gt;React For Very Very Beginners&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
 
 &lt;p&gt;To add this feature,  we should extend the action &lt;code&gt;ADD_TASK&lt;/code&gt; in &lt;code&gt;reducers.js&lt;/code&gt; and add &lt;code&gt;tag&lt;/code&gt; property to a &lt;code&gt;task&lt;/code&gt; object by separating a &lt;code&gt;title&lt;/code&gt; into parts:&lt;/p&gt;
 
@@ -1093,9 +1093,9 @@ const TaskListComponent = ({tasks, completeTask}) =&amp;gt; {
 
 &lt;p&gt;The result in the case of the categorize tasks is shown here:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.ilonacodes.com/blog/images/read-a-book-category.png&#34; alt=&#34;Read a book&#34; /&gt;
-&lt;img src=&#34;http://www.ilonacodes.com/blog/images/do-yoga-category.png&#34; alt=&#34;Do yoga&#34; /&gt;
-&lt;img src=&#34;http://www.ilonacodes.com/blog/images/categories.png&#34; alt=&#34;Categories&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//www.ilonacodes.com/blog/images/read-a-book-category.png&#34; alt=&#34;Read a book&#34; /&gt;
+&lt;img src=&#34;//www.ilonacodes.com/blog/images/do-yoga-category.png&#34; alt=&#34;Do yoga&#34; /&gt;
+&lt;img src=&#34;//www.ilonacodes.com/blog/images/categories.png&#34; alt=&#34;Categories&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Before moving on, I hope you enjoyed and understand how to categorize tasks with &lt;code&gt;React+Redux&lt;/code&gt; and ready to the next challenge (new feature) for our interactive Daily ToDo app.&lt;/p&gt;
 

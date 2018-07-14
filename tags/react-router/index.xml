@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>React Router on Ilona Who Codes</title>
-    <link>http://www.ilonacodes.com/tags/react-router/index.xml</link>
+    <link>//www.ilonacodes.com/tags/react-router/index.xml</link>
     <description>Recent content in React Router on Ilona Who Codes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://www.ilonacodes.com/tags/react-router/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//www.ilonacodes.com/tags/react-router/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Clear Form in Redux when Navigating with React-Router</title>
-      <link>http://www.ilonacodes.com/blog/clear-form-in-redux-when-navigating-with-react-router/</link>
+      <link>//www.ilonacodes.com/blog/clear-form-in-redux-when-navigating-with-react-router/</link>
       <pubDate>Sun, 19 Mar 2017 19:25:05 +0100</pubDate>
       
-      <guid>http://www.ilonacodes.com/blog/clear-form-in-redux-when-navigating-with-react-router/</guid>
+      <guid>//www.ilonacodes.com/blog/clear-form-in-redux-when-navigating-with-react-router/</guid>
       <description>
 
 &lt;p&gt;Hi there!&lt;/p&gt;

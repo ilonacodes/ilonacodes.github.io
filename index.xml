@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ilona Who Codes</title>
-    <link>http://www.ilonacodes.com/index.xml</link>
+    <link>//www.ilonacodes.com/index.xml</link>
     <description>Recent content on Ilona Who Codes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 23 Jun 2018 10:35:55 +0100</lastBuildDate>
-    <atom:link href="http://www.ilonacodes.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//www.ilonacodes.com/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title></title>
-      <link>http://www.ilonacodes.com/beauty-calendar-app/</link>
+      <link>//www.ilonacodes.com/beauty-calendar-app/</link>
       <pubDate>Sat, 23 Jun 2018 10:35:55 +0100</pubDate>
       
-      <guid>http://www.ilonacodes.com/beauty-calendar-app/</guid>
+      <guid>//www.ilonacodes.com/beauty-calendar-app/</guid>
       <description>&lt;p&gt;&lt;h3&gt;1. Overview&lt;/h3&gt;
 &lt;p&gt;Considering so many women now use beauty treatment services it seems worth to implement the app that allows managing appointments for beauty care procedures by categories. Choose a date, create a new beauty appointment relevant to the beauty category, and you will not be confused anymore with the uncategorized beauty appointment list.&lt;/p&gt;
 &lt;h3&gt;2. Process&lt;/h3&gt;
@@ -27,7 +27,7 @@
 &lt;li&gt;Making the list of beauty appointments&lt;/li&gt;
 &lt;li&gt;Sending automatic notifications to remind the user about the upcoming appointment&lt;/li&gt;
 &lt;/ul&gt;
-&lt;img src=&#34;http://www.ilonacodes.com/diagram-beauty-calendar.png&#34;&gt;
+&lt;img src=&#34;//www.ilonacodes.com/diagram-beauty-calendar.png&#34;&gt;
 &lt;h3&gt;3. Research &amp;amp; Personas&lt;/h3&gt;
 &lt;p&gt;I conducted competitive analysis research on similar products that were already out on the international market. I found many apps did not offer the same feature set in one place such as I have implemented, and it could be something unique that would stand out.&lt;/p&gt;
 &lt;p&gt;Why users need this kind of app?&lt;/p&gt;
@@ -41,9 +41,9 @@
 &lt;li&gt;Collaborating with beauty salons or studios in future&lt;/li&gt;
 &lt;li&gt;Running ads after increasing user base&lt;/li&gt;
 &lt;/ul&gt;
-&lt;img src=&#34;http://www.ilonacodes.com/personas-beauty-calendar-app.png&#34;&gt;
+&lt;img src=&#34;//www.ilonacodes.com/personas-beauty-calendar-app.png&#34;&gt;
 &lt;h3&gt;4. Wireframes &amp;amp; User Flows&lt;/h3&gt;
-&lt;img src=&#34;http://www.ilonacodes.com/wireframes-beauty-calendar-app.png&#34;&gt;
+&lt;img src=&#34;//www.ilonacodes.com/wireframes-beauty-calendar-app.png&#34;&gt;
 &lt;br&gt;
 &lt;br&gt;
 &lt;p&gt;&lt;b&gt;Home&lt;/b&gt;&lt;/p&gt;
@@ -64,23 +64,23 @@
 &lt;p&gt;&lt;b&gt;Category Screen with the Appointment List&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt;All new appointments are added to this page. It&amp;rsquo;s possible to delete an appointment any time by tapping on the &amp;ldquo;X&amp;rdquo; button.&lt;/p&gt;
 &lt;h3&gt;5. Interface Design&lt;/h3&gt;
-&lt;img src=&#34;http://www.ilonacodes.com/interface-beauty-calendar-app.png&#34;&gt;&lt;/p&gt;
+&lt;img src=&#34;//www.ilonacodes.com/interface-beauty-calendar-app.png&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title></title>
-      <link>http://www.ilonacodes.com/berlin-wall-quiz-app/</link>
+      <link>//www.ilonacodes.com/berlin-wall-quiz-app/</link>
       <pubDate>Sat, 23 Jun 2018 10:35:55 +0100</pubDate>
       
-      <guid>http://www.ilonacodes.com/berlin-wall-quiz-app/</guid>
+      <guid>//www.ilonacodes.com/berlin-wall-quiz-app/</guid>
       <description>&lt;p&gt;&lt;h3&gt;1. Overview&lt;/h3&gt;
 &lt;p&gt;There are many ways of discovering Berlin: with a travel guide or an informative website or on the spot with a practical app. The Berlin Wall Quiz is an interactive app which helps users to get more information or learn the history and interesting facts about the Berlin Wall. Photos, audio, and video clips, texts are presented in historical chronology. At the end of the every chronological time slot, there is an opportunity to start a quiz and see results after the completion.
 &lt;/p&gt;
 &lt;h3&gt;2. Process&lt;/h3&gt;
 &lt;p&gt;I decided to create affinity diagrams of the ideas to highlight the most essential feature set. The chart below shows the prioritized ideas that would go into primary user flow.
 &lt;/p&gt;
-&lt;img src=&#34;http://www.ilonacodes.com/diagram-berlin-wall.png&#34;&gt;
+&lt;img src=&#34;//www.ilonacodes.com/diagram-berlin-wall.png&#34;&gt;
 &lt;h3&gt;3. Research &amp;amp; Personas&lt;/h3&gt;
 &lt;p&gt;I have described user personas based on a broad target market that would use the Berlin Wall Quiz app. Visual information categorized chronologically because users want to get the information about a specific time frame.
 &lt;/p&gt;
@@ -96,9 +96,9 @@
 &lt;ul&gt;
 &lt;li&gt;Increased user base growth through partially locked content that is unlocked by sharing the parts of the application with friends&lt;/li&gt;
 &lt;/ul&gt;
-&lt;img src=&#34;http://www.ilonacodes.com/personas-berlin-wall.png&#34;&gt;
+&lt;img src=&#34;//www.ilonacodes.com/personas-berlin-wall.png&#34;&gt;
 &lt;h3&gt;4. Wireframes &amp;amp; User Flows&lt;/h3&gt;
-&lt;img src=&#34;http://www.ilonacodes.com/wireframes-berlin-wall-app.png&#34;&gt;
+&lt;img src=&#34;//www.ilonacodes.com/wireframes-berlin-wall-app.png&#34;&gt;
 &lt;br&gt;
 &lt;br&gt;
 &lt;p&gt;&lt;b&gt;Welcome Screen&lt;/b&gt;&lt;/p&gt;
@@ -134,31 +134,31 @@
 &lt;p&gt;&lt;b&gt;Reviews&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt;Users can read the latest review posts, and also create their own. Adding a review unlocks a new feature.&lt;/p&gt;
 &lt;h3&gt;5. Interface Design&lt;/h3&gt;
-&lt;img src=&#34;http://www.ilonacodes.com/interface-berlin-wall-app.png&#34;&gt;&lt;/p&gt;
+&lt;img src=&#34;//www.ilonacodes.com/interface-berlin-wall-app.png&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title></title>
-      <link>http://www.ilonacodes.com/beuth-box-website/</link>
+      <link>//www.ilonacodes.com/beuth-box-website/</link>
       <pubDate>Sat, 23 Jun 2018 10:35:55 +0100</pubDate>
       
-      <guid>http://www.ilonacodes.com/beuth-box-website/</guid>
+      <guid>//www.ilonacodes.com/beuth-box-website/</guid>
       <description>&lt;h3&gt;Coming soon...&lt;/h3&gt;
 </description>
     </item>
     
     <item>
       <title></title>
-      <link>http://www.ilonacodes.com/online-fashion-shopping-app/</link>
+      <link>//www.ilonacodes.com/online-fashion-shopping-app/</link>
       <pubDate>Sat, 23 Jun 2018 10:35:55 +0100</pubDate>
       
-      <guid>http://www.ilonacodes.com/online-fashion-shopping-app/</guid>
+      <guid>//www.ilonacodes.com/online-fashion-shopping-app/</guid>
       <description>&lt;p&gt;&lt;h3&gt;1. Overview&lt;/h3&gt;
 &lt;p&gt;Talking about e-commerce shopping, it&amp;rsquo;s vital to understand that selling the products once via the website or mobile app is only the minimal course of action for the user. What business really aims for is having the user buying via that website or app again and again. The goal is that people would like to use the e-commerce platform and buy items offered on it. Many customers prefer doing shopping online because it&amp;rsquo;s faster, more comfortable and more convenient. iLookStore is the mobile app for fashion shopping that helps users quickly and easily shop and purchase clothing items online, and then have them delivered promptly at little to no cost.&lt;/p&gt;
 &lt;h3&gt;2. Process&lt;/h3&gt;
 &lt;p&gt;To put together the vision of the shopping app I have created a list of tasks I could choose from depending on what stage of a project they should be implemented. I decided to have clean and straightforward color palette and layouts. Also, I have built a user flow chart that contains listings of the available products, category links, etc.&lt;/p&gt;
-&lt;img src=&#34;http://www.ilonacodes.com/diagram-online-fashion-shopping-app.png&#34;&gt;
+&lt;img src=&#34;//www.ilonacodes.com/diagram-online-fashion-shopping-app.png&#34;&gt;
 &lt;h3&gt;3. Research &amp;amp; Personas&lt;/h3&gt;
 &lt;p&gt;To figure out which customers to target with the online fashion shopping app, I did user research. As results, I have determined that busy young professionals make up a significant portion of the app&amp;rsquo;s target market.&lt;/p&gt;
 &lt;p&gt;What is expected business outcome?&lt;/p&gt;
@@ -172,9 +172,9 @@
 &lt;li&gt;Shopping quickly and easily without spending extra time on it - purchase online&lt;/li&gt;
 &lt;li&gt;Getting ordered items delivered promptly&lt;/li&gt;
 &lt;/ul&gt;
-&lt;img src=&#34;http://www.ilonacodes.com/personas-fashion-online-shopping-app.png&#34;&gt;
+&lt;img src=&#34;//www.ilonacodes.com/personas-fashion-online-shopping-app.png&#34;&gt;
 &lt;h3&gt;4. Wireframes &amp;amp; User Flows&lt;/h3&gt;
-&lt;img src=&#34;http://www.ilonacodes.com/wireframes-online-fashion-shopping-app.png&#34;&gt;
+&lt;img src=&#34;//www.ilonacodes.com/wireframes-online-fashion-shopping-app.png&#34;&gt;
 &lt;br&gt;
 &lt;br&gt;
 &lt;p&gt;&lt;b&gt;Welcome Screen&lt;/b&gt;&lt;/p&gt;
@@ -207,26 +207,26 @@
 &lt;p&gt;&lt;b&gt;Wishlist&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt;The possibility to match potentially interesting products/items and add them to the wishlist. That helps users to save time by searching once again for &amp;ldquo;wish&amp;rdquo; item from the product catalog.&lt;/p&gt;
 &lt;h3&gt;5. Interface Design&lt;/h3&gt;
-&lt;img src=&#34;http://www.ilonacodes.com/interface-online-fashion-shopping-app.png&#34;&gt;&lt;/p&gt;
+&lt;img src=&#34;//www.ilonacodes.com/interface-online-fashion-shopping-app.png&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title></title>
-      <link>http://www.ilonacodes.com/ui-ux-projects/</link>
+      <link>//www.ilonacodes.com/ui-ux-projects/</link>
       <pubDate>Sat, 23 Jun 2018 10:35:55 +0100</pubDate>
       
-      <guid>http://www.ilonacodes.com/ui-ux-projects/</guid>
+      <guid>//www.ilonacodes.com/ui-ux-projects/</guid>
       <description>&lt;p&gt;&lt;h3 style=&#34;text-align: center&#34;&gt;Tool Stack&lt;/h3&gt;
-&lt;img src=&#34;http://www.ilonacodes.com/toolstack.png&#34;&gt;&lt;/img&gt;
+&lt;img src=&#34;//www.ilonacodes.com/toolstack.png&#34;&gt;&lt;/img&gt;
 &lt;!-- &lt;h3 style=&#34;text-align: center&#34;&gt;Projects&lt;/h3&gt; --&gt;
 &lt;div class=&#34;projects&#34;&gt;
   &lt;h1&gt;Online Fashion Shopping App&lt;/h1&gt;
   &lt;h3&gt;UI/UX Case Study&lt;/h3&gt;
   &lt;h2&gt;Design Process&lt;/h2&gt;
-  &lt;img src=&#39;http://www.ilonacodes.com/design-process.png&#39;&gt;
+  &lt;img src=&#39;//www.ilonacodes.com/design-process.png&#39;&gt;
   &lt;h2&gt;Step 1. Observation&lt;/h2&gt;
-  &lt;img src=&#39;http://www.ilonacodes.com/step-1.png&#39;&gt;
+  &lt;img src=&#39;//www.ilonacodes.com/step-1.png&#39;&gt;
   &lt;h2&gt;Abstract&lt;/h2&gt;
   &lt;p&gt;The iLookStore is a fashion retail shopping app.  The app allows to accomplish the following:&lt;/p&gt;
   &lt;ul&gt;
@@ -249,9 +249,9 @@
   &lt;p&gt;To understand:&lt;/p&gt;
   &lt;p style=&#34;text-align: center&#34;&gt;&lt;b&gt;Their needs, goals and pains&lt;/b&gt;&lt;/p&gt;
   &lt;h2&gt;Persona&lt;/h2&gt;
-  &lt;img src=&#34;http://www.ilonacodes.com/persona-2.png&#34;/&gt;
+  &lt;img src=&#34;//www.ilonacodes.com/persona-2.png&#34;/&gt;
   &lt;h2&gt;Step 2. Definition&lt;/h2&gt;
-  &lt;img src=&#34;http://www.ilonacodes.com/step-2.png&#34;/&gt;
+  &lt;img src=&#34;//www.ilonacodes.com/step-2.png&#34;/&gt;
   &lt;h2&gt;Pain Points&lt;/h2&gt;
   &lt;p style=&#34;color: orange;&#34;&gt;&lt;b&gt;Validated Problems from the Research&lt;/b&gt;&lt;/p&gt;
   &lt;p&gt;Insights from the participants:&lt;/p&gt;
@@ -261,14 +261,14 @@
     &lt;li&gt;Organisation of clothing goods (sale time)&lt;/li&gt;
   &lt;/ul&gt;
   &lt;h2&gt;Step 3. Ideation&lt;/h2&gt;
-  &lt;img src=&#34;http://www.ilonacodes.com/step-3.png&#34; /&gt;
+  &lt;img src=&#34;//www.ilonacodes.com/step-3.png&#34; /&gt;
   &lt;h2&gt;Red Routes (Brainstorm)&lt;/h2&gt;
   &lt;p&gt;&lt;b&gt;Red Routes&lt;/b&gt; are the critical tasks that deliver the most value to the users:&lt;/p&gt;
   &lt;ul&gt;
    &lt;li&gt;Build a MVP&lt;/li&gt;
    &lt;li&gt;Persona’s key tasks&lt;/li&gt;
   &lt;/ul&gt;
-  &lt;img src=&#34;http://www.ilonacodes.com/red-routes.png&#34; /&gt;
+  &lt;img src=&#34;//www.ilonacodes.com/red-routes.png&#34; /&gt;
   &lt;h2&gt;User Scenarios&lt;/h2&gt;
   &lt;ul&gt;
     &lt;li&gt;Buy the clothing item&lt;/li&gt;
@@ -278,7 +278,7 @@
     &lt;li&gt;Buy the previously saved item to the Wishlist&lt;/li&gt;
   &lt;/ul&gt;
   &lt;h2&gt;User Scenario &amp;amp; stories&lt;/h2&gt;
-  &lt;img src=&#34;http://www.ilonacodes.com/user-scenario.png&#34;/&gt;
+  &lt;img src=&#34;//www.ilonacodes.com/user-scenario.png&#34;/&gt;
   &lt;h2&gt;User Story&lt;/h2&gt;
   &lt;p style=&#34;color: orange;&#34;&gt;&lt;b&gt;Filter list of items by size&lt;/b&gt;&lt;/p&gt;
   &lt;br /&gt;
@@ -294,25 +294,25 @@
   &lt;p&gt;&lt;b&gt;Then&lt;/b&gt; I see only the items that have size &amp;ldquo;36&amp;rdquo; in the stock&lt;/p&gt;
   &lt;p&gt;&lt;a href=&#34;https://trello.com/b/JZmrRE9h/ilookstore&#34;&gt;more User Scenarios &amp;amp; User Stories&lt;/a&gt;&lt;/p&gt;
   &lt;h2&gt;Step 4. Prototyping&lt;/h2&gt;
-  &lt;img src=&#34;http://www.ilonacodes.com/step-4.png&#34; /&gt;
+  &lt;img src=&#34;//www.ilonacodes.com/step-4.png&#34; /&gt;
   &lt;h2&gt;User Flow Chart&lt;/h2&gt;
-  &lt;img src=&#34;http://www.ilonacodes.com/user-flow-chart.png&#34; /&gt;
+  &lt;img src=&#34;//www.ilonacodes.com/user-flow-chart.png&#34; /&gt;
   &lt;h2&gt;Wireframes&lt;/h2&gt;
-  &lt;img src=&#34;http://www.ilonacodes.com/wireframes.png&#34;&gt;
+  &lt;img src=&#34;//www.ilonacodes.com/wireframes.png&#34;&gt;
   &lt;h2&gt;UI Design&lt;/h2&gt;
-  &lt;img src=&#34;http://www.ilonacodes.com/ui-design.png&#34; /&gt;
+  &lt;img src=&#34;//www.ilonacodes.com/ui-design.png&#34; /&gt;
   &lt;h2&gt;Step 5. Validation&lt;/h2&gt;
-  &lt;img src=&#34;http://www.ilonacodes.com/step-5.png&#34; /&gt;
+  &lt;img src=&#34;//www.ilonacodes.com/step-5.png&#34; /&gt;
 &lt;/div&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Front-end Shorts: CSS3 Opacity - Background Only</title>
-      <link>http://www.ilonacodes.com/blog/frontend-shorts-css3-opacity-background-only/</link>
+      <link>//www.ilonacodes.com/blog/frontend-shorts-css3-opacity-background-only/</link>
       <pubDate>Mon, 23 Apr 2018 23:30:05 +0100</pubDate>
       
-      <guid>http://www.ilonacodes.com/blog/frontend-shorts-css3-opacity-background-only/</guid>
+      <guid>//www.ilonacodes.com/blog/frontend-shorts-css3-opacity-background-only/</guid>
       <description>&lt;p&gt;Hi everyone! It&amp;rsquo;s time for a new post.&lt;/p&gt;
 
 &lt;p&gt;What we do (I mean front-end web developers) isn&amp;rsquo;t all that unique.
@@ -376,7 +376,7 @@ Often we face the problem that seems easy to solve. However, sometimes we spend 
 
 &lt;p&gt;We apply the opacity to a separate &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt; and position the text on top of it.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.ilonacodes.com/blog/images/css3-opacity.png&#34; alt=&#34;Result&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//www.ilonacodes.com/blog/images/css3-opacity.png&#34; alt=&#34;Result&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Thank you for reading. Hope these tips help you and your team balance the details with the big picture.&lt;/p&gt;
 </description>
@@ -384,10 +384,10 @@ Often we face the problem that seems easy to solve. However, sometimes we spend 
     
     <item>
       <title>Front-end Shorts: Good Storytelling Elements</title>
-      <link>http://www.ilonacodes.com/blog/frontend-shorts-good-storytelling-elements/</link>
+      <link>//www.ilonacodes.com/blog/frontend-shorts-good-storytelling-elements/</link>
       <pubDate>Sat, 21 Apr 2018 19:15:05 +0100</pubDate>
       
-      <guid>http://www.ilonacodes.com/blog/frontend-shorts-good-storytelling-elements/</guid>
+      <guid>//www.ilonacodes.com/blog/frontend-shorts-good-storytelling-elements/</guid>
       <description>&lt;p&gt;Happy Friday, my readers!&lt;/p&gt;
 
 &lt;p&gt;As a front-end web developer, I am also interested in UI/UX design, and that is why I’ve decided me to do a UI/UX research using &lt;a href=&#34;http://johnnyholland.org/2011/01/aristotle%E2%80%99s-storytelling-framework-for-interactive-products/&#34;&gt;Aristotle’s Seven Elements of Storytelling framework&lt;/a&gt;.&lt;/p&gt;
@@ -435,10 +435,10 @@ Once yoga teachers start to get focused mainly on expected profits, they lose si
     
     <item>
       <title>Front-end Shorts: Storybook With React</title>
-      <link>http://www.ilonacodes.com/blog/frontend-shorts-storybook-with-react/</link>
+      <link>//www.ilonacodes.com/blog/frontend-shorts-storybook-with-react/</link>
       <pubDate>Wed, 18 Apr 2018 12:00:05 +0100</pubDate>
       
-      <guid>http://www.ilonacodes.com/blog/frontend-shorts-storybook-with-react/</guid>
+      <guid>//www.ilonacodes.com/blog/frontend-shorts-storybook-with-react/</guid>
       <description>&lt;p&gt;Hey there, that’s me again and a new post from me!&lt;/p&gt;
 
 &lt;p&gt;Lately, I worked on the project that generates live documentation of the front-end components for apps built with create-react-app, and this UI development environment is called &lt;a href=&#34;https://storybook.js.org&#34;&gt;Storybook&lt;/a&gt;.&lt;/p&gt;
@@ -495,10 +495,10 @@ storiesOf(&#39;Footer&#39;, module).add(&#39;default&#39;, () =&amp;gt; &amp;lt;
     
     <item>
       <title>Front-end Shorts: How to Read Content From The File Input in React</title>
-      <link>http://www.ilonacodes.com/blog/frontend-shorts-how-to-read-content-from-the-file-input-in-react/</link>
+      <link>//www.ilonacodes.com/blog/frontend-shorts-how-to-read-content-from-the-file-input-in-react/</link>
       <pubDate>Sat, 31 Mar 2018 18:30:05 +0100</pubDate>
       
-      <guid>http://www.ilonacodes.com/blog/frontend-shorts-how-to-read-content-from-the-file-input-in-react/</guid>
+      <guid>//www.ilonacodes.com/blog/frontend-shorts-how-to-read-content-from-the-file-input-in-react/</guid>
       <description>&lt;p&gt;Hi, everyone! How is your weekend going?&lt;/p&gt;
 
 &lt;p&gt;As you know, I prefer learning to code by doing things. So, the last feature I have implemented for the app is the reading of the content from the uploaded (local) &lt;code&gt;.csv&lt;/code&gt; file from the user.&lt;/p&gt;
@@ -543,16 +543,16 @@ const ImportFromFileBodyComponent = () =&amp;gt; {
 
 &lt;p&gt;If you would like to know more, then read about &lt;code&gt;FileReader&lt;/code&gt;, &lt;code&gt;File&lt;/code&gt;, and &lt;code&gt;readAsText&lt;/code&gt; at &lt;a href=&#34;https://developer.mozilla.org/en-US/&#34;&gt;MDN&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Thank you for reading. I hope you find the post useful and will still be looking forward to new updates on &lt;a href=&#34;http://www.ilonacodes.com/blog/&#34;&gt;my blog&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Thank you for reading. I hope you find the post useful and will still be looking forward to new updates on &lt;a href=&#34;//www.ilonacodes.com/blog/&#34;&gt;my blog&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Front-end Shorts: How to Delete Item From The List With React&#43;Redux</title>
-      <link>http://www.ilonacodes.com/blog/front-end-shorts-how-to-delete-item-from-the-list-with-react-redux/</link>
+      <link>//www.ilonacodes.com/blog/front-end-shorts-how-to-delete-item-from-the-list-with-react-redux/</link>
       <pubDate>Thu, 22 Mar 2018 20:40:05 +0100</pubDate>
       
-      <guid>http://www.ilonacodes.com/blog/front-end-shorts-how-to-delete-item-from-the-list-with-react-redux/</guid>
+      <guid>//www.ilonacodes.com/blog/front-end-shorts-how-to-delete-item-from-the-list-with-react-redux/</guid>
       <description>&lt;p&gt;There are many possibilities how to remove multiple items from the array with JavaScript. So in this tutorial, I am going to share my approach to delete function with React+Redux.&lt;/p&gt;
 
 &lt;p&gt;It&amp;rsquo;s front-end shorts, and I am trying to highlight the most important information. Thus, just let’s have a look at the significant code snippets with explanations:&lt;/p&gt;
@@ -657,10 +657,10 @@ Thank you for reading! Also, if you’ve made this far, feel free to connect wit
     
     <item>
       <title>Front-end Shorts: Fetch List of Resources From REST-API</title>
-      <link>http://www.ilonacodes.com/blog/front-end-shorts-fetch-list-of-resources-from-rest-api/</link>
+      <link>//www.ilonacodes.com/blog/front-end-shorts-fetch-list-of-resources-from-rest-api/</link>
       <pubDate>Sat, 17 Mar 2018 15:00:05 +0100</pubDate>
       
-      <guid>http://www.ilonacodes.com/blog/front-end-shorts-fetch-list-of-resources-from-rest-api/</guid>
+      <guid>//www.ilonacodes.com/blog/front-end-shorts-fetch-list-of-resources-from-rest-api/</guid>
       <description>&lt;p&gt;Today I am going to tell you how to get JSON data from the Rest-API to UI using React+Redux frameworks.&lt;/p&gt;
 
 &lt;p&gt;In my case, the task looks like:&lt;/p&gt;
@@ -690,10 +690,10 @@ const loadExpenses = () =&amp;gt; {
     
     <item>
       <title>Front-end Shorts: Setting up React-Router-Redux</title>
-      <link>http://www.ilonacodes.com/blog/frontend-shorts-setting-up-react-router-redux/</link>
+      <link>//www.ilonacodes.com/blog/frontend-shorts-setting-up-react-router-redux/</link>
       <pubDate>Wed, 14 Mar 2018 15:30:05 +0100</pubDate>
       
-      <guid>http://www.ilonacodes.com/blog/frontend-shorts-setting-up-react-router-redux/</guid>
+      <guid>//www.ilonacodes.com/blog/frontend-shorts-setting-up-react-router-redux/</guid>
       <description>&lt;p&gt;Hi, everyone! How is your week going?&lt;/p&gt;
 
 &lt;p&gt;Yesterday I worked with the web application written on React + Redux and had had some problem with the &lt;code&gt;react-router-redux&lt;/code&gt; library. In short, the &lt;code&gt;push&lt;/code&gt; method (using for navigation outside of components) didn&amp;rsquo;t work.&lt;/p&gt;
@@ -747,10 +747,10 @@ ReactDOM.render(&amp;lt;Routes history={history} store={store}/&amp;gt;,
     
     <item>
       <title>Front-end Shorts: How to Create Parallax Effect With Vanilla JS</title>
-      <link>http://www.ilonacodes.com/blog/how-to-create-parallax-effect-with-vanilla-js/</link>
+      <link>//www.ilonacodes.com/blog/how-to-create-parallax-effect-with-vanilla-js/</link>
       <pubDate>Sat, 10 Mar 2018 20:45:05 +0100</pubDate>
       
-      <guid>http://www.ilonacodes.com/blog/how-to-create-parallax-effect-with-vanilla-js/</guid>
+      <guid>//www.ilonacodes.com/blog/how-to-create-parallax-effect-with-vanilla-js/</guid>
       <description>&lt;p&gt;Hi, there! I hope you enjoy your weekend, and ready for a new post.&lt;/p&gt;
 
 &lt;p&gt;Recently there are a lot of sites, which have featured with parallax scrolling effect, that represents them in more interactive &amp;ldquo;professionally-made&amp;rdquo; way.&lt;/p&gt;
@@ -788,10 +788,10 @@ ReactDOM.render(&amp;lt;Routes history={history} store={store}/&amp;gt;,
     
     <item>
       <title>Front-end Shorts: How to Scroll to Element in jQuery With Animation</title>
-      <link>http://www.ilonacodes.com/blog/front-end-shorts-how-to-scroll-to-element-in-jquery-with-animation/</link>
+      <link>//www.ilonacodes.com/blog/front-end-shorts-how-to-scroll-to-element-in-jquery-with-animation/</link>
       <pubDate>Thu, 08 Mar 2018 16:30:05 +0100</pubDate>
       
-      <guid>http://www.ilonacodes.com/blog/front-end-shorts-how-to-scroll-to-element-in-jquery-with-animation/</guid>
+      <guid>//www.ilonacodes.com/blog/front-end-shorts-how-to-scroll-to-element-in-jquery-with-animation/</guid>
       <description>&lt;p&gt;Here I am back and decided to continue blogging with front-end shorts. Unfortunately, I don&amp;rsquo;t have enough time to write big posts, but I would be happy to share some frontend tips and tricks that I have already applied for some of my projects.&lt;/p&gt;
 
 &lt;p&gt;The last days I had to work with Javascript and jQuery a lot apart from React and spent much time on creating templates. As you know, nowadays modern web pages include animated scrolling, which makes any site look professional and more elegant (instead of simple link element reference in HTML5).&lt;/p&gt;
@@ -821,10 +821,10 @@ return the coordinates of the element relative to the DOM, and top param gives u
     
     <item>
       <title>Ada Lovelace Festival 2017 in Berlin</title>
-      <link>http://www.ilonacodes.com/blog/ada-lovelace-festival-2017-in-berlin/</link>
+      <link>//www.ilonacodes.com/blog/ada-lovelace-festival-2017-in-berlin/</link>
       <pubDate>Mon, 23 Oct 2017 07:00:05 +0100</pubDate>
       
-      <guid>http://www.ilonacodes.com/blog/ada-lovelace-festival-2017-in-berlin/</guid>
+      <guid>//www.ilonacodes.com/blog/ada-lovelace-festival-2017-in-berlin/</guid>
       <description>&lt;p&gt;The last week I have attended Ada Lovelace Festival that occurred on 19-20 October 2017. The aim of the event to connect women in computing and technology.&lt;/p&gt;
 
 &lt;p&gt;Unfortunately, I was a bit too late for the keynote, because I had a lecture at the university. However, I joined the conference, and after registration, I got my bag with sponsors gifts.&lt;/p&gt;
@@ -837,13 +837,13 @@ return the coordinates of the element relative to the DOM, and top param gives u
 
 &lt;p&gt;The future turns digital. That means people keep up with the times, taking into consideration all the software industry aspects.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.ilonacodes.com/blog/images/ada-lovelace-1.jpg&#34; alt=&#34;Photo-1&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//www.ilonacodes.com/blog/images/ada-lovelace-1.jpg&#34; alt=&#34;Photo-1&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The next workshop, that gave me valuable tips and pointed out some ways how to grow your brand called &lt;code&gt;To be in the 1st row: Build your own brand&lt;/code&gt; by Regina Mehler, WOMEN SPEAKER FOUNDATION.&lt;/p&gt;
 
 &lt;p&gt;The speaker showed us the importance of networking, communication, and negotiation with top-brass people at occasional meetings, using examples from their career. The workshop finished with a practical session between participants.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.ilonacodes.com/blog/images/ada-lovelace-2.jpg&#34; alt=&#34;Photo-2&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//www.ilonacodes.com/blog/images/ada-lovelace-2.jpg&#34; alt=&#34;Photo-2&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;As a web developer, I couldn&amp;rsquo;t pass the talk &lt;code&gt;How to improve our technical decision-making skills&lt;/code&gt; by Duana Stanley, Clue. All developers know that the core skill of problem-solving is to find useful information quickly and to be able to make a decision based on the reliable information and requirements.&lt;/p&gt;
 
@@ -857,7 +857,7 @@ return the coordinates of the element relative to the DOM, and top param gives u
 &lt;li&gt;sleep on it.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.ilonacodes.com/blog/images/ada-lovelace-3.jpg&#34; alt=&#34;Photo-3&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//www.ilonacodes.com/blog/images/ada-lovelace-3.jpg&#34; alt=&#34;Photo-3&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;At this point, I’m going to finish the post. I have tried to share my impression from the Ada Lovelace Festival 2017 in Berlin with you, dear Techmakers. I hope you enjoyed the highlights of the event from my point of view.&lt;/p&gt;
 

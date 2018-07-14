@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>React Router Redux on Ilona Who Codes</title>
-    <link>http://www.ilonacodes.com/tags/react-router-redux/index.xml</link>
+    <link>//www.ilonacodes.com/tags/react-router-redux/index.xml</link>
     <description>Recent content in React Router Redux on Ilona Who Codes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://www.ilonacodes.com/tags/react-router-redux/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//www.ilonacodes.com/tags/react-router-redux/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Front-end Shorts: Setting up React-Router-Redux</title>
-      <link>http://www.ilonacodes.com/blog/frontend-shorts-setting-up-react-router-redux/</link>
+      <link>//www.ilonacodes.com/blog/frontend-shorts-setting-up-react-router-redux/</link>
       <pubDate>Wed, 14 Mar 2018 15:30:05 +0100</pubDate>
       
-      <guid>http://www.ilonacodes.com/blog/frontend-shorts-setting-up-react-router-redux/</guid>
+      <guid>//www.ilonacodes.com/blog/frontend-shorts-setting-up-react-router-redux/</guid>
       <description>&lt;p&gt;Hi, everyone! How is your week going?&lt;/p&gt;
 
 &lt;p&gt;Yesterday I worked with the web application written on React + Redux and had had some problem with the &lt;code&gt;react-router-redux&lt;/code&gt; library. In short, the &lt;code&gt;push&lt;/code&gt; method (using for navigation outside of components) didn&amp;rsquo;t work.&lt;/p&gt;

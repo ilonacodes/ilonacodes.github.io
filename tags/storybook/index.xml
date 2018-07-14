@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Storybook on Ilona Who Codes</title>
-    <link>http://www.ilonacodes.com/tags/storybook/index.xml</link>
+    <link>//www.ilonacodes.com/tags/storybook/index.xml</link>
     <description>Recent content in Storybook on Ilona Who Codes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://www.ilonacodes.com/tags/storybook/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//www.ilonacodes.com/tags/storybook/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Front-end Shorts: Storybook With React</title>
-      <link>http://www.ilonacodes.com/blog/frontend-shorts-storybook-with-react/</link>
+      <link>//www.ilonacodes.com/blog/frontend-shorts-storybook-with-react/</link>
       <pubDate>Wed, 18 Apr 2018 12:00:05 +0100</pubDate>
       
-      <guid>http://www.ilonacodes.com/blog/frontend-shorts-storybook-with-react/</guid>
+      <guid>//www.ilonacodes.com/blog/frontend-shorts-storybook-with-react/</guid>
       <description>&lt;p&gt;Hey there, that’s me again and a new post from me!&lt;/p&gt;
 
 &lt;p&gt;Lately, I worked on the project that generates live documentation of the front-end components for apps built with create-react-app, and this UI development environment is called &lt;a href=&#34;https://storybook.js.org&#34;&gt;Storybook&lt;/a&gt;.&lt;/p&gt;

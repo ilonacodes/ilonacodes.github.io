@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ui on Ilona Who Codes</title>
-    <link>http://www.ilonacodes.com/tags/ui/index.xml</link>
+    <link>//www.ilonacodes.com/tags/ui/index.xml</link>
     <description>Recent content in Ui on Ilona Who Codes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://www.ilonacodes.com/tags/ui/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//www.ilonacodes.com/tags/ui/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Front-end Shorts: Good Storytelling Elements</title>
-      <link>http://www.ilonacodes.com/blog/frontend-shorts-good-storytelling-elements/</link>
+      <link>//www.ilonacodes.com/blog/frontend-shorts-good-storytelling-elements/</link>
       <pubDate>Sat, 21 Apr 2018 19:15:05 +0100</pubDate>
       
-      <guid>http://www.ilonacodes.com/blog/frontend-shorts-good-storytelling-elements/</guid>
+      <guid>//www.ilonacodes.com/blog/frontend-shorts-good-storytelling-elements/</guid>
       <description>&lt;p&gt;Happy Friday, my readers!&lt;/p&gt;
 
 &lt;p&gt;As a front-end web developer, I am also interested in UI/UX design, and that is why I’ve decided me to do a UI/UX research using &lt;a href=&#34;http://johnnyholland.org/2011/01/aristotle%E2%80%99s-storytelling-framework-for-interactive-products/&#34;&gt;Aristotle’s Seven Elements of Storytelling framework&lt;/a&gt;.&lt;/p&gt;

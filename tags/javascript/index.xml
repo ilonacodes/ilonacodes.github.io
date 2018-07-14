@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Javascript on Ilona Who Codes</title>
-    <link>http://www.ilonacodes.com/tags/javascript/index.xml</link>
+    <link>//www.ilonacodes.com/tags/javascript/index.xml</link>
     <description>Recent content in Javascript on Ilona Who Codes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://www.ilonacodes.com/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//www.ilonacodes.com/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Front-end Shorts: CSS3 Opacity - Background Only</title>
-      <link>http://www.ilonacodes.com/blog/frontend-shorts-css3-opacity-background-only/</link>
+      <link>//www.ilonacodes.com/blog/frontend-shorts-css3-opacity-background-only/</link>
       <pubDate>Mon, 23 Apr 2018 23:30:05 +0100</pubDate>
       
-      <guid>http://www.ilonacodes.com/blog/frontend-shorts-css3-opacity-background-only/</guid>
+      <guid>//www.ilonacodes.com/blog/frontend-shorts-css3-opacity-background-only/</guid>
       <description>&lt;p&gt;Hi everyone! It&amp;rsquo;s time for a new post.&lt;/p&gt;
 
 &lt;p&gt;What we do (I mean front-end web developers) isn&amp;rsquo;t all that unique.
@@ -77,7 +77,7 @@ Often we face the problem that seems easy to solve. However, sometimes we spend 
 
 &lt;p&gt;We apply the opacity to a separate &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt; and position the text on top of it.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.ilonacodes.com/blog/images/css3-opacity.png&#34; alt=&#34;Result&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//www.ilonacodes.com/blog/images/css3-opacity.png&#34; alt=&#34;Result&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Thank you for reading. Hope these tips help you and your team balance the details with the big picture.&lt;/p&gt;
 </description>
@@ -85,10 +85,10 @@ Often we face the problem that seems easy to solve. However, sometimes we spend 
     
     <item>
       <title>Front-end Shorts: Good Storytelling Elements</title>
-      <link>http://www.ilonacodes.com/blog/frontend-shorts-good-storytelling-elements/</link>
+      <link>//www.ilonacodes.com/blog/frontend-shorts-good-storytelling-elements/</link>
       <pubDate>Sat, 21 Apr 2018 19:15:05 +0100</pubDate>
       
-      <guid>http://www.ilonacodes.com/blog/frontend-shorts-good-storytelling-elements/</guid>
+      <guid>//www.ilonacodes.com/blog/frontend-shorts-good-storytelling-elements/</guid>
       <description>&lt;p&gt;Happy Friday, my readers!&lt;/p&gt;
 
 &lt;p&gt;As a front-end web developer, I am also interested in UI/UX design, and that is why I’ve decided me to do a UI/UX research using &lt;a href=&#34;http://johnnyholland.org/2011/01/aristotle%E2%80%99s-storytelling-framework-for-interactive-products/&#34;&gt;Aristotle’s Seven Elements of Storytelling framework&lt;/a&gt;.&lt;/p&gt;
@@ -136,10 +136,10 @@ Once yoga teachers start to get focused mainly on expected profits, they lose si
     
     <item>
       <title>Front-end Shorts: Storybook With React</title>
-      <link>http://www.ilonacodes.com/blog/frontend-shorts-storybook-with-react/</link>
+      <link>//www.ilonacodes.com/blog/frontend-shorts-storybook-with-react/</link>
       <pubDate>Wed, 18 Apr 2018 12:00:05 +0100</pubDate>
       
-      <guid>http://www.ilonacodes.com/blog/frontend-shorts-storybook-with-react/</guid>
+      <guid>//www.ilonacodes.com/blog/frontend-shorts-storybook-with-react/</guid>
       <description>&lt;p&gt;Hey there, that’s me again and a new post from me!&lt;/p&gt;
 
 &lt;p&gt;Lately, I worked on the project that generates live documentation of the front-end components for apps built with create-react-app, and this UI development environment is called &lt;a href=&#34;https://storybook.js.org&#34;&gt;Storybook&lt;/a&gt;.&lt;/p&gt;
@@ -196,10 +196,10 @@ storiesOf(&#39;Footer&#39;, module).add(&#39;default&#39;, () =&amp;gt; &amp;lt;
     
     <item>
       <title>Front-end Shorts: How to Read Content From The File Input in React</title>
-      <link>http://www.ilonacodes.com/blog/frontend-shorts-how-to-read-content-from-the-file-input-in-react/</link>
+      <link>//www.ilonacodes.com/blog/frontend-shorts-how-to-read-content-from-the-file-input-in-react/</link>
       <pubDate>Sat, 31 Mar 2018 18:30:05 +0100</pubDate>
       
-      <guid>http://www.ilonacodes.com/blog/frontend-shorts-how-to-read-content-from-the-file-input-in-react/</guid>
+      <guid>//www.ilonacodes.com/blog/frontend-shorts-how-to-read-content-from-the-file-input-in-react/</guid>
       <description>&lt;p&gt;Hi, everyone! How is your weekend going?&lt;/p&gt;
 
 &lt;p&gt;As you know, I prefer learning to code by doing things. So, the last feature I have implemented for the app is the reading of the content from the uploaded (local) &lt;code&gt;.csv&lt;/code&gt; file from the user.&lt;/p&gt;
@@ -244,16 +244,16 @@ const ImportFromFileBodyComponent = () =&amp;gt; {
 
 &lt;p&gt;If you would like to know more, then read about &lt;code&gt;FileReader&lt;/code&gt;, &lt;code&gt;File&lt;/code&gt;, and &lt;code&gt;readAsText&lt;/code&gt; at &lt;a href=&#34;https://developer.mozilla.org/en-US/&#34;&gt;MDN&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Thank you for reading. I hope you find the post useful and will still be looking forward to new updates on &lt;a href=&#34;http://www.ilonacodes.com/blog/&#34;&gt;my blog&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Thank you for reading. I hope you find the post useful and will still be looking forward to new updates on &lt;a href=&#34;//www.ilonacodes.com/blog/&#34;&gt;my blog&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Front-end Shorts: How to Delete Item From The List With React&#43;Redux</title>
-      <link>http://www.ilonacodes.com/blog/front-end-shorts-how-to-delete-item-from-the-list-with-react-redux/</link>
+      <link>//www.ilonacodes.com/blog/front-end-shorts-how-to-delete-item-from-the-list-with-react-redux/</link>
       <pubDate>Thu, 22 Mar 2018 20:40:05 +0100</pubDate>
       
-      <guid>http://www.ilonacodes.com/blog/front-end-shorts-how-to-delete-item-from-the-list-with-react-redux/</guid>
+      <guid>//www.ilonacodes.com/blog/front-end-shorts-how-to-delete-item-from-the-list-with-react-redux/</guid>
       <description>&lt;p&gt;There are many possibilities how to remove multiple items from the array with JavaScript. So in this tutorial, I am going to share my approach to delete function with React+Redux.&lt;/p&gt;
 
 &lt;p&gt;It&amp;rsquo;s front-end shorts, and I am trying to highlight the most important information. Thus, just let’s have a look at the significant code snippets with explanations:&lt;/p&gt;
@@ -358,10 +358,10 @@ Thank you for reading! Also, if you’ve made this far, feel free to connect wit
     
     <item>
       <title>Front-end Shorts: Fetch List of Resources From REST-API</title>
-      <link>http://www.ilonacodes.com/blog/front-end-shorts-fetch-list-of-resources-from-rest-api/</link>
+      <link>//www.ilonacodes.com/blog/front-end-shorts-fetch-list-of-resources-from-rest-api/</link>
       <pubDate>Sat, 17 Mar 2018 15:00:05 +0100</pubDate>
       
-      <guid>http://www.ilonacodes.com/blog/front-end-shorts-fetch-list-of-resources-from-rest-api/</guid>
+      <guid>//www.ilonacodes.com/blog/front-end-shorts-fetch-list-of-resources-from-rest-api/</guid>
       <description>&lt;p&gt;Today I am going to tell you how to get JSON data from the Rest-API to UI using React+Redux frameworks.&lt;/p&gt;
 
 &lt;p&gt;In my case, the task looks like:&lt;/p&gt;
@@ -391,10 +391,10 @@ const loadExpenses = () =&amp;gt; {
     
     <item>
       <title>Front-end Shorts: Setting up React-Router-Redux</title>
-      <link>http://www.ilonacodes.com/blog/frontend-shorts-setting-up-react-router-redux/</link>
+      <link>//www.ilonacodes.com/blog/frontend-shorts-setting-up-react-router-redux/</link>
       <pubDate>Wed, 14 Mar 2018 15:30:05 +0100</pubDate>
       
-      <guid>http://www.ilonacodes.com/blog/frontend-shorts-setting-up-react-router-redux/</guid>
+      <guid>//www.ilonacodes.com/blog/frontend-shorts-setting-up-react-router-redux/</guid>
       <description>&lt;p&gt;Hi, everyone! How is your week going?&lt;/p&gt;
 
 &lt;p&gt;Yesterday I worked with the web application written on React + Redux and had had some problem with the &lt;code&gt;react-router-redux&lt;/code&gt; library. In short, the &lt;code&gt;push&lt;/code&gt; method (using for navigation outside of components) didn&amp;rsquo;t work.&lt;/p&gt;
@@ -448,10 +448,10 @@ ReactDOM.render(&amp;lt;Routes history={history} store={store}/&amp;gt;,
     
     <item>
       <title>Front-end Shorts: How to Create Parallax Effect With Vanilla JS</title>
-      <link>http://www.ilonacodes.com/blog/how-to-create-parallax-effect-with-vanilla-js/</link>
+      <link>//www.ilonacodes.com/blog/how-to-create-parallax-effect-with-vanilla-js/</link>
       <pubDate>Sat, 10 Mar 2018 20:45:05 +0100</pubDate>
       
-      <guid>http://www.ilonacodes.com/blog/how-to-create-parallax-effect-with-vanilla-js/</guid>
+      <guid>//www.ilonacodes.com/blog/how-to-create-parallax-effect-with-vanilla-js/</guid>
       <description>&lt;p&gt;Hi, there! I hope you enjoy your weekend, and ready for a new post.&lt;/p&gt;
 
 &lt;p&gt;Recently there are a lot of sites, which have featured with parallax scrolling effect, that represents them in more interactive &amp;ldquo;professionally-made&amp;rdquo; way.&lt;/p&gt;
@@ -489,10 +489,10 @@ ReactDOM.render(&amp;lt;Routes history={history} store={store}/&amp;gt;,
     
     <item>
       <title>Front-end Shorts: How to Scroll to Element in jQuery With Animation</title>
-      <link>http://www.ilonacodes.com/blog/front-end-shorts-how-to-scroll-to-element-in-jquery-with-animation/</link>
+      <link>//www.ilonacodes.com/blog/front-end-shorts-how-to-scroll-to-element-in-jquery-with-animation/</link>
       <pubDate>Thu, 08 Mar 2018 16:30:05 +0100</pubDate>
       
-      <guid>http://www.ilonacodes.com/blog/front-end-shorts-how-to-scroll-to-element-in-jquery-with-animation/</guid>
+      <guid>//www.ilonacodes.com/blog/front-end-shorts-how-to-scroll-to-element-in-jquery-with-animation/</guid>
       <description>&lt;p&gt;Here I am back and decided to continue blogging with front-end shorts. Unfortunately, I don&amp;rsquo;t have enough time to write big posts, but I would be happy to share some frontend tips and tricks that I have already applied for some of my projects.&lt;/p&gt;
 
 &lt;p&gt;The last days I had to work with Javascript and jQuery a lot apart from React and spent much time on creating templates. As you know, nowadays modern web pages include animated scrolling, which makes any site look professional and more elegant (instead of simple link element reference in HTML5).&lt;/p&gt;
@@ -522,10 +522,10 @@ return the coordinates of the element relative to the DOM, and top param gives u
     
     <item>
       <title>Clear Form in Redux when Navigating with React-Router</title>
-      <link>http://www.ilonacodes.com/blog/clear-form-in-redux-when-navigating-with-react-router/</link>
+      <link>//www.ilonacodes.com/blog/clear-form-in-redux-when-navigating-with-react-router/</link>
       <pubDate>Sun, 19 Mar 2017 19:25:05 +0100</pubDate>
       
-      <guid>http://www.ilonacodes.com/blog/clear-form-in-redux-when-navigating-with-react-router/</guid>
+      <guid>//www.ilonacodes.com/blog/clear-form-in-redux-when-navigating-with-react-router/</guid>
       <description>
 
 &lt;p&gt;Hi there!&lt;/p&gt;

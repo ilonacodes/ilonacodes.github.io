@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Css3 on Ilona Who Codes</title>
-    <link>http://www.ilonacodes.com/tags/css3/index.xml</link>
+    <link>//www.ilonacodes.com/tags/css3/index.xml</link>
     <description>Recent content in Css3 on Ilona Who Codes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://www.ilonacodes.com/tags/css3/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//www.ilonacodes.com/tags/css3/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Front-end Shorts: CSS3 Opacity - Background Only</title>
-      <link>http://www.ilonacodes.com/blog/frontend-shorts-css3-opacity-background-only/</link>
+      <link>//www.ilonacodes.com/blog/frontend-shorts-css3-opacity-background-only/</link>
       <pubDate>Mon, 23 Apr 2018 23:30:05 +0100</pubDate>
       
-      <guid>http://www.ilonacodes.com/blog/frontend-shorts-css3-opacity-background-only/</guid>
+      <guid>//www.ilonacodes.com/blog/frontend-shorts-css3-opacity-background-only/</guid>
       <description>&lt;p&gt;Hi everyone! It&amp;rsquo;s time for a new post.&lt;/p&gt;
 
 &lt;p&gt;What we do (I mean front-end web developers) isn&amp;rsquo;t all that unique.
@@ -77,7 +77,7 @@ Often we face the problem that seems easy to solve. However, sometimes we spend 
 
 &lt;p&gt;We apply the opacity to a separate &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt; and position the text on top of it.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.ilonacodes.com/blog/images/css3-opacity.png&#34; alt=&#34;Result&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//www.ilonacodes.com/blog/images/css3-opacity.png&#34; alt=&#34;Result&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Thank you for reading. Hope these tips help you and your team balance the details with the big picture.&lt;/p&gt;
 </description>
