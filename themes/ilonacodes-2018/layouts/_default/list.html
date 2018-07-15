@@ -1,0 +1,14 @@
+{{ define "main" }}
+  <header>
+  	<h1 class="blog-intro">What I'm Thinking...</h1>
+  </header>
+
+  {{ range .Data.Pages }}
+    {{ .Render "summary"}}
+  {{ end }}
+
+  <div class="text-center center-block">
+  	{{ template "_internal/pagination.html" . }}
+  </div>
+
+{{ end }}

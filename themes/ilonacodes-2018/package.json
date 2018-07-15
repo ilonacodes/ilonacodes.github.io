@@ -1,0 +1,16 @@
+{
+  "name": "hugo-theme-ilonacodes-2018",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "sass:w": "node-sass --watch --output ./static/css --source-map true --source-map-contents --include-path $PWD/node_modules ./static/scss/index.scss"
+  },
+  "dependencies": {
+    "autoprefixer": "^8.6.5",
+    "bootstrap": "^4.1.2",
+    "jquery": "^3.3.1",
+    "node-sass": "^4.9.2",
+    "popper.js": "^1.14.3"
+  },
+  "devDependencies": {}
+}

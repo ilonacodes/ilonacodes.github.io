@@ -1,10 +1,12 @@
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Ilona Who Codes & UXs"
 baseurl = "//www.ilonacodes.com/"
-theme = "hugo-geo-modified"
+theme = "ilonacodes-2018"
 
 [params]
 	showglobe = false
+
+	highlight = true
 
 	favicon = "favicon.ico"
 
@@ -19,18 +21,19 @@ theme = "hugo-geo-modified"
 	subtitle = "Aspiring UI/UX Designer and Front-End Developer"
 	location = "Berlin, Germany"
 
-	[[params.navlinks]]
-	name = "about me"
+[[params.navlinks]]
+	title = "ilonacodes"
 	url = "/"
+	main = true
 
-	[[params.navlinks]]
-	name = "ilonacodes"
-	url = "/"
+[[params.navlinks]]
+	title = "Blog"
+	url = "/blog"
 
-	[[params.navlinks]]
-	name = "read my blog"
-	url = "blog"
+[[params.navlinks]]
+	title = "Portfolio"
+	url = "/ui-ux-projects"
 
-	# [[params.navlinks]]
-	# name = "Contact"
-	# url = "contact"
+[[params.navlinks]]
+	title = "Contact"
+	url = "mailto:ilona@ilonacodes.com"

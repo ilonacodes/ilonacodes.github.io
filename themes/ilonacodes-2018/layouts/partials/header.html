@@ -1,0 +1,7 @@
+<div class="navigation">
+	<div class="row">
+		{{ range .Site.Params.navlinks }}
+			{{ partial "navlink.html" . }}
+		{{ end }}
+	</div>
+</div>

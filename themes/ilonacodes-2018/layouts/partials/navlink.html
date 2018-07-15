@@ -1,0 +1,13 @@
+{{ $config := newScratch }}
+
+{{ if isset . "main" }}
+  {{ $config.Set "classes" "col-12 navlink--main" }}
+{{ else }}
+  {{ $config.Set "classes" "col" }}
+{{ end }}
+
+<div class="text-center navlink {{ $config.Get "classes" }}">
+  <a class="navlink__link" href="{{ .url }}">
+    {{ .title }}
+  </a>
+</div>
