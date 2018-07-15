@@ -1,6 +1,6 @@
 +++
 highlight = true
-title = ""
+title = "Portfolio"
 description = ""
 tags = []
 draft = false
@@ -10,9 +10,7 @@ date = "2017-02-26T15:35:55+01:00"
 
 +++
 
-<center><h1>Portfolio</h1></center>
-
-<div class="row">
+<div class="">
 	<div class="col-xs-12 col-md-6 text-align: center">
 		<a href="https://ilonade.github.io/MyToDoList/"><h4 style="text-align: center; color: blue;">ToDo List</h4></a>
 		<img class="portfolio-half-screen-image" style="max-width: 100%; max-height: 100%;" src="/img/ToDo.png">
@@ -21,12 +19,12 @@ date = "2017-02-26T15:35:55+01:00"
 	<div class="col-xs-12 col-md-6 text-align: center">
 		<a href="https://github.com/ilonade/CampaignManager"><h4 style="text-align: center; color: blue;">Campaign Manager</h4></a>
 		<img class="portfolio-half-screen-image" style="max-width: 100%; max-height: 100%;" src="/img/CampaignManager.png">
-		
+
 		<p><b>Technologies: </b>HTML5, CSS3, Bootstrap, ECMAScript 6, React, Redux, Jasmine</p>
 	</div>
 </div>
 
-<div class="row">
+<div class="">
 	<div class="col-xs-12 col-md-6 text-align: center">
 		<a href="https://ilonade.github.io/FairyRings/Game.html"><h4 style="text-align: center; color: blue;">Fairy Rings</h4></a>
 		<img class="portfolio-half-screen-image" style="max-width: 100%; max-height: 100%;" src="/img/Rings.png">
@@ -35,13 +33,13 @@ date = "2017-02-26T15:35:55+01:00"
 	<div class="col-xs-12 col-md-6 text-align: center">
 		<a href="https://ilonade.github.io/Pomodoro/"><h4 style="text-align: center; color: blue;">Pomodoro</h4></a>
 		<img class="portfolio-half-screen-image" style="max-width: 100%; max-height: 100%;" src="/img/Pomodoro.png">
-		
+
 		<p><b>Technologies: </b>HTML5, CSS3, JavaScript, jQuery, Jasmine</p>
 	</div>
-	
+
 </div>
 
-<div class="row">
+<div class="">
 <center><h3>Yoga is key to flexability</h3></center>
 <br/>
 <img class="portfolio-half-screen-image" src="/img/Yoga.jpg">
@@ -74,5 +72,3 @@ date = "2017-02-26T15:35:55+01:00"
 <br/>
 <img class="portfolio-half-screen-image" src="/img/BrilliantShop.jpg">
 </div>
-
-<div style="text-align: center; opacity: 0.6"><p>ilonade (c) 2017</p></div>
