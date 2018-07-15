@@ -24,7 +24,7 @@ One will contain the other two.
 
 The first one is with the transparent background and the second one with the content.
 
-Then I make the container `<div>` position relative. For the <div> with the transparent background I set z-index with the negative number.
+Then I make the container `<div>` position relative. For the `<div>` with the transparent background I set z-index with the negative number.
 
 Finally, I adjust the position of the content to fit over the transparent background.
 
