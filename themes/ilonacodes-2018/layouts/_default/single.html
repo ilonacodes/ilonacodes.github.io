@@ -7,5 +7,13 @@
   	<article>
   		{{ .Content }}
   	</article>
+
+    <div class="next">
+      {{ with .PrevInSection }}
+        <a href="{{ .Permalink }}">
+          Next: {{ .Title }}
+        </a>
+      {{ end }}
+    </div>
   </main>
 {{ end }}

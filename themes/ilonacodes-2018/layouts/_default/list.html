@@ -3,7 +3,8 @@
   	<h1 class="blog-intro">What I'm Thinking...</h1>
   </header>
 
-  {{ range .Data.Pages }}
+  {{ $paginator := .Paginate (where .Data.Pages "Section" "blog") }}
+  {{ range $paginator.Pages }}
     {{ .Render "summary"}}
   {{ end }}
 
