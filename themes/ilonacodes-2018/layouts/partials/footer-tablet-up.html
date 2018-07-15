@@ -1,0 +1,29 @@
+<div class="col-12 d-none d-sm-block">
+  <div class="row">
+    <div class="col">
+      <div class="row no-gutters">
+        {{ range .Site.Params.footer.socialLinks }}
+          <div class="col text-center">
+            <a class="footer__socialLink" href="{{ .url }}">
+              <i class="footer__socialIcon {{ .iconClass }}"></i>
+            </a>
+          </div>
+        {{ end }}
+      </div>
+    </div>
+
+    <div class="col footer__copy text-center">
+      &copy; {{ .Site.Params.copyright }}
+    </div>
+
+    <div class="col footer__navlinks">
+      <div class="row">
+        {{ range .Site.Params.navlinks }}
+          {{ if not (isset . "main") }}
+            {{ partial "footer-navlink" . }}
+          {{ end }}
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</div>

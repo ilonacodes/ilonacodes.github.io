@@ -28,4 +28,10 @@ $icon-size: 1.5rem;
   .#{$C}__copy {
     color: $footer-copy-color;
   }
+
+  @include media-breakpoint-up(sm) {
+    .#{$C}__copy, .#{$C}__navlinks {
+      margin-top: 5px;
+    }
+  }
 }

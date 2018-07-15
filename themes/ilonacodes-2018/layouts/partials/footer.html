@@ -1,31 +1,8 @@
 <div class="footer">
   <div class="container footer__container">
     <div class="row">
-      <div class="col-8 footer__center">
-        <div class="row no-gutters footer__row">
-          {{ range .Site.Params.footer.socialLinks }}
-            <div class="col text-center">
-              <a class="footer__socialLink" href="{{ .url }}">
-                <i class="footer__socialIcon {{ .iconClass }}"></i>
-              </a>
-            </div>
-          {{ end }}
-        </div>
-
-        <div class="row no-gutters footer__row">
-          {{ range .Site.Params.navlinks }}
-            {{ if not (isset . "main") }}
-              {{ partial "footer-navlink" . }}
-            {{ end }}
-          {{ end }}
-        </div>
-
-        <div class="row footer__row footer__copy">
-          <div class="col text-center">
-            &copy; 2018 ilonacodes
-          </div>
-        </div>
-      </div>
+      {{ partial "footer-mobile" . }}
+      {{ partial "footer-tablet-up" . }}
     </div>
   </div>
 </div>

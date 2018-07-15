@@ -21,6 +21,8 @@ theme = "ilonacodes-2018"
 	subtitle = "Aspiring UI/UX Designer and Front-End Developer"
 	location = "Berlin, Germany"
 
+	copyright = "2018 ilonacodes"
+
 [[params.navlinks]]
 	title = "ilonacodes"
 	url = "/"

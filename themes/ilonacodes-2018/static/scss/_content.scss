@@ -1,9 +1,14 @@
 $C: #content;
 
+$top-margin: 150px;
+$top-margin-sm: 90px;
+$bottom-margin: 30px;
+
 #{$C} {
-  margin-top: 150px;
+  padding-top: $top-margin;
+  padding-bottom: $bottom-margin;
 
   @include media-breakpoint-up(sm) {
-    margin-top: 90px;
+    padding-top: $top-margin-sm;
   }
 }
