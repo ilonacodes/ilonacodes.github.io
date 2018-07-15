@@ -6338,4 +6338,8 @@ a.text-dark:hover, a.text-dark:focus {
 img {
   max-width: 100%; }
 
+.blog-title .blog-title__link {
+  color: #555555;
+  font-size: 2.1rem; }
+
 /*# sourceMappingURL=index.css.map */

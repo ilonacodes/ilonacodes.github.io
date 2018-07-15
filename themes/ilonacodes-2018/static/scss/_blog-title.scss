@@ -1,0 +1,11 @@
+@import "colors";
+@import "bootstrap_variables";
+
+$C: blog-title;
+
+.#{$C} {
+  .#{$C}__link {
+    color: $text-color;
+    font-size: $h3-font-size;
+  }
+}

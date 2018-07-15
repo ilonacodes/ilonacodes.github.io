@@ -1,12 +1,11 @@
 <div class="panel panel-default">
 	<div class="panel-header">
-		<h3>
-			<a href="{{ .Permalink }}">{{ .Title }}</a>
-			<br>
-			<small>
-				{{ .Date.Format "2 January 2006" }}
-			</small>
-		</h3>
+		<h2 class="blog-title">
+			<a class="blog-title__link" href="{{ .Permalink }}">{{ .Title }}</a>
+		</h2>
+		<div>
+			{{ .Date.Format "2 January 2006" }}
+		</div>
 	</div>
 	<div class="panel-body">
 		{{.Summary}}
