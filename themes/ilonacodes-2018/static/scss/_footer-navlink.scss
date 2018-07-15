@@ -1,0 +1,13 @@
+@import "colors";
+@import "bootstrap_variables";
+
+$C: footer-navlink;
+
+.#{$C} {
+  text-align: center;
+
+  .#{$C}__link {
+    color: $footer-text-color;
+    font-size: $font-size-sm;
+  }
+}

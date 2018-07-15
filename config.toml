@@ -37,3 +37,23 @@ theme = "ilonacodes-2018"
 [[params.navlinks]]
 	title = "Contact"
 	url = "mailto:ilona@ilonacodes.com"
+
+[[params.footer.socialLinks]]
+	iconClass = "fab fa-github"
+	url = "https://github.com/ilonacodes"
+
+[[params.footer.socialLinks]]
+	iconClass = "fab fa-instagram"
+	url = "https://instagram.com/ilonacodes"
+
+[[params.footer.socialLinks]]
+	iconClass = "fab fa-twitter-square"
+	url = "https://twitter.com/ilonacodes"
+
+[[params.footer.socialLinks]]
+	iconClass = "fab fa-medium"
+	url = "https://medium.com/@ilonacodes"
+
+[[params.footer.socialLinks]]
+	iconClass = "fab fa-dribbble"
+	url = "https://dribbble.com/ilonacodes"
