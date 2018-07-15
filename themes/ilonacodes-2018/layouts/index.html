@@ -1,0 +1,11 @@
+{{ define "main" }}
+  <main>
+    <article>
+      {{ range .Data.Pages }}
+        {{ if eq .RelPermalink "/main/" }}
+          {{ .Content }}
+        {{ end }}
+      {{ end }}
+    </article>
+  </main>
+{{ end }}

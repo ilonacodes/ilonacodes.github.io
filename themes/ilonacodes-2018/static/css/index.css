@@ -6345,4 +6345,7 @@ img {
   color: #555555;
   font-size: 2.1rem; }
 
+.profile-photo .profile-photo__image {
+  border-radius: 100%; }
+
 /*# sourceMappingURL=index.css.map */
