@@ -1,8 +1,4 @@
 {{ define "main" }}
-  <header>
-  	<h1 class="blog-intro">What I'm Thinking...</h1>
-  </header>
-
   {{ $paginator := .Paginate (where .Data.Pages "Section" "blog") }}
   {{ range $paginator.Pages }}
     {{ .Render "summary"}}
