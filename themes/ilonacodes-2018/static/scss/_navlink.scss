@@ -5,6 +5,7 @@ $C: navlink;
 
 .#{$C} {
   margin-bottom: 25px;
+  margin-top: 20px;
 
   .#{$C}__link {
     font-weight: $font-weight-bolder;
@@ -12,7 +13,7 @@ $C: navlink;
   }
 
   &--main {
-    margin-bottom: 10px;
+    margin-bottom: -10px;
     margin-top: 10px;
 
     .#{$C}__link {

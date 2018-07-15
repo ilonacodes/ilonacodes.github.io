@@ -1,3 +1,9 @@
-#content {
+$C: #content;
+
+#{$C} {
   margin-top: 150px;
+
+  @include media-breakpoint-up(sm) {
+    margin-top: 90px;
+  }
 }
