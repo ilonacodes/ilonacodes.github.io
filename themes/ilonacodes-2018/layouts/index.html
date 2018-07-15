@@ -1,6 +1,6 @@
 {{ define "main" }}
   <main>
-    <article>
+    <article class="main-page">
       {{ range .Data.Pages }}
         {{ if eq .RelPermalink "/main/" }}
           {{ .Content }}

@@ -6,7 +6,7 @@
   {{ $config.Set "classes" "col" }}
 {{ end }}
 
-<div class="navlink text-center {{ $config.Get "classes" }}">
+<div class="navlink {{ $config.Get "classes" }}">
   <a class="navlink__link" href="{{ .url }}">
     {{ .title }}
   </a>

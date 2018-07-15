@@ -6,6 +6,7 @@ $C: navlink;
 .#{$C} {
   margin-bottom: 25px;
   margin-top: 20px;
+  text-align: center;
 
   .#{$C}__link {
     font-weight: $font-weight-bolder;
@@ -20,6 +21,14 @@ $C: navlink;
       font-weight: $font-weight-bold;
       font-size: $h3-font-size;
       color: $primary-color;
+    }
+  }
+
+  @include media-breakpoint-up(sm) {
+    text-align: right;
+
+    &--main {
+      text-align: left;
     }
   }
 }
