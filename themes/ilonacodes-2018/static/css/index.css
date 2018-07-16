@@ -6346,7 +6346,7 @@ a.text-dark:hover, a.text-dark:focus {
         text-align: left; } }
 
 img {
-  max-width: 100%; }
+  width: 100%; }
 
 .summary {
   padding-bottom: 30px;
@@ -6365,6 +6365,19 @@ img {
   .summary .summary__tag {
     color: #F20094;
     font-weight: 400; }
+  .summary .summary__meta-column {
+    max-width: 160px;
+    padding-top: 10px; }
+  .summary .summary__meta-column__date {
+    background-color: #222222;
+    color: #FFFFFF;
+    padding: 3px; }
+  .summary .summary__meta-column__day {
+    font-size: 2.4rem; }
+  .summary .summary__meta-column__tags {
+    margin-top: 15px;
+    text-align: right;
+    word-wrap: break-word; }
 
 .main-page h2 {
   text-align: center;

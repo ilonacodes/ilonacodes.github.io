@@ -2,6 +2,7 @@
 css = []
 highlight = true
 date = "2018-04-23T23:30:05+01:00"
+cover = "/blog/images/css3-opacity.png"
 title = "Front-end Shorts: CSS3 Opacity - Background Only"
 tags = ["react", "css3", "javascript", "frontend", "opacity", "coding", "womenwhocode"]
 draft = false

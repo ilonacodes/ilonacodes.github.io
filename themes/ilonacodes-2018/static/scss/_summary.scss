@@ -30,4 +30,25 @@ $C: summary;
     color: $primary-color;
     font-weight: $font-weight-bold;
   }
+
+  .#{$C}__meta-column {
+    max-width: 160px;
+    padding-top: 10px;
+  }
+
+  .#{$C}__meta-column__date {
+    background-color: $meta-date-bg-color;
+    color: $meta-date-color;
+    padding: 3px;
+  }
+
+  .#{$C}__meta-column__day {
+    font-size: $h2-font-size;
+  }
+
+  .#{$C}__meta-column__tags {
+    margin-top: 15px;
+    text-align: right;
+    word-wrap: break-word;
+  }
 }
