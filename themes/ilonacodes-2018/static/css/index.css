@@ -6358,7 +6358,8 @@ img {
   .summary .summary__date {
     margin-bottom: 15px; }
   .summary .summary__body {
-    margin-top: 15px; }
+    margin-top: 15px;
+    text-align: justify; }
   .summary .summary__read-full {
     margin-top: 20px;
     margin-bottom: 20px; }
@@ -6441,5 +6442,17 @@ html, body {
     padding-bottom: 71px; }
   .footer {
     height: 71px; } }
+
+.latest-articles {
+  margin-top: 50px; }
+  .latest-articles .latest-articles__title {
+    font-weight: 600; }
+  .latest-articles .latest-articles__article {
+    margin-top: 15px;
+    line-height: 1.1; }
+  .latest-articles .latest-articles__link {
+    color: #F20094;
+    text-decoration: underline;
+    font-weight: 400; }
 
 /*# sourceMappingURL=index.css.map */

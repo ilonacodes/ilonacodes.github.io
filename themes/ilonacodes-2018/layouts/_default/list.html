@@ -1,8 +1,35 @@
 {{ define "main" }}
-  {{ $paginator := .Paginate (where .Data.Pages "Section" "blog") }}
-  {{ range $paginator.Pages }}
-    {{ .Render "summary"}}
-  {{ end }}
+  <div class="row">
+    <div class="col">
+      {{ $paginator := .Paginate (where .Data.Pages "Section" "blog") }}
+      {{ range $paginator.Pages }}
+        {{ .Render "summary"}}
+      {{ end }}
+    </div>
+
+    <div class="col-3 d-none d-sm-block">
+      {{ partial "profile-photo" . }}
+      <div class="text-center">
+        {{ .Site.Params.profileBio }}
+        <br/>
+        {{ .Site.Params.profileLocation }}
+      </div>
+
+      <div class="latest-articles">
+        <div class="latest-articles__title">
+          The latest articles:
+        </div>
+
+        {{ range first 3 (where .Data.Pages "Section" "blog") }}
+          <div class="latest-articles__article">
+            <a class="latest-articles__link" href="{{ .Permalink }}">
+              {{ .Title }}
+            </a>
+          </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
 
   <div class="text-center center-block">
   	{{ template "_internal/pagination.html" . }}
