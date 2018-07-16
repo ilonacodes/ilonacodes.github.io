@@ -10,8 +10,10 @@
     {{ partial "sidebar.html" . }}
   </div>
 
-  <div class="text-center center-block">
-  	{{ template "_internal/pagination.html" . }}
+  <div class="row justify-content-center">
+    <div class="col-auto">
+  	  {{ template "_internal/pagination.html" . }}
+    </div>
   </div>
 
 {{ end }}
