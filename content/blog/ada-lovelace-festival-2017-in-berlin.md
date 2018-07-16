@@ -2,6 +2,7 @@
 css = []
 highlight = true
 date = "2017-10-23T7:00:05+01:00"
+cover = "/blog/images/ada-lovelace-2.jpg"
 title = "Ada Lovelace Festival 2017 in Berlin"
 tags = ["IT", "meetup", "learntocode", "talk", "coding", "inspiration", "womenintech", "conference", "berlin"]
 draft = false

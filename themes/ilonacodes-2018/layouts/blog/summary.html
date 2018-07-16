@@ -1,26 +1,39 @@
-<div class="panel panel-default">
-	<div class="panel-header">
-		<h2 class="blog-title">
-			<a class="blog-title__link" href="{{ .Permalink }}">{{ .Title }}</a>
-		</h2>
-		<div>
-			{{ .Date.Format "2 January 2006" }}
+<div class="summary">
+	<h2 class="summary__title">
+		<a class="summary__title__link" href="{{ .Permalink }}">
+			{{ .Title }}
+		</a>
+	</h2>
+
+	<div class="summary__date">
+		{{ .Date.Format "2 Jan, 2006" }}
+	</div>
+
+	{{ if isset .Params "cover" }}
+		<div class="summary__cover">
+			<img src="{{.Params.cover}}" alt="blog post cover">
 		</div>
-	</div>
-	<div class="panel-body">
+	{{ end }}
+
+	<div class="summary__body">
 		{{.Summary}}
-		{{ if .Truncated }}
-			... <a href="{{ .Permalink }}">Read More</a>
-		{{ end }}
 	</div>
-	<div class="panel-footer">
+
+	<div class="summary__read-full">
+		<a href="{{ .Permalink }}" class="btn btn-primary">Read My Full Post</a>
+	</div>
+
+	<div class="summary__tags">
 		{{ if isset .Params "tags" }}
-		<small class="text-muted">
+			Tags |
 			{{ $base := .Site.BaseURL }}
 			{{ range $tag := .Params.tags }}
-				<a href="{{ $base }}tags/{{ $tag | urlize }}"><span class="label label-success">{{ . }}</span></a>
+				<a href="{{ $base }}tags/{{ $tag | urlize }}">
+					<span class="summary__tag">
+						#{{ . }}
+					</span>
+				</a>
 			{{ end }}
-		</small>
 		{{ end }}
 	</div>
 </div>

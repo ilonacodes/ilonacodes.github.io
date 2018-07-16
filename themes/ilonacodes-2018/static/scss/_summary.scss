@@ -1,0 +1,33 @@
+@import "colors";
+@import "bootstrap_variables";
+
+$C: summary;
+
+.#{$C} {
+  padding-bottom: 30px;
+  border-bottom: 1px solid $border-color;
+  margin-bottom: 30px;
+
+  .#{$C}__title__link {
+    color: $text-color;
+    font-size: $h3-font-size;
+  }
+
+  .#{$C}__date {
+    margin-bottom: 15px;
+  }
+
+  .#{$C}__body {
+    margin-top: 15px;
+  }
+
+  .#{$C}__read-full {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .#{$C}__tag {
+    color: $primary-color;
+    font-weight: $font-weight-bold;
+  }
+}
