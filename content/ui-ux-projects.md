@@ -1,6 +1,7 @@
 +++
 highlight = true
-title = ""
+layout = "portfolio"
+title = "Portfolio"
 description = ""
 tags = []
 draft = false
@@ -8,6 +9,15 @@ scripts = []
 css = []
 date = "2018-06-23T10:35:55+01:00"
 +++
+
+<style>
+  .projects h1,
+  .projects h2,
+  .projects h3 {
+    text-align: center;
+  }
+</style>
+
 <h3 style="text-align: center">Tool Stack</h3>
 <img src="/toolstack.png"></img>
 <!-- <h3 style="text-align: center">Projects</h3> -->

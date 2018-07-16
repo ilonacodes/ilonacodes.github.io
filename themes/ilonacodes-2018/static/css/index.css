@@ -6348,6 +6348,10 @@ a.text-dark:hover, a.text-dark:focus {
 img {
   width: 100%; }
 
+.next-article a {
+  color: #F20094;
+  font-weight: 400; }
+
 .post {
   padding-bottom: 30px;
   border-bottom: 1px solid #E5E5E5;

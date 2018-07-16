@@ -1,0 +1,83 @@
+<div class="post row">
+	<div class="post__meta-column col-3 d-none d-sm-block">
+		<div class="row no-gutters post__meta-column__date">
+			{{ $year := .context.Date.Format "2006" }}
+			{{ $month := .context.Date.Format "Jan" }}
+			{{ $day := .context.Date.Format "2" }}
+			<div class="col text-center post__meta-column__day">
+				{{ $day }}
+			</div>
+			<div class="col">
+				<div class="post__meta-column__month">{{ $month }}</div>
+				<div class="post__meta-column__year">{{ $year }}</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col post__meta-column__tags">
+				{{ if isset .context.Params "tags" }}
+					{{ $base := .Site.BaseURL }}
+					{{ range $tag := .context.Params.tags }}
+						<a href="{{ $base }}tags/{{ $tag | urlize }}">
+							<div class="post__tag">
+								#{{ . }}
+							</div>
+						</a>
+					{{ end }}
+				{{ end }}
+			</div>
+		</div>
+	</div>
+
+	<div class="post__primary-column col col-sm-8 col-lg-9">
+		{{ if .isSingle }}
+			<h1 class="post__title">
+				{{ .context.Title }}
+			</h1>
+		{{ else }}
+			<h2 class="post__title">
+				<a class="post__title__link" href="{{ .context.Permalink }}">
+					{{ .context.Title }}
+				</a>
+			</h2>
+		{{ end }}
+
+		<div class="post__date d-sm-none">
+			{{ .context.Date.Format "2 Jan, 2006" }}
+		</div>
+
+		{{ if and (isset .context.Params "cover") (not .isSingle) }}
+			<div class="post__cover">
+				<img src="{{.context.Params.cover}}" alt="blog post cover">
+			</div>
+		{{ end }}
+
+		<div class="post__body">
+      {{ if .isSingle }}
+        {{.context.Content}}
+      {{ else }}
+		    {{.context.Summary}}
+      {{ end }}
+		</div>
+
+    {{ if not .isSingle }}
+  		<div class="post__read-full">
+  			<a href="{{ .context.Permalink }}" class="btn btn-primary">Read My Full Post</a>
+  		</div>
+    {{ end }}
+
+		<div class="post__tags d-sm-none">
+			{{ if isset .context.Params "tags" }}
+				Tags |
+				{{ $base := .Site.BaseURL }}
+				{{ range $tag := .context.Params.tags }}
+					<a href="{{ $base }}tags/{{ $tag | urlize }}">
+						<span class="post__tag">
+							#{{ . }}
+						</span>
+					</a>
+				{{ end }}
+			{{ end }}
+		</div>
+	</div>
+</div>

@@ -1,19 +1,21 @@
 {{ define "main" }}
-  <main>
-  	<header>
-  		<h1>{{ .Title }}</h1>
-  	</header>
+  <div class="row">
+    <div class="col">
+      <main>
+      	<article>
+      		{{ .Render "single-post" }}
+      	</article>
 
-  	<article>
-  		{{ .Content }}
-  	</article>
-
-    <div class="next">
-      {{ with .PrevInSection }}
-        <a href="{{ .Permalink }}">
-          Next: {{ .Title }}
-        </a>
-      {{ end }}
+        <div class="next-article">
+          {{ with .PrevInSection }}
+            <a href="{{ .Permalink }}">
+              Next: {{ .Title }}
+            </a>
+          {{ end }}
+        </div>
+      </main>
     </div>
-  </main>
+
+    {{ partial "sidebar.html" . }}
+  </div>
 {{ end }}
