@@ -6348,34 +6348,34 @@ a.text-dark:hover, a.text-dark:focus {
 img {
   width: 100%; }
 
-.summary {
+.post {
   padding-bottom: 30px;
   border-bottom: 1px solid #E5E5E5;
   margin-bottom: 30px; }
-  .summary .summary__title__link {
+  .post .post__title__link {
     color: #555555;
     font-size: 2.1rem; }
-  .summary .summary__date {
+  .post .post__date {
     margin-bottom: 15px; }
-  .summary .summary__body {
+  .post .post__body {
     margin-top: 15px;
     text-align: justify; }
-  .summary .summary__read-full {
+  .post .post__read-full {
     margin-top: 20px;
     margin-bottom: 20px; }
-  .summary .summary__tag {
+  .post .post__tag {
     color: #F20094;
     font-weight: 400; }
-  .summary .summary__meta-column {
+  .post .post__meta-column {
     max-width: 160px;
     padding-top: 10px; }
-  .summary .summary__meta-column__date {
+  .post .post__meta-column__date {
     background-color: #222222;
     color: #FFFFFF;
     padding: 3px; }
-  .summary .summary__meta-column__day {
+  .post .post__meta-column__day {
     font-size: 2.4rem; }
-  .summary .summary__meta-column__tags {
+  .post .post__meta-column__tags {
     margin-top: 15px;
     text-align: right;
     word-wrap: break-word; }

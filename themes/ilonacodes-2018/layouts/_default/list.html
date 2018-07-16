@@ -3,7 +3,7 @@
     <div class="col">
       {{ $paginator := .Paginate (where .Data.Pages "Section" "blog") }}
       {{ range $paginator.Pages }}
-        {{ .Render "summary"}}
+        {{ .Render "post"}}
       {{ end }}
     </div>
 

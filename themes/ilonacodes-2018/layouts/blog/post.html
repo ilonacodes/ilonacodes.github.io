@@ -1,25 +1,25 @@
-<div class="summary row">
-	<div class="summary__meta-column col-3 d-none d-sm-block">
-		<div class="row no-gutters summary__meta-column__date">
+<div class="post row">
+	<div class="post__meta-column col-3 d-none d-sm-block">
+		<div class="row no-gutters post__meta-column__date">
 			{{ $year := .Date.Format "2006" }}
 			{{ $month := .Date.Format "Jan" }}
 			{{ $day := .Date.Format "2" }}
-			<div class="col text-center summary__meta-column__day">
+			<div class="col text-center post__meta-column__day">
 				{{ $day }}
 			</div>
 			<div class="col">
-				<div class="summary__meta-column__month">{{ $month }}</div>
-				<div class="summary__meta-column__year">{{ $year }}</div>
+				<div class="post__meta-column__month">{{ $month }}</div>
+				<div class="post__meta-column__year">{{ $year }}</div>
 			</div>
 		</div>
 
 		<div class="row">
-			<div class="col summary__meta-column__tags">
+			<div class="col post__meta-column__tags">
 				{{ if isset .Params "tags" }}
 					{{ $base := .Site.BaseURL }}
 					{{ range $tag := .Params.tags }}
 						<a href="{{ $base }}tags/{{ $tag | urlize }}">
-							<div class="summary__tag">
+							<div class="post__tag">
 								#{{ . }}
 							</div>
 						</a>
@@ -29,38 +29,38 @@
 		</div>
 	</div>
 
-	<div class="summary__primary-column col">
-		<h2 class="summary__title">
-			<a class="summary__title__link" href="{{ .Permalink }}">
+	<div class="post__primary-column col">
+		<h2 class="post__title">
+			<a class="post__title__link" href="{{ .Permalink }}">
 				{{ .Title }}
 			</a>
 		</h2>
 
-		<div class="summary__date d-sm-none">
+		<div class="post__date d-sm-none">
 			{{ .Date.Format "2 Jan, 2006" }}
 		</div>
 
 		{{ if isset .Params "cover" }}
-			<div class="summary__cover">
+			<div class="post__cover">
 				<img src="{{.Params.cover}}" alt="blog post cover">
 			</div>
 		{{ end }}
 
-		<div class="summary__body">
+		<div class="post__body">
 			{{.Summary}}
 		</div>
 
-		<div class="summary__read-full">
+		<div class="post__read-full">
 			<a href="{{ .Permalink }}" class="btn btn-primary">Read My Full Post</a>
 		</div>
 
-		<div class="summary__tags d-sm-none">
+		<div class="post__tags d-sm-none">
 			{{ if isset .Params "tags" }}
 				Tags |
 				{{ $base := .Site.BaseURL }}
 				{{ range $tag := .Params.tags }}
 					<a href="{{ $base }}tags/{{ $tag | urlize }}">
-						<span class="summary__tag">
+						<span class="post__tag">
 							#{{ . }}
 						</span>
 					</a>
