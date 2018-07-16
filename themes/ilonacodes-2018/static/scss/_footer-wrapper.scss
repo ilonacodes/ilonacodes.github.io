@@ -2,7 +2,7 @@ $C: footer;
 $W: footer-wrapper;
 
 $footer-height: 152px;
-$footer-height-sm: 71px;
+$footer-height-md: 71px;
 
 html, body {
   height: 100%;
@@ -25,12 +25,12 @@ html, body {
   height: $footer-height;
 }
 
-@include media-breakpoint-up(sm) {
+@include media-breakpoint-up(md) {
   .#{$W} {
-    padding-bottom: $footer-height-sm;
+    padding-bottom: $footer-height-md;
   }
 
   .#{$C} {
-    height: $footer-height-sm;
+    height: $footer-height-md;
   }
 }

@@ -6312,7 +6312,7 @@ a.text-dark:hover, a.text-dark:focus {
 #content {
   padding-top: 150px;
   padding-bottom: 30px; }
-  @media (min-width: 576px) {
+  @media (min-width: 768px) {
     #content {
       padding-top: 90px; } }
 
@@ -6339,7 +6339,7 @@ a.text-dark:hover, a.text-dark:focus {
       font-weight: 400;
       font-size: 2.1rem;
       color: #F20094; }
-  @media (min-width: 576px) {
+  @media (min-width: 768px) {
     .navlink {
       text-align: right; }
       .navlink--main {
@@ -6415,7 +6415,7 @@ img {
     font-size: 1.5rem; }
   .footer .footer__copy {
     color: #A5A5A5; }
-  @media (min-width: 576px) {
+  @media (min-width: 768px) {
     .footer .footer__copy, .footer .footer__navlinks {
       margin-top: 5px; } }
 
@@ -6441,7 +6441,7 @@ html, body {
   width: 100%;
   height: 152px; }
 
-@media (min-width: 576px) {
+@media (min-width: 768px) {
   .footer-wrapper {
     padding-bottom: 71px; }
   .footer {

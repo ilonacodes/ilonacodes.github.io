@@ -1,6 +1,6 @@
 {{ define "main" }}
   <div class="row">
-    <div class="col">
+    <div class="col col-md-9">
       {{ $paginator := .Paginate (where .Data.Pages "Section" "blog") }}
       {{ range $paginator.Pages }}
         {{ .Render "list-post"}}

@@ -24,7 +24,7 @@ $C: navlink;
     }
   }
 
-  @include media-breakpoint-up(sm) {
+  @include media-breakpoint-up(md) {
     text-align: right;
 
     &--main {

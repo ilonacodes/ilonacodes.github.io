@@ -1,6 +1,6 @@
 languageCode = "en-us"
 title = "Ilona Who Codes & UXs"
-baseurl = "//www.ilonacodes.com/"
+baseURL = "//www.ilonacodes.com/"
 theme = "ilonacodes-2018"
 
 [params]

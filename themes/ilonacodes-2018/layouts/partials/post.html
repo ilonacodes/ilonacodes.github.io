@@ -1,5 +1,5 @@
 <div class="post row">
-	<div class="post__meta-column col-3 d-none d-sm-block">
+	<div class="post__meta-column col-3 d-none d-md-block">
 		<div class="row no-gutters post__meta-column__date">
 			{{ $year := .context.Date.Format "2006" }}
 			{{ $month := .context.Date.Format "Jan" }}
@@ -18,7 +18,7 @@
 				{{ if isset .context.Params "tags" }}
 					{{ $base := .Site.BaseURL }}
 					{{ range $tag := .context.Params.tags }}
-						<a href="{{ $base }}tags/{{ $tag | urlize }}">
+						<a href="/tags/{{ $tag | urlize }}">
 							<div class="post__tag">
 								#{{ . }}
 							</div>
@@ -29,7 +29,7 @@
 		</div>
 	</div>
 
-	<div class="post__primary-column col col-sm-8 col-lg-9">
+	<div class="post__primary-column col col-md-8 col-lg-9">
 		{{ if .isSingle }}
 			<h1 class="post__title">
 				{{ .context.Title }}
@@ -42,7 +42,7 @@
 			</h2>
 		{{ end }}
 
-		<div class="post__date d-sm-none">
+		<div class="post__date d-md-none">
 			{{ .context.Date.Format "2 Jan, 2006" }}
 		</div>
 
@@ -66,12 +66,12 @@
   		</div>
     {{ end }}
 
-		<div class="post__tags d-sm-none">
+		<div class="post__tags d-md-none">
 			{{ if isset .context.Params "tags" }}
 				Tags |
 				{{ $base := .Site.BaseURL }}
 				{{ range $tag := .context.Params.tags }}
-					<a href="{{ $base }}tags/{{ $tag | urlize }}">
+					<a href="/tags/{{ $tag | urlize }}">
 						<span class="post__tag">
 							#{{ . }}
 						</span>
