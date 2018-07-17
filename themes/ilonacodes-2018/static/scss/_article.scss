@@ -6,3 +6,9 @@ img {
   color: $primary-color;
   font-weight: $font-weight-bold;
 }
+
+.layout--list {
+  figure {
+    display: none;
+  }
+}

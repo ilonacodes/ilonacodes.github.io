@@ -303,7 +303,7 @@ h1, h2, h3, h4, h5, h6,
   font-family: inherit;
   font-weight: 200;
   line-height: 1.2;
-  color: inherit; }
+  color: #222222; }
 
 h1, .h1 {
   font-size: 2.4rem; }
@@ -4068,7 +4068,7 @@ button.close {
   padding: 0.5rem 0.75rem;
   margin-bottom: 0;
   font-size: 1.2rem;
-  color: inherit;
+  color: #222222;
   background-color: #f7f7f7;
   border-bottom: 1px solid #ebebeb;
   border-top-left-radius: calc(0.3rem - 1px);
@@ -6352,12 +6352,15 @@ img {
   color: #F20094;
   font-weight: 400; }
 
+.layout--list figure {
+  display: none; }
+
 .post {
   padding-bottom: 30px;
   border-bottom: 1px solid #E5E5E5;
   margin-bottom: 30px; }
   .post .post__title__link {
-    color: #555555;
+    color: #222222;
     font-size: 2.1rem; }
   .post .post__date {
     margin-bottom: 15px; }
@@ -6458,5 +6461,10 @@ html, body {
     color: #F20094;
     text-decoration: underline;
     font-weight: 400; }
+
+figure h4 {
+  font-size: 0.7rem;
+  text-align: center;
+  margin-top: 10px; }
 
 /*# sourceMappingURL=index.css.map */
