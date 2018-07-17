@@ -1,80 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Client on Ilona Who Codes</title>
-    <link>//www.ilonacodes.com/tags/client/index.xml</link>
-    <description>Recent content in Client on Ilona Who Codes</description>
+    <title>Client on Ilona Who Codes &amp; UXs</title>
+    <link>//www.ilonacodes.com/tags/client/</link>
+    <description>Recent content in Client on Ilona Who Codes &amp; UXs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="//www.ilonacodes.com/tags/client/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 17 Jul 2017 21:45:05 +0100</lastBuildDate>
+    
+	<atom:link href="//www.ilonacodes.com/tags/client/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Starting with REST API: Figuring out</title>
-      <link>//www.ilonacodes.com/blog/starting-with-REST-API/</link>
+      <link>//www.ilonacodes.com/blog/starting-with-rest-api/</link>
       <pubDate>Mon, 17 Jul 2017 21:45:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/starting-with-REST-API/</guid>
-      <description>&lt;p&gt;Today I started doing backend part for my project. It will be written in Ruby language and using Sinatra framework.&lt;/p&gt;
-
-&lt;p&gt;This post is directed at readers that have little experiences to understand the aim of REST API for a product development.&lt;/p&gt;
-
-&lt;p&gt;Coming back to my project, I had to implement search and preview functionalities. I used a .txt file to describe the REST API precisely and go through it step by step.&lt;/p&gt;
-
-&lt;p&gt;As you know, the client talks to the server via the REST API. In my case, the client is a React/Redux app running in the browser.&lt;/p&gt;
-
-&lt;p&gt;After analyzing spec features for the application, I understood which methods I need to use when the user clicks the search button and when the user clicks on the search result to preview this photo.&lt;/p&gt;
-
-&lt;p&gt;Probably, some of you have already guessed that in both occasions I am going to use GET method for both endpoints. That is because they only are used to request the information from the server, and they don&amp;rsquo;t change the state of the system.&lt;/p&gt;
-
-&lt;p&gt;I am still not using the database for storing photos data, so I have to fetch the data from the file system.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;client (browser or test )
-user clicks search
-       |
-       |
-       |
-       v
-server (sinatra)
-GET /search?query=girl
---&amp;gt; 200 OK {
-    &amp;quot;search_results&amp;quot;: [
-        {
-            src: &amp;quot;http://localhost:8080/static/girl1.png&amp;quot;,
-            name: &amp;quot;girl&amp;quot;,
-            id: 1,
-            tags: [&amp;quot;girl&amp;quot;, &amp;quot;woman&amp;quot;, &amp;quot;blue&amp;quot;, &amp;quot;hat&amp;quot;, &amp;quot;nature&amp;quot;, &amp;quot;smoke&amp;quot;, &amp;quot;trees&amp;quot;, &amp;quot;hand&amp;quot;, &amp;quot;art&amp;quot;]
-        },
-        {
-            src: &amp;quot;http://localhost:8080/static/girl2.png&amp;quot;,
-            name: &amp;quot;meditation&amp;quot;,
-            id: 5,
-            tags: [&amp;quot;boy&amp;quot;, &amp;quot;meditation&amp;quot;, &amp;quot;ancient&amp;quot;, &amp;quot;girl&amp;quot;]
-        }
-    ]
-}
-
----
-
-client (browser)
-user clicks on the search result (photo) to see the photo preview
-       |
-       |
-       |
-       v
-server (sinatra)
-GET /preview/4
---&amp;gt; 200 OK {
-    src: &amp;quot;http://localhost:8080/static/skyscraper.png&amp;quot;,
-    name: &amp;quot;skyscraper&amp;quot;,
-    id: 4,
-    tags: [&amp;quot;skyscraper&amp;quot;, &amp;quot;city&amp;quot;, &amp;quot;build&amp;quot;]
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;I hope, my plot is readable enough and understandable, so you can get an idea how I am going to implement the request-response interaction between the client application and the server.&lt;/p&gt;
-
-&lt;p&gt;Thank you for reading!&lt;/p&gt;
-</description>
+      <guid>//www.ilonacodes.com/blog/starting-with-rest-api/</guid>
+      <description>Today I started doing backend part for my project. It will be written in Ruby language and using Sinatra framework.
+This post is directed at readers that have little experiences to understand the aim of REST API for a product development.
+Coming back to my project, I had to implement search and preview functionalities. I used a .txt file to describe the REST API precisely and go through it step by step.</description>
     </item>
     
   </channel>

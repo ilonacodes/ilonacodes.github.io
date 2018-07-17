@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Frontend on Ilona Who Codes</title>
-    <link>//www.ilonacodes.com/tags/frontend/index.xml</link>
-    <description>Recent content in Frontend on Ilona Who Codes</description>
+    <title>Frontend on Ilona Who Codes &amp; UXs</title>
+    <link>//www.ilonacodes.com/tags/frontend/</link>
+    <description>Recent content in Frontend on Ilona Who Codes &amp; UXs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="//www.ilonacodes.com/tags/frontend/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 23 Apr 2018 23:30:05 +0100</lastBuildDate>
+    
+	<atom:link href="//www.ilonacodes.com/tags/frontend/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Front-end Shorts: CSS3 Opacity - Background Only</title>
@@ -14,73 +17,9 @@
       <pubDate>Mon, 23 Apr 2018 23:30:05 +0100</pubDate>
       
       <guid>//www.ilonacodes.com/blog/frontend-shorts-css3-opacity-background-only/</guid>
-      <description>&lt;p&gt;Hi everyone! It&amp;rsquo;s time for a new post.&lt;/p&gt;
-
-&lt;p&gt;What we do (I mean front-end web developers) isn&amp;rsquo;t all that unique.
-Often we face the problem that seems easy to solve. However, sometimes we spend hours on finding the solution.&lt;/p&gt;
-
-&lt;p&gt;In this case, I wanted to change the opacity of the app teaser background color and don&amp;rsquo;t change the opacity of links. I have tried some silly approaches that seemed logical to me, and they all have failed.&lt;/p&gt;
-
-&lt;p&gt;In the end, I have found the right way to do that, and I&amp;rsquo;m going to share it with you.&lt;/p&gt;
-
-&lt;p&gt;My solution is to create three &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt; elements.&lt;/p&gt;
-
-&lt;p&gt;One will contain the other two.&lt;/p&gt;
-
-&lt;p&gt;The first one is with the transparent background and the second one with the content.&lt;/p&gt;
-
-&lt;p&gt;Then I make the container &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt; position relative. For the &lt;div&gt; with the transparent background I set z-index with the negative number.&lt;/p&gt;
-
-&lt;p&gt;Finally, I adjust the position of the content to fit over the transparent background.&lt;/p&gt;
-
-&lt;p&gt;Voila, there is no issue with absolute positioning.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;!-- index.html --&amp;gt;
-
-&amp;lt;div class=&amp;quot;container&amp;quot;&amp;gt;
-  &amp;lt;div class=&amp;quot;opacity&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
-  &amp;lt;div class=&amp;quot;content&amp;quot;&amp;gt;Hello, World!&amp;lt;/div&amp;gt;
-&amp;lt;/div&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;/* index.css */
-
-.container {
-  position: relative;
-  width: 100px;
-  height: 100px;
-  margin: 0 auto;
-}
-
-.content {
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  z-index: 1;
-  top: 40%;
-  left: 5%;
-}
-
-.opacity {
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  z-index: -1;
-  background-color: green;
-  opacity: 0.2;
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;The &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt; element with the &lt;code&gt;container&lt;/code&gt; class should have relative positioning, and absolute for others, so it&amp;rsquo;s possible to move and to adjust them inside the parent &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Please keep in mind, that &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt; with transparent background and the one with the content should not contain each other. These &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt;&amp;rsquo;s should be siblings and be children of the container &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt; element.&lt;/p&gt;
-
-&lt;p&gt;We apply the opacity to a separate &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt; and position the text on top of it.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;//www.ilonacodes.com/blog/images/css3-opacity.png&#34; alt=&#34;Result&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Thank you for reading. Hope these tips help you and your team balance the details with the big picture.&lt;/p&gt;
-</description>
+      <description>Hi everyone! It&amp;rsquo;s time for a new post.
+What we do (I mean front-end web developers) isn&amp;rsquo;t all that unique. Often we face the problem that seems easy to solve. However, sometimes we spend hours on finding the solution.
+In this case, I wanted to change the opacity of the app teaser background color and don&amp;rsquo;t change the opacity of links. I have tried some silly approaches that seemed logical to me, and they all have failed.</description>
     </item>
     
     <item>
@@ -89,49 +28,10 @@ Often we face the problem that seems easy to solve. However, sometimes we spend 
       <pubDate>Sat, 21 Apr 2018 19:15:05 +0100</pubDate>
       
       <guid>//www.ilonacodes.com/blog/frontend-shorts-good-storytelling-elements/</guid>
-      <description>&lt;p&gt;Happy Friday, my readers!&lt;/p&gt;
-
-&lt;p&gt;As a front-end web developer, I am also interested in UI/UX design, and that is why I’ve decided me to do a UI/UX research using &lt;a href=&#34;http://johnnyholland.org/2011/01/aristotle%E2%80%99s-storytelling-framework-for-interactive-products/&#34;&gt;Aristotle’s Seven Elements of Storytelling framework&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;It is notably practical, and many designers, web developers, will benefit from applying this method for creating user-friendly interfaces.&lt;/p&gt;
-
-&lt;p&gt;In my opinion, it&amp;rsquo;s important to understand the users and to make it easier for them to use apps.&lt;/p&gt;
-
-&lt;p&gt;I recommend you to read about &lt;a href=&#34;http://johnnyholland.org/2011/01/aristotle%E2%80%99s-storytelling-framework-for-interactive-products/&#34;&gt;Aristotle’s Seven Elements of Storytelling&lt;/a&gt;, before proceeding to my example.&lt;/p&gt;
-
-&lt;p&gt;Let&amp;rsquo;s imagine we have a yoga school website project.&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;b&gt;Plot&lt;/b&gt; &lt;br/&gt;
-There is a group of yoga teachers, and they want to launch a yoga school website.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;b&gt;Character&lt;/b&gt; &lt;br/&gt;
-A small group of certified yoga teachers of different ages, ethnicities, and financial statuses. They are driven to do good in the world by bringing peace through yoga.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;b&gt;Theme&lt;/b&gt; &lt;br/&gt;
-Unfortunately, there is a surplus of yoga schools, and many new yoga schools are popping up every day. So, yoga teachers need help determining the best conditions to set-up the school.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;b&gt;Dialogue&lt;/b&gt; &lt;br/&gt;
-They are very motivated to teach and share their yoga knowledge but worry about how they can do so successfully. They have fears about the finances.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;b&gt;Melody/Chorus&lt;/b&gt; &lt;br/&gt;
-They want to follow yoga principles of integrity and launch the school properly, according to the yoga tradition.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;b&gt;Décor&lt;/b&gt; &lt;br/&gt;
-After the yoga practice typically they are drinking tea in the yoga studio discussing their dreams and plans for the school.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;b&gt;Spectacle&lt;/b&gt; &lt;br/&gt;
-Once yoga teachers start to get focused mainly on expected profits, they lose sight of their original purpose of spreading peace and love. Eventually, they do an extended meditation and return to their original purpose.&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;According to Aristotle’s Seven Elements of Storytelling, the UI/UX designer can help yoga teachers to succeed in launching a yoga school website.&lt;/p&gt;
-
-&lt;p&gt;The designer will apply empathic methods like immersing in their environment, observe, doing interviews with potential/future clients or brainstorming.&lt;/p&gt;
-
-&lt;p&gt;Usually, every storytelling gives deep understanding in which direction the idea should go.&lt;/p&gt;
-
-&lt;p&gt;Thank you for reading!&lt;/p&gt;
-</description>
+      <description>Happy Friday, my readers!
+As a front-end web developer, I am also interested in UI/UX design, and that is why I’ve decided me to do a UI/UX research using Aristotle’s Seven Elements of Storytelling framework.
+It is notably practical, and many designers, web developers, will benefit from applying this method for creating user-friendly interfaces.
+In my opinion, it&amp;rsquo;s important to understand the users and to make it easier for them to use apps.</description>
     </item>
     
     <item>
@@ -140,58 +40,10 @@ Once yoga teachers start to get focused mainly on expected profits, they lose si
       <pubDate>Wed, 18 Apr 2018 12:00:05 +0100</pubDate>
       
       <guid>//www.ilonacodes.com/blog/frontend-shorts-storybook-with-react/</guid>
-      <description>&lt;p&gt;Hey there, that’s me again and a new post from me!&lt;/p&gt;
-
-&lt;p&gt;Lately, I worked on the project that generates live documentation of the front-end components for apps built with create-react-app, and this UI development environment is called &lt;a href=&#34;https://storybook.js.org&#34;&gt;Storybook&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;What is the significant purpose for using this tool?&lt;/p&gt;
-
-&lt;p&gt;First of all, it helps to avoid code duplications and to make it easy to know which components there are already, what they are doing and how they are being used.&lt;/p&gt;
-
-&lt;p&gt;Secondly, it allows to display and to test component behavior by showcase, which is very useful in getting quick feedback on everything we develop.&lt;/p&gt;
-
-&lt;p&gt;Another fantastic thing, &lt;code&gt;React Storybook&lt;/code&gt; is an isolated app.
-After declaring stories, you can start to create components in isolation with quick iteration, and that allows us to create component documentation (style guide) without explicitly doing so, and keeps it up-to-date.&lt;/p&gt;
-
-&lt;p&gt;Now it’s time to show you how it works and which components are involved.&lt;/p&gt;
-
-&lt;p&gt;But before trying my example, you have to install and run Storybook with React. You can read about that &lt;a href=&#34;https://storybook.js.org/basics/guide-react/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;After you installed &lt;code&gt;React Storybook&lt;/code&gt;, let&amp;rsquo;s have a look at my footer implementation:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;// ./components/footer/Footer.js
-
-import React from &#39;react&#39;;
-import DisplayFooter from &#39;./DisplayFooter&#39;;
-import ResponsiveFooter from &#39;./ResponsiveFooter&#39;;
-
-const Footer = props =&amp;gt; (
-  &amp;lt;div className=&#39;footer&#39;&amp;gt;
-    &amp;lt;DisplayFooter {...props} /&amp;gt;
-    &amp;lt;ResponsiveFooter {...props} /&amp;gt;
-  &amp;lt;/div&amp;gt;
-)
-
-export default Footer
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Above you see standard React component. The next step is creating &lt;code&gt;Footer.stories.js&lt;/code&gt; file and to add &lt;code&gt;Footer&lt;/code&gt; component to stories:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;// ./components/footer/Footer.stories.js
-
-import React from &#39;react&#39;;
-import { storiesOf } from &#39;@storybook/react&#39;
-import Footer from &#39;./Footer&#39;
-
-storiesOf(&#39;Footer&#39;, module).add(&#39;default&#39;, () =&amp;gt; &amp;lt;Footer /&amp;gt;)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;To see the result, you have to type this command &lt;code&gt;npm run storybook&lt;/code&gt; in your project path in the console line, what will run that on your localhost.&lt;/p&gt;
-
-&lt;p&gt;It might work with apps that have a similar Webpack configuration to create-react-app, for example, for Angular or Vue web apps.&lt;/p&gt;
-
-&lt;p&gt;Let me know what you think about using &lt;code&gt;Storybook with React&lt;/code&gt;. Thank you for reading!&lt;/p&gt;
-</description>
+      <description>Hey there, that’s me again and a new post from me!
+Lately, I worked on the project that generates live documentation of the front-end components for apps built with create-react-app, and this UI development environment is called Storybook.
+What is the significant purpose for using this tool?
+First of all, it helps to avoid code duplications and to make it easy to know which components there are already, what they are doing and how they are being used.</description>
     </item>
     
     <item>
@@ -200,52 +52,11 @@ storiesOf(&#39;Footer&#39;, module).add(&#39;default&#39;, () =&amp;gt; &amp;lt;
       <pubDate>Sat, 31 Mar 2018 18:30:05 +0100</pubDate>
       
       <guid>//www.ilonacodes.com/blog/frontend-shorts-how-to-read-content-from-the-file-input-in-react/</guid>
-      <description>&lt;p&gt;Hi, everyone! How is your weekend going?&lt;/p&gt;
-
-&lt;p&gt;As you know, I prefer learning to code by doing things. So, the last feature I have implemented for the app is the reading of the content from the uploaded (local) &lt;code&gt;.csv&lt;/code&gt; file from the user.&lt;/p&gt;
-
-&lt;p&gt;To do so without a server or any back-end—is a challenge.&lt;/p&gt;
-
-&lt;p&gt;To make things work properly in React+Redux, I have created the following component:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;
-const ImportFromFileBodyComponent = () =&amp;gt; {
-    let fileReader;
-
-    const handleFileRead = (e) =&amp;gt; {
-        const content = fileReader.result;
-        console.log(content);
-        // … do something with the &#39;content&#39; …
-    };
-
-    const handleFileChosen = (file) =&amp;gt; {
-        fileReader = new FileReader();
-        fileReader.onloadend = handleFileRead;
-        fileReader.readAsText(file);
-    };
-
-    return &amp;lt;div className=&#39;upload-expense&#39;&amp;gt;
-        &amp;lt;input type=&#39;file&#39;
-               id=&#39;file&#39;
-               className=&#39;input-file&#39;
-               accept=&#39;.csv&#39;
-               onChange={e =&amp;gt; handleFileChosen(e.target.files[0])}
-        /&amp;gt;
-    &amp;lt;/div&amp;gt;;
-};
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;The &lt;code&gt;FileReader&lt;/code&gt; object lets web apps asynchronously read the contents of files stored in the user&amp;rsquo;s computer, using &lt;code&gt;File&lt;/code&gt; or &lt;code&gt;Blob&lt;/code&gt; objects to specify the file or data to read.&lt;/p&gt;
-
-&lt;p&gt;Then the &lt;code&gt;readAsText&lt;/code&gt; method is used to read the contents of the specified &lt;code&gt;Blob&lt;/code&gt; or &lt;code&gt;File&lt;/code&gt;. When the read operation is complete, the state is changed to &lt;code&gt;done&lt;/code&gt;; the &lt;code&gt;onloadend&lt;/code&gt; is triggered, and, if &lt;code&gt;Filereader.result&lt;/code&gt; is not null, the constant &lt;code&gt;content&lt;/code&gt; contains the contents of the file as a text string.&lt;/p&gt;
-
-&lt;p&gt;Any &lt;code&gt;load&lt;/code&gt; event of &lt;code&gt;fileReader&lt;/code&gt; object sets the result value asynchronously,  and according to the code snippet above the &lt;code&gt;fileReader.onloadend&lt;/code&gt; callback can access the result of uploaded file by the user.&lt;/p&gt;
-
-&lt;p&gt;If you would like to know more, then read about &lt;code&gt;FileReader&lt;/code&gt;, &lt;code&gt;File&lt;/code&gt;, and &lt;code&gt;readAsText&lt;/code&gt; at &lt;a href=&#34;https://developer.mozilla.org/en-US/&#34;&gt;MDN&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Thank you for reading. I hope you find the post useful and will still be looking forward to new updates on &lt;a href=&#34;//www.ilonacodes.com/blog/&#34;&gt;my blog&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description>Hi, everyone! How is your weekend going?
+As you know, I prefer learning to code by doing things. So, the last feature I have implemented for the app is the reading of the content from the uploaded (local) .csv file from the user.
+To do so without a server or any back-end—is a challenge.
+To make things work properly in React+Redux, I have created the following component:
+const ImportFromFileBodyComponent = () =&amp;gt; { let fileReader; const handleFileRead = (e) =&amp;gt; { const content = fileReader.</description>
     </item>
     
     <item>
@@ -254,106 +65,10 @@ const ImportFromFileBodyComponent = () =&amp;gt; {
       <pubDate>Thu, 22 Mar 2018 20:40:05 +0100</pubDate>
       
       <guid>//www.ilonacodes.com/blog/front-end-shorts-how-to-delete-item-from-the-list-with-react-redux/</guid>
-      <description>&lt;p&gt;There are many possibilities how to remove multiple items from the array with JavaScript. So in this tutorial, I am going to share my approach to delete function with React+Redux.&lt;/p&gt;
-
-&lt;p&gt;It&amp;rsquo;s front-end shorts, and I am trying to highlight the most important information. Thus, just let’s have a look at the significant code snippets with explanations:&lt;/p&gt;
-
-&lt;p&gt;I have created the action:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;// expenseActions.js
-
-export const t = {
-    ...
-    DELETE_EXPENSE: &#39;DELETE_EXPENSE&#39;,
-    ...
-};
-
-export const actions = {
-  ...
-
-    deleteExpense: payload =&amp;gt; ({
-        type: t.DELETE_EXPENSE,
-        payload
-    }),
-...
-};
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;The second step is using action in &lt;code&gt;expensesReducer&lt;/code&gt;. Here I am using &lt;code&gt;filter&lt;/code&gt; method comparing id of the current object &amp;lsquo;expense&amp;rsquo; and the object dispatched from the store. All changes are made to the original array:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;// expensesReducer.js
-
-export const expensesReducer = (state = initState, action) =&amp;gt; {
-    switch (action.type) {
-    ...
-
-        case t.DELETE_EXPENSE:
-            return state.filter(expense =&amp;gt; expense.id !== action.payload.id);
-
-      ...
-
-        default:
-            return state;
-    }
-};
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Last but not least, I pass &lt;code&gt;deleteExpense&lt;/code&gt; to props of the &lt;code&gt;Expenses&lt;/code&gt; component and provide it for a button’s &lt;code&gt;onClick&lt;/code&gt; event listener:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;// Dashboard.js
-
-const Expense = ({expense, deleteExpense}) =&amp;gt; {
-return (
-        &amp;lt;div className=&#39;expense-container&#39;&amp;gt;
-...
-          &amp;lt;div className=&#39;delete-container&#39; onClick={() =&amp;gt; deleteExpense(expense)}&amp;gt;
-                &amp;lt;div&amp;gt;&amp;lt;a className=&#39;delete-button&#39;&amp;gt;
-                    -
-                &amp;lt;/a&amp;gt;&amp;lt;/div&amp;gt;
-          &amp;lt;/div&amp;gt;
-...
-        &amp;lt;/div&amp;gt;
-      );
-}
-
-const ExpensesComponent = ({expenses, deleteExpense}) =&amp;gt; {
-...
-return (
-        &amp;lt;div&amp;gt;
-            {
-                expenses.map(expense =&amp;gt; {
-                    return &amp;lt;Expense
-                                   ...
-                                    expense={expense}
-                                    deleteExpense={deleteExpense}
-                    /&amp;gt;
-                })
-            }
-        &amp;lt;/div&amp;gt;
-    )
-}
-
-const Expenses = connect(
-    (state) =&amp;gt; ({
-        expenses: state.expenses,
-    }),
-
-    (dispatch) =&amp;gt; ({
-        deleteExpense: (expense) =&amp;gt; {
-            dispatch(actions.deleteExpense(expense))
-        },
-...
-)(ExpensesComponent);
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;That&amp;rsquo;s it.
-Thank you for reading! Also, if you’ve made this far, feel free to connect with me on &lt;a href=&#34;https://twitter.com/ilonacodes&#34;&gt;Twitter&lt;/a&gt; or &lt;a href=&#34;https://www.instagram.com/ilonacodes/&#34;&gt;Instagram&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Happy coding!&lt;/p&gt;
-</description>
+      <description>There are many possibilities how to remove multiple items from the array with JavaScript. So in this tutorial, I am going to share my approach to delete function with React+Redux.
+It&amp;rsquo;s front-end shorts, and I am trying to highlight the most important information. Thus, just let’s have a look at the significant code snippets with explanations:
+I have created the action:
+// expenseActions.js export const t = { ... DELETE_EXPENSE: &#39;DELETE_EXPENSE&#39;, .</description>
     </item>
     
     <item>
@@ -362,31 +77,10 @@ Thank you for reading! Also, if you’ve made this far, feel free to connect wit
       <pubDate>Sat, 17 Mar 2018 15:00:05 +0100</pubDate>
       
       <guid>//www.ilonacodes.com/blog/front-end-shorts-fetch-list-of-resources-from-rest-api/</guid>
-      <description>&lt;p&gt;Today I am going to tell you how to get JSON data from the Rest-API to UI using React+Redux frameworks.&lt;/p&gt;
-
-&lt;p&gt;In my case, the task looks like:&lt;/p&gt;
-
-&lt;p&gt;I have a URL, for example: &lt;code&gt;https://api.com/v1/expenses/&lt;/code&gt; which will give the following JSON data, and I want to get this data in my UI.&lt;/p&gt;
-
-&lt;p&gt;To solve this task, I decided to use JavaScript’s &lt;code&gt;fetch&lt;/code&gt; method. So in this way, I shouldn&amp;rsquo;t rely on any external libraries (given my target browsers are remotely up-to-date).&lt;/p&gt;
-
-&lt;p&gt;What is nice, that by default the fetch method uses &lt;code&gt;GET&lt;/code&gt; and I don&amp;rsquo;t have to specify any options, however, you can do all that if you want. For further reference: &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch#Response_objects&#34;&gt;Fetch API reference&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Let&amp;rsquo;s look at the following code snippet of my implementation:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;
-const loadExpenses = () =&amp;gt; {
-       fetch(&#39;https://api.com/v1/expenses/&#39;)
-            .then(response =&amp;gt; response.json())
-            .then(expenses =&amp;gt; loadedExpenses(expenses))
-};
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;*loadedExpenses is a function that dispatches action to Redux and then reducer stores the data in the store.&lt;/p&gt;
-
-&lt;p&gt;Thank you for reading and have a lovely weekend!&lt;/p&gt;
-</description>
+      <description>Today I am going to tell you how to get JSON data from the Rest-API to UI using React+Redux frameworks.
+In my case, the task looks like:
+I have a URL, for example: https://api.com/v1/expenses/ which will give the following JSON data, and I want to get this data in my UI.
+To solve this task, I decided to use JavaScript’s fetch method. So in this way, I shouldn&amp;rsquo;t rely on any external libraries (given my target browsers are remotely up-to-date).</description>
     </item>
     
     <item>
@@ -395,55 +89,9 @@ const loadExpenses = () =&amp;gt; {
       <pubDate>Wed, 14 Mar 2018 15:30:05 +0100</pubDate>
       
       <guid>//www.ilonacodes.com/blog/frontend-shorts-setting-up-react-router-redux/</guid>
-      <description>&lt;p&gt;Hi, everyone! How is your week going?&lt;/p&gt;
-
-&lt;p&gt;Yesterday I worked with the web application written on React + Redux and had had some problem with the &lt;code&gt;react-router-redux&lt;/code&gt; library. In short, the &lt;code&gt;push&lt;/code&gt; method (using for navigation outside of components) didn&amp;rsquo;t work.&lt;/p&gt;
-
-&lt;p&gt;Firstly, I have tried to set the Route component in the &amp;ldquo;traditional&amp;rdquo; way such as with react-router library. That might get the history props. Unfortunately, that also didn&amp;rsquo;t work.
-Because of Redux framework.&lt;/p&gt;
-
-&lt;p&gt;After spending time on the Internet, I found the issue how to navigate events via Redux actions: I missed routerMiddleware as the second parameter for my store:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;// index.js
-
-import React from &#39;react&#39;;
-import ReactDOM from &#39;react-dom&#39;;
-import {applyMiddleware, combineReducers, compose, createStore} from &#39;redux&#39;;
-import {browserHistory} from &#39;react-router&#39;;
-import {routerMiddleware, routerReducer, syncHistoryWithStore} from &#39;react-router-redux&#39;;
-
-import {Routes} from &#39;./components/Routes&#39;;
-import {expenseFormReducer, expensesReducer} from &#39;./reducers/expensesReducer&#39;;
-
-import &#39;./index.css&#39;;
-
-const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
-
-let store = createStore(
-    combineReducers({
-        routing: routerReducer,
-        expenses: expensesReducer,
-        expenseForm: expenseFormReducer
-    }),
-    composeEnhancers(
-        applyMiddleware(
-            routerMiddleware(browserHistory)
-        )
-    ),
-);
-
-const history = syncHistoryWithStore(browserHistory, store);
-
-ReactDOM.render(&amp;lt;Routes history={history} store={store}/&amp;gt;,
-    document.getElementById(&#39;root&#39;)
-);
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;After applying that all routes to different component work correctly.&lt;/p&gt;
-
-&lt;p&gt;Thank you for the reading. If you have any questions or suggestions how it should have written on, then just get in touch with me either on my &lt;a href=&#34;https://twitter.com/ilonacodes&#34;&gt;Twitter&lt;/a&gt; or &lt;a href=&#34;https://www.instagram.com/ilonacodes&#34;&gt;Instagram&lt;/a&gt; profiles.&lt;/p&gt;
-</description>
+      <description>Hi, everyone! How is your week going?
+Yesterday I worked with the web application written on React + Redux and had had some problem with the react-router-redux library. In short, the push method (using for navigation outside of components) didn&amp;rsquo;t work.
+Firstly, I have tried to set the Route component in the &amp;ldquo;traditional&amp;rdquo; way such as with react-router library. That might get the history props. Unfortunately, that also didn&amp;rsquo;t work. Because of Redux framework.</description>
     </item>
     
     <item>
@@ -452,39 +100,11 @@ ReactDOM.render(&amp;lt;Routes history={history} store={store}/&amp;gt;,
       <pubDate>Sat, 10 Mar 2018 20:45:05 +0100</pubDate>
       
       <guid>//www.ilonacodes.com/blog/how-to-create-parallax-effect-with-vanilla-js/</guid>
-      <description>&lt;p&gt;Hi, there! I hope you enjoy your weekend, and ready for a new post.&lt;/p&gt;
-
-&lt;p&gt;Recently there are a lot of sites, which have featured with parallax scrolling effect, that represents them in more interactive &amp;ldquo;professionally-made&amp;rdquo; way.&lt;/p&gt;
-
-&lt;p&gt;This fact made me recreate the effect using Vanilla JavaScript, an example of which you can see below.&lt;/p&gt;
-
-&lt;p&gt;Let&amp;rsquo;s a look at the implementation of &lt;code&gt;parallax effect in Vanilla JavaScript&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;I have used a &amp;lsquo;scroll&amp;rsquo; event on browser &amp;lsquo;window,&amp;rsquo; and retrieved the number of pixels the document is currently scrolled along the vertical axis from &amp;lsquo;window.pageYOffset&amp;rsquo;.&lt;/p&gt;
-
-&lt;p&gt;The constant &amp;lsquo;background&amp;rsquo; consists of the image for which we are going to apply the parallax effect.&lt;/p&gt;
-
-&lt;p&gt;Finally, I compute the scrolling interval in pixels for the &amp;lsquo;top&amp;rsquo; attribute.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;
-    window.addEventListener(&#39;scroll&#39;, function (e) {
-        // will not work on IE &amp;lt; 9
-        var scrolled = window.pageYOffset;
-        // will not work on IE &amp;lt; 8
-        const background = document.querySelector(&#39;.background&#39;);
-        background.style.top = - (scrolled * 0.2) + &#39;px&#39;;
-    });
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Tune the coefficient &amp;lsquo;0.2&amp;rsquo; to your liking.&lt;/p&gt;
-
-&lt;p&gt;If you liked the article, it would make me happy if you shared it on your favourite social networks!&lt;/p&gt;
-
-&lt;p&gt;If you have any questions, suggestions or recommendations feel free to reach out to me &lt;a href=&#34;https://twitter.com/ilonacodes&#34;&gt;on Twitter&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Happy coding!&lt;/p&gt;
-</description>
+      <description>Hi, there! I hope you enjoy your weekend, and ready for a new post.
+Recently there are a lot of sites, which have featured with parallax scrolling effect, that represents them in more interactive &amp;ldquo;professionally-made&amp;rdquo; way.
+This fact made me recreate the effect using Vanilla JavaScript, an example of which you can see below.
+Let&amp;rsquo;s a look at the implementation of parallax effect in Vanilla JavaScript.
+I have used a &amp;lsquo;scroll&amp;rsquo; event on browser &amp;lsquo;window,&amp;rsquo; and retrieved the number of pixels the document is currently scrolled along the vertical axis from &amp;lsquo;window.</description>
     </item>
     
     <item>
@@ -493,31 +113,8 @@ ReactDOM.render(&amp;lt;Routes history={history} store={store}/&amp;gt;,
       <pubDate>Thu, 08 Mar 2018 16:30:05 +0100</pubDate>
       
       <guid>//www.ilonacodes.com/blog/front-end-shorts-how-to-scroll-to-element-in-jquery-with-animation/</guid>
-      <description>&lt;p&gt;Here I am back and decided to continue blogging with front-end shorts. Unfortunately, I don&amp;rsquo;t have enough time to write big posts, but I would be happy to share some frontend tips and tricks that I have already applied for some of my projects.&lt;/p&gt;
-
-&lt;p&gt;The last days I had to work with Javascript and jQuery a lot apart from React and spent much time on creating templates. As you know, nowadays modern web pages include animated scrolling, which makes any site look professional and more elegant (instead of simple link element reference in HTML5).&lt;/p&gt;
-
-&lt;p&gt;The user story was:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;When the user clicks on the button,
-the page scroll to the specific element with a nice animation.
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;That forced me, to use &lt;code&gt;jQuery scrollTop animation&lt;/code&gt;.
-Assuming there is a button, with the id &amp;ldquo;button&amp;rdquo;:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;$(&amp;quot;#button&amp;quot;).click(function() {
-    $(&#39;html, body&#39;).animate({
-        scrollTop: $(&amp;quot;#elementToScroll&amp;quot;).offset().top
-    }, 1000);
-});
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;In this case, we are scrolling the height of the element. offset()
-return the coordinates of the element relative to the DOM, and top param gives us the element&amp;rsquo;s distance in pixels along the y-axis.&lt;/p&gt;
-
-&lt;p&gt;Thank you for reading. I hope you like this small &lt;code&gt;jQuery animation&lt;/code&gt; tip.&lt;/p&gt;
-</description>
+      <description>Here I am back and decided to continue blogging with front-end shorts. Unfortunately, I don&amp;rsquo;t have enough time to write big posts, but I would be happy to share some frontend tips and tricks that I have already applied for some of my projects.
+The last days I had to work with Javascript and jQuery a lot apart from React and spent much time on creating templates. As you know, nowadays modern web pages include animated scrolling, which makes any site look professional and more elegant (instead of simple link element reference in HTML5).</description>
     </item>
     
   </channel>

@@ -1,0 +1,36 @@
+$C: footer;
+$W: footer-wrapper;
+
+$footer-height: 152px;
+$footer-height-md: 71px;
+
+html, body {
+  height: 100%;
+}
+
+.#{$W} {
+  min-height: 100%;
+  position: relative;
+  box-sizing: border-box;
+
+  padding-bottom: $footer-height;
+}
+
+.#{$C} {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+
+  height: $footer-height;
+}
+
+@include media-breakpoint-up(md) {
+  .#{$W} {
+    padding-bottom: $footer-height-md;
+  }
+
+  .#{$C} {
+    height: $footer-height-md;
+  }
+}

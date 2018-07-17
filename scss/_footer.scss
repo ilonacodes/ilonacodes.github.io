@@ -1,0 +1,37 @@
+$C: footer;
+
+$icon-size: 1.5rem;
+
+.#{$C} {
+  background-color: $footer-bg-color;
+  color: $footer-text-color;
+
+  .#{$C}__center {
+    margin: 0 auto;
+  }
+
+  .#{$C}__container {
+    padding-top: 15px;
+    padding-bottom: 10px;
+  }
+
+  .#{$C}__row {
+    font-size: $font-size-sm;
+    margin-bottom: 15px;
+  }
+
+  .#{$C}__socialLink {
+    color: $footer-text-color;
+    font-size: $icon-size;
+  }
+
+  .#{$C}__copy {
+    color: $footer-copy-color;
+  }
+
+  @include media-breakpoint-up(md) {
+    .#{$C}__copy, .#{$C}__navlinks {
+      margin-top: 5px;
+    }
+  }
+}

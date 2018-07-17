@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Category on Ilona Who Codes</title>
-    <link>//www.ilonacodes.com/tags/category/index.xml</link>
-    <description>Recent content in Category on Ilona Who Codes</description>
+    <title>Category on Ilona Who Codes &amp; UXs</title>
+    <link>//www.ilonacodes.com/tags/category/</link>
+    <description>Recent content in Category on Ilona Who Codes &amp; UXs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="//www.ilonacodes.com/tags/category/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 06 Oct 2017 19:30:05 +0100</lastBuildDate>
+    
+	<atom:link href="//www.ilonacodes.com/tags/category/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Dynamic progress bar with React&#43;Redux</title>
@@ -14,115 +17,8 @@
       <pubDate>Fri, 06 Oct 2017 19:30:05 +0100</pubDate>
       
       <guid>//www.ilonacodes.com/blog/dynamic-progress-bar-with-react-redux/</guid>
-      <description>&lt;p&gt;Hi there! I am so happy that you continue developing our interactive Daily ToDo app with me. Today you are going to get to know how to implement a dynamic progress bar that will handle task completing status by percentage for every category.&lt;/p&gt;
-
-&lt;p&gt;&lt;span style=&#34;color:red&#34;&gt;But before moving on, if you are new here, please, have a look at the &lt;a href=&#34;//www.ilonacodes.com/blog/react-for-very-very-beginners/&#34;&gt;previous posts&lt;/a&gt;. You should start developing app there and then continue with us here.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;And now I would like to offer my approach how to add a simple but dynamic progress bar to every task category and finally, make our Daily ToDo app interactive.&lt;/p&gt;
-
-&lt;p&gt;Let&amp;rsquo;s change into &lt;code&gt;my-daily-todos&lt;/code&gt; folder and start developing!&lt;/p&gt;
-
-&lt;p&gt;Firstly, I recommend you to add a small library &lt;code&gt;w3.css&lt;/code&gt; to our &lt;code&gt;index.html&lt;/code&gt; where we store all style dependencies:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;
-// my-daily-todos/public/index.html
-
-&amp;lt;!doctype html&amp;gt;
-&amp;lt;html lang=&amp;quot;en&amp;quot;&amp;gt;
-  &amp;lt;head&amp;gt;
-    &amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt;
-    &amp;lt;meta name=&amp;quot;viewport&amp;quot; content=&amp;quot;width=device-width, initial-scale=1, shrink-to-fit=no&amp;quot;&amp;gt;
-
-    &amp;lt;link rel=&amp;quot;manifest&amp;quot; href=&amp;quot;%PUBLIC_URL%/manifest.json&amp;quot;&amp;gt;
-
-// just add this library
-    &amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;https://www.w3schools.com/w3css/4/w3.css&amp;quot;&amp;gt;
-
-    &amp;lt;title&amp;gt;React App&amp;lt;/title&amp;gt;
-  &amp;lt;/head&amp;gt;
-  &amp;lt;body&amp;gt;
-    &amp;lt;div id=&amp;quot;root&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
-  &amp;lt;/body&amp;gt;
-&amp;lt;/html&amp;gt;
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;span style=&#34;color:red&#34;&gt;If you open your &lt;code&gt;index.html&lt;/code&gt; for the first time, you&amp;rsquo;ll notice, that there lots of comments and some initial link tags. In this case, you can just rewrite your &lt;code&gt;index.html&lt;/code&gt; in the way that I left above.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;The dynamic progress bar belongs to the &lt;code&gt;TaskCategory.js&lt;/code&gt; component. That&amp;rsquo;s why we have to open this file and step by step implement the new feature:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;To initialize &lt;code&gt;completed_tasks&lt;/code&gt; constant, that will filter &lt;code&gt;tasks&lt;/code&gt; by &lt;code&gt;completed&lt;/code&gt; property and store them in;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;To initialize &lt;code&gt;percentage&lt;/code&gt; constant to count the percentage of completed tasks with a simple formula and to round it with &lt;code&gt;floor&lt;/code&gt; method;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Apply classes from the &lt;code&gt;w3.css&lt;/code&gt; library for tags inside the &lt;code&gt;TaskCategory.js&lt;/code&gt; component and pass the value of &lt;code&gt;percentage&lt;/code&gt;;&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;
-// my-daily-todos/src/Tasks/TaskCategory.js
-
-...
-export const TaskCategory = ({category, tasks, completeTask}) =&amp;gt; {
-
-// Step 1
-  const completed_tasks = tasks.filter(task =&amp;gt; task.completed);
-
-// Step 2
-  const percentage = Math.floor(completed_tasks.length / tasks.length * 100);
-
-  return &amp;lt;div&amp;gt;
-    &amp;lt;h2&amp;gt;{category}&amp;lt;/h2&amp;gt;
-
-// Step 3
-      &amp;lt;div className=&amp;quot;w3-light-grey w3-round progress-bar&amp;quot;&amp;gt;
-       &amp;lt;div className=&amp;quot;w3-container w3-round w3-green progress-bar-indicator&amp;quot;
-        style={{width: `${percentage}%`}}&amp;gt;
-        {percentage}%
-       &amp;lt;/div&amp;gt;
-      &amp;lt;/div&amp;gt;
-    &amp;lt;ul&amp;gt;
-    {tasks.map(task =&amp;gt;
-      &amp;lt;li key={task.id}&amp;gt;
-        &amp;lt;Task task={task} completeTask={completeTask} /&amp;gt;
-      &amp;lt;/li&amp;gt;
-    )}
-    &amp;lt;/ul&amp;gt;
-  &amp;lt;/div&amp;gt;
-}
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;To make things look good, we should change into &lt;code&gt;App.js&lt;/code&gt; and add styles to already created from the &lt;code&gt;w3.css&lt;/code&gt; library &lt;code&gt;.progress-bar&lt;/code&gt; and &lt;code&gt;.progress-bar-indicator&lt;/code&gt; classes:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;
-// my-daily-todos/src/App.css
-
-...
-
-.taskslist-container .progress-bar {
-   width: 30%;
-   height: 25px;
-   text-align: center;
-   margin-bottom: 1rem;
-   font-size: 11px;
- }
-
- .taskslist-container .progress-bar-indicator {
-   height: 25px;
-   padding-top: 5px;
- }
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;span style=&#34;color:red&#34;&gt;To check how it looks like, don&amp;rsquo;t forget to run a local server by the &lt;code&gt;npm start&lt;/code&gt; in the terminal in &lt;code&gt;my-daily-todos&lt;/code&gt; folder.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;You should get something like that at the end:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;//www.ilonacodes.com/blog/images/progress-bar.png&#34; alt=&#34;Progress bar&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Thank you for the reading. Happily, you are enjoying developing with React+Redux and waiting for the next feature description. Have a nice coding!&lt;/p&gt;
-</description>
+      <description>Hi there! I am so happy that you continue developing our interactive Daily ToDo app with me. Today you are going to get to know how to implement a dynamic progress bar that will handle task completing status by percentage for every category.
+But before moving on, if you are new here, please, have a look at the previous posts. You should start developing app there and then continue with us here.</description>
     </item>
     
     <item>
@@ -131,158 +27,10 @@ export const TaskCategory = ({category, tasks, completeTask}) =&amp;gt; {
       <pubDate>Sun, 01 Oct 2017 19:30:05 +0100</pubDate>
       
       <guid>//www.ilonacodes.com/blog/categorize-tasks-with-react-redux/</guid>
-      <description>&lt;p&gt;The most valuable feature set for our Daily ToDo is already done. Today we are going to make an app more functional, separating tasks by categories. We want to be able to categorize task by typing &lt;code&gt;#&lt;/code&gt; and category after its title.&lt;/p&gt;
-
-&lt;p&gt;For example: &lt;code&gt;practice a coding kata #programming&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;As always, we start with the simple &lt;code&gt;user story&lt;/code&gt; and the &lt;code&gt;acceptance criteria&lt;/code&gt;:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;As Bob
-I want to categorize tasks by adding tag into input
-So I see which task belongs to which category
-
-## Acceptance Criteria
-
-Given there are no tasks
-And I am on dashboard screen
-When I finish inputting a new task title
-And choose the category (tag) for a task
-And press Enter
-Then I see the categorized task by tag on the dashboard screen
-
-Tag examples: Programming, Sport, Languages, University, Reading, Routine
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;span style=&#34;color:red&#34;&gt;If you are a new reader of the tutorial series and don&amp;rsquo;t understand what is going on at the moment, then just check the previous posts starting with &lt;a href=&#34;//www.ilonacodes.com/blog/react-for-very-very-beginners/&#34;&gt;React For Very Very Beginners&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;To add this feature,  we should extend the action &lt;code&gt;ADD_TASK&lt;/code&gt; in &lt;code&gt;reducers.js&lt;/code&gt; and add &lt;code&gt;tag&lt;/code&gt; property to a &lt;code&gt;task&lt;/code&gt; object by separating a &lt;code&gt;title&lt;/code&gt; into parts:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;// my-daily-todos/src/Tasks/reducers.js
-
-...
-// As I mentioned before we will change only &amp;quot;ADD_TASK&amp;quot; action in &amp;quot;tasksReducer&amp;quot;
-
-case t.ADD_TASK:
-
-// split a title by &amp;quot;#&amp;quot; into two parts
-      const titleParts = action.title.split(&#39;#&#39;)
-
-// the first part is a title task, where &amp;quot;trim&amp;quot; method removes whitespace from both ends of a string
-      const title = titleParts[0].trim()
-
-// the second part is a tag
-      const tag = titleParts[1]
-
-      return [
-        ...state,
-
-// now the &amp;quot;task&amp;quot; object contains three properties: id, title, and tag
-        {
-          id: generateID(),
-          title: title,
-          tag: tag
-        }
-      ]
-...
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;span style=&#34;color:red&#34;&gt;As usual, change into &lt;code&gt;my-daily-todos&lt;/code&gt; folder in your &lt;code&gt;workspace&lt;/code&gt; via your terminal and open the project in your favorite editor to continue implementing a new feature.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;The next step is to create a new component &lt;code&gt;TaskCategory.js&lt;/code&gt; in &lt;code&gt;Tasks&lt;/code&gt; folder that will contain and use &lt;code&gt;Task.js&lt;/code&gt; component.&lt;/p&gt;
-
-&lt;p&gt;You heard that right, &lt;code&gt;Task.js&lt;/code&gt; component is &lt;code&gt;moving&lt;/code&gt; from &lt;code&gt;TaskList.js&lt;/code&gt; component into &lt;code&gt;TaskCategory.js&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Now the &lt;code&gt;TaskList.js&lt;/code&gt; will include &lt;code&gt;TaskCategory.js&lt;/code&gt; instead of &lt;code&gt;Task.js&lt;/code&gt;. That is because we have extended the task object by a category and the &lt;code&gt;TaskList.js&lt;/code&gt; component renders all tasks that have been created through the user input field:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;// my-daily-todos/src/Tasks/TaskCategory.js
-
-import React from &#39;react&#39;;
-
-// import `Task.js` component
-import { Task } from &#39;./Task.js&#39;;
-
-// add states and actions into TaskCategory.js to handle them
-export const TaskCategory = ({category, tasks, completeTask}) =&amp;gt; {
-  return &amp;lt;div&amp;gt;
-// the &amp;quot;category&amp;quot; will render a &amp;quot;tag&amp;quot; name and sort tasks by tags
-    &amp;lt;h2&amp;gt;{category}&amp;lt;/h2&amp;gt;
-
-// take and add here this code snippet from &amp;quot;TaskList.js&amp;quot;
-    &amp;lt;ul&amp;gt;
-    {tasks.map(task =&amp;gt;
-      &amp;lt;li key={task.id}&amp;gt;
-        &amp;lt;Task task={task} completeTask={completeTask} /&amp;gt;
-      &amp;lt;/li&amp;gt;
-    )}
-    &amp;lt;/ul&amp;gt;
-  &amp;lt;/div&amp;gt;
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;The last changes what we have to do:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;To pass the &lt;code&gt;TaskCategory.js&lt;/code&gt; component into the &lt;code&gt;TaskList.js&lt;/code&gt; component;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;To write &lt;code&gt;unique&lt;/code&gt; function to categorize created tasks without any task duplication in a category;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;To filter tasks by a &lt;code&gt;tag&lt;/code&gt; that is equal to a &lt;code&gt;category&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;To make all things work, open the &lt;code&gt;TaskList.js&lt;/code&gt; component and rewrite a little bit of code there:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;// my-daily-todos/src/Tasks/TaskList.js
-
-import React, { Component } from &#39;react&#39;;
-import { connect } from &#39;react-redux&#39;;
-
-// import &amp;quot;TaskCategory.js&amp;quot; component
-import { TaskCategory } from &#39;./TaskCategory.js&#39;;
-
-import { Task } from &#39;./Task.js&#39;;
-import { actions } from &#39;./actions&#39;;
-
-// create the &amp;quot;unique&amp;quot; method that will take &amp;quot;array&amp;quot; as an argument, remove duplicate values from an array, and return a new array
-const unique = array =&amp;gt; {
-  return array.filter((item, index) =&amp;gt; {
-    return array.indexOf(item) === index
-  })
-}
-
-const TaskListComponent = ({tasks, completeTask}) =&amp;gt; {
-
-// apply the &amp;quot;unique&amp;quot; function for the categories array
-  const categories = unique(tasks.map(task =&amp;gt; task.tag))
-
-  return &amp;lt;div className=&amp;quot;tasklist-container&amp;quot;&amp;gt;
-// make a list for every of user category and pass the &amp;quot;TaskCategory.js&amp;quot; component here
-    {categories.map(category =&amp;gt;
-      &amp;lt;TaskCategory
-        key={category}
-        category={category}
-        completeTask={completeTask}
-
-// filter array of tasks that will manage by a tag to a category
-        tasks = {tasks.filter(task =&amp;gt; task.tag === category)}
-      /&amp;gt;
-    )}
-  &amp;lt;/div&amp;gt;
-}
-...
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;The result in the case of the categorize tasks is shown here:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;//www.ilonacodes.com/blog/images/read-a-book-category.png&#34; alt=&#34;Read a book&#34; /&gt;
-&lt;img src=&#34;//www.ilonacodes.com/blog/images/do-yoga-category.png&#34; alt=&#34;Do yoga&#34; /&gt;
-&lt;img src=&#34;//www.ilonacodes.com/blog/images/categories.png&#34; alt=&#34;Categories&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Before moving on, I hope you enjoyed and understand how to categorize tasks with &lt;code&gt;React+Redux&lt;/code&gt; and ready to the next challenge (new feature) for our interactive Daily ToDo app.&lt;/p&gt;
-
-&lt;p&gt;Thank you for the reading. If you have any questions or suggestions how it should have written on, then just get in touch with me either per &lt;a href=&#34;mailto:demiluri@gmail.com&#34;&gt;email&lt;/a&gt; or on my &lt;a href=&#34;https://www.instagram.com/ilonacodes/&#34;&gt;Instagram profile&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description>The most valuable feature set for our Daily ToDo is already done. Today we are going to make an app more functional, separating tasks by categories. We want to be able to categorize task by typing # and category after its title.
+For example: practice a coding kata #programming.
+As always, we start with the simple user story and the acceptance criteria:
+As Bob I want to categorize tasks by adding tag into input So I see which task belongs to which category ## Acceptance Criteria Given there are no tasks And I am on dashboard screen When I finish inputting a new task title And choose the category (tag) for a task And press Enter Then I see the categorized task by tag on the dashboard screen Tag examples: Programming, Sport, Languages, University, Reading, Routine  If you are a new reader of the tutorial series and don&amp;rsquo;t understand what is going on at the moment, then just check the previous posts starting with React For Very Very Beginners</description>
     </item>
     
   </channel>

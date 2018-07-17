@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jquery on Ilona Who Codes</title>
-    <link>//www.ilonacodes.com/tags/jquery/index.xml</link>
-    <description>Recent content in Jquery on Ilona Who Codes</description>
+    <title>Jquery on Ilona Who Codes &amp; UXs</title>
+    <link>//www.ilonacodes.com/tags/jquery/</link>
+    <description>Recent content in Jquery on Ilona Who Codes &amp; UXs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="//www.ilonacodes.com/tags/jquery/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 08 Mar 2018 16:30:05 +0100</lastBuildDate>
+    
+	<atom:link href="//www.ilonacodes.com/tags/jquery/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Front-end Shorts: How to Scroll to Element in jQuery With Animation</title>
@@ -14,31 +17,8 @@
       <pubDate>Thu, 08 Mar 2018 16:30:05 +0100</pubDate>
       
       <guid>//www.ilonacodes.com/blog/front-end-shorts-how-to-scroll-to-element-in-jquery-with-animation/</guid>
-      <description>&lt;p&gt;Here I am back and decided to continue blogging with front-end shorts. Unfortunately, I don&amp;rsquo;t have enough time to write big posts, but I would be happy to share some frontend tips and tricks that I have already applied for some of my projects.&lt;/p&gt;
-
-&lt;p&gt;The last days I had to work with Javascript and jQuery a lot apart from React and spent much time on creating templates. As you know, nowadays modern web pages include animated scrolling, which makes any site look professional and more elegant (instead of simple link element reference in HTML5).&lt;/p&gt;
-
-&lt;p&gt;The user story was:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;When the user clicks on the button,
-the page scroll to the specific element with a nice animation.
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;That forced me, to use &lt;code&gt;jQuery scrollTop animation&lt;/code&gt;.
-Assuming there is a button, with the id &amp;ldquo;button&amp;rdquo;:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;$(&amp;quot;#button&amp;quot;).click(function() {
-    $(&#39;html, body&#39;).animate({
-        scrollTop: $(&amp;quot;#elementToScroll&amp;quot;).offset().top
-    }, 1000);
-});
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;In this case, we are scrolling the height of the element. offset()
-return the coordinates of the element relative to the DOM, and top param gives us the element&amp;rsquo;s distance in pixels along the y-axis.&lt;/p&gt;
-
-&lt;p&gt;Thank you for reading. I hope you like this small &lt;code&gt;jQuery animation&lt;/code&gt; tip.&lt;/p&gt;
-</description>
+      <description>Here I am back and decided to continue blogging with front-end shorts. Unfortunately, I don&amp;rsquo;t have enough time to write big posts, but I would be happy to share some frontend tips and tricks that I have already applied for some of my projects.
+The last days I had to work with Javascript and jQuery a lot apart from React and spent much time on creating templates. As you know, nowadays modern web pages include animated scrolling, which makes any site look professional and more elegant (instead of simple link element reference in HTML5).</description>
     </item>
     
   </channel>

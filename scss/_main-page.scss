@@ -1,0 +1,10 @@
+$C: main-page;
+
+.#{$C} {
+  h2 {
+    text-align: center;
+    font-size: $h3-font-size;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}

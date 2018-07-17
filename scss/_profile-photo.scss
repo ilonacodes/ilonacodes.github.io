@@ -1,0 +1,14 @@
+$C: profile-photo;
+
+.#{$C} {
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  .#{$C}__image {
+    border-radius: 100%;
+  }
+
+  @include media-breakpoint-up(sm) {
+    margin-top: 25px;
+  }
+}

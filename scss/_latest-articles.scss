@@ -1,0 +1,20 @@
+$C: latest-articles;
+
+.#{$C} {
+  margin-top: 50px;
+
+  .#{$C}__title {
+    font-weight: $font-weight-bolder;
+  }
+
+  .#{$C}__article {
+    margin-top: 15px;
+    line-height: 1.1;
+  }
+
+  .#{$C}__link {
+    color: $primary-color;
+    text-decoration: underline;
+    font-weight: $font-weight-bold;
+  }
+}

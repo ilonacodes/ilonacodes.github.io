@@ -1,0 +1,55 @@
+@import "colors";
+@import "bootstrap_variables";
+
+$C: post;
+
+.#{$C} {
+  padding-bottom: 30px;
+  border-bottom: 1px solid $border-color;
+  margin-bottom: 30px;
+
+  .#{$C}__title__link {
+    color: $headings-color;
+    font-size: $h3-font-size;
+  }
+
+  .#{$C}__date {
+    margin-bottom: 15px;
+  }
+
+  .#{$C}__body {
+    margin-top: 15px;
+    text-align: justify;
+  }
+
+  .#{$C}__read-full {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .#{$C}__tag {
+    color: $primary-color;
+    font-weight: $font-weight-bold;
+  }
+
+  .#{$C}__meta-column {
+    max-width: 160px;
+    padding-top: 10px;
+  }
+
+  .#{$C}__meta-column__date {
+    background-color: $meta-date-bg-color;
+    color: $meta-date-color;
+    padding: 3px;
+  }
+
+  .#{$C}__meta-column__day {
+    font-size: $h2-font-size;
+  }
+
+  .#{$C}__meta-column__tags {
+    margin-top: 15px;
+    text-align: right;
+    word-wrap: break-word;
+  }
+}

@@ -1,13 +1,39 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blogs on Ilona Who Codes</title>
-    <link>//www.ilonacodes.com/blog/index.xml</link>
-    <description>Recent content in Blogs on Ilona Who Codes</description>
+    <title>Blogs on Ilona Who Codes &amp; UXs</title>
+    <link>//www.ilonacodes.com/blog/</link>
+    <description>Recent content in Blogs on Ilona Who Codes &amp; UXs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Apr 2018 23:30:05 +0100</lastBuildDate>
-    <atom:link href="//www.ilonacodes.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 13 May 2018 07:00:05 +0100</lastBuildDate>
+    
+	<atom:link href="//www.ilonacodes.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to Hack Your Front-End Career With UX</title>
+      <link>//www.ilonacodes.com/blog/how-to-hack-your-front-end-career-with-ux/</link>
+      <pubDate>Sun, 13 May 2018 07:00:05 +0100</pubDate>
+      
+      <guid>//www.ilonacodes.com/blog/how-to-hack-your-front-end-career-with-ux/</guid>
+      <description>&lt;figure&gt;
+    
+        &lt;img src=&#34;//www.ilonacodes.com/blog/images/hack-career-with-ux.jpeg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;source: https://www.pexels.com/photo/pink-revolver-gun-1056555/&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;You must be thinking that as a front-end developer, you are developing websites / online products using HTML, CSS-styling, JavaScript and other different Frameworks to make them good looking by implementing user interfaces from the mockups.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Front-end Shorts: CSS3 Opacity - Background Only</title>
@@ -15,73 +41,9 @@
       <pubDate>Mon, 23 Apr 2018 23:30:05 +0100</pubDate>
       
       <guid>//www.ilonacodes.com/blog/frontend-shorts-css3-opacity-background-only/</guid>
-      <description>&lt;p&gt;Hi everyone! It&amp;rsquo;s time for a new post.&lt;/p&gt;
-
-&lt;p&gt;What we do (I mean front-end web developers) isn&amp;rsquo;t all that unique.
-Often we face the problem that seems easy to solve. However, sometimes we spend hours on finding the solution.&lt;/p&gt;
-
-&lt;p&gt;In this case, I wanted to change the opacity of the app teaser background color and don&amp;rsquo;t change the opacity of links. I have tried some silly approaches that seemed logical to me, and they all have failed.&lt;/p&gt;
-
-&lt;p&gt;In the end, I have found the right way to do that, and I&amp;rsquo;m going to share it with you.&lt;/p&gt;
-
-&lt;p&gt;My solution is to create three &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt; elements.&lt;/p&gt;
-
-&lt;p&gt;One will contain the other two.&lt;/p&gt;
-
-&lt;p&gt;The first one is with the transparent background and the second one with the content.&lt;/p&gt;
-
-&lt;p&gt;Then I make the container &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt; position relative. For the &lt;div&gt; with the transparent background I set z-index with the negative number.&lt;/p&gt;
-
-&lt;p&gt;Finally, I adjust the position of the content to fit over the transparent background.&lt;/p&gt;
-
-&lt;p&gt;Voila, there is no issue with absolute positioning.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;!-- index.html --&amp;gt;
-
-&amp;lt;div class=&amp;quot;container&amp;quot;&amp;gt;
-  &amp;lt;div class=&amp;quot;opacity&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
-  &amp;lt;div class=&amp;quot;content&amp;quot;&amp;gt;Hello, World!&amp;lt;/div&amp;gt;
-&amp;lt;/div&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;/* index.css */
-
-.container {
-  position: relative;
-  width: 100px;
-  height: 100px;
-  margin: 0 auto;
-}
-
-.content {
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  z-index: 1;
-  top: 40%;
-  left: 5%;
-}
-
-.opacity {
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  z-index: -1;
-  background-color: green;
-  opacity: 0.2;
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;The &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt; element with the &lt;code&gt;container&lt;/code&gt; class should have relative positioning, and absolute for others, so it&amp;rsquo;s possible to move and to adjust them inside the parent &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Please keep in mind, that &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt; with transparent background and the one with the content should not contain each other. These &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt;&amp;rsquo;s should be siblings and be children of the container &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt; element.&lt;/p&gt;
-
-&lt;p&gt;We apply the opacity to a separate &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt; and position the text on top of it.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;//www.ilonacodes.com/blog/images/css3-opacity.png&#34; alt=&#34;Result&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Thank you for reading. Hope these tips help you and your team balance the details with the big picture.&lt;/p&gt;
-</description>
+      <description>Hi everyone! It&amp;rsquo;s time for a new post.
+What we do (I mean front-end web developers) isn&amp;rsquo;t all that unique. Often we face the problem that seems easy to solve. However, sometimes we spend hours on finding the solution.
+In this case, I wanted to change the opacity of the app teaser background color and don&amp;rsquo;t change the opacity of links. I have tried some silly approaches that seemed logical to me, and they all have failed.</description>
     </item>
     
     <item>
@@ -90,49 +52,10 @@ Often we face the problem that seems easy to solve. However, sometimes we spend 
       <pubDate>Sat, 21 Apr 2018 19:15:05 +0100</pubDate>
       
       <guid>//www.ilonacodes.com/blog/frontend-shorts-good-storytelling-elements/</guid>
-      <description>&lt;p&gt;Happy Friday, my readers!&lt;/p&gt;
-
-&lt;p&gt;As a front-end web developer, I am also interested in UI/UX design, and that is why I’ve decided me to do a UI/UX research using &lt;a href=&#34;http://johnnyholland.org/2011/01/aristotle%E2%80%99s-storytelling-framework-for-interactive-products/&#34;&gt;Aristotle’s Seven Elements of Storytelling framework&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;It is notably practical, and many designers, web developers, will benefit from applying this method for creating user-friendly interfaces.&lt;/p&gt;
-
-&lt;p&gt;In my opinion, it&amp;rsquo;s important to understand the users and to make it easier for them to use apps.&lt;/p&gt;
-
-&lt;p&gt;I recommend you to read about &lt;a href=&#34;http://johnnyholland.org/2011/01/aristotle%E2%80%99s-storytelling-framework-for-interactive-products/&#34;&gt;Aristotle’s Seven Elements of Storytelling&lt;/a&gt;, before proceeding to my example.&lt;/p&gt;
-
-&lt;p&gt;Let&amp;rsquo;s imagine we have a yoga school website project.&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;b&gt;Plot&lt;/b&gt; &lt;br/&gt;
-There is a group of yoga teachers, and they want to launch a yoga school website.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;b&gt;Character&lt;/b&gt; &lt;br/&gt;
-A small group of certified yoga teachers of different ages, ethnicities, and financial statuses. They are driven to do good in the world by bringing peace through yoga.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;b&gt;Theme&lt;/b&gt; &lt;br/&gt;
-Unfortunately, there is a surplus of yoga schools, and many new yoga schools are popping up every day. So, yoga teachers need help determining the best conditions to set-up the school.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;b&gt;Dialogue&lt;/b&gt; &lt;br/&gt;
-They are very motivated to teach and share their yoga knowledge but worry about how they can do so successfully. They have fears about the finances.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;b&gt;Melody/Chorus&lt;/b&gt; &lt;br/&gt;
-They want to follow yoga principles of integrity and launch the school properly, according to the yoga tradition.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;b&gt;Décor&lt;/b&gt; &lt;br/&gt;
-After the yoga practice typically they are drinking tea in the yoga studio discussing their dreams and plans for the school.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;b&gt;Spectacle&lt;/b&gt; &lt;br/&gt;
-Once yoga teachers start to get focused mainly on expected profits, they lose sight of their original purpose of spreading peace and love. Eventually, they do an extended meditation and return to their original purpose.&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;According to Aristotle’s Seven Elements of Storytelling, the UI/UX designer can help yoga teachers to succeed in launching a yoga school website.&lt;/p&gt;
-
-&lt;p&gt;The designer will apply empathic methods like immersing in their environment, observe, doing interviews with potential/future clients or brainstorming.&lt;/p&gt;
-
-&lt;p&gt;Usually, every storytelling gives deep understanding in which direction the idea should go.&lt;/p&gt;
-
-&lt;p&gt;Thank you for reading!&lt;/p&gt;
-</description>
+      <description>Happy Friday, my readers!
+As a front-end web developer, I am also interested in UI/UX design, and that is why I’ve decided me to do a UI/UX research using Aristotle’s Seven Elements of Storytelling framework.
+It is notably practical, and many designers, web developers, will benefit from applying this method for creating user-friendly interfaces.
+In my opinion, it&amp;rsquo;s important to understand the users and to make it easier for them to use apps.</description>
     </item>
     
     <item>
@@ -141,58 +64,10 @@ Once yoga teachers start to get focused mainly on expected profits, they lose si
       <pubDate>Wed, 18 Apr 2018 12:00:05 +0100</pubDate>
       
       <guid>//www.ilonacodes.com/blog/frontend-shorts-storybook-with-react/</guid>
-      <description>&lt;p&gt;Hey there, that’s me again and a new post from me!&lt;/p&gt;
-
-&lt;p&gt;Lately, I worked on the project that generates live documentation of the front-end components for apps built with create-react-app, and this UI development environment is called &lt;a href=&#34;https://storybook.js.org&#34;&gt;Storybook&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;What is the significant purpose for using this tool?&lt;/p&gt;
-
-&lt;p&gt;First of all, it helps to avoid code duplications and to make it easy to know which components there are already, what they are doing and how they are being used.&lt;/p&gt;
-
-&lt;p&gt;Secondly, it allows to display and to test component behavior by showcase, which is very useful in getting quick feedback on everything we develop.&lt;/p&gt;
-
-&lt;p&gt;Another fantastic thing, &lt;code&gt;React Storybook&lt;/code&gt; is an isolated app.
-After declaring stories, you can start to create components in isolation with quick iteration, and that allows us to create component documentation (style guide) without explicitly doing so, and keeps it up-to-date.&lt;/p&gt;
-
-&lt;p&gt;Now it’s time to show you how it works and which components are involved.&lt;/p&gt;
-
-&lt;p&gt;But before trying my example, you have to install and run Storybook with React. You can read about that &lt;a href=&#34;https://storybook.js.org/basics/guide-react/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;After you installed &lt;code&gt;React Storybook&lt;/code&gt;, let&amp;rsquo;s have a look at my footer implementation:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;// ./components/footer/Footer.js
-
-import React from &#39;react&#39;;
-import DisplayFooter from &#39;./DisplayFooter&#39;;
-import ResponsiveFooter from &#39;./ResponsiveFooter&#39;;
-
-const Footer = props =&amp;gt; (
-  &amp;lt;div className=&#39;footer&#39;&amp;gt;
-    &amp;lt;DisplayFooter {...props} /&amp;gt;
-    &amp;lt;ResponsiveFooter {...props} /&amp;gt;
-  &amp;lt;/div&amp;gt;
-)
-
-export default Footer
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Above you see standard React component. The next step is creating &lt;code&gt;Footer.stories.js&lt;/code&gt; file and to add &lt;code&gt;Footer&lt;/code&gt; component to stories:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;// ./components/footer/Footer.stories.js
-
-import React from &#39;react&#39;;
-import { storiesOf } from &#39;@storybook/react&#39;
-import Footer from &#39;./Footer&#39;
-
-storiesOf(&#39;Footer&#39;, module).add(&#39;default&#39;, () =&amp;gt; &amp;lt;Footer /&amp;gt;)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;To see the result, you have to type this command &lt;code&gt;npm run storybook&lt;/code&gt; in your project path in the console line, what will run that on your localhost.&lt;/p&gt;
-
-&lt;p&gt;It might work with apps that have a similar Webpack configuration to create-react-app, for example, for Angular or Vue web apps.&lt;/p&gt;
-
-&lt;p&gt;Let me know what you think about using &lt;code&gt;Storybook with React&lt;/code&gt;. Thank you for reading!&lt;/p&gt;
-</description>
+      <description>Hey there, that’s me again and a new post from me!
+Lately, I worked on the project that generates live documentation of the front-end components for apps built with create-react-app, and this UI development environment is called Storybook.
+What is the significant purpose for using this tool?
+First of all, it helps to avoid code duplications and to make it easy to know which components there are already, what they are doing and how they are being used.</description>
     </item>
     
     <item>
@@ -201,52 +76,11 @@ storiesOf(&#39;Footer&#39;, module).add(&#39;default&#39;, () =&amp;gt; &amp;lt;
       <pubDate>Sat, 31 Mar 2018 18:30:05 +0100</pubDate>
       
       <guid>//www.ilonacodes.com/blog/frontend-shorts-how-to-read-content-from-the-file-input-in-react/</guid>
-      <description>&lt;p&gt;Hi, everyone! How is your weekend going?&lt;/p&gt;
-
-&lt;p&gt;As you know, I prefer learning to code by doing things. So, the last feature I have implemented for the app is the reading of the content from the uploaded (local) &lt;code&gt;.csv&lt;/code&gt; file from the user.&lt;/p&gt;
-
-&lt;p&gt;To do so without a server or any back-end—is a challenge.&lt;/p&gt;
-
-&lt;p&gt;To make things work properly in React+Redux, I have created the following component:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;
-const ImportFromFileBodyComponent = () =&amp;gt; {
-    let fileReader;
-
-    const handleFileRead = (e) =&amp;gt; {
-        const content = fileReader.result;
-        console.log(content);
-        // … do something with the &#39;content&#39; …
-    };
-
-    const handleFileChosen = (file) =&amp;gt; {
-        fileReader = new FileReader();
-        fileReader.onloadend = handleFileRead;
-        fileReader.readAsText(file);
-    };
-
-    return &amp;lt;div className=&#39;upload-expense&#39;&amp;gt;
-        &amp;lt;input type=&#39;file&#39;
-               id=&#39;file&#39;
-               className=&#39;input-file&#39;
-               accept=&#39;.csv&#39;
-               onChange={e =&amp;gt; handleFileChosen(e.target.files[0])}
-        /&amp;gt;
-    &amp;lt;/div&amp;gt;;
-};
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;The &lt;code&gt;FileReader&lt;/code&gt; object lets web apps asynchronously read the contents of files stored in the user&amp;rsquo;s computer, using &lt;code&gt;File&lt;/code&gt; or &lt;code&gt;Blob&lt;/code&gt; objects to specify the file or data to read.&lt;/p&gt;
-
-&lt;p&gt;Then the &lt;code&gt;readAsText&lt;/code&gt; method is used to read the contents of the specified &lt;code&gt;Blob&lt;/code&gt; or &lt;code&gt;File&lt;/code&gt;. When the read operation is complete, the state is changed to &lt;code&gt;done&lt;/code&gt;; the &lt;code&gt;onloadend&lt;/code&gt; is triggered, and, if &lt;code&gt;Filereader.result&lt;/code&gt; is not null, the constant &lt;code&gt;content&lt;/code&gt; contains the contents of the file as a text string.&lt;/p&gt;
-
-&lt;p&gt;Any &lt;code&gt;load&lt;/code&gt; event of &lt;code&gt;fileReader&lt;/code&gt; object sets the result value asynchronously,  and according to the code snippet above the &lt;code&gt;fileReader.onloadend&lt;/code&gt; callback can access the result of uploaded file by the user.&lt;/p&gt;
-
-&lt;p&gt;If you would like to know more, then read about &lt;code&gt;FileReader&lt;/code&gt;, &lt;code&gt;File&lt;/code&gt;, and &lt;code&gt;readAsText&lt;/code&gt; at &lt;a href=&#34;https://developer.mozilla.org/en-US/&#34;&gt;MDN&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Thank you for reading. I hope you find the post useful and will still be looking forward to new updates on &lt;a href=&#34;//www.ilonacodes.com/blog/&#34;&gt;my blog&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description>Hi, everyone! How is your weekend going?
+As you know, I prefer learning to code by doing things. So, the last feature I have implemented for the app is the reading of the content from the uploaded (local) .csv file from the user.
+To do so without a server or any back-end—is a challenge.
+To make things work properly in React+Redux, I have created the following component:
+const ImportFromFileBodyComponent = () =&amp;gt; { let fileReader; const handleFileRead = (e) =&amp;gt; { const content = fileReader.</description>
     </item>
     
     <item>
@@ -255,106 +89,10 @@ const ImportFromFileBodyComponent = () =&amp;gt; {
       <pubDate>Thu, 22 Mar 2018 20:40:05 +0100</pubDate>
       
       <guid>//www.ilonacodes.com/blog/front-end-shorts-how-to-delete-item-from-the-list-with-react-redux/</guid>
-      <description>&lt;p&gt;There are many possibilities how to remove multiple items from the array with JavaScript. So in this tutorial, I am going to share my approach to delete function with React+Redux.&lt;/p&gt;
-
-&lt;p&gt;It&amp;rsquo;s front-end shorts, and I am trying to highlight the most important information. Thus, just let’s have a look at the significant code snippets with explanations:&lt;/p&gt;
-
-&lt;p&gt;I have created the action:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;// expenseActions.js
-
-export const t = {
-    ...
-    DELETE_EXPENSE: &#39;DELETE_EXPENSE&#39;,
-    ...
-};
-
-export const actions = {
-  ...
-
-    deleteExpense: payload =&amp;gt; ({
-        type: t.DELETE_EXPENSE,
-        payload
-    }),
-...
-};
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;The second step is using action in &lt;code&gt;expensesReducer&lt;/code&gt;. Here I am using &lt;code&gt;filter&lt;/code&gt; method comparing id of the current object &amp;lsquo;expense&amp;rsquo; and the object dispatched from the store. All changes are made to the original array:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;// expensesReducer.js
-
-export const expensesReducer = (state = initState, action) =&amp;gt; {
-    switch (action.type) {
-    ...
-
-        case t.DELETE_EXPENSE:
-            return state.filter(expense =&amp;gt; expense.id !== action.payload.id);
-
-      ...
-
-        default:
-            return state;
-    }
-};
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Last but not least, I pass &lt;code&gt;deleteExpense&lt;/code&gt; to props of the &lt;code&gt;Expenses&lt;/code&gt; component and provide it for a button’s &lt;code&gt;onClick&lt;/code&gt; event listener:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;// Dashboard.js
-
-const Expense = ({expense, deleteExpense}) =&amp;gt; {
-return (
-        &amp;lt;div className=&#39;expense-container&#39;&amp;gt;
-...
-          &amp;lt;div className=&#39;delete-container&#39; onClick={() =&amp;gt; deleteExpense(expense)}&amp;gt;
-                &amp;lt;div&amp;gt;&amp;lt;a className=&#39;delete-button&#39;&amp;gt;
-                    -
-                &amp;lt;/a&amp;gt;&amp;lt;/div&amp;gt;
-          &amp;lt;/div&amp;gt;
-...
-        &amp;lt;/div&amp;gt;
-      );
-}
-
-const ExpensesComponent = ({expenses, deleteExpense}) =&amp;gt; {
-...
-return (
-        &amp;lt;div&amp;gt;
-            {
-                expenses.map(expense =&amp;gt; {
-                    return &amp;lt;Expense
-                                   ...
-                                    expense={expense}
-                                    deleteExpense={deleteExpense}
-                    /&amp;gt;
-                })
-            }
-        &amp;lt;/div&amp;gt;
-    )
-}
-
-const Expenses = connect(
-    (state) =&amp;gt; ({
-        expenses: state.expenses,
-    }),
-
-    (dispatch) =&amp;gt; ({
-        deleteExpense: (expense) =&amp;gt; {
-            dispatch(actions.deleteExpense(expense))
-        },
-...
-)(ExpensesComponent);
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;That&amp;rsquo;s it.
-Thank you for reading! Also, if you’ve made this far, feel free to connect with me on &lt;a href=&#34;https://twitter.com/ilonacodes&#34;&gt;Twitter&lt;/a&gt; or &lt;a href=&#34;https://www.instagram.com/ilonacodes/&#34;&gt;Instagram&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Happy coding!&lt;/p&gt;
-</description>
+      <description>There are many possibilities how to remove multiple items from the array with JavaScript. So in this tutorial, I am going to share my approach to delete function with React+Redux.
+It&amp;rsquo;s front-end shorts, and I am trying to highlight the most important information. Thus, just let’s have a look at the significant code snippets with explanations:
+I have created the action:
+// expenseActions.js export const t = { ... DELETE_EXPENSE: &#39;DELETE_EXPENSE&#39;, .</description>
     </item>
     
     <item>
@@ -363,31 +101,10 @@ Thank you for reading! Also, if you’ve made this far, feel free to connect wit
       <pubDate>Sat, 17 Mar 2018 15:00:05 +0100</pubDate>
       
       <guid>//www.ilonacodes.com/blog/front-end-shorts-fetch-list-of-resources-from-rest-api/</guid>
-      <description>&lt;p&gt;Today I am going to tell you how to get JSON data from the Rest-API to UI using React+Redux frameworks.&lt;/p&gt;
-
-&lt;p&gt;In my case, the task looks like:&lt;/p&gt;
-
-&lt;p&gt;I have a URL, for example: &lt;code&gt;https://api.com/v1/expenses/&lt;/code&gt; which will give the following JSON data, and I want to get this data in my UI.&lt;/p&gt;
-
-&lt;p&gt;To solve this task, I decided to use JavaScript’s &lt;code&gt;fetch&lt;/code&gt; method. So in this way, I shouldn&amp;rsquo;t rely on any external libraries (given my target browsers are remotely up-to-date).&lt;/p&gt;
-
-&lt;p&gt;What is nice, that by default the fetch method uses &lt;code&gt;GET&lt;/code&gt; and I don&amp;rsquo;t have to specify any options, however, you can do all that if you want. For further reference: &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch#Response_objects&#34;&gt;Fetch API reference&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Let&amp;rsquo;s look at the following code snippet of my implementation:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;
-const loadExpenses = () =&amp;gt; {
-       fetch(&#39;https://api.com/v1/expenses/&#39;)
-            .then(response =&amp;gt; response.json())
-            .then(expenses =&amp;gt; loadedExpenses(expenses))
-};
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;*loadedExpenses is a function that dispatches action to Redux and then reducer stores the data in the store.&lt;/p&gt;
-
-&lt;p&gt;Thank you for reading and have a lovely weekend!&lt;/p&gt;
-</description>
+      <description>Today I am going to tell you how to get JSON data from the Rest-API to UI using React+Redux frameworks.
+In my case, the task looks like:
+I have a URL, for example: https://api.com/v1/expenses/ which will give the following JSON data, and I want to get this data in my UI.
+To solve this task, I decided to use JavaScript’s fetch method. So in this way, I shouldn&amp;rsquo;t rely on any external libraries (given my target browsers are remotely up-to-date).</description>
     </item>
     
     <item>
@@ -396,55 +113,9 @@ const loadExpenses = () =&amp;gt; {
       <pubDate>Wed, 14 Mar 2018 15:30:05 +0100</pubDate>
       
       <guid>//www.ilonacodes.com/blog/frontend-shorts-setting-up-react-router-redux/</guid>
-      <description>&lt;p&gt;Hi, everyone! How is your week going?&lt;/p&gt;
-
-&lt;p&gt;Yesterday I worked with the web application written on React + Redux and had had some problem with the &lt;code&gt;react-router-redux&lt;/code&gt; library. In short, the &lt;code&gt;push&lt;/code&gt; method (using for navigation outside of components) didn&amp;rsquo;t work.&lt;/p&gt;
-
-&lt;p&gt;Firstly, I have tried to set the Route component in the &amp;ldquo;traditional&amp;rdquo; way such as with react-router library. That might get the history props. Unfortunately, that also didn&amp;rsquo;t work.
-Because of Redux framework.&lt;/p&gt;
-
-&lt;p&gt;After spending time on the Internet, I found the issue how to navigate events via Redux actions: I missed routerMiddleware as the second parameter for my store:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;// index.js
-
-import React from &#39;react&#39;;
-import ReactDOM from &#39;react-dom&#39;;
-import {applyMiddleware, combineReducers, compose, createStore} from &#39;redux&#39;;
-import {browserHistory} from &#39;react-router&#39;;
-import {routerMiddleware, routerReducer, syncHistoryWithStore} from &#39;react-router-redux&#39;;
-
-import {Routes} from &#39;./components/Routes&#39;;
-import {expenseFormReducer, expensesReducer} from &#39;./reducers/expensesReducer&#39;;
-
-import &#39;./index.css&#39;;
-
-const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
-
-let store = createStore(
-    combineReducers({
-        routing: routerReducer,
-        expenses: expensesReducer,
-        expenseForm: expenseFormReducer
-    }),
-    composeEnhancers(
-        applyMiddleware(
-            routerMiddleware(browserHistory)
-        )
-    ),
-);
-
-const history = syncHistoryWithStore(browserHistory, store);
-
-ReactDOM.render(&amp;lt;Routes history={history} store={store}/&amp;gt;,
-    document.getElementById(&#39;root&#39;)
-);
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;After applying that all routes to different component work correctly.&lt;/p&gt;
-
-&lt;p&gt;Thank you for the reading. If you have any questions or suggestions how it should have written on, then just get in touch with me either on my &lt;a href=&#34;https://twitter.com/ilonacodes&#34;&gt;Twitter&lt;/a&gt; or &lt;a href=&#34;https://www.instagram.com/ilonacodes&#34;&gt;Instagram&lt;/a&gt; profiles.&lt;/p&gt;
-</description>
+      <description>Hi, everyone! How is your week going?
+Yesterday I worked with the web application written on React + Redux and had had some problem with the react-router-redux library. In short, the push method (using for navigation outside of components) didn&amp;rsquo;t work.
+Firstly, I have tried to set the Route component in the &amp;ldquo;traditional&amp;rdquo; way such as with react-router library. That might get the history props. Unfortunately, that also didn&amp;rsquo;t work. Because of Redux framework.</description>
     </item>
     
     <item>
@@ -453,39 +124,11 @@ ReactDOM.render(&amp;lt;Routes history={history} store={store}/&amp;gt;,
       <pubDate>Sat, 10 Mar 2018 20:45:05 +0100</pubDate>
       
       <guid>//www.ilonacodes.com/blog/how-to-create-parallax-effect-with-vanilla-js/</guid>
-      <description>&lt;p&gt;Hi, there! I hope you enjoy your weekend, and ready for a new post.&lt;/p&gt;
-
-&lt;p&gt;Recently there are a lot of sites, which have featured with parallax scrolling effect, that represents them in more interactive &amp;ldquo;professionally-made&amp;rdquo; way.&lt;/p&gt;
-
-&lt;p&gt;This fact made me recreate the effect using Vanilla JavaScript, an example of which you can see below.&lt;/p&gt;
-
-&lt;p&gt;Let&amp;rsquo;s a look at the implementation of &lt;code&gt;parallax effect in Vanilla JavaScript&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;I have used a &amp;lsquo;scroll&amp;rsquo; event on browser &amp;lsquo;window,&amp;rsquo; and retrieved the number of pixels the document is currently scrolled along the vertical axis from &amp;lsquo;window.pageYOffset&amp;rsquo;.&lt;/p&gt;
-
-&lt;p&gt;The constant &amp;lsquo;background&amp;rsquo; consists of the image for which we are going to apply the parallax effect.&lt;/p&gt;
-
-&lt;p&gt;Finally, I compute the scrolling interval in pixels for the &amp;lsquo;top&amp;rsquo; attribute.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;
-    window.addEventListener(&#39;scroll&#39;, function (e) {
-        // will not work on IE &amp;lt; 9
-        var scrolled = window.pageYOffset;
-        // will not work on IE &amp;lt; 8
-        const background = document.querySelector(&#39;.background&#39;);
-        background.style.top = - (scrolled * 0.2) + &#39;px&#39;;
-    });
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Tune the coefficient &amp;lsquo;0.2&amp;rsquo; to your liking.&lt;/p&gt;
-
-&lt;p&gt;If you liked the article, it would make me happy if you shared it on your favourite social networks!&lt;/p&gt;
-
-&lt;p&gt;If you have any questions, suggestions or recommendations feel free to reach out to me &lt;a href=&#34;https://twitter.com/ilonacodes&#34;&gt;on Twitter&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Happy coding!&lt;/p&gt;
-</description>
+      <description>Hi, there! I hope you enjoy your weekend, and ready for a new post.
+Recently there are a lot of sites, which have featured with parallax scrolling effect, that represents them in more interactive &amp;ldquo;professionally-made&amp;rdquo; way.
+This fact made me recreate the effect using Vanilla JavaScript, an example of which you can see below.
+Let&amp;rsquo;s a look at the implementation of parallax effect in Vanilla JavaScript.
+I have used a &amp;lsquo;scroll&amp;rsquo; event on browser &amp;lsquo;window,&amp;rsquo; and retrieved the number of pixels the document is currently scrolled along the vertical axis from &amp;lsquo;window.</description>
     </item>
     
     <item>
@@ -494,31 +137,8 @@ ReactDOM.render(&amp;lt;Routes history={history} store={store}/&amp;gt;,
       <pubDate>Thu, 08 Mar 2018 16:30:05 +0100</pubDate>
       
       <guid>//www.ilonacodes.com/blog/front-end-shorts-how-to-scroll-to-element-in-jquery-with-animation/</guid>
-      <description>&lt;p&gt;Here I am back and decided to continue blogging with front-end shorts. Unfortunately, I don&amp;rsquo;t have enough time to write big posts, but I would be happy to share some frontend tips and tricks that I have already applied for some of my projects.&lt;/p&gt;
-
-&lt;p&gt;The last days I had to work with Javascript and jQuery a lot apart from React and spent much time on creating templates. As you know, nowadays modern web pages include animated scrolling, which makes any site look professional and more elegant (instead of simple link element reference in HTML5).&lt;/p&gt;
-
-&lt;p&gt;The user story was:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;When the user clicks on the button,
-the page scroll to the specific element with a nice animation.
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;That forced me, to use &lt;code&gt;jQuery scrollTop animation&lt;/code&gt;.
-Assuming there is a button, with the id &amp;ldquo;button&amp;rdquo;:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;$(&amp;quot;#button&amp;quot;).click(function() {
-    $(&#39;html, body&#39;).animate({
-        scrollTop: $(&amp;quot;#elementToScroll&amp;quot;).offset().top
-    }, 1000);
-});
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;In this case, we are scrolling the height of the element. offset()
-return the coordinates of the element relative to the DOM, and top param gives us the element&amp;rsquo;s distance in pixels along the y-axis.&lt;/p&gt;
-
-&lt;p&gt;Thank you for reading. I hope you like this small &lt;code&gt;jQuery animation&lt;/code&gt; tip.&lt;/p&gt;
-</description>
+      <description>Here I am back and decided to continue blogging with front-end shorts. Unfortunately, I don&amp;rsquo;t have enough time to write big posts, but I would be happy to share some frontend tips and tricks that I have already applied for some of my projects.
+The last days I had to work with Javascript and jQuery a lot apart from React and spent much time on creating templates. As you know, nowadays modern web pages include animated scrolling, which makes any site look professional and more elegant (instead of simple link element reference in HTML5).</description>
     </item>
     
     <item>
@@ -527,44 +147,9 @@ return the coordinates of the element relative to the DOM, and top param gives u
       <pubDate>Mon, 23 Oct 2017 07:00:05 +0100</pubDate>
       
       <guid>//www.ilonacodes.com/blog/ada-lovelace-festival-2017-in-berlin/</guid>
-      <description>&lt;p&gt;The last week I have attended Ada Lovelace Festival that occurred on 19-20 October 2017. The aim of the event to connect women in computing and technology.&lt;/p&gt;
-
-&lt;p&gt;Unfortunately, I was a bit too late for the keynote, because I had a lecture at the university. However, I joined the conference, and after registration, I got my bag with sponsors gifts.&lt;/p&gt;
-
-&lt;p&gt;For example, a pen and a paper notebook from the WirtschaftsWoche, and a small car model and candies from Porsche. I was a quite pleased. Of course, I also grabbed a few relevant stickers for my laptop.&lt;/p&gt;
-
-&lt;p&gt;Below, I would like to list the talks and a workshop that I have found pretty inspiring for me as a woman in tech.&lt;/p&gt;
-
-&lt;p&gt;The first speech &lt;code&gt;Talent: The tools we need to build a digital nation of signification&lt;/code&gt; by Jacqueline de Rojas, techUK was about the importance of smart and intelligent people in the tech industry.&lt;/p&gt;
-
-&lt;p&gt;The future turns digital. That means people keep up with the times, taking into consideration all the software industry aspects.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;//www.ilonacodes.com/blog/images/ada-lovelace-1.jpg&#34; alt=&#34;Photo-1&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The next workshop, that gave me valuable tips and pointed out some ways how to grow your brand called &lt;code&gt;To be in the 1st row: Build your own brand&lt;/code&gt; by Regina Mehler, WOMEN SPEAKER FOUNDATION.&lt;/p&gt;
-
-&lt;p&gt;The speaker showed us the importance of networking, communication, and negotiation with top-brass people at occasional meetings, using examples from their career. The workshop finished with a practical session between participants.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;//www.ilonacodes.com/blog/images/ada-lovelace-2.jpg&#34; alt=&#34;Photo-2&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;As a web developer, I couldn&amp;rsquo;t pass the talk &lt;code&gt;How to improve our technical decision-making skills&lt;/code&gt; by Duana Stanley, Clue. All developers know that the core skill of problem-solving is to find useful information quickly and to be able to make a decision based on the reliable information and requirements.&lt;/p&gt;
-
-&lt;p&gt;Firstly, the speaker defined what a right technical decision is. Such decision takes context into account. Then speaker has described the process in which developers should:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;understand the decision,&lt;/li&gt;
-&lt;li&gt;check their emotions,&lt;/li&gt;
-&lt;li&gt;list and evaluate options,&lt;/li&gt;
-&lt;li&gt;build consensus and&lt;/li&gt;
-&lt;li&gt;sleep on it.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;//www.ilonacodes.com/blog/images/ada-lovelace-3.jpg&#34; alt=&#34;Photo-3&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;At this point, I’m going to finish the post. I have tried to share my impression from the Ada Lovelace Festival 2017 in Berlin with you, dear Techmakers. I hope you enjoyed the highlights of the event from my point of view.&lt;/p&gt;
-
-&lt;p&gt;Wish you a great week and new achievements.&lt;/p&gt;
-</description>
+      <description>The last week I have attended Ada Lovelace Festival that occurred on 19-20 October 2017. The aim of the event to connect women in computing and technology.
+Unfortunately, I was a bit too late for the keynote, because I had a lecture at the university. However, I joined the conference, and after registration, I got my bag with sponsors gifts.
+For example, a pen and a paper notebook from the WirtschaftsWoche, and a small car model and candies from Porsche.</description>
     </item>
     
     <item>
@@ -573,56 +158,9 @@ return the coordinates of the element relative to the DOM, and top param gives u
       <pubDate>Thu, 19 Oct 2017 08:30:05 +0100</pubDate>
       
       <guid>//www.ilonacodes.com/blog/react-meetup-at-home24-berlin/</guid>
-      <description>&lt;p&gt;Hey, there! In this blog post, I’m going to share my impression about the React.js &amp;amp; React Native meetup in Berlin that I have visited at Home24 yesterday.&lt;/p&gt;
-
-&lt;p&gt;If you still didn&amp;rsquo;t have a look at the topic of my blog, so, as you noticed from the title, I am interested in front-end development and at the moments specialized in the JavaScript language and especially in React framework.&lt;/p&gt;
-
-&lt;p&gt;Close to the point, I would like to tell you a couple of words about the last meetup.&lt;/p&gt;
-
-&lt;p&gt;Traditionally, there were three talks, breaks, pizza+bier, and, definitely, the opportunity for networking and communicating with each other.&lt;/p&gt;
-
-&lt;p&gt;Now I’m going to tell you about the talks.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;//www.ilonacodes.com/blog/images/react-meetup-1.jpg&#34; alt=&#34;Photo-1&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The first speaker, Shahjada Talukdar, Frontend Engineer at Perdoo presented &lt;code&gt;Build your dream app with CRA (Create React App)&lt;/code&gt;:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;How to build a simple app with Create React App (CRA) using the simple command &lt;code&gt;create-react-app name&lt;/code&gt; in the terminal;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;How to start/build/eject with &lt;a href=&#34;https://yarnpkg.com/lang/en/&#34;&gt;yarn&lt;/a&gt; that serving local and on network;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Why we should be using &lt;a href=&#34;https://developers.google.com/web/fundamentals/primers/service-workers/?hl=en&#34;&gt;service worker&lt;/a&gt; that controls what happens on a request-by-request basis and also allows React apps working offline.&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;img src=&#34;//www.ilonacodes.com/blog/images/react-meetup-2.jpg&#34; alt=&#34;Photo-2&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The second talk called &lt;code&gt;React SSR featuring AWS Lambda&lt;/code&gt; by George Lolos, Frontend Squad Leader at Home24 AG.&lt;/p&gt;
-
-&lt;p&gt;The talk is about how to improve the performance, how to structure React app and how to solve small problems in front-end part. They’ve also told us about React SSR (Server Side Rendering).&lt;/p&gt;
-
-&lt;p&gt;React SSR renders basic pages, and AWS Lambda runs code without managing servers. And the biggest challenge was the massive size of Lambda. So, the speaker shared with us approaches how to minify it and the result that they have achieved.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;//www.ilonacodes.com/blog/images/react-meetup-3.jpg&#34; alt=&#34;Photo-3&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Last but not least, the third talk &lt;code&gt;Beyond JavaScript: The Hidden Benefit of React Native&lt;/code&gt; by Wojciech Ogrodowczyk, Partner at Brains &amp;amp; Beards.&lt;/p&gt;
-
-&lt;p&gt;The talk refers to choosing an optimal programming language to optimize and to improve the performance of the code. The speaker also mentioned an approach how to solve the language problem.&lt;/p&gt;
-
-&lt;p&gt;For example, by dividing the team into groups. Then every group should decide which programming language they will choose.&lt;/p&gt;
-
-&lt;p&gt;Then they will implement a small project during the next couple of months. In the end, they will compare the performance of every group relative to each other.&lt;/p&gt;
-
-&lt;p&gt;However, we shouldn&amp;rsquo;t forget that in computer science everything depends on team skills, personality, and other things.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;//www.ilonacodes.com/blog/images/react-meetup-4.jpg&#34; alt=&#34;Photo-4&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I have shared my thoughts and opinions above on how I understood the topics of the talks.&lt;/p&gt;
-
-&lt;p&gt;If you are located close to where React.js &amp;amp; React Native community meets and interested in front-end, then I highly recommend you to visit such meetings and get to learn more about it from competent people.&lt;/p&gt;
-
-&lt;p&gt;Thank you for the reading! Have a nice week!&lt;/p&gt;
-</description>
+      <description>Hey, there! In this blog post, I’m going to share my impression about the React.js &amp;amp; React Native meetup in Berlin that I have visited at Home24 yesterday.
+If you still didn&amp;rsquo;t have a look at the topic of my blog, so, as you noticed from the title, I am interested in front-end development and at the moments specialized in the JavaScript language and especially in React framework.
+Close to the point, I would like to tell you a couple of words about the last meetup.</description>
     </item>
     
     <item>
@@ -631,83 +169,10 @@ return the coordinates of the element relative to the DOM, and top param gives u
       <pubDate>Sat, 14 Oct 2017 22:30:05 +0100</pubDate>
       
       <guid>//www.ilonacodes.com/blog/what-did-i-learn-at-codemotion-berlin-2017/</guid>
-      <description>
-
-&lt;p&gt;Hi, everyone!&lt;/p&gt;
-
-&lt;p&gt;As you noticed, I post a new blog post about the development of an interactive ToDo list regularly, every five days. But today I am going to tell you about the international IT-conference &lt;a href=&#34;https://berlin2017.codemotionworld.com/&#34;&gt;Codemotion&lt;/a&gt;, that I have attended on 12-13. October in Berlin.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;//www.ilonacodes.com/blog/images/codemotion.JPG&#34; alt=&#34;Codemotion&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;There were a lot of informative and motivational topics, that can inspire everyone, who are interested or work in IT-branch.&lt;/p&gt;
-
-&lt;p&gt;All talks occurred in four different spaces and referred by the topic of the sessions. For example, in &lt;code&gt;Maschinenhaus&lt;/code&gt; speakers gave a speech mostly about technologies and practical approaches that they use. In &lt;code&gt;Community Stage&lt;/code&gt; the talks were related to motivational topics, discussing programming languages.&lt;/p&gt;
-
-&lt;p&gt;Also, there took place &lt;code&gt;Ruby on Rails Workshop&lt;/code&gt;. The full agenda of the conference you can check below:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;//www.ilonacodes.com/blog/images/agenda-12-10.jpg&#34; alt=&#34;Agenda-1&#34; /&gt;
-&lt;img src=&#34;//www.ilonacodes.com/blog/images/agenda-13-10.jpg&#34; alt=&#34;Agenda-2&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The most interesting talks for me as a frontend developer, I included to &lt;code&gt;My Favorites&lt;/code&gt; list.&lt;/p&gt;
-
-&lt;p&gt;I would like to share more information about them with you:&lt;/p&gt;
-
-&lt;h3 id=&#34;frontend-frameworkless-development-by-francesco-strazzullo-exstrategy&#34;&gt;&lt;code&gt;Frontend Frameworkless Development&lt;/code&gt; by Francesco Strazzullo | exstrategy&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&#34;//www.ilonacodes.com/blog/images/speaker-1.JPG&#34; alt=&#34;Speaker-1&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The idea of the talk based on the possibility to develop new apps, new features for apps while not using any frameworks. The example code, the empty forms, are written in &lt;code&gt;Vanilla JavaScript&lt;/code&gt; replacing &lt;code&gt;React+Redux&lt;/code&gt; frameworks for that.&lt;/p&gt;
-
-&lt;p&gt;Firstly, the speaker showed us that there is no dependency in &lt;code&gt;package.json&lt;/code&gt; (the file that includes all dependencies and configures the project).&lt;/p&gt;
-
-&lt;p&gt;Then they have implemented the function that is similar to ReactDOM rendering.&lt;/p&gt;
-
-&lt;p&gt;Next, they have replaced Redux features by creating variables &lt;code&gt;store&lt;/code&gt;, &lt;code&gt;state&lt;/code&gt;. They handle the current and calculation of the new state. Finally, they store new state back to &lt;code&gt;store&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;The conclusion.&lt;/p&gt;
-
-&lt;p&gt;It&amp;rsquo;s possible to write clean code without using any frameworks. Vanilla JavaScript still will be alive for the next tens of years.&lt;/p&gt;
-
-&lt;p&gt;Frameworks might die the following year.&lt;/p&gt;
-
-&lt;h3 id=&#34;how-to-rock-the-stage-public-speaking-for-geeks-by-lorenzo-barbieri-microsoft-western-europe&#34;&gt;&lt;code&gt;How to rock the stage: public speaking for geeks&lt;/code&gt; by Lorenzo Barbieri | Microsoft Western Europe&lt;/h3&gt;
-
-&lt;p&gt;I am an introvert.&lt;/p&gt;
-
-&lt;p&gt;Naturally, I have found this talk extremely useful for me. It is on how to improve my soft skills by speaking not only in front of the people but also with others.&lt;/p&gt;
-
-&lt;p&gt;The slide on the photo below describes some “icebreakers” that allow starting, keeping, and controlling a conversation in life, and on the stage.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;//www.ilonacodes.com/blog/images/speaker-2.JPG&#34; alt=&#34;Speaker-2&#34; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;build-bridges-not-walls-design-for-users-across-cultures-by-jenny-shen-toptal&#34;&gt;&lt;code&gt;Build bridges, not walls - Design for users across cultures&lt;/code&gt; by Jenny Shen | Toptal&lt;/h3&gt;
-
-&lt;p&gt;I was lucky to meet and speak personally with the speaker &lt;a href=&#34;http://jennyshen.com/&#34;&gt;Jenny Shen&lt;/a&gt;. They have worked in five countries before and currently are based in Amsterdam.&lt;/p&gt;
-
-&lt;p&gt;Using illustrative examples, Jenny showed us how important it is to know the culture of society you are developing for.&lt;/p&gt;
-
-&lt;p&gt;What kinds of problems can appear in design? Which data should be taken into account to make people of different cultures happy?&lt;/p&gt;
-
-&lt;p&gt;I have already moved to another country once. I can relate to that so much.&lt;/p&gt;
-
-&lt;p&gt;Most of my development projects are for multicultural users. I think it is necessary to know most common obstacles that I could meet on my &amp;ldquo;development&amp;rdquo; path.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;//www.ilonacodes.com/blog/images/speaker-3.JPG&#34; alt=&#34;Speaker-3&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://codemotionworld.com/&#34;&gt;Codemotion&lt;/a&gt; conferences are worldwide.&lt;/p&gt;
-
-&lt;p&gt;They are suitable for any professional level of IT-people with different backgrounds. That helps to get to know more about IT-world at its current state.&lt;/p&gt;
-
-&lt;p&gt;It is fantastic to participate in workshops, and network with amazing people.&lt;/p&gt;
-
-&lt;p&gt;Thank you for reading!&lt;/p&gt;
-
-&lt;p&gt;I will be glad to answer any questions about my impression. Feel free to give any feedback for this post.&lt;/p&gt;
-
-&lt;p&gt;You can find me on &lt;a href=&#34;https://www.instagram.com/ilonacodes/&#34;&gt;Instagram&lt;/a&gt; or send me a private letter on my &lt;a href=&#34;mailto:demiluri@gmail.com&#34;&gt;email&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Cheers!&lt;/p&gt;
-</description>
+      <description>Hi, everyone!
+As you noticed, I post a new blog post about the development of an interactive ToDo list regularly, every five days. But today I am going to tell you about the international IT-conference Codemotion, that I have attended on 12-13. October in Berlin.
+There were a lot of informative and motivational topics, that can inspire everyone, who are interested or work in IT-branch.
+All talks occurred in four different spaces and referred by the topic of the sessions.</description>
     </item>
     
     <item>
@@ -716,114 +181,8 @@ return the coordinates of the element relative to the DOM, and top param gives u
       <pubDate>Tue, 10 Oct 2017 12:30:05 +0100</pubDate>
       
       <guid>//www.ilonacodes.com/blog/persisting-data-using-local-storage-react-redux/</guid>
-      <description>&lt;p&gt;Let&amp;rsquo;s continue developing an Interactive ToDo List. Refer to the &lt;a href=&#34;//www.ilonacodes.com/blog/react-for-very-very-beginners/&#34;&gt;previous posts&lt;/a&gt; you notice that we are almost done with the basic functionality of the application. And today I would like to start the topic about persisting the data and restoring it after refreshing the page or starting a new session on the local machine with React+Redux.&lt;/p&gt;
-
-&lt;p&gt;Changing into the &lt;code&gt;my-daily-todos&lt;/code&gt; project, then to &lt;code&gt;src&lt;/code&gt; folder where you find &lt;code&gt;index.js&lt;/code&gt;. Here we store all the app’s state in the &lt;code&gt;store&lt;/code&gt; variable. Now we are also going to add a new variable that will keep the initial state and a new constant &lt;code&gt;persistedState&lt;/code&gt; that allows us to get the persisted state from store passing to method &lt;code&gt;getItem&lt;/code&gt; of &lt;code&gt;localStorage&lt;/code&gt; =&amp;gt; &lt;code&gt;localStorage.getItem(&#39;reduxState&#39;)&lt;/code&gt;:&lt;/p&gt;
-
-&lt;p&gt;So, the &lt;code&gt;initState&lt;/code&gt; variable has the default value – empty &lt;code&gt;{}&lt;/code&gt;. If there is no persisted state in the local storage, it is going to stay empty.&lt;/p&gt;
-
-&lt;p&gt;On the other hand, when there is some persisted state in the local storage, we are going to load that state and set &lt;code&gt;initState&lt;/code&gt; to value, that we have just loaded.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;// my-daily-todos/src/index.js
-
-...
-
-import { App } from &#39;./App.js&#39;;
-import { tasksReducer } from &#39;./Tasks/reducers.js&#39;;
-import &#39;./index.css&#39;;
-
-let initState = {}
-const persistedState = localStorage.getItem(&#39;reduxState&#39;)
-
-// if persistedState is not empty then assign parsed persistedState to initState
-if (persistedState) {
-  initState = JSON.parse(persistedState)
-}
-
-...
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;span style=&#34;color:red&#34;&gt;Notice that we are passing the second parameter &lt;code&gt;initState&lt;/code&gt; to &lt;code&gt;createStore&lt;/code&gt; method in &lt;code&gt;store&lt;/code&gt;. The second parameter of &lt;code&gt;createStore&lt;/code&gt; function is for setting the initial state of the store when the application is launched:&lt;/span&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;// my-daily-todos/src/index.js
-
-...
-
-let store = createStore(
-  combineReducers({
-    tasks: tasksReducer,
-  }),
-  initState
-);
-
-...
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Onward!&lt;/p&gt;
-
-&lt;p&gt;We are going to use &lt;code&gt;subscribe&lt;/code&gt; method of our &lt;code&gt;store&lt;/code&gt;. That method will trigger the function we provide every time there is any change to the application state.&lt;/p&gt;
-
-&lt;p&gt;We are going to supply a function that will get the whole state from the store using &lt;code&gt;getState()&lt;/code&gt; method of &lt;code&gt;store&lt;/code&gt;. Then it is going to convert that state object to a string using &lt;code&gt;JSON.stringify()&lt;/code&gt;. Finally, it is going to persist that state using &lt;code&gt;localStorage.setItem()&lt;/code&gt;:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;// my-daily-todos/src/index.js
-
-...
-
-store.subscribe(() =&amp;gt; {
-  localStorage.setItem(&#39;reduxState&#39;, JSON.stringify(store.getState()))
-})
-
-...
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;That&amp;rsquo;s it.&lt;/p&gt;
-
-&lt;p&gt;To check how it works run the local server on your computer in the project folder with the &lt;code&gt;npm start&lt;/code&gt; command. Afterwards, try to add and categorize some tasks by tags, then close the tab with the application or refresh the page to see that the data is stored successfully.&lt;/p&gt;
-
-&lt;p&gt;Did you find another way how to implement it in our project? Let me know by &lt;a href=&#34;mailto:demiluri@gmail.com&#34;&gt;email&lt;/a&gt; or write me a direct message on &lt;a href=&#34;https://www.instagram.com/ilonacodes/&#34;&gt;Instagram&lt;/a&gt;. That is how the &lt;code&gt;index.js&lt;/code&gt; should look like now:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;// my-daily-todos/src/index.js
-
-import React from &#39;react&#39;;
-import ReactDOM from &#39;react-dom&#39;;
-import { Provider } from &#39;react-redux&#39;;
-import { createStore, combineReducers } from &#39;redux&#39;;
-
-import { App } from &#39;./App.js&#39;;
-import { tasksReducer } from &#39;./Tasks/reducers.js&#39;;
-import &#39;./index.css&#39;;
-
-let initState = {}
-const persistedState = localStorage.getItem(&#39;reduxState&#39;)
-if (persistedState) {
-  initState = JSON.parse(persistedState)
-}
-
-let store = createStore(
-  combineReducers({
-    tasks: tasksReducer,
-  }),
-  initState
-);
-
-store.subscribe(() =&amp;gt; {
-  localStorage.setItem(&#39;reduxState&#39;, JSON.stringify(store.getState()))
-})
-
-ReactDOM.render(
-  &amp;lt;Provider store={store}&amp;gt;
-    &amp;lt;App /&amp;gt;
-  &amp;lt;/Provider&amp;gt;,
-  document.getElementById(&#39;root&#39;)
-);
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;If you enjoyed this post, I would be very grateful if you would help me spread the word by emailing it to a friend or sharing it on social networks. Thank you!&lt;/p&gt;
-</description>
+      <description>Let&amp;rsquo;s continue developing an Interactive ToDo List. Refer to the previous posts you notice that we are almost done with the basic functionality of the application. And today I would like to start the topic about persisting the data and restoring it after refreshing the page or starting a new session on the local machine with React+Redux.
+Changing into the my-daily-todos project, then to src folder where you find index.js. Here we store all the app’s state in the store variable.</description>
     </item>
     
     <item>
@@ -832,115 +191,8 @@ ReactDOM.render(
       <pubDate>Fri, 06 Oct 2017 19:30:05 +0100</pubDate>
       
       <guid>//www.ilonacodes.com/blog/dynamic-progress-bar-with-react-redux/</guid>
-      <description>&lt;p&gt;Hi there! I am so happy that you continue developing our interactive Daily ToDo app with me. Today you are going to get to know how to implement a dynamic progress bar that will handle task completing status by percentage for every category.&lt;/p&gt;
-
-&lt;p&gt;&lt;span style=&#34;color:red&#34;&gt;But before moving on, if you are new here, please, have a look at the &lt;a href=&#34;//www.ilonacodes.com/blog/react-for-very-very-beginners/&#34;&gt;previous posts&lt;/a&gt;. You should start developing app there and then continue with us here.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;And now I would like to offer my approach how to add a simple but dynamic progress bar to every task category and finally, make our Daily ToDo app interactive.&lt;/p&gt;
-
-&lt;p&gt;Let&amp;rsquo;s change into &lt;code&gt;my-daily-todos&lt;/code&gt; folder and start developing!&lt;/p&gt;
-
-&lt;p&gt;Firstly, I recommend you to add a small library &lt;code&gt;w3.css&lt;/code&gt; to our &lt;code&gt;index.html&lt;/code&gt; where we store all style dependencies:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;
-// my-daily-todos/public/index.html
-
-&amp;lt;!doctype html&amp;gt;
-&amp;lt;html lang=&amp;quot;en&amp;quot;&amp;gt;
-  &amp;lt;head&amp;gt;
-    &amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt;
-    &amp;lt;meta name=&amp;quot;viewport&amp;quot; content=&amp;quot;width=device-width, initial-scale=1, shrink-to-fit=no&amp;quot;&amp;gt;
-
-    &amp;lt;link rel=&amp;quot;manifest&amp;quot; href=&amp;quot;%PUBLIC_URL%/manifest.json&amp;quot;&amp;gt;
-
-// just add this library
-    &amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;https://www.w3schools.com/w3css/4/w3.css&amp;quot;&amp;gt;
-
-    &amp;lt;title&amp;gt;React App&amp;lt;/title&amp;gt;
-  &amp;lt;/head&amp;gt;
-  &amp;lt;body&amp;gt;
-    &amp;lt;div id=&amp;quot;root&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
-  &amp;lt;/body&amp;gt;
-&amp;lt;/html&amp;gt;
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;span style=&#34;color:red&#34;&gt;If you open your &lt;code&gt;index.html&lt;/code&gt; for the first time, you&amp;rsquo;ll notice, that there lots of comments and some initial link tags. In this case, you can just rewrite your &lt;code&gt;index.html&lt;/code&gt; in the way that I left above.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;The dynamic progress bar belongs to the &lt;code&gt;TaskCategory.js&lt;/code&gt; component. That&amp;rsquo;s why we have to open this file and step by step implement the new feature:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;To initialize &lt;code&gt;completed_tasks&lt;/code&gt; constant, that will filter &lt;code&gt;tasks&lt;/code&gt; by &lt;code&gt;completed&lt;/code&gt; property and store them in;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;To initialize &lt;code&gt;percentage&lt;/code&gt; constant to count the percentage of completed tasks with a simple formula and to round it with &lt;code&gt;floor&lt;/code&gt; method;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Apply classes from the &lt;code&gt;w3.css&lt;/code&gt; library for tags inside the &lt;code&gt;TaskCategory.js&lt;/code&gt; component and pass the value of &lt;code&gt;percentage&lt;/code&gt;;&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;
-// my-daily-todos/src/Tasks/TaskCategory.js
-
-...
-export const TaskCategory = ({category, tasks, completeTask}) =&amp;gt; {
-
-// Step 1
-  const completed_tasks = tasks.filter(task =&amp;gt; task.completed);
-
-// Step 2
-  const percentage = Math.floor(completed_tasks.length / tasks.length * 100);
-
-  return &amp;lt;div&amp;gt;
-    &amp;lt;h2&amp;gt;{category}&amp;lt;/h2&amp;gt;
-
-// Step 3
-      &amp;lt;div className=&amp;quot;w3-light-grey w3-round progress-bar&amp;quot;&amp;gt;
-       &amp;lt;div className=&amp;quot;w3-container w3-round w3-green progress-bar-indicator&amp;quot;
-        style={{width: `${percentage}%`}}&amp;gt;
-        {percentage}%
-       &amp;lt;/div&amp;gt;
-      &amp;lt;/div&amp;gt;
-    &amp;lt;ul&amp;gt;
-    {tasks.map(task =&amp;gt;
-      &amp;lt;li key={task.id}&amp;gt;
-        &amp;lt;Task task={task} completeTask={completeTask} /&amp;gt;
-      &amp;lt;/li&amp;gt;
-    )}
-    &amp;lt;/ul&amp;gt;
-  &amp;lt;/div&amp;gt;
-}
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;To make things look good, we should change into &lt;code&gt;App.js&lt;/code&gt; and add styles to already created from the &lt;code&gt;w3.css&lt;/code&gt; library &lt;code&gt;.progress-bar&lt;/code&gt; and &lt;code&gt;.progress-bar-indicator&lt;/code&gt; classes:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;
-// my-daily-todos/src/App.css
-
-...
-
-.taskslist-container .progress-bar {
-   width: 30%;
-   height: 25px;
-   text-align: center;
-   margin-bottom: 1rem;
-   font-size: 11px;
- }
-
- .taskslist-container .progress-bar-indicator {
-   height: 25px;
-   padding-top: 5px;
- }
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;span style=&#34;color:red&#34;&gt;To check how it looks like, don&amp;rsquo;t forget to run a local server by the &lt;code&gt;npm start&lt;/code&gt; in the terminal in &lt;code&gt;my-daily-todos&lt;/code&gt; folder.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;You should get something like that at the end:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;//www.ilonacodes.com/blog/images/progress-bar.png&#34; alt=&#34;Progress bar&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Thank you for the reading. Happily, you are enjoying developing with React+Redux and waiting for the next feature description. Have a nice coding!&lt;/p&gt;
-</description>
+      <description>Hi there! I am so happy that you continue developing our interactive Daily ToDo app with me. Today you are going to get to know how to implement a dynamic progress bar that will handle task completing status by percentage for every category.
+But before moving on, if you are new here, please, have a look at the previous posts. You should start developing app there and then continue with us here.</description>
     </item>
     
     <item>
@@ -949,158 +201,93 @@ export const TaskCategory = ({category, tasks, completeTask}) =&amp;gt; {
       <pubDate>Sun, 01 Oct 2017 19:30:05 +0100</pubDate>
       
       <guid>//www.ilonacodes.com/blog/categorize-tasks-with-react-redux/</guid>
-      <description>&lt;p&gt;The most valuable feature set for our Daily ToDo is already done. Today we are going to make an app more functional, separating tasks by categories. We want to be able to categorize task by typing &lt;code&gt;#&lt;/code&gt; and category after its title.&lt;/p&gt;
-
-&lt;p&gt;For example: &lt;code&gt;practice a coding kata #programming&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;As always, we start with the simple &lt;code&gt;user story&lt;/code&gt; and the &lt;code&gt;acceptance criteria&lt;/code&gt;:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;As Bob
-I want to categorize tasks by adding tag into input
-So I see which task belongs to which category
-
-## Acceptance Criteria
-
-Given there are no tasks
-And I am on dashboard screen
-When I finish inputting a new task title
-And choose the category (tag) for a task
-And press Enter
-Then I see the categorized task by tag on the dashboard screen
-
-Tag examples: Programming, Sport, Languages, University, Reading, Routine
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;span style=&#34;color:red&#34;&gt;If you are a new reader of the tutorial series and don&amp;rsquo;t understand what is going on at the moment, then just check the previous posts starting with &lt;a href=&#34;//www.ilonacodes.com/blog/react-for-very-very-beginners/&#34;&gt;React For Very Very Beginners&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;To add this feature,  we should extend the action &lt;code&gt;ADD_TASK&lt;/code&gt; in &lt;code&gt;reducers.js&lt;/code&gt; and add &lt;code&gt;tag&lt;/code&gt; property to a &lt;code&gt;task&lt;/code&gt; object by separating a &lt;code&gt;title&lt;/code&gt; into parts:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;// my-daily-todos/src/Tasks/reducers.js
-
-...
-// As I mentioned before we will change only &amp;quot;ADD_TASK&amp;quot; action in &amp;quot;tasksReducer&amp;quot;
-
-case t.ADD_TASK:
-
-// split a title by &amp;quot;#&amp;quot; into two parts
-      const titleParts = action.title.split(&#39;#&#39;)
-
-// the first part is a title task, where &amp;quot;trim&amp;quot; method removes whitespace from both ends of a string
-      const title = titleParts[0].trim()
-
-// the second part is a tag
-      const tag = titleParts[1]
-
-      return [
-        ...state,
-
-// now the &amp;quot;task&amp;quot; object contains three properties: id, title, and tag
-        {
-          id: generateID(),
-          title: title,
-          tag: tag
-        }
-      ]
-...
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;span style=&#34;color:red&#34;&gt;As usual, change into &lt;code&gt;my-daily-todos&lt;/code&gt; folder in your &lt;code&gt;workspace&lt;/code&gt; via your terminal and open the project in your favorite editor to continue implementing a new feature.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;The next step is to create a new component &lt;code&gt;TaskCategory.js&lt;/code&gt; in &lt;code&gt;Tasks&lt;/code&gt; folder that will contain and use &lt;code&gt;Task.js&lt;/code&gt; component.&lt;/p&gt;
-
-&lt;p&gt;You heard that right, &lt;code&gt;Task.js&lt;/code&gt; component is &lt;code&gt;moving&lt;/code&gt; from &lt;code&gt;TaskList.js&lt;/code&gt; component into &lt;code&gt;TaskCategory.js&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Now the &lt;code&gt;TaskList.js&lt;/code&gt; will include &lt;code&gt;TaskCategory.js&lt;/code&gt; instead of &lt;code&gt;Task.js&lt;/code&gt;. That is because we have extended the task object by a category and the &lt;code&gt;TaskList.js&lt;/code&gt; component renders all tasks that have been created through the user input field:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;// my-daily-todos/src/Tasks/TaskCategory.js
-
-import React from &#39;react&#39;;
-
-// import `Task.js` component
-import { Task } from &#39;./Task.js&#39;;
-
-// add states and actions into TaskCategory.js to handle them
-export const TaskCategory = ({category, tasks, completeTask}) =&amp;gt; {
-  return &amp;lt;div&amp;gt;
-// the &amp;quot;category&amp;quot; will render a &amp;quot;tag&amp;quot; name and sort tasks by tags
-    &amp;lt;h2&amp;gt;{category}&amp;lt;/h2&amp;gt;
-
-// take and add here this code snippet from &amp;quot;TaskList.js&amp;quot;
-    &amp;lt;ul&amp;gt;
-    {tasks.map(task =&amp;gt;
-      &amp;lt;li key={task.id}&amp;gt;
-        &amp;lt;Task task={task} completeTask={completeTask} /&amp;gt;
-      &amp;lt;/li&amp;gt;
-    )}
-    &amp;lt;/ul&amp;gt;
-  &amp;lt;/div&amp;gt;
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;The last changes what we have to do:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;To pass the &lt;code&gt;TaskCategory.js&lt;/code&gt; component into the &lt;code&gt;TaskList.js&lt;/code&gt; component;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;To write &lt;code&gt;unique&lt;/code&gt; function to categorize created tasks without any task duplication in a category;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;To filter tasks by a &lt;code&gt;tag&lt;/code&gt; that is equal to a &lt;code&gt;category&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;To make all things work, open the &lt;code&gt;TaskList.js&lt;/code&gt; component and rewrite a little bit of code there:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;// my-daily-todos/src/Tasks/TaskList.js
-
-import React, { Component } from &#39;react&#39;;
-import { connect } from &#39;react-redux&#39;;
-
-// import &amp;quot;TaskCategory.js&amp;quot; component
-import { TaskCategory } from &#39;./TaskCategory.js&#39;;
-
-import { Task } from &#39;./Task.js&#39;;
-import { actions } from &#39;./actions&#39;;
-
-// create the &amp;quot;unique&amp;quot; method that will take &amp;quot;array&amp;quot; as an argument, remove duplicate values from an array, and return a new array
-const unique = array =&amp;gt; {
-  return array.filter((item, index) =&amp;gt; {
-    return array.indexOf(item) === index
-  })
-}
-
-const TaskListComponent = ({tasks, completeTask}) =&amp;gt; {
-
-// apply the &amp;quot;unique&amp;quot; function for the categories array
-  const categories = unique(tasks.map(task =&amp;gt; task.tag))
-
-  return &amp;lt;div className=&amp;quot;tasklist-container&amp;quot;&amp;gt;
-// make a list for every of user category and pass the &amp;quot;TaskCategory.js&amp;quot; component here
-    {categories.map(category =&amp;gt;
-      &amp;lt;TaskCategory
-        key={category}
-        category={category}
-        completeTask={completeTask}
-
-// filter array of tasks that will manage by a tag to a category
-        tasks = {tasks.filter(task =&amp;gt; task.tag === category)}
-      /&amp;gt;
-    )}
-  &amp;lt;/div&amp;gt;
-}
-...
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;The result in the case of the categorize tasks is shown here:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;//www.ilonacodes.com/blog/images/read-a-book-category.png&#34; alt=&#34;Read a book&#34; /&gt;
-&lt;img src=&#34;//www.ilonacodes.com/blog/images/do-yoga-category.png&#34; alt=&#34;Do yoga&#34; /&gt;
-&lt;img src=&#34;//www.ilonacodes.com/blog/images/categories.png&#34; alt=&#34;Categories&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Before moving on, I hope you enjoyed and understand how to categorize tasks with &lt;code&gt;React+Redux&lt;/code&gt; and ready to the next challenge (new feature) for our interactive Daily ToDo app.&lt;/p&gt;
-
-&lt;p&gt;Thank you for the reading. If you have any questions or suggestions how it should have written on, then just get in touch with me either per &lt;a href=&#34;mailto:demiluri@gmail.com&#34;&gt;email&lt;/a&gt; or on my &lt;a href=&#34;https://www.instagram.com/ilonacodes/&#34;&gt;Instagram profile&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description>The most valuable feature set for our Daily ToDo is already done. Today we are going to make an app more functional, separating tasks by categories. We want to be able to categorize task by typing # and category after its title.
+For example: practice a coding kata #programming.
+As always, we start with the simple user story and the acceptance criteria:
+As Bob I want to categorize tasks by adding tag into input So I see which task belongs to which category ## Acceptance Criteria Given there are no tasks And I am on dashboard screen When I finish inputting a new task title And choose the category (tag) for a task And press Enter Then I see the categorized task by tag on the dashboard screen Tag examples: Programming, Sport, Languages, University, Reading, Routine  If you are a new reader of the tutorial series and don&amp;rsquo;t understand what is going on at the moment, then just check the previous posts starting with React For Very Very Beginners</description>
+    </item>
+    
+    <item>
+      <title>Let&#39;s complete some tasks with React&#43;Redux</title>
+      <link>//www.ilonacodes.com/blog/complete-some-tasks-with-react-redux/</link>
+      <pubDate>Tue, 26 Sep 2017 19:30:05 +0100</pubDate>
+      
+      <guid>//www.ilonacodes.com/blog/complete-some-tasks-with-react-redux/</guid>
+      <description>Today we are going to implement the second feature for our app. If you are a new reader, then I highly recommend you to check my earlier blog posts here, where we started our learning journey in React+Redux, refer to the posts complete previous steps and continue with us to develop an interactive ToDo List from here.
+As you guess from the blog title, the next feature called Complete a task.</description>
+    </item>
+    
+    <item>
+      <title>The First User Story, The First Feature With React&#43;Redux</title>
+      <link>//www.ilonacodes.com/blog/the-first-user-story-the-first-feature/</link>
+      <pubDate>Thu, 21 Sep 2017 19:30:05 +0100</pubDate>
+      
+      <guid>//www.ilonacodes.com/blog/the-first-user-story-the-first-feature/</guid>
+      <description>Hi, everyone! I guess you are pretty encouraged to start coding our app. Just to remind: it will be an interactive daily ToDo List. Today I am going to explain: what is a user story? Why do we need to write it before implementing a feature? How will we organize and structure an app? What is, actually, a new feature?
+Let&amp;rsquo;s start with the first question. In my opinion, user stories are efficient things.</description>
+    </item>
+    
+    <item>
+      <title>Simple Usage of React&#43;Redux</title>
+      <link>//www.ilonacodes.com/blog/simple-usage-of-react-redux/</link>
+      <pubDate>Sun, 17 Sep 2017 20:00:05 +0100</pubDate>
+      
+      <guid>//www.ilonacodes.com/blog/simple-usage-of-react-redux/</guid>
+      <description>As I promised in my previous post, today I am going to tell you about Redux, why and how we need to use them in common. Let me introduce React+Redux co-working through the simple input change that should render Hello, {any name / text}! at the end and manage by redux states.
+Redux? What is it? Redux is a predictable state container for managing both UI-state and data-state in JavaScript applications.</description>
+    </item>
+    
+    <item>
+      <title>React For Very Very Beginners</title>
+      <link>//www.ilonacodes.com/blog/react-for-very-very-beginners/</link>
+      <pubDate>Fri, 15 Sep 2017 16:25:05 +0100</pubDate>
+      
+      <guid>//www.ilonacodes.com/blog/react-for-very-very-beginners/</guid>
+      <description>The biggest challenge for beginners not only in front end development but also in the whole web development world is to find the answer to the question: How / Where should I start to learn web development? Some of these questions I have already received via private messages on social networks, and that encouraged me to create a series of small posts to write and complete the first app using JS (ECMA6) with React-Redux frameworks on which technologies I specialize.</description>
+    </item>
+    
+    <item>
+      <title>Starting with REST API: Figuring out</title>
+      <link>//www.ilonacodes.com/blog/starting-with-rest-api/</link>
+      <pubDate>Mon, 17 Jul 2017 21:45:05 +0100</pubDate>
+      
+      <guid>//www.ilonacodes.com/blog/starting-with-rest-api/</guid>
+      <description>Today I started doing backend part for my project. It will be written in Ruby language and using Sinatra framework.
+This post is directed at readers that have little experiences to understand the aim of REST API for a product development.
+Coming back to my project, I had to implement search and preview functionalities. I used a .txt file to describe the REST API precisely and go through it step by step.</description>
+    </item>
+    
+    <item>
+      <title>CSS Sticky Footer</title>
+      <link>//www.ilonacodes.com/blog/css-sticky-footer/</link>
+      <pubDate>Sat, 08 Jul 2017 20:25:05 +0100</pubDate>
+      
+      <guid>//www.ilonacodes.com/blog/css-sticky-footer/</guid>
+      <description>Hi there!
+There are a lot of ways how to implement a sticky footer on the page that will always remain at a fixed position on the screen no matter whether the user scroll or not. It will be visible all the time at that specific place (often on bottom).
+I would like to share my way how I added the sticky footer on my site.
+Firstly, I added two separated  tags inside the body in index.</description>
+    </item>
+    
+    <item>
+      <title>Clear Form in Redux when Navigating with React-Router</title>
+      <link>//www.ilonacodes.com/blog/clear-form-in-redux-when-navigating-with-react-router/</link>
+      <pubDate>Sun, 19 Mar 2017 19:25:05 +0100</pubDate>
+      
+      <guid>//www.ilonacodes.com/blog/clear-form-in-redux-when-navigating-with-react-router/</guid>
+      <description>Hi there!
+I have worked on my project using a React-Redux architecture with React-Router for navigation. I have implemented forms for adding and editing resources. I have observed weird behavior:
+ Add new resource with a description: &amp;ldquo;Hello World!&amp;rdquo; Start editing another resource with a description: &amp;ldquo;My new comment&amp;hellip;&amp;rdquo; Input for description contains a previous value: &amp;ldquo;Hello World!&amp;rdquo;  I was expecting to see the current description of the resource: &amp;ldquo;My new comment&amp;hellip;&amp;rdquo;, not the value from the previous form.</description>
+    </item>
+    
+    <item>
+      <title>How to Center Sign Up Form in 3 Simple Steps</title>
+      <link>//www.ilonacodes.com/blog/how-to-center-sign-up-form-in-3-simple-steps/</link>
+      <pubDate>Sun, 12 Mar 2017 16:34:40 +0100</pubDate>
+      
+      <guid>//www.ilonacodes.com/blog/how-to-center-sign-up-form-in-3-simple-steps/</guid>
+      <description>Hi, everyone!
+I am very happy to welcome you on my blog. A couple of days ago I started creating my new project (that I will have presented to you in a couple of weeks). And I have faced the following problem: I wanted to build a page with Sign Up form, and this page doesn&amp;rsquo;t have any other content. In that case, it made a lot of sense to center the form, both horizontally and vertically.</description>
     </item>
     
   </channel>
