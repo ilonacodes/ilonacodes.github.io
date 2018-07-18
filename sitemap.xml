@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>//www.ilonacodes.com/blog/content-first-in-web-design/</loc>
+    <lastmod>2018-07-16T07:00:05+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>//www.ilonacodes.com/beauty-calendar-app/</loc>
     <lastmod>2018-06-23T10:35:55+01:00</lastmod>
   </url>
@@ -25,6 +30,11 @@
   <url>
     <loc>//www.ilonacodes.com/ui-ux-projects/</loc>
     <lastmod>2018-06-23T10:35:55+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//www.ilonacodes.com/blog/how-to-choose-the-best-color/</loc>
+    <lastmod>2018-05-20T07:00:05+01:00</lastmod>
   </url>
   
   <url>
@@ -188,7 +198,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/blog/</loc>
-    <lastmod>2018-05-13T07:00:05+01:00</lastmod>
+    <lastmod>2018-07-16T07:00:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -228,8 +238,20 @@
   </url>
   
   <url>
+    <loc>//www.ilonacodes.com/tags/colors/</loc>
+    <lastmod>2018-05-20T07:00:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>//www.ilonacodes.com/tags/conference/</loc>
     <lastmod>2017-10-23T07:00:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.ilonacodes.com/tags/content/</loc>
+    <lastmod>2018-07-16T07:00:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -283,7 +305,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/</loc>
-    <lastmod>2018-06-23T10:35:55+01:00</lastmod>
+    <lastmod>2018-07-16T07:00:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -307,7 +329,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/tags/it/</loc>
-    <lastmod>2018-05-13T07:00:05+01:00</lastmod>
+    <lastmod>2018-07-16T07:00:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -451,7 +473,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/tags/tech/</loc>
-    <lastmod>2018-05-13T07:00:05+01:00</lastmod>
+    <lastmod>2018-07-16T07:00:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -475,19 +497,25 @@
   
   <url>
     <loc>//www.ilonacodes.com/tags/ux/</loc>
-    <lastmod>2018-05-13T07:00:05+01:00</lastmod>
+    <lastmod>2018-07-16T07:00:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>//www.ilonacodes.com/tags/webdesign/</loc>
-    <lastmod>2018-05-13T07:00:05+01:00</lastmod>
+    <lastmod>2018-07-16T07:00:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>//www.ilonacodes.com/tags/webdevelopment/</loc>
     <lastmod>2018-05-13T07:00:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.ilonacodes.com/tags/website/</loc>
+    <lastmod>2018-07-16T07:00:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   

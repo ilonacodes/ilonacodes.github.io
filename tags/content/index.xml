@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Content on Ilona Who Codes &amp; UXs</title>
+    <link>//www.ilonacodes.com/tags/content/</link>
+    <description>Recent content in Content on Ilona Who Codes &amp; UXs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 16 Jul 2018 07:00:05 +0100</lastBuildDate>
+    
+	<atom:link href="//www.ilonacodes.com/tags/content/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Content “First” in Web Design</title>
+      <link>//www.ilonacodes.com/blog/content-first-in-web-design/</link>
+      <pubDate>Mon, 16 Jul 2018 07:00:05 +0100</pubDate>
+      
+      <guid>//www.ilonacodes.com/blog/content-first-in-web-design/</guid>
+      <description>&lt;figure&gt;
+    
+        &lt;img src=&#34;//www.ilonacodes.com/blog/images/content-first-in-web-design.jpeg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;source: https://www.pexels.com/photo/startup-planning-notes-mac-book-7357/&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;From the title, you already guessed that I am going to speak about the design of the product, app or website that starts with content first.
+In my opinion, there are many advantages to applying the content first approach.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
