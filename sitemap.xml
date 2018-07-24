@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>//www.ilonacodes.com/blog/business-goals-and-user-needs/</loc>
+    <lastmod>2018-07-20T07:00:05+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>//www.ilonacodes.com/blog/content-first-in-web-design/</loc>
     <lastmod>2018-07-16T07:00:05+01:00</lastmod>
   </url>
@@ -198,7 +203,13 @@
   
   <url>
     <loc>//www.ilonacodes.com/blog/</loc>
-    <lastmod>2018-07-16T07:00:05+01:00</lastmod>
+    <lastmod>2018-07-20T07:00:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.ilonacodes.com/tags/business/</loc>
+    <lastmod>2018-07-20T07:00:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -305,7 +316,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/</loc>
-    <lastmod>2018-07-16T07:00:05+01:00</lastmod>
+    <lastmod>2018-07-20T07:00:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -329,7 +340,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/tags/it/</loc>
-    <lastmod>2018-07-16T07:00:05+01:00</lastmod>
+    <lastmod>2018-07-20T07:00:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -473,7 +484,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/tags/tech/</loc>
-    <lastmod>2018-07-16T07:00:05+01:00</lastmod>
+    <lastmod>2018-07-20T07:00:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -497,13 +508,13 @@
   
   <url>
     <loc>//www.ilonacodes.com/tags/ux/</loc>
-    <lastmod>2018-07-16T07:00:05+01:00</lastmod>
+    <lastmod>2018-07-20T07:00:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>//www.ilonacodes.com/tags/webdesign/</loc>
-    <lastmod>2018-07-16T07:00:05+01:00</lastmod>
+    <lastmod>2018-07-20T07:00:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -515,7 +526,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/tags/website/</loc>
-    <lastmod>2018-07-16T07:00:05+01:00</lastmod>
+    <lastmod>2018-07-20T07:00:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
