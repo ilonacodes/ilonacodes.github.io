@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html><head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# website: http://ogp.me/ns/website#">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+    <meta name="description" content="">
+    <meta property="og:title" content="Internationalize Your App With React">
+    
+    <meta property="og:type" content="article">
+    <meta property="article:published_time" content="2018-07-27">
+    
+    <meta property="og:description" content="">
+    <meta property="og:url" content="//www.ilonacodes.com/blog/internationalize-your-app-with-react/">
+    <meta property="og:site_name" content="Ilona Who Codes &amp; UXs">
+    
+    <meta property="og:tags" content="IT">
+    
+    <meta property="og:tags" content="app">
+    
+    <meta property="og:tags" content="react">
+    
+    <meta property="og:tags" content="webdesign">
+    
+    <meta property="og:tags" content="library">
+    
+    <meta property="og:tags" content="tech">
+    
+    <meta property="og:tags" content="JS">
+    
+    <meta name="generator" content="Hugo 0.44" />
+    <title>Internationalize Your App With React &middot; Ilona Who Codes &amp; UXs</title>
+    
+    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/styles/default.min.css">
+    
+    <link rel="stylesheet" href="//www.ilonacodes.com/css/index.css">
+    
+    <link rel="icon" href="//www.ilonacodes.com/favicon.ico" />
+    
+
+    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
+    
+    
+</head>
+<body>
+      <div class="footer-wrapper">
+        <div class="container" id="content"><div class="navigation">
+	<div class="container">
+		<div class="row">
+			
+				
+
+
+  
+
+
+<div class="navlink col-12 col-md-6 navlink--main">
+  <a class="navlink__link" href="/">
+    ilonacodes
+  </a>
+</div>
+
+			
+				
+
+
+  
+
+
+<div class="navlink col">
+  <a class="navlink__link" href="/blog">
+    Blog
+  </a>
+</div>
+
+			
+				
+
+
+  
+
+
+<div class="navlink col">
+  <a class="navlink__link" href="/ui-ux-projects">
+    Portfolio
+  </a>
+</div>
+
+			
+				
+
+
+  
+
+
+<div class="navlink col">
+  <a class="navlink__link" href="mailto:ilona@ilonacodes.com">
+    Contact
+  </a>
+</div>
+
+			
+		</div>
+	</div>
+</div>
+
+  <div class="row">
+    <div class="col col-md-9">
+      <main>
+      	<article>
+      		<div class="post row">
+	<div class="post__meta-column col-3 d-none d-md-block">
+		<div class="row no-gutters post__meta-column__date">
+			
+			
+			
+			<div class="col text-center post__meta-column__day">
+				27
+			</div>
+			<div class="col">
+				<div class="post__meta-column__month">Jul</div>
+				<div class="post__meta-column__year">2018</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col post__meta-column__tags">
+				
+					
+					
+						<a href="/tags/it">
+							<div class="post__tag">
+								#IT
+							</div>
+						</a>
+					
+						<a href="/tags/app">
+							<div class="post__tag">
+								#app
+							</div>
+						</a>
+					
+						<a href="/tags/react">
+							<div class="post__tag">
+								#react
+							</div>
+						</a>
+					
+						<a href="/tags/webdesign">
+							<div class="post__tag">
+								#webdesign
+							</div>
+						</a>
+					
+						<a href="/tags/library">
+							<div class="post__tag">
+								#library
+							</div>
+						</a>
+					
+						<a href="/tags/tech">
+							<div class="post__tag">
+								#tech
+							</div>
+						</a>
+					
+						<a href="/tags/js">
+							<div class="post__tag">
+								#JS
+							</div>
+						</a>
+					
+				
+			</div>
+		</div>
+	</div>
+
+	<div class="post__primary-column col col-md-8 col-lg-9">
+		
+			<h1 class="post__title">
+				Internationalize Your App With React
+			</h1>
+		
+
+		<div class="post__date d-md-none">
+			27 Jul, 2018
+		</div>
+
+		
+
+		<div class="post__body">
+      
+        <figure>
+    
+        <img src="/blog/images/intl-your-app-with-react.jpeg" />
+    
+    
+    <figcaption>
+        <h4>source: https://www.pexels.com/photo/ball-shaped-blur-close-up-focus-346885/</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+<p>Nowadays any viable product pursues the goal to grow globally. That means the successful online product is supposed to have minimum two language locales. One of them is english as an international language, and the other one depends on the spoken language of the target audience (usually domestic).</p>
+
+<p></p>
+
+<p>To internationalize the app using a React JS-Framework, I recommend you to install the <strong>react-intl</strong> library that allows handling translation messages depending on the current locale.</p>
+
+<p>To demonstrate how it works and which problems I had with it, I wrote this post where I will explain below the usage of the library in my example.</p>
+
+<p><strong>The task was: &ldquo;Add custom translations to english and german locales&rdquo;</strong></p>
+
+<p>When I started applying it to the existing React app, I was a little bit confused about how I could do that properly. I guess, because of the lack of clear examples.</p>
+
+<p>So, I’ve spent some time playing around with it and digging through docs and finally nailed it. Here is what worked for me.</p>
+
+<p>Traditionally, I started with library configuration, creating required files, passing props, using locales and finishing with routing them.</p>
+
+<p>We need to create the react application in the folder:</p>
+
+<pre><code>npx create-react-app my-app
+cd my-app
+npm start
+</code></pre>
+
+<p>Then remove all unnecessary elements added by default, that the following components look like:</p>
+
+<pre><code class="language-javascript">// App.js
+import React, {Component} from 'react';
+import './App.css';
+class App extends Component {
+render() {
+        return (
+       	        &lt;div className=&quot;App&quot;&gt;
+                    &lt;header className=&quot;App-header&quot;&gt;
+                        &lt;h1 className=&quot;App-title&quot;&gt;
+                         Hello World!
+                        &lt;/h1&gt;
+                    &lt;/header&gt;
+                &lt;/div&gt;
+        );
+    }
+}
+</code></pre>
+
+<pre><code class="language-javascript">// index.js
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+
+ReactDOM.render(&lt;App /&gt;, document.getElementById('root'));
+</code></pre>
+
+<p>The next step is to install <strong>react-intl</strong> library into the project:</p>
+
+<pre><code>$ npm install react-intl --save
+</code></pre>
+
+<p>And return to the <strong>index.js</strong> again to import and add the next <strong>&ldquo;en&rdquo;</strong> and <strong>&ldquo;de&rdquo;</strong> language locales calling <strong>addLocaleData()</strong> function from the <strong>react-intl</strong> library:</p>
+
+<pre><code class="language-javascript">// index.js
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+import de from 'react-intl/locale-data/de';
+import en from 'react-intl/locale-data/en';
+import {addLocaleData} from 'react-intl';
+
+addLocaleData([...de, ...en]);
+
+ReactDOM.render(&lt;App /&gt;, document.getElementById('root'));
+</code></pre>
+
+<p><em>Here I was confused why do I need to load locale data from the library when I want to only provide my translations file. Doesn’t quite make sense.</em></p>
+
+<p>Now we can add <strong>&ldquo;en.json&rdquo;</strong> and <strong>&ldquo;de.json&rdquo;</strong> files with the <strong>JSON object</strong> of translations into the created by us <strong>locales</strong> folder:</p>
+
+<pre><code class="language-json">// ./locales/en.json
+
+{
+	greeting: &quot;Hello Ilona&quot;
+}
+</code></pre>
+
+<pre><code class="language-json">// ./locales/de.json
+
+{
+	greeting: &quot;Hallo Ilona&quot;
+}
+</code></pre>
+
+<p>To render the messages relevant to each locale, we are going to create a new <code>&lt;Greeting /&gt;</code> component that includes the <code>&lt;FormattedMessage /&gt;</code> from <strong>react-intl</strong> (don&rsquo;t forget to import it) and by id (as a key) determines the rendered value to users:</p>
+
+<pre><code class="language-javascript">// Greeting.js
+import React from 'react';
+import {FormattedMessage} from 'react-intl';
+
+export class Greeting extends React.Component {
+    render() {
+        return (
+            &lt;div&gt;
+                &lt;p&gt;
+                    &lt;FormattedMessage id=&quot;greeting&quot; /&gt;
+                &lt;/p&gt;
+            &lt;/div&gt;
+        );
+    }
+}
+</code></pre>
+
+<p>Then I decided to write the basic logic in the <code>&lt;App /&gt;</code> component to simplify and show you all <strong>chains</strong> in one file.
+Firstly, we do all imports like the <strong>en.json</strong> &amp; <strong>de.json</strong> locales that we have created, <code>&lt;IntlProvider /&gt;</code> component which we need to provide the translated strings/messages at the root of the component tree and make them available to all components of the project.</p>
+
+<pre><code class="language-javascript">// App.js
+import React, {Component} from 'react';
+
+import './App.css';
+import {Greeting} from './Greeting';
+
+import deTranslations from './locales/de.json';
+import enTranslations from './locales/en.json';
+
+import {IntlProvider} from 'react-intl';
+...
+</code></pre>
+
+<p>And add a constructor with required prop fields, where the state store the current locale and messages with the imported custom translation. To switch to translations, I also use two different methods: <strong>setEnLocale()</strong> and <strong>setDeLocale()</strong>, that are bound to the object.</p>
+
+<pre><code class="language-javascript">// App.js
+...
+class App extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            locale: 'de'
+        };
+
+        this.messages = {
+            en: enTranslations,
+            de: deTranslations
+        };
+
+        this.setEnLocale = this.setEnLocale.bind(this);
+        this.setDeLocale = this.setDeLocale.bind(this);
+    }
+
+    setEnLocale() {
+        this.setState({
+            locale: 'en'
+        });
+    }
+
+    setDeLocale() {
+        this.setState({
+            locale: 'de'
+        });
+    }
+...
+</code></pre>
+
+<p>The last step is to render the <code>&lt;App /&gt;</code> component and allow to change between locales by help the <code>&lt;IntlProvider /&gt;</code> with the passed locale state, messages object and imported <code>&lt;Greeting /&gt;</code> component within the relevant message to each locale:</p>
+
+<pre><code class="language-javascript">// App.js
+...
+    render() {
+        return (
+                &lt;IntlProvider
+                locale={this.state.locale}
+                messages={this.messages[this.state.locale]}
+            &gt;
+                &lt;div className=&quot;App&quot;&gt;
+                    &lt;header className=&quot;App-header&quot;&gt;
+                        &lt;h1 className=&quot;App-title&quot;&gt;
+                            &lt;Greeting /&gt;
+                        &lt;/h1&gt;
+                    &lt;/header&gt;
+                    &lt;button onClick={this.setEnLocale}&gt;EN&lt;/button&gt;
+                    &lt;button onClick={this.setDeLocale}&gt;DE&lt;/button&gt;
+                &lt;/div&gt;
+            &lt;/IntlProvider&gt;
+        );
+    }
+}
+
+export default App;
+</code></pre>
+
+<p>The right  full coded <code>&lt;App /&gt;</code> looks like:</p>
+
+<pre><code class="language-javascript">// App.js
+
+import React, {Component} from 'react';
+
+import './App.css';
+import {Greeting} from './Greeting';
+
+import deTranslations from './locales/de.json';
+import enTranslations from './locales/en.json';
+
+import {IntlProvider} from 'react-intl';
+
+class App extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            locale: 'de'
+        };
+
+        this.messages = {
+            en: enTranslations,
+            de: deTranslations
+        };
+
+        this.setEnLocale = this.setEnLocale.bind(this);
+        this.setDeLocale = this.setDeLocale.bind(this);
+    }
+
+    setEnLocale() {
+        this.setState({
+            locale: 'en'
+        });
+    }
+
+    setDeLocale() {
+        this.setState({
+            locale: 'de'
+        });
+    }
+
+    render() {
+        return (
+                &lt;IntlProvider
+                locale={this.state.locale}
+                messages={this.messages[this.state.locale]}
+            &gt;
+                &lt;div className=&quot;App&quot;&gt;
+                    &lt;header className=&quot;App-header&quot;&gt;
+                        &lt;h1 className=&quot;App-title&quot;&gt;
+                            &lt;Greeting /&gt;
+                        &lt;/h1&gt;
+                    &lt;/header&gt;
+                    &lt;button onClick={this.setEnLocale}&gt;EN&lt;/button&gt;
+                    &lt;button onClick={this.setDeLocale}&gt;DE&lt;/button&gt;
+                &lt;/div&gt;
+            &lt;/IntlProvider&gt;
+        );
+    }
+}
+
+export default App;
+</code></pre>
+
+<p>That&rsquo;s it. I hope now you will not spend much time as I did by integrating two or more different language locales with customized translations with <strong>react-intl</strong> library.</p>
+
+<p><strong>Thank you for reading!</strong> 😊</p>
+
+<p>You can get in touch with me not only by <a href="mailto:ilona@ilonacodes.com">email</a> but also on <a href="https://twitter.com/ilonacodes">Twitter</a> or <a href="https://www.instagram.com/ilonacodes/">Instagram</a></p>
+
+<p>Cheers!</p>
+      
+		</div>
+
+    
+
+		<div class="post__tags d-md-none">
+			
+				Tags |
+				
+				
+					<a href="/tags/it">
+						<span class="post__tag">
+							#IT
+						</span>
+					</a>
+				
+					<a href="/tags/app">
+						<span class="post__tag">
+							#app
+						</span>
+					</a>
+				
+					<a href="/tags/react">
+						<span class="post__tag">
+							#react
+						</span>
+					</a>
+				
+					<a href="/tags/webdesign">
+						<span class="post__tag">
+							#webdesign
+						</span>
+					</a>
+				
+					<a href="/tags/library">
+						<span class="post__tag">
+							#library
+						</span>
+					</a>
+				
+					<a href="/tags/tech">
+						<span class="post__tag">
+							#tech
+						</span>
+					</a>
+				
+					<a href="/tags/js">
+						<span class="post__tag">
+							#JS
+						</span>
+					</a>
+				
+			
+		</div>
+	</div>
+</div>
+
+
+      	</article>
+
+        <div class="next-article">
+          
+            <a href="//www.ilonacodes.com/blog/business-goals-and-user-needs/">
+              Next: Business goals &amp; user needs
+            </a>
+          
+        </div>
+      </main>
+    </div>
+
+    <div class="col-3 d-none d-md-block">
+  <div class="row">
+	<div class="profile-photo offset-1 col-10">
+		<a href="/">
+			<img class="profile-photo__image" src="/img/FullSizeRender.jpg" />
+		</a>
+	</div>
+</div>
+
+  <div class="text-center">
+    I’m Ilona, web developer &amp; UI/UX designer.
+    <br/>
+    I’m based in Berlin.
+  </div>
+
+  <div class="latest-articles">
+    <div class="latest-articles__title">
+      The latest articles:
+    </div>
+
+    
+      <div class="latest-articles__article">
+        <a class="latest-articles__link" href="//www.ilonacodes.com/blog/internationalize-your-app-with-react/">
+          Internationalize Your App With React
+        </a>
+      </div>
+    
+      <div class="latest-articles__article">
+        <a class="latest-articles__link" href="//www.ilonacodes.com/blog/business-goals-and-user-needs/">
+          Business goals &amp; user needs
+        </a>
+      </div>
+    
+      <div class="latest-articles__article">
+        <a class="latest-articles__link" href="//www.ilonacodes.com/blog/content-first-in-web-design/">
+          Content “First” in Web Design
+        </a>
+      </div>
+    
+  </div>
+</div>
+
+  </div>
+
+        </div><div class="footer">
+  <div class="container footer__container">
+    <div class="row">
+      <div class="col-8 footer__center d-md-none">
+  <div class="row no-gutters footer__row">
+    
+      <div class="col text-center">
+        <a class="footer__socialLink" href="https://github.com/ilonacodes">
+          <i class="footer__socialIcon fab fa-github"></i>
+        </a>
+      </div>
+    
+      <div class="col text-center">
+        <a class="footer__socialLink" href="https://instagram.com/ilonacodes">
+          <i class="footer__socialIcon fab fa-instagram"></i>
+        </a>
+      </div>
+    
+      <div class="col text-center">
+        <a class="footer__socialLink" href="https://twitter.com/ilonacodes">
+          <i class="footer__socialIcon fab fa-twitter-square"></i>
+        </a>
+      </div>
+    
+      <div class="col text-center">
+        <a class="footer__socialLink" href="https://medium.com/@ilonacodes">
+          <i class="footer__socialIcon fab fa-medium"></i>
+        </a>
+      </div>
+    
+      <div class="col text-center">
+        <a class="footer__socialLink" href="https://dribbble.com/ilonacodes">
+          <i class="footer__socialIcon fab fa-dribbble"></i>
+        </a>
+      </div>
+    
+  </div>
+
+  <div class="row no-gutters footer__row">
+    
+      
+    
+      
+        <div class="footer-navlink col">
+  <a class="footer-navlink__link" href="/blog">
+    Blog
+  </a>
+</div>
+
+      
+    
+      
+        <div class="footer-navlink col">
+  <a class="footer-navlink__link" href="/ui-ux-projects">
+    Portfolio
+  </a>
+</div>
+
+      
+    
+      
+        <div class="footer-navlink col">
+  <a class="footer-navlink__link" href="mailto:ilona@ilonacodes.com">
+    Contact
+  </a>
+</div>
+
+      
+    
+  </div>
+
+  <div class="row footer__row footer__copy">
+    <div class="col text-center">
+      &copy; 2018 ilonacodes
+    </div>
+  </div>
+</div>
+
+      <div class="col-12 d-none d-md-block">
+  <div class="row">
+    <div class="col">
+      <div class="row no-gutters">
+        
+          <div class="col text-center">
+            <a class="footer__socialLink" href="https://github.com/ilonacodes">
+              <i class="footer__socialIcon fab fa-github"></i>
+            </a>
+          </div>
+        
+          <div class="col text-center">
+            <a class="footer__socialLink" href="https://instagram.com/ilonacodes">
+              <i class="footer__socialIcon fab fa-instagram"></i>
+            </a>
+          </div>
+        
+          <div class="col text-center">
+            <a class="footer__socialLink" href="https://twitter.com/ilonacodes">
+              <i class="footer__socialIcon fab fa-twitter-square"></i>
+            </a>
+          </div>
+        
+          <div class="col text-center">
+            <a class="footer__socialLink" href="https://medium.com/@ilonacodes">
+              <i class="footer__socialIcon fab fa-medium"></i>
+            </a>
+          </div>
+        
+          <div class="col text-center">
+            <a class="footer__socialLink" href="https://dribbble.com/ilonacodes">
+              <i class="footer__socialIcon fab fa-dribbble"></i>
+            </a>
+          </div>
+        
+      </div>
+    </div>
+
+    <div class="col footer__copy text-center">
+      &copy; 2018 ilonacodes
+    </div>
+
+    <div class="col footer__navlinks">
+      <div class="row">
+        
+          
+        
+          
+            <div class="footer-navlink col">
+  <a class="footer-navlink__link" href="/blog">
+    Blog
+  </a>
+</div>
+
+          
+        
+          
+            <div class="footer-navlink col">
+  <a class="footer-navlink__link" href="/ui-ux-projects">
+    Portfolio
+  </a>
+</div>
+
+          
+        
+          
+            <div class="footer-navlink col">
+  <a class="footer-navlink__link" href="mailto:ilona@ilonacodes.com">
+    Contact
+  </a>
+</div>
+
+          
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+    </div>
+  </div>
+</div>
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+</div>
+    </body>
+</html>

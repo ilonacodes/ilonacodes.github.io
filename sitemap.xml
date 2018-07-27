@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>//www.ilonacodes.com/blog/internationalize-your-app-with-react/</loc>
+    <lastmod>2018-07-27T07:00:05+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>//www.ilonacodes.com/blog/business-goals-and-user-needs/</loc>
     <lastmod>2018-07-20T07:00:05+01:00</lastmod>
   </url>
@@ -184,6 +189,12 @@
   </url>
   
   <url>
+    <loc>//www.ilonacodes.com/tags/app/</loc>
+    <lastmod>2018-07-27T07:00:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>//www.ilonacodes.com/tags/backend/</loc>
     <lastmod>2017-07-17T21:45:05+01:00</lastmod>
     <priority>0</priority>
@@ -203,7 +214,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/blog/</loc>
-    <lastmod>2018-07-20T07:00:05+01:00</lastmod>
+    <lastmod>2018-07-27T07:00:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -316,7 +327,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/</loc>
-    <lastmod>2018-07-20T07:00:05+01:00</lastmod>
+    <lastmod>2018-07-27T07:00:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -340,7 +351,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/tags/it/</loc>
-    <lastmod>2018-07-20T07:00:05+01:00</lastmod>
+    <lastmod>2018-07-27T07:00:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -353,6 +364,12 @@
   <url>
     <loc>//www.ilonacodes.com/tags/jquery/</loc>
     <lastmod>2018-03-08T16:30:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.ilonacodes.com/tags/js/</loc>
+    <lastmod>2018-07-27T07:00:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -371,6 +388,12 @@
   <url>
     <loc>//www.ilonacodes.com/tags/letsgetcoding/</loc>
     <lastmod>2018-04-18T12:00:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.ilonacodes.com/tags/library/</loc>
+    <lastmod>2018-07-27T07:00:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -400,7 +423,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/tags/react/</loc>
-    <lastmod>2018-04-23T23:30:05+01:00</lastmod>
+    <lastmod>2018-07-27T07:00:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -484,7 +507,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/tags/tech/</loc>
-    <lastmod>2018-07-20T07:00:05+01:00</lastmod>
+    <lastmod>2018-07-27T07:00:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -514,7 +537,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/tags/webdesign/</loc>
-    <lastmod>2018-07-20T07:00:05+01:00</lastmod>
+    <lastmod>2018-07-27T07:00:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
