@@ -10,7 +10,7 @@ description = ""
 
 {{% profile-photo src="img/FullSizeRender.jpg" %}}
 
-## Web Developer & UI/UX Designer
+## Front-End Web Developer
 
 Hi, I'm Ilona - a morning person, open-minded, and an aspiring entrepreneur.
 
