@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html><head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# website: http://ogp.me/ns/website#">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+    <meta name="description" content="To make the application fancy, front-end web developers usually visualize it using animations or other effects. And now I am going to explain one of the methods how to apply the most famous floating label effect to the input field with React.">
+    <meta property="og:title" content="Creating Floating Label/Placeholder for Input with React">
+    
+    <meta property="og:type" content="article">
+    <meta property="article:published_time" content="2018-08-09">
+    
+    <meta property="og:description" content="To make the application fancy, front-end web developers usually visualize it using animations or other effects. And now I am going to explain one of the methods how to apply the most famous floating label effect to the input field with React.">
+    <meta property="og:url" content="//www.ilonacodes.com/blog/creating-floating-label-placeholder-for-input-with-react/">
+    <meta property="og:site_name" content="Ilona Who Codes &amp; UXs">
+    
+    <meta property="og:tags" content="app">
+    
+    <meta property="og:tags" content="css3">
+    
+    <meta property="og:tags" content="label">
+    
+    <meta property="og:tags" content="react">
+    
+    <meta property="og:tags" content="webdesign">
+    
+    <meta property="og:tags" content="tech">
+    
+    <meta property="og:tags" content="JS">
+    
+    <meta name="generator" content="Hugo 0.44" />
+    <title>Creating Floating Label/Placeholder for Input with React &middot; Ilona Who Codes &amp; UXs</title>
+    
+    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/styles/default.min.css">
+    
+    <link rel="stylesheet" href="//www.ilonacodes.com/css/index.css">
+    
+    <link rel="icon" href="//www.ilonacodes.com/favicon.ico" />
+    
+
+    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
+    
+    
+</head>
+<body>
+      <div class="footer-wrapper">
+        <div class="container" id="content"><div class="navigation">
+	<div class="container">
+		<div class="row">
+			
+				
+
+
+  
+
+
+<div class="navlink col-12 col-md-6 navlink--main">
+  <a class="navlink__link" href="/">
+    ilonacodes
+  </a>
+</div>
+
+			
+				
+
+
+  
+
+
+<div class="navlink col">
+  <a class="navlink__link" href="/blog">
+    Blog
+  </a>
+</div>
+
+			
+				
+
+
+  
+
+
+<div class="navlink col">
+  <a class="navlink__link" href="/ui-ux-projects">
+    Portfolio
+  </a>
+</div>
+
+			
+				
+
+
+  
+
+
+<div class="navlink col">
+  <a class="navlink__link" href="mailto:ilona@ilonacodes.com">
+    Contact
+  </a>
+</div>
+
+			
+		</div>
+	</div>
+</div>
+
+  <div class="row">
+    <div class="col col-md-9">
+      <main>
+      	<article>
+      		<div class="post row">
+	<div class="post__meta-column col-3 d-none d-md-block">
+		<div class="row no-gutters post__meta-column__date">
+			
+			
+			
+			<div class="col text-center post__meta-column__day">
+				9
+			</div>
+			<div class="col">
+				<div class="post__meta-column__month">Aug</div>
+				<div class="post__meta-column__year">2018</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col post__meta-column__tags">
+				
+					
+					
+						<a href="/tags/app">
+							<div class="post__tag">
+								#app
+							</div>
+						</a>
+					
+						<a href="/tags/css3">
+							<div class="post__tag">
+								#css3
+							</div>
+						</a>
+					
+						<a href="/tags/label">
+							<div class="post__tag">
+								#label
+							</div>
+						</a>
+					
+						<a href="/tags/react">
+							<div class="post__tag">
+								#react
+							</div>
+						</a>
+					
+						<a href="/tags/webdesign">
+							<div class="post__tag">
+								#webdesign
+							</div>
+						</a>
+					
+						<a href="/tags/tech">
+							<div class="post__tag">
+								#tech
+							</div>
+						</a>
+					
+						<a href="/tags/js">
+							<div class="post__tag">
+								#JS
+							</div>
+						</a>
+					
+				
+			</div>
+		</div>
+	</div>
+
+	<div class="post__primary-column col col-md-8 col-lg-9">
+		
+			<h1 class="post__title">
+				Creating Floating Label/Placeholder for Input with React
+			</h1>
+		
+
+		<div class="post__date d-md-none">
+			9 Aug, 2018
+		</div>
+
+		
+
+		<div class="post__body">
+      
+        <figure>
+    
+        <img src="/blog/images/creating-floating-label-cover.jpeg" />
+    
+    
+    <figcaption>
+        <h4>source: https://www.pexels.com/photo/several-assorted-color-tags-697059/</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+<p>To make the application fancy, front-end web developers usually visualize it using animations or other effects. And now I am going to explain one of the methods how to apply the most famous floating label effect to the input field with React.</p>
+
+<p></p>
+
+<p>The solutions based on the React project. You can set up one by running the following command in the console:</p>
+
+<pre><code>npx create-react-app my-app
+cd my-app
+npm start
+</code></pre>
+
+<p>Or create a React component in the existing project. In the following example, I am writing code in <code>&lt;App /&gt;</code> component and styling in <strong>App.css</strong></p>
+
+<p>Let&rsquo;s start coding!</p>
+
+<p>At first, in the <code>&lt;App /&gt;</code> I have added the constructor, where the state consists of initial <strong>inputValue</strong> and <strong>fieldActive</strong> properties. Step by step, in the constructor I am going to add bounded methods.</p>
+
+<pre><code class="language-javascript">// App.js
+
+import React, { Component } from 'react';
+import './App.css';
+
+class App extends Component {
+	constructor() {
+		super();
+
+		this.state = {
+			inputValue: '',
+			fieldActive: false
+		}
+	}
+
+	this.updateInputValue = this.updateInputValue.bind(this);
+	this.activateField = this.activateField.bind(this);
+	this.disableFocus = this.disableFocus.bind(this);
+}
+...
+</code></pre>
+
+<p>Secondly,  I am going to declare functions, which will allow handling the state of the input, and render the form with the label and input elements and style them with CSS. You can also wrap and style the form as you want, to customize it. Below I describe the approach relevant to implementing the floating label for input.</p>
+
+<pre><code class="language-javascript">// App.js
+
+...
+	// to activate the input field while typing
+	activateField() {
+		this.setState({
+			fieldActivate: false
+		})
+	}
+
+	// to deactivate input only if it's empty
+	disableFocus(e) {
+		if (e.target.value === &quot;&quot;) {
+            		this.setState({
+                		fieldActivate: false
+            		})
+        	}
+	}
+
+        // to update the changes in the input and activate it
+	updateInputValue(e) {
+		this.setState({
+			inputValue: e.target.value,
+		});
+		this.activateField(e);
+		e.preventDefault();
+	}
+
+	render() {
+		return (
+			&lt;div&gt;
+				&lt;form&gt;
+					&lt;div className=&quot;field-group&quot;&gt;
+					&lt;label
+					// check state the input, whether it is active then apply the class for floating label
+					className={this.state.fieldActive ? &quot;field-active&quot; : &quot;&quot;}
+					&gt;
+							Name
+					&lt;/label&gt;
+					&lt;input
+						className=&quot;floating-label&quot;
+						type=&quot;text&quot;
+						value={this.state.inputValue}
+						onFocus={this.activateField}
+						onBlur={this.disableField}
+						onChange={this.updateInputValue}
+					/&gt;
+					&lt;/div&gt;
+				&lt;/form&gt;
+			&lt;/div&gt;
+		);
+	}
+}
+
+export default App;
+</code></pre>
+
+<p>As I mentioned before, in this example I added some custom styles that do not influence the floating label effect. That&rsquo;s why I want to focus on how to style the label according to the name classes in the <code>&lt;App /&gt;</code> component:</p>
+
+<pre><code class="language-css">/* App.css */
+
+        /* initially label is below input */
+	label {
+		display: inline-block;
+		position:absolute;
+		left: 15px;
+		top: 16px;
+		transition: all 150ms ease-in;
+		color: #676767;
+	}
+
+        /* when the label is activated, it jumps up (using translateY) */
+        /* you could add animation here as well */
+	label.field-active {
+		transform: translateY(-25px);
+		font-size: .9em;
+		color: #000;
+		text-shadow: 1px 0 0 #fff, -1px 0 0 #fff, 2px 0 0 #fff, -2px 0 0 #fff, 0 1px 0 #fff, 0 -1px 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff;
+	}
+
+	.floating-label {
+		-webkit-appearance: none !important;
+	}
+</code></pre>
+
+<p><br />
+The result looks like:</p>
+
+<p><img src="/blog/images/creating-floating-label.png" alt="Result" /></p>
+
+<p><strong>That&rsquo;s it! Thank you for reading!</strong></p>
+
+<p>I hope you have found this article useful and helpful. If you have any questions be free to contact me per <a href="mailto:ilona@ilonacodes.com">email</a>, <a href="https://twitter.com/ilonacodes">Twitter</a> or <a href="https://www.instagram.com/ilonacodes/">Instagram</a></p>
+
+<p>Cheers!</p>
+      
+		</div>
+
+    
+
+		<div class="post__tags d-md-none">
+			
+				Tags |
+				
+				
+					<a href="/tags/app">
+						<span class="post__tag">
+							#app
+						</span>
+					</a>
+				
+					<a href="/tags/css3">
+						<span class="post__tag">
+							#css3
+						</span>
+					</a>
+				
+					<a href="/tags/label">
+						<span class="post__tag">
+							#label
+						</span>
+					</a>
+				
+					<a href="/tags/react">
+						<span class="post__tag">
+							#react
+						</span>
+					</a>
+				
+					<a href="/tags/webdesign">
+						<span class="post__tag">
+							#webdesign
+						</span>
+					</a>
+				
+					<a href="/tags/tech">
+						<span class="post__tag">
+							#tech
+						</span>
+					</a>
+				
+					<a href="/tags/js">
+						<span class="post__tag">
+							#JS
+						</span>
+					</a>
+				
+			
+		</div>
+	</div>
+</div>
+
+
+      	</article>
+
+        <div class="next-article">
+          
+            <a href="//www.ilonacodes.com/blog/internationalize-your-app-with-react/">
+              Next: Internationalize Your App With React
+            </a>
+          
+        </div>
+      </main>
+    </div>
+
+    <div class="col-3 d-none d-md-block">
+  <div class="row">
+	<div class="profile-photo offset-1 col-10">
+		<a href="/">
+			<img class="profile-photo__image" src="/img/FullSizeRender.jpg" />
+		</a>
+	</div>
+</div>
+
+  <div class="text-center">
+    I’m Ilona, web developer &amp; UI/UX designer.
+    <br/>
+    I’m based in Berlin.
+  </div>
+
+  <div class="latest-articles">
+    <div class="latest-articles__title">
+      The latest articles:
+    </div>
+
+    
+      <div class="latest-articles__article">
+        <a class="latest-articles__link" href="//www.ilonacodes.com/blog/creating-floating-label-placeholder-for-input-with-react/">
+          Creating Floating Label/Placeholder for Input with React
+        </a>
+      </div>
+    
+      <div class="latest-articles__article">
+        <a class="latest-articles__link" href="//www.ilonacodes.com/blog/internationalize-your-app-with-react/">
+          Internationalize Your App With React
+        </a>
+      </div>
+    
+      <div class="latest-articles__article">
+        <a class="latest-articles__link" href="//www.ilonacodes.com/blog/business-goals-and-user-needs/">
+          Business goals &amp; user needs
+        </a>
+      </div>
+    
+  </div>
+</div>
+
+  </div>
+
+        </div><div class="footer">
+  <div class="container footer__container">
+    <div class="row">
+      <div class="col-8 footer__center d-md-none">
+  <div class="row no-gutters footer__row">
+    
+      <div class="col text-center">
+        <a class="footer__socialLink" href="https://github.com/ilonacodes">
+          <i class="footer__socialIcon fab fa-github"></i>
+        </a>
+      </div>
+    
+      <div class="col text-center">
+        <a class="footer__socialLink" href="https://instagram.com/ilonacodes">
+          <i class="footer__socialIcon fab fa-instagram"></i>
+        </a>
+      </div>
+    
+      <div class="col text-center">
+        <a class="footer__socialLink" href="https://twitter.com/ilonacodes">
+          <i class="footer__socialIcon fab fa-twitter-square"></i>
+        </a>
+      </div>
+    
+      <div class="col text-center">
+        <a class="footer__socialLink" href="https://medium.com/@ilonacodes">
+          <i class="footer__socialIcon fab fa-medium"></i>
+        </a>
+      </div>
+    
+      <div class="col text-center">
+        <a class="footer__socialLink" href="https://dribbble.com/ilonacodes">
+          <i class="footer__socialIcon fab fa-dribbble"></i>
+        </a>
+      </div>
+    
+  </div>
+
+  <div class="row no-gutters footer__row">
+    
+      
+    
+      
+        <div class="footer-navlink col">
+  <a class="footer-navlink__link" href="/blog">
+    Blog
+  </a>
+</div>
+
+      
+    
+      
+        <div class="footer-navlink col">
+  <a class="footer-navlink__link" href="/ui-ux-projects">
+    Portfolio
+  </a>
+</div>
+
+      
+    
+      
+        <div class="footer-navlink col">
+  <a class="footer-navlink__link" href="mailto:ilona@ilonacodes.com">
+    Contact
+  </a>
+</div>
+
+      
+    
+  </div>
+
+  <div class="row footer__row footer__copy">
+    <div class="col text-center">
+      &copy; 2018 ilonacodes
+    </div>
+  </div>
+</div>
+
+      <div class="col-12 d-none d-md-block">
+  <div class="row">
+    <div class="col">
+      <div class="row no-gutters">
+        
+          <div class="col text-center">
+            <a class="footer__socialLink" href="https://github.com/ilonacodes">
+              <i class="footer__socialIcon fab fa-github"></i>
+            </a>
+          </div>
+        
+          <div class="col text-center">
+            <a class="footer__socialLink" href="https://instagram.com/ilonacodes">
+              <i class="footer__socialIcon fab fa-instagram"></i>
+            </a>
+          </div>
+        
+          <div class="col text-center">
+            <a class="footer__socialLink" href="https://twitter.com/ilonacodes">
+              <i class="footer__socialIcon fab fa-twitter-square"></i>
+            </a>
+          </div>
+        
+          <div class="col text-center">
+            <a class="footer__socialLink" href="https://medium.com/@ilonacodes">
+              <i class="footer__socialIcon fab fa-medium"></i>
+            </a>
+          </div>
+        
+          <div class="col text-center">
+            <a class="footer__socialLink" href="https://dribbble.com/ilonacodes">
+              <i class="footer__socialIcon fab fa-dribbble"></i>
+            </a>
+          </div>
+        
+      </div>
+    </div>
+
+    <div class="col footer__copy text-center">
+      &copy; 2018 ilonacodes
+    </div>
+
+    <div class="col footer__navlinks">
+      <div class="row">
+        
+          
+        
+          
+            <div class="footer-navlink col">
+  <a class="footer-navlink__link" href="/blog">
+    Blog
+  </a>
+</div>
+
+          
+        
+          
+            <div class="footer-navlink col">
+  <a class="footer-navlink__link" href="/ui-ux-projects">
+    Portfolio
+  </a>
+</div>
+
+          
+        
+          
+            <div class="footer-navlink col">
+  <a class="footer-navlink__link" href="mailto:ilona@ilonacodes.com">
+    Contact
+  </a>
+</div>
+
+          
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+    </div>
+  </div>
+</div>
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+</div>
+    </body>
+</html>

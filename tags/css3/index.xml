@@ -6,10 +6,34 @@
     <description>Recent content in Css3 on Ilona Who Codes &amp; UXs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Apr 2018 23:30:05 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 09 Aug 2018 07:00:05 +0100</lastBuildDate>
     
 	<atom:link href="//www.ilonacodes.com/tags/css3/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Creating Floating Label/Placeholder for Input with React</title>
+      <link>//www.ilonacodes.com/blog/creating-floating-label-placeholder-for-input-with-react/</link>
+      <pubDate>Thu, 09 Aug 2018 07:00:05 +0100</pubDate>
+      
+      <guid>//www.ilonacodes.com/blog/creating-floating-label-placeholder-for-input-with-react/</guid>
+      <description>&lt;figure&gt;
+    
+        &lt;img src=&#34;//www.ilonacodes.com/blog/images/creating-floating-label-cover.jpeg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;source: https://www.pexels.com/photo/several-assorted-color-tags-697059/&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;To make the application fancy, front-end web developers usually visualize it using animations or other effects. And now I am going to explain one of the methods how to apply the most famous floating label effect to the input field with React.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Front-end Shorts: CSS3 Opacity - Background Only</title>
