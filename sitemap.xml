@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>//www.ilonacodes.com/blog/how-to-start-a-successful-email-conversation/</loc>
+    <lastmod>2018-08-15T06:00:05+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>//www.ilonacodes.com/blog/creating-floating-label-placeholder-for-input-with-react/</loc>
     <lastmod>2018-08-09T07:00:05+01:00</lastmod>
   </url>
@@ -219,7 +224,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/blog/</loc>
-    <lastmod>2018-08-09T07:00:05+01:00</lastmod>
+    <lastmod>2018-08-15T06:00:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -283,6 +288,12 @@
   </url>
   
   <url>
+    <loc>//www.ilonacodes.com/tags/conversation/</loc>
+    <lastmod>2018-08-15T06:00:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>//www.ilonacodes.com/tags/css/</loc>
     <lastmod>2017-07-08T20:25:05+01:00</lastmod>
     <priority>0</priority>
@@ -297,6 +308,12 @@
   <url>
     <loc>//www.ilonacodes.com/tags/data/</loc>
     <lastmod>2017-10-10T12:30:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.ilonacodes.com/tags/email/</loc>
+    <lastmod>2018-08-15T06:00:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -332,7 +349,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/</loc>
-    <lastmod>2018-08-09T07:00:05+01:00</lastmod>
+    <lastmod>2018-08-15T06:00:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -501,6 +518,12 @@
   <url>
     <loc>//www.ilonacodes.com/tags/storytelling/</loc>
     <lastmod>2018-04-21T19:15:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.ilonacodes.com/tags/success/</loc>
+    <lastmod>2018-08-15T06:00:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
