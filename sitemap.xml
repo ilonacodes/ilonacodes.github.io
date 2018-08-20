@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>//www.ilonacodes.com/blog/the-perfect-home-office-setup-for-work/</loc>
+    <lastmod>2018-08-20T06:00:05+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>//www.ilonacodes.com/blog/how-to-start-a-successful-email-conversation/</loc>
     <lastmod>2018-08-15T06:00:05+01:00</lastmod>
   </url>
@@ -224,7 +229,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/blog/</loc>
-    <lastmod>2018-08-15T06:00:05+01:00</lastmod>
+    <lastmod>2018-08-20T06:00:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -342,6 +347,12 @@
   </url>
   
   <url>
+    <loc>//www.ilonacodes.com/tags/home-office/</loc>
+    <lastmod>2018-08-20T06:00:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>//www.ilonacodes.com/tags/html/</loc>
     <lastmod>2017-07-08T20:25:05+01:00</lastmod>
     <priority>0</priority>
@@ -349,7 +360,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/</loc>
-    <lastmod>2018-08-15T06:00:05+01:00</lastmod>
+    <lastmod>2018-08-20T06:00:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -367,7 +378,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/tags/inspiration/</loc>
-    <lastmod>2017-10-23T07:00:05+01:00</lastmod>
+    <lastmod>2018-08-20T06:00:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -450,6 +461,12 @@
   </url>
   
   <url>
+    <loc>//www.ilonacodes.com/tags/productivity/</loc>
+    <lastmod>2018-08-20T06:00:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>//www.ilonacodes.com/tags/react/</loc>
     <lastmod>2018-08-09T07:00:05+01:00</lastmod>
     <priority>0</priority>
@@ -476,6 +493,12 @@
   <url>
     <loc>//www.ilonacodes.com/tags/redux/</loc>
     <lastmod>2018-04-21T19:15:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.ilonacodes.com/tags/remote/</loc>
+    <lastmod>2018-08-20T06:00:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
