@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>//www.ilonacodes.com/blog/how-to-say-bye-bye-to-the-crappy-food/</loc>
+    <lastmod>2018-08-21T18:40:05+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>//www.ilonacodes.com/blog/the-perfect-home-office-setup-for-work/</loc>
     <lastmod>2018-08-20T06:00:05+01:00</lastmod>
   </url>
@@ -229,7 +234,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/blog/</loc>
-    <lastmod>2018-08-20T06:00:05+01:00</lastmod>
+    <lastmod>2018-08-21T18:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -317,6 +322,12 @@
   </url>
   
   <url>
+    <loc>//www.ilonacodes.com/tags/diet/</loc>
+    <lastmod>2018-08-21T18:40:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>//www.ilonacodes.com/tags/email/</loc>
     <lastmod>2018-08-15T06:00:05+01:00</lastmod>
     <priority>0</priority>
@@ -335,6 +346,12 @@
   </url>
   
   <url>
+    <loc>//www.ilonacodes.com/tags/food/</loc>
+    <lastmod>2018-08-21T18:40:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>//www.ilonacodes.com/tags/footer/</loc>
     <lastmod>2017-07-08T20:25:05+01:00</lastmod>
     <priority>0</priority>
@@ -343,6 +360,12 @@
   <url>
     <loc>//www.ilonacodes.com/tags/frontend/</loc>
     <lastmod>2018-04-23T23:30:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.ilonacodes.com/tags/health/</loc>
+    <lastmod>2018-08-21T18:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -360,7 +383,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/</loc>
-    <lastmod>2018-08-20T06:00:05+01:00</lastmod>
+    <lastmod>2018-08-21T18:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -443,8 +466,20 @@
   </url>
   
   <url>
+    <loc>//www.ilonacodes.com/tags/low-carb/</loc>
+    <lastmod>2018-08-21T18:40:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>//www.ilonacodes.com/tags/meetup/</loc>
     <lastmod>2017-10-23T07:00:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.ilonacodes.com/tags/nutrition/</loc>
+    <lastmod>2018-08-21T18:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
