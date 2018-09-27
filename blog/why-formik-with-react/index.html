@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html><head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# website: http://ogp.me/ns/website#">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+    <meta name="description" content="The way, how I try to understand the purpose of any framework is to use it and compare with the already implemented no-framework solution.">
+    <meta property="og:title" content="Why Formik With React">
+    
+    <meta property="og:type" content="article">
+    <meta property="article:published_time" content="2018-09-15">
+    
+    <meta property="og:description" content="The way, how I try to understand the purpose of any framework is to use it and compare with the already implemented no-framework solution.">
+    <meta property="og:url" content="//www.ilonacodes.com/blog/why-formik-with-react/">
+    <meta property="og:site_name" content="Ilona Who Codes &amp; UXs">
+    
+    <meta property="og:tags" content="app">
+    
+    <meta property="og:tags" content="React">
+    
+    <meta property="og:tags" content="JavaScript">
+    
+    <meta property="og:tags" content="Formik">
+    
+    <meta property="og:tags" content="web">
+    
+    <meta name="generator" content="Hugo 0.44" />
+    <title>Why Formik With React &middot; Ilona Who Codes &amp; UXs</title>
+    
+    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/styles/default.min.css">
+    
+    <link rel="stylesheet" href="//www.ilonacodes.com/css/index.css">
+    
+    <link rel="icon" href="//www.ilonacodes.com/favicon.ico" />
+    
+
+    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
+    
+    
+</head>
+<body>
+      <div class="footer-wrapper">
+        <div class="container" id="content"><div class="navigation">
+	<div class="container">
+		<div class="row">
+			
+				
+
+
+  
+
+
+<div class="navlink col-12 col-md-6 navlink--main">
+  <a class="navlink__link" href="/">
+    ilonacodes
+  </a>
+</div>
+
+			
+				
+
+
+  
+
+
+<div class="navlink col">
+  <a class="navlink__link" href="/blog">
+    Blog
+  </a>
+</div>
+
+			
+				
+
+
+  
+
+
+<div class="navlink col">
+  <a class="navlink__link" href="/ui-ux-projects">
+    Portfolio
+  </a>
+</div>
+
+			
+				
+
+
+  
+
+
+<div class="navlink col">
+  <a class="navlink__link" href="mailto:ilona@ilonacodes.com">
+    Contact
+  </a>
+</div>
+
+			
+		</div>
+	</div>
+</div>
+
+  <div class="row">
+    <div class="col col-md-9">
+      <main>
+      	<article>
+      		<div class="post row">
+	<div class="post__meta-column col-3 d-none d-md-block">
+		<div class="row no-gutters post__meta-column__date">
+			
+			
+			
+			<div class="col text-center post__meta-column__day">
+				15
+			</div>
+			<div class="col">
+				<div class="post__meta-column__month">Sep</div>
+				<div class="post__meta-column__year">2018</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col post__meta-column__tags">
+				
+					
+					
+						<a href="/tags/app">
+							<div class="post__tag">
+								#app
+							</div>
+						</a>
+					
+						<a href="/tags/react">
+							<div class="post__tag">
+								#React
+							</div>
+						</a>
+					
+						<a href="/tags/javascript">
+							<div class="post__tag">
+								#JavaScript
+							</div>
+						</a>
+					
+						<a href="/tags/formik">
+							<div class="post__tag">
+								#Formik
+							</div>
+						</a>
+					
+						<a href="/tags/web">
+							<div class="post__tag">
+								#web
+							</div>
+						</a>
+					
+				
+			</div>
+		</div>
+	</div>
+
+	<div class="post__primary-column col col-md-8 col-lg-9">
+		
+			<h1 class="post__title">
+				Why Formik With React
+			</h1>
+		
+
+		<div class="post__date d-md-none">
+			15 Sep, 2018
+		</div>
+
+		
+
+		<div class="post__body">
+      
+        <p>
+<figure>
+    
+        <img src="/blog/images/why-formik-with-react-cover.jpeg" />
+    
+    
+    <figcaption>
+        <h4>source: https://bit.ly/2paojyl</h4>
+        
+    </figcaption>
+    
+</figure>
+
+The way, how I try to understand the purpose of any framework is to use it and compare with the already implemented no-framework solution.</p>
+
+<p>Sure, most of us, at first hear about a new library from tech media portals or from tech-dev influencers or from conferences/meetups or from coworkers, etc. then we are going to check out the source of it whether it is a software or open-source product. In the end, we are playing with it and trying to apply it to the existing product.</p>
+
+<p></p>
+
+<p>I am also following these steps, but during the “playing” phase I prefer to the traditional implementation, that I already know how it should work, and afterward, I rewrite the existing solution using a new framework that I want to learn deeply.</p>
+
+<p>The <a href="https://github.com/jaredpalmer/formik">Formik</a> with React was not an exception of this rule.</p>
+
+<p>As an example, I started with implementing the customer form only with React (I am going to skip the snippet and App.js where I have imported the <code>&lt;CustomerFormFormik /&gt;</code> and <code>&lt;CustomerFormReact /&gt;</code> to render them in DOM, because it’s not relevant to this post), and explain one of the reasons “that’s why <strong>Formik</strong>”.</p>
+
+<p>Of course, you can check out the <a href="https://jaredpalmer.com/formik/docs/overview">Formik documentation</a> and find out all its advantages. In short, which I understand are there:</p>
+
+<ul>
+<li>Redux free</li>
+<li>or with naming conventions from redux-form</li>
+<li>HOC pattern (using connect() from Redux to pass state and dispatch actions to reducer)</li>
+<li>render props approach with React</li>
+<li>special validation Schema with Yup</li>
+<li>… and so on…</li>
+</ul>
+
+<p>So, it’s the time to have a look at the simple customer form with React. We’ll start simple — with one input field:</p>
+
+<pre><code class="language-javascript">// CustomerFormReact.js
+
+import React from 'react';
+
+export class CustomerFormReact extends React.Component {
+    constructor() {
+        super();
+
+        this.state = {
+            firstName: '',
+        };
+
+        this.onChangeInputFirstName = this.onChangeInputFirstName.bind(this);
+        this.onSubmitForm = this.onSubmitForm.bind(this);
+    }
+
+    onChangeInputFirstName(e) {
+        this.setState({
+            firstName: e.target.value
+        })
+    }
+
+    onSubmitForm(e) {
+        e.preventDefault();
+        this.props.createCustomer(this.state);
+    }
+
+    render() {
+        return (
+            &lt;form onSubmit={this.onSubmitForm}&gt;
+                &lt;input type=&quot;text&quot;
+                       name=&quot;firstName&quot;
+                       onChange={this.onChangeInputFirstName}
+                /&gt;
+
+                &lt;button type=&quot;submit&quot;&gt;Submit&lt;/button&gt;
+            &lt;/form&gt;
+        );
+    }
+}
+</code></pre>
+
+<p>As you noticed, for a single input element the boiler-plate is not that big. But what happens, if we add two extra input fields for this form?</p>
+
+<pre><code class="language-javascript">// CustomerFormReact.js
+
+import React from 'react';
+
+export class CustomerFormReact extends React.Component {
+    constructor() {
+        super();
+
+        this.state = {
+            firstName: '',
+            lastName: '',
+            email: ''
+        };
+
+        this.onChangeInputFirstName = this.onChangeInputFirstName.bind(this);
+        this.onChangeInputLastName = this.onChangeInputLastName.bind(this);
+        this.onChangeInputEmail = this.onChangeInputEmail.bind(this);
+        this.onSubmitForm = this.onSubmitForm.bind(this);
+    }
+
+    onChangeInputFirstName(e) {
+        this.setState({
+            firstName: e.target.value
+        })
+    }
+
+    onChangeInputLastName(e) {
+        this.setState({
+            lastName: e.target.value
+        })
+    }
+
+    onChangeInputEmail(e) {
+        this.setState({
+            email: e.target.value
+        })
+    }
+
+    onSubmitForm(e) {
+        e.preventDefault();
+        this.props.createCustomer(this.state);
+    }
+
+    render() {
+        return (
+            &lt;form onSubmit={this.onSubmitForm}&gt;
+                &lt;input type=&quot;text&quot;
+                       name=&quot;firstName&quot;
+                       onChange={this.onChangeInputFirstName}
+                /&gt;
+
+                &lt;input type=&quot;text&quot;
+                       name=&quot;lastName&quot;
+                       onChange={this.onChangeInputLastName}
+                /&gt;
+
+                &lt;input type=&quot;email&quot;
+                       name=&quot;email&quot;
+                       onChange={this.onChangeInputEmail}
+                /&gt;
+
+                &lt;button type=&quot;submit&quot;&gt;Submit&lt;/button&gt;
+            &lt;/form&gt;
+        );
+    }
+}
+</code></pre>
+
+<p>And you are right, it looks messy. There are lots of duplication and also a lot of ways to solve it. The question is, which one is more suitable for the project, whether it’s only the form or not, or includes more different inputs, etc. So, one of them is using <strong>Formik</strong>:</p>
+
+<pre><code class="language-javascript">// CustomerFormFormik.js
+
+import React from 'react';
+import {Field, Formik} from 'formik';
+// accept props from the parent component
+export const CustomerFormFormik = (props) =&gt; {
+    // initial state (starting field values)
+    const initialValues = {
+        firstName: '',
+        lastName: '',
+        email: ''
+    };
+
+    return (
+        // pass initial field values and actions to Formik-component
+        &lt;Formik
+            intialValues={initialValues}
+            onSubmit={(values, actions) =&gt; {
+                // applying HOC-pattern
+                props.createCustomer(values);
+                actions.setSubmitting(false);
+                actions.resetForm(initialValues);
+            }}
+            render={(props) =&gt; (
+                &lt;form onSubmit={props.handleSubmit}&gt;
+// add as much as needed input fields &amp; by name binding them to the state
+                    &lt;Field type=&quot;text&quot; name=&quot;firstName&quot; /&gt;
+                    &lt;Field type=&quot;text&quot; name=&quot;lastName&quot; /&gt;
+                    &lt;Field type=&quot;email&quot; name=&quot;email&quot;/&gt;
+                    &lt;button type=&quot;submit&quot;&gt;Submit&lt;/button&gt;
+                &lt;/form&gt;
+            )}
+        /&gt;
+    );
+};
+</code></pre>
+
+<p>Tadaaam! It works and looks more structured and elegant!</p>
+
+<p>Perhaps, my dear reader, you can already dive in more advanced stuff with <strong>Formik</strong>, but to understand its fundamental concepts and then step by step to go deeper into it is also worth the time and effort.</p>
+
+<p>I hope you find this post useful and would like to try <strong>Formik</strong> with React.
+Thank you for reading! 👏</p>
+
+<p>If you have better methods on how to learn different frameworks in the encouraging and “unpainful” way, don’t hesitate to contact me per <a href="mailto:ilona@ilonacodes.com">email</a>, on <a href="https://twitter.com/ilonacodes">Twitter</a> or <a href="https://www.instagram.com/ilonacodes/">Instagram</a>.</p>
+
+<p>Cheers!</p>
+
+<p><em>(This article was original published <a href="https://medium.com/@ilonacodes/why-formik-with-react-e640c1934d6">on my medium</a>)</em></p>
+      
+		</div>
+
+    
+
+		<div class="post__tags d-md-none">
+			
+				Tags |
+				
+				
+					<a href="/tags/app">
+						<span class="post__tag">
+							#app
+						</span>
+					</a>
+				
+					<a href="/tags/react">
+						<span class="post__tag">
+							#React
+						</span>
+					</a>
+				
+					<a href="/tags/javascript">
+						<span class="post__tag">
+							#JavaScript
+						</span>
+					</a>
+				
+					<a href="/tags/formik">
+						<span class="post__tag">
+							#Formik
+						</span>
+					</a>
+				
+					<a href="/tags/web">
+						<span class="post__tag">
+							#web
+						</span>
+					</a>
+				
+			
+		</div>
+	</div>
+</div>
+
+
+      	</article>
+
+        <div class="next-article">
+          
+            <a href="//www.ilonacodes.com/blog/emotional-todo-list-with-react/">
+              Next: Emotional Todo List with React
+            </a>
+          
+        </div>
+      </main>
+    </div>
+
+    <div class="col-3 d-none d-md-block">
+  <div class="row">
+	<div class="profile-photo offset-1 col-10">
+		<a href="/">
+			<img class="profile-photo__image" src="/img/FullSizeRender.jpg" />
+		</a>
+	</div>
+</div>
+
+  <div class="text-center">
+    I’m Ilona, web developer &amp; UI/UX designer.
+    <br/>
+    I’m based in Berlin.
+  </div>
+
+  <div class="latest-articles">
+    <div class="latest-articles__title">
+      The latest articles:
+    </div>
+
+    
+      <div class="latest-articles__article">
+        <a class="latest-articles__link" href="//www.ilonacodes.com/blog/why-formik-with-react/">
+          Why Formik With React
+        </a>
+      </div>
+    
+      <div class="latest-articles__article">
+        <a class="latest-articles__link" href="//www.ilonacodes.com/blog/emotional-todo-list-with-react/">
+          Emotional Todo List with React
+        </a>
+      </div>
+    
+      <div class="latest-articles__article">
+        <a class="latest-articles__link" href="//www.ilonacodes.com/blog/how-to-say-bye-bye-to-the-crappy-food/">
+          How to say bye 👋 bye to the crappy food
+        </a>
+      </div>
+    
+  </div>
+</div>
+
+  </div>
+
+        </div><div class="footer">
+  <div class="container footer__container">
+    <div class="row">
+      <div class="col-8 footer__center d-md-none">
+  <div class="row no-gutters footer__row">
+    
+      <div class="col text-center">
+        <a class="footer__socialLink" href="https://github.com/ilonacodes">
+          <i class="footer__socialIcon fab fa-github"></i>
+        </a>
+      </div>
+    
+      <div class="col text-center">
+        <a class="footer__socialLink" href="https://instagram.com/ilonacodes">
+          <i class="footer__socialIcon fab fa-instagram"></i>
+        </a>
+      </div>
+    
+      <div class="col text-center">
+        <a class="footer__socialLink" href="https://twitter.com/ilonacodes">
+          <i class="footer__socialIcon fab fa-twitter-square"></i>
+        </a>
+      </div>
+    
+      <div class="col text-center">
+        <a class="footer__socialLink" href="https://medium.com/@ilonacodes">
+          <i class="footer__socialIcon fab fa-medium"></i>
+        </a>
+      </div>
+    
+      <div class="col text-center">
+        <a class="footer__socialLink" href="https://dribbble.com/ilonacodes">
+          <i class="footer__socialIcon fab fa-dribbble"></i>
+        </a>
+      </div>
+    
+  </div>
+
+  <div class="row no-gutters footer__row">
+    
+      
+    
+      
+        <div class="footer-navlink col">
+  <a class="footer-navlink__link" href="/blog">
+    Blog
+  </a>
+</div>
+
+      
+    
+      
+        <div class="footer-navlink col">
+  <a class="footer-navlink__link" href="/ui-ux-projects">
+    Portfolio
+  </a>
+</div>
+
+      
+    
+      
+        <div class="footer-navlink col">
+  <a class="footer-navlink__link" href="mailto:ilona@ilonacodes.com">
+    Contact
+  </a>
+</div>
+
+      
+    
+  </div>
+
+  <div class="row footer__row footer__copy">
+    <div class="col text-center">
+      &copy; 2018 ilonacodes
+    </div>
+  </div>
+</div>
+
+      <div class="col-12 d-none d-md-block">
+  <div class="row">
+    <div class="col">
+      <div class="row no-gutters">
+        
+          <div class="col text-center">
+            <a class="footer__socialLink" href="https://github.com/ilonacodes">
+              <i class="footer__socialIcon fab fa-github"></i>
+            </a>
+          </div>
+        
+          <div class="col text-center">
+            <a class="footer__socialLink" href="https://instagram.com/ilonacodes">
+              <i class="footer__socialIcon fab fa-instagram"></i>
+            </a>
+          </div>
+        
+          <div class="col text-center">
+            <a class="footer__socialLink" href="https://twitter.com/ilonacodes">
+              <i class="footer__socialIcon fab fa-twitter-square"></i>
+            </a>
+          </div>
+        
+          <div class="col text-center">
+            <a class="footer__socialLink" href="https://medium.com/@ilonacodes">
+              <i class="footer__socialIcon fab fa-medium"></i>
+            </a>
+          </div>
+        
+          <div class="col text-center">
+            <a class="footer__socialLink" href="https://dribbble.com/ilonacodes">
+              <i class="footer__socialIcon fab fa-dribbble"></i>
+            </a>
+          </div>
+        
+      </div>
+    </div>
+
+    <div class="col footer__copy text-center">
+      &copy; 2018 ilonacodes
+    </div>
+
+    <div class="col footer__navlinks">
+      <div class="row">
+        
+          
+        
+          
+            <div class="footer-navlink col">
+  <a class="footer-navlink__link" href="/blog">
+    Blog
+  </a>
+</div>
+
+          
+        
+          
+            <div class="footer-navlink col">
+  <a class="footer-navlink__link" href="/ui-ux-projects">
+    Portfolio
+  </a>
+</div>
+
+          
+        
+          
+            <div class="footer-navlink col">
+  <a class="footer-navlink__link" href="mailto:ilona@ilonacodes.com">
+    Contact
+  </a>
+</div>
+
+          
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+    </div>
+  </div>
+</div>
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+</div>
+    </body>
+</html>

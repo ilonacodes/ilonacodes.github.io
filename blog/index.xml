@@ -6,10 +6,36 @@
     <description>Recent content in Blogs on Ilona Who Codes &amp; UXs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 07 Sep 2018 18:40:05 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 15 Sep 2018 18:40:05 +0100</lastBuildDate>
     
 	<atom:link href="//www.ilonacodes.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Why Formik With React</title>
+      <link>//www.ilonacodes.com/blog/why-formik-with-react/</link>
+      <pubDate>Sat, 15 Sep 2018 18:40:05 +0100</pubDate>
+      
+      <guid>//www.ilonacodes.com/blog/why-formik-with-react/</guid>
+      <description>&lt;p&gt;
+&lt;figure&gt;
+    
+        &lt;img src=&#34;//www.ilonacodes.com/blog/images/why-formik-with-react-cover.jpeg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;source: https://bit.ly/2paojyl&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+The way, how I try to understand the purpose of any framework is to use it and compare with the already implemented no-framework solution.&lt;/p&gt;
+
+&lt;p&gt;Sure, most of us, at first hear about a new library from tech media portals or from tech-dev influencers or from conferences/meetups or from coworkers, etc. then we are going to check out the source of it whether it is a software or open-source product. In the end, we are playing with it and trying to apply it to the existing product.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Emotional Todo List with React</title>
