@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html><head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# website: http://ogp.me/ns/website#">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+    <meta name="description" content="From the title of the post, you understand that I am not only going to explain how to implement a traditional TODO-List with React, but also show you how I am applying emotion-js for this mini-project.">
+    <meta property="og:title" content="Emotional Todo List with React">
+    
+    <meta property="og:type" content="article">
+    <meta property="article:published_time" content="2018-09-07">
+    
+    <meta property="og:description" content="From the title of the post, you understand that I am not only going to explain how to implement a traditional TODO-List with React, but also show you how I am applying emotion-js for this mini-project.">
+    <meta property="og:url" content="//www.ilonacodes.com/blog/emotional-todo-list-with-react/">
+    <meta property="og:site_name" content="Ilona Who Codes &amp; UXs">
+    
+    <meta property="og:tags" content="app">
+    
+    <meta property="og:tags" content="React">
+    
+    <meta property="og:tags" content="JavaScript">
+    
+    <meta property="og:tags" content="Emotion">
+    
+    <meta property="og:tags" content="web">
+    
+    <meta name="generator" content="Hugo 0.44" />
+    <title>Emotional Todo List with React &middot; Ilona Who Codes &amp; UXs</title>
+    
+    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/styles/default.min.css">
+    
+    <link rel="stylesheet" href="//www.ilonacodes.com/css/index.css">
+    
+    <link rel="icon" href="//www.ilonacodes.com/favicon.ico" />
+    
+
+    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
+    
+    
+</head>
+<body>
+      <div class="footer-wrapper">
+        <div class="container" id="content"><div class="navigation">
+	<div class="container">
+		<div class="row">
+			
+				
+
+
+  
+
+
+<div class="navlink col-12 col-md-6 navlink--main">
+  <a class="navlink__link" href="/">
+    ilonacodes
+  </a>
+</div>
+
+			
+				
+
+
+  
+
+
+<div class="navlink col">
+  <a class="navlink__link" href="/blog">
+    Blog
+  </a>
+</div>
+
+			
+				
+
+
+  
+
+
+<div class="navlink col">
+  <a class="navlink__link" href="/ui-ux-projects">
+    Portfolio
+  </a>
+</div>
+
+			
+				
+
+
+  
+
+
+<div class="navlink col">
+  <a class="navlink__link" href="mailto:ilona@ilonacodes.com">
+    Contact
+  </a>
+</div>
+
+			
+		</div>
+	</div>
+</div>
+
+  <div class="row">
+    <div class="col col-md-9">
+      <main>
+      	<article>
+      		<div class="post row">
+	<div class="post__meta-column col-3 d-none d-md-block">
+		<div class="row no-gutters post__meta-column__date">
+			
+			
+			
+			<div class="col text-center post__meta-column__day">
+				7
+			</div>
+			<div class="col">
+				<div class="post__meta-column__month">Sep</div>
+				<div class="post__meta-column__year">2018</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col post__meta-column__tags">
+				
+					
+					
+						<a href="/tags/app">
+							<div class="post__tag">
+								#app
+							</div>
+						</a>
+					
+						<a href="/tags/react">
+							<div class="post__tag">
+								#React
+							</div>
+						</a>
+					
+						<a href="/tags/javascript">
+							<div class="post__tag">
+								#JavaScript
+							</div>
+						</a>
+					
+						<a href="/tags/emotion">
+							<div class="post__tag">
+								#Emotion
+							</div>
+						</a>
+					
+						<a href="/tags/web">
+							<div class="post__tag">
+								#web
+							</div>
+						</a>
+					
+				
+			</div>
+		</div>
+	</div>
+
+	<div class="post__primary-column col col-md-8 col-lg-9">
+		
+			<h1 class="post__title">
+				Emotional Todo List with React
+			</h1>
+		
+
+		<div class="post__date d-md-none">
+			7 Sep, 2018
+		</div>
+
+		
+
+		<div class="post__body">
+      
+        <p>
+<figure>
+    
+        <img src="/blog/images/emotional-todo-list-cover.jpeg" />
+    
+    
+    <figcaption>
+        <h4>source: https://bit.ly/2NXyGjE</h4>
+        
+    </figcaption>
+    
+</figure>
+
+From the title of the post, you understand that I am not only going to explain how to implement a traditional TODO-List with React, but also show you how I am applying <a href="https://emotion.sh/">emotion-js</a> for this mini-project.</p>
+
+<p></p>
+
+<p>Let’s start with setting up a new react app following the official documentation <a href="https://reactjs.org/docs/create-a-new-react-app.html">here</a>.</p>
+
+<p>Afterward, we are going to write a simple TODO-List. I decided just to put the code below because the main point of the post is using the <strong>Emotion</strong> library to style the extracted components.</p>
+
+<p>Simple TODO-List with React:</p>
+
+<pre><code class="language-javascript">// TodoList.js
+
+import React from 'react';
+export const TodoList = (props) =&gt; {
+    return(
+        &lt;ul&gt;
+            {props.todoItems.map((todo, index) =&gt;
+                &lt;li key={index}&gt;{todo}&lt;/li&gt;
+            )}
+        &lt;/ul&gt;
+    );
+};
+</code></pre>
+
+<p>and</p>
+
+<pre><code class="language-javascript">// App.js
+
+import React, {Component} from 'react';
+import './App.css';
+import {TodoList} from './TodoList';
+class App extends Component {
+    constructor() {
+        super();
+this.state = {
+            inputValue: '',
+            todoItems: []
+        };
+this.onChangeInputValue = this.onChangeInputValue.bind(this);
+        this.onSubmitInputValue = this.onSubmitInputValue.bind(this);
+    }
+onChangeInputValue(event) {
+        this.setState({
+            inputValue: event.target.value
+        });
+    }
+onSubmitInputValue(event) {
+        event.preventDefault();
+        this.setState({
+            inputValue: '',
+            todoItems: [...this.state.todoItems, this.state.inputValue]
+        });
+    }
+render() {
+        return (
+            &lt;div&gt;
+                &lt;form onSubmit={this.onSubmitInputValue}&gt;
+                    &lt;input type=&quot;text&quot;
+                           value={this.state.inputValue}
+                           onChange={this.onChangeInputValue}/&gt;
+                    &lt;button&gt;Create&lt;/button&gt;
+                &lt;/form&gt;
+                &lt;TodoList todoItems={this.state.todoItems}/&gt;
+            &lt;/div&gt;
+        );
+    }
+}
+export default App;
+</code></pre>
+
+<p>I would like to have a component, styled with <strong>Emotion</strong>, that takes props that ultimately control the styling. Moreover, any expression, or interpolation, can be a function and CSS classes are what we have been generating when we use SCSS/CSS Modules. This is a compelling pattern that can be used to compose reusable styles across any project.</p>
+
+<p>So, the next step is to install the most useful <strong>Emotion</strong> packages:</p>
+
+<pre><code>npm install --save emotion react-emotion babel-plugin-emotion
+</code></pre>
+
+<p>Instead of styling DOM elements with CSS, I have created <strong>Styled Components</strong>, so then I can call it with a template literal for string styles everywhere in the project I want to.</p>
+
+<p>Because I prefer planning and styling from containers and wrappers (especially, if I use flexbox for that), I have started with extracting, styling and using <code>&lt;Container /&gt;</code> and <code>&lt;Wrapper /&gt;</code> components.</p>
+
+<pre><code class="language-javascript">// App.js
+...
+// importing styled method
+import styled from 'react-emotion';
+...
+// declaring a new component
+const Container = styled('div')`
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    flex-direction: column;
+    box-shadow: 0 0 5px rgba(25, 25, 25, 0.25);
+`;
+const Wrapper = styled('div')`
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border-radius: 20px;
+`;
+class App extends Component {
+ ...
+ render() {
+        return (
+ // applying components
+            &lt;Container&gt;
+                &lt;Wrapper&gt;
+                     &lt;form onSubmit={this.onSubmitInputValue}&gt;
+   ...
+                &lt;/Wrapper&gt;
+            &lt;/Container&gt;
+        );
+    }
+}
+export default App;
+</code></pre>
+
+<p>Next, I have created components : <code>&lt;CreateTodoForm /&gt;</code>, <code>&lt;CreateTodoInput /&gt;</code> and <code>&lt;CreateTodoButton /&gt;</code> to style the form, separated them into js-files and imported to the App.js</p>
+
+<pre><code class="language-javascript">// CreateTodoForm.js
+
+import React from 'react';
+import styled from 'react-emotion';
+export const CreateTodoForm = styled('form')`
+    width: 400px;
+    padding: 1rem;
+    display: flex;
+    border-radius: 20px;
+`;
+</code></pre>
+
+<p>and</p>
+
+<pre><code class="language-javascript">// CreateTodoInput.js
+
+import React from 'react';
+import styled from 'react-emotion';
+export const CreateTodoInput = styled('input')`
+    width: 100%;
+    font-size: 14px;
+    margin: 0 0.5rem;
+    border-radius: 2rem;
+    padding: .75em 1.5rem;
+    background: none;
+    border: #e3e3e3 1px solid;
+    transition: border 250ms ease-out;
+    &amp;:focus {
+        border: #4fc08d 1px solid;
+        outline: none;
+    }
+`;
+</code></pre>
+
+<p>and</p>
+
+<pre><code class="language-javascript">// CreateTodoButton.js
+
+import React from 'react';
+import styled from 'react-emotion';
+export const CreateTodoButton = styled('button')`
+    font-size: 14px;
+    margin: 0 0.5em;
+    border-radius: 2em;
+    padding: 0.75em 1.5em;
+    cursor: pointer;
+    background: none;
+    border: 1px solid #4fc08d;
+    letter-spacing: 1px;
+    font-family: &quot;Source Sans Pro&quot;, sans-serif;
+    color: #4fc08d;
+    transition: 250ms ease-out;
+    &amp;:hover, &amp;:focus {
+        color: #fff;
+        background: #4fc08d;
+        outline: none;
+    }
+`;
+</code></pre>
+
+<p>then</p>
+
+<pre><code class="language-javascript">// App.js
+
+import React, {Component} from 'react';
+import styled from 'react-emotion';
+import './App.css';
+import {TodoList} from './TodoList';
+// importing form-components
+import {CreateTodoInput} from './components/CreateTodoInput';
+import {CreateTodoButton} from './components/CreateTodoButton';
+import {CreateTodoForm} from './components/CreateTodoForm';
+const Container = styled('div')`
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    flex-direction: column;
+    box-shadow: 0 0 5px rgba(25, 25, 25, 0.25);
+`;
+const Wrapper = styled('div')`
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border-radius: 20px;
+`;
+class App extends Component {
+    constructor() {
+        super();
+this.state = {
+            inputValue: '',
+            todoItems: []
+        };
+this.onChangeInputValue = this.onChangeInputValue.bind(this);
+        this.onSubmitInputValue = this.onSubmitInputValue.bind(this);
+    }
+onChangeInputValue(event) {
+        this.setState({
+            inputValue: event.target.value
+        });
+    }
+onSubmitInputValue(event) {
+        event.preventDefault();
+        this.setState({
+            inputValue: '',
+            todoItems: [...this.state.todoItems, this.state.inputValue]
+        });
+    }
+render() {
+        return (
+            &lt;Container&gt;
+                &lt;Wrapper&gt;
+   // applying components to render them
+                    &lt;CreateTodoForm onSubmit={this.onSubmitInputValue}&gt;
+                        &lt;CreateTodoInput type=&quot;text&quot;
+                               value={this.state.inputValue}
+                               onChange={this.onChangeInputValue}/&gt;
+                        &lt;CreateTodoButton&gt;Create&lt;/CreateTodoButton&gt;
+                    &lt;/CreateTodoForm&gt;
+                    &lt;TodoList todoItems={this.state.todoItems}/&gt;
+                &lt;/Wrapper&gt;
+            &lt;/Container&gt;
+        );
+    }
+}
+export default App;
+</code></pre>
+
+<p>Here is the final result:</p>
+
+<p><img src="/blog/images/emotional-todo-list-result.png" alt="Result" /></p>
+
+<p>That’s it for today. I hope you like my small explanation! Thank you for reading! 👏</p>
+
+<p><em>(This article was original published <a href="https://medium.com/@ilonacodes/emotional-todo-list-with-react-a458f57854a9">on my medium</a>)</em></p>
+      
+		</div>
+
+    
+
+		<div class="post__tags d-md-none">
+			
+				Tags |
+				
+				
+					<a href="/tags/app">
+						<span class="post__tag">
+							#app
+						</span>
+					</a>
+				
+					<a href="/tags/react">
+						<span class="post__tag">
+							#React
+						</span>
+					</a>
+				
+					<a href="/tags/javascript">
+						<span class="post__tag">
+							#JavaScript
+						</span>
+					</a>
+				
+					<a href="/tags/emotion">
+						<span class="post__tag">
+							#Emotion
+						</span>
+					</a>
+				
+					<a href="/tags/web">
+						<span class="post__tag">
+							#web
+						</span>
+					</a>
+				
+			
+		</div>
+	</div>
+</div>
+
+
+      	</article>
+
+        <div class="next-article">
+          
+            <a href="//www.ilonacodes.com/blog/how-to-say-bye-bye-to-the-crappy-food/">
+              Next: How to say bye 👋 bye to the crappy food
+            </a>
+          
+        </div>
+      </main>
+    </div>
+
+    <div class="col-3 d-none d-md-block">
+  <div class="row">
+	<div class="profile-photo offset-1 col-10">
+		<a href="/">
+			<img class="profile-photo__image" src="/img/FullSizeRender.jpg" />
+		</a>
+	</div>
+</div>
+
+  <div class="text-center">
+    I’m Ilona, web developer &amp; UI/UX designer.
+    <br/>
+    I’m based in Berlin.
+  </div>
+
+  <div class="latest-articles">
+    <div class="latest-articles__title">
+      The latest articles:
+    </div>
+
+    
+      <div class="latest-articles__article">
+        <a class="latest-articles__link" href="//www.ilonacodes.com/blog/emotional-todo-list-with-react/">
+          Emotional Todo List with React
+        </a>
+      </div>
+    
+      <div class="latest-articles__article">
+        <a class="latest-articles__link" href="//www.ilonacodes.com/blog/how-to-say-bye-bye-to-the-crappy-food/">
+          How to say bye 👋 bye to the crappy food
+        </a>
+      </div>
+    
+      <div class="latest-articles__article">
+        <a class="latest-articles__link" href="//www.ilonacodes.com/blog/the-perfect-home-office-setup-for-work/">
+          The perfect home office setup for work
+        </a>
+      </div>
+    
+  </div>
+</div>
+
+  </div>
+
+        </div><div class="footer">
+  <div class="container footer__container">
+    <div class="row">
+      <div class="col-8 footer__center d-md-none">
+  <div class="row no-gutters footer__row">
+    
+      <div class="col text-center">
+        <a class="footer__socialLink" href="https://github.com/ilonacodes">
+          <i class="footer__socialIcon fab fa-github"></i>
+        </a>
+      </div>
+    
+      <div class="col text-center">
+        <a class="footer__socialLink" href="https://instagram.com/ilonacodes">
+          <i class="footer__socialIcon fab fa-instagram"></i>
+        </a>
+      </div>
+    
+      <div class="col text-center">
+        <a class="footer__socialLink" href="https://twitter.com/ilonacodes">
+          <i class="footer__socialIcon fab fa-twitter-square"></i>
+        </a>
+      </div>
+    
+      <div class="col text-center">
+        <a class="footer__socialLink" href="https://medium.com/@ilonacodes">
+          <i class="footer__socialIcon fab fa-medium"></i>
+        </a>
+      </div>
+    
+      <div class="col text-center">
+        <a class="footer__socialLink" href="https://dribbble.com/ilonacodes">
+          <i class="footer__socialIcon fab fa-dribbble"></i>
+        </a>
+      </div>
+    
+  </div>
+
+  <div class="row no-gutters footer__row">
+    
+      
+    
+      
+        <div class="footer-navlink col">
+  <a class="footer-navlink__link" href="/blog">
+    Blog
+  </a>
+</div>
+
+      
+    
+      
+        <div class="footer-navlink col">
+  <a class="footer-navlink__link" href="/ui-ux-projects">
+    Portfolio
+  </a>
+</div>
+
+      
+    
+      
+        <div class="footer-navlink col">
+  <a class="footer-navlink__link" href="mailto:ilona@ilonacodes.com">
+    Contact
+  </a>
+</div>
+
+      
+    
+  </div>
+
+  <div class="row footer__row footer__copy">
+    <div class="col text-center">
+      &copy; 2018 ilonacodes
+    </div>
+  </div>
+</div>
+
+      <div class="col-12 d-none d-md-block">
+  <div class="row">
+    <div class="col">
+      <div class="row no-gutters">
+        
+          <div class="col text-center">
+            <a class="footer__socialLink" href="https://github.com/ilonacodes">
+              <i class="footer__socialIcon fab fa-github"></i>
+            </a>
+          </div>
+        
+          <div class="col text-center">
+            <a class="footer__socialLink" href="https://instagram.com/ilonacodes">
+              <i class="footer__socialIcon fab fa-instagram"></i>
+            </a>
+          </div>
+        
+          <div class="col text-center">
+            <a class="footer__socialLink" href="https://twitter.com/ilonacodes">
+              <i class="footer__socialIcon fab fa-twitter-square"></i>
+            </a>
+          </div>
+        
+          <div class="col text-center">
+            <a class="footer__socialLink" href="https://medium.com/@ilonacodes">
+              <i class="footer__socialIcon fab fa-medium"></i>
+            </a>
+          </div>
+        
+          <div class="col text-center">
+            <a class="footer__socialLink" href="https://dribbble.com/ilonacodes">
+              <i class="footer__socialIcon fab fa-dribbble"></i>
+            </a>
+          </div>
+        
+      </div>
+    </div>
+
+    <div class="col footer__copy text-center">
+      &copy; 2018 ilonacodes
+    </div>
+
+    <div class="col footer__navlinks">
+      <div class="row">
+        
+          
+        
+          
+            <div class="footer-navlink col">
+  <a class="footer-navlink__link" href="/blog">
+    Blog
+  </a>
+</div>
+
+          
+        
+          
+            <div class="footer-navlink col">
+  <a class="footer-navlink__link" href="/ui-ux-projects">
+    Portfolio
+  </a>
+</div>
+
+          
+        
+          
+            <div class="footer-navlink col">
+  <a class="footer-navlink__link" href="mailto:ilona@ilonacodes.com">
+    Contact
+  </a>
+</div>
+
+          
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+    </div>
+  </div>
+</div>
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+</div>
+    </body>
+</html>

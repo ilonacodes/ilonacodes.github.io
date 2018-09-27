@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Emotion on Ilona Who Codes &amp; UXs</title>
+    <link>//www.ilonacodes.com/tags/emotion/</link>
+    <description>Recent content in Emotion on Ilona Who Codes &amp; UXs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 07 Sep 2018 18:40:05 +0100</lastBuildDate>
+    
+	<atom:link href="//www.ilonacodes.com/tags/emotion/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Emotional Todo List with React</title>
+      <link>//www.ilonacodes.com/blog/emotional-todo-list-with-react/</link>
+      <pubDate>Fri, 07 Sep 2018 18:40:05 +0100</pubDate>
+      
+      <guid>//www.ilonacodes.com/blog/emotional-todo-list-with-react/</guid>
+      <description>&lt;p&gt;
+&lt;figure&gt;
+    
+        &lt;img src=&#34;//www.ilonacodes.com/blog/images/emotional-todo-list-cover.jpeg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;source: https://bit.ly/2NXyGjE&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+From the title of the post, you understand that I am not only going to explain how to implement a traditional TODO-List with React, but also show you how I am applying &lt;a href=&#34;https://emotion.sh/&#34;&gt;emotion-js&lt;/a&gt; for this mini-project.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
