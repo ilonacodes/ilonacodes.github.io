@@ -1,9 +1,10 @@
 <div class="col-3 d-none d-md-block">
-  {{ partial "profile-photo" . }}
+  {{ partial "profile-photo" .context }}
+
   <div class="text-center">
-    {{ .Site.Params.profileBio }}
+    {{ .context.Site.Params.profilebio }}
     <br/>
-    {{ .Site.Params.profileLocation }}
+    {{ .context.Site.Params.profilelocation }}
   </div>
 
   <div class="latest-articles">
@@ -11,7 +12,7 @@
       The latest articles:
     </div>
 
-    {{ range first 3 (where .Site.Pages "Section" "blog") }}
+    {{ range first 3 (where .context.Site.Pages "Section" (.Section)) }}
       <div class="latest-articles__article">
         <a class="latest-articles__link" href="{{ .Permalink }}">
           {{ .Title }}

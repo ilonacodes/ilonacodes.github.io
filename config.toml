@@ -24,7 +24,7 @@ theme = "ilonacodes-2018"
 	copyright = "2018 ilonacodes"
 
 	profilePhoto = "/img/FullSizeRender.jpg"
-	profileBio = "I’m Ilona, web developer & UI/UX designer."
+	profileBio = "I’m Ilona, Front-End Web Developer & IT-Blogger."
 	profileLocation = "I’m based in Berlin."
 
 [[params.navlinks]]

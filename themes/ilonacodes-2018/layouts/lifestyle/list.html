@@ -1,13 +1,13 @@
 {{ define "main" }}
   <div class="row layout--list">
     <div class="col col-md-9">
-      {{ $paginator := .Paginate (where .Data.Pages "Section" "blog") }}
+      {{ $paginator := .Paginate (where .Data.Pages "Section" "lifestyle") }}
       {{ range $paginator.Pages }}
         {{ .Render "list-post"}}
       {{ end }}
     </div>
 
-    {{ partial "sidebar.html" (dict "context" . "Section" "blog") }}
+    {{ partial "sidebar.html" (dict "context" . "Section" "lifestyle") }}
   </div>
 
   <div class="row justify-content-center">
