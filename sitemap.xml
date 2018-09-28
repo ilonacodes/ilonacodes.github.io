@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>//www.ilonacodes.com/lifestyle/self-love-helps-self-made-yourself/</loc>
+    <lastmod>2018-09-28T18:40:05+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>//www.ilonacodes.com/blog/why-formik-with-react/</loc>
     <lastmod>2018-09-15T18:40:05+01:00</lastmod>
   </url>
@@ -405,7 +410,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/</loc>
-    <lastmod>2018-09-15T18:40:05+01:00</lastmod>
+    <lastmod>2018-09-28T18:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -423,7 +428,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/tags/inspiration/</loc>
-    <lastmod>2018-08-20T06:00:05+01:00</lastmod>
+    <lastmod>2018-09-28T18:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -482,6 +487,18 @@
   </url>
   
   <url>
+    <loc>//www.ilonacodes.com/tags/lifestyle/</loc>
+    <lastmod>2018-09-28T18:40:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.ilonacodes.com/lifestyle/</loc>
+    <lastmod>2018-09-28T18:40:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>//www.ilonacodes.com/tags/localstorage/</loc>
     <lastmod>2017-10-10T12:30:05+01:00</lastmod>
     <priority>0</priority>
@@ -500,6 +517,18 @@
   </url>
   
   <url>
+    <loc>//www.ilonacodes.com/tags/mentalhealth/</loc>
+    <lastmod>2018-09-28T18:40:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.ilonacodes.com/tags/motivation/</loc>
+    <lastmod>2018-09-28T18:40:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>//www.ilonacodes.com/tags/nutrition/</loc>
     <lastmod>2018-08-21T18:40:05+01:00</lastmod>
     <priority>0</priority>
@@ -514,6 +543,12 @@
   <url>
     <loc>//www.ilonacodes.com/tags/parallax/</loc>
     <lastmod>2018-03-10T20:45:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.ilonacodes.com/tags/power/</loc>
+    <lastmod>2018-09-28T18:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -6,10 +6,34 @@
     <description>Recent content on Ilona Who Codes &amp; UXs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 15 Sep 2018 18:40:05 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 28 Sep 2018 18:40:05 +0100</lastBuildDate>
     
 	<atom:link href="//www.ilonacodes.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Self-Love helps Self-Made yourself</title>
+      <link>//www.ilonacodes.com/lifestyle/self-love-helps-self-made-yourself/</link>
+      <pubDate>Fri, 28 Sep 2018 18:40:05 +0100</pubDate>
+      
+      <guid>//www.ilonacodes.com/lifestyle/self-love-helps-self-made-yourself/</guid>
+      <description>&lt;figure&gt;
+    
+        &lt;img src=&#34;//www.ilonacodes.com/lifestyle/images/self-love-helps-self-made-yourself-cover.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Close to Brandenburg Gate, Berlin&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;I thought a lot whether I should start blogging about my lifestyle or not. After all the pros and cons, now you are reading my first post, and I happily welcome you here!&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Why Formik With React</title>
@@ -608,11 +632,9 @@ Yoga is key to flexability  Turn your past into valuable experiences  People don
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>//www.ilonacodes.com/main/</guid>
-      <description>Front-End Web Developer Hi, I&amp;rsquo;m Ilona - a morning person, open-minded, and an aspiring entrepreneur.
-Based in Berlin, Germany. M.Sc. programme in Media Informatics.
-My professional interests include web-development and web-design.
-Intrigued by blogging, traveling, writing. I like to work hard for things that are worth it.
-If you would like to find out more about my educational and professional background, check out my Github or UI/UX Projects</description>
+      <description>Front-End Web Developer &amp;amp; IT-Blogger Hi, I&amp;rsquo;m Ilona - a morning person, open-minded, and an aspiring entrepreneur. Based in Berlin, Germany. M.Sc. programme in Media Informatics. My professional interests include web-development and web-design. Intrigued by blogging, traveling, writing. I like to work hard for things that are worth it.
+If you would like to find out more about my professional background, check out my tech blog.
+&amp;hellip; or get to know me better via my personal lifestyle blog ― from wellness to traveling, from fashion to events.</description>
     </item>
     
   </channel>
