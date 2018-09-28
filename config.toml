@@ -37,8 +37,8 @@ theme = "ilonacodes-2018"
 	url = "/blog"
 
 [[params.navlinks]]
-	title = "Portfolio"
-	url = "/ui-ux-projects"
+	title = "Lifestyle"
+	url = "/lifestyle"
 
 [[params.navlinks]]
 	title = "Contact"
