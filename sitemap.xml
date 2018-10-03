@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>//www.ilonacodes.com/lifestyle/travel-to-hype-vs-travel-to-enjoy/</loc>
+    <lastmod>2018-10-03T10:40:05+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>//www.ilonacodes.com/lifestyle/self-love-helps-self-made-yourself/</loc>
     <lastmod>2018-09-28T18:40:05+01:00</lastmod>
   </url>
@@ -410,7 +415,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/</loc>
-    <lastmod>2018-09-28T18:40:05+01:00</lastmod>
+    <lastmod>2018-10-03T10:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -428,7 +433,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/tags/inspiration/</loc>
-    <lastmod>2018-09-28T18:40:05+01:00</lastmod>
+    <lastmod>2018-10-03T10:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -441,6 +446,12 @@
   <url>
     <loc>//www.ilonacodes.com/tags/javascript/</loc>
     <lastmod>2018-09-15T18:40:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.ilonacodes.com/tags/journey/</loc>
+    <lastmod>2018-10-03T10:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -494,7 +505,13 @@
   
   <url>
     <loc>//www.ilonacodes.com/lifestyle/</loc>
-    <lastmod>2018-09-28T18:40:05+01:00</lastmod>
+    <lastmod>2018-10-03T10:40:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.ilonacodes.com/tags/lifestyles/</loc>
+    <lastmod>2018-10-03T10:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -524,7 +541,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/tags/motivation/</loc>
-    <lastmod>2018-09-28T18:40:05+01:00</lastmod>
+    <lastmod>2018-10-03T10:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -657,6 +674,12 @@
   <url>
     <loc>//www.ilonacodes.com/tags/tech/</loc>
     <lastmod>2018-08-09T07:00:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.ilonacodes.com/tags/travel/</loc>
+    <lastmod>2018-10-03T10:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
