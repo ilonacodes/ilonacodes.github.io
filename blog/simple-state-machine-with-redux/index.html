@@ -3,18 +3,31 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-    <meta name="description" content="">
-    <meta property="og:title" content="Category">
+    <meta name="description" content="The last days I am working on the project, which should include the state machine. Implementing this project with React, I decided to use the Redux framework to manage state in my React application. Moreover, thanks to redux store we can debug data (in one place) easily.">
+    <meta property="og:title" content="Simple State Machine with Redux">
     
-    <meta property="og:type" content="website">
+    <meta property="og:type" content="article">
+    <meta property="article:published_time" content="2018-10-02">
     
-    <meta property="og:description" content="">
-    <meta property="og:url" content="//www.ilonacodes.com/tags/category/">
+    <meta property="og:description" content="The last days I am working on the project, which should include the state machine. Implementing this project with React, I decided to use the Redux framework to manage state in my React application. Moreover, thanks to redux store we can debug data (in one place) easily.">
+    <meta property="og:url" content="//www.ilonacodes.com/blog/simple-state-machine-with-redux/">
     <meta property="og:site_name" content="Ilona Who Codes &amp; UXs">
     
-    <meta name="generator" content="Hugo 0.44" />
-    <title>Category &middot; Ilona Who Codes &amp; UXs</title>
+    <meta property="og:tags" content="data">
     
+    <meta property="og:tags" content="react">
+    
+    <meta property="og:tags" content="javascript">
+    
+    <meta property="og:tags" content="redux">
+    
+    <meta property="og:tags" content="tech">
+    
+    <meta name="generator" content="Hugo 0.44" />
+    <title>Simple State Machine with Redux &middot; Ilona Who Codes &amp; UXs</title>
+    
+    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/styles/default.min.css">
     
     <link rel="stylesheet" href="//www.ilonacodes.com/css/index.css">
     
@@ -87,22 +100,22 @@
 	</div>
 </div>
 
-  <div class="row layout--list">
+  <div class="row">
     <div class="col col-md-9">
-      
-      
-        <div class="post row">
+      <main>
+      	<article>
+      		<div class="post row">
 	<div class="post__meta-column col-3 d-none d-md-block">
 		<div class="row no-gutters post__meta-column__date">
 			
 			
 			
 			<div class="col text-center post__meta-column__day">
-				6
+				2
 			</div>
 			<div class="col">
 				<div class="post__meta-column__month">Oct</div>
-				<div class="post__meta-column__year">2017</div>
+				<div class="post__meta-column__year">2018</div>
 			</div>
 		</div>
 
@@ -111,15 +124,21 @@
 				
 					
 					
+						<a href="/tags/data">
+							<div class="post__tag">
+								#data
+							</div>
+						</a>
+					
 						<a href="/tags/react">
 							<div class="post__tag">
 								#react
 							</div>
 						</a>
 					
-						<a href="/tags/reactjs">
+						<a href="/tags/javascript">
 							<div class="post__tag">
-								#reactjs
+								#javascript
 							</div>
 						</a>
 					
@@ -129,45 +148,9 @@
 							</div>
 						</a>
 					
-						<a href="/tags/learntocode">
+						<a href="/tags/tech">
 							<div class="post__tag">
-								#learntocode
-							</div>
-						</a>
-					
-						<a href="/tags/beginners">
-							<div class="post__tag">
-								#beginners
-							</div>
-						</a>
-					
-						<a href="/tags/coding">
-							<div class="post__tag">
-								#coding
-							</div>
-						</a>
-					
-						<a href="/tags/letsgetcoding">
-							<div class="post__tag">
-								#letsgetcoding
-							</div>
-						</a>
-					
-						<a href="/tags/user">
-							<div class="post__tag">
-								#user
-							</div>
-						</a>
-					
-						<a href="/tags/category">
-							<div class="post__tag">
-								#category
-							</div>
-						</a>
-					
-						<a href="/tags/userstory">
-							<div class="post__tag">
-								#userstory
+								#tech
 							</div>
 						</a>
 					
@@ -178,30 +161,102 @@
 
 	<div class="post__primary-column col col-md-8 col-lg-9">
 		
-			<h2 class="post__title">
-				<a class="post__title__link" href="//www.ilonacodes.com/blog/dynamic-progress-bar-with-react-redux/">
-					Dynamic progress bar with React&#43;Redux
-				</a>
-			</h2>
+			<h1 class="post__title">
+				Simple State Machine with Redux
+			</h1>
 		
 
 		<div class="post__date d-md-none">
-			6 Oct, 2017
+			2 Oct, 2018
 		</div>
 
 		
 
 		<div class="post__body">
       
-		    Hi there! I am so happy that you continue developing our interactive Daily ToDo app with me. Today you are going to get to know how to implement a dynamic progress bar that will handle task completing status by percentage for every category.
-But before moving on, if you are new here, please, have a look at the previous posts. You should start developing app there and then continue with us here.
+        <figure>
+    
+        <img src="/blog/simple-state-machine-with-redux.jpeg" />
+    
+    
+    <figcaption>
+        <h4>https://bit.ly/2wIeeNU</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+<p>The last days I am working on the project, which should include the state machine. Implementing this project with React, I decided to use the Redux framework to manage state in my React application. Moreover, thanks to redux store we can debug data (in one place) easily.</p>
+
+<p></p>
+
+<p>At first, I thought how to structure the data (a nested array of states and of its transitions — switching from one state to another. ). As result, I found that I will have only one state to manage all state transitions via the action type ‘MAKE_TRANSITION’ that will trigger a transition and provide different behaviour for the same action depending on current state. The current state changes by id, switching to the nextState of the transition.</p>
+
+<p>Below, I have put the example of the data stored as an initial state of the reducer with the description afterward:</p>
+
+<pre><code class="language-javascript">const initState = {
+    currentState: 'greeting',
+    states: [
+        {
+            id: 'greeting',
+            payload: {...},
+            transitions: [
+                {
+                    trigger: {...},
+                    nextState: 'do-you-like-to-start'
+                }
+            ]
+        },
+        {
+           id: 'do-you-like-to-start',
+           payload: {...},
+
+           transitions: [
+               {
+                    trigger: {...},
+                    nextState: 'ask-for-name'
+               },
+               {
+                    trigger: {...},
+                    nextState: 'more-details'
+               }
+           ]
+        },
+    ]
+}
+</code></pre>
+
+<p><strong>currentState:</strong> the state the application is currently in</p>
+
+<p><strong>states:</strong> contains all possible states of the state machine</p>
+
+<p><strong>id:</strong> the identifier of the state</p>
+
+<p><strong>transitions:</strong> allow to make the next logical move to the nextState</p>
+
+<p><strong>payload:</strong> touched data to each state for state machine</p>
+
+<p><strong>trigger:</strong> when transition should happen</p>
+
+<pre><code class="language-javascript">case t.MAKE_TRANSITION:
+    return {
+        ...state,
+        currentState: action.nextState
+    }
+</code></pre>
+
+<p>Above you see the implementation of the reducer with the “MAKE_TRANSITION” action.</p>
+
+<p>That’s it. Thank you for reading! I hope you liked the possible data representation of the state machine. If you have any questions be free to contact me per <a href="mailto:ilona@ilonacodes.com">email</a>, <a href="https://twitter.com/ilonacodes">Twitter</a> or <a href="https://www.instagram.com/ilonacodes/">Instagram</a>.</p>
+
+<p><br>
+Cheers,</p>
+
+<p>ilonacodes</p>
       
 		</div>
 
-    
-  		<div class="post__read-full">
-  			<a href="//www.ilonacodes.com/blog/dynamic-progress-bar-with-react-redux/" class="btn btn-primary">Read My Full Post</a>
-  		</div>
     
 
 		<div class="post__tags d-md-none">
@@ -209,15 +264,21 @@ But before moving on, if you are new here, please, have a look at the previous p
 				Tags |
 				
 				
+					<a href="/tags/data">
+						<span class="post__tag">
+							#data
+						</span>
+					</a>
+				
 					<a href="/tags/react">
 						<span class="post__tag">
 							#react
 						</span>
 					</a>
 				
-					<a href="/tags/reactjs">
+					<a href="/tags/javascript">
 						<span class="post__tag">
-							#reactjs
+							#javascript
 						</span>
 					</a>
 				
@@ -227,45 +288,9 @@ But before moving on, if you are new here, please, have a look at the previous p
 						</span>
 					</a>
 				
-					<a href="/tags/learntocode">
+					<a href="/tags/tech">
 						<span class="post__tag">
-							#learntocode
-						</span>
-					</a>
-				
-					<a href="/tags/beginners">
-						<span class="post__tag">
-							#beginners
-						</span>
-					</a>
-				
-					<a href="/tags/coding">
-						<span class="post__tag">
-							#coding
-						</span>
-					</a>
-				
-					<a href="/tags/letsgetcoding">
-						<span class="post__tag">
-							#letsgetcoding
-						</span>
-					</a>
-				
-					<a href="/tags/user">
-						<span class="post__tag">
-							#user
-						</span>
-					</a>
-				
-					<a href="/tags/category">
-						<span class="post__tag">
-							#category
-						</span>
-					</a>
-				
-					<a href="/tags/userstory">
-						<span class="post__tag">
-							#userstory
+							#tech
 						</span>
 					</a>
 				
@@ -275,194 +300,16 @@ But before moving on, if you are new here, please, have a look at the previous p
 </div>
 
 
-      
-        <div class="post row">
-	<div class="post__meta-column col-3 d-none d-md-block">
-		<div class="row no-gutters post__meta-column__date">
-			
-			
-			
-			<div class="col text-center post__meta-column__day">
-				1
-			</div>
-			<div class="col">
-				<div class="post__meta-column__month">Oct</div>
-				<div class="post__meta-column__year">2017</div>
-			</div>
-		</div>
+      	</article>
 
-		<div class="row">
-			<div class="col post__meta-column__tags">
-				
-					
-					
-						<a href="/tags/react">
-							<div class="post__tag">
-								#react
-							</div>
-						</a>
-					
-						<a href="/tags/reactjs">
-							<div class="post__tag">
-								#reactjs
-							</div>
-						</a>
-					
-						<a href="/tags/redux">
-							<div class="post__tag">
-								#redux
-							</div>
-						</a>
-					
-						<a href="/tags/learntocode">
-							<div class="post__tag">
-								#learntocode
-							</div>
-						</a>
-					
-						<a href="/tags/beginners">
-							<div class="post__tag">
-								#beginners
-							</div>
-						</a>
-					
-						<a href="/tags/coding">
-							<div class="post__tag">
-								#coding
-							</div>
-						</a>
-					
-						<a href="/tags/letsgetcoding">
-							<div class="post__tag">
-								#letsgetcoding
-							</div>
-						</a>
-					
-						<a href="/tags/user">
-							<div class="post__tag">
-								#user
-							</div>
-						</a>
-					
-						<a href="/tags/category">
-							<div class="post__tag">
-								#category
-							</div>
-						</a>
-					
-						<a href="/tags/userstory">
-							<div class="post__tag">
-								#userstory
-							</div>
-						</a>
-					
-				
-			</div>
-		</div>
-	</div>
-
-	<div class="post__primary-column col col-md-8 col-lg-9">
-		
-			<h2 class="post__title">
-				<a class="post__title__link" href="//www.ilonacodes.com/blog/categorize-tasks-with-react-redux/">
-					Categorize tasks with React&#43;Redux
-				</a>
-			</h2>
-		
-
-		<div class="post__date d-md-none">
-			1 Oct, 2017
-		</div>
-
-		
-
-		<div class="post__body">
-      
-		    The most valuable feature set for our Daily ToDo is already done. Today we are going to make an app more functional, separating tasks by categories. We want to be able to categorize task by typing # and category after its title.
-For example: practice a coding kata #programming.
-As always, we start with the simple user story and the acceptance criteria:
-As Bob I want to categorize tasks by adding tag into input So I see which task belongs to which category ## Acceptance Criteria Given there are no tasks And I am on dashboard screen When I finish inputting a new task title And choose the category (tag) for a task And press Enter Then I see the categorized task by tag on the dashboard screen Tag examples: Programming, Sport, Languages, University, Reading, Routine  If you are a new reader of the tutorial series and don&rsquo;t understand what is going on at the moment, then just check the previous posts starting with React For Very Very Beginners
-      
-		</div>
-
-    
-  		<div class="post__read-full">
-  			<a href="//www.ilonacodes.com/blog/categorize-tasks-with-react-redux/" class="btn btn-primary">Read My Full Post</a>
-  		</div>
-    
-
-		<div class="post__tags d-md-none">
-			
-				Tags |
-				
-				
-					<a href="/tags/react">
-						<span class="post__tag">
-							#react
-						</span>
-					</a>
-				
-					<a href="/tags/reactjs">
-						<span class="post__tag">
-							#reactjs
-						</span>
-					</a>
-				
-					<a href="/tags/redux">
-						<span class="post__tag">
-							#redux
-						</span>
-					</a>
-				
-					<a href="/tags/learntocode">
-						<span class="post__tag">
-							#learntocode
-						</span>
-					</a>
-				
-					<a href="/tags/beginners">
-						<span class="post__tag">
-							#beginners
-						</span>
-					</a>
-				
-					<a href="/tags/coding">
-						<span class="post__tag">
-							#coding
-						</span>
-					</a>
-				
-					<a href="/tags/letsgetcoding">
-						<span class="post__tag">
-							#letsgetcoding
-						</span>
-					</a>
-				
-					<a href="/tags/user">
-						<span class="post__tag">
-							#user
-						</span>
-					</a>
-				
-					<a href="/tags/category">
-						<span class="post__tag">
-							#category
-						</span>
-					</a>
-				
-					<a href="/tags/userstory">
-						<span class="post__tag">
-							#userstory
-						</span>
-					</a>
-				
-			
-		</div>
-	</div>
-</div>
-
-
-      
+        <div class="next-article">
+          
+            <a href="//www.ilonacodes.com/blog/why-formik-with-react/">
+              Next: Why Formik With React
+            </a>
+          
+        </div>
+      </main>
     </div>
 
     <div class="col-3 d-none d-md-block">
@@ -509,14 +356,6 @@ As Bob I want to categorize tasks by adding tag into input So I see which task b
 </div>
 
   </div>
-
-  <div class="row justify-content-center">
-    <div class="col-auto">
-  	  
-
-    </div>
-  </div>
-
 
         </div><div class="footer">
   <div class="container footer__container">
@@ -679,6 +518,9 @@ As Bob I want to categorize tasks by adding tag into input So I see which task b
   </div>
 </div>
 
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
 
 </div>
     </body>

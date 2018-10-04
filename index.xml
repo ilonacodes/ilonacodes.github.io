@@ -36,6 +36,30 @@
     </item>
     
     <item>
+      <title>Simple State Machine with Redux</title>
+      <link>//www.ilonacodes.com/blog/simple-state-machine-with-redux/</link>
+      <pubDate>Tue, 02 Oct 2018 10:40:05 +0100</pubDate>
+      
+      <guid>//www.ilonacodes.com/blog/simple-state-machine-with-redux/</guid>
+      <description>&lt;figure&gt;
+    
+        &lt;img src=&#34;//www.ilonacodes.com/blog/simple-state-machine-with-redux.jpeg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;https://bit.ly/2wIeeNU&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;The last days I am working on the project, which should include the state machine. Implementing this project with React, I decided to use the Redux framework to manage state in my React application. Moreover, thanks to redux store we can debug data (in one place) easily.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Self-Love helps Self-Made yourself</title>
       <link>//www.ilonacodes.com/lifestyle/self-love-helps-self-made-yourself/</link>
       <pubDate>Fri, 28 Sep 2018 18:40:05 +0100</pubDate>
