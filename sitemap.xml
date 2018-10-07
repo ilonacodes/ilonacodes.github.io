@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>//www.ilonacodes.com/lifestyle/dad-sneakers-strike-again/</loc>
+    <lastmod>2018-10-07T09:40:05+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>//www.ilonacodes.com/lifestyle/travel-to-hype-vs-travel-to-enjoy/</loc>
     <lastmod>2018-10-03T10:40:05+01:00</lastmod>
   </url>
@@ -365,6 +370,12 @@
   </url>
   
   <url>
+    <loc>//www.ilonacodes.com/tags/fashion/</loc>
+    <lastmod>2018-10-07T09:40:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>//www.ilonacodes.com/tags/fetch/</loc>
     <lastmod>2018-03-17T15:00:05+01:00</lastmod>
     <priority>0</priority>
@@ -420,7 +431,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/</loc>
-    <lastmod>2018-10-03T10:40:05+01:00</lastmod>
+    <lastmod>2018-10-07T09:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -438,7 +449,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/tags/inspiration/</loc>
-    <lastmod>2018-10-03T10:40:05+01:00</lastmod>
+    <lastmod>2018-10-07T09:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -504,13 +515,13 @@
   
   <url>
     <loc>//www.ilonacodes.com/tags/lifestyle/</loc>
-    <lastmod>2018-09-28T18:40:05+01:00</lastmod>
+    <lastmod>2018-10-07T09:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>//www.ilonacodes.com/lifestyle/</loc>
-    <lastmod>2018-10-03T10:40:05+01:00</lastmod>
+    <lastmod>2018-10-07T09:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -546,7 +557,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/tags/motivation/</loc>
-    <lastmod>2018-10-03T10:40:05+01:00</lastmod>
+    <lastmod>2018-10-07T09:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -685,6 +696,12 @@
   <url>
     <loc>//www.ilonacodes.com/tags/travel/</loc>
     <lastmod>2018-10-03T10:40:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.ilonacodes.com/tags/trend/</loc>
+    <lastmod>2018-10-07T09:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
