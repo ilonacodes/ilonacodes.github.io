@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html><head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# website: http://ogp.me/ns/website#">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+    <meta name="description" content="Here we are! Due to my master thesis at the university, one of the requirements is the implementation of an interactive mockup for the university WebTV platform. So, I decided to make it with React.">
+    <meta property="og:title" content="Simple Image Carousel with React">
+    
+    <meta property="og:type" content="article">
+    <meta property="article:published_time" content="2018-10-06">
+    
+    <meta property="og:description" content="Here we are! Due to my master thesis at the university, one of the requirements is the implementation of an interactive mockup for the university WebTV platform. So, I decided to make it with React.">
+    <meta property="og:url" content="//www.ilonacodes.com/blog/simple-image-carousel-with-react/">
+    <meta property="og:site_name" content="Ilona Who Codes &amp; UXs">
+    
+    <meta property="og:tags" content="web">
+    
+    <meta property="og:tags" content="react">
+    
+    <meta property="og:tags" content="javascript">
+    
+    <meta property="og:tags" content="carousel">
+    
+    <meta property="og:tags" content="tech">
+    
+    <meta name="generator" content="Hugo 0.44" />
+    <title>Simple Image Carousel with React &middot; Ilona Who Codes &amp; UXs</title>
+    
+    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/styles/default.min.css">
+    
+    <link rel="stylesheet" href="//www.ilonacodes.com/css/index.css">
+    
+    <link rel="icon" href="//www.ilonacodes.com/favicon.ico" />
+    
+
+    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
+    
+    
+</head>
+<body>
+      <div class="footer-wrapper">
+        <div class="container" id="content"><div class="navigation">
+	<div class="container">
+		<div class="row">
+			
+				
+
+
+  
+
+
+<div class="navlink col-12 col-md-6 navlink--main">
+  <a class="navlink__link" href="/">
+    ilonacodes
+  </a>
+</div>
+
+			
+				
+
+
+  
+
+
+<div class="navlink col">
+  <a class="navlink__link" href="/blog">
+    Blog
+  </a>
+</div>
+
+			
+				
+
+
+  
+
+
+<div class="navlink col">
+  <a class="navlink__link" href="/lifestyle">
+    Lifestyle
+  </a>
+</div>
+
+			
+				
+
+
+  
+
+
+<div class="navlink col">
+  <a class="navlink__link" href="mailto:ilona@ilonacodes.com">
+    Contact
+  </a>
+</div>
+
+			
+		</div>
+	</div>
+</div>
+
+  <div class="row">
+    <div class="col col-md-9">
+      <main>
+      	<article>
+      		<div class="post row">
+	<div class="post__meta-column col-3 d-none d-md-block">
+		<div class="row no-gutters post__meta-column__date">
+			
+			
+			
+			<div class="col text-center post__meta-column__day">
+				6
+			</div>
+			<div class="col">
+				<div class="post__meta-column__month">Oct</div>
+				<div class="post__meta-column__year">2018</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col post__meta-column__tags">
+				
+					
+					
+						<a href="/tags/web">
+							<div class="post__tag">
+								#web
+							</div>
+						</a>
+					
+						<a href="/tags/react">
+							<div class="post__tag">
+								#react
+							</div>
+						</a>
+					
+						<a href="/tags/javascript">
+							<div class="post__tag">
+								#javascript
+							</div>
+						</a>
+					
+						<a href="/tags/carousel">
+							<div class="post__tag">
+								#carousel
+							</div>
+						</a>
+					
+						<a href="/tags/tech">
+							<div class="post__tag">
+								#tech
+							</div>
+						</a>
+					
+				
+			</div>
+		</div>
+	</div>
+
+	<div class="post__primary-column col col-md-8 col-lg-9">
+		
+			<h1 class="post__title">
+				Simple Image Carousel with React
+			</h1>
+		
+
+		<div class="post__date d-md-none">
+			6 Oct, 2018
+		</div>
+
+		
+
+		<div class="post__body">
+      
+        <figure>
+    
+        <img src="/blog/images/simple-image-carousel-with-react.jpeg" />
+    
+    
+    <figcaption>
+        <h4>source: bit.ly/2CtMqAO</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+<p>Here we are! Due to my master thesis at the university, one of the requirements is the implementation of an interactive mockup for the university WebTV platform. So, I decided to make it with React.</p>
+
+<p></p>
+
+<p>Working with the video lists filtered by category encouraged me to use <strong>nuka-carousel</strong>. Though, I used it for one of the cases to complete the task. <a href="https://github.com/FormidableLabs/nuka-carousel">Here</a> you can have a look closer at the library and figure out how it works.</p>
+
+<p>For another case, because of specific requirements, I needed to code the <strong>custom carousel</strong>. And now I am going to share the outcome solution.</p>
+
+<p>I hope you already guessed to set up a new React application from the <a href="https://reactjs.org/docs/create-a-new-react-app.html">official tutorial</a>.</p>
+
+<p>The next step is to create a new class React component, in my case it is <code>&lt;Videos /&gt;</code>. Which we are going to import and pass into render-component <code>&lt;App /&gt;</code>:</p>
+
+<pre><code class="language-javascript">// App.js
+
+import React, { Component } from 'react';
+import {Videos} from './Videos';
+class App extends Component {
+  render() {
+    return (
+      &lt;div className=&quot;App&quot;&gt;
+        &lt;Videos /&gt;
+      &lt;/div&gt;
+    );
+  }
+}
+export default App;
+</code></pre>
+
+<p>I will skip the styling part and just present the implementation of the logical part, so let’s see what the <code>&lt;Videos /&gt;</code> component looks like:</p>
+
+<pre><code class="language-javascript">// Videos.js
+
+import React from 'react';
+import arrowRight from './img/arrow-right.svg';
+import arrowLeft from './img/arrow-left.svg';
+export class Videos extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+     // holding the current index for the image that has to be rendered at each time on the screen
+     currentImageIndex: 0,
+     // array of the source links to the images, simple placeholders for now
+        images: [
+            'https://via.placeholder.com/200x150?text=first',
+            'https://via.placeholder.com/200x150?text=second',
+            'https://via.placeholder.com/200x150?text=third',
+            'https://via.placeholder.com/200x150?text=fourth',
+            'https://via.placeholder.com/200x150?text=fifth',
+            'https://via.placeholder.com/200x150?text=sixth',
+            'https://via.placeholder.com/200x150?text=seventh',
+            'https://via.placeholder.com/200x150?text=eighth',
+            'https://via.placeholder.com/200x150?text=ninth',
+            'https://via.placeholder.com/200x150?text=tenth'
+        ],
+     // imported images of right and left arrows
+    arrowNext: arrowRight,
+    arrowPrev: arrowLeft
+ };
+...
+
+</code></pre>
+
+<p>Above I show the data structure assigned to the state of the <code>&lt;Videos /&gt;</code> component. To change the state — list videos to the right and to the left — I have also bound two methods <strong>prevSlide()</strong> and <strong>nextSlide()</strong>:</p>
+
+<pre><code class="language-javascript">// Videos.js
+
+ ...
+constructor() {
+ ...
+    this.nextSlide = this.nextSlide.bind(this);
+    this.prevSlide = this.prevSlide.bind(this);
+ }
+prevSlide() {
+ // find the index of the last image in the array
+ const lastIndex = this.state.images.length - 1;
+ // check if we need to start over from the last index again
+ const resetIndex = this.state.currentImageIndex === 0;
+ const index = resetIndex ? lastIndex : this.state.currentImageIndex - 1;
+// assign the logical index to currentImageIndex that will use in render method
+    this.setState({
+         currentImageIndex: index
+    })
+}
+nextSlide() {
+ // find the index of the last image in the array
+ const lastIndex = this.state.images.length - 1;
+ // check if we need to start over from the first index
+ const resetIndex = this.state.currentImageIndex === lastIndex;
+ const index = resetIndex ? 0 : this.state.currentImageIndex + 1;
+ // assign the logical index to currentImageIndex that will use in render method
+   this.setState({
+       currentImageIndex: index
+   });
+}
+</code></pre>
+
+<p>The logic isn’t complete yet. According to the project requirements the user has to see only 5 videos in the carousel and be able to cycle them over. So, moving on to the <strong>render()</strong> method I have to get a new array of 5 videos in the preview list. Inside the <strong>render()</strong>:</p>
+
+<pre><code class="language-javascript">// Videos.js
+...
+render() {
+ // get current image index
+ const index = this.state.currentImageIndex;
+ // create a new array with 5 videos from the source images
+ let firstFiveVideo = this.state.images.slice(index, index + 5);
+ // check the length of the new array (it’s less than 5 when index is near the end of the array)
+ if (firstFiveVideo.length &lt; 5) {
+ // if the firstFiveVideo's length is lower than 5 images than append missing images from the beginning of the original array
+   firstFiveVideo = firstFiveVideo.concat(this.state.images.slice(0, 5 - firstFiveVideo.length))
+ }
+return (
+   &lt;div&gt;
+    // render the left arrow
+    &lt;img src={this.state.arrowPrev} onClick={this.prevSlide}/&gt;
+    // render images
+    {firstFiveVideo.map((image, index) =&gt;
+       &lt;img key={index} src={image} alt=&quot;&quot;/&gt;
+    )}
+    // render the right arrow
+    &lt;img src={this.state.arrowNext} onClick={this.nextSlide}/&gt;
+   &lt;/div&gt;
+  );
+}
+</code></pre>
+
+<p>And that’s it. Below you will find the screenshot of my implementation:</p>
+
+
+<figure>
+    
+        <img src="/blog/images/simple-image-carousel-with-react-result.png" />
+    
+    
+</figure>
+
+
+<p>As I mentioned before, I omitted the styles used for the components, because it was not the purpose of the post. So, it means you are free to apply your own styles to the project 🙂</p>
+
+<p>Thank you for reading!</p>
+
+<p><br>
+This post was originally published on <a href="https://medium.com/@ilonacodes/simple-image-carousel-with-react-5e20933001bf">Medium</a></p>
+
+<p><br></p>
+
+<p>Cheers,</p>
+
+<p>ilonacodes</p>
+      
+		</div>
+
+    
+
+		<div class="post__tags d-md-none">
+			
+				Tags |
+				
+				
+					<a href="/tags/web">
+						<span class="post__tag">
+							#web
+						</span>
+					</a>
+				
+					<a href="/tags/react">
+						<span class="post__tag">
+							#react
+						</span>
+					</a>
+				
+					<a href="/tags/javascript">
+						<span class="post__tag">
+							#javascript
+						</span>
+					</a>
+				
+					<a href="/tags/carousel">
+						<span class="post__tag">
+							#carousel
+						</span>
+					</a>
+				
+					<a href="/tags/tech">
+						<span class="post__tag">
+							#tech
+						</span>
+					</a>
+				
+			
+		</div>
+	</div>
+</div>
+
+
+      	</article>
+
+        <div class="next-article">
+          
+            <a href="//www.ilonacodes.com/blog/simple-state-machine-with-redux/">
+              Next: Simple State Machine with Redux
+            </a>
+          
+        </div>
+      </main>
+    </div>
+
+    <div class="col-3 d-none d-md-block">
+  <div class="row">
+	<div class="profile-photo offset-1 col-10">
+		<a href="/">
+			<img class="profile-photo__image" src="/img/FullSizeRender.jpg" />
+		</a>
+	</div>
+</div>
+
+
+  <div class="text-center">
+    I’m Ilona, Front-End Web Developer &amp; IT-Blogger.
+    <br/>
+    I’m based in Berlin.
+  </div>
+
+  <div class="latest-articles">
+    <div class="latest-articles__title">
+      The latest articles:
+    </div>
+
+    
+      <div class="latest-articles__article">
+        <a class="latest-articles__link" href="//www.ilonacodes.com/blog/simple-image-carousel-with-react/">
+          Simple Image Carousel with React
+        </a>
+      </div>
+    
+      <div class="latest-articles__article">
+        <a class="latest-articles__link" href="//www.ilonacodes.com/blog/simple-state-machine-with-redux/">
+          Simple State Machine with Redux
+        </a>
+      </div>
+    
+      <div class="latest-articles__article">
+        <a class="latest-articles__link" href="//www.ilonacodes.com/blog/why-formik-with-react/">
+          Why Formik With React
+        </a>
+      </div>
+    
+  </div>
+</div>
+
+  </div>
+
+        </div><div class="footer">
+  <div class="container footer__container">
+    <div class="row">
+      <div class="col-8 footer__center d-md-none">
+  <div class="row no-gutters footer__row">
+    
+      <div class="col text-center">
+        <a class="footer__socialLink" href="https://github.com/ilonacodes">
+          <i class="footer__socialIcon fab fa-github"></i>
+        </a>
+      </div>
+    
+      <div class="col text-center">
+        <a class="footer__socialLink" href="https://instagram.com/ilonacodes">
+          <i class="footer__socialIcon fab fa-instagram"></i>
+        </a>
+      </div>
+    
+      <div class="col text-center">
+        <a class="footer__socialLink" href="https://twitter.com/ilonacodes">
+          <i class="footer__socialIcon fab fa-twitter-square"></i>
+        </a>
+      </div>
+    
+      <div class="col text-center">
+        <a class="footer__socialLink" href="https://medium.com/@ilonacodes">
+          <i class="footer__socialIcon fab fa-medium"></i>
+        </a>
+      </div>
+    
+      <div class="col text-center">
+        <a class="footer__socialLink" href="https://dribbble.com/ilonacodes">
+          <i class="footer__socialIcon fab fa-dribbble"></i>
+        </a>
+      </div>
+    
+  </div>
+
+  <div class="row no-gutters footer__row">
+    
+      
+    
+      
+        <div class="footer-navlink col">
+  <a class="footer-navlink__link" href="/blog">
+    Blog
+  </a>
+</div>
+
+      
+    
+      
+        <div class="footer-navlink col">
+  <a class="footer-navlink__link" href="/lifestyle">
+    Lifestyle
+  </a>
+</div>
+
+      
+    
+      
+        <div class="footer-navlink col">
+  <a class="footer-navlink__link" href="mailto:ilona@ilonacodes.com">
+    Contact
+  </a>
+</div>
+
+      
+    
+  </div>
+
+  <div class="row footer__row footer__copy">
+    <div class="col text-center">
+      &copy; 2018 ilonacodes
+    </div>
+  </div>
+</div>
+
+      <div class="col-12 d-none d-md-block">
+  <div class="row">
+    <div class="col">
+      <div class="row no-gutters">
+        
+          <div class="col text-center">
+            <a class="footer__socialLink" href="https://github.com/ilonacodes">
+              <i class="footer__socialIcon fab fa-github"></i>
+            </a>
+          </div>
+        
+          <div class="col text-center">
+            <a class="footer__socialLink" href="https://instagram.com/ilonacodes">
+              <i class="footer__socialIcon fab fa-instagram"></i>
+            </a>
+          </div>
+        
+          <div class="col text-center">
+            <a class="footer__socialLink" href="https://twitter.com/ilonacodes">
+              <i class="footer__socialIcon fab fa-twitter-square"></i>
+            </a>
+          </div>
+        
+          <div class="col text-center">
+            <a class="footer__socialLink" href="https://medium.com/@ilonacodes">
+              <i class="footer__socialIcon fab fa-medium"></i>
+            </a>
+          </div>
+        
+          <div class="col text-center">
+            <a class="footer__socialLink" href="https://dribbble.com/ilonacodes">
+              <i class="footer__socialIcon fab fa-dribbble"></i>
+            </a>
+          </div>
+        
+      </div>
+    </div>
+
+    <div class="col footer__copy text-center">
+      &copy; 2018 ilonacodes
+    </div>
+
+    <div class="col footer__navlinks">
+      <div class="row">
+        
+          
+        
+          
+            <div class="footer-navlink col">
+  <a class="footer-navlink__link" href="/blog">
+    Blog
+  </a>
+</div>
+
+          
+        
+          
+            <div class="footer-navlink col">
+  <a class="footer-navlink__link" href="/lifestyle">
+    Lifestyle
+  </a>
+</div>
+
+          
+        
+          
+            <div class="footer-navlink col">
+  <a class="footer-navlink__link" href="mailto:ilona@ilonacodes.com">
+    Contact
+  </a>
+</div>
+
+          
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+    </div>
+  </div>
+</div>
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+</div>
+    </body>
+</html>

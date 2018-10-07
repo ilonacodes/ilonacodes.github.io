@@ -6,10 +6,34 @@
     <description>Recent content in Tech on Ilona Who Codes &amp; UXs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 02 Oct 2018 10:40:05 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 06 Oct 2018 10:40:05 +0100</lastBuildDate>
     
 	<atom:link href="//www.ilonacodes.com/tags/tech/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Simple Image Carousel with React</title>
+      <link>//www.ilonacodes.com/blog/simple-image-carousel-with-react/</link>
+      <pubDate>Sat, 06 Oct 2018 10:40:05 +0100</pubDate>
+      
+      <guid>//www.ilonacodes.com/blog/simple-image-carousel-with-react/</guid>
+      <description>&lt;figure&gt;
+    
+        &lt;img src=&#34;//www.ilonacodes.com/blog/images/simple-image-carousel-with-react.jpeg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;source: bit.ly/2CtMqAO&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;Here we are! Due to my master thesis at the university, one of the requirements is the implementation of an interactive mockup for the university WebTV platform. So, I decided to make it with React.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Simple State Machine with Redux</title>
