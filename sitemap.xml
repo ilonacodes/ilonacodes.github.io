@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>//www.ilonacodes.com/blog/how-to-avoid-duplication-of-common-wrapper-behavior-in-react-using-children-prop/</loc>
+    <lastmod>2018-10-11T10:40:05+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>//www.ilonacodes.com/lifestyle/dad-sneakers-strike-again/</loc>
     <lastmod>2018-10-07T09:40:05+01:00</lastmod>
   </url>
@@ -269,7 +274,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/blog/</loc>
-    <lastmod>2018-10-06T10:40:05+01:00</lastmod>
+    <lastmod>2018-10-11T10:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -442,7 +447,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/</loc>
-    <lastmod>2018-10-07T09:40:05+01:00</lastmod>
+    <lastmod>2018-10-11T10:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -472,7 +477,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/tags/javascript/</loc>
-    <lastmod>2018-10-06T10:40:05+01:00</lastmod>
+    <lastmod>2018-10-11T10:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -603,8 +608,14 @@
   </url>
   
   <url>
+    <loc>//www.ilonacodes.com/tags/props/</loc>
+    <lastmod>2018-10-11T10:40:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>//www.ilonacodes.com/tags/react/</loc>
-    <lastmod>2018-10-06T10:40:05+01:00</lastmod>
+    <lastmod>2018-10-11T10:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -700,7 +711,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/tags/tech/</loc>
-    <lastmod>2018-10-06T10:40:05+01:00</lastmod>
+    <lastmod>2018-10-11T10:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -742,7 +753,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/tags/web/</loc>
-    <lastmod>2018-10-06T10:40:05+01:00</lastmod>
+    <lastmod>2018-10-11T10:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
