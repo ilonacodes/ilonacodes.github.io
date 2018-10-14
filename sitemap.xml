@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>//www.ilonacodes.com/lifestyle/my-5-everyday-easy-ways-to-detox-body/</loc>
+    <lastmod>2018-10-14T09:40:05+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>//www.ilonacodes.com/blog/how-to-avoid-duplication-of-common-wrapper-behavior-in-react-using-children-prop/</loc>
     <lastmod>2018-10-11T10:40:05+01:00</lastmod>
   </url>
@@ -368,6 +373,12 @@
   </url>
   
   <url>
+    <loc>//www.ilonacodes.com/tags/detox/</loc>
+    <lastmod>2018-10-14T09:40:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>//www.ilonacodes.com/tags/diet/</loc>
     <lastmod>2018-08-21T18:40:05+01:00</lastmod>
     <priority>0</priority>
@@ -429,7 +440,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/tags/health/</loc>
-    <lastmod>2018-08-21T18:40:05+01:00</lastmod>
+    <lastmod>2018-10-14T09:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -447,7 +458,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/</loc>
-    <lastmod>2018-10-11T10:40:05+01:00</lastmod>
+    <lastmod>2018-10-14T09:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -530,14 +541,20 @@
   </url>
   
   <url>
+    <loc>//www.ilonacodes.com/tags/life/</loc>
+    <lastmod>2018-10-14T09:40:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>//www.ilonacodes.com/tags/lifestyle/</loc>
-    <lastmod>2018-10-07T09:40:05+01:00</lastmod>
+    <lastmod>2018-10-14T09:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>//www.ilonacodes.com/lifestyle/</loc>
-    <lastmod>2018-10-07T09:40:05+01:00</lastmod>
+    <lastmod>2018-10-14T09:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -573,7 +590,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/tags/motivation/</loc>
-    <lastmod>2018-10-07T09:40:05+01:00</lastmod>
+    <lastmod>2018-10-14T09:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
