@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>//www.ilonacodes.com/lifestyle/stay-on-the-sunny-side-of-life/</loc>
+    <lastmod>2018-10-21T08:40:05+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>//www.ilonacodes.com/blog/why-should-we-create-conversational-experiences-for-our-applications/</loc>
     <lastmod>2018-10-19T10:40:05+01:00</lastmod>
   </url>
@@ -247,6 +252,12 @@
   </url>
   
   <url>
+    <loc>//www.ilonacodes.com/tags/ai/</loc>
+    <lastmod>2018-10-19T10:40:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>//www.ilonacodes.com/tags/animate/</loc>
     <lastmod>2018-03-10T20:45:05+01:00</lastmod>
     <priority>0</priority>
@@ -261,12 +272,6 @@
   <url>
     <loc>//www.ilonacodes.com/tags/app/</loc>
     <lastmod>2018-09-15T18:40:05+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>//www.ilonacodes.com/tags/artificial-intelligence/</loc>
-    <lastmod>2018-10-19T10:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -481,7 +486,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/</loc>
-    <lastmod>2018-10-19T10:40:05+01:00</lastmod>
+    <lastmod>2018-10-21T08:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -499,7 +504,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/tags/inspiration/</loc>
-    <lastmod>2018-10-07T09:40:05+01:00</lastmod>
+    <lastmod>2018-10-21T08:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -571,13 +576,13 @@
   
   <url>
     <loc>//www.ilonacodes.com/tags/lifestyle/</loc>
-    <lastmod>2018-10-14T09:40:05+01:00</lastmod>
+    <lastmod>2018-10-21T08:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>//www.ilonacodes.com/lifestyle/</loc>
-    <lastmod>2018-10-14T09:40:05+01:00</lastmod>
+    <lastmod>2018-10-21T08:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -607,13 +612,19 @@
   
   <url>
     <loc>//www.ilonacodes.com/tags/mentalhealth/</loc>
-    <lastmod>2018-09-28T18:40:05+01:00</lastmod>
+    <lastmod>2018-10-21T08:40:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.ilonacodes.com/tags/mindset/</loc>
+    <lastmod>2018-10-21T08:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>//www.ilonacodes.com/tags/motivation/</loc>
-    <lastmod>2018-10-14T09:40:05+01:00</lastmod>
+    <lastmod>2018-10-21T08:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -739,7 +750,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/tags/</loc>
-    <lastmod>2018-03-10T20:45:05+01:00</lastmod>
+    <lastmod>2018-10-19T10:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   

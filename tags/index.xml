@@ -6,10 +6,19 @@
     <description>Recent content in Tags on Ilona Who Codes &amp; UXs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 10 Mar 2018 20:45:05 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 19 Oct 2018 10:40:05 +0100</lastBuildDate>
     
 	<atom:link href="//www.ilonacodes.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Ai</title>
+      <link>//www.ilonacodes.com/tags/ai/</link>
+      <pubDate>Fri, 19 Oct 2018 10:40:05 +0100</pubDate>
+      
+      <guid>//www.ilonacodes.com/tags/ai/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Animate</title>
@@ -35,15 +44,6 @@
       <pubDate>Sat, 15 Sep 2018 18:40:05 +0100</pubDate>
       
       <guid>//www.ilonacodes.com/tags/app/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Artificial Intelligence</title>
-      <link>//www.ilonacodes.com/tags/artificial-intelligence/</link>
-      <pubDate>Fri, 19 Oct 2018 10:40:05 +0100</pubDate>
-      
-      <guid>//www.ilonacodes.com/tags/artificial-intelligence/</guid>
       <description></description>
     </item>
     
@@ -365,7 +365,7 @@
     <item>
       <title>Inspiration</title>
       <link>//www.ilonacodes.com/tags/inspiration/</link>
-      <pubDate>Sun, 07 Oct 2018 09:40:05 +0100</pubDate>
+      <pubDate>Sun, 21 Oct 2018 08:40:05 +0100</pubDate>
       
       <guid>//www.ilonacodes.com/tags/inspiration/</guid>
       <description></description>
@@ -473,7 +473,7 @@
     <item>
       <title>Lifestyle</title>
       <link>//www.ilonacodes.com/tags/lifestyle/</link>
-      <pubDate>Sun, 14 Oct 2018 09:40:05 +0100</pubDate>
+      <pubDate>Sun, 21 Oct 2018 08:40:05 +0100</pubDate>
       
       <guid>//www.ilonacodes.com/tags/lifestyle/</guid>
       <description></description>
@@ -518,16 +518,25 @@
     <item>
       <title>Mentalhealth</title>
       <link>//www.ilonacodes.com/tags/mentalhealth/</link>
-      <pubDate>Fri, 28 Sep 2018 18:40:05 +0100</pubDate>
+      <pubDate>Sun, 21 Oct 2018 08:40:05 +0100</pubDate>
       
       <guid>//www.ilonacodes.com/tags/mentalhealth/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>Mindset</title>
+      <link>//www.ilonacodes.com/tags/mindset/</link>
+      <pubDate>Sun, 21 Oct 2018 08:40:05 +0100</pubDate>
+      
+      <guid>//www.ilonacodes.com/tags/mindset/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Motivation</title>
       <link>//www.ilonacodes.com/tags/motivation/</link>
-      <pubDate>Sun, 14 Oct 2018 09:40:05 +0100</pubDate>
+      <pubDate>Sun, 21 Oct 2018 08:40:05 +0100</pubDate>
       
       <guid>//www.ilonacodes.com/tags/motivation/</guid>
       <description></description>
