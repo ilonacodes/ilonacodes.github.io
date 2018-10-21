@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>//www.ilonacodes.com/blog/why-should-we-create-conversational-experiences-for-our-applications/</loc>
+    <lastmod>2018-10-19T10:40:05+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>//www.ilonacodes.com/lifestyle/my-5-everyday-easy-ways-to-detox-body/</loc>
     <lastmod>2018-10-14T09:40:05+01:00</lastmod>
   </url>
@@ -260,6 +265,12 @@
   </url>
   
   <url>
+    <loc>//www.ilonacodes.com/tags/artificial-intelligence/</loc>
+    <lastmod>2018-10-19T10:40:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>//www.ilonacodes.com/tags/backend/</loc>
     <lastmod>2017-07-17T21:45:05+01:00</lastmod>
     <priority>0</priority>
@@ -279,7 +290,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/blog/</loc>
-    <lastmod>2018-10-11T10:40:05+01:00</lastmod>
+    <lastmod>2018-10-19T10:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -309,6 +320,12 @@
   <url>
     <loc>//www.ilonacodes.com/tags/category/</loc>
     <lastmod>2017-10-06T19:30:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.ilonacodes.com/tags/chatbots/</loc>
+    <lastmod>2018-10-19T10:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -375,6 +392,12 @@
   <url>
     <loc>//www.ilonacodes.com/tags/detox/</loc>
     <lastmod>2018-10-14T09:40:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.ilonacodes.com/tags/development/</loc>
+    <lastmod>2018-10-19T10:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -458,7 +481,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/</loc>
-    <lastmod>2018-10-14T09:40:05+01:00</lastmod>
+    <lastmod>2018-10-19T10:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -728,7 +751,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/tags/tech/</loc>
-    <lastmod>2018-10-11T10:40:05+01:00</lastmod>
+    <lastmod>2018-10-19T10:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -764,7 +787,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/tags/ux/</loc>
-    <lastmod>2018-07-20T07:00:05+01:00</lastmod>
+    <lastmod>2018-10-19T10:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   

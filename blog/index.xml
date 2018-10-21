@@ -6,10 +6,34 @@
     <description>Recent content in Blogs on Ilona Who Codes &amp; UXs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 11 Oct 2018 10:40:05 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 19 Oct 2018 10:40:05 +0100</lastBuildDate>
     
 	<atom:link href="//www.ilonacodes.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Why Should We Create Conversational Experiences For Our Applications?</title>
+      <link>//www.ilonacodes.com/blog/why-should-we-create-conversational-experiences-for-our-applications/</link>
+      <pubDate>Fri, 19 Oct 2018 10:40:05 +0100</pubDate>
+      
+      <guid>//www.ilonacodes.com/blog/why-should-we-create-conversational-experiences-for-our-applications/</guid>
+      <description>&lt;figure&gt;
+    
+        &lt;img src=&#34;//www.ilonacodes.com/blog/images/why-chatbots.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Photo by Alex Knight on Unsplash: https://bit.ly/2Irl4K1&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;These days, we are bridging the communication gap between human and computer. The next big thing is a conversational interface — the era of natural language processing. To highlight the point, nowadays there are two kinds of a conversational interface — virtual assistants (Siri, Alexa) and chatbots (like Slackbot, Telegram), which through “human” experience help end user to complete the specific task.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>How to Avoid Duplication of Common Wrapper Behavior in React Using Children Prop</title>
