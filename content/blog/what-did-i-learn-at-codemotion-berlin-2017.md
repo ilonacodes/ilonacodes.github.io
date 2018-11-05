@@ -81,6 +81,8 @@ Thank you for reading!
 
 I will be glad to answer any questions about my impression. Feel free to give any feedback for this post.
 
+Moreover, you can grab your 20% off ticket for the Codemotion Berlin 2018 [here](bit.ly/codemotion-tickets)
+
 You can find me on [Instagram](https://www.instagram.com/ilonacodes/) or send me a private letter on my [email](mailto:demiluri@gmail.com).
 
 Cheers!
