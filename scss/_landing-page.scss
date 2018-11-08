@@ -1,0 +1,37 @@
+$C: landing-page;
+
+.#{$C} {
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  @include media-breakpoint-only(lg) {
+    .#{$C}__wrapper {
+      font-size: 1.6em;
+    }
+  }
+
+  @include media-breakpoint-up(xl) {
+    overflow: hidden;
+
+    .#{$C}__image {
+      margin-left: -40%;
+      padding-bottom: 100%;
+      margin-bottom: -100%;
+    }
+
+    .#{$C}__wrapper { 
+      background-color: #222;
+      color: white;
+      float: left;
+      max-width: 40%; 
+      opacity: .8;
+      padding: 25px;
+      padding-bottom: 100%;
+      margin-bottom: -100%;
+    }
+  }  
+
+  @include media-breakpoint-up(sm) {
+    margin-top: 25px;
+  }
+}

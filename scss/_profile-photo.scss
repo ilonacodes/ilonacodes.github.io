@@ -7,7 +7,7 @@ $C: profile-photo;
   .#{$C}__image {
     border-radius: 100%;
   }
-
+  
   @include media-breakpoint-up(sm) {
     margin-top: 25px;
   }
