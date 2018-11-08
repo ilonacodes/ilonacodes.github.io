@@ -6467,4 +6467,30 @@ figure h4 {
   text-align: center;
   margin-top: 10px; }
 
+.landing-page {
+  margin-top: 10px;
+  margin-bottom: 10px; }
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    .landing-page .landing-page__wrapper {
+      font-size: 1.6em; } }
+  @media (min-width: 1200px) {
+    .landing-page {
+      overflow: hidden; }
+      .landing-page .landing-page__image {
+        margin-left: -40%;
+        padding-bottom: 100%;
+        margin-bottom: -100%; }
+      .landing-page .landing-page__wrapper {
+        background-color: #222;
+        color: white;
+        float: left;
+        max-width: 40%;
+        opacity: .8;
+        padding: 25px;
+        padding-bottom: 100%;
+        margin-bottom: -100%; } }
+  @media (min-width: 576px) {
+    .landing-page {
+      margin-top: 25px; } }
+
 /*# sourceMappingURL=index.css.map */

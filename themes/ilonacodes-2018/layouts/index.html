@@ -1,15 +1,15 @@
 {{ define "main" }}
-  <div class="row">
-    <div class="offset-md-2 col-md-8 offset-sm-1 col-sm-10">
-      <main>
-        <article class="main-page text-justify">
-          {{ range .Data.Pages }}
-            {{ if eq .RelPermalink "/main/" }}
-              {{ .Content }}
-            {{ end }}
-          {{ end }}
-        </article>
-      </div>
+<!-- <div class="row"> -->
+  <!-- <div class="offset-md-2 col-md-8 offset-sm-1 col-sm-10"> -->
+    <main>
+      <article class="main-page text-justify">
+        {{ range .Data.Pages }}
+        {{ if eq .RelPermalink "/main/" }}
+        {{ .Content }}
+        {{ end }}
+        {{ end }}
+      </article>
     </main>
-  </div>
+  <!-- </div> -->
+<!-- </div> -->
 {{ end }}
