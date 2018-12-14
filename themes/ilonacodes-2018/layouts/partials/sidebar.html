@@ -1,10 +1,15 @@
-<div class="col-3 d-none d-md-block">
+<div class="col-md-3 col-12 {{ .className }}">
   {{ partial "profile-photo" .context }}
 
   <div class="text-center">
+    {{ .context.Site.Params.profilename}}
+    <br/>
     {{ .context.Site.Params.profilebio }}
     <br/>
     {{ .context.Site.Params.profilelocation }}
+    <br/>
+    <br/>
+    <i>{{ .context.Site.Params.profilequote }}</i>
   </div>
 
   <div class="latest-articles">
@@ -20,4 +25,6 @@
       </div>
     {{ end }}
   </div>
+  <br/>
+  
 </div>

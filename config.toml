@@ -13,7 +13,7 @@ theme = "ilonacodes-2018"
 	analytics = "UA-109315732-1"
 
 	github = "https://github.com/ilonacodes"
-	email = "demiluri@gmail.com"
+	email = "ilona@ilonacodes.com"
 
 	profilepic = "img/ilonapic.jpg"
 
@@ -23,9 +23,11 @@ theme = "ilonacodes-2018"
 
 	copyright = "2018 ilonacodes"
 
-	profilePhoto = "/img/FullSizeRender.jpg"
-	profileBio = "I’m Ilona, Front-End Web Developer & IT-Blogger."
-	profileLocation = "I’m based in Berlin."
+	profilePhoto = "/img/ilona_2.jpg"
+	profileName = "Ilona who codes"
+	profileBio = "Frontend Engineer in Berlin"
+	profileLocation = "M.Sc in Media CS"
+	profileQuote = '"I like to work hard for things that are worth it."'
 
 [[params.navlinks]]
 	title = "ilonacodes"
