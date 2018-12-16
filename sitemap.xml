@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>//www.ilonacodes.com/blog/fetching-github-user-with-rest-api-and-reactjs/</loc>
+    <lastmod>2018-12-10T18:40:05+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>//www.ilonacodes.com/lifestyle/stay-on-the-sunny-side-of-life/</loc>
     <lastmod>2018-10-21T08:40:05+01:00</lastmod>
   </url>
@@ -265,13 +270,13 @@
   
   <url>
     <loc>//www.ilonacodes.com/tags/api/</loc>
-    <lastmod>2017-07-17T21:45:05+01:00</lastmod>
+    <lastmod>2018-12-10T18:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>//www.ilonacodes.com/tags/app/</loc>
-    <lastmod>2018-09-15T18:40:05+01:00</lastmod>
+    <lastmod>2018-12-10T18:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -295,7 +300,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/blog/</loc>
-    <lastmod>2018-10-19T10:40:05+01:00</lastmod>
+    <lastmod>2018-12-10T18:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -467,6 +472,12 @@
   </url>
   
   <url>
+    <loc>//www.ilonacodes.com/tags/github/</loc>
+    <lastmod>2018-12-10T18:40:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>//www.ilonacodes.com/tags/health/</loc>
     <lastmod>2018-10-14T09:40:05+01:00</lastmod>
     <priority>0</priority>
@@ -486,7 +497,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/</loc>
-    <lastmod>2018-10-21T08:40:05+01:00</lastmod>
+    <lastmod>2018-12-10T18:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -516,7 +527,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/tags/javascript/</loc>
-    <lastmod>2018-10-11T10:40:05+01:00</lastmod>
+    <lastmod>2018-12-10T18:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -666,7 +677,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/tags/react/</loc>
-    <lastmod>2018-10-11T10:40:05+01:00</lastmod>
+    <lastmod>2018-12-10T18:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   

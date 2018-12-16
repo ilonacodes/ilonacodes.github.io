@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html><head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# website: http://ogp.me/ns/website#">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+    <meta name="description" content="In this post, I explain how you can find any user on GitHub through GitHub API using ReactJS, Redux, Saga, Axios, and Formik.">
+    <meta property="og:title" content="Fetching GitHub User with REST API and ReactJS">
+    
+    <meta property="og:type" content="article">
+    <meta property="article:published_time" content="2018-12-10">
+    
+    <meta property="og:description" content="In this post, I explain how you can find any user on GitHub through GitHub API using ReactJS, Redux, Saga, Axios, and Formik.">
+    <meta property="og:url" content="//www.ilonacodes.com/blog/fetching-github-user-with-rest-api-and-reactjs/">
+    <meta property="og:site_name" content="Ilona Who Codes &amp; UXs">
+    
+    <meta property="og:tags" content="app">
+    
+    <meta property="og:tags" content="React">
+    
+    <meta property="og:tags" content="JavaScript">
+    
+    <meta property="og:tags" content="GitHub">
+    
+    <meta property="og:tags" content="API">
+    
+    <meta name="generator" content="Hugo 0.44" />
+    <title>Fetching GitHub User with REST API and ReactJS &middot; Ilona Who Codes &amp; UXs</title>
+    
+    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/styles/default.min.css">
+    
+    <link rel="stylesheet" href="//www.ilonacodes.com/css/index.css">
+    
+    <link rel="icon" href="//www.ilonacodes.com/favicon.ico" />
+    
+
+    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
+    
+    
+</head>
+<body>
+      <div class="footer-wrapper">
+        <div class="container" id="content"><div class="navigation">
+	<div class="container">
+		<div class="row">
+			
+				
+
+
+  
+
+
+<div class="navlink col-12 col-md-6 navlink--main">
+  <a class="navlink__link" href="/">
+    ilonacodes
+  </a>
+</div>
+
+			
+				
+
+
+  
+
+
+<div class="navlink col">
+  <a class="navlink__link" href="/blog">
+    Blog
+  </a>
+</div>
+
+			
+				
+
+
+  
+
+
+<div class="navlink col">
+  <a class="navlink__link" href="/lifestyle">
+    Lifestyle
+  </a>
+</div>
+
+			
+				
+
+
+  
+
+
+<div class="navlink col">
+  <a class="navlink__link" href="mailto:ilona@ilonacodes.com">
+    Contact
+  </a>
+</div>
+
+			
+		</div>
+	</div>
+</div>
+
+  <div class="row">
+    <div class="col col-md-9">
+      <main>
+      	<article>
+      		<div class="post row">
+	<div class="post__meta-column col-3 d-none d-md-block">
+		<div class="row no-gutters post__meta-column__date">
+			
+			
+			
+			<div class="col text-center post__meta-column__day">
+				10
+			</div>
+			<div class="col">
+				<div class="post__meta-column__month">Dec</div>
+				<div class="post__meta-column__year">2018</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col post__meta-column__tags">
+				
+					
+					
+						<a href="/tags/app">
+							<div class="post__tag">
+								#app
+							</div>
+						</a>
+					
+						<a href="/tags/react">
+							<div class="post__tag">
+								#React
+							</div>
+						</a>
+					
+						<a href="/tags/javascript">
+							<div class="post__tag">
+								#JavaScript
+							</div>
+						</a>
+					
+						<a href="/tags/github">
+							<div class="post__tag">
+								#GitHub
+							</div>
+						</a>
+					
+						<a href="/tags/api">
+							<div class="post__tag">
+								#API
+							</div>
+						</a>
+					
+				
+			</div>
+		</div>
+	</div>
+
+	<div class="post__primary-column col col-md-8 col-lg-9">
+		
+			<h1 class="post__title">
+				Fetching GitHub User with REST API and ReactJS
+			</h1>
+		
+
+		<div class="post__date d-md-none">
+			10 Dec, 2018
+		</div>
+
+		
+
+		<div class="post__body">
+      
+        <p>
+<figure>
+    
+        <img src="/blog/images/fetching.jpeg" />
+    
+    
+    <figcaption>
+        <h4>source: https://bit.ly/2rv4HpO</h4>
+        
+    </figcaption>
+    
+</figure>
+
+In this post, I explain how you can find any user on GitHub through GitHub API using ReactJS, Redux, Saga, Axios, and Formik.</p>
+
+<p>Why do we need to use this technology stack? Here is the short description:</p>
+
+<p></p>
+
+<ul>
+<li><a href="https://reactjs.org/">ReactJS</a> to build user interfaces;</li>
+<li><a href="https://redux.js.org/">Redux</a> to manage the state of the app;</li>
+<li><a href="https://redux-saga.js.org/">Saga</a> to handle async actions;</li>
+<li><a href="https://github.com/axios/axios">Axios</a> to send requests and receive responses from the REST API;</li>
+<li><a href="https://jaredpalmer.com/formik/docs/overview">Formik</a> to control and validate (with Yup) DOM-forms easier.</li>
+</ul>
+
+<p>Let’s create a new ReactJS app with <a href="https://facebook.github.io/create-react-app/docs/getting-started">create-react-app</a> and then inside the project directory in the terminal install the following <a href="https://www.npmjs.com/">npm</a> packages:</p>
+
+<pre><code>npm install axios formik react-redux redux redux-saga yup
+</code></pre>
+
+<p>And now let’s start the app implementation 🚀</p>
+
+<h4 id="user-scenario">User-Scenario:</h4>
+
+<pre><code>As the user,
+I want to search for a specific user from GitHub,
+So that I can get detailed information about the user.
+When I input the username into the search field,
+And I press Enter or click on the &quot;Submit&quot; button,
+Then I see the detailed user data from Github.
+</code></pre>
+
+<h4 id="step-1">Step 1</h4>
+
+<p>In <strong>src</strong> directory create a new file called <strong>actions.js</strong>. Here we have to write actions that would be dispatched to the redux store:</p>
+
+<pre><code class="language-javascript">// actions.js
+
+export const t = {
+    LOAD_USER_DATA: 'LOAD_USER_DATA',
+    LOAD_USER_DATA_SUCCESS: 'LOAD_USER_DATA_SUCCESS'
+};
+
+export const actions = ({
+    loadUserData: name =&gt; ({
+        type: t.LOAD_USER_DATA,
+        name
+    }),
+
+    loadUserDataSuccess: data =&gt; ({
+        type: t.LOAD_USER_DATA_SUCCESS,
+        data
+    })
+});
+</code></pre>
+
+<h4 id="step-2">Step 2</h4>
+
+<p>Here we want to create a saga, that will initiate an API call for user data through the entered specific username, then tell the store whether that API call was a success.</p>
+
+<p>When successful, the user data will be received and dispatched <strong>‘LOAD_USER_DATA_SUCCESS’</strong> along with the retrieved data.</p>
+
+<p>We’ll use axios to make API requests because it is more ergonomic and straightforward when working with REST APIs (comparing to, e.g., fetch).</p>
+
+<p>Let’s create a new file called <strong>saga.js</strong> and put the code into it:</p>
+
+<pre><code class="language-javascript">// saga.js
+
+import axios from 'axios';
+import { put, takeLatest } from 'redux-saga/effects'
+import {actions, t} from './actions';
+
+// the base URL for your REST API backend
+const baseUrl = 'https://api.github.com/users';
+
+// sending request with username and getting user data from GitHub
+function* loadUserData(action) {
+    const response = yield axios.get(`${baseUrl}/${action.name}`);
+    yield put(actions.loadUserDataSuccess(response.data))
+}
+
+// watches for actions dispatched to the store and starts loadUserData saga
+export function* watchLoadUserData() {
+    yield takeLatest(t.LOAD_USER_DATA, loadUserData)
+}
+</code></pre>
+
+<p>The <strong>function</strong>* creates a particular function called generator that remember the state of the function over time.</p>
+
+<p>Any async step is represented through <strong>yield</strong> function like ‘await’ function.</p>
+
+<h4 id="step-3">Step 3</h4>
+
+<p>As soon as we started working with Redux and Redux-Saga we need to store the whole state tree of the app, so we declare the <strong>store</strong> variable in the root <strong>index.js</strong> file:</p>
+
+<pre><code class="language-javascript">// index.js
+
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+import {userReducer} from './reducer';
+import {applyMiddleware, combineReducers, createStore} from 'redux';
+import createSagaMiddleware from 'redux-saga';
+import {Provider} from 'react-redux';
+import {watchLoadUserData} from './sagas';
+
+// initializing saga middleware for the store
+const sagaMiddleware = createSagaMiddleware();
+
+// creating the store with our reducer
+const store = createStore(combineReducers({
+    user: userReducer
+}), applyMiddleware(sagaMiddleware));
+
+// triggering watchLoadUserData when there is a LOAD_USER_DATA
+sagaMiddleware.run(watchLoadUserData);
+
+// wrapping the App in a Provider to work with React and Redux
+ReactDOM.render(
+    &lt;Provider store={store}&gt;
+        &lt;App/&gt;
+    &lt;/Provider&gt;,
+    document.getElementById('root')
+);
+</code></pre>
+
+<h4 id="step-4">Step 4</h4>
+
+<p>We have already passed the <strong>userReducer</strong> to the store. Now it’s time to create it. The reducer will listen to actions and handle them:</p>
+
+<pre><code class="language-javascript">// reducer.js
+
+import {t} from './actions';
+
+// starting with no data
+const initState = {
+    user: null
+};
+
+export const userReducer = (state = initState, action) =&gt; {
+    switch (action.type) {
+        // tells the store that the user data is successfully retreived
+        // and no longer in the process of fetching another one on user request.
+        case t.LOAD_USER_DATA_SUCCESS:
+            return {
+                ...state,
+                user: action.data
+            };
+
+        default:
+            return state;
+    }
+};
+</code></pre>
+
+<h4 id="step-5">Step 5</h4>
+
+<p>Finally, we can create class component <code>&lt;Dashboard /&gt;</code> to use <code>&lt;Formik /&gt;</code> to render the form, validate the user input, handle Formik props inside the DOM-elements and render the output from the user request by the username from GitHub:</p>
+
+<pre><code class="language-javascript">// Dashboard.js
+
+import React from 'react';
+import {Formik} from 'formik';
+import './dashboard.css';
+import * as Yup from 'yup';
+import {actions} from './actions';
+import {connect} from 'react-redux';
+
+class DashboardComponent extends React.Component {
+
+    render() {
+        return (
+            &lt;div&gt;
+                &lt;Formik
+                    // accepts the initial object with the 'name' field that is empty
+                    initialValues={{name: ''}}
+                    onSubmit={(values, {setSubmitting}) =&gt; {
+                        // after submitting disatches 'loadUserData' with entered username to saga
+                        // to trigger the API request
+                        this.props.loadUserData(values.name);
+                        setSubmitting(false);
+                    }}
+                    // validating the input which should be a text and required
+                    validationSchema={Yup.object().shape({
+                        name: Yup.string().required('Required')
+                    })}
+                &gt;
+                    // Passing Formik props to the DOM-form-elements
+                    {props =&gt; {
+                        const {
+                            values,
+                            touched,
+                            errors,
+                            dirty,
+                            isSubmitting,
+                            handleChange,
+                            handleBlur,
+                            handleSubmit,
+                            handleReset
+                        } = props;
+                        return (
+                            &lt;form onSubmit={handleSubmit}&gt;
+                                &lt;label htmlFor=&quot;name&quot;&gt;&lt;b&gt;GitHub Name&lt;/b&gt;&lt;/label&gt;
+                                &lt;input
+                                    id=&quot;name&quot;
+                                    placeholder=&quot;Enter your username&quot;
+                                    type=&quot;text&quot;
+                                    value={values.name}
+                                    onChange={handleChange}
+                                    onBlur={handleBlur}
+                                    // In case, if the user didn't input the data to the search field
+                                    // then the border of the field would be red
+                                    className={errors.name &amp;&amp; touched.name ? 'error' : ''}
+                                /&gt;
+                                // and the user will see the error message
+                                {errors.name &amp;&amp; errors.touched &amp;&amp; &lt;div className=&quot;input-feedback&quot;&gt;{errors.name}&lt;/div&gt;}
+                                // By clicking on the &quot;Reset&quot; button the user will reset the form
+                                &lt;button
+                                    type=&quot;button&quot;
+                                    className=&quot;outline&quot;
+                                    onClick={handleReset}
+                                    disabled={!dirty || isSubmitting}
+                                &gt;
+                                    Reset
+                                &lt;/button&gt;
+                                // by submitting will be awating for the requested user data
+                                &lt;button type=&quot;submit&quot; disabled={isSubmitting}&gt;
+                                    Submit
+                                &lt;/button&gt;
+                            &lt;/form&gt;
+                        );
+                    }}
+                &lt;/Formik&gt;
+                // the response from backend will be rendered in div-element and JSON-like format
+                &lt;div className=&quot;output&quot;&gt;
+                    {JSON.stringify(this.props.user, null, 2)}
+                &lt;/div&gt;
+            &lt;/div&gt;
+        );
+    }
+}
+
+// making the most current state of 'user' available as props in the component
+const mapStateToProps = (state) =&gt; {
+    return {
+        user: state.user
+    };
+};
+
+// creating a function called 'loadUserData'
+// that dispatches a 'LOAD_USER_DATA' action to the store
+// so that saga can trigger and start the API request
+const mapDispatchToProps = (dispatch) =&gt; {
+    return {
+        loadUserData: name =&gt; dispatch(actions.loadUserData(name))
+    };
+};
+
+// connect the Dashboard component and export it for use in &lt;App /&gt;
+export const Dashboard = connect(mapStateToProps, mapDispatchToProps)(DashboardComponent);
+</code></pre>
+
+<h4 id="step-6">Step 6</h4>
+
+<p>The last thing we have to do is to import the <code>&lt;Dashboard /&gt;</code> component to the <code>&lt;App /&gt;</code> component:</p>
+
+<pre><code class="language-javascript">// App.js
+
+import React, { Component } from 'react';
+import './App.css';
+import {Dashboard} from './Dashboard';
+
+class App extends Component {
+  render() {
+    return (
+      &lt;div className=&quot;App&quot;&gt;
+        &lt;header className=&quot;App-header&quot;&gt;
+          &lt;Dashboard /&gt;
+        &lt;/header&gt;
+      &lt;/div&gt;
+    );
+  }
+}
+
+export default App;
+</code></pre>
+
+<p>And then check whether everything works correctly by running the localhost server inside the project directory in the terminal:</p>
+
+<pre><code>npm start
+</code></pre>
+
+<p>After a successful compilation and requesting the user from the GitHub database, we should see the following result:</p>
+
+
+<figure>
+    
+        <img src="/blog/images/fetching-result.png" />
+    
+    
+</figure>
+
+
+<p>CSS-styles you can find in CSS-files of the <a href="https://github.com/ilonacodes/github-user-data">project</a>.</p>
+
+<p>I hope, throughout this process, you have learned how to use Formik with ReactJS, connect Redux to the app, make API calls through axios and handle async actions with Redux-Saga.</p>
+
+<p>Thank you for reading! 👏</p>
+
+<p>I hope you enjoyed and found the post helpful and useful.
+Have any questions? Reach out to me through my <a href="http://www.ilonacodes.com/">website</a> or via social networks on <a href="https://twitter.com/ilonacodes">Twitter</a> or <a href="https://www.instagram.com/ilonacodes/">Instagram</a>.</p>
+
+<p>This post was originally published on <a href="https://medium.com/@ilonacodes/fetching-github-user-with-rest-api-and-reactjs-f163739f300b">Medium</a>.</p>
+
+<p>Have a great start into the week!</p>
+
+<p>Cheers,
+ilonacodes</p>
+      
+		</div>
+
+    
+
+		<div class="post__tags d-md-none">
+			
+				Tags |
+				
+				
+					<a href="/tags/app">
+						<span class="post__tag">
+							#app
+						</span>
+					</a>
+				
+					<a href="/tags/react">
+						<span class="post__tag">
+							#React
+						</span>
+					</a>
+				
+					<a href="/tags/javascript">
+						<span class="post__tag">
+							#JavaScript
+						</span>
+					</a>
+				
+					<a href="/tags/github">
+						<span class="post__tag">
+							#GitHub
+						</span>
+					</a>
+				
+					<a href="/tags/api">
+						<span class="post__tag">
+							#API
+						</span>
+					</a>
+				
+			
+		</div>
+	</div>
+</div>
+
+
+      	</article>
+
+        <div class="next-article">
+          
+            <a href="//www.ilonacodes.com/blog/why-should-we-create-conversational-experiences-for-our-applications/">
+              Next: Why Should We Create Conversational Experiences For Our Applications?
+            </a>
+          
+        </div>
+      </main>
+    </div>
+
+    <div class="col-md-3 col-12 ">
+  <div class="row">
+	<div class="profile-photo offset-1 col-10">
+		<a href="/">
+			<img class="profile-photo__image" src="/img/ilona_2.jpg" />
+		</a>
+	</div>
+</div>
+
+
+  <div class="text-center">
+    Ilona who codes
+    <br/>
+    Frontend Engineer in Berlin
+    <br/>
+    M.Sc in Media CS
+    <br/>
+    <br/>
+    <i>&#34;I like to work hard for things that are worth it.&#34;</i>
+  </div>
+
+  <div class="latest-articles">
+    <div class="latest-articles__title">
+      The latest articles:
+    </div>
+
+    
+      <div class="latest-articles__article">
+        <a class="latest-articles__link" href="//www.ilonacodes.com/blog/fetching-github-user-with-rest-api-and-reactjs/">
+          Fetching GitHub User with REST API and ReactJS
+        </a>
+      </div>
+    
+      <div class="latest-articles__article">
+        <a class="latest-articles__link" href="//www.ilonacodes.com/blog/why-should-we-create-conversational-experiences-for-our-applications/">
+          Why Should We Create Conversational Experiences For Our Applications?
+        </a>
+      </div>
+    
+      <div class="latest-articles__article">
+        <a class="latest-articles__link" href="//www.ilonacodes.com/blog/how-to-avoid-duplication-of-common-wrapper-behavior-in-react-using-children-prop/">
+          How to Avoid Duplication of Common Wrapper Behavior in React Using Children Prop
+        </a>
+      </div>
+    
+  </div>
+  <br/>
+  
+</div>
+
+  </div>
+
+        </div><div class="footer">
+  <div class="container footer__container">
+    <div class="row">
+      <div class="col-8 footer__center d-md-none">
+  <div class="row no-gutters footer__row">
+    
+      <div class="col text-center">
+        <a class="footer__socialLink" href="https://github.com/ilonacodes">
+          <i class="footer__socialIcon fab fa-github"></i>
+        </a>
+      </div>
+    
+      <div class="col text-center">
+        <a class="footer__socialLink" href="https://instagram.com/ilonacodes">
+          <i class="footer__socialIcon fab fa-instagram"></i>
+        </a>
+      </div>
+    
+      <div class="col text-center">
+        <a class="footer__socialLink" href="https://twitter.com/ilonacodes">
+          <i class="footer__socialIcon fab fa-twitter-square"></i>
+        </a>
+      </div>
+    
+      <div class="col text-center">
+        <a class="footer__socialLink" href="https://medium.com/@ilonacodes">
+          <i class="footer__socialIcon fab fa-medium"></i>
+        </a>
+      </div>
+    
+      <div class="col text-center">
+        <a class="footer__socialLink" href="https://dribbble.com/ilonacodes">
+          <i class="footer__socialIcon fab fa-dribbble"></i>
+        </a>
+      </div>
+    
+  </div>
+
+  <div class="row no-gutters footer__row">
+    
+      
+    
+      
+        <div class="footer-navlink col">
+  <a class="footer-navlink__link" href="/blog">
+    Blog
+  </a>
+</div>
+
+      
+    
+      
+        <div class="footer-navlink col">
+  <a class="footer-navlink__link" href="/lifestyle">
+    Lifestyle
+  </a>
+</div>
+
+      
+    
+      
+        <div class="footer-navlink col">
+  <a class="footer-navlink__link" href="mailto:ilona@ilonacodes.com">
+    Contact
+  </a>
+</div>
+
+      
+    
+  </div>
+
+  <div class="row footer__row footer__copy">
+    <div class="col text-center">
+      &copy; 2018 ilonacodes
+    </div>
+  </div>
+</div>
+
+      <div class="col-12 d-none d-md-block">
+  <div class="row">
+    <div class="col">
+      <div class="row no-gutters">
+        
+          <div class="col text-center">
+            <a class="footer__socialLink" href="https://github.com/ilonacodes">
+              <i class="footer__socialIcon fab fa-github"></i>
+            </a>
+          </div>
+        
+          <div class="col text-center">
+            <a class="footer__socialLink" href="https://instagram.com/ilonacodes">
+              <i class="footer__socialIcon fab fa-instagram"></i>
+            </a>
+          </div>
+        
+          <div class="col text-center">
+            <a class="footer__socialLink" href="https://twitter.com/ilonacodes">
+              <i class="footer__socialIcon fab fa-twitter-square"></i>
+            </a>
+          </div>
+        
+          <div class="col text-center">
+            <a class="footer__socialLink" href="https://medium.com/@ilonacodes">
+              <i class="footer__socialIcon fab fa-medium"></i>
+            </a>
+          </div>
+        
+          <div class="col text-center">
+            <a class="footer__socialLink" href="https://dribbble.com/ilonacodes">
+              <i class="footer__socialIcon fab fa-dribbble"></i>
+            </a>
+          </div>
+        
+      </div>
+    </div>
+
+    <div class="col footer__copy text-center">
+      &copy; 2018 ilonacodes
+    </div>
+
+    <div class="col footer__navlinks">
+      <div class="row">
+        
+          
+        
+          
+            <div class="footer-navlink col">
+  <a class="footer-navlink__link" href="/blog">
+    Blog
+  </a>
+</div>
+
+          
+        
+          
+            <div class="footer-navlink col">
+  <a class="footer-navlink__link" href="/lifestyle">
+    Lifestyle
+  </a>
+</div>
+
+          
+        
+          
+            <div class="footer-navlink col">
+  <a class="footer-navlink__link" href="mailto:ilona@ilonacodes.com">
+    Contact
+  </a>
+</div>
+
+          
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+    </div>
+  </div>
+</div>
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+</div>
+    </body>
+</html>
