@@ -27,6 +27,14 @@
 				{{ end }}
 			</div>
 		</div>
+
+		{{ if .isSingle }}
+		<div class="row justify-content-end">
+			<div class="col-auto">
+				{{ partial "reactions" . }}
+			</div>
+		</div>
+		{{ end }}
 	</div>
 
 	<div class="post__primary-column col col-md-8 col-lg-9">
@@ -65,6 +73,10 @@
   			<a href="{{ .context.Permalink }}" class="btn btn-primary">Read My Full Post</a>
   		</div>
     {{ end }}
+
+		{{ if .isSingle }}
+			{{ partial "reactions" . }}
+		{{ end }}
 
 		<div class="post__tags d-md-none">
 			{{ if isset .context.Params "tags" }}

@@ -6367,6 +6367,8 @@ img {
   .post .post__body {
     margin-top: 15px;
     text-align: justify; }
+  .post .post__reactions {
+    margin-bottom: 15px; }
   .post .post__read-full {
     margin-top: 20px;
     margin-bottom: 20px; }
