@@ -22,6 +22,10 @@ $C: post;
     text-align: justify;
   }
 
+  .#{$C}__reactions {
+    margin-bottom: 15px;
+  }
+
   .#{$C}__read-full {
     margin-top: 20px;
     margin-bottom: 20px;
