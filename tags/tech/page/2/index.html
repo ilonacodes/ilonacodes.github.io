@@ -3,35 +3,18 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-    <meta name="description" content="What we do (I mean front-end web developers) isn&#39;t all that unique. Often we face the problem that seems easy to solve. However, sometimes we spend hours on finding the solution.">
-    <meta property="og:title" content="Front-end Shorts: CSS3 Opacity - Background Only">
+    <meta name="description" content="">
+    <meta property="og:title" content="Tech">
     
-    <meta property="og:type" content="article">
-    <meta property="article:published_time" content="2018-04-23">
+    <meta property="og:type" content="website">
     
-    <meta property="og:description" content="What we do (I mean front-end web developers) isn&#39;t all that unique. Often we face the problem that seems easy to solve. However, sometimes we spend hours on finding the solution.">
-    <meta property="og:url" content="//www.ilonacodes.com/blog/frontend-shorts-css3-opacity-background-only/">
+    <meta property="og:description" content="">
+    <meta property="og:url" content="//www.ilonacodes.com/tags/tech/">
     <meta property="og:site_name" content="Ilona Who Codes &amp; UXs">
     
-    <meta property="og:tags" content="react">
-    
-    <meta property="og:tags" content="css3">
-    
-    <meta property="og:tags" content="javascript">
-    
-    <meta property="og:tags" content="frontend">
-    
-    <meta property="og:tags" content="opacity">
-    
-    <meta property="og:tags" content="coding">
-    
-    <meta property="og:tags" content="womenwhocode">
-    
     <meta name="generator" content="Hugo 0.44" />
-    <title>Front-end Shorts: CSS3 Opacity - Background Only &middot; Ilona Who Codes &amp; UXs</title>
+    <title>Tech &middot; Ilona Who Codes &amp; UXs</title>
     
-    
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/styles/default.min.css">
     
     <link rel="stylesheet" href="//www.ilonacodes.com/css/index.css">
     
@@ -104,246 +87,9 @@
 	</div>
 </div>
 
-  <div class="row">
-    <div class="col col-md-9">
-      <main>
-      	<article>
-      		<div class="post row">
-	<div class="post__meta-column col-3 d-none d-md-block">
-		<div class="row no-gutters post__meta-column__date">
-			
-			
-			
-			<div class="col text-center post__meta-column__day">
-				23
-			</div>
-			<div class="col">
-				<div class="post__meta-column__month">Apr</div>
-				<div class="post__meta-column__year">2018</div>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="col post__meta-column__tags">
-				
-					
-					
-						<a href="/tags/react">
-							<div class="post__tag">
-								#react
-							</div>
-						</a>
-					
-						<a href="/tags/css3">
-							<div class="post__tag">
-								#css3
-							</div>
-						</a>
-					
-						<a href="/tags/javascript">
-							<div class="post__tag">
-								#javascript
-							</div>
-						</a>
-					
-						<a href="/tags/frontend">
-							<div class="post__tag">
-								#frontend
-							</div>
-						</a>
-					
-						<a href="/tags/opacity">
-							<div class="post__tag">
-								#opacity
-							</div>
-						</a>
-					
-						<a href="/tags/coding">
-							<div class="post__tag">
-								#coding
-							</div>
-						</a>
-					
-						<a href="/tags/womenwhocode">
-							<div class="post__tag">
-								#womenwhocode
-							</div>
-						</a>
-					
-				
-			</div>
-		</div>
-
-		
-		<div class="row justify-content-end">
-			<div class="col-auto">
-				<div class="post__reactions reactions-root" data-resource-id="//www.ilonacodes.com/blog/frontend-shorts-css3-opacity-background-only/">
-</div>
-
-			</div>
-		</div>
-		
-	</div>
-
-	<div class="post__primary-column col col-md-8 col-lg-9">
-		
-			<h1 class="post__title">
-				Front-end Shorts: CSS3 Opacity - Background Only
-			</h1>
-		
-
-		<div class="post__date d-md-none">
-			23 Apr, 2018
-		</div>
-
-		
-
-		<div class="post__body">
-      
-        <p>Hi everyone! It&rsquo;s time for a new post.</p>
-
-<p>What we do (I mean front-end web developers) isn&rsquo;t all that unique.
-Often we face the problem that seems easy to solve. However, sometimes we spend hours on finding the solution.</p>
-
-<p>In this case, I wanted to change the opacity of the app teaser background color and don&rsquo;t change the opacity of links. I have tried some silly approaches that seemed logical to me, and they all have failed.</p>
-
-<p>In the end, I have found the right way to do that, and I&rsquo;m going to share it with you.</p>
-
-<p>My solution is to create three <code>&lt;div&gt;</code> elements.</p>
-
-<p>One will contain the other two.</p>
-
-<p>The first one is with the transparent background and the second one with the content.</p>
-
-<p>Then I make the container <code>&lt;div&gt;</code> position relative. For the <code>&lt;div&gt;</code> with the transparent background I set z-index with the negative number.</p>
-
-<p>Finally, I adjust the position of the content to fit over the transparent background.</p>
-
-<p>Voila, there is no issue with absolute positioning.</p>
-
-<pre><code class="language-html">&lt;!-- index.html --&gt;
-
-&lt;div class=&quot;container&quot;&gt;
-  &lt;div class=&quot;opacity&quot;&gt;&lt;/div&gt;
-  &lt;div class=&quot;content&quot;&gt;Hello, World!&lt;/div&gt;
-&lt;/div&gt;
-</code></pre>
-
-<pre><code class="language-css">/* index.css */
-
-.container {
-  position: relative;
-  width: 100px;
-  height: 100px;
-  margin: 0 auto;
-}
-
-.content {
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  z-index: 1;
-  top: 40%;
-  left: 5%;
-}
-
-.opacity {
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  z-index: -1;
-  background-color: green;
-  opacity: 0.2;
-}
-</code></pre>
-
-<p>The <code>&lt;div&gt;</code> element with the <code>container</code> class should have relative positioning, and absolute for others, so it&rsquo;s possible to move and to adjust them inside the parent <code>&lt;div&gt;</code>.</p>
-
-<p>Please keep in mind, that <code>&lt;div&gt;</code> with transparent background and the one with the content should not contain each other. These <code>&lt;div&gt;</code>&rsquo;s should be siblings and be children of the container <code>&lt;div&gt;</code> element.</p>
-
-<p>We apply the opacity to a separate <code>&lt;div&gt;</code> and position the text on top of it.</p>
-
-<p><img src="/blog/images/css3-opacity.png" alt="Result" /></p>
-
-<p>Thank you for reading. Hope these tips help you and your team balance the details with the big picture.</p>
-
-      
-		</div>
-
-    
-
-		
-			<div class="post__reactions reactions-root" data-resource-id="//www.ilonacodes.com/blog/frontend-shorts-css3-opacity-background-only/">
-</div>
-
-		
-
-		<div class="post__tags d-md-none">
-			
-				Tags |
-				
-				
-					<a href="/tags/react">
-						<span class="post__tag">
-							#react
-						</span>
-					</a>
-				
-					<a href="/tags/css3">
-						<span class="post__tag">
-							#css3
-						</span>
-					</a>
-				
-					<a href="/tags/javascript">
-						<span class="post__tag">
-							#javascript
-						</span>
-					</a>
-				
-					<a href="/tags/frontend">
-						<span class="post__tag">
-							#frontend
-						</span>
-					</a>
-				
-					<a href="/tags/opacity">
-						<span class="post__tag">
-							#opacity
-						</span>
-					</a>
-				
-					<a href="/tags/coding">
-						<span class="post__tag">
-							#coding
-						</span>
-					</a>
-				
-					<a href="/tags/womenwhocode">
-						<span class="post__tag">
-							#womenwhocode
-						</span>
-					</a>
-				
-			
-		</div>
-	</div>
-</div>
-
-
-      	</article>
-
-        <div class="next-article">
-          
-            <a href="//www.ilonacodes.com/blog/frontend-shorts-good-storytelling-elements/">
-              Next: Front-end Shorts: Good Storytelling Elements
-            </a>
-          
-        </div>
-      </main>
-    </div>
-
-    <div class="col-md-3 col-12 ">
+  <div class="row layout--list">
+    <div class="d-block d-md-none">
+      <div class="col-md-3 col-12 ">
   <div class="row">
 	<div class="profile-photo offset-1 col-10">
 		<a href="/">
@@ -393,7 +139,276 @@ Often we face the problem that seems easy to solve. However, sometimes we spend 
   
 </div>
 
+    </div>
+
+    <div class="col col-md-9">
+      
+      
+        <div class="post row">
+	<div class="post__meta-column col-3 d-none d-md-block">
+		<div class="row no-gutters post__meta-column__date">
+			
+			
+			
+			<div class="col text-center post__meta-column__day">
+				13
+			</div>
+			<div class="col">
+				<div class="post__meta-column__month">May</div>
+				<div class="post__meta-column__year">2018</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col post__meta-column__tags">
+				
+					
+					
+						<a href="/tags/it">
+							<div class="post__tag">
+								#IT
+							</div>
+						</a>
+					
+						<a href="/tags/ux">
+							<div class="post__tag">
+								#UX
+							</div>
+						</a>
+					
+						<a href="/tags/webdevelopment">
+							<div class="post__tag">
+								#webdevelopment
+							</div>
+						</a>
+					
+						<a href="/tags/webdesign">
+							<div class="post__tag">
+								#webdesign
+							</div>
+						</a>
+					
+						<a href="/tags/tech">
+							<div class="post__tag">
+								#tech
+							</div>
+						</a>
+					
+						<a href="/tags/careers">
+							<div class="post__tag">
+								#careers
+							</div>
+						</a>
+					
+				
+			</div>
+		</div>
+
+		
+	</div>
+
+	<div class="post__primary-column col col-md-8 col-lg-9">
+		
+			<h2 class="post__title">
+				<a class="post__title__link" href="//www.ilonacodes.com/blog/how-to-hack-your-front-end-career-with-ux/">
+					How to Hack Your Front-End Career With UX
+				</a>
+			</h2>
+		
+
+		<div class="post__date d-md-none">
+			13 May, 2018
+		</div>
+
+		
+			<div class="post__cover">
+				<img src="/blog/images/hack-career-with-ux.jpeg" alt="blog post cover">
+			</div>
+		
+
+		<div class="post__body">
+      
+		    <figure>
+    
+        <img src="/blog/images/hack-career-with-ux.jpeg" />
+    
+    
+    <figcaption>
+        <h4>source: https://www.pexels.com/photo/pink-revolver-gun-1056555/</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+<p>You must be thinking that as a front-end developer, you are developing websites / online products using HTML, CSS-styling, JavaScript and other different Frameworks to make them good looking by implementing user interfaces from the mockups.</p>
+
+<p></p>
+      
+		</div>
+
+    
+  		<div class="post__read-full">
+  			<a href="//www.ilonacodes.com/blog/how-to-hack-your-front-end-career-with-ux/" class="btn btn-primary">Read My Full Post</a>
+  		</div>
+    
+
+		
+
+		<div class="post__tags d-md-none">
+			
+				Tags |
+				
+				
+					<a href="/tags/it">
+						<span class="post__tag">
+							#IT
+						</span>
+					</a>
+				
+					<a href="/tags/ux">
+						<span class="post__tag">
+							#UX
+						</span>
+					</a>
+				
+					<a href="/tags/webdevelopment">
+						<span class="post__tag">
+							#webdevelopment
+						</span>
+					</a>
+				
+					<a href="/tags/webdesign">
+						<span class="post__tag">
+							#webdesign
+						</span>
+					</a>
+				
+					<a href="/tags/tech">
+						<span class="post__tag">
+							#tech
+						</span>
+					</a>
+				
+					<a href="/tags/careers">
+						<span class="post__tag">
+							#careers
+						</span>
+					</a>
+				
+			
+		</div>
+	</div>
+</div>
+
+
+      
+    </div>
+
+    <div class="d-none d-md-block">
+      <div class="col-md-3 col-12 ">
+  <div class="row">
+	<div class="profile-photo offset-1 col-10">
+		<a href="/">
+			<img class="profile-photo__image" src="/img/ilona_2.jpg" />
+		</a>
+	</div>
+</div>
+
+
+  <div class="text-center">
+    Ilona who codes
+    <br/>
+    Frontend Engineer in Berlin
+    <br/>
+    M.Sc in Media CS
+    <br/>
+    <br/>
+    <i>&#34;I like to work hard for things that are worth it.&#34;</i>
   </div>
+
+  <div class="latest-articles">
+    <div class="latest-articles__title">
+      The latest articles:
+    </div>
+
+    
+      <div class="latest-articles__article">
+        <a class="latest-articles__link" href="//www.ilonacodes.com/blog/hacking-user-testing-with-reactjs/">
+          Hacking User Testing With ReactJS
+        </a>
+      </div>
+    
+      <div class="latest-articles__article">
+        <a class="latest-articles__link" href="//www.ilonacodes.com/blog/fetching-github-user-with-rest-api-and-reactjs/">
+          Fetching GitHub User with REST API and ReactJS
+        </a>
+      </div>
+    
+      <div class="latest-articles__article">
+        <a class="latest-articles__link" href="//www.ilonacodes.com/blog/why-should-we-create-conversational-experiences-for-our-applications/">
+          Why Should We Create Conversational Experiences For Our Applications?
+        </a>
+      </div>
+    
+  </div>
+  <br/>
+  
+</div>
+
+    </div>
+  </div>
+
+  <div class="row justify-content-center">
+    <div class="col-auto">
+  	  
+
+<ul class="pagination">
+    
+    <li class="page-item">
+        <a href="/tags/tech/" class="page-link" aria-label="First"><span aria-hidden="true">&laquo;&laquo;</span></a>
+    </li>
+    
+    <li class="page-item">
+    <a href="/tags/tech/" class="page-link" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>
+    </li>
+    
+    
+    
+    
+    
+    
+        
+        
+    
+    
+    <li class="page-item"><a class="page-link" href="/tags/tech/">1</a></li>
+    
+    
+    
+    
+    
+    
+        
+        
+    
+    
+    <li class="page-item active"><a class="page-link" href="/tags/tech/page/2/">2</a></li>
+    
+    
+    <li class="page-item disabled">
+    <a href="" class="page-link" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
+    </li>
+    
+    <li class="page-item">
+        <a href="/tags/tech/page/2/" class="page-link" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
+    </li>
+    
+</ul>
+
+    </div>
+  </div>
+
 
         </div><div class="footer">
   <div class="container footer__container">
@@ -566,9 +581,6 @@ Often we face the problem that seems easy to solve. However, sometimes we spend 
 <script src="/reactions/js/1.5d638bf5.chunk.js"></script>
 <script src="/reactions/js/main.0cd9b968.chunk.js"></script>
 
-
-<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/highlight.min.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
 
 </div>
     </body>

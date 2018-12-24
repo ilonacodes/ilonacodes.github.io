@@ -3,32 +3,28 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-    <meta name="description" content="What we do (I mean front-end web developers) isn&#39;t all that unique. Often we face the problem that seems easy to solve. However, sometimes we spend hours on finding the solution.">
-    <meta property="og:title" content="Front-end Shorts: CSS3 Opacity - Background Only">
+    <meta name="description" content="There are many tools available for designers to create beautiful user interfaces and user experiences. And today I want to share another approach on how to build interactive design prototypes with ReactJS and why.">
+    <meta property="og:title" content="Hacking User Testing With ReactJS">
     
     <meta property="og:type" content="article">
-    <meta property="article:published_time" content="2018-04-23">
+    <meta property="article:published_time" content="2018-12-24">
     
-    <meta property="og:description" content="What we do (I mean front-end web developers) isn&#39;t all that unique. Often we face the problem that seems easy to solve. However, sometimes we spend hours on finding the solution.">
-    <meta property="og:url" content="//www.ilonacodes.com/blog/frontend-shorts-css3-opacity-background-only/">
+    <meta property="og:description" content="There are many tools available for designers to create beautiful user interfaces and user experiences. And today I want to share another approach on how to build interactive design prototypes with ReactJS and why.">
+    <meta property="og:url" content="//www.ilonacodes.com/blog/hacking-user-testing-with-reactjs/">
     <meta property="og:site_name" content="Ilona Who Codes &amp; UXs">
     
-    <meta property="og:tags" content="react">
+    <meta property="og:tags" content="web">
     
-    <meta property="og:tags" content="css3">
+    <meta property="og:tags" content="reactjs">
     
     <meta property="og:tags" content="javascript">
     
-    <meta property="og:tags" content="frontend">
+    <meta property="og:tags" content="tech">
     
-    <meta property="og:tags" content="opacity">
-    
-    <meta property="og:tags" content="coding">
-    
-    <meta property="og:tags" content="womenwhocode">
+    <meta property="og:tags" content="ux">
     
     <meta name="generator" content="Hugo 0.44" />
-    <title>Front-end Shorts: CSS3 Opacity - Background Only &middot; Ilona Who Codes &amp; UXs</title>
+    <title>Hacking User Testing With ReactJS &middot; Ilona Who Codes &amp; UXs</title>
     
     
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/styles/default.min.css">
@@ -115,10 +111,10 @@
 			
 			
 			<div class="col text-center post__meta-column__day">
-				23
+				24
 			</div>
 			<div class="col">
-				<div class="post__meta-column__month">Apr</div>
+				<div class="post__meta-column__month">Dec</div>
 				<div class="post__meta-column__year">2018</div>
 			</div>
 		</div>
@@ -128,15 +124,15 @@
 				
 					
 					
-						<a href="/tags/react">
+						<a href="/tags/web">
 							<div class="post__tag">
-								#react
+								#web
 							</div>
 						</a>
 					
-						<a href="/tags/css3">
+						<a href="/tags/reactjs">
 							<div class="post__tag">
-								#css3
+								#reactjs
 							</div>
 						</a>
 					
@@ -146,27 +142,15 @@
 							</div>
 						</a>
 					
-						<a href="/tags/frontend">
+						<a href="/tags/tech">
 							<div class="post__tag">
-								#frontend
+								#tech
 							</div>
 						</a>
 					
-						<a href="/tags/opacity">
+						<a href="/tags/ux">
 							<div class="post__tag">
-								#opacity
-							</div>
-						</a>
-					
-						<a href="/tags/coding">
-							<div class="post__tag">
-								#coding
-							</div>
-						</a>
-					
-						<a href="/tags/womenwhocode">
-							<div class="post__tag">
-								#womenwhocode
+								#ux
 							</div>
 						</a>
 					
@@ -177,7 +161,7 @@
 		
 		<div class="row justify-content-end">
 			<div class="col-auto">
-				<div class="post__reactions reactions-root" data-resource-id="//www.ilonacodes.com/blog/frontend-shorts-css3-opacity-background-only/">
+				<div class="post__reactions reactions-root" data-resource-id="//www.ilonacodes.com/blog/hacking-user-testing-with-reactjs/">
 </div>
 
 			</div>
@@ -188,92 +172,85 @@
 	<div class="post__primary-column col col-md-8 col-lg-9">
 		
 			<h1 class="post__title">
-				Front-end Shorts: CSS3 Opacity - Background Only
+				Hacking User Testing With ReactJS
 			</h1>
 		
 
 		<div class="post__date d-md-none">
-			23 Apr, 2018
+			24 Dec, 2018
 		</div>
 
 		
 
 		<div class="post__body">
       
-        <p>Hi everyone! It&rsquo;s time for a new post.</p>
+        <p>
+<figure>
+    
+        <img src="/blog/images/hacking-user-testing.jpeg" />
+    
+    
+    <figcaption>
+        <h4>source: https://bit.ly/2T8OJxc</h4>
+        
+    </figcaption>
+    
+</figure>
 
-<p>What we do (I mean front-end web developers) isn&rsquo;t all that unique.
-Often we face the problem that seems easy to solve. However, sometimes we spend hours on finding the solution.</p>
+There are many tools available for designers to create beautiful user interfaces and user experiences. And today I want to share another approach on how to build interactive design prototypes with ReactJS and why.</p>
 
-<p>In this case, I wanted to change the opacity of the app teaser background color and don&rsquo;t change the opacity of links. I have tried some silly approaches that seemed logical to me, and they all have failed.</p>
+<p></p>
 
-<p>In the end, I have found the right way to do that, and I&rsquo;m going to share it with you.</p>
+<p>As known, <a href="https://reactjs.org/">ReactJS</a> is a JavaScript library that supplies interfaces of many web applications. It&rsquo;s not the primary tool for designers. However, it could be useful and efficient to learn and understand its core concept to prototype dynamic user interfaces and get feedback from user testing faster.</p>
 
-<p>My solution is to create three <code>&lt;div&gt;</code> elements.</p>
+<p>Moreover, if ReactJS becomes one of the go-to prototyping tools, then it could be much easier to communicate with the software engineers on the team and understand the fundamental principles of how the product is developed.</p>
 
-<p>One will contain the other two.</p>
+<p>These are some advantages of using ReactJS as a prototyping tool mockup implementation:</p>
 
-<p>The first one is with the transparent background and the second one with the content.</p>
+<ul>
+<li><strong>Dividing design elements into components</strong></li>
+</ul>
 
-<p>Then I make the container <code>&lt;div&gt;</code> position relative. For the <code>&lt;div&gt;</code> with the transparent background I set z-index with the negative number.</p>
+<p>The big &ldquo;plus&rdquo; that ReactJS allows creating reusable components. And it will help designers to style and restyle UI-elements faster (in case the project is organized and structured right) if it&rsquo;s required.</p>
 
-<p>Finally, I adjust the position of the content to fit over the transparent background.</p>
+<ul>
+<li><strong>Keeping the application stateful</strong></li>
+</ul>
 
-<p>Voila, there is no issue with absolute positioning.</p>
+<p>With ReactJS it&rsquo;s also possible to initialize and update the state after every user interaction, which can be passed to any component to be used. The bright example is the input fields in the form. The interface state would be updated and re-rendered in the web application preview.</p>
 
-<pre><code class="language-html">&lt;!-- index.html --&gt;
+<ul>
+<li><strong>Managing and handling application data</strong></li>
+</ul>
 
-&lt;div class=&quot;container&quot;&gt;
-  &lt;div class=&quot;opacity&quot;&gt;&lt;/div&gt;
-  &lt;div class=&quot;content&quot;&gt;Hello, World!&lt;/div&gt;
-&lt;/div&gt;
-</code></pre>
+<p>ReactJS is based on JavaScript concepts, rules and syntax, which means it&rsquo;s easy to test and visualize the web application behavior with different or modified data.</p>
 
-<pre><code class="language-css">/* index.css */
+<ul>
+<li><strong>Styling components</strong></li>
+</ul>
 
-.container {
-  position: relative;
-  width: 100px;
-  height: 100px;
-  margin: 0 auto;
-}
+<p>ReactJS applications allow installing different npm packages and libraries to style the app. For example, <a href="https://getbootstrap.com/">Bootstrap</a> or <a href="https://foundation.zurb.com/">Foundation</a> &ndash; to write markup with minimal CSS.</p>
 
-.content {
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  z-index: 1;
-  top: 40%;
-  left: 5%;
-}
+<ul>
+<li><strong>App Deploying for testing</strong></li>
+</ul>
 
-.opacity {
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  z-index: -1;
-  background-color: green;
-  opacity: 0.2;
-}
-</code></pre>
+<p>The Create-React-App CLI (ReactJS project starter) makes it also more comfortable to deploy the web application, for example, to GitHub pages. It implies that the prototypes can be published quickly to the world and the user testing could be performed.</p>
 
-<p>The <code>&lt;div&gt;</code> element with the <code>container</code> class should have relative positioning, and absolute for others, so it&rsquo;s possible to move and to adjust them inside the parent <code>&lt;div&gt;</code>.</p>
+<p>For sure, ReactJS is not always the right choice of the design tool, and for many designers, it wouldn&rsquo;t be especially useful. For example, any page-flow can be applied in <a href="https://marvelapp.com/">Marvel</a> and <a href="https://framer.com/">Framer</a> could be better for the animations/transitions representation. But if you are curious about other ways like coding and want to try something new, then ReactJS is an excellent choice to do that.</p>
 
-<p>Please keep in mind, that <code>&lt;div&gt;</code> with transparent background and the one with the content should not contain each other. These <code>&lt;div&gt;</code>&rsquo;s should be siblings and be children of the container <code>&lt;div&gt;</code> element.</p>
+<p><strong>Thank you for reading this post!</strong></p>
 
-<p>We apply the opacity to a separate <code>&lt;div&gt;</code> and position the text on top of it.</p>
+<p>Happy holidays!</p>
 
-<p><img src="/blog/images/css3-opacity.png" alt="Result" /></p>
-
-<p>Thank you for reading. Hope these tips help you and your team balance the details with the big picture.</p>
-
+<p>ilonacodes</p>
       
 		</div>
 
     
 
 		
-			<div class="post__reactions reactions-root" data-resource-id="//www.ilonacodes.com/blog/frontend-shorts-css3-opacity-background-only/">
+			<div class="post__reactions reactions-root" data-resource-id="//www.ilonacodes.com/blog/hacking-user-testing-with-reactjs/">
 </div>
 
 		
@@ -283,15 +260,15 @@ Often we face the problem that seems easy to solve. However, sometimes we spend 
 				Tags |
 				
 				
-					<a href="/tags/react">
+					<a href="/tags/web">
 						<span class="post__tag">
-							#react
+							#web
 						</span>
 					</a>
 				
-					<a href="/tags/css3">
+					<a href="/tags/reactjs">
 						<span class="post__tag">
-							#css3
+							#reactjs
 						</span>
 					</a>
 				
@@ -301,27 +278,15 @@ Often we face the problem that seems easy to solve. However, sometimes we spend 
 						</span>
 					</a>
 				
-					<a href="/tags/frontend">
+					<a href="/tags/tech">
 						<span class="post__tag">
-							#frontend
+							#tech
 						</span>
 					</a>
 				
-					<a href="/tags/opacity">
+					<a href="/tags/ux">
 						<span class="post__tag">
-							#opacity
-						</span>
-					</a>
-				
-					<a href="/tags/coding">
-						<span class="post__tag">
-							#coding
-						</span>
-					</a>
-				
-					<a href="/tags/womenwhocode">
-						<span class="post__tag">
-							#womenwhocode
+							#ux
 						</span>
 					</a>
 				
@@ -335,8 +300,8 @@ Often we face the problem that seems easy to solve. However, sometimes we spend 
 
         <div class="next-article">
           
-            <a href="//www.ilonacodes.com/blog/frontend-shorts-good-storytelling-elements/">
-              Next: Front-end Shorts: Good Storytelling Elements
+            <a href="//www.ilonacodes.com/blog/fetching-github-user-with-rest-api-and-reactjs/">
+              Next: Fetching GitHub User with REST API and ReactJS
             </a>
           
         </div>

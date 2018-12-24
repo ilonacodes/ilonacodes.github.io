@@ -6,10 +6,34 @@
     <description>Recent content in Web on Ilona Who Codes &amp; UXs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 11 Oct 2018 10:40:05 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 24 Dec 2018 10:40:05 +0100</lastBuildDate>
     
 	<atom:link href="//www.ilonacodes.com/tags/web/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hacking User Testing With ReactJS</title>
+      <link>//www.ilonacodes.com/blog/hacking-user-testing-with-reactjs/</link>
+      <pubDate>Mon, 24 Dec 2018 10:40:05 +0100</pubDate>
+      
+      <guid>//www.ilonacodes.com/blog/hacking-user-testing-with-reactjs/</guid>
+      <description>&lt;p&gt;
+&lt;figure&gt;
+    
+        &lt;img src=&#34;//www.ilonacodes.com/blog/images/hacking-user-testing.jpeg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;source: https://bit.ly/2T8OJxc&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+There are many tools available for designers to create beautiful user interfaces and user experiences. And today I want to share another approach on how to build interactive design prototypes with ReactJS and why.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>How to Avoid Duplication of Common Wrapper Behavior in React Using Children Prop</title>
