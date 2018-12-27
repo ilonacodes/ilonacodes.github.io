@@ -1,5 +1,5 @@
 languageCode = "en-us"
-title = "Ilona Who Codes & UXs"
+title = "Ilona Who Codes"
 baseURL = "//www.ilonacodes.com/"
 theme = "ilonacodes-2018"
 
@@ -39,8 +39,8 @@ theme = "ilonacodes-2018"
 	url = "/blog"
 
 [[params.navlinks]]
-	title = "Lifestyle"
-	url = "/lifestyle"
+	title = "YouTube"
+	url = "https://www.youtube.com/channel/UCZHUFhQTMcJVekb6KAqqtkg"
 
 [[params.navlinks]]
 	title = "Contact"
