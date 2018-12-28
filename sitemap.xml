@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>//www.ilonacodes.com/blog/progress-bar-with-react-hooks/</loc>
+    <lastmod>2018-12-28T10:40:05+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>//www.ilonacodes.com/blog/hacking-user-testing-with-reactjs/</loc>
     <lastmod>2018-12-24T10:40:05+01:00</lastmod>
   </url>
@@ -305,7 +310,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/blog/</loc>
-    <lastmod>2018-12-24T10:40:05+01:00</lastmod>
+    <lastmod>2018-12-28T10:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -495,6 +500,12 @@
   </url>
   
   <url>
+    <loc>//www.ilonacodes.com/tags/hooks/</loc>
+    <lastmod>2018-12-28T10:40:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>//www.ilonacodes.com/tags/html/</loc>
     <lastmod>2017-07-08T20:25:05+01:00</lastmod>
     <priority>0</priority>
@@ -502,7 +513,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/</loc>
-    <lastmod>2018-12-24T10:40:05+01:00</lastmod>
+    <lastmod>2018-12-28T10:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -532,7 +543,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/tags/javascript/</loc>
-    <lastmod>2018-12-24T10:40:05+01:00</lastmod>
+    <lastmod>2018-12-28T10:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -700,7 +711,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/tags/reactjs/</loc>
-    <lastmod>2018-12-24T10:40:05+01:00</lastmod>
+    <lastmod>2018-12-28T10:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -778,7 +789,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/tags/tech/</loc>
-    <lastmod>2018-12-24T10:40:05+01:00</lastmod>
+    <lastmod>2018-12-28T10:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -820,7 +831,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/tags/web/</loc>
-    <lastmod>2018-12-24T10:40:05+01:00</lastmod>
+    <lastmod>2018-12-28T10:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   

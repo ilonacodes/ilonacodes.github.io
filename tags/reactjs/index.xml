@@ -6,10 +6,34 @@
     <description>Recent content in Reactjs on Ilona Who Codes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 24 Dec 2018 10:40:05 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 28 Dec 2018 10:40:05 +0100</lastBuildDate>
     
 	<atom:link href="//www.ilonacodes.com/tags/reactjs/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Let’s implement: Progress Bar With React Hooks</title>
+      <link>//www.ilonacodes.com/blog/progress-bar-with-react-hooks/</link>
+      <pubDate>Fri, 28 Dec 2018 10:40:05 +0100</pubDate>
+      
+      <guid>//www.ilonacodes.com/blog/progress-bar-with-react-hooks/</guid>
+      <description>&lt;p&gt;
+&lt;figure&gt;
+    
+        &lt;img src=&#34;//www.ilonacodes.com/blog/images/progress-bar-with-react-hooks.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;source: Photo by Roman Kraft on Unsplash&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+After &lt;strong&gt;React Hooks&lt;/strong&gt; introduction at &lt;a href=&#34;https://www.youtube.com/watch?v=dpw9EHDh2bM&#34;&gt;React Conf October 2018&lt;/a&gt; I decided to learn this approach how to use state and side-effects in React functional components.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Hacking User Testing With ReactJS</title>

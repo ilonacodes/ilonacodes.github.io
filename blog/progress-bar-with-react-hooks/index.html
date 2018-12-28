@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html><head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# website: http://ogp.me/ns/website#">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+    <meta name="description" content="After React Hooks introduction at React Conf October 2018 I decided to learn this approach how to use state and side-effects in React functional components.">
+    <meta property="og:title" content="Let’s implement: Progress Bar With React Hooks">
+    
+    <meta property="og:type" content="article">
+    <meta property="article:published_time" content="2018-12-28">
+    
+    <meta property="og:description" content="After React Hooks introduction at React Conf October 2018 I decided to learn this approach how to use state and side-effects in React functional components.">
+    <meta property="og:url" content="//www.ilonacodes.com/blog/progress-bar-with-react-hooks/">
+    <meta property="og:site_name" content="Ilona Who Codes">
+    
+    <meta property="og:tags" content="web">
+    
+    <meta property="og:tags" content="reactjs">
+    
+    <meta property="og:tags" content="javascript">
+    
+    <meta property="og:tags" content="hooks">
+    
+    <meta property="og:tags" content="tech">
+    
+    <meta name="generator" content="Hugo 0.44" />
+    <title>Let’s implement: Progress Bar With React Hooks &middot; Ilona Who Codes</title>
+    
+    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/styles/default.min.css">
+    
+    <link rel="stylesheet" href="//www.ilonacodes.com/css/index.css">
+    
+    <link rel="icon" href="//www.ilonacodes.com/favicon.ico" />
+    
+
+    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
+    
+    
+</head>
+<body>
+      <div class="footer-wrapper">
+        <div class="container" id="content"><div class="navigation">
+	<div class="container">
+		<div class="row">
+			
+				
+
+
+  
+
+
+<div class="navlink col-12 col-md-6 navlink--main">
+  <a class="navlink__link" href="/">
+    ilonacodes
+  </a>
+</div>
+
+			
+				
+
+
+  
+
+
+<div class="navlink col">
+  <a class="navlink__link" href="/blog">
+    Blog
+  </a>
+</div>
+
+			
+				
+
+
+  
+
+
+<div class="navlink col">
+  <a class="navlink__link" href="https://www.youtube.com/channel/UCZHUFhQTMcJVekb6KAqqtkg">
+    YouTube
+  </a>
+</div>
+
+			
+				
+
+
+  
+
+
+<div class="navlink col">
+  <a class="navlink__link" href="mailto:ilona@ilonacodes.com">
+    Contact
+  </a>
+</div>
+
+			
+		</div>
+	</div>
+</div>
+
+  <div class="row">
+    <div class="col col-md-9">
+      <main>
+      	<article>
+      		<div class="post row">
+	<div class="post__meta-column col-3 d-none d-md-block">
+		<div class="row no-gutters post__meta-column__date">
+			
+			
+			
+			<div class="col text-center post__meta-column__day">
+				28
+			</div>
+			<div class="col">
+				<div class="post__meta-column__month">Dec</div>
+				<div class="post__meta-column__year">2018</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col post__meta-column__tags">
+				
+					
+					
+						<a href="/tags/web">
+							<div class="post__tag">
+								#web
+							</div>
+						</a>
+					
+						<a href="/tags/reactjs">
+							<div class="post__tag">
+								#reactjs
+							</div>
+						</a>
+					
+						<a href="/tags/javascript">
+							<div class="post__tag">
+								#javascript
+							</div>
+						</a>
+					
+						<a href="/tags/hooks">
+							<div class="post__tag">
+								#hooks
+							</div>
+						</a>
+					
+						<a href="/tags/tech">
+							<div class="post__tag">
+								#tech
+							</div>
+						</a>
+					
+				
+			</div>
+		</div>
+
+		
+		<div class="row justify-content-end">
+			<div class="col-auto">
+				<div class="post__reactions reactions-root" data-resource-id="//www.ilonacodes.com/blog/progress-bar-with-react-hooks/">
+</div>
+
+			</div>
+		</div>
+		
+	</div>
+
+	<div class="post__primary-column col col-md-8 col-lg-9">
+		
+			<h1 class="post__title">
+				Let’s implement: Progress Bar With React Hooks
+			</h1>
+		
+
+		<div class="post__date d-md-none">
+			28 Dec, 2018
+		</div>
+
+		
+
+		<div class="post__body">
+      
+        <p>
+<figure>
+    
+        <img src="/blog/images/progress-bar-with-react-hooks.jpg" />
+    
+    
+    <figcaption>
+        <h4>source: Photo by Roman Kraft on Unsplash</h4>
+        
+    </figcaption>
+    
+</figure>
+
+After <strong>React Hooks</strong> introduction at <a href="https://www.youtube.com/watch?v=dpw9EHDh2bM">React Conf October 2018</a> I decided to learn this approach how to use state and side-effects in React functional components.</p>
+
+<p></p>
+
+<p>Traditionally, any stateless component in ReactJS called functional component and now with <strong>React Hooks</strong> it is possible to store the state inside them.</p>
+
+<p>And today I am going to share my experience how I have tried to apply <strong>React Hooks</strong> for the simple Progress Bar implementation.</p>
+
+<p>The reason why <strong>React Hooks</strong> have been developed is to avoid the functional component refactor into the class component for using lifecycle methods. In this case, hook functions allow writing ReactJS application with functional components only by using side-effects and local state.</p>
+
+<p>Let’s see how it works with the following Progress Bar Example:</p>
+
+<p>I suggest installing a new <strong>&lsquo;create-react-app&rsquo;</strong> app called <strong>&lsquo;progress-bar-with-hooks&rsquo;</strong>. The detailed information on how you can do that find <a href="https://reactjs.org/docs/create-a-new-react-app.html">here</a>.</p>
+
+<p>After creating <strong>‘progress-bar-with-hooks’</strong> project, open it in your favorite text editor or IDE to check out its structure. I also advise deleting all unnecessary DOM-elements from the <code>&lt;App /&gt;</code> in <strong>App.js</strong>, so that at the beginning it looks like:</p>
+
+<pre><code class="language-javascript">// App.js
+
+import React, {Component} from 'react';
+
+class App extends Component {
+    render() {
+        return (
+            &lt;div&gt;
+
+            &lt;/div&gt;
+        );
+    }
+}
+
+export default App;
+</code></pre>
+
+<p>The next step is to create <strong>ProgressBar.js</strong> file in the <strong>&lsquo;src&rsquo;</strong> directory and
+create the following functional components:</p>
+
+<pre><code class="language-javascript">// ProgressBar.js
+
+import React from 'react';
+
+const Range = (props) =&gt; {
+    return (
+        &lt;div/&gt;
+    );
+};
+
+const ProgressBar = (props) =&gt; {
+    return (
+        &lt;div className=&quot;progress-bar&quot;&gt;
+            &lt;Range/&gt;
+        &lt;/div&gt;
+    );
+};
+
+export const ProgressBarContainer = () =&gt; {
+    return (
+        &lt;div className=&quot;container&quot;&gt;
+            &lt;ProgressBar/&gt;
+        &lt;/div&gt;
+    );
+};
+</code></pre>
+
+<p><code>&lt;Range /&gt;</code> handles and render the current status of the progress bar.</p>
+
+<p><code>&lt;ProgressBar /&gt;</code> represents the full progress bar border and wrap the <code>&lt;Range /&gt;</code> component, so the user sees how filled the whole progress bar is limit.</p>
+
+<p><code>&lt;ProgressBarContainer /&gt;</code> is the higher-order component and carries the whole app state using applied hook functions. This state also will be passing to the other app components through props.</p>
+
+<p>Let’s add state <strong>[percentRange, setProgress]</strong> to the <code>&lt;ProgressBarContainer/&gt;</code> using <strong>useState()</strong> hook and <strong>0</strong> as the initial state value:</p>
+
+<pre><code class="language-javascript">//ProgressBar.js;
+
+// import hook func from react
+import React, {useState} from 'react';
+
+...
+
+export const ProgressBarContainer = () =&gt; {
+    // init state through hook func useState()
+    const [percentRange, setProgress] = useState(0);
+
+    return (
+        &lt;div className=&quot;container&quot;&gt;
+            {/*pass the percentageRange state to other components*/}
+            &lt;ProgressBar percentRange={percentRange}/&gt;
+            &lt;div className=&quot;toggle-buttons&quot;&gt;
+                {/* call setProgress func on button click and bind the callback*/}
+                {/* depending on the percentageRange condition to decrease /*/}
+                {/* increase in 20% range and reset the progress bar status*/}
+                &lt;button onClick={() =&gt; setProgress(percentRange &gt; 0 ?
+                    percentRange - 20 : 0)}&gt;Decrease
+                &lt;/button&gt;
+                &lt;button onClick={() =&gt; setProgress(percentRange &lt; 100 ? percentRange + 20 : 100)}&gt;Increase&lt;/button&gt;
+                &lt;button onClick={() =&gt; setProgress(0)}&gt;Reset&lt;/button&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    );
+};
+</code></pre>
+
+<p>To make the app work properly - to allow the progress bar’s range changing
+in width dynamically - it’s necessary to pass <strong>percentageRange</strong> state through props features of ReactJS to the <code>&lt;ProgressBar /&gt;</code> and <code>&lt;Range /&gt;</code> functional components:</p>
+
+<pre><code class="language-javascript">// ProgressBar.js
+
+import React from 'react';
+// the custom styling for progress bar app
+import './progress-bar.css';
+
+// pass percentRange state through props to Range an ProgressBar components
+const Range = (props) =&gt; {
+    return (
+        // render current the filled range of progress bar along its width
+        &lt;div className=&quot;range&quot; style={{width: `${props.percentRange}%`}}/&gt;
+    );
+};
+
+const ProgressBar = (props) =&gt; {
+    return (
+        &lt;div className=&quot;progress-bar&quot;&gt;
+            {/*render available progress bar’s limit*/}
+            &lt;Range percentRange={props.percentRange}/&gt;
+        &lt;/div&gt;
+    );
+};
+
+...
+</code></pre>
+
+<p>As you noticed above, I have imported <strong>progress-bar.css</strong> at the top and below you will find the custom CSS-styles that I have used for the progress bar:</p>
+
+<pre><code class="language-css">{* progress-bar.css *}
+
+.container {
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	flex-direction: column;
+ 	width: 100%;
+ 	height: 100vh;
+}
+
+.progress-bar {
+ 	width: 350px;
+ 	height: 35px;
+ 	border-radius: 50px;
+ 	border: 2px solid #666;
+ 	margin-bottom: 40px;
+}
+
+.range {
+ 	background: limegreen;
+ 	height: 100%;
+ 	border-radius: inherit;
+ 	transition: width .3s ease-in;
+}
+
+.toggle-buttons button {
+ 	margin: 0 10px;
+ 	padding: 7px 20px;
+ 	border-radius: 5px;
+ 	outline: 0;
+ 	cursor: pointer;
+}
+
+.toggle-buttons button:hover {
+ 	color: white;
+ 	background: #666;
+}
+</code></pre>
+
+<p>Here you can see the finished version of <strong>ProgressBar.js</strong> with the fully implementation:</p>
+
+<pre><code class="language-javascript">// ProgressBar.js
+
+import React, {useState} from 'react';
+import './progress-bar.css';
+
+const Range = (props) =&gt; {
+    return (
+        &lt;div className=&quot;range&quot; style={{width: `${props.percentRange}%`}}/&gt;
+    );
+};
+
+const ProgressBar = (props) =&gt; {
+    return (
+        &lt;div className=&quot;progress-bar&quot;&gt;
+            &lt;Range percentRange={props.percentRange}/&gt;
+        &lt;/div&gt;
+    );
+};
+
+export const ProgressBarContainer = () =&gt; {
+    let [percentRange, setProgress] = useState(0);
+
+    return (
+        &lt;div className=&quot;container&quot;&gt;
+            &lt;ProgressBar percentRange={percentRange}/&gt;
+            &lt;div className=&quot;toggle-buttons&quot;&gt;
+                &lt;button onClick={() =&gt; setProgress(percentRange &gt; 0 ?
+                    percentRange - 20 : 0)}&gt;Decrease
+                &lt;/button&gt;
+                &lt;button onClick={() =&gt; setProgress(percentRange &lt; 100 ? percentRange + 20 : 100)}&gt;Increase&lt;/button&gt;
+                &lt;button onClick={() =&gt; setProgress(0)}&gt;Reset&lt;/button&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    );
+};
+</code></pre>
+
+<p>The last step to complete the web app is to import the functional <code>&lt;ProgressBarComponent /&gt;</code> component to the class <code>&lt;App /&gt;</code> component:</p>
+
+<pre><code class="language-javascript">// App.js
+
+import React, {Component} from 'react';
+import {ProgressBarContainer} from './ProgressBar';
+import './App.css';
+
+class App extends Component {
+    render() {
+        return (
+            &lt;div className=&quot;App&quot;&gt;
+                &lt;ProgressBarContainer/&gt;
+            &lt;/div&gt;
+        );
+    }
+}
+
+export default App;
+</code></pre>
+
+<p>And then run the command <strong>&lsquo;npm start&rsquo;</strong> in the terminal inside the <strong>&lsquo;progress-bar-with-hooks&rsquo;</strong> project directory to check how it works. If you did everything right, the result would be appeared like:</p>
+
+
+<figure>
+    
+        <img src="/blog/images/progress-bar-with-react-hooks-result.png" />
+    
+    
+</figure>
+
+
+<p><strong>That’s it! Thank you for reading!</strong></p>
+
+<p>Want to dive deeper into software development? Watch and subscribe for the upcoming <strong>“From Frontend to Fullstack Engineer”</strong> series on my <a href="https://www.youtube.com/channel/UCZHUFhQTMcJVekb6KAqqtkg">YouTube channel</a>.</p>
+
+<p>You can also check out official documentation to <a href="https://reactjs.org/docs/hooks-intro.html">React Hooks</a>, if you want to learn more about the state and effect hooks.</p>
+
+<p>I would like to hear your thoughts if you found the post helpful or not.</p>
+
+<p>Don’t forget to reach me through my <a href="mailto:ilona@ilonacodes.com">email</a> or my social media: <a href="https://www.twitter.com/ilonacodes">Twitter</a> &amp; <a href="https://www.instagram.com/ilonacodes">Instagram</a>.</p>
+
+<p>December is really hectic for all of us. Enjoy your holidays and Happy New Year!</p>
+
+<p>Cheers, ilonacodes</p>
+      
+		</div>
+
+    
+
+		
+			<div class="post__reactions reactions-root" data-resource-id="//www.ilonacodes.com/blog/progress-bar-with-react-hooks/">
+</div>
+
+		
+
+		<div class="post__tags d-md-none">
+			
+				Tags |
+				
+				
+					<a href="/tags/web">
+						<span class="post__tag">
+							#web
+						</span>
+					</a>
+				
+					<a href="/tags/reactjs">
+						<span class="post__tag">
+							#reactjs
+						</span>
+					</a>
+				
+					<a href="/tags/javascript">
+						<span class="post__tag">
+							#javascript
+						</span>
+					</a>
+				
+					<a href="/tags/hooks">
+						<span class="post__tag">
+							#hooks
+						</span>
+					</a>
+				
+					<a href="/tags/tech">
+						<span class="post__tag">
+							#tech
+						</span>
+					</a>
+				
+			
+		</div>
+	</div>
+</div>
+
+
+      	</article>
+
+        <div class="next-article">
+          
+            <a href="//www.ilonacodes.com/blog/hacking-user-testing-with-reactjs/">
+              Next: Hacking User Testing With ReactJS
+            </a>
+          
+        </div>
+      </main>
+    </div>
+
+    <div class="col-md-3 col-12 ">
+  <div class="row">
+	<div class="profile-photo offset-1 col-10">
+		<a href="/">
+			<img class="profile-photo__image" src="/img/ilona_2.jpg" />
+		</a>
+	</div>
+</div>
+
+
+  <div class="text-center">
+    Ilona who codes
+    <br/>
+    Frontend Engineer in Berlin
+    <br/>
+    M.Sc in Media CS
+    <br/>
+    <br/>
+    <i>&#34;I like to work hard for things that are worth it.&#34;</i>
+  </div>
+
+  <div class="latest-articles">
+    <div class="latest-articles__title">
+      The latest articles:
+    </div>
+
+    
+      <div class="latest-articles__article">
+        <a class="latest-articles__link" href="//www.ilonacodes.com/blog/progress-bar-with-react-hooks/">
+          Let’s implement: Progress Bar With React Hooks
+        </a>
+      </div>
+    
+      <div class="latest-articles__article">
+        <a class="latest-articles__link" href="//www.ilonacodes.com/blog/hacking-user-testing-with-reactjs/">
+          Hacking User Testing With ReactJS
+        </a>
+      </div>
+    
+      <div class="latest-articles__article">
+        <a class="latest-articles__link" href="//www.ilonacodes.com/blog/fetching-github-user-with-rest-api-and-reactjs/">
+          Fetching GitHub User with REST API and ReactJS
+        </a>
+      </div>
+    
+  </div>
+  <br/>
+  
+</div>
+
+  </div>
+
+        </div><div class="footer">
+  <div class="container footer__container">
+    <div class="row">
+      <div class="col-8 footer__center d-md-none">
+  <div class="row no-gutters footer__row">
+    
+      <div class="col text-center">
+        <a class="footer__socialLink" href="https://github.com/ilonacodes">
+          <i class="footer__socialIcon fab fa-github"></i>
+        </a>
+      </div>
+    
+      <div class="col text-center">
+        <a class="footer__socialLink" href="https://instagram.com/ilonacodes">
+          <i class="footer__socialIcon fab fa-instagram"></i>
+        </a>
+      </div>
+    
+      <div class="col text-center">
+        <a class="footer__socialLink" href="https://twitter.com/ilonacodes">
+          <i class="footer__socialIcon fab fa-twitter-square"></i>
+        </a>
+      </div>
+    
+      <div class="col text-center">
+        <a class="footer__socialLink" href="https://medium.com/@ilonacodes">
+          <i class="footer__socialIcon fab fa-medium"></i>
+        </a>
+      </div>
+    
+      <div class="col text-center">
+        <a class="footer__socialLink" href="https://dribbble.com/ilonacodes">
+          <i class="footer__socialIcon fab fa-dribbble"></i>
+        </a>
+      </div>
+    
+  </div>
+
+  <div class="row no-gutters footer__row">
+    
+      
+    
+      
+        <div class="footer-navlink col">
+  <a class="footer-navlink__link" href="/blog">
+    Blog
+  </a>
+</div>
+
+      
+    
+      
+        <div class="footer-navlink col">
+  <a class="footer-navlink__link" href="https://www.youtube.com/channel/UCZHUFhQTMcJVekb6KAqqtkg">
+    YouTube
+  </a>
+</div>
+
+      
+    
+      
+        <div class="footer-navlink col">
+  <a class="footer-navlink__link" href="mailto:ilona@ilonacodes.com">
+    Contact
+  </a>
+</div>
+
+      
+    
+  </div>
+
+  <div class="row footer__row footer__copy">
+    <div class="col text-center">
+      &copy; 2018 ilonacodes
+    </div>
+  </div>
+</div>
+
+      <div class="col-12 d-none d-md-block">
+  <div class="row">
+    <div class="col">
+      <div class="row no-gutters">
+        
+          <div class="col text-center">
+            <a class="footer__socialLink" href="https://github.com/ilonacodes">
+              <i class="footer__socialIcon fab fa-github"></i>
+            </a>
+          </div>
+        
+          <div class="col text-center">
+            <a class="footer__socialLink" href="https://instagram.com/ilonacodes">
+              <i class="footer__socialIcon fab fa-instagram"></i>
+            </a>
+          </div>
+        
+          <div class="col text-center">
+            <a class="footer__socialLink" href="https://twitter.com/ilonacodes">
+              <i class="footer__socialIcon fab fa-twitter-square"></i>
+            </a>
+          </div>
+        
+          <div class="col text-center">
+            <a class="footer__socialLink" href="https://medium.com/@ilonacodes">
+              <i class="footer__socialIcon fab fa-medium"></i>
+            </a>
+          </div>
+        
+          <div class="col text-center">
+            <a class="footer__socialLink" href="https://dribbble.com/ilonacodes">
+              <i class="footer__socialIcon fab fa-dribbble"></i>
+            </a>
+          </div>
+        
+      </div>
+    </div>
+
+    <div class="col footer__copy text-center">
+      &copy; 2018 ilonacodes
+    </div>
+
+    <div class="col footer__navlinks">
+      <div class="row">
+        
+          
+        
+          
+            <div class="footer-navlink col">
+  <a class="footer-navlink__link" href="/blog">
+    Blog
+  </a>
+</div>
+
+          
+        
+          
+            <div class="footer-navlink col">
+  <a class="footer-navlink__link" href="https://www.youtube.com/channel/UCZHUFhQTMcJVekb6KAqqtkg">
+    YouTube
+  </a>
+</div>
+
+          
+        
+          
+            <div class="footer-navlink col">
+  <a class="footer-navlink__link" href="mailto:ilona@ilonacodes.com">
+    Contact
+  </a>
+</div>
+
+          
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+    </div>
+  </div>
+</div>
+
+
+<link href="/reactions/css/main.5b828649.chunk.css" rel="stylesheet">
+
+
+<script>!function(l){function e(e){for(var r,t,n=e[0],o=e[1],u=e[2],f=0,i=[];f<n.length;f++)t=n[f],p[t]&&i.push(p[t][0]),p[t]=0;for(r in o)Object.prototype.hasOwnProperty.call(o,r)&&(l[r]=o[r]);for(s&&s(e);i.length;)i.shift()();return c.push.apply(c,u||[]),a()}function a(){for(var e,r=0;r<c.length;r++){for(var t=c[r],n=!0,o=1;o<t.length;o++){var u=t[o];0!==p[u]&&(n=!1)}n&&(c.splice(r--,1),e=f(f.s=t[0]))}return e}var t={},p={2:0},c=[];function f(e){if(t[e])return t[e].exports;var r=t[e]={i:e,l:!1,exports:{}};return l[e].call(r.exports,r,r.exports,f),r.l=!0,r.exports}f.m=l,f.c=t,f.d=function(e,r,t){f.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},f.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},f.t=function(r,e){if(1&e&&(r=f(r)),8&e)return r;if(4&e&&"object"==typeof r&&r&&r.__esModule)return r;var t=Object.create(null);if(f.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:r}),2&e&&"string"!=typeof r)for(var n in r)f.d(t,n,function(e){return r[e]}.bind(null,n));return t},f.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return f.d(r,"a",r),r},f.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},f.p="/";var r=window.webpackJsonp=window.webpackJsonp||[],n=r.push.bind(r);r.push=e,r=r.slice();for(var o=0;o<r.length;o++)e(r[o]);var s=n;a()}([])</script>
+
+
+<script src="/reactions/js/1.5d638bf5.chunk.js"></script>
+<script src="/reactions/js/main.0cd9b968.chunk.js"></script>
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+</div>
+    </body>
+</html>
