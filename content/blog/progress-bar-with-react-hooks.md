@@ -228,7 +228,7 @@ export const ProgressBarContainer = () => {
 };
 ```
 
-The last step to complete the web app is to import the functional `<ProgressBarComponent />` component to the class `<App />` component:
+The last step to complete the web app is to import the functional `<ProgressBarContainer />` component to the class `<App />` component:
 
 ```javascript
 // App.js
