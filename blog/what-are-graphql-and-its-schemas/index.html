@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html><head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# website: http://ogp.me/ns/website#">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+    <meta name="description" content="The last days I am spending time on learning [GraphQL](https://graphql.org/) and how its clients communicate between frontend and backend application parts.">
+    <meta property="og:title" content="What are GraphQL and its schemas">
+    
+    <meta property="og:type" content="article">
+    <meta property="article:published_time" content="2019-01-03">
+    
+    <meta property="og:description" content="The last days I am spending time on learning [GraphQL](https://graphql.org/) and how its clients communicate between frontend and backend application parts.">
+    <meta property="og:url" content="//www.ilonacodes.com/blog/what-are-graphql-and-its-schemas/">
+    <meta property="og:site_name" content="Ilona Who Codes">
+    
+    <meta property="og:tags" content="web">
+    
+    <meta property="og:tags" content="reactjs">
+    
+    <meta property="og:tags" content="javascript">
+    
+    <meta property="og:tags" content="graphql">
+    
+    <meta property="og:tags" content="tech">
+    
+    <meta name="generator" content="Hugo 0.44" />
+    <title>What are GraphQL and its schemas &middot; Ilona Who Codes</title>
+    
+    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/styles/default.min.css">
+    
+    <link rel="stylesheet" href="//www.ilonacodes.com/css/index.css">
+    
+    <link rel="icon" href="//www.ilonacodes.com/favicon.ico" />
+    
+
+    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
+    
+    
+</head>
+<body>
+      <div class="footer-wrapper">
+        <div class="container" id="content"><div class="navigation">
+	<div class="container">
+		<div class="row">
+			
+				
+
+
+  
+
+
+<div class="navlink col-12 col-md-6 navlink--main">
+  <a class="navlink__link" href="/">
+    ilonacodes
+  </a>
+</div>
+
+			
+				
+
+
+  
+
+
+<div class="navlink col">
+  <a class="navlink__link" href="/blog">
+    Blog
+  </a>
+</div>
+
+			
+				
+
+
+  
+
+
+<div class="navlink col">
+  <a class="navlink__link" href="https://www.youtube.com/channel/UCZHUFhQTMcJVekb6KAqqtkg">
+    YouTube
+  </a>
+</div>
+
+			
+				
+
+
+  
+
+
+<div class="navlink col">
+  <a class="navlink__link" href="mailto:ilona@ilonacodes.com">
+    Contact
+  </a>
+</div>
+
+			
+		</div>
+	</div>
+</div>
+
+  <div class="row">
+    <div class="col col-md-9">
+      <main>
+      	<article>
+      		<div class="post row">
+	<div class="post__meta-column col-3 d-none d-md-block">
+		<div class="row no-gutters post__meta-column__date">
+			
+			
+			
+			<div class="col text-center post__meta-column__day">
+				3
+			</div>
+			<div class="col">
+				<div class="post__meta-column__month">Jan</div>
+				<div class="post__meta-column__year">2019</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col post__meta-column__tags">
+				
+					
+					
+						<a href="/tags/web">
+							<div class="post__tag">
+								#web
+							</div>
+						</a>
+					
+						<a href="/tags/reactjs">
+							<div class="post__tag">
+								#reactjs
+							</div>
+						</a>
+					
+						<a href="/tags/javascript">
+							<div class="post__tag">
+								#javascript
+							</div>
+						</a>
+					
+						<a href="/tags/graphql">
+							<div class="post__tag">
+								#graphql
+							</div>
+						</a>
+					
+						<a href="/tags/tech">
+							<div class="post__tag">
+								#tech
+							</div>
+						</a>
+					
+				
+			</div>
+		</div>
+
+		
+		<div class="row justify-content-end">
+			<div class="col-auto">
+				<div class="post__reactions reactions-root" data-resource-id="//www.ilonacodes.com/blog/what-are-graphql-and-its-schemas/">
+</div>
+
+			</div>
+		</div>
+		
+	</div>
+
+	<div class="post__primary-column col col-md-8 col-lg-9">
+		
+			<h1 class="post__title">
+				What are GraphQL and its schemas
+			</h1>
+		
+
+		<div class="post__date d-md-none">
+			3 Jan, 2019
+		</div>
+
+		
+
+		<div class="post__body">
+      
+        <p>
+<figure>
+    
+        <img src="/blog/images/what-are-graphql-and-its-schemas.jpg" />
+    
+    
+    <figcaption>
+        <h4>source: Photo by Daniel Cheung on Unsplash</h4>
+        
+    </figcaption>
+    
+</figure>
+
+The last days I am spending time on learning <a href="https://graphql.org/">GraphQL</a> and how its clients communicate between frontend and backend application parts.</p>
+
+<p></p>
+
+<p>I understand there are already a lot of exciting posts and tutorials about that technology. However, I would like to share my experience and overviews about it in my Friday post today.</p>
+
+<p>Now I want just to take a moment, go over and answer the question: <strong>what is GraphQL indeed?</strong> It would be helpful to know if you have already heard about that but never worked with it.</p>
+
+<p>Let’s start with the description: GraphQL is a schema language for the API, and it’s also a service type of almost like middleware that sits between the actual web application and the communication to the backend data where this comes from.</p>
+
+<p>To define the API for GraphQL, at first you should create a schema based on the <strong>Schema Definition Language (SDL)</strong> syntax. Also, this schema is often seen as a contract between the server and the client.</p>
+
+<p>For example, I am going to use a GraphQL schema of <a href="https://github.com/graphql/swapi-graphql">SWAPI</a> (GraphQL API to get the information about the SW’s characters) to explain how the schema is structured:</p>
+
+<pre><code>type allPeople {
+    totalCount: Int!
+    people: [Person!]!
+}
+</code></pre>
+
+<p>As you see there are two fields, <strong>&lsquo;totalCount&rsquo;</strong> of <strong>Integer</strong> type and <strong>&lsquo;people&rsquo;</strong> that is an array of <strong>Person</strong> type objects. The <strong>‘!’</strong> points out that both fields are required and can’t be null.</p>
+
+<p>The second step is to explain the next entity called <strong>Person</strong>. It’s an object that contains many fields, but I will take only the first two fields as an example:</p>
+
+<pre><code>type Person {
+    name: String!
+    gender: String!
+}
+</code></pre>
+
+<p>Here the field values are strings. By default in GraphQL spec, the following Scalar types are predefined: Boolean, Integer, String, Float, and ID. There are also other types, but in the example, we have Object types, which based on the object with the custom properties like <strong>Person</strong>.</p>
+
+<p>In this way, we have the relationship between <strong>allPeople</strong> and <strong>Person</strong>.</p>
+
+<p>To fetch the data with the specific query from the server, we are going to use <strong>GraphiQL</strong> - the <a href="https://graphql.org/swapi-graphql/">GraphQL cloud client</a>. There you can read the short manual in comments on how to load the data from the server, then add the query below to the provided editor:</p>
+
+<pre><code>{
+  allPeople {
+    totalCount
+    people {
+      gender,
+      name
+    }
+  }
+}
+</code></pre>
+
+<p>And press <strong>&lsquo;Play&rsquo;</strong> button to send this query to the server, that should return a list of all characters of Star Wars as a JSON object:</p>
+
+<pre><code>{
+  &quot;data&quot;: {
+    &quot;allPeople&quot;: {
+      &quot;people&quot;: [
+        {
+          &quot;gender&quot;: &quot;male&quot;,
+          &quot;name&quot;: &quot;Luke Skywalker&quot;
+        },
+        {
+          &quot;gender&quot;: &quot;n/a&quot;,
+          &quot;name&quot;: &quot;C-3PO&quot;
+        },
+        {
+          &quot;gender&quot;: &quot;n/a&quot;,
+          &quot;name&quot;: &quot;R2-D2&quot;
+        },
+        {
+          &quot;gender&quot;: &quot;male&quot;,
+          &quot;name&quot;: &quot;Darth Vader&quot;
+        },
+        {
+          &quot;gender&quot;: &quot;female&quot;,
+          &quot;name&quot;: &quot;Leia Organa&quot;
+        },
+…
+}
+</code></pre>
+
+<p>Comparing to the REST API approach, which has multiple endpoints and returns fixed data structure, GraphQL API has only single endpoint because the data structure is flexible and allows a frontend client to decide what the kind of the data should be fetched.</p>
+
+<p>The client can query the nested information too following the structure of the types to request the required data. That is a massive advantage of the GraphQL API.</p>
+
+<p>As soon as the schema is defined (created a public contract with a clean public API), that allows frontend and backend teams work without fear to change implementation details either on front-end or back-end without breaking the system stability.</p>
+
+<p>Another benefit is, the frontend teams would be able to test the web application with the mocked up data and then easily load the data from the real server.</p>
+
+<p>You can also learn more about GraphQL as well as searching for best practices which problems GraphQL helps solving.</p>
+
+<p><strong>Thank you for reading!</strong></p>
+
+<p>I hope you will find this post useful to try GraphQL and even to dive into this topic more in-depth.</p>
+
+<p>Want to dive deeper into software development? Watch and subscribe for the upcoming “From Frontend to Fullstack Engineer” series on my <a href="https://www.youtube.com/channel/UCZHUFhQTMcJVekb6KAqqtkg">YouTube channel</a>.</p>
+
+<p>Code your best, ilonacodes</p>
+      
+		</div>
+
+    
+
+		
+			<div class="post__reactions reactions-root" data-resource-id="//www.ilonacodes.com/blog/what-are-graphql-and-its-schemas/">
+</div>
+
+		
+
+		<div class="post__tags d-md-none">
+			
+				Tags |
+				
+				
+					<a href="/tags/web">
+						<span class="post__tag">
+							#web
+						</span>
+					</a>
+				
+					<a href="/tags/reactjs">
+						<span class="post__tag">
+							#reactjs
+						</span>
+					</a>
+				
+					<a href="/tags/javascript">
+						<span class="post__tag">
+							#javascript
+						</span>
+					</a>
+				
+					<a href="/tags/graphql">
+						<span class="post__tag">
+							#graphql
+						</span>
+					</a>
+				
+					<a href="/tags/tech">
+						<span class="post__tag">
+							#tech
+						</span>
+					</a>
+				
+			
+		</div>
+	</div>
+</div>
+
+
+      	</article>
+
+        <div class="next-article">
+          
+            <a href="//www.ilonacodes.com/blog/progress-bar-with-react-hooks/">
+              Next: Let’s implement: Progress Bar With React Hooks
+            </a>
+          
+        </div>
+      </main>
+    </div>
+
+    <div class="col-md-3 col-12 ">
+  <div class="row">
+	<div class="profile-photo offset-1 col-10">
+		<a href="/">
+			<img class="profile-photo__image" src="/img/ilona_2.jpg" />
+		</a>
+	</div>
+</div>
+
+
+  <div class="text-center">
+    Ilona who codes
+    <br/>
+    Frontend Engineer in Berlin
+    <br/>
+    M.Sc in Media CS
+    <br/>
+    <br/>
+    <i>&#34;I like to work hard for things that are worth it.&#34;</i>
+  </div>
+
+  <div class="latest-articles">
+    <div class="latest-articles__title">
+      The latest articles:
+    </div>
+
+    
+      <div class="latest-articles__article">
+        <a class="latest-articles__link" href="//www.ilonacodes.com/blog/what-are-graphql-and-its-schemas/">
+          What are GraphQL and its schemas
+        </a>
+      </div>
+    
+      <div class="latest-articles__article">
+        <a class="latest-articles__link" href="//www.ilonacodes.com/blog/progress-bar-with-react-hooks/">
+          Let’s implement: Progress Bar With React Hooks
+        </a>
+      </div>
+    
+      <div class="latest-articles__article">
+        <a class="latest-articles__link" href="//www.ilonacodes.com/blog/hacking-user-testing-with-reactjs/">
+          Hacking User Testing With ReactJS
+        </a>
+      </div>
+    
+  </div>
+  <br/>
+  
+</div>
+
+  </div>
+
+        </div><div class="footer">
+  <div class="container footer__container">
+    <div class="row">
+      <div class="col-8 footer__center d-md-none">
+  <div class="row no-gutters footer__row">
+    
+      <div class="col text-center">
+        <a class="footer__socialLink" href="https://github.com/ilonacodes">
+          <i class="footer__socialIcon fab fa-github"></i>
+        </a>
+      </div>
+    
+      <div class="col text-center">
+        <a class="footer__socialLink" href="https://instagram.com/ilonacodes">
+          <i class="footer__socialIcon fab fa-instagram"></i>
+        </a>
+      </div>
+    
+      <div class="col text-center">
+        <a class="footer__socialLink" href="https://twitter.com/ilonacodes">
+          <i class="footer__socialIcon fab fa-twitter-square"></i>
+        </a>
+      </div>
+    
+      <div class="col text-center">
+        <a class="footer__socialLink" href="https://medium.com/@ilonacodes">
+          <i class="footer__socialIcon fab fa-medium"></i>
+        </a>
+      </div>
+    
+      <div class="col text-center">
+        <a class="footer__socialLink" href="https://dribbble.com/ilonacodes">
+          <i class="footer__socialIcon fab fa-dribbble"></i>
+        </a>
+      </div>
+    
+  </div>
+
+  <div class="row no-gutters footer__row">
+    
+      
+    
+      
+        <div class="footer-navlink col">
+  <a class="footer-navlink__link" href="/blog">
+    Blog
+  </a>
+</div>
+
+      
+    
+      
+        <div class="footer-navlink col">
+  <a class="footer-navlink__link" href="https://www.youtube.com/channel/UCZHUFhQTMcJVekb6KAqqtkg">
+    YouTube
+  </a>
+</div>
+
+      
+    
+      
+        <div class="footer-navlink col">
+  <a class="footer-navlink__link" href="mailto:ilona@ilonacodes.com">
+    Contact
+  </a>
+</div>
+
+      
+    
+  </div>
+
+  <div class="row footer__row footer__copy">
+    <div class="col text-center">
+      &copy; 2019 ilonacodes
+    </div>
+  </div>
+</div>
+
+      <div class="col-12 d-none d-md-block">
+  <div class="row">
+    <div class="col">
+      <div class="row no-gutters">
+        
+          <div class="col text-center">
+            <a class="footer__socialLink" href="https://github.com/ilonacodes">
+              <i class="footer__socialIcon fab fa-github"></i>
+            </a>
+          </div>
+        
+          <div class="col text-center">
+            <a class="footer__socialLink" href="https://instagram.com/ilonacodes">
+              <i class="footer__socialIcon fab fa-instagram"></i>
+            </a>
+          </div>
+        
+          <div class="col text-center">
+            <a class="footer__socialLink" href="https://twitter.com/ilonacodes">
+              <i class="footer__socialIcon fab fa-twitter-square"></i>
+            </a>
+          </div>
+        
+          <div class="col text-center">
+            <a class="footer__socialLink" href="https://medium.com/@ilonacodes">
+              <i class="footer__socialIcon fab fa-medium"></i>
+            </a>
+          </div>
+        
+          <div class="col text-center">
+            <a class="footer__socialLink" href="https://dribbble.com/ilonacodes">
+              <i class="footer__socialIcon fab fa-dribbble"></i>
+            </a>
+          </div>
+        
+      </div>
+    </div>
+
+    <div class="col footer__copy text-center">
+      &copy; 2019 ilonacodes
+    </div>
+
+    <div class="col footer__navlinks">
+      <div class="row">
+        
+          
+        
+          
+            <div class="footer-navlink col">
+  <a class="footer-navlink__link" href="/blog">
+    Blog
+  </a>
+</div>
+
+          
+        
+          
+            <div class="footer-navlink col">
+  <a class="footer-navlink__link" href="https://www.youtube.com/channel/UCZHUFhQTMcJVekb6KAqqtkg">
+    YouTube
+  </a>
+</div>
+
+          
+        
+          
+            <div class="footer-navlink col">
+  <a class="footer-navlink__link" href="mailto:ilona@ilonacodes.com">
+    Contact
+  </a>
+</div>
+
+          
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+    </div>
+  </div>
+</div>
+
+
+<link href="/reactions/css/main.5b828649.chunk.css" rel="stylesheet">
+
+
+<script>!function(l){function e(e){for(var r,t,n=e[0],o=e[1],u=e[2],f=0,i=[];f<n.length;f++)t=n[f],p[t]&&i.push(p[t][0]),p[t]=0;for(r in o)Object.prototype.hasOwnProperty.call(o,r)&&(l[r]=o[r]);for(s&&s(e);i.length;)i.shift()();return c.push.apply(c,u||[]),a()}function a(){for(var e,r=0;r<c.length;r++){for(var t=c[r],n=!0,o=1;o<t.length;o++){var u=t[o];0!==p[u]&&(n=!1)}n&&(c.splice(r--,1),e=f(f.s=t[0]))}return e}var t={},p={2:0},c=[];function f(e){if(t[e])return t[e].exports;var r=t[e]={i:e,l:!1,exports:{}};return l[e].call(r.exports,r,r.exports,f),r.l=!0,r.exports}f.m=l,f.c=t,f.d=function(e,r,t){f.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},f.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},f.t=function(r,e){if(1&e&&(r=f(r)),8&e)return r;if(4&e&&"object"==typeof r&&r&&r.__esModule)return r;var t=Object.create(null);if(f.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:r}),2&e&&"string"!=typeof r)for(var n in r)f.d(t,n,function(e){return r[e]}.bind(null,n));return t},f.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return f.d(r,"a",r),r},f.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},f.p="/";var r=window.webpackJsonp=window.webpackJsonp||[],n=r.push.bind(r);r.push=e,r=r.slice();for(var o=0;o<r.length;o++)e(r[o]);var s=n;a()}([])</script>
+
+
+<script src="/reactions/js/1.5d638bf5.chunk.js"></script>
+<script src="/reactions/js/main.0cd9b968.chunk.js"></script>
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+</div>
+    </body>
+</html>

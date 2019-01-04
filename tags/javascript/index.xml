@@ -6,10 +6,34 @@
     <description>Recent content in Javascript on Ilona Who Codes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 28 Dec 2018 10:40:05 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 03 Jan 2019 10:40:05 +0100</lastBuildDate>
     
 	<atom:link href="//www.ilonacodes.com/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>What are GraphQL and its schemas</title>
+      <link>//www.ilonacodes.com/blog/what-are-graphql-and-its-schemas/</link>
+      <pubDate>Thu, 03 Jan 2019 10:40:05 +0100</pubDate>
+      
+      <guid>//www.ilonacodes.com/blog/what-are-graphql-and-its-schemas/</guid>
+      <description>&lt;p&gt;
+&lt;figure&gt;
+    
+        &lt;img src=&#34;//www.ilonacodes.com/blog/images/what-are-graphql-and-its-schemas.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;source: Photo by Daniel Cheung on Unsplash&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+The last days I am spending time on learning &lt;a href=&#34;https://graphql.org/&#34;&gt;GraphQL&lt;/a&gt; and how its clients communicate between frontend and backend application parts.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Let’s implement: Progress Bar With React Hooks</title>
