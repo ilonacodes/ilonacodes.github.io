@@ -1,7 +1,7 @@
 +++
 css = []
 highlight = true
-date = "2019-01-03T10:40:05+01:00"
+date = "2019-01-04T10:40:05+01:00"
 cover = "/blog/images/what-are-graphql-and-its-schemas.jpg"
 title = "What are GraphQL and its schemas"
 tags = ["web", "reactjs", "javascript", "graphql", "tech"]
