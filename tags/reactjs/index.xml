@@ -6,10 +6,34 @@
     <description>Recent content in Reactjs on Ilona Who Codes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 04 Jan 2019 10:40:05 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 11 Jan 2019 10:40:05 +0100</lastBuildDate>
     
 	<atom:link href="//www.ilonacodes.com/tags/reactjs/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Harnessing the power of Bootstrap in React with Reactstrap</title>
+      <link>//www.ilonacodes.com/blog/harnessing-the-power-of-bootstrap-in-react-with-reactstrap/</link>
+      <pubDate>Fri, 11 Jan 2019 10:40:05 +0100</pubDate>
+      
+      <guid>//www.ilonacodes.com/blog/harnessing-the-power-of-bootstrap-in-react-with-reactstrap/</guid>
+      <description>&lt;p&gt;
+&lt;figure&gt;
+    
+        &lt;img src=&#34;//www.ilonacodes.com/blog/images/reactstrap.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;source: bit.ly/2TJDcVt&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+Nowadays there are a lot of UI frameworks for React like Bootstrap, UIKit, Semantic UI and so on. Depending on the project complexity and requirements, you decide which front-end framework would be used because the main reason is to ease your development process.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>What are GraphQL and its schemas</title>
