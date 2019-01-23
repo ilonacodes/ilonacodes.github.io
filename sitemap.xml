@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>//www.ilonacodes.com/blog/styling-form-with-different-states-and-storybook/</loc>
+    <lastmod>2019-01-19T10:40:05+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>//www.ilonacodes.com/blog/harnessing-the-power-of-bootstrap-in-react-with-reactstrap/</loc>
     <lastmod>2019-01-11T10:40:05+01:00</lastmod>
   </url>
@@ -320,7 +325,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/blog/</loc>
-    <lastmod>2019-01-11T10:40:05+01:00</lastmod>
+    <lastmod>2019-01-19T10:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -535,7 +540,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/</loc>
-    <lastmod>2019-01-11T10:40:05+01:00</lastmod>
+    <lastmod>2019-01-19T10:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -565,7 +570,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/tags/javascript/</loc>
-    <lastmod>2019-01-04T10:40:05+01:00</lastmod>
+    <lastmod>2019-01-19T10:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -733,7 +738,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/tags/reactjs/</loc>
-    <lastmod>2019-01-11T10:40:05+01:00</lastmod>
+    <lastmod>2019-01-19T10:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -787,7 +792,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/tags/storybook/</loc>
-    <lastmod>2018-04-18T12:00:05+01:00</lastmod>
+    <lastmod>2019-01-19T10:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -817,7 +822,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/tags/tech/</loc>
-    <lastmod>2019-01-11T10:40:05+01:00</lastmod>
+    <lastmod>2019-01-19T10:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -859,7 +864,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/tags/web/</loc>
-    <lastmod>2019-01-11T10:40:05+01:00</lastmod>
+    <lastmod>2019-01-19T10:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   

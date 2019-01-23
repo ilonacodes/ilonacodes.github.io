@@ -6,10 +6,34 @@
     <description>Recent content in Web on Ilona Who Codes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 11 Jan 2019 10:40:05 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 19 Jan 2019 10:40:05 +0100</lastBuildDate>
     
 	<atom:link href="//www.ilonacodes.com/tags/web/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Styling Form With Different States And Storybook</title>
+      <link>//www.ilonacodes.com/blog/styling-form-with-different-states-and-storybook/</link>
+      <pubDate>Sat, 19 Jan 2019 10:40:05 +0100</pubDate>
+      
+      <guid>//www.ilonacodes.com/blog/styling-form-with-different-states-and-storybook/</guid>
+      <description>&lt;p&gt;
+&lt;figure&gt;
+    
+        &lt;img src=&#34;//www.ilonacodes.com/blog/images/styling-storybook.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;source: Photo by Goran Ivos on Unsplash&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+There are a lot of different and efficient ways how to improve web app development speed while implementing and testing new features. One of them is to be able to reuse UI components.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Harnessing the power of Bootstrap in React with Reactstrap</title>
