@@ -309,16 +309,16 @@ h1, .h1 {
   font-size: 2.4rem; }
 
 h2, .h2 {
-  font-size: 2.4rem; }
-
-h3, .h3 {
   font-size: 2.1rem; }
 
-h4, .h4 {
+h3, .h3 {
   font-size: 1.8rem; }
 
-h5, .h5 {
+h4, .h4 {
   font-size: 1.5rem; }
+
+h5, .h5 {
+  font-size: 1.32rem; }
 
 h6, .h6 {
   font-size: 1.2rem; }
@@ -6337,7 +6337,7 @@ a.text-dark:hover, a.text-dark:focus {
     margin-top: 10px; }
     .navlink--main .navlink__link {
       font-weight: 400;
-      font-size: 2.1rem;
+      font-size: 1.8rem;
       color: #F20094; }
   @media (min-width: 768px) {
     .navlink {
@@ -6367,6 +6367,8 @@ img {
   .post .post__body {
     margin-top: 15px;
     text-align: justify; }
+    .post .post__body h1, .post .post__body h2, .post .post__body h3, .post .post__body h4, .post .post__body h5, .post .post__body h6 {
+      text-align: initial; }
   .post .post__reactions {
     margin-bottom: 15px; }
   .post .post__read-full {
@@ -6383,7 +6385,7 @@ img {
     color: #FFFFFF;
     padding: 3px; }
   .post .post__meta-column__day {
-    font-size: 2.4rem; }
+    font-size: 2.1rem; }
   .post .post__meta-column__tags {
     margin-top: 15px;
     text-align: right;
@@ -6391,7 +6393,7 @@ img {
 
 .main-page h2 {
   text-align: center;
-  font-size: 2.1rem;
+  font-size: 1.8rem;
   margin-top: 30px;
   margin-bottom: 30px; }
 

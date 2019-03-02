@@ -6,10 +6,34 @@
     <description>Recent content in Blogs on Ilona Who Codes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 19 Jan 2019 10:40:05 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 02 Mar 2019 10:40:05 +0100</lastBuildDate>
     
 	<atom:link href="//www.ilonacodes.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>What is the importance of committing mistakes?</title>
+      <link>//www.ilonacodes.com/blog/what-is-the-importance-of-committing-mistakes/</link>
+      <pubDate>Sat, 02 Mar 2019 10:40:05 +0100</pubDate>
+      
+      <guid>//www.ilonacodes.com/blog/what-is-the-importance-of-committing-mistakes/</guid>
+      <description>&lt;p&gt;
+&lt;figure&gt;
+    
+        &lt;img src=&#34;//www.ilonacodes.com/blog/images/importance-of-committing-mistakes.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;source: Photo by Raj Eiamworakul on Unsplash&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+It is a well-known fact that all human beings are different and unique in their ways. However, no matter how unique and different we are from one another, one thing which remains the same between all of us is our innate nature to commit mistakes.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Styling Form With Different States And Storybook</title>

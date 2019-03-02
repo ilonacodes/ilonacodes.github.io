@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>//www.ilonacodes.com/blog/what-is-the-importance-of-committing-mistakes/</loc>
+    <lastmod>2019-03-02T10:40:05+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>//www.ilonacodes.com/blog/styling-form-with-different-states-and-storybook/</loc>
     <lastmod>2019-01-19T10:40:05+01:00</lastmod>
   </url>
@@ -325,7 +330,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/blog/</loc>
-    <lastmod>2019-01-19T10:40:05+01:00</lastmod>
+    <lastmod>2019-03-02T10:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -343,7 +348,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/tags/careers/</loc>
-    <lastmod>2018-05-13T07:00:05+01:00</lastmod>
+    <lastmod>2019-03-02T10:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -509,6 +514,12 @@
   </url>
   
   <url>
+    <loc>//www.ilonacodes.com/tags/goals/</loc>
+    <lastmod>2019-03-02T10:40:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>//www.ilonacodes.com/tags/graphql/</loc>
     <lastmod>2019-01-04T10:40:05+01:00</lastmod>
     <priority>0</priority>
@@ -540,7 +551,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/</loc>
-    <lastmod>2019-01-19T10:40:05+01:00</lastmod>
+    <lastmod>2019-03-02T10:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -678,7 +689,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/tags/motivation/</loc>
-    <lastmod>2018-10-21T08:40:05+01:00</lastmod>
+    <lastmod>2019-03-02T10:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -708,7 +719,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/tags/productivity/</loc>
-    <lastmod>2018-08-20T06:00:05+01:00</lastmod>
+    <lastmod>2019-03-02T10:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -804,7 +815,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/tags/success/</loc>
-    <lastmod>2018-08-15T06:00:05+01:00</lastmod>
+    <lastmod>2019-03-02T10:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   

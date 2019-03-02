@@ -10,7 +10,7 @@ $C: post;
 
   .#{$C}__title__link {
     color: $headings-color;
-    font-size: $h3-font-size;
+    font-size: $h2-font-size;
   }
 
   .#{$C}__date {
@@ -20,6 +20,10 @@ $C: post;
   .#{$C}__body {
     margin-top: 15px;
     text-align: justify;
+
+    h1, h2, h3, h4, h5, h6 {
+      text-align: initial;
+    }
   }
 
   .#{$C}__reactions {
