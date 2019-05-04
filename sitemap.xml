@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>//www.ilonacodes.com/legal/privacy_policy/</loc>
+    <lastmod>2019-05-04T07:00:06+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//www.ilonacodes.com/legal/imprint/</loc>
+    <lastmod>2019-05-04T07:00:05+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>//www.ilonacodes.com/blog/what-is-the-importance-of-committing-mistakes/</loc>
     <lastmod>2019-03-02T10:40:05+01:00</lastmod>
   </url>
@@ -561,7 +571,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/</loc>
-    <lastmod>2019-03-02T10:40:05+01:00</lastmod>
+    <lastmod>2019-05-04T07:00:06+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -628,6 +638,12 @@
   <url>
     <loc>//www.ilonacodes.com/tags/learntocode/</loc>
     <lastmod>2018-04-18T12:00:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.ilonacodes.com/legal/</loc>
+    <lastmod>2019-05-04T07:00:06+01:00</lastmod>
     <priority>0</priority>
   </url>
   
