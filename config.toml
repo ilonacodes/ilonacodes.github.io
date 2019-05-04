@@ -58,10 +58,10 @@ theme = "ilonacodes-2018"
 	iconClass = "fab fa-twitter-square"
 	url = "https://twitter.com/ilonacodes"
 
-[[params.footer.socialLinks]]
-	iconClass = "fab fa-medium"
-	url = "https://medium.com/@ilonacodes"
+[[params.footer.navlinks]]
+	title = "Imprint"
+	url = "/legal/imprint"
 
-[[params.footer.socialLinks]]
-	iconClass = "fab fa-dribbble"
-	url = "https://dribbble.com/ilonacodes"
+[[params.footer.navlinks]]
+	title = "Privacy Policy"
+	url = "/legal/privacy_policy"

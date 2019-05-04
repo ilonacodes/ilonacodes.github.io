@@ -1,0 +1,21 @@
+<div class="post row">
+	<div class="post__primary-column col col-md-8 col-lg-9">
+		{{ if .isSingle }}
+			<h1 class="post__title">
+				{{ .context.Title }}
+			</h1>
+		{{ else }}
+			<h2 class="post__title">
+				<a class="post__title__link" href="{{ .context.Permalink }}">
+					{{ .context.Title }}
+				</a>
+			</h2>
+		{{ end }}
+		
+		{{ if .isSingle }}
+			<div class="post__body">
+	      {{.context.Content}}
+			</div>
+		{{ end }}
+	</div>
+</div>

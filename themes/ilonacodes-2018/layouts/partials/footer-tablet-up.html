@@ -18,7 +18,7 @@
 
     <div class="col footer__navlinks">
       <div class="row">
-        {{ range .Site.Params.navlinks }}
+        {{ range .Site.Params.footer.navlinks }}
           {{ if not (isset . "main") }}
             {{ partial "footer-navlink" . }}
           {{ end }}

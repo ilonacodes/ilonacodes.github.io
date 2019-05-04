@@ -10,7 +10,7 @@
   </div>
 
   <div class="row no-gutters footer__row">
-    {{ range .Site.Params.navlinks }}
+    {{ range .Site.Params.footer.navlinks }}
       {{ if not (isset . "main") }}
         {{ partial "footer-navlink" . }}
       {{ end }}
