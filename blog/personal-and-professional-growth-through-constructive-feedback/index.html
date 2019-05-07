@@ -3,28 +3,28 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-    <meta name="description" content="The last days I am working on the project, which should include the state machine. Implementing this project with React, I decided to use the Redux framework to manage state in my React application. Moreover, thanks to redux store we can debug data (in one place) easily.">
-    <meta property="og:title" content="Simple State Machine with Redux">
+    <meta name="description" content="If you are constantly questioning yourself about your personal and professional growth that means you are already off to a great start!">
+    <meta property="og:title" content="Personal and Professional Growth Through Constructive Feedback">
     
     <meta property="og:type" content="article">
-    <meta property="article:published_time" content="2018-10-02">
+    <meta property="article:published_time" content="2019-05-07">
     
-    <meta property="og:description" content="The last days I am working on the project, which should include the state machine. Implementing this project with React, I decided to use the Redux framework to manage state in my React application. Moreover, thanks to redux store we can debug data (in one place) easily.">
-    <meta property="og:url" content="//www.ilonacodes.com/blog/simple-state-machine-with-redux/">
+    <meta property="og:description" content="If you are constantly questioning yourself about your personal and professional growth that means you are already off to a great start!">
+    <meta property="og:url" content="//www.ilonacodes.com/blog/personal-and-professional-growth-through-constructive-feedback/">
     <meta property="og:site_name" content="Ilona Who Codes">
     
-    <meta property="og:tags" content="data">
+    <meta property="og:tags" content="goals">
     
-    <meta property="og:tags" content="react">
+    <meta property="og:tags" content="careers">
     
-    <meta property="og:tags" content="javascript">
+    <meta property="og:tags" content="productivity">
     
-    <meta property="og:tags" content="redux">
+    <meta property="og:tags" content="motivation">
     
-    <meta property="og:tags" content="tech">
+    <meta property="og:tags" content="success">
     
     <meta name="generator" content="Hugo 0.44" />
-    <title>Simple State Machine with Redux &middot; Ilona Who Codes</title>
+    <title>Personal and Professional Growth Through Constructive Feedback &middot; Ilona Who Codes</title>
     
     
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/styles/default.min.css">
@@ -111,11 +111,11 @@
 			
 			
 			<div class="col text-center post__meta-column__day">
-				2
+				7
 			</div>
 			<div class="col">
-				<div class="post__meta-column__month">Oct</div>
-				<div class="post__meta-column__year">2018</div>
+				<div class="post__meta-column__month">May</div>
+				<div class="post__meta-column__year">2019</div>
 			</div>
 		</div>
 
@@ -124,33 +124,33 @@
 				
 					
 					
-						<a href="/tags/data">
+						<a href="/tags/goals">
 							<div class="post__tag">
-								#data
+								#goals
 							</div>
 						</a>
 					
-						<a href="/tags/react">
+						<a href="/tags/careers">
 							<div class="post__tag">
-								#react
+								#careers
 							</div>
 						</a>
 					
-						<a href="/tags/javascript">
+						<a href="/tags/productivity">
 							<div class="post__tag">
-								#javascript
+								#productivity
 							</div>
 						</a>
 					
-						<a href="/tags/redux">
+						<a href="/tags/motivation">
 							<div class="post__tag">
-								#redux
+								#motivation
 							</div>
 						</a>
 					
-						<a href="/tags/tech">
+						<a href="/tags/success">
 							<div class="post__tag">
-								#tech
+								#success
 							</div>
 						</a>
 					
@@ -161,7 +161,7 @@
 		
 		<div class="row justify-content-end">
 			<div class="col-auto">
-				<div class="post__reactions reactions-root" data-resource-id="//www.ilonacodes.com/blog/simple-state-machine-with-redux/">
+				<div class="post__reactions reactions-root" data-resource-id="//www.ilonacodes.com/blog/personal-and-professional-growth-through-constructive-feedback/">
 </div>
 
 			</div>
@@ -172,105 +172,77 @@
 	<div class="post__primary-column col col-md-8 col-lg-9">
 		
 			<h1 class="post__title">
-				Simple State Machine with Redux
+				Personal and Professional Growth Through Constructive Feedback
 			</h1>
 		
 
 		<div class="post__date d-md-none">
-			2 Oct, 2018
+			7 May, 2019
 		</div>
 
 		
 
 		<div class="post__body">
       
-        <figure>
+        <p>
+<figure>
     
-        <img src="/blog/simple-state-machine-with-redux.jpeg" />
+        <img src="/blog/images/p-p-growth-feedback.jpg" />
     
     
     <figcaption>
-        <h4>https://bit.ly/2wIeeNU</h4>
+        <h4>source: Photo by Adam Jang on Unsplash</h4>
         
     </figcaption>
     
 </figure>
 
-
-<p>The last days I am working on the project, which should include the state machine. Implementing this project with React, I decided to use the Redux framework to manage state in my React application. Moreover, thanks to redux store we can debug data (in one place) easily.</p>
+If you are constantly questioning yourself about your personal and professional growth that means you are already off to a great start!</p>
 
 <p></p>
 
-<p>At first, I thought how to structure the data (a nested array of states and of its transitions — switching from one state to another. ). As result, I found that I will have only one state to manage all state transitions via the action type ‘MAKE_TRANSITION’ that will trigger a transition and provide different behaviour for the same action depending on current state. The current state changes by id, switching to the nextState of the transition.</p>
+<p>If you are constantly questioning yourself about your personal and professional growth that means you are already off to a great start!</p>
 
-<p>Below, I have put the example of the data stored as an initial state of the reducer with the description afterward:</p>
+<p>We all have concerns about ourselves. Sometimes, we cannot evaluate our current state of personal and professional development. Either we overestimate or underestimate our progress. And it&rsquo;s normal because we are always seeking balance in life.</p>
 
-<pre><code class="language-javascript">const initState = {
-    currentState: 'greeting',
-    states: [
-        {
-            id: 'greeting',
-            payload: {...},
-            transitions: [
-                {
-                    trigger: {...},
-                    nextState: 'do-you-like-to-start'
-                }
-            ]
-        },
-        {
-           id: 'do-you-like-to-start',
-           payload: {...},
+<p>A great software engineer is a good problem-solver and a good team-player, who will generously share their knowledge and help other software developers improve themselves. They value team achievement over personal achievement which means they help teammates when they stuck and take criticism as well. There are a lot of ways to improve your personal and professional growth as a software engineer.</p>
 
-           transitions: [
-               {
-                    trigger: {...},
-                    nextState: 'ask-for-name'
-               },
-               {
-                    trigger: {...},
-                    nextState: 'more-details'
-               }
-           ]
-        },
-    ]
-}
-</code></pre>
+<p>And the most important one is an opportunity to receive constructive feedback.</p>
 
-<p><strong>currentState:</strong> the state the application is currently in</p>
+<h2 id="feedback-from-team">Feedback from Team</h2>
 
-<p><strong>states:</strong> contains all possible states of the state machine</p>
+<p>I have been working in a cross-functional team by following scrum methodology. Every two weeks we run a sprint retrospective in &ldquo;Start-Stop-Continue&rdquo; format.</p>
 
-<p><strong>id:</strong> the identifier of the state</p>
+<p>The idea behind this format is that the team will have the chance to recognize the achievements and mistakes we made during the sprint.</p>
 
-<p><strong>transitions:</strong> allow to make the next logical move to the nextState</p>
+<p>Usually, we collectively answer the questions: What should we start/continue/stop doing in the next sprints?</p>
 
-<p><strong>payload:</strong> touched data to each state for state machine</p>
+<p>In these cases, first, it is about bad habits that should be just broken (STOP) or good ideas that we didn&rsquo;t follow up to, whereas we should have (START). This format is also about reaching success, confirming patterns and behaviors that led to good results (CONTINUE).</p>
 
-<p><strong>trigger:</strong> when transition should happen</p>
+<h2 id="feedback-from-dev-team">Feedback from Dev Team</h2>
 
-<pre><code class="language-javascript">case t.MAKE_TRANSITION:
-    return {
-        ...state,
-        currentState: action.nextState
-    }
-</code></pre>
+<p>Despite that software engineers write code, read the code of others, they also get constructive feedback on their code from a team. It&rsquo;s impossible to know everything and predict all the crucial consequences of the code contribution for the product. Each time it may be missed something.</p>
 
-<p>Above you see the implementation of the reducer with the “MAKE_TRANSITION” action.</p>
+<p>Moreover, code contributors can learn from a provided code review, because it&rsquo;s more about catching and fixing errors if it does right, then it strengthens the skills and increases the knowledge of the development team.</p>
 
-<p>That’s it. Thank you for reading! I hope you liked the possible data representation of the state machine. If you have any questions be free to contact me per <a href="mailto:ilona@ilonacodes.com">email</a>, <a href="https://twitter.com/ilonacodes">Twitter</a> or <a href="https://www.instagram.com/ilonacodes/">Instagram</a>.</p>
+<p>There is absolutely no shame in accepting suggestions from other team members to improve code quality. And of course, offering the same when you are acting as a reviewer. Because together we make things better than we could do it on our own.</p>
 
-<p><br>
-Cheers,</p>
+<h2 id="feedback-from-manager">Feedback from Manager</h2>
 
-<p>ilonacodes</p>
+<p>Good team leaders/managers should understand and know the current mental state, priorities, and concerns of team members. The best opportunity for that is a biweekly one-on-one feedback session with everyone from a team. During this meeting, a team leader/manager can not only understand the problems of the person but also identify the problems in a team and help a team to overcome them.</p>
+
+<p>Indeed, gathering feedback about team performance, encouraging openness and honesty, building trust is these things that will pay off later as a result. Instead of protecting themselves and their interests, a team will focus on improving team collaboration, solving causing problems together, productivity and attaining common goals.</p>
+
+<p>I am lucky to work at <a href="https://www.zenjob.de/">Zenjob</a> where I can grow personally and professionally through teamwork, ongoing feedbacks, the flat hierarchy between employees and managers, also have flexible hours and a lot of learning opportunities.</p>
+
+<p>Do you want to supercharge your career and become a part of the supportive and ambitious team at the fast-growing and innovative startup in Berlin - the heart of Europe? Check out our job openings: <a href="https://zenjob.teamtailor.com/jobs">we are hiring!</a></p>
       
 		</div>
 
     
 
 		
-			<div class="post__reactions reactions-root" data-resource-id="//www.ilonacodes.com/blog/simple-state-machine-with-redux/">
+			<div class="post__reactions reactions-root" data-resource-id="//www.ilonacodes.com/blog/personal-and-professional-growth-through-constructive-feedback/">
 </div>
 
 		
@@ -280,33 +252,33 @@ Cheers,</p>
 				Tags |
 				
 				
-					<a href="/tags/data">
+					<a href="/tags/goals">
 						<span class="post__tag">
-							#data
+							#goals
 						</span>
 					</a>
 				
-					<a href="/tags/react">
+					<a href="/tags/careers">
 						<span class="post__tag">
-							#react
+							#careers
 						</span>
 					</a>
 				
-					<a href="/tags/javascript">
+					<a href="/tags/productivity">
 						<span class="post__tag">
-							#javascript
+							#productivity
 						</span>
 					</a>
 				
-					<a href="/tags/redux">
+					<a href="/tags/motivation">
 						<span class="post__tag">
-							#redux
+							#motivation
 						</span>
 					</a>
 				
-					<a href="/tags/tech">
+					<a href="/tags/success">
 						<span class="post__tag">
-							#tech
+							#success
 						</span>
 					</a>
 				
@@ -320,8 +292,8 @@ Cheers,</p>
 
         <div class="next-article">
           
-            <a href="//www.ilonacodes.com/blog/why-formik-with-react/">
-              Next: Why Formik With React
+            <a href="//www.ilonacodes.com/blog/what-is-the-importance-of-committing-mistakes/">
+              Next: What is the importance of committing mistakes?
             </a>
           
         </div>
