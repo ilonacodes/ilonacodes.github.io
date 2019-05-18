@@ -1,0 +1,186 @@
+$C: lp;
+
+$lp-background: white;
+$lp-text: #808080;
+$lp-alternative: black;
+$lp-cta-color: white;
+$lp-light: #A9A9A9;
+$lp-gray: #606060;
+
+$lp-primary-font: comic sans ms, marker felt-thin, arial, sans-serif;
+
+.#{$C}__outer {
+  min-height: 100vh;
+  background-position: center center;
+}
+
+.#{$C}__wrapper {
+  padding: 54px 0;
+}
+
+.#{$C} {
+  background-color: $lp-background;
+  max-width: 780px;
+  text-align: center;
+  line-height: 1.5;
+  letter-spacing: normal;
+  padding: 36px;
+
+  &__emoji-logo {
+    font-size: 46px;
+  }
+
+  &__headline {
+    font-family: $lp-primary-font;
+    font-size: 46px;
+    color: $primary-color;
+    font-weight: 700;
+    line-height: 1.4;
+  }
+
+  &__subheadline {
+    font-family: $lp-primary-font;
+    color: $lp-text;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-top: 2.5rem;
+  }
+
+  &__question {
+    font-family: $lp-primary-font;
+    color: $lp-alternative;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-top: 2.5rem;
+
+    strong {
+      color: $primary-color;
+    }
+  }
+
+  &__question--large {
+    font-size: 40px;
+  }
+
+  &__form {
+    font-family: $lp-primary-font;
+    max-width: 50%;
+    margin: 2.5rem auto;
+
+    @include media-breakpoint-down(sm) {
+      max-width: 100%;
+    }
+  }
+
+  &__field {
+    text-align: left;
+    margin-top: 1rem;
+  }
+
+  &__label {
+    display: block;
+    font-size: 15px;
+    color: $lp-alternative;
+    font-weight: 700;
+  }
+
+  &__input {
+    font-size: 15px;
+  }
+
+  &__input--submit {
+    color: $lp-cta-color;
+    background-color: $primary-color;
+    font-size: 24px;
+    padding: 15px;
+    line-height: 1.2;
+
+    @include media-breakpoint-down(sm) {
+      font-size: 20px;
+    }
+  }
+
+  &__legal {
+    font-size: 12px;
+    color: $lp-light;
+    margin-top: 1rem;
+  }
+
+  &__author {
+    margin-top: 2.5rem;
+    font-size: 20px;
+    line-height: 1.2;
+    color: $lp-text;
+    text-align: left;
+
+    strong {
+      font-weight: 700;
+    }
+
+    .profile-photo {
+      margin-top: 0;
+    }
+  }
+
+  &__author__photo {
+    margin-bottom: 1rem;
+  }
+
+  &__steps {
+    margin: 0 auto;
+    max-width: 60%;
+    color: $lp-cta-color;
+
+    @include media-breakpoint-down(sm) {
+      max-width: 100%;
+    }
+  }
+
+  &__step {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    background-color: $lp-gray;
+  }
+
+  &__step--alternative {
+    background-color: $primary-color;
+  }
+
+  &__step__title {
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  &__step__subtext {
+    font-size: 14px;
+    line-height: 2;
+  }
+
+  &__links {
+    margin: 0 auto;
+    display: inline-block;
+    text-align: left;
+
+    a {
+      display: block;
+      font-size: 30px;
+    }
+  }
+
+  &__primary {
+    color: $primary-color;
+  }
+}
+
+.#{$C}__footer {
+  background-color: $lp-background;
+  max-width: 350px;
+  margin: 7.5rem auto 0;
+  padding: 0.5rem;
+  border-radius: 5px;
+  text-align: center;
+  opacity: 0.7;
+  font-size: 12px;
+}

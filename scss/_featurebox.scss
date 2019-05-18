@@ -1,0 +1,72 @@
+$C: featurebox;
+
+$featurebox-button-color: white;
+$featurebox-content: white;
+
+.#{$C} {
+  margin: 0.5rem 0 2.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid $border-color;
+  background-size: 280px;
+  background-repeat: no-repeat;
+  background-position: right 4rem;
+
+  @include media-breakpoint-down(md) {
+    margin-top: 1rem;
+    background-position: right 2rem;
+  }
+
+  @include media-breakpoint-down(sm) {
+    margin-top: -1rem;
+    background-image: none !important;
+  }
+
+  &__subheadline {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+  }
+
+  &__headline {
+    color: $primary-color;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    padding-right: 290px;
+    font-size: 1.75rem;
+
+    @include media-breakpoint-down(sm) {
+      padding-right: 0;
+      font-size: 24px;
+      margin-bottom: 1rem;
+    }
+  }
+
+  &__content {
+    padding-right: 300px;
+    font-weight: 400;
+
+    @include media-breakpoint-down(md) {
+      padding-right: 0;
+    }
+  }
+
+  &__button {
+    display: block;
+    margin: 0 auto 1rem;
+    width: 400px;
+    background-color: $primary-color;
+    color: $featurebox-button-color;
+    font-weight: 700;
+    font-size: 24px;
+
+    &:hover {
+      color: $featurebox-button-color;
+      background-color: lighten($primary-color, 10%);
+    }
+
+    @include media-breakpoint-down(md) {
+      font-size: 20px;
+      width: 260px;
+    }
+  }
+}

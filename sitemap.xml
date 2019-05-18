@@ -725,6 +725,10 @@
   </url>
   
   <url>
+    <loc>//www.ilonacodes.com/networking-cheat-sheet/</loc>
+  </url>
+  
+  <url>
     <loc>//www.ilonacodes.com/tags/nutrition/</loc>
     <lastmod>2018-08-21T18:40:05+01:00</lastmod>
     <priority>0</priority>
@@ -869,6 +873,10 @@
   </url>
   
   <url>
+    <loc>//www.ilonacodes.com/thank-you/</loc>
+  </url>
+  
+  <url>
     <loc>//www.ilonacodes.com/tags/travel/</loc>
     <lastmod>2018-10-03T10:40:05+01:00</lastmod>
     <priority>0</priority>
@@ -938,6 +946,10 @@
     <loc>//www.ilonacodes.com/tags/womenwhocode/</loc>
     <lastmod>2018-04-23T23:30:05+01:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.ilonacodes.com/almost-done/</loc>
   </url>
   
 </urlset>
