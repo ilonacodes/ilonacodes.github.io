@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>//www.ilonacodes.com/blog/diversity-matters-in-the-workplace/</loc>
+    <lastmod>2019-06-02T10:40:05+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>//www.ilonacodes.com/blog/personal-and-professional-growth-through-constructive-feedback/</loc>
     <lastmod>2019-05-07T17:00:05+01:00</lastmod>
   </url>
@@ -355,7 +360,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/blog/</loc>
-    <lastmod>2019-05-07T17:00:05+01:00</lastmod>
+    <lastmod>2019-06-02T10:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -368,6 +373,12 @@
   <url>
     <loc>//www.ilonacodes.com/tags/business/</loc>
     <lastmod>2018-07-20T07:00:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.ilonacodes.com/tags/career/</loc>
+    <lastmod>2019-06-02T10:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -479,6 +490,12 @@
   </url>
   
   <url>
+    <loc>//www.ilonacodes.com/tags/diversity/</loc>
+    <lastmod>2019-06-02T10:40:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>//www.ilonacodes.com/tags/email/</loc>
     <lastmod>2018-08-15T06:00:05+01:00</lastmod>
     <priority>0</priority>
@@ -576,7 +593,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/</loc>
-    <lastmod>2019-05-07T17:00:05+01:00</lastmod>
+    <lastmod>2019-06-02T10:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -720,7 +737,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/tags/motivation/</loc>
-    <lastmod>2019-05-07T17:00:05+01:00</lastmod>
+    <lastmod>2019-06-02T10:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -754,7 +771,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/tags/productivity/</loc>
-    <lastmod>2019-05-07T17:00:05+01:00</lastmod>
+    <lastmod>2019-06-02T10:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -850,7 +867,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/tags/success/</loc>
-    <lastmod>2019-05-07T17:00:05+01:00</lastmod>
+    <lastmod>2019-06-02T10:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
