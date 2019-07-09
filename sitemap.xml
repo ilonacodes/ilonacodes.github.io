@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>//www.ilonacodes.com/blog/top-5-soft-skills-for-software-engineer/</loc>
+    <lastmod>2019-06-09T10:40:05+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>//www.ilonacodes.com/blog/diversity-matters-in-the-workplace/</loc>
     <lastmod>2019-06-02T10:40:05+01:00</lastmod>
   </url>
@@ -360,7 +365,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/blog/</loc>
-    <lastmod>2019-06-02T10:40:05+01:00</lastmod>
+    <lastmod>2019-06-09T10:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -378,7 +383,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/tags/career/</loc>
-    <lastmod>2019-06-02T10:40:05+01:00</lastmod>
+    <lastmod>2019-06-09T10:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -491,7 +496,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/tags/diversity/</loc>
-    <lastmod>2019-06-02T10:40:05+01:00</lastmod>
+    <lastmod>2019-06-09T10:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -593,7 +598,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/</loc>
-    <lastmod>2019-06-02T10:40:05+01:00</lastmod>
+    <lastmod>2019-06-09T10:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -737,7 +742,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/tags/motivation/</loc>
-    <lastmod>2019-06-02T10:40:05+01:00</lastmod>
+    <lastmod>2019-06-09T10:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -854,6 +859,12 @@
   </url>
   
   <url>
+    <loc>//www.ilonacodes.com/tags/softskills/</loc>
+    <lastmod>2019-06-09T10:40:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>//www.ilonacodes.com/tags/storybook/</loc>
     <lastmod>2019-01-19T10:40:05+01:00</lastmod>
     <priority>0</priority>
@@ -867,7 +878,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/tags/success/</loc>
-    <lastmod>2019-06-02T10:40:05+01:00</lastmod>
+    <lastmod>2019-06-09T10:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
