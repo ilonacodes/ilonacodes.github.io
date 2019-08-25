@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>//www.ilonacodes.com/blog/what-makes-you-a-great-programmer-on-the-team/</loc>
+    <lastmod>2019-07-20T10:40:05+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>//www.ilonacodes.com/blog/ultimate-guide-to-stop-procrastinating/</loc>
     <lastmod>2019-07-14T10:40:05+01:00</lastmod>
   </url>
@@ -380,7 +385,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/blog/</loc>
-    <lastmod>2019-07-14T10:40:05+01:00</lastmod>
+    <lastmod>2019-07-20T10:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -398,7 +403,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/tags/career/</loc>
-    <lastmod>2019-07-14T10:40:05+01:00</lastmod>
+    <lastmod>2019-07-20T10:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -500,6 +505,12 @@
   <url>
     <loc>//www.ilonacodes.com/tags/development/</loc>
     <lastmod>2018-10-19T10:40:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.ilonacodes.com/tags/devlive/</loc>
+    <lastmod>2019-07-20T10:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -613,7 +624,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/</loc>
-    <lastmod>2019-07-14T10:40:05+01:00</lastmod>
+    <lastmod>2019-07-20T10:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -757,7 +768,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/tags/motivation/</loc>
-    <lastmod>2019-07-14T10:40:05+01:00</lastmod>
+    <lastmod>2019-07-20T10:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -791,13 +802,13 @@
   
   <url>
     <loc>//www.ilonacodes.com/tags/productivity/</loc>
-    <lastmod>2019-07-14T10:40:05+01:00</lastmod>
+    <lastmod>2019-07-20T10:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>//www.ilonacodes.com/tags/programmers/</loc>
-    <lastmod>2019-07-14T10:40:05+01:00</lastmod>
+    <lastmod>2019-07-20T10:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
