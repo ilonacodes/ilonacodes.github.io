@@ -6,10 +6,34 @@
     <description>Recent content in Blogs on Ilona Who Codes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 20 Jul 2019 10:40:05 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 03 Aug 2019 10:40:05 +0100</lastBuildDate>
     
 	<atom:link href="//www.ilonacodes.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>5 Steps in Programming to Keep You From Getting Stuck</title>
+      <link>//www.ilonacodes.com/blog/5-steps-in-programming-to-keep-you-from-getting-stuck/</link>
+      <pubDate>Sat, 03 Aug 2019 10:40:05 +0100</pubDate>
+      
+      <guid>//www.ilonacodes.com/blog/5-steps-in-programming-to-keep-you-from-getting-stuck/</guid>
+      <description>&lt;p&gt;
+&lt;figure&gt;
+    
+        &lt;img src=&#34;//www.ilonacodes.com/blog/images/5-steps-from-getting-stuck.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;source: Photo by Pixabay from Pexels&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+Getting stuck in a programming problem is a very common thing.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>What Makes You a Great Programmer on The Team?</title>
