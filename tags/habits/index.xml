@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Habits on Ilona Who Codes &amp; Blogs &amp; Creates</title>
+    <link>//www.ilonacodes.com/tags/habits/</link>
+    <description>Recent content in Habits on Ilona Who Codes &amp; Blogs &amp; Creates</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 10 Aug 2019 10:40:05 +0100</lastBuildDate>
+    
+	<atom:link href="//www.ilonacodes.com/tags/habits/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>5 Bad Habits of Software Developers</title>
+      <link>//www.ilonacodes.com/blog/5-bad-habits-of-software-developers/</link>
+      <pubDate>Sat, 10 Aug 2019 10:40:05 +0100</pubDate>
+      
+      <guid>//www.ilonacodes.com/blog/5-bad-habits-of-software-developers/</guid>
+      <description>&lt;p&gt;
+&lt;figure&gt;
+    
+        &lt;img src=&#34;//www.ilonacodes.com/blog/images/5-bad-habits-of-software-developers.jpg&#34; alt=&#34;5 Bad Habits of Software Developers&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;source: Photo by Basil MK from Pexels&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+There is no hard and fast rule as to how a programmer should program. So, there is nothing wrong if you have your own style of programming.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

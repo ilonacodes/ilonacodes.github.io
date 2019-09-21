@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>//www.ilonacodes.com/blog/5-bad-habits-of-software-developers/</loc>
+    <lastmod>2019-08-10T10:40:05+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>//www.ilonacodes.com/blog/5-steps-in-programming-to-keep-you-from-getting-stuck/</loc>
     <lastmod>2019-08-03T10:40:05+01:00</lastmod>
   </url>
@@ -390,7 +395,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/blog/</loc>
-    <lastmod>2019-08-03T10:40:05+01:00</lastmod>
+    <lastmod>2019-08-10T10:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -414,7 +419,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/tags/careers/</loc>
-    <lastmod>2019-05-07T17:00:05+01:00</lastmod>
+    <lastmod>2019-08-10T10:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -508,6 +513,12 @@
   </url>
   
   <url>
+    <loc>//www.ilonacodes.com/tags/developer/</loc>
+    <lastmod>2019-08-10T10:40:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>//www.ilonacodes.com/tags/development/</loc>
     <lastmod>2018-10-19T10:40:05+01:00</lastmod>
     <priority>0</priority>
@@ -516,6 +527,12 @@
   <url>
     <loc>//www.ilonacodes.com/tags/devlive/</loc>
     <lastmod>2019-08-03T10:40:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.ilonacodes.com/tags/devs/</loc>
+    <lastmod>2019-08-10T10:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -604,6 +621,12 @@
   </url>
   
   <url>
+    <loc>//www.ilonacodes.com/tags/habits/</loc>
+    <lastmod>2019-08-10T10:40:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>//www.ilonacodes.com/tags/health/</loc>
     <lastmod>2018-10-14T09:40:05+01:00</lastmod>
     <priority>0</priority>
@@ -629,7 +652,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/</loc>
-    <lastmod>2019-08-03T10:40:05+01:00</lastmod>
+    <lastmod>2019-08-10T10:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -814,6 +837,12 @@
   <url>
     <loc>//www.ilonacodes.com/tags/programmers/</loc>
     <lastmod>2019-08-03T10:40:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.ilonacodes.com/tags/programming/</loc>
+    <lastmod>2019-08-10T10:40:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
