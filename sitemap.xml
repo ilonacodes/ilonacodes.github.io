@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>//www.ilonacodes.com/blog/most-common-blogging-mistakes-of-beginner-bloggers/</loc>
+    <lastmod>2019-09-21T20:20:05+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>//www.ilonacodes.com/blog/the-best-way-to-achieve-your-life-goals/</loc>
     <lastmod>2019-09-06T10:40:05+01:00</lastmod>
   </url>
@@ -387,6 +392,12 @@
   </url>
   
   <url>
+    <loc>//www.ilonacodes.com/tags/beginner/</loc>
+    <lastmod>2019-09-21T20:20:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>//www.ilonacodes.com/tags/beginners/</loc>
     <lastmod>2017-10-10T12:30:05+01:00</lastmod>
     <priority>0</priority>
@@ -399,8 +410,26 @@
   </url>
   
   <url>
+    <loc>//www.ilonacodes.com/tags/blog/</loc>
+    <lastmod>2019-09-21T20:20:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.ilonacodes.com/tags/blogger/</loc>
+    <lastmod>2019-09-21T20:20:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.ilonacodes.com/tags/blogging/</loc>
+    <lastmod>2019-09-21T20:20:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>//www.ilonacodes.com/blog/</loc>
-    <lastmod>2019-09-06T10:40:05+01:00</lastmod>
+    <lastmod>2019-09-21T20:20:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -657,7 +686,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/</loc>
-    <lastmod>2019-09-06T10:40:05+01:00</lastmod>
+    <lastmod>2019-09-21T20:20:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -841,7 +870,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/tags/programmers/</loc>
-    <lastmod>2019-09-06T10:40:05+01:00</lastmod>
+    <lastmod>2019-09-21T20:20:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
