@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>//www.ilonacodes.com/blog/images/3-reasons-why-you-should-become-mentor-today/</loc>
+    <lastmod>2019-10-27T10:20:05+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>//www.ilonacodes.com/blog/biggest-mistakes-app-user-onboarding/</loc>
     <lastmod>2019-10-19T10:20:05+01:00</lastmod>
   </url>
@@ -434,7 +439,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/blog/</loc>
-    <lastmod>2019-10-19T10:20:05+01:00</lastmod>
+    <lastmod>2019-10-27T10:20:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -488,6 +493,12 @@
   <url>
     <loc>//www.ilonacodes.com/tags/client/</loc>
     <lastmod>2017-07-17T21:45:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.ilonacodes.com/tags/coach/</loc>
+    <lastmod>2019-10-27T10:20:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -571,7 +582,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/tags/devs/</loc>
-    <lastmod>2019-09-06T10:40:05+01:00</lastmod>
+    <lastmod>2019-10-27T10:20:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -691,7 +702,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/</loc>
-    <lastmod>2019-10-19T10:20:05+01:00</lastmod>
+    <lastmod>2019-10-27T10:20:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -824,6 +835,24 @@
   <url>
     <loc>//www.ilonacodes.com/tags/mentalhealth/</loc>
     <lastmod>2018-10-21T08:40:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.ilonacodes.com/tags/mentee/</loc>
+    <lastmod>2019-10-27T10:20:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.ilonacodes.com/tags/mentor/</loc>
+    <lastmod>2019-10-27T10:20:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.ilonacodes.com/tags/mentorship/</loc>
+    <lastmod>2019-10-27T10:20:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
