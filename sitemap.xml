@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>//www.ilonacodes.com/blog/how-i-write-and-send-out-newsletters/</loc>
+    <lastmod>2019-12-15T10:20:05+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>//www.ilonacodes.com/blog/3-reasons-why-you-should-become-mentor-today/</loc>
     <lastmod>2019-10-27T10:20:05+01:00</lastmod>
   </url>
@@ -421,7 +426,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/tags/blog/</loc>
-    <lastmod>2019-09-21T20:20:05+01:00</lastmod>
+    <lastmod>2019-12-15T10:20:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -433,13 +438,13 @@
   
   <url>
     <loc>//www.ilonacodes.com/tags/blogging/</loc>
-    <lastmod>2019-09-21T20:20:05+01:00</lastmod>
+    <lastmod>2019-12-15T10:20:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>//www.ilonacodes.com/blog/</loc>
-    <lastmod>2019-10-27T10:20:05+01:00</lastmod>
+    <lastmod>2019-12-15T10:20:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -702,7 +707,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/</loc>
-    <lastmod>2019-10-27T10:20:05+01:00</lastmod>
+    <lastmod>2019-12-15T10:20:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -870,6 +875,12 @@
   
   <url>
     <loc>//www.ilonacodes.com/networking-cheat-sheet/</loc>
+  </url>
+  
+  <url>
+    <loc>//www.ilonacodes.com/tags/newsletter/</loc>
+    <lastmod>2019-12-15T10:20:05+01:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -1063,6 +1074,12 @@
   </url>
   
   <url>
+    <loc>//www.ilonacodes.com/tags/tips/</loc>
+    <lastmod>2019-12-15T10:20:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>//www.ilonacodes.com/tags/travel/</loc>
     <lastmod>2018-10-03T10:40:05+01:00</lastmod>
     <priority>0</priority>
@@ -1137,6 +1154,12 @@
   <url>
     <loc>//www.ilonacodes.com/tags/womenwhocode/</loc>
     <lastmod>2018-04-23T23:30:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.ilonacodes.com/tags/writing/</loc>
+    <lastmod>2019-12-15T10:20:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   

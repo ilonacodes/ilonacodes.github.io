@@ -86,7 +86,7 @@
     <item>
       <title>Blog</title>
       <link>//www.ilonacodes.com/tags/blog/</link>
-      <pubDate>Sat, 21 Sep 2019 20:20:05 +0100</pubDate>
+      <pubDate>Sun, 15 Dec 2019 10:20:05 +0100</pubDate>
       
       <guid>//www.ilonacodes.com/tags/blog/</guid>
       <description></description>
@@ -104,7 +104,7 @@
     <item>
       <title>Blogging</title>
       <link>//www.ilonacodes.com/tags/blogging/</link>
-      <pubDate>Sat, 21 Sep 2019 20:20:05 +0100</pubDate>
+      <pubDate>Sun, 15 Dec 2019 10:20:05 +0100</pubDate>
       
       <guid>//www.ilonacodes.com/tags/blogging/</guid>
       <description></description>
@@ -714,6 +714,15 @@
     </item>
     
     <item>
+      <title>Newsletter</title>
+      <link>//www.ilonacodes.com/tags/newsletter/</link>
+      <pubDate>Sun, 15 Dec 2019 10:20:05 +0100</pubDate>
+      
+      <guid>//www.ilonacodes.com/tags/newsletter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Nutrition</title>
       <link>//www.ilonacodes.com/tags/nutrition/</link>
       <pubDate>Tue, 21 Aug 2018 18:40:05 +0100</pubDate>
@@ -984,6 +993,15 @@
     </item>
     
     <item>
+      <title>Tips</title>
+      <link>//www.ilonacodes.com/tags/tips/</link>
+      <pubDate>Sun, 15 Dec 2019 10:20:05 +0100</pubDate>
+      
+      <guid>//www.ilonacodes.com/tags/tips/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Travel</title>
       <link>//www.ilonacodes.com/tags/travel/</link>
       <pubDate>Wed, 03 Oct 2018 10:40:05 +0100</pubDate>
@@ -1097,6 +1115,15 @@
       <pubDate>Mon, 23 Apr 2018 23:30:05 +0100</pubDate>
       
       <guid>//www.ilonacodes.com/tags/womenwhocode/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Writing</title>
+      <link>//www.ilonacodes.com/tags/writing/</link>
+      <pubDate>Sun, 15 Dec 2019 10:20:05 +0100</pubDate>
+      
+      <guid>//www.ilonacodes.com/tags/writing/</guid>
       <description></description>
     </item>
     
