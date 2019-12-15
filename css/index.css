@@ -6340,10 +6340,8 @@ a.text-dark:hover, a.text-dark:focus {
       font-size: 1.8rem;
       color: #F20094; }
   @media (min-width: 768px) {
-    .navlink {
-      text-align: right; }
-      .navlink--main {
-        text-align: left; } }
+    .navlink--main {
+      text-align: left; } }
 
 img {
   width: 100%; }
