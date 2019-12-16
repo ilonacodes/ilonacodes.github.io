@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>//www.ilonacodes.com/blog/quit-my-job-now-product-maker-full-time/</loc>
+    <lastmod>2019-12-16T10:10:05+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>//www.ilonacodes.com/blog/how-i-write-and-send-out-newsletters/</loc>
     <lastmod>2019-12-15T10:20:05+01:00</lastmod>
   </url>
@@ -396,7 +401,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/tags/app/</loc>
-    <lastmod>2019-10-19T10:20:05+01:00</lastmod>
+    <lastmod>2019-12-16T10:10:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -444,7 +449,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/blog/</loc>
-    <lastmod>2019-12-15T10:20:05+01:00</lastmod>
+    <lastmod>2019-12-16T10:10:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -569,7 +574,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/tags/developer/</loc>
-    <lastmod>2019-09-06T10:40:05+01:00</lastmod>
+    <lastmod>2019-12-16T10:10:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -707,7 +712,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/</loc>
-    <lastmod>2019-12-15T10:20:05+01:00</lastmod>
+    <lastmod>2019-12-16T10:10:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -762,6 +767,12 @@
   <url>
     <loc>//www.ilonacodes.com/tags/label/</loc>
     <lastmod>2018-08-09T07:00:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.ilonacodes.com/tags/launch/</loc>
+    <lastmod>2019-12-16T10:10:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -914,6 +925,12 @@
   </url>
   
   <url>
+    <loc>//www.ilonacodes.com/tags/product/</loc>
+    <lastmod>2019-12-16T10:10:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>//www.ilonacodes.com/tags/productivity/</loc>
     <lastmod>2019-08-03T10:40:05+01:00</lastmod>
     <priority>0</priority>
@@ -1018,6 +1035,12 @@
   <url>
     <loc>//www.ilonacodes.com/tags/softwareedev/</loc>
     <lastmod>2019-06-09T10:40:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.ilonacodes.com/tags/startup/</loc>
+    <lastmod>2019-12-16T10:10:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
