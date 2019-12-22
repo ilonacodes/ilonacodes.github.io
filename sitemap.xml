@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>//www.ilonacodes.com/blog/5-golden-secrets-that-help-product-makers-stay-motivated/</loc>
+    <lastmod>2019-12-22T16:10:05+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>//www.ilonacodes.com/blog/quit-my-job-now-product-maker-full-time/</loc>
     <lastmod>2019-12-16T10:10:05+01:00</lastmod>
   </url>
@@ -449,7 +454,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/blog/</loc>
-    <lastmod>2019-12-16T10:10:05+01:00</lastmod>
+    <lastmod>2019-12-22T16:10:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -574,7 +579,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/tags/developer/</loc>
-    <lastmod>2019-12-16T10:10:05+01:00</lastmod>
+    <lastmod>2019-12-22T16:10:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -617,6 +622,12 @@
   <url>
     <loc>//www.ilonacodes.com/tags/emotion/</loc>
     <lastmod>2018-09-07T18:40:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.ilonacodes.com/tags/entrepreneurship/</loc>
+    <lastmod>2019-12-22T16:10:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -712,7 +723,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/</loc>
-    <lastmod>2019-12-16T10:10:05+01:00</lastmod>
+    <lastmod>2019-12-22T16:10:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -843,6 +854,12 @@
   </url>
   
   <url>
+    <loc>//www.ilonacodes.com/tags/maker/</loc>
+    <lastmod>2019-12-22T16:10:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>//www.ilonacodes.com/tags/meetup/</loc>
     <lastmod>2017-10-23T07:00:05+01:00</lastmod>
     <priority>0</priority>
@@ -880,7 +897,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/tags/motivation/</loc>
-    <lastmod>2019-08-03T10:40:05+01:00</lastmod>
+    <lastmod>2019-12-22T16:10:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1040,7 +1057,7 @@
   
   <url>
     <loc>//www.ilonacodes.com/tags/startup/</loc>
-    <lastmod>2019-12-16T10:10:05+01:00</lastmod>
+    <lastmod>2019-12-22T16:10:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
