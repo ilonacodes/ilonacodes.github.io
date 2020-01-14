@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Js on Ilona Who Codes &amp; Blogs &amp; Creates</title>
-    <link>//www.ilonacodes.com/tags/js/</link>
+    <link>https://www.ilonacodes.com/tags/js/</link>
     <description>Recent content in Js on Ilona Who Codes &amp; Blogs &amp; Creates</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 09 Aug 2018 07:00:05 +0100</lastBuildDate>
     
-	<atom:link href="//www.ilonacodes.com/tags/js/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.ilonacodes.com/tags/js/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Creating Floating Label/Placeholder for Input with React</title>
-      <link>//www.ilonacodes.com/blog/creating-floating-label-placeholder-for-input-with-react/</link>
+      <link>https://www.ilonacodes.com/blog/creating-floating-label-placeholder-for-input-with-react/</link>
       <pubDate>Thu, 09 Aug 2018 07:00:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/creating-floating-label-placeholder-for-input-with-react/</guid>
+      <guid>https://www.ilonacodes.com/blog/creating-floating-label-placeholder-for-input-with-react/</guid>
       <description>&lt;figure&gt;
     
-        &lt;img src=&#34;//www.ilonacodes.com/blog/images/creating-floating-label-cover.jpeg&#34; /&gt;
+        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/creating-floating-label-cover.jpeg&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -37,13 +37,13 @@
     
     <item>
       <title>Internationalize Your App With React</title>
-      <link>//www.ilonacodes.com/blog/internationalize-your-app-with-react/</link>
+      <link>https://www.ilonacodes.com/blog/internationalize-your-app-with-react/</link>
       <pubDate>Fri, 27 Jul 2018 07:00:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/internationalize-your-app-with-react/</guid>
+      <guid>https://www.ilonacodes.com/blog/internationalize-your-app-with-react/</guid>
       <description>&lt;figure&gt;
     
-        &lt;img src=&#34;//www.ilonacodes.com/blog/images/intl-your-app-with-react.jpeg&#34; /&gt;
+        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/intl-your-app-with-react.jpeg&#34; /&gt;
     
     
     &lt;figcaption&gt;

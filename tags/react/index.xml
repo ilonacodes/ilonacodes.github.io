@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>React on Ilona Who Codes &amp; Blogs &amp; Creates</title>
-    <link>//www.ilonacodes.com/tags/react/</link>
+    <link>https://www.ilonacodes.com/tags/react/</link>
     <description>Recent content in React on Ilona Who Codes &amp; Blogs &amp; Creates</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 10 Dec 2018 18:40:05 +0100</lastBuildDate>
     
-	<atom:link href="//www.ilonacodes.com/tags/react/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.ilonacodes.com/tags/react/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Fetching GitHub User with REST API and ReactJS</title>
-      <link>//www.ilonacodes.com/blog/fetching-github-user-with-rest-api-and-reactjs/</link>
+      <link>https://www.ilonacodes.com/blog/fetching-github-user-with-rest-api-and-reactjs/</link>
       <pubDate>Mon, 10 Dec 2018 18:40:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/fetching-github-user-with-rest-api-and-reactjs/</guid>
+      <guid>https://www.ilonacodes.com/blog/fetching-github-user-with-rest-api-and-reactjs/</guid>
       <description>&lt;p&gt;
 &lt;figure&gt;
     
-        &lt;img src=&#34;//www.ilonacodes.com/blog/images/fetching.jpeg&#34; /&gt;
+        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/fetching.jpeg&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -39,13 +39,13 @@ In this post, I explain how you can find any user on GitHub through GitHub API u
     
     <item>
       <title>How to Avoid Duplication of Common Wrapper Behavior in React Using Children Prop</title>
-      <link>//www.ilonacodes.com/blog/how-to-avoid-duplication-of-common-wrapper-behavior-in-react-using-children-prop/</link>
+      <link>https://www.ilonacodes.com/blog/how-to-avoid-duplication-of-common-wrapper-behavior-in-react-using-children-prop/</link>
       <pubDate>Thu, 11 Oct 2018 10:40:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/how-to-avoid-duplication-of-common-wrapper-behavior-in-react-using-children-prop/</guid>
+      <guid>https://www.ilonacodes.com/blog/how-to-avoid-duplication-of-common-wrapper-behavior-in-react-using-children-prop/</guid>
       <description>&lt;figure&gt;
     
-        &lt;img src=&#34;//www.ilonacodes.com/blog/images/react-children-prop.jpeg&#34; /&gt;
+        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/react-children-prop.jpeg&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -63,13 +63,13 @@ In this post, I explain how you can find any user on GitHub through GitHub API u
     
     <item>
       <title>Simple Image Carousel with React</title>
-      <link>//www.ilonacodes.com/blog/simple-image-carousel-with-react/</link>
+      <link>https://www.ilonacodes.com/blog/simple-image-carousel-with-react/</link>
       <pubDate>Sat, 06 Oct 2018 10:40:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/simple-image-carousel-with-react/</guid>
+      <guid>https://www.ilonacodes.com/blog/simple-image-carousel-with-react/</guid>
       <description>&lt;figure&gt;
     
-        &lt;img src=&#34;//www.ilonacodes.com/blog/images/simple-image-carousel-with-react.jpeg&#34; /&gt;
+        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/simple-image-carousel-with-react.jpeg&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -87,13 +87,13 @@ In this post, I explain how you can find any user on GitHub through GitHub API u
     
     <item>
       <title>Simple State Machine with Redux</title>
-      <link>//www.ilonacodes.com/blog/simple-state-machine-with-redux/</link>
+      <link>https://www.ilonacodes.com/blog/simple-state-machine-with-redux/</link>
       <pubDate>Tue, 02 Oct 2018 10:40:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/simple-state-machine-with-redux/</guid>
+      <guid>https://www.ilonacodes.com/blog/simple-state-machine-with-redux/</guid>
       <description>&lt;figure&gt;
     
-        &lt;img src=&#34;//www.ilonacodes.com/blog/simple-state-machine-with-redux.jpeg&#34; /&gt;
+        &lt;img src=&#34;https://www.ilonacodes.com/blog/simple-state-machine-with-redux.jpeg&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -111,14 +111,14 @@ In this post, I explain how you can find any user on GitHub through GitHub API u
     
     <item>
       <title>Why Formik With React</title>
-      <link>//www.ilonacodes.com/blog/why-formik-with-react/</link>
+      <link>https://www.ilonacodes.com/blog/why-formik-with-react/</link>
       <pubDate>Sat, 15 Sep 2018 18:40:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/why-formik-with-react/</guid>
+      <guid>https://www.ilonacodes.com/blog/why-formik-with-react/</guid>
       <description>&lt;p&gt;
 &lt;figure&gt;
     
-        &lt;img src=&#34;//www.ilonacodes.com/blog/images/why-formik-with-react-cover.jpeg&#34; /&gt;
+        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/why-formik-with-react-cover.jpeg&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -137,14 +137,14 @@ The way, how I try to understand the purpose of any framework is to use it and c
     
     <item>
       <title>Emotional Todo List with React</title>
-      <link>//www.ilonacodes.com/blog/emotional-todo-list-with-react/</link>
+      <link>https://www.ilonacodes.com/blog/emotional-todo-list-with-react/</link>
       <pubDate>Fri, 07 Sep 2018 18:40:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/emotional-todo-list-with-react/</guid>
+      <guid>https://www.ilonacodes.com/blog/emotional-todo-list-with-react/</guid>
       <description>&lt;p&gt;
 &lt;figure&gt;
     
-        &lt;img src=&#34;//www.ilonacodes.com/blog/images/emotional-todo-list-cover.jpeg&#34; /&gt;
+        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/emotional-todo-list-cover.jpeg&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -161,13 +161,13 @@ From the title of the post, you understand that I am not only going to explain h
     
     <item>
       <title>Creating Floating Label/Placeholder for Input with React</title>
-      <link>//www.ilonacodes.com/blog/creating-floating-label-placeholder-for-input-with-react/</link>
+      <link>https://www.ilonacodes.com/blog/creating-floating-label-placeholder-for-input-with-react/</link>
       <pubDate>Thu, 09 Aug 2018 07:00:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/creating-floating-label-placeholder-for-input-with-react/</guid>
+      <guid>https://www.ilonacodes.com/blog/creating-floating-label-placeholder-for-input-with-react/</guid>
       <description>&lt;figure&gt;
     
-        &lt;img src=&#34;//www.ilonacodes.com/blog/images/creating-floating-label-cover.jpeg&#34; /&gt;
+        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/creating-floating-label-cover.jpeg&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -185,13 +185,13 @@ From the title of the post, you understand that I am not only going to explain h
     
     <item>
       <title>Internationalize Your App With React</title>
-      <link>//www.ilonacodes.com/blog/internationalize-your-app-with-react/</link>
+      <link>https://www.ilonacodes.com/blog/internationalize-your-app-with-react/</link>
       <pubDate>Fri, 27 Jul 2018 07:00:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/internationalize-your-app-with-react/</guid>
+      <guid>https://www.ilonacodes.com/blog/internationalize-your-app-with-react/</guid>
       <description>&lt;figure&gt;
     
-        &lt;img src=&#34;//www.ilonacodes.com/blog/images/intl-your-app-with-react.jpeg&#34; /&gt;
+        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/intl-your-app-with-react.jpeg&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -209,10 +209,10 @@ From the title of the post, you understand that I am not only going to explain h
     
     <item>
       <title>Front-end Shorts: CSS3 Opacity - Background Only</title>
-      <link>//www.ilonacodes.com/blog/frontend-shorts-css3-opacity-background-only/</link>
+      <link>https://www.ilonacodes.com/blog/frontend-shorts-css3-opacity-background-only/</link>
       <pubDate>Mon, 23 Apr 2018 23:30:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/frontend-shorts-css3-opacity-background-only/</guid>
+      <guid>https://www.ilonacodes.com/blog/frontend-shorts-css3-opacity-background-only/</guid>
       <description>Hi everyone! It&amp;rsquo;s time for a new post.
 What we do (I mean front-end web developers) isn&amp;rsquo;t all that unique. Often we face the problem that seems easy to solve. However, sometimes we spend hours on finding the solution.
 In this case, I wanted to change the opacity of the app teaser background color and don&amp;rsquo;t change the opacity of links. I have tried some silly approaches that seemed logical to me, and they all have failed.</description>
@@ -220,10 +220,10 @@ In this case, I wanted to change the opacity of the app teaser background color 
     
     <item>
       <title>Front-end Shorts: Good Storytelling Elements</title>
-      <link>//www.ilonacodes.com/blog/frontend-shorts-good-storytelling-elements/</link>
+      <link>https://www.ilonacodes.com/blog/frontend-shorts-good-storytelling-elements/</link>
       <pubDate>Sat, 21 Apr 2018 19:15:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/frontend-shorts-good-storytelling-elements/</guid>
+      <guid>https://www.ilonacodes.com/blog/frontend-shorts-good-storytelling-elements/</guid>
       <description>Happy Friday, my readers!
 As a front-end web developer, I am also interested in UI/UX design, and that is why I’ve decided me to do a UI/UX research using Aristotle’s Seven Elements of Storytelling framework.
 It is notably practical, and many designers, web developers, will benefit from applying this method for creating user-friendly interfaces.
@@ -232,10 +232,10 @@ In my opinion, it&amp;rsquo;s important to understand the users and to make it e
     
     <item>
       <title>Front-end Shorts: Storybook With React</title>
-      <link>//www.ilonacodes.com/blog/frontend-shorts-storybook-with-react/</link>
+      <link>https://www.ilonacodes.com/blog/frontend-shorts-storybook-with-react/</link>
       <pubDate>Wed, 18 Apr 2018 12:00:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/frontend-shorts-storybook-with-react/</guid>
+      <guid>https://www.ilonacodes.com/blog/frontend-shorts-storybook-with-react/</guid>
       <description>Hey there, that’s me again and a new post from me!
 Lately, I worked on the project that generates live documentation of the front-end components for apps built with create-react-app, and this UI development environment is called Storybook.
 What is the significant purpose for using this tool?
@@ -244,10 +244,10 @@ First of all, it helps to avoid code duplications and to make it easy to know wh
     
     <item>
       <title>Front-end Shorts: How to Read Content From The File Input in React</title>
-      <link>//www.ilonacodes.com/blog/frontend-shorts-how-to-read-content-from-the-file-input-in-react/</link>
+      <link>https://www.ilonacodes.com/blog/frontend-shorts-how-to-read-content-from-the-file-input-in-react/</link>
       <pubDate>Sat, 31 Mar 2018 18:30:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/frontend-shorts-how-to-read-content-from-the-file-input-in-react/</guid>
+      <guid>https://www.ilonacodes.com/blog/frontend-shorts-how-to-read-content-from-the-file-input-in-react/</guid>
       <description>Hi, everyone! How is your weekend going?
 As you know, I prefer learning to code by doing things. So, the last feature I have implemented for the app is the reading of the content from the uploaded (local) .csv file from the user.
 To do so without a server or any back-end—is a challenge.
@@ -257,10 +257,10 @@ const ImportFromFileBodyComponent = () =&amp;gt; { let fileReader; const handleF
     
     <item>
       <title>Front-end Shorts: How to Delete Item From The List With React&#43;Redux</title>
-      <link>//www.ilonacodes.com/blog/front-end-shorts-how-to-delete-item-from-the-list-with-react-redux/</link>
+      <link>https://www.ilonacodes.com/blog/front-end-shorts-how-to-delete-item-from-the-list-with-react-redux/</link>
       <pubDate>Thu, 22 Mar 2018 20:40:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/front-end-shorts-how-to-delete-item-from-the-list-with-react-redux/</guid>
+      <guid>https://www.ilonacodes.com/blog/front-end-shorts-how-to-delete-item-from-the-list-with-react-redux/</guid>
       <description>There are many possibilities how to remove multiple items from the array with JavaScript. So in this tutorial, I am going to share my approach to delete function with React+Redux.
 It&amp;rsquo;s front-end shorts, and I am trying to highlight the most important information. Thus, just let’s have a look at the significant code snippets with explanations:
 I have created the action:
@@ -269,10 +269,10 @@ I have created the action:
     
     <item>
       <title>Front-end Shorts: Fetch List of Resources From REST-API</title>
-      <link>//www.ilonacodes.com/blog/front-end-shorts-fetch-list-of-resources-from-rest-api/</link>
+      <link>https://www.ilonacodes.com/blog/front-end-shorts-fetch-list-of-resources-from-rest-api/</link>
       <pubDate>Sat, 17 Mar 2018 15:00:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/front-end-shorts-fetch-list-of-resources-from-rest-api/</guid>
+      <guid>https://www.ilonacodes.com/blog/front-end-shorts-fetch-list-of-resources-from-rest-api/</guid>
       <description>Today I am going to tell you how to get JSON data from the Rest-API to UI using React+Redux frameworks.
 In my case, the task looks like:
 I have a URL, for example: https://api.com/v1/expenses/ which will give the following JSON data, and I want to get this data in my UI.
@@ -281,10 +281,10 @@ To solve this task, I decided to use JavaScript’s fetch method. So in this way
     
     <item>
       <title>Front-end Shorts: Setting up React-Router-Redux</title>
-      <link>//www.ilonacodes.com/blog/frontend-shorts-setting-up-react-router-redux/</link>
+      <link>https://www.ilonacodes.com/blog/frontend-shorts-setting-up-react-router-redux/</link>
       <pubDate>Wed, 14 Mar 2018 15:30:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/frontend-shorts-setting-up-react-router-redux/</guid>
+      <guid>https://www.ilonacodes.com/blog/frontend-shorts-setting-up-react-router-redux/</guid>
       <description>Hi, everyone! How is your week going?
 Yesterday I worked with the web application written on React + Redux and had had some problem with the react-router-redux library. In short, the push method (using for navigation outside of components) didn&amp;rsquo;t work.
 Firstly, I have tried to set the Route component in the &amp;ldquo;traditional&amp;rdquo; way such as with react-router library. That might get the history props. Unfortunately, that also didn&amp;rsquo;t work. Because of Redux framework.</description>
@@ -292,30 +292,30 @@ Firstly, I have tried to set the Route component in the &amp;ldquo;traditional&a
     
     <item>
       <title>Persisting data using local storage with React&#43;Redux</title>
-      <link>//www.ilonacodes.com/blog/persisting-data-using-local-storage-react-redux/</link>
+      <link>https://www.ilonacodes.com/blog/persisting-data-using-local-storage-react-redux/</link>
       <pubDate>Tue, 10 Oct 2017 12:30:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/persisting-data-using-local-storage-react-redux/</guid>
+      <guid>https://www.ilonacodes.com/blog/persisting-data-using-local-storage-react-redux/</guid>
       <description>Let&amp;rsquo;s continue developing an Interactive ToDo List. Refer to the previous posts you notice that we are almost done with the basic functionality of the application. And today I would like to start the topic about persisting the data and restoring it after refreshing the page or starting a new session on the local machine with React+Redux.
 Changing into the my-daily-todos project, then to src folder where you find index.js. Here we store all the app’s state in the store variable.</description>
     </item>
     
     <item>
       <title>Dynamic progress bar with React&#43;Redux</title>
-      <link>//www.ilonacodes.com/blog/dynamic-progress-bar-with-react-redux/</link>
+      <link>https://www.ilonacodes.com/blog/dynamic-progress-bar-with-react-redux/</link>
       <pubDate>Fri, 06 Oct 2017 19:30:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/dynamic-progress-bar-with-react-redux/</guid>
+      <guid>https://www.ilonacodes.com/blog/dynamic-progress-bar-with-react-redux/</guid>
       <description>Hi there! I am so happy that you continue developing our interactive Daily ToDo app with me. Today you are going to get to know how to implement a dynamic progress bar that will handle task completing status by percentage for every category.
 But before moving on, if you are new here, please, have a look at the previous posts. You should start developing app there and then continue with us here.</description>
     </item>
     
     <item>
       <title>Categorize tasks with React&#43;Redux</title>
-      <link>//www.ilonacodes.com/blog/categorize-tasks-with-react-redux/</link>
+      <link>https://www.ilonacodes.com/blog/categorize-tasks-with-react-redux/</link>
       <pubDate>Sun, 01 Oct 2017 19:30:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/categorize-tasks-with-react-redux/</guid>
+      <guid>https://www.ilonacodes.com/blog/categorize-tasks-with-react-redux/</guid>
       <description>The most valuable feature set for our Daily ToDo is already done. Today we are going to make an app more functional, separating tasks by categories. We want to be able to categorize task by typing # and category after its title.
 For example: practice a coding kata #programming.
 As always, we start with the simple user story and the acceptance criteria:
@@ -324,49 +324,49 @@ As Bob I want to categorize tasks by adding tag into input So I see which task b
     
     <item>
       <title>Let&#39;s complete some tasks with React&#43;Redux</title>
-      <link>//www.ilonacodes.com/blog/complete-some-tasks-with-react-redux/</link>
+      <link>https://www.ilonacodes.com/blog/complete-some-tasks-with-react-redux/</link>
       <pubDate>Tue, 26 Sep 2017 19:30:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/complete-some-tasks-with-react-redux/</guid>
+      <guid>https://www.ilonacodes.com/blog/complete-some-tasks-with-react-redux/</guid>
       <description>Today we are going to implement the second feature for our app. If you are a new reader, then I highly recommend you to check my earlier blog posts here, where we started our learning journey in React+Redux, refer to the posts complete previous steps and continue with us to develop an interactive ToDo List from here.
 As you guess from the blog title, the next feature called Complete a task.</description>
     </item>
     
     <item>
       <title>The First User Story, The First Feature With React&#43;Redux</title>
-      <link>//www.ilonacodes.com/blog/the-first-user-story-the-first-feature/</link>
+      <link>https://www.ilonacodes.com/blog/the-first-user-story-the-first-feature/</link>
       <pubDate>Thu, 21 Sep 2017 19:30:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/the-first-user-story-the-first-feature/</guid>
+      <guid>https://www.ilonacodes.com/blog/the-first-user-story-the-first-feature/</guid>
       <description>Hi, everyone! I guess you are pretty encouraged to start coding our app. Just to remind: it will be an interactive daily ToDo List. Today I am going to explain: what is a user story? Why do we need to write it before implementing a feature? How will we organize and structure an app? What is, actually, a new feature?
 Let&amp;rsquo;s start with the first question. In my opinion, user stories are efficient things.</description>
     </item>
     
     <item>
       <title>Simple Usage of React&#43;Redux</title>
-      <link>//www.ilonacodes.com/blog/simple-usage-of-react-redux/</link>
+      <link>https://www.ilonacodes.com/blog/simple-usage-of-react-redux/</link>
       <pubDate>Sun, 17 Sep 2017 20:00:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/simple-usage-of-react-redux/</guid>
+      <guid>https://www.ilonacodes.com/blog/simple-usage-of-react-redux/</guid>
       <description>As I promised in my previous post, today I am going to tell you about Redux, why and how we need to use them in common. Let me introduce React+Redux co-working through the simple input change that should render Hello, {any name / text}! at the end and manage by redux states.
 Redux? What is it? Redux is a predictable state container for managing both UI-state and data-state in JavaScript applications.</description>
     </item>
     
     <item>
       <title>React For Very Very Beginners</title>
-      <link>//www.ilonacodes.com/blog/react-for-very-very-beginners/</link>
+      <link>https://www.ilonacodes.com/blog/react-for-very-very-beginners/</link>
       <pubDate>Fri, 15 Sep 2017 16:25:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/react-for-very-very-beginners/</guid>
+      <guid>https://www.ilonacodes.com/blog/react-for-very-very-beginners/</guid>
       <description>The biggest challenge for beginners not only in front end development but also in the whole web development world is to find the answer to the question: How / Where should I start to learn web development? Some of these questions I have already received via private messages on social networks, and that encouraged me to create a series of small posts to write and complete the first app using JS (ECMA6) with React-Redux frameworks on which technologies I specialize.</description>
     </item>
     
     <item>
       <title>Clear Form in Redux when Navigating with React-Router</title>
-      <link>//www.ilonacodes.com/blog/clear-form-in-redux-when-navigating-with-react-router/</link>
+      <link>https://www.ilonacodes.com/blog/clear-form-in-redux-when-navigating-with-react-router/</link>
       <pubDate>Sun, 19 Mar 2017 19:25:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/clear-form-in-redux-when-navigating-with-react-router/</guid>
+      <guid>https://www.ilonacodes.com/blog/clear-form-in-redux-when-navigating-with-react-router/</guid>
       <description>Hi there!
 I have worked on my project using a React-Redux architecture with React-Router for navigation. I have implemented forms for adding and editing resources. I have observed weird behavior:
  Add new resource with a description: &amp;ldquo;Hello World!&amp;rdquo; Start editing another resource with a description: &amp;ldquo;My new comment&amp;hellip;&amp;rdquo; Input for description contains a previous value: &amp;ldquo;Hello World!&amp;rdquo;  I was expecting to see the current description of the resource: &amp;ldquo;My new comment&amp;hellip;&amp;rdquo;, not the value from the previous form.</description>

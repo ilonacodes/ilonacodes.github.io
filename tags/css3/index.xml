@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Css3 on Ilona Who Codes &amp; Blogs &amp; Creates</title>
-    <link>//www.ilonacodes.com/tags/css3/</link>
+    <link>https://www.ilonacodes.com/tags/css3/</link>
     <description>Recent content in Css3 on Ilona Who Codes &amp; Blogs &amp; Creates</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 09 Aug 2018 07:00:05 +0100</lastBuildDate>
     
-	<atom:link href="//www.ilonacodes.com/tags/css3/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.ilonacodes.com/tags/css3/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Creating Floating Label/Placeholder for Input with React</title>
-      <link>//www.ilonacodes.com/blog/creating-floating-label-placeholder-for-input-with-react/</link>
+      <link>https://www.ilonacodes.com/blog/creating-floating-label-placeholder-for-input-with-react/</link>
       <pubDate>Thu, 09 Aug 2018 07:00:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/creating-floating-label-placeholder-for-input-with-react/</guid>
+      <guid>https://www.ilonacodes.com/blog/creating-floating-label-placeholder-for-input-with-react/</guid>
       <description>&lt;figure&gt;
     
-        &lt;img src=&#34;//www.ilonacodes.com/blog/images/creating-floating-label-cover.jpeg&#34; /&gt;
+        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/creating-floating-label-cover.jpeg&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -37,10 +37,10 @@
     
     <item>
       <title>Front-end Shorts: CSS3 Opacity - Background Only</title>
-      <link>//www.ilonacodes.com/blog/frontend-shorts-css3-opacity-background-only/</link>
+      <link>https://www.ilonacodes.com/blog/frontend-shorts-css3-opacity-background-only/</link>
       <pubDate>Mon, 23 Apr 2018 23:30:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/frontend-shorts-css3-opacity-background-only/</guid>
+      <guid>https://www.ilonacodes.com/blog/frontend-shorts-css3-opacity-background-only/</guid>
       <description>Hi everyone! It&amp;rsquo;s time for a new post.
 What we do (I mean front-end web developers) isn&amp;rsquo;t all that unique. Often we face the problem that seems easy to solve. However, sometimes we spend hours on finding the solution.
 In this case, I wanted to change the opacity of the app teaser background color and don&amp;rsquo;t change the opacity of links. I have tried some silly approaches that seemed logical to me, and they all have failed.</description>

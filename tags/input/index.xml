@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Input on Ilona Who Codes &amp; Blogs &amp; Creates</title>
-    <link>//www.ilonacodes.com/tags/input/</link>
+    <link>https://www.ilonacodes.com/tags/input/</link>
     <description>Recent content in Input on Ilona Who Codes &amp; Blogs &amp; Creates</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 31 Mar 2018 18:30:05 +0100</lastBuildDate>
     
-	<atom:link href="//www.ilonacodes.com/tags/input/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.ilonacodes.com/tags/input/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Front-end Shorts: How to Read Content From The File Input in React</title>
-      <link>//www.ilonacodes.com/blog/frontend-shorts-how-to-read-content-from-the-file-input-in-react/</link>
+      <link>https://www.ilonacodes.com/blog/frontend-shorts-how-to-read-content-from-the-file-input-in-react/</link>
       <pubDate>Sat, 31 Mar 2018 18:30:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/frontend-shorts-how-to-read-content-from-the-file-input-in-react/</guid>
+      <guid>https://www.ilonacodes.com/blog/frontend-shorts-how-to-read-content-from-the-file-input-in-react/</guid>
       <description>Hi, everyone! How is your weekend going?
 As you know, I prefer learning to code by doing things. So, the last feature I have implemented for the app is the reading of the content from the uploaded (local) .csv file from the user.
 To do so without a server or any back-end—is a challenge.

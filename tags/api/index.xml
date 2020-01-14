@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Api on Ilona Who Codes &amp; Blogs &amp; Creates</title>
-    <link>//www.ilonacodes.com/tags/api/</link>
+    <link>https://www.ilonacodes.com/tags/api/</link>
     <description>Recent content in Api on Ilona Who Codes &amp; Blogs &amp; Creates</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 10 Dec 2018 18:40:05 +0100</lastBuildDate>
     
-	<atom:link href="//www.ilonacodes.com/tags/api/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.ilonacodes.com/tags/api/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Fetching GitHub User with REST API and ReactJS</title>
-      <link>//www.ilonacodes.com/blog/fetching-github-user-with-rest-api-and-reactjs/</link>
+      <link>https://www.ilonacodes.com/blog/fetching-github-user-with-rest-api-and-reactjs/</link>
       <pubDate>Mon, 10 Dec 2018 18:40:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/fetching-github-user-with-rest-api-and-reactjs/</guid>
+      <guid>https://www.ilonacodes.com/blog/fetching-github-user-with-rest-api-and-reactjs/</guid>
       <description>&lt;p&gt;
 &lt;figure&gt;
     
-        &lt;img src=&#34;//www.ilonacodes.com/blog/images/fetching.jpeg&#34; /&gt;
+        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/fetching.jpeg&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -39,10 +39,10 @@ In this post, I explain how you can find any user on GitHub through GitHub API u
     
     <item>
       <title>Starting with REST API: Figuring out</title>
-      <link>//www.ilonacodes.com/blog/starting-with-rest-api/</link>
+      <link>https://www.ilonacodes.com/blog/starting-with-rest-api/</link>
       <pubDate>Mon, 17 Jul 2017 21:45:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/starting-with-rest-api/</guid>
+      <guid>https://www.ilonacodes.com/blog/starting-with-rest-api/</guid>
       <description>Today I started doing backend part for my project. It will be written in Ruby language and using Sinatra framework.
 This post is directed at readers that have little experiences to understand the aim of REST API for a product development.
 Coming back to my project, I had to implement search and preview functionalities. I used a .txt file to describe the REST API precisely and go through it step by step.</description>

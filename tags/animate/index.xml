@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Animate on Ilona Who Codes &amp; Blogs &amp; Creates</title>
-    <link>//www.ilonacodes.com/tags/animate/</link>
+    <link>https://www.ilonacodes.com/tags/animate/</link>
     <description>Recent content in Animate on Ilona Who Codes &amp; Blogs &amp; Creates</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 10 Mar 2018 20:45:05 +0100</lastBuildDate>
     
-	<atom:link href="//www.ilonacodes.com/tags/animate/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.ilonacodes.com/tags/animate/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Front-end Shorts: How to Create Parallax Effect With Vanilla JS</title>
-      <link>//www.ilonacodes.com/blog/how-to-create-parallax-effect-with-vanilla-js/</link>
+      <link>https://www.ilonacodes.com/blog/how-to-create-parallax-effect-with-vanilla-js/</link>
       <pubDate>Sat, 10 Mar 2018 20:45:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/how-to-create-parallax-effect-with-vanilla-js/</guid>
+      <guid>https://www.ilonacodes.com/blog/how-to-create-parallax-effect-with-vanilla-js/</guid>
       <description>Hi, there! I hope you enjoy your weekend, and ready for a new post.
 Recently there are a lot of sites, which have featured with parallax scrolling effect, that represents them in more interactive &amp;ldquo;professionally-made&amp;rdquo; way.
 This fact made me recreate the effect using Vanilla JavaScript, an example of which you can see below.
@@ -26,10 +26,10 @@ I have used a &amp;lsquo;scroll&amp;rsquo; event on browser &amp;lsquo;window,&a
     
     <item>
       <title>Front-end Shorts: How to Scroll to Element in jQuery With Animation</title>
-      <link>//www.ilonacodes.com/blog/front-end-shorts-how-to-scroll-to-element-in-jquery-with-animation/</link>
+      <link>https://www.ilonacodes.com/blog/front-end-shorts-how-to-scroll-to-element-in-jquery-with-animation/</link>
       <pubDate>Thu, 08 Mar 2018 16:30:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/front-end-shorts-how-to-scroll-to-element-in-jquery-with-animation/</guid>
+      <guid>https://www.ilonacodes.com/blog/front-end-shorts-how-to-scroll-to-element-in-jquery-with-animation/</guid>
       <description>Here I am back and decided to continue blogging with front-end shorts. Unfortunately, I don&amp;rsquo;t have enough time to write big posts, but I would be happy to share some frontend tips and tricks that I have already applied for some of my projects.
 The last days I had to work with Javascript and jQuery a lot apart from React and spent much time on creating templates. As you know, nowadays modern web pages include animated scrolling, which makes any site look professional and more elegant (instead of simple link element reference in HTML5).</description>
     </item>

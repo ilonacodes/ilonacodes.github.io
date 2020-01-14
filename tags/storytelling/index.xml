@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Storytelling on Ilona Who Codes &amp; Blogs &amp; Creates</title>
-    <link>//www.ilonacodes.com/tags/storytelling/</link>
+    <link>https://www.ilonacodes.com/tags/storytelling/</link>
     <description>Recent content in Storytelling on Ilona Who Codes &amp; Blogs &amp; Creates</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 21 Apr 2018 19:15:05 +0100</lastBuildDate>
     
-	<atom:link href="//www.ilonacodes.com/tags/storytelling/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.ilonacodes.com/tags/storytelling/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Front-end Shorts: Good Storytelling Elements</title>
-      <link>//www.ilonacodes.com/blog/frontend-shorts-good-storytelling-elements/</link>
+      <link>https://www.ilonacodes.com/blog/frontend-shorts-good-storytelling-elements/</link>
       <pubDate>Sat, 21 Apr 2018 19:15:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/frontend-shorts-good-storytelling-elements/</guid>
+      <guid>https://www.ilonacodes.com/blog/frontend-shorts-good-storytelling-elements/</guid>
       <description>Happy Friday, my readers!
 As a front-end web developer, I am also interested in UI/UX design, and that is why I’ve decided me to do a UI/UX research using Aristotle’s Seven Elements of Storytelling framework.
 It is notably practical, and many designers, web developers, will benefit from applying this method for creating user-friendly interfaces.

@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tech on Ilona Who Codes &amp; Blogs &amp; Creates</title>
-    <link>//www.ilonacodes.com/tags/tech/</link>
+    <link>https://www.ilonacodes.com/tags/tech/</link>
     <description>Recent content in Tech on Ilona Who Codes &amp; Blogs &amp; Creates</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 19 Jan 2019 10:40:05 +0100</lastBuildDate>
     
-	<atom:link href="//www.ilonacodes.com/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.ilonacodes.com/tags/tech/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Styling Form With Different States And Storybook</title>
-      <link>//www.ilonacodes.com/blog/styling-form-with-different-states-and-storybook/</link>
+      <link>https://www.ilonacodes.com/blog/styling-form-with-different-states-and-storybook/</link>
       <pubDate>Sat, 19 Jan 2019 10:40:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/styling-form-with-different-states-and-storybook/</guid>
+      <guid>https://www.ilonacodes.com/blog/styling-form-with-different-states-and-storybook/</guid>
       <description>&lt;p&gt;
 &lt;figure&gt;
     
-        &lt;img src=&#34;//www.ilonacodes.com/blog/images/styling-storybook.jpg&#34; /&gt;
+        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/styling-storybook.jpg&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -37,14 +37,14 @@ There are a lot of different and efficient ways how to improve web app developme
     
     <item>
       <title>Harnessing the power of Bootstrap in React with Reactstrap</title>
-      <link>//www.ilonacodes.com/blog/harnessing-the-power-of-bootstrap-in-react-with-reactstrap/</link>
+      <link>https://www.ilonacodes.com/blog/harnessing-the-power-of-bootstrap-in-react-with-reactstrap/</link>
       <pubDate>Fri, 11 Jan 2019 10:40:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/harnessing-the-power-of-bootstrap-in-react-with-reactstrap/</guid>
+      <guid>https://www.ilonacodes.com/blog/harnessing-the-power-of-bootstrap-in-react-with-reactstrap/</guid>
       <description>&lt;p&gt;
 &lt;figure&gt;
     
-        &lt;img src=&#34;//www.ilonacodes.com/blog/images/reactstrap.jpg&#34; /&gt;
+        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/reactstrap.jpg&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -61,14 +61,14 @@ Nowadays there are a lot of UI frameworks for React like Bootstrap, UIKit, Seman
     
     <item>
       <title>What are GraphQL and its schemas</title>
-      <link>//www.ilonacodes.com/blog/what-are-graphql-and-its-schemas/</link>
+      <link>https://www.ilonacodes.com/blog/what-are-graphql-and-its-schemas/</link>
       <pubDate>Fri, 04 Jan 2019 10:40:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/what-are-graphql-and-its-schemas/</guid>
+      <guid>https://www.ilonacodes.com/blog/what-are-graphql-and-its-schemas/</guid>
       <description>&lt;p&gt;
 &lt;figure&gt;
     
-        &lt;img src=&#34;//www.ilonacodes.com/blog/images/what-are-graphql-and-its-schemas.jpg&#34; /&gt;
+        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/what-are-graphql-and-its-schemas.jpg&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -85,14 +85,14 @@ The last days I am spending time on learning &lt;a href=&#34;https://graphql.org
     
     <item>
       <title>Let’s implement: Progress Bar With React Hooks</title>
-      <link>//www.ilonacodes.com/blog/progress-bar-with-react-hooks/</link>
+      <link>https://www.ilonacodes.com/blog/progress-bar-with-react-hooks/</link>
       <pubDate>Fri, 28 Dec 2018 10:40:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/progress-bar-with-react-hooks/</guid>
+      <guid>https://www.ilonacodes.com/blog/progress-bar-with-react-hooks/</guid>
       <description>&lt;p&gt;
 &lt;figure&gt;
     
-        &lt;img src=&#34;//www.ilonacodes.com/blog/images/progress-bar-with-react-hooks.jpg&#34; /&gt;
+        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/progress-bar-with-react-hooks.jpg&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -109,14 +109,14 @@ After &lt;strong&gt;React Hooks&lt;/strong&gt; introduction at &lt;a href=&#34;h
     
     <item>
       <title>Hacking User Testing With ReactJS</title>
-      <link>//www.ilonacodes.com/blog/hacking-user-testing-with-reactjs/</link>
+      <link>https://www.ilonacodes.com/blog/hacking-user-testing-with-reactjs/</link>
       <pubDate>Mon, 24 Dec 2018 10:40:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/hacking-user-testing-with-reactjs/</guid>
+      <guid>https://www.ilonacodes.com/blog/hacking-user-testing-with-reactjs/</guid>
       <description>&lt;p&gt;
 &lt;figure&gt;
     
-        &lt;img src=&#34;//www.ilonacodes.com/blog/images/hacking-user-testing.jpeg&#34; /&gt;
+        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/hacking-user-testing.jpeg&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -133,13 +133,13 @@ There are many tools available for designers to create beautiful user interfaces
     
     <item>
       <title>Why Should We Create Conversational Experiences For Our Applications?</title>
-      <link>//www.ilonacodes.com/blog/why-should-we-create-conversational-experiences-for-our-applications/</link>
+      <link>https://www.ilonacodes.com/blog/why-should-we-create-conversational-experiences-for-our-applications/</link>
       <pubDate>Fri, 19 Oct 2018 10:40:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/why-should-we-create-conversational-experiences-for-our-applications/</guid>
+      <guid>https://www.ilonacodes.com/blog/why-should-we-create-conversational-experiences-for-our-applications/</guid>
       <description>&lt;figure&gt;
     
-        &lt;img src=&#34;//www.ilonacodes.com/blog/images/why-chatbots.jpg&#34; /&gt;
+        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/why-chatbots.jpg&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -157,13 +157,13 @@ There are many tools available for designers to create beautiful user interfaces
     
     <item>
       <title>How to Avoid Duplication of Common Wrapper Behavior in React Using Children Prop</title>
-      <link>//www.ilonacodes.com/blog/how-to-avoid-duplication-of-common-wrapper-behavior-in-react-using-children-prop/</link>
+      <link>https://www.ilonacodes.com/blog/how-to-avoid-duplication-of-common-wrapper-behavior-in-react-using-children-prop/</link>
       <pubDate>Thu, 11 Oct 2018 10:40:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/how-to-avoid-duplication-of-common-wrapper-behavior-in-react-using-children-prop/</guid>
+      <guid>https://www.ilonacodes.com/blog/how-to-avoid-duplication-of-common-wrapper-behavior-in-react-using-children-prop/</guid>
       <description>&lt;figure&gt;
     
-        &lt;img src=&#34;//www.ilonacodes.com/blog/images/react-children-prop.jpeg&#34; /&gt;
+        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/react-children-prop.jpeg&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -181,13 +181,13 @@ There are many tools available for designers to create beautiful user interfaces
     
     <item>
       <title>Simple Image Carousel with React</title>
-      <link>//www.ilonacodes.com/blog/simple-image-carousel-with-react/</link>
+      <link>https://www.ilonacodes.com/blog/simple-image-carousel-with-react/</link>
       <pubDate>Sat, 06 Oct 2018 10:40:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/simple-image-carousel-with-react/</guid>
+      <guid>https://www.ilonacodes.com/blog/simple-image-carousel-with-react/</guid>
       <description>&lt;figure&gt;
     
-        &lt;img src=&#34;//www.ilonacodes.com/blog/images/simple-image-carousel-with-react.jpeg&#34; /&gt;
+        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/simple-image-carousel-with-react.jpeg&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -205,13 +205,13 @@ There are many tools available for designers to create beautiful user interfaces
     
     <item>
       <title>Simple State Machine with Redux</title>
-      <link>//www.ilonacodes.com/blog/simple-state-machine-with-redux/</link>
+      <link>https://www.ilonacodes.com/blog/simple-state-machine-with-redux/</link>
       <pubDate>Tue, 02 Oct 2018 10:40:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/simple-state-machine-with-redux/</guid>
+      <guid>https://www.ilonacodes.com/blog/simple-state-machine-with-redux/</guid>
       <description>&lt;figure&gt;
     
-        &lt;img src=&#34;//www.ilonacodes.com/blog/simple-state-machine-with-redux.jpeg&#34; /&gt;
+        &lt;img src=&#34;https://www.ilonacodes.com/blog/simple-state-machine-with-redux.jpeg&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -229,13 +229,13 @@ There are many tools available for designers to create beautiful user interfaces
     
     <item>
       <title>Creating Floating Label/Placeholder for Input with React</title>
-      <link>//www.ilonacodes.com/blog/creating-floating-label-placeholder-for-input-with-react/</link>
+      <link>https://www.ilonacodes.com/blog/creating-floating-label-placeholder-for-input-with-react/</link>
       <pubDate>Thu, 09 Aug 2018 07:00:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/creating-floating-label-placeholder-for-input-with-react/</guid>
+      <guid>https://www.ilonacodes.com/blog/creating-floating-label-placeholder-for-input-with-react/</guid>
       <description>&lt;figure&gt;
     
-        &lt;img src=&#34;//www.ilonacodes.com/blog/images/creating-floating-label-cover.jpeg&#34; /&gt;
+        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/creating-floating-label-cover.jpeg&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -253,13 +253,13 @@ There are many tools available for designers to create beautiful user interfaces
     
     <item>
       <title>Internationalize Your App With React</title>
-      <link>//www.ilonacodes.com/blog/internationalize-your-app-with-react/</link>
+      <link>https://www.ilonacodes.com/blog/internationalize-your-app-with-react/</link>
       <pubDate>Fri, 27 Jul 2018 07:00:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/internationalize-your-app-with-react/</guid>
+      <guid>https://www.ilonacodes.com/blog/internationalize-your-app-with-react/</guid>
       <description>&lt;figure&gt;
     
-        &lt;img src=&#34;//www.ilonacodes.com/blog/images/intl-your-app-with-react.jpeg&#34; /&gt;
+        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/intl-your-app-with-react.jpeg&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -277,13 +277,13 @@ There are many tools available for designers to create beautiful user interfaces
     
     <item>
       <title>Business goals &amp; user needs</title>
-      <link>//www.ilonacodes.com/blog/business-goals-and-user-needs/</link>
+      <link>https://www.ilonacodes.com/blog/business-goals-and-user-needs/</link>
       <pubDate>Fri, 20 Jul 2018 07:00:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/business-goals-and-user-needs/</guid>
+      <guid>https://www.ilonacodes.com/blog/business-goals-and-user-needs/</guid>
       <description>&lt;figure&gt;
     
-        &lt;img src=&#34;//www.ilonacodes.com/blog/images/business-goals-and-user-needs.jpeg&#34; /&gt;
+        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/business-goals-and-user-needs.jpeg&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -301,13 +301,13 @@ There are many tools available for designers to create beautiful user interfaces
     
     <item>
       <title>Content “First” in Web Design</title>
-      <link>//www.ilonacodes.com/blog/content-first-in-web-design/</link>
+      <link>https://www.ilonacodes.com/blog/content-first-in-web-design/</link>
       <pubDate>Mon, 16 Jul 2018 07:00:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/content-first-in-web-design/</guid>
+      <guid>https://www.ilonacodes.com/blog/content-first-in-web-design/</guid>
       <description>&lt;figure&gt;
     
-        &lt;img src=&#34;//www.ilonacodes.com/blog/images/content-first-in-web-design.jpeg&#34; /&gt;
+        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/content-first-in-web-design.jpeg&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -326,13 +326,13 @@ In my opinion, there are many advantages to applying the content first approach.
     
     <item>
       <title>How to Choose The Best Color For Your Website</title>
-      <link>//www.ilonacodes.com/blog/how-to-choose-the-best-color/</link>
+      <link>https://www.ilonacodes.com/blog/how-to-choose-the-best-color/</link>
       <pubDate>Sun, 20 May 2018 07:00:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/how-to-choose-the-best-color/</guid>
+      <guid>https://www.ilonacodes.com/blog/how-to-choose-the-best-color/</guid>
       <description>&lt;figure&gt;
     
-        &lt;img src=&#34;//www.ilonacodes.com/blog/images/how-to-choose-the-best-color.jpeg&#34; /&gt;
+        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/how-to-choose-the-best-color.jpeg&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -351,13 +351,13 @@ Picking the right colors is something that might seem easy at first. And when yo
     
     <item>
       <title>How to Hack Your Front-End Career With UX</title>
-      <link>//www.ilonacodes.com/blog/how-to-hack-your-front-end-career-with-ux/</link>
+      <link>https://www.ilonacodes.com/blog/how-to-hack-your-front-end-career-with-ux/</link>
       <pubDate>Sun, 13 May 2018 07:00:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/how-to-hack-your-front-end-career-with-ux/</guid>
+      <guid>https://www.ilonacodes.com/blog/how-to-hack-your-front-end-career-with-ux/</guid>
       <description>&lt;figure&gt;
     
-        &lt;img src=&#34;//www.ilonacodes.com/blog/images/hack-career-with-ux.jpeg&#34; /&gt;
+        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/hack-career-with-ux.jpeg&#34; /&gt;
     
     
     &lt;figcaption&gt;

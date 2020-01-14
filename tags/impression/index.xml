@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Impression on Ilona Who Codes &amp; Blogs &amp; Creates</title>
-    <link>//www.ilonacodes.com/tags/impression/</link>
+    <link>https://www.ilonacodes.com/tags/impression/</link>
     <description>Recent content in Impression on Ilona Who Codes &amp; Blogs &amp; Creates</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 14 Oct 2017 22:30:05 +0100</lastBuildDate>
     
-	<atom:link href="//www.ilonacodes.com/tags/impression/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.ilonacodes.com/tags/impression/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>What Did I Learn at Codemotion Berlin 2017</title>
-      <link>//www.ilonacodes.com/blog/what-did-i-learn-at-codemotion-berlin-2017/</link>
+      <link>https://www.ilonacodes.com/blog/what-did-i-learn-at-codemotion-berlin-2017/</link>
       <pubDate>Sat, 14 Oct 2017 22:30:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/what-did-i-learn-at-codemotion-berlin-2017/</guid>
+      <guid>https://www.ilonacodes.com/blog/what-did-i-learn-at-codemotion-berlin-2017/</guid>
       <description>Hi, everyone!
 As you noticed, I post a new blog post about the development of an interactive ToDo list regularly, every five days. But today I am going to tell you about the international IT-conference Codemotion, that I have attended on 12-13. October in Berlin.
 There were a lot of informative and motivational topics, that can inspire everyone, who are interested or work in IT-branch.

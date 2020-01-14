@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fetch on Ilona Who Codes &amp; Blogs &amp; Creates</title>
-    <link>//www.ilonacodes.com/tags/fetch/</link>
+    <link>https://www.ilonacodes.com/tags/fetch/</link>
     <description>Recent content in Fetch on Ilona Who Codes &amp; Blogs &amp; Creates</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 17 Mar 2018 15:00:05 +0100</lastBuildDate>
     
-	<atom:link href="//www.ilonacodes.com/tags/fetch/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.ilonacodes.com/tags/fetch/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Front-end Shorts: Fetch List of Resources From REST-API</title>
-      <link>//www.ilonacodes.com/blog/front-end-shorts-fetch-list-of-resources-from-rest-api/</link>
+      <link>https://www.ilonacodes.com/blog/front-end-shorts-fetch-list-of-resources-from-rest-api/</link>
       <pubDate>Sat, 17 Mar 2018 15:00:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/front-end-shorts-fetch-list-of-resources-from-rest-api/</guid>
+      <guid>https://www.ilonacodes.com/blog/front-end-shorts-fetch-list-of-resources-from-rest-api/</guid>
       <description>Today I am going to tell you how to get JSON data from the Rest-API to UI using React+Redux frameworks.
 In my case, the task looks like:
 I have a URL, for example: https://api.com/v1/expenses/ which will give the following JSON data, and I want to get this data in my UI.

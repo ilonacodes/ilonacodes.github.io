@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Javascript on Ilona Who Codes &amp; Blogs &amp; Creates</title>
-    <link>//www.ilonacodes.com/tags/javascript/</link>
+    <link>https://www.ilonacodes.com/tags/javascript/</link>
     <description>Recent content in Javascript on Ilona Who Codes &amp; Blogs &amp; Creates</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 19 Jan 2019 10:40:05 +0100</lastBuildDate>
     
-	<atom:link href="//www.ilonacodes.com/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.ilonacodes.com/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Styling Form With Different States And Storybook</title>
-      <link>//www.ilonacodes.com/blog/styling-form-with-different-states-and-storybook/</link>
+      <link>https://www.ilonacodes.com/blog/styling-form-with-different-states-and-storybook/</link>
       <pubDate>Sat, 19 Jan 2019 10:40:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/styling-form-with-different-states-and-storybook/</guid>
+      <guid>https://www.ilonacodes.com/blog/styling-form-with-different-states-and-storybook/</guid>
       <description>&lt;p&gt;
 &lt;figure&gt;
     
-        &lt;img src=&#34;//www.ilonacodes.com/blog/images/styling-storybook.jpg&#34; /&gt;
+        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/styling-storybook.jpg&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -37,14 +37,14 @@ There are a lot of different and efficient ways how to improve web app developme
     
     <item>
       <title>What are GraphQL and its schemas</title>
-      <link>//www.ilonacodes.com/blog/what-are-graphql-and-its-schemas/</link>
+      <link>https://www.ilonacodes.com/blog/what-are-graphql-and-its-schemas/</link>
       <pubDate>Fri, 04 Jan 2019 10:40:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/what-are-graphql-and-its-schemas/</guid>
+      <guid>https://www.ilonacodes.com/blog/what-are-graphql-and-its-schemas/</guid>
       <description>&lt;p&gt;
 &lt;figure&gt;
     
-        &lt;img src=&#34;//www.ilonacodes.com/blog/images/what-are-graphql-and-its-schemas.jpg&#34; /&gt;
+        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/what-are-graphql-and-its-schemas.jpg&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -61,14 +61,14 @@ The last days I am spending time on learning &lt;a href=&#34;https://graphql.org
     
     <item>
       <title>Let’s implement: Progress Bar With React Hooks</title>
-      <link>//www.ilonacodes.com/blog/progress-bar-with-react-hooks/</link>
+      <link>https://www.ilonacodes.com/blog/progress-bar-with-react-hooks/</link>
       <pubDate>Fri, 28 Dec 2018 10:40:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/progress-bar-with-react-hooks/</guid>
+      <guid>https://www.ilonacodes.com/blog/progress-bar-with-react-hooks/</guid>
       <description>&lt;p&gt;
 &lt;figure&gt;
     
-        &lt;img src=&#34;//www.ilonacodes.com/blog/images/progress-bar-with-react-hooks.jpg&#34; /&gt;
+        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/progress-bar-with-react-hooks.jpg&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -85,14 +85,14 @@ After &lt;strong&gt;React Hooks&lt;/strong&gt; introduction at &lt;a href=&#34;h
     
     <item>
       <title>Hacking User Testing With ReactJS</title>
-      <link>//www.ilonacodes.com/blog/hacking-user-testing-with-reactjs/</link>
+      <link>https://www.ilonacodes.com/blog/hacking-user-testing-with-reactjs/</link>
       <pubDate>Mon, 24 Dec 2018 10:40:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/hacking-user-testing-with-reactjs/</guid>
+      <guid>https://www.ilonacodes.com/blog/hacking-user-testing-with-reactjs/</guid>
       <description>&lt;p&gt;
 &lt;figure&gt;
     
-        &lt;img src=&#34;//www.ilonacodes.com/blog/images/hacking-user-testing.jpeg&#34; /&gt;
+        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/hacking-user-testing.jpeg&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -109,14 +109,14 @@ There are many tools available for designers to create beautiful user interfaces
     
     <item>
       <title>Fetching GitHub User with REST API and ReactJS</title>
-      <link>//www.ilonacodes.com/blog/fetching-github-user-with-rest-api-and-reactjs/</link>
+      <link>https://www.ilonacodes.com/blog/fetching-github-user-with-rest-api-and-reactjs/</link>
       <pubDate>Mon, 10 Dec 2018 18:40:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/fetching-github-user-with-rest-api-and-reactjs/</guid>
+      <guid>https://www.ilonacodes.com/blog/fetching-github-user-with-rest-api-and-reactjs/</guid>
       <description>&lt;p&gt;
 &lt;figure&gt;
     
-        &lt;img src=&#34;//www.ilonacodes.com/blog/images/fetching.jpeg&#34; /&gt;
+        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/fetching.jpeg&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -135,13 +135,13 @@ In this post, I explain how you can find any user on GitHub through GitHub API u
     
     <item>
       <title>How to Avoid Duplication of Common Wrapper Behavior in React Using Children Prop</title>
-      <link>//www.ilonacodes.com/blog/how-to-avoid-duplication-of-common-wrapper-behavior-in-react-using-children-prop/</link>
+      <link>https://www.ilonacodes.com/blog/how-to-avoid-duplication-of-common-wrapper-behavior-in-react-using-children-prop/</link>
       <pubDate>Thu, 11 Oct 2018 10:40:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/how-to-avoid-duplication-of-common-wrapper-behavior-in-react-using-children-prop/</guid>
+      <guid>https://www.ilonacodes.com/blog/how-to-avoid-duplication-of-common-wrapper-behavior-in-react-using-children-prop/</guid>
       <description>&lt;figure&gt;
     
-        &lt;img src=&#34;//www.ilonacodes.com/blog/images/react-children-prop.jpeg&#34; /&gt;
+        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/react-children-prop.jpeg&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -159,13 +159,13 @@ In this post, I explain how you can find any user on GitHub through GitHub API u
     
     <item>
       <title>Simple Image Carousel with React</title>
-      <link>//www.ilonacodes.com/blog/simple-image-carousel-with-react/</link>
+      <link>https://www.ilonacodes.com/blog/simple-image-carousel-with-react/</link>
       <pubDate>Sat, 06 Oct 2018 10:40:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/simple-image-carousel-with-react/</guid>
+      <guid>https://www.ilonacodes.com/blog/simple-image-carousel-with-react/</guid>
       <description>&lt;figure&gt;
     
-        &lt;img src=&#34;//www.ilonacodes.com/blog/images/simple-image-carousel-with-react.jpeg&#34; /&gt;
+        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/simple-image-carousel-with-react.jpeg&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -183,13 +183,13 @@ In this post, I explain how you can find any user on GitHub through GitHub API u
     
     <item>
       <title>Simple State Machine with Redux</title>
-      <link>//www.ilonacodes.com/blog/simple-state-machine-with-redux/</link>
+      <link>https://www.ilonacodes.com/blog/simple-state-machine-with-redux/</link>
       <pubDate>Tue, 02 Oct 2018 10:40:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/simple-state-machine-with-redux/</guid>
+      <guid>https://www.ilonacodes.com/blog/simple-state-machine-with-redux/</guid>
       <description>&lt;figure&gt;
     
-        &lt;img src=&#34;//www.ilonacodes.com/blog/simple-state-machine-with-redux.jpeg&#34; /&gt;
+        &lt;img src=&#34;https://www.ilonacodes.com/blog/simple-state-machine-with-redux.jpeg&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -207,14 +207,14 @@ In this post, I explain how you can find any user on GitHub through GitHub API u
     
     <item>
       <title>Why Formik With React</title>
-      <link>//www.ilonacodes.com/blog/why-formik-with-react/</link>
+      <link>https://www.ilonacodes.com/blog/why-formik-with-react/</link>
       <pubDate>Sat, 15 Sep 2018 18:40:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/why-formik-with-react/</guid>
+      <guid>https://www.ilonacodes.com/blog/why-formik-with-react/</guid>
       <description>&lt;p&gt;
 &lt;figure&gt;
     
-        &lt;img src=&#34;//www.ilonacodes.com/blog/images/why-formik-with-react-cover.jpeg&#34; /&gt;
+        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/why-formik-with-react-cover.jpeg&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -233,14 +233,14 @@ The way, how I try to understand the purpose of any framework is to use it and c
     
     <item>
       <title>Emotional Todo List with React</title>
-      <link>//www.ilonacodes.com/blog/emotional-todo-list-with-react/</link>
+      <link>https://www.ilonacodes.com/blog/emotional-todo-list-with-react/</link>
       <pubDate>Fri, 07 Sep 2018 18:40:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/emotional-todo-list-with-react/</guid>
+      <guid>https://www.ilonacodes.com/blog/emotional-todo-list-with-react/</guid>
       <description>&lt;p&gt;
 &lt;figure&gt;
     
-        &lt;img src=&#34;//www.ilonacodes.com/blog/images/emotional-todo-list-cover.jpeg&#34; /&gt;
+        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/emotional-todo-list-cover.jpeg&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -257,10 +257,10 @@ From the title of the post, you understand that I am not only going to explain h
     
     <item>
       <title>Front-end Shorts: CSS3 Opacity - Background Only</title>
-      <link>//www.ilonacodes.com/blog/frontend-shorts-css3-opacity-background-only/</link>
+      <link>https://www.ilonacodes.com/blog/frontend-shorts-css3-opacity-background-only/</link>
       <pubDate>Mon, 23 Apr 2018 23:30:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/frontend-shorts-css3-opacity-background-only/</guid>
+      <guid>https://www.ilonacodes.com/blog/frontend-shorts-css3-opacity-background-only/</guid>
       <description>Hi everyone! It&amp;rsquo;s time for a new post.
 What we do (I mean front-end web developers) isn&amp;rsquo;t all that unique. Often we face the problem that seems easy to solve. However, sometimes we spend hours on finding the solution.
 In this case, I wanted to change the opacity of the app teaser background color and don&amp;rsquo;t change the opacity of links. I have tried some silly approaches that seemed logical to me, and they all have failed.</description>
@@ -268,10 +268,10 @@ In this case, I wanted to change the opacity of the app teaser background color 
     
     <item>
       <title>Front-end Shorts: Good Storytelling Elements</title>
-      <link>//www.ilonacodes.com/blog/frontend-shorts-good-storytelling-elements/</link>
+      <link>https://www.ilonacodes.com/blog/frontend-shorts-good-storytelling-elements/</link>
       <pubDate>Sat, 21 Apr 2018 19:15:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/frontend-shorts-good-storytelling-elements/</guid>
+      <guid>https://www.ilonacodes.com/blog/frontend-shorts-good-storytelling-elements/</guid>
       <description>Happy Friday, my readers!
 As a front-end web developer, I am also interested in UI/UX design, and that is why I’ve decided me to do a UI/UX research using Aristotle’s Seven Elements of Storytelling framework.
 It is notably practical, and many designers, web developers, will benefit from applying this method for creating user-friendly interfaces.
@@ -280,10 +280,10 @@ In my opinion, it&amp;rsquo;s important to understand the users and to make it e
     
     <item>
       <title>Front-end Shorts: Storybook With React</title>
-      <link>//www.ilonacodes.com/blog/frontend-shorts-storybook-with-react/</link>
+      <link>https://www.ilonacodes.com/blog/frontend-shorts-storybook-with-react/</link>
       <pubDate>Wed, 18 Apr 2018 12:00:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/frontend-shorts-storybook-with-react/</guid>
+      <guid>https://www.ilonacodes.com/blog/frontend-shorts-storybook-with-react/</guid>
       <description>Hey there, that’s me again and a new post from me!
 Lately, I worked on the project that generates live documentation of the front-end components for apps built with create-react-app, and this UI development environment is called Storybook.
 What is the significant purpose for using this tool?
@@ -292,10 +292,10 @@ First of all, it helps to avoid code duplications and to make it easy to know wh
     
     <item>
       <title>Front-end Shorts: How to Read Content From The File Input in React</title>
-      <link>//www.ilonacodes.com/blog/frontend-shorts-how-to-read-content-from-the-file-input-in-react/</link>
+      <link>https://www.ilonacodes.com/blog/frontend-shorts-how-to-read-content-from-the-file-input-in-react/</link>
       <pubDate>Sat, 31 Mar 2018 18:30:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/frontend-shorts-how-to-read-content-from-the-file-input-in-react/</guid>
+      <guid>https://www.ilonacodes.com/blog/frontend-shorts-how-to-read-content-from-the-file-input-in-react/</guid>
       <description>Hi, everyone! How is your weekend going?
 As you know, I prefer learning to code by doing things. So, the last feature I have implemented for the app is the reading of the content from the uploaded (local) .csv file from the user.
 To do so without a server or any back-end—is a challenge.
@@ -305,10 +305,10 @@ const ImportFromFileBodyComponent = () =&amp;gt; { let fileReader; const handleF
     
     <item>
       <title>Front-end Shorts: How to Delete Item From The List With React&#43;Redux</title>
-      <link>//www.ilonacodes.com/blog/front-end-shorts-how-to-delete-item-from-the-list-with-react-redux/</link>
+      <link>https://www.ilonacodes.com/blog/front-end-shorts-how-to-delete-item-from-the-list-with-react-redux/</link>
       <pubDate>Thu, 22 Mar 2018 20:40:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/front-end-shorts-how-to-delete-item-from-the-list-with-react-redux/</guid>
+      <guid>https://www.ilonacodes.com/blog/front-end-shorts-how-to-delete-item-from-the-list-with-react-redux/</guid>
       <description>There are many possibilities how to remove multiple items from the array with JavaScript. So in this tutorial, I am going to share my approach to delete function with React+Redux.
 It&amp;rsquo;s front-end shorts, and I am trying to highlight the most important information. Thus, just let’s have a look at the significant code snippets with explanations:
 I have created the action:
@@ -317,10 +317,10 @@ I have created the action:
     
     <item>
       <title>Front-end Shorts: Fetch List of Resources From REST-API</title>
-      <link>//www.ilonacodes.com/blog/front-end-shorts-fetch-list-of-resources-from-rest-api/</link>
+      <link>https://www.ilonacodes.com/blog/front-end-shorts-fetch-list-of-resources-from-rest-api/</link>
       <pubDate>Sat, 17 Mar 2018 15:00:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/front-end-shorts-fetch-list-of-resources-from-rest-api/</guid>
+      <guid>https://www.ilonacodes.com/blog/front-end-shorts-fetch-list-of-resources-from-rest-api/</guid>
       <description>Today I am going to tell you how to get JSON data from the Rest-API to UI using React+Redux frameworks.
 In my case, the task looks like:
 I have a URL, for example: https://api.com/v1/expenses/ which will give the following JSON data, and I want to get this data in my UI.
@@ -329,10 +329,10 @@ To solve this task, I decided to use JavaScript’s fetch method. So in this way
     
     <item>
       <title>Front-end Shorts: Setting up React-Router-Redux</title>
-      <link>//www.ilonacodes.com/blog/frontend-shorts-setting-up-react-router-redux/</link>
+      <link>https://www.ilonacodes.com/blog/frontend-shorts-setting-up-react-router-redux/</link>
       <pubDate>Wed, 14 Mar 2018 15:30:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/frontend-shorts-setting-up-react-router-redux/</guid>
+      <guid>https://www.ilonacodes.com/blog/frontend-shorts-setting-up-react-router-redux/</guid>
       <description>Hi, everyone! How is your week going?
 Yesterday I worked with the web application written on React + Redux and had had some problem with the react-router-redux library. In short, the push method (using for navigation outside of components) didn&amp;rsquo;t work.
 Firstly, I have tried to set the Route component in the &amp;ldquo;traditional&amp;rdquo; way such as with react-router library. That might get the history props. Unfortunately, that also didn&amp;rsquo;t work. Because of Redux framework.</description>
@@ -340,10 +340,10 @@ Firstly, I have tried to set the Route component in the &amp;ldquo;traditional&a
     
     <item>
       <title>Front-end Shorts: How to Create Parallax Effect With Vanilla JS</title>
-      <link>//www.ilonacodes.com/blog/how-to-create-parallax-effect-with-vanilla-js/</link>
+      <link>https://www.ilonacodes.com/blog/how-to-create-parallax-effect-with-vanilla-js/</link>
       <pubDate>Sat, 10 Mar 2018 20:45:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/how-to-create-parallax-effect-with-vanilla-js/</guid>
+      <guid>https://www.ilonacodes.com/blog/how-to-create-parallax-effect-with-vanilla-js/</guid>
       <description>Hi, there! I hope you enjoy your weekend, and ready for a new post.
 Recently there are a lot of sites, which have featured with parallax scrolling effect, that represents them in more interactive &amp;ldquo;professionally-made&amp;rdquo; way.
 This fact made me recreate the effect using Vanilla JavaScript, an example of which you can see below.
@@ -353,20 +353,20 @@ I have used a &amp;lsquo;scroll&amp;rsquo; event on browser &amp;lsquo;window,&a
     
     <item>
       <title>Front-end Shorts: How to Scroll to Element in jQuery With Animation</title>
-      <link>//www.ilonacodes.com/blog/front-end-shorts-how-to-scroll-to-element-in-jquery-with-animation/</link>
+      <link>https://www.ilonacodes.com/blog/front-end-shorts-how-to-scroll-to-element-in-jquery-with-animation/</link>
       <pubDate>Thu, 08 Mar 2018 16:30:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/front-end-shorts-how-to-scroll-to-element-in-jquery-with-animation/</guid>
+      <guid>https://www.ilonacodes.com/blog/front-end-shorts-how-to-scroll-to-element-in-jquery-with-animation/</guid>
       <description>Here I am back and decided to continue blogging with front-end shorts. Unfortunately, I don&amp;rsquo;t have enough time to write big posts, but I would be happy to share some frontend tips and tricks that I have already applied for some of my projects.
 The last days I had to work with Javascript and jQuery a lot apart from React and spent much time on creating templates. As you know, nowadays modern web pages include animated scrolling, which makes any site look professional and more elegant (instead of simple link element reference in HTML5).</description>
     </item>
     
     <item>
       <title>Clear Form in Redux when Navigating with React-Router</title>
-      <link>//www.ilonacodes.com/blog/clear-form-in-redux-when-navigating-with-react-router/</link>
+      <link>https://www.ilonacodes.com/blog/clear-form-in-redux-when-navigating-with-react-router/</link>
       <pubDate>Sun, 19 Mar 2017 19:25:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/clear-form-in-redux-when-navigating-with-react-router/</guid>
+      <guid>https://www.ilonacodes.com/blog/clear-form-in-redux-when-navigating-with-react-router/</guid>
       <description>Hi there!
 I have worked on my project using a React-Redux architecture with React-Router for navigation. I have implemented forms for adding and editing resources. I have observed weird behavior:
  Add new resource with a description: &amp;ldquo;Hello World!&amp;rdquo; Start editing another resource with a description: &amp;ldquo;My new comment&amp;hellip;&amp;rdquo; Input for description contains a previous value: &amp;ldquo;Hello World!&amp;rdquo;  I was expecting to see the current description of the resource: &amp;ldquo;My new comment&amp;hellip;&amp;rdquo;, not the value from the previous form.</description>

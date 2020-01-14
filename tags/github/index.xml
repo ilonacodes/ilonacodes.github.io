@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Github on Ilona Who Codes &amp; Blogs &amp; Creates</title>
-    <link>//www.ilonacodes.com/tags/github/</link>
+    <link>https://www.ilonacodes.com/tags/github/</link>
     <description>Recent content in Github on Ilona Who Codes &amp; Blogs &amp; Creates</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 10 Dec 2018 18:40:05 +0100</lastBuildDate>
     
-	<atom:link href="//www.ilonacodes.com/tags/github/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.ilonacodes.com/tags/github/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Fetching GitHub User with REST API and ReactJS</title>
-      <link>//www.ilonacodes.com/blog/fetching-github-user-with-rest-api-and-reactjs/</link>
+      <link>https://www.ilonacodes.com/blog/fetching-github-user-with-rest-api-and-reactjs/</link>
       <pubDate>Mon, 10 Dec 2018 18:40:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/fetching-github-user-with-rest-api-and-reactjs/</guid>
+      <guid>https://www.ilonacodes.com/blog/fetching-github-user-with-rest-api-and-reactjs/</guid>
       <description>&lt;p&gt;
 &lt;figure&gt;
     
-        &lt;img src=&#34;//www.ilonacodes.com/blog/images/fetching.jpeg&#34; /&gt;
+        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/fetching.jpeg&#34; /&gt;
     
     
     &lt;figcaption&gt;

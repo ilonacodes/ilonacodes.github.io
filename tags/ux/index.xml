@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ux on Ilona Who Codes &amp; Blogs &amp; Creates</title>
-    <link>//www.ilonacodes.com/tags/ux/</link>
+    <link>https://www.ilonacodes.com/tags/ux/</link>
     <description>Recent content in Ux on Ilona Who Codes &amp; Blogs &amp; Creates</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 19 Oct 2019 10:20:05 +0100</lastBuildDate>
     
-	<atom:link href="//www.ilonacodes.com/tags/ux/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.ilonacodes.com/tags/ux/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>The Biggest Mistakes in App User Onboarding</title>
-      <link>//www.ilonacodes.com/blog/biggest-mistakes-app-user-onboarding/</link>
+      <link>https://www.ilonacodes.com/blog/biggest-mistakes-app-user-onboarding/</link>
       <pubDate>Sat, 19 Oct 2019 10:20:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/biggest-mistakes-app-user-onboarding/</guid>
+      <guid>https://www.ilonacodes.com/blog/biggest-mistakes-app-user-onboarding/</guid>
       <description>&lt;p&gt;
 &lt;figure&gt;
     
-        &lt;img src=&#34;//www.ilonacodes.com/blog/images/biggest-mistakes-app-user-onboarding.jpg&#34; alt=&#34;Mistakes in App User Onboarding&#34; /&gt;
+        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/biggest-mistakes-app-user-onboarding.jpg&#34; alt=&#34;Mistakes in App User Onboarding&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -37,14 +37,14 @@ As a developer and a user and a tech-savvy person, I use many web and mobile app
     
     <item>
       <title>Hacking User Testing With ReactJS</title>
-      <link>//www.ilonacodes.com/blog/hacking-user-testing-with-reactjs/</link>
+      <link>https://www.ilonacodes.com/blog/hacking-user-testing-with-reactjs/</link>
       <pubDate>Mon, 24 Dec 2018 10:40:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/hacking-user-testing-with-reactjs/</guid>
+      <guid>https://www.ilonacodes.com/blog/hacking-user-testing-with-reactjs/</guid>
       <description>&lt;p&gt;
 &lt;figure&gt;
     
-        &lt;img src=&#34;//www.ilonacodes.com/blog/images/hacking-user-testing.jpeg&#34; /&gt;
+        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/hacking-user-testing.jpeg&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -61,13 +61,13 @@ There are many tools available for designers to create beautiful user interfaces
     
     <item>
       <title>Why Should We Create Conversational Experiences For Our Applications?</title>
-      <link>//www.ilonacodes.com/blog/why-should-we-create-conversational-experiences-for-our-applications/</link>
+      <link>https://www.ilonacodes.com/blog/why-should-we-create-conversational-experiences-for-our-applications/</link>
       <pubDate>Fri, 19 Oct 2018 10:40:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/why-should-we-create-conversational-experiences-for-our-applications/</guid>
+      <guid>https://www.ilonacodes.com/blog/why-should-we-create-conversational-experiences-for-our-applications/</guid>
       <description>&lt;figure&gt;
     
-        &lt;img src=&#34;//www.ilonacodes.com/blog/images/why-chatbots.jpg&#34; /&gt;
+        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/why-chatbots.jpg&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -85,13 +85,13 @@ There are many tools available for designers to create beautiful user interfaces
     
     <item>
       <title>Business goals &amp; user needs</title>
-      <link>//www.ilonacodes.com/blog/business-goals-and-user-needs/</link>
+      <link>https://www.ilonacodes.com/blog/business-goals-and-user-needs/</link>
       <pubDate>Fri, 20 Jul 2018 07:00:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/business-goals-and-user-needs/</guid>
+      <guid>https://www.ilonacodes.com/blog/business-goals-and-user-needs/</guid>
       <description>&lt;figure&gt;
     
-        &lt;img src=&#34;//www.ilonacodes.com/blog/images/business-goals-and-user-needs.jpeg&#34; /&gt;
+        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/business-goals-and-user-needs.jpeg&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -109,13 +109,13 @@ There are many tools available for designers to create beautiful user interfaces
     
     <item>
       <title>Content “First” in Web Design</title>
-      <link>//www.ilonacodes.com/blog/content-first-in-web-design/</link>
+      <link>https://www.ilonacodes.com/blog/content-first-in-web-design/</link>
       <pubDate>Mon, 16 Jul 2018 07:00:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/content-first-in-web-design/</guid>
+      <guid>https://www.ilonacodes.com/blog/content-first-in-web-design/</guid>
       <description>&lt;figure&gt;
     
-        &lt;img src=&#34;//www.ilonacodes.com/blog/images/content-first-in-web-design.jpeg&#34; /&gt;
+        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/content-first-in-web-design.jpeg&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -134,13 +134,13 @@ In my opinion, there are many advantages to applying the content first approach.
     
     <item>
       <title>How to Choose The Best Color For Your Website</title>
-      <link>//www.ilonacodes.com/blog/how-to-choose-the-best-color/</link>
+      <link>https://www.ilonacodes.com/blog/how-to-choose-the-best-color/</link>
       <pubDate>Sun, 20 May 2018 07:00:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/how-to-choose-the-best-color/</guid>
+      <guid>https://www.ilonacodes.com/blog/how-to-choose-the-best-color/</guid>
       <description>&lt;figure&gt;
     
-        &lt;img src=&#34;//www.ilonacodes.com/blog/images/how-to-choose-the-best-color.jpeg&#34; /&gt;
+        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/how-to-choose-the-best-color.jpeg&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -159,13 +159,13 @@ Picking the right colors is something that might seem easy at first. And when yo
     
     <item>
       <title>How to Hack Your Front-End Career With UX</title>
-      <link>//www.ilonacodes.com/blog/how-to-hack-your-front-end-career-with-ux/</link>
+      <link>https://www.ilonacodes.com/blog/how-to-hack-your-front-end-career-with-ux/</link>
       <pubDate>Sun, 13 May 2018 07:00:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/how-to-hack-your-front-end-career-with-ux/</guid>
+      <guid>https://www.ilonacodes.com/blog/how-to-hack-your-front-end-career-with-ux/</guid>
       <description>&lt;figure&gt;
     
-        &lt;img src=&#34;//www.ilonacodes.com/blog/images/hack-career-with-ux.jpeg&#34; /&gt;
+        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/hack-career-with-ux.jpeg&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -183,10 +183,10 @@ Picking the right colors is something that might seem easy at first. And when yo
     
     <item>
       <title>Front-end Shorts: Good Storytelling Elements</title>
-      <link>//www.ilonacodes.com/blog/frontend-shorts-good-storytelling-elements/</link>
+      <link>https://www.ilonacodes.com/blog/frontend-shorts-good-storytelling-elements/</link>
       <pubDate>Sat, 21 Apr 2018 19:15:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/frontend-shorts-good-storytelling-elements/</guid>
+      <guid>https://www.ilonacodes.com/blog/frontend-shorts-good-storytelling-elements/</guid>
       <description>Happy Friday, my readers!
 As a front-end web developer, I am also interested in UI/UX design, and that is why I’ve decided me to do a UI/UX research using Aristotle’s Seven Elements of Storytelling framework.
 It is notably practical, and many designers, web developers, will benefit from applying this method for creating user-friendly interfaces.

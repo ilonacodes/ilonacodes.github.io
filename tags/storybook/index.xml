@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Storybook on Ilona Who Codes &amp; Blogs &amp; Creates</title>
-    <link>//www.ilonacodes.com/tags/storybook/</link>
+    <link>https://www.ilonacodes.com/tags/storybook/</link>
     <description>Recent content in Storybook on Ilona Who Codes &amp; Blogs &amp; Creates</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 19 Jan 2019 10:40:05 +0100</lastBuildDate>
     
-	<atom:link href="//www.ilonacodes.com/tags/storybook/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.ilonacodes.com/tags/storybook/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Styling Form With Different States And Storybook</title>
-      <link>//www.ilonacodes.com/blog/styling-form-with-different-states-and-storybook/</link>
+      <link>https://www.ilonacodes.com/blog/styling-form-with-different-states-and-storybook/</link>
       <pubDate>Sat, 19 Jan 2019 10:40:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/styling-form-with-different-states-and-storybook/</guid>
+      <guid>https://www.ilonacodes.com/blog/styling-form-with-different-states-and-storybook/</guid>
       <description>&lt;p&gt;
 &lt;figure&gt;
     
-        &lt;img src=&#34;//www.ilonacodes.com/blog/images/styling-storybook.jpg&#34; /&gt;
+        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/styling-storybook.jpg&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -37,10 +37,10 @@ There are a lot of different and efficient ways how to improve web app developme
     
     <item>
       <title>Front-end Shorts: Storybook With React</title>
-      <link>//www.ilonacodes.com/blog/frontend-shorts-storybook-with-react/</link>
+      <link>https://www.ilonacodes.com/blog/frontend-shorts-storybook-with-react/</link>
       <pubDate>Wed, 18 Apr 2018 12:00:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/frontend-shorts-storybook-with-react/</guid>
+      <guid>https://www.ilonacodes.com/blog/frontend-shorts-storybook-with-react/</guid>
       <description>Hey there, that’s me again and a new post from me!
 Lately, I worked on the project that generates live documentation of the front-end components for apps built with create-react-app, and this UI development environment is called Storybook.
 What is the significant purpose for using this tool?

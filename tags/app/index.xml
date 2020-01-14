@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>App on Ilona Who Codes &amp; Blogs &amp; Creates</title>
-    <link>//www.ilonacodes.com/tags/app/</link>
+    <link>https://www.ilonacodes.com/tags/app/</link>
     <description>Recent content in App on Ilona Who Codes &amp; Blogs &amp; Creates</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 16 Dec 2019 10:10:05 +0100</lastBuildDate>
     
-	<atom:link href="//www.ilonacodes.com/tags/app/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.ilonacodes.com/tags/app/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Quit my job—now a Product Maker full-time!</title>
-      <link>//www.ilonacodes.com/blog/quit-my-job-now-product-maker-full-time/</link>
+      <link>https://www.ilonacodes.com/blog/quit-my-job-now-product-maker-full-time/</link>
       <pubDate>Mon, 16 Dec 2019 10:10:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/quit-my-job-now-product-maker-full-time/</guid>
+      <guid>https://www.ilonacodes.com/blog/quit-my-job-now-product-maker-full-time/</guid>
       <description>&lt;figure&gt;
     
-        &lt;img src=&#34;//www.ilonacodes.com/blog/images/product-maker.jpg&#34; alt=&#34;Quit my job—now a product maker full-time!&#34; /&gt;
+        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/product-maker.jpg&#34; alt=&#34;Quit my job—now a product maker full-time!&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -38,14 +38,14 @@
     
     <item>
       <title>The Biggest Mistakes in App User Onboarding</title>
-      <link>//www.ilonacodes.com/blog/biggest-mistakes-app-user-onboarding/</link>
+      <link>https://www.ilonacodes.com/blog/biggest-mistakes-app-user-onboarding/</link>
       <pubDate>Sat, 19 Oct 2019 10:20:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/biggest-mistakes-app-user-onboarding/</guid>
+      <guid>https://www.ilonacodes.com/blog/biggest-mistakes-app-user-onboarding/</guid>
       <description>&lt;p&gt;
 &lt;figure&gt;
     
-        &lt;img src=&#34;//www.ilonacodes.com/blog/images/biggest-mistakes-app-user-onboarding.jpg&#34; alt=&#34;Mistakes in App User Onboarding&#34; /&gt;
+        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/biggest-mistakes-app-user-onboarding.jpg&#34; alt=&#34;Mistakes in App User Onboarding&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -62,14 +62,14 @@ As a developer and a user and a tech-savvy person, I use many web and mobile app
     
     <item>
       <title>Fetching GitHub User with REST API and ReactJS</title>
-      <link>//www.ilonacodes.com/blog/fetching-github-user-with-rest-api-and-reactjs/</link>
+      <link>https://www.ilonacodes.com/blog/fetching-github-user-with-rest-api-and-reactjs/</link>
       <pubDate>Mon, 10 Dec 2018 18:40:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/fetching-github-user-with-rest-api-and-reactjs/</guid>
+      <guid>https://www.ilonacodes.com/blog/fetching-github-user-with-rest-api-and-reactjs/</guid>
       <description>&lt;p&gt;
 &lt;figure&gt;
     
-        &lt;img src=&#34;//www.ilonacodes.com/blog/images/fetching.jpeg&#34; /&gt;
+        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/fetching.jpeg&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -88,14 +88,14 @@ In this post, I explain how you can find any user on GitHub through GitHub API u
     
     <item>
       <title>Why Formik With React</title>
-      <link>//www.ilonacodes.com/blog/why-formik-with-react/</link>
+      <link>https://www.ilonacodes.com/blog/why-formik-with-react/</link>
       <pubDate>Sat, 15 Sep 2018 18:40:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/why-formik-with-react/</guid>
+      <guid>https://www.ilonacodes.com/blog/why-formik-with-react/</guid>
       <description>&lt;p&gt;
 &lt;figure&gt;
     
-        &lt;img src=&#34;//www.ilonacodes.com/blog/images/why-formik-with-react-cover.jpeg&#34; /&gt;
+        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/why-formik-with-react-cover.jpeg&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -114,14 +114,14 @@ The way, how I try to understand the purpose of any framework is to use it and c
     
     <item>
       <title>Emotional Todo List with React</title>
-      <link>//www.ilonacodes.com/blog/emotional-todo-list-with-react/</link>
+      <link>https://www.ilonacodes.com/blog/emotional-todo-list-with-react/</link>
       <pubDate>Fri, 07 Sep 2018 18:40:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/emotional-todo-list-with-react/</guid>
+      <guid>https://www.ilonacodes.com/blog/emotional-todo-list-with-react/</guid>
       <description>&lt;p&gt;
 &lt;figure&gt;
     
-        &lt;img src=&#34;//www.ilonacodes.com/blog/images/emotional-todo-list-cover.jpeg&#34; /&gt;
+        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/emotional-todo-list-cover.jpeg&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -138,13 +138,13 @@ From the title of the post, you understand that I am not only going to explain h
     
     <item>
       <title>Creating Floating Label/Placeholder for Input with React</title>
-      <link>//www.ilonacodes.com/blog/creating-floating-label-placeholder-for-input-with-react/</link>
+      <link>https://www.ilonacodes.com/blog/creating-floating-label-placeholder-for-input-with-react/</link>
       <pubDate>Thu, 09 Aug 2018 07:00:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/creating-floating-label-placeholder-for-input-with-react/</guid>
+      <guid>https://www.ilonacodes.com/blog/creating-floating-label-placeholder-for-input-with-react/</guid>
       <description>&lt;figure&gt;
     
-        &lt;img src=&#34;//www.ilonacodes.com/blog/images/creating-floating-label-cover.jpeg&#34; /&gt;
+        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/creating-floating-label-cover.jpeg&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -162,13 +162,13 @@ From the title of the post, you understand that I am not only going to explain h
     
     <item>
       <title>Internationalize Your App With React</title>
-      <link>//www.ilonacodes.com/blog/internationalize-your-app-with-react/</link>
+      <link>https://www.ilonacodes.com/blog/internationalize-your-app-with-react/</link>
       <pubDate>Fri, 27 Jul 2018 07:00:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/internationalize-your-app-with-react/</guid>
+      <guid>https://www.ilonacodes.com/blog/internationalize-your-app-with-react/</guid>
       <description>&lt;figure&gt;
     
-        &lt;img src=&#34;//www.ilonacodes.com/blog/images/intl-your-app-with-react.jpeg&#34; /&gt;
+        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/intl-your-app-with-react.jpeg&#34; /&gt;
     
     
     &lt;figcaption&gt;

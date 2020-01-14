@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sinatra on Ilona Who Codes &amp; Blogs &amp; Creates</title>
-    <link>//www.ilonacodes.com/tags/sinatra/</link>
+    <link>https://www.ilonacodes.com/tags/sinatra/</link>
     <description>Recent content in Sinatra on Ilona Who Codes &amp; Blogs &amp; Creates</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 17 Jul 2017 21:45:05 +0100</lastBuildDate>
     
-	<atom:link href="//www.ilonacodes.com/tags/sinatra/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.ilonacodes.com/tags/sinatra/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Starting with REST API: Figuring out</title>
-      <link>//www.ilonacodes.com/blog/starting-with-rest-api/</link>
+      <link>https://www.ilonacodes.com/blog/starting-with-rest-api/</link>
       <pubDate>Mon, 17 Jul 2017 21:45:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/starting-with-rest-api/</guid>
+      <guid>https://www.ilonacodes.com/blog/starting-with-rest-api/</guid>
       <description>Today I started doing backend part for my project. It will be written in Ruby language and using Sinatra framework.
 This post is directed at readers that have little experiences to understand the aim of REST API for a product development.
 Coming back to my project, I had to implement search and preview functionalities. I used a .txt file to describe the REST API precisely and go through it step by step.</description>

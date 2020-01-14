@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>React Router on Ilona Who Codes &amp; Blogs &amp; Creates</title>
-    <link>//www.ilonacodes.com/tags/react-router/</link>
+    <link>https://www.ilonacodes.com/tags/react-router/</link>
     <description>Recent content in React Router on Ilona Who Codes &amp; Blogs &amp; Creates</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 19 Mar 2017 19:25:05 +0100</lastBuildDate>
     
-	<atom:link href="//www.ilonacodes.com/tags/react-router/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.ilonacodes.com/tags/react-router/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Clear Form in Redux when Navigating with React-Router</title>
-      <link>//www.ilonacodes.com/blog/clear-form-in-redux-when-navigating-with-react-router/</link>
+      <link>https://www.ilonacodes.com/blog/clear-form-in-redux-when-navigating-with-react-router/</link>
       <pubDate>Sun, 19 Mar 2017 19:25:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/clear-form-in-redux-when-navigating-with-react-router/</guid>
+      <guid>https://www.ilonacodes.com/blog/clear-form-in-redux-when-navigating-with-react-router/</guid>
       <description>Hi there!
 I have worked on my project using a React-Redux architecture with React-Router for navigation. I have implemented forms for adding and editing resources. I have observed weird behavior:
  Add new resource with a description: &amp;ldquo;Hello World!&amp;rdquo; Start editing another resource with a description: &amp;ldquo;My new comment&amp;hellip;&amp;rdquo; Input for description contains a previous value: &amp;ldquo;Hello World!&amp;rdquo;  I was expecting to see the current description of the resource: &amp;ldquo;My new comment&amp;hellip;&amp;rdquo;, not the value from the previous form.</description>

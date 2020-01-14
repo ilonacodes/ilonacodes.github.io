@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>React Router Redux on Ilona Who Codes &amp; Blogs &amp; Creates</title>
-    <link>//www.ilonacodes.com/tags/react-router-redux/</link>
+    <link>https://www.ilonacodes.com/tags/react-router-redux/</link>
     <description>Recent content in React Router Redux on Ilona Who Codes &amp; Blogs &amp; Creates</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 14 Mar 2018 15:30:05 +0100</lastBuildDate>
     
-	<atom:link href="//www.ilonacodes.com/tags/react-router-redux/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.ilonacodes.com/tags/react-router-redux/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Front-end Shorts: Setting up React-Router-Redux</title>
-      <link>//www.ilonacodes.com/blog/frontend-shorts-setting-up-react-router-redux/</link>
+      <link>https://www.ilonacodes.com/blog/frontend-shorts-setting-up-react-router-redux/</link>
       <pubDate>Wed, 14 Mar 2018 15:30:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/frontend-shorts-setting-up-react-router-redux/</guid>
+      <guid>https://www.ilonacodes.com/blog/frontend-shorts-setting-up-react-router-redux/</guid>
       <description>Hi, everyone! How is your week going?
 Yesterday I worked with the web application written on React + Redux and had had some problem with the react-router-redux library. In short, the push method (using for navigation outside of components) didn&amp;rsquo;t work.
 Firstly, I have tried to set the Route component in the &amp;ldquo;traditional&amp;rdquo; way such as with react-router library. That might get the history props. Unfortunately, that also didn&amp;rsquo;t work. Because of Redux framework.</description>

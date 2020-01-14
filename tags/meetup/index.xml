@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Meetup on Ilona Who Codes &amp; Blogs &amp; Creates</title>
-    <link>//www.ilonacodes.com/tags/meetup/</link>
+    <link>https://www.ilonacodes.com/tags/meetup/</link>
     <description>Recent content in Meetup on Ilona Who Codes &amp; Blogs &amp; Creates</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 23 Oct 2017 07:00:05 +0100</lastBuildDate>
     
-	<atom:link href="//www.ilonacodes.com/tags/meetup/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.ilonacodes.com/tags/meetup/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Ada Lovelace Festival 2017 in Berlin</title>
-      <link>//www.ilonacodes.com/blog/ada-lovelace-festival-2017-in-berlin/</link>
+      <link>https://www.ilonacodes.com/blog/ada-lovelace-festival-2017-in-berlin/</link>
       <pubDate>Mon, 23 Oct 2017 07:00:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/ada-lovelace-festival-2017-in-berlin/</guid>
+      <guid>https://www.ilonacodes.com/blog/ada-lovelace-festival-2017-in-berlin/</guid>
       <description>The last week I have attended Ada Lovelace Festival that occurred on 19-20 October 2017. The aim of the event to connect women in computing and technology.
 Unfortunately, I was a bit too late for the keynote, because I had a lecture at the university. However, I joined the conference, and after registration, I got my bag with sponsors gifts.
 For example, a pen and a paper notebook from the WirtschaftsWoche, and a small car model and candies from Porsche.</description>
@@ -24,10 +24,10 @@ For example, a pen and a paper notebook from the WirtschaftsWoche, and a small c
     
     <item>
       <title>React.js &amp; React Native Meetup at Home24 in Berlin</title>
-      <link>//www.ilonacodes.com/blog/react-meetup-at-home24-berlin/</link>
+      <link>https://www.ilonacodes.com/blog/react-meetup-at-home24-berlin/</link>
       <pubDate>Thu, 19 Oct 2017 08:30:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/react-meetup-at-home24-berlin/</guid>
+      <guid>https://www.ilonacodes.com/blog/react-meetup-at-home24-berlin/</guid>
       <description>Hey, there! In this blog post, I’m going to share my impression about the React.js &amp;amp; React Native meetup in Berlin that I have visited at Home24 yesterday.
 If you still didn&amp;rsquo;t have a look at the topic of my blog, so, as you noticed from the title, I am interested in front-end development and at the moments specialized in the JavaScript language and especially in React framework.
 Close to the point, I would like to tell you a couple of words about the last meetup.</description>

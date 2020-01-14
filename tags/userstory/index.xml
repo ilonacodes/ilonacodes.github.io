@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Userstory on Ilona Who Codes &amp; Blogs &amp; Creates</title>
-    <link>//www.ilonacodes.com/tags/userstory/</link>
+    <link>https://www.ilonacodes.com/tags/userstory/</link>
     <description>Recent content in Userstory on Ilona Who Codes &amp; Blogs &amp; Creates</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 06 Oct 2017 19:30:05 +0100</lastBuildDate>
     
-	<atom:link href="//www.ilonacodes.com/tags/userstory/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.ilonacodes.com/tags/userstory/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Dynamic progress bar with React&#43;Redux</title>
-      <link>//www.ilonacodes.com/blog/dynamic-progress-bar-with-react-redux/</link>
+      <link>https://www.ilonacodes.com/blog/dynamic-progress-bar-with-react-redux/</link>
       <pubDate>Fri, 06 Oct 2017 19:30:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/dynamic-progress-bar-with-react-redux/</guid>
+      <guid>https://www.ilonacodes.com/blog/dynamic-progress-bar-with-react-redux/</guid>
       <description>Hi there! I am so happy that you continue developing our interactive Daily ToDo app with me. Today you are going to get to know how to implement a dynamic progress bar that will handle task completing status by percentage for every category.
 But before moving on, if you are new here, please, have a look at the previous posts. You should start developing app there and then continue with us here.</description>
     </item>
     
     <item>
       <title>Categorize tasks with React&#43;Redux</title>
-      <link>//www.ilonacodes.com/blog/categorize-tasks-with-react-redux/</link>
+      <link>https://www.ilonacodes.com/blog/categorize-tasks-with-react-redux/</link>
       <pubDate>Sun, 01 Oct 2017 19:30:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/categorize-tasks-with-react-redux/</guid>
+      <guid>https://www.ilonacodes.com/blog/categorize-tasks-with-react-redux/</guid>
       <description>The most valuable feature set for our Daily ToDo is already done. Today we are going to make an app more functional, separating tasks by categories. We want to be able to categorize task by typing # and category after its title.
 For example: practice a coding kata #programming.
 As always, we start with the simple user story and the acceptance criteria:
@@ -35,20 +35,20 @@ As Bob I want to categorize tasks by adding tag into input So I see which task b
     
     <item>
       <title>Let&#39;s complete some tasks with React&#43;Redux</title>
-      <link>//www.ilonacodes.com/blog/complete-some-tasks-with-react-redux/</link>
+      <link>https://www.ilonacodes.com/blog/complete-some-tasks-with-react-redux/</link>
       <pubDate>Tue, 26 Sep 2017 19:30:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/complete-some-tasks-with-react-redux/</guid>
+      <guid>https://www.ilonacodes.com/blog/complete-some-tasks-with-react-redux/</guid>
       <description>Today we are going to implement the second feature for our app. If you are a new reader, then I highly recommend you to check my earlier blog posts here, where we started our learning journey in React+Redux, refer to the posts complete previous steps and continue with us to develop an interactive ToDo List from here.
 As you guess from the blog title, the next feature called Complete a task.</description>
     </item>
     
     <item>
       <title>The First User Story, The First Feature With React&#43;Redux</title>
-      <link>//www.ilonacodes.com/blog/the-first-user-story-the-first-feature/</link>
+      <link>https://www.ilonacodes.com/blog/the-first-user-story-the-first-feature/</link>
       <pubDate>Thu, 21 Sep 2017 19:30:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/the-first-user-story-the-first-feature/</guid>
+      <guid>https://www.ilonacodes.com/blog/the-first-user-story-the-first-feature/</guid>
       <description>Hi, everyone! I guess you are pretty encouraged to start coding our app. Just to remind: it will be an interactive daily ToDo List. Today I am going to explain: what is a user story? Why do we need to write it before implementing a feature? How will we organize and structure an app? What is, actually, a new feature?
 Let&amp;rsquo;s start with the first question. In my opinion, user stories are efficient things.</description>
     </item>

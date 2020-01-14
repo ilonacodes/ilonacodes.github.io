@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Formik on Ilona Who Codes &amp; Blogs &amp; Creates</title>
-    <link>//www.ilonacodes.com/tags/formik/</link>
+    <link>https://www.ilonacodes.com/tags/formik/</link>
     <description>Recent content in Formik on Ilona Who Codes &amp; Blogs &amp; Creates</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 15 Sep 2018 18:40:05 +0100</lastBuildDate>
     
-	<atom:link href="//www.ilonacodes.com/tags/formik/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.ilonacodes.com/tags/formik/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Why Formik With React</title>
-      <link>//www.ilonacodes.com/blog/why-formik-with-react/</link>
+      <link>https://www.ilonacodes.com/blog/why-formik-with-react/</link>
       <pubDate>Sat, 15 Sep 2018 18:40:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/why-formik-with-react/</guid>
+      <guid>https://www.ilonacodes.com/blog/why-formik-with-react/</guid>
       <description>&lt;p&gt;
 &lt;figure&gt;
     
-        &lt;img src=&#34;//www.ilonacodes.com/blog/images/why-formik-with-react-cover.jpeg&#34; /&gt;
+        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/why-formik-with-react-cover.jpeg&#34; /&gt;
     
     
     &lt;figcaption&gt;

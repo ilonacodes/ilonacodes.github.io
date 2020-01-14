@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Category on Ilona Who Codes &amp; Blogs &amp; Creates</title>
-    <link>//www.ilonacodes.com/tags/category/</link>
+    <link>https://www.ilonacodes.com/tags/category/</link>
     <description>Recent content in Category on Ilona Who Codes &amp; Blogs &amp; Creates</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 06 Oct 2017 19:30:05 +0100</lastBuildDate>
     
-	<atom:link href="//www.ilonacodes.com/tags/category/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.ilonacodes.com/tags/category/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Dynamic progress bar with React&#43;Redux</title>
-      <link>//www.ilonacodes.com/blog/dynamic-progress-bar-with-react-redux/</link>
+      <link>https://www.ilonacodes.com/blog/dynamic-progress-bar-with-react-redux/</link>
       <pubDate>Fri, 06 Oct 2017 19:30:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/dynamic-progress-bar-with-react-redux/</guid>
+      <guid>https://www.ilonacodes.com/blog/dynamic-progress-bar-with-react-redux/</guid>
       <description>Hi there! I am so happy that you continue developing our interactive Daily ToDo app with me. Today you are going to get to know how to implement a dynamic progress bar that will handle task completing status by percentage for every category.
 But before moving on, if you are new here, please, have a look at the previous posts. You should start developing app there and then continue with us here.</description>
     </item>
     
     <item>
       <title>Categorize tasks with React&#43;Redux</title>
-      <link>//www.ilonacodes.com/blog/categorize-tasks-with-react-redux/</link>
+      <link>https://www.ilonacodes.com/blog/categorize-tasks-with-react-redux/</link>
       <pubDate>Sun, 01 Oct 2017 19:30:05 +0100</pubDate>
       
-      <guid>//www.ilonacodes.com/blog/categorize-tasks-with-react-redux/</guid>
+      <guid>https://www.ilonacodes.com/blog/categorize-tasks-with-react-redux/</guid>
       <description>The most valuable feature set for our Daily ToDo is already done. Today we are going to make an app more functional, separating tasks by categories. We want to be able to categorize task by typing # and category after its title.
 For example: practice a coding kata #programming.
 As always, we start with the simple user story and the acceptance criteria:
