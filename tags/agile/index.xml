@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Agile on Ilona Who Codes &amp; Blogs &amp; Creates</title>
+    <link>https://www.ilonacodes.com/tags/agile/</link>
+    <description>Recent content in Agile on Ilona Who Codes &amp; Blogs &amp; Creates</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 07 Apr 2020 18:10:05 +0100</lastBuildDate>
+    
+	<atom:link href="https://www.ilonacodes.com/tags/agile/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Scrum Team Maturity</title>
+      <link>https://www.ilonacodes.com/blog/scrum-team-maturity/</link>
+      <pubDate>Tue, 07 Apr 2020 18:10:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/blog/scrum-team-maturity/</guid>
+      <description>&lt;p&gt;
+&lt;figure&gt;
+    
+        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/scrum.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;source: Photo by İrfan Simsar on Unsplash&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+Scrum processes are bound to fail if teams are not disciplined about the process or not technically mature to actually deliver the work committed for a Sprint.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

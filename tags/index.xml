@@ -6,10 +6,19 @@
     <description>Recent content in Tags on Ilona Who Codes &amp; Blogs &amp; Creates</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 19 Oct 2018 10:40:05 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 07 Apr 2020 18:10:05 +0100</lastBuildDate>
     
 	<atom:link href="https://www.ilonacodes.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Agile</title>
+      <link>https://www.ilonacodes.com/tags/agile/</link>
+      <pubDate>Tue, 07 Apr 2020 18:10:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/agile/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Ai</title>
@@ -824,7 +833,7 @@
     <item>
       <title>Productivity</title>
       <link>https://www.ilonacodes.com/tags/productivity/</link>
-      <pubDate>Sat, 03 Aug 2019 10:40:05 +0100</pubDate>
+      <pubDate>Tue, 07 Apr 2020 18:10:05 +0100</pubDate>
       
       <guid>https://www.ilonacodes.com/tags/productivity/</guid>
       <description></description>
@@ -948,6 +957,15 @@
     </item>
     
     <item>
+      <title>Scrum</title>
+      <link>https://www.ilonacodes.com/tags/scrum/</link>
+      <pubDate>Tue, 07 Apr 2020 18:10:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/scrum/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Server</title>
       <link>https://www.ilonacodes.com/tags/server/</link>
       <pubDate>Mon, 17 Jul 2017 21:45:05 +0100</pubDate>
@@ -986,7 +1004,7 @@
     <item>
       <title>Startup</title>
       <link>https://www.ilonacodes.com/tags/startup/</link>
-      <pubDate>Fri, 03 Jan 2020 18:10:05 +0100</pubDate>
+      <pubDate>Tue, 07 Apr 2020 18:10:05 +0100</pubDate>
       
       <guid>https://www.ilonacodes.com/tags/startup/</guid>
       <description></description>
@@ -1043,6 +1061,15 @@
       <pubDate>Mon, 23 Oct 2017 07:00:05 +0100</pubDate>
       
       <guid>https://www.ilonacodes.com/tags/talk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Team</title>
+      <link>https://www.ilonacodes.com/tags/team/</link>
+      <pubDate>Tue, 07 Apr 2020 18:10:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/team/</guid>
       <description></description>
     </item>
     
