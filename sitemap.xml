@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.ilonacodes.com/blog/start-up-vs-corporate-life/</loc>
+    <lastmod>2020-04-14T18:10:05+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.ilonacodes.com/blog/scrum-team-maturity/</loc>
     <lastmod>2020-04-07T18:10:05+01:00</lastmod>
   </url>
@@ -470,7 +475,7 @@
   
   <url>
     <loc>https://www.ilonacodes.com/blog/</loc>
-    <lastmod>2020-04-07T18:10:05+01:00</lastmod>
+    <lastmod>2020-04-14T18:10:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -488,7 +493,7 @@
   
   <url>
     <loc>https://www.ilonacodes.com/tags/career/</loc>
-    <lastmod>2019-08-03T10:40:05+01:00</lastmod>
+    <lastmod>2020-04-14T18:10:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -572,6 +577,12 @@
   <url>
     <loc>https://www.ilonacodes.com/tags/conversation/</loc>
     <lastmod>2018-08-15T06:00:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.ilonacodes.com/tags/corporation/</loc>
+    <lastmod>2020-04-14T18:10:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -751,7 +762,7 @@
   
   <url>
     <loc>https://www.ilonacodes.com/</loc>
-    <lastmod>2020-04-07T18:10:05+01:00</lastmod>
+    <lastmod>2020-04-14T18:10:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -925,7 +936,7 @@
   
   <url>
     <loc>https://www.ilonacodes.com/tags/motivation/</loc>
-    <lastmod>2019-12-22T16:10:05+01:00</lastmod>
+    <lastmod>2020-04-14T18:10:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -977,7 +988,7 @@
   
   <url>
     <loc>https://www.ilonacodes.com/tags/productivity/</loc>
-    <lastmod>2020-04-07T18:10:05+01:00</lastmod>
+    <lastmod>2020-04-14T18:10:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1091,7 +1102,7 @@
   
   <url>
     <loc>https://www.ilonacodes.com/tags/startup/</loc>
-    <lastmod>2020-04-07T18:10:05+01:00</lastmod>
+    <lastmod>2020-04-14T18:10:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
