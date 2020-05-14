@@ -6367,6 +6367,12 @@ img {
     text-align: justify; }
     .post .post__body h1, .post .post__body h2, .post .post__body h3, .post .post__body h4, .post .post__body h5, .post .post__body h6 {
       text-align: initial; }
+    .post .post__body h2 {
+      font-weight: 500;
+      margin-top: 3rem;
+      margin-bottom: 1.5rem; }
+    .post .post__body b, .post .post__body strong {
+      font-weight: 500; }
   .post .post__reactions {
     margin-bottom: 15px; }
   .post .post__read-full {

@@ -24,6 +24,16 @@ $C: post;
     h1, h2, h3, h4, h5, h6 {
       text-align: initial;
     }
+
+    h2 {
+      font-weight: 500;
+      margin-top: 3rem;
+      margin-bottom: 1.5rem;
+    }
+
+    b, strong {
+      font-weight: 500;
+    }
   }
 
   .#{$C}__reactions {
