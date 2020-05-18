@@ -8,18 +8,29 @@ $C: post;
   border-bottom: 1px solid $border-color;
   margin-bottom: 30px;
 
+  .#{$C}__title {
+    font-weight: 400;
+    font-size: 32px;
+  }
+
   .#{$C}__title__link {
     color: $headings-color;
-    font-size: $h2-font-size;
+    // font-size: $h2-font-size;
+    font-size: 32px;
+    font-weight: 400;
   }
 
   .#{$C}__date {
     margin-bottom: 15px;
+    font-size: 16px;
   }
 
   .#{$C}__body {
     margin-top: 15px;
-    text-align: justify;
+    font-weight: 500;
+    line-height: 32px;
+    font-size: 16px;
+    // text-align: justify;
 
     h1, h2, h3, h4, h5, h6 {
       text-align: initial;
@@ -29,10 +40,15 @@ $C: post;
       font-weight: 500;
       margin-top: 3rem;
       margin-bottom: 1.5rem;
+      font-size: 28px !important;
     }
 
     b, strong {
       font-weight: 500;
+    }
+
+    i {
+      font-weight: 200;
     }
   }
 
@@ -48,6 +64,7 @@ $C: post;
   .#{$C}__tag {
     color: $primary-color;
     font-weight: $font-weight-bold;
+    font-size: 16px !important;
   }
 
   .#{$C}__meta-column {

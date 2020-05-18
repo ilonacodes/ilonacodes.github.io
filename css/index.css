@@ -6357,22 +6357,32 @@ img {
   padding-bottom: 30px;
   border-bottom: 1px solid #E5E5E5;
   margin-bottom: 30px; }
+  .post .post__title {
+    font-weight: 400;
+    font-size: 32px; }
   .post .post__title__link {
     color: #222222;
-    font-size: 2.1rem; }
+    font-size: 32px;
+    font-weight: 400; }
   .post .post__date {
-    margin-bottom: 15px; }
+    margin-bottom: 15px;
+    font-size: 16px; }
   .post .post__body {
     margin-top: 15px;
-    text-align: justify; }
+    font-weight: 500;
+    line-height: 32px;
+    font-size: 16px; }
     .post .post__body h1, .post .post__body h2, .post .post__body h3, .post .post__body h4, .post .post__body h5, .post .post__body h6 {
       text-align: initial; }
     .post .post__body h2 {
       font-weight: 500;
       margin-top: 3rem;
-      margin-bottom: 1.5rem; }
+      margin-bottom: 1.5rem;
+      font-size: 28px !important; }
     .post .post__body b, .post .post__body strong {
       font-weight: 500; }
+    .post .post__body i {
+      font-weight: 200; }
   .post .post__reactions {
     margin-bottom: 15px; }
   .post .post__read-full {
@@ -6380,7 +6390,8 @@ img {
     margin-bottom: 20px; }
   .post .post__tag {
     color: #F20094;
-    font-weight: 400; }
+    font-weight: 400;
+    font-size: 16px !important; }
   .post .post__meta-column {
     max-width: 160px;
     padding-top: 10px; }
@@ -6459,7 +6470,8 @@ html, body {
     height: 71px; } }
 
 .latest-articles {
-  margin-top: 50px; }
+  margin-top: 50px;
+  font-size: 16px; }
   .latest-articles .latest-articles__title {
     font-weight: 600; }
   .latest-articles .latest-articles__article {
@@ -6673,5 +6685,8 @@ figure h4 {
       .featurebox__button {
         font-size: 20px;
         width: 260px; } }
+
+.sidebar-bio {
+  font-size: 14px !important; }
 
 /*# sourceMappingURL=index.css.map */
