@@ -4,13 +4,18 @@
 $C: navlink;
 
 .#{$C} {
-  margin-bottom: 25px;
+  margin-bottom: 20px;
   margin-top: 20px;
   text-align: center;
 
   .#{$C}__link {
     font-weight: $font-weight-bolder;
     color: $navlink-color;
+    font-size: 16px;
+
+    @include media-breakpoint-down(md) {
+      font-size: 14px;
+    }
   }
 
   &--main {

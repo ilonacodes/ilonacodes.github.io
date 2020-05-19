@@ -47,6 +47,7 @@ $featurebox-content: white;
 
     @include media-breakpoint-down(md) {
       padding-right: 0;
+      font-size: 16px;
     }
   }
 
