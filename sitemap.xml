@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.ilonacodes.com/blog/how-to-become-an-expert-in-your-field/</loc>
+    <lastmod>2020-05-22T08:10:05+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.ilonacodes.com/blog/how-to-increase-productivity-on-your-side-project/</loc>
     <lastmod>2020-05-20T18:10:05+01:00</lastmod>
   </url>
@@ -485,7 +490,7 @@
   
   <url>
     <loc>https://www.ilonacodes.com/blog/</loc>
-    <lastmod>2020-05-20T18:10:05+01:00</lastmod>
+    <lastmod>2020-05-22T08:10:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -509,7 +514,7 @@
   
   <url>
     <loc>https://www.ilonacodes.com/tags/careers/</loc>
-    <lastmod>2019-09-06T10:40:05+01:00</lastmod>
+    <lastmod>2020-05-22T08:10:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -622,7 +627,7 @@
   
   <url>
     <loc>https://www.ilonacodes.com/tags/developer/</loc>
-    <lastmod>2020-05-20T18:10:05+01:00</lastmod>
+    <lastmod>2020-05-22T08:10:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -677,6 +682,12 @@
   <url>
     <loc>https://www.ilonacodes.com/tags/entrepreneurship/</loc>
     <lastmod>2019-12-22T16:10:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.ilonacodes.com/tags/expert/</loc>
+    <lastmod>2020-05-22T08:10:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -772,7 +783,7 @@
   
   <url>
     <loc>https://www.ilonacodes.com/</loc>
-    <lastmod>2020-05-20T18:10:05+01:00</lastmod>
+    <lastmod>2020-05-22T08:10:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -839,6 +850,12 @@
   <url>
     <loc>https://www.ilonacodes.com/tags/layout/</loc>
     <lastmod>2017-07-08T20:25:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.ilonacodes.com/tags/learning/</loc>
+    <lastmod>2020-05-22T08:10:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -946,7 +963,7 @@
   
   <url>
     <loc>https://www.ilonacodes.com/tags/motivation/</loc>
-    <lastmod>2020-05-20T18:10:05+01:00</lastmod>
+    <lastmod>2020-05-22T08:10:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
