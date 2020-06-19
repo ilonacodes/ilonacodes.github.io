@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.ilonacodes.com/blog/one-of-the-best-creative-problem-solving-techniques/</loc>
+    <lastmod>2020-06-19T08:10:05+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.ilonacodes.com/blog/how-to-reduce-risks-of-software-development/</loc>
     <lastmod>2020-06-17T08:10:05+01:00</lastmod>
   </url>
@@ -505,13 +510,19 @@
   
   <url>
     <loc>https://www.ilonacodes.com/blog/</loc>
-    <lastmod>2020-06-17T08:10:05+01:00</lastmod>
+    <lastmod>2020-06-19T08:10:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.ilonacodes.com/tags/bootstrap/</loc>
     <lastmod>2019-01-11T10:40:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.ilonacodes.com/tags/brainstorming/</loc>
+    <lastmod>2020-06-19T08:10:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -613,6 +624,12 @@
   <url>
     <loc>https://www.ilonacodes.com/tags/corporation/</loc>
     <lastmod>2020-04-14T18:10:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.ilonacodes.com/tags/creativity/</loc>
+    <lastmod>2020-06-19T08:10:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -804,7 +821,7 @@
   
   <url>
     <loc>https://www.ilonacodes.com/</loc>
-    <lastmod>2020-06-17T08:10:05+01:00</lastmod>
+    <lastmod>2020-06-19T08:10:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1036,7 +1053,7 @@
   
   <url>
     <loc>https://www.ilonacodes.com/tags/productivity/</loc>
-    <lastmod>2020-06-14T08:10:05+01:00</lastmod>
+    <lastmod>2020-06-19T08:10:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1156,7 +1173,7 @@
   
   <url>
     <loc>https://www.ilonacodes.com/tags/startup/</loc>
-    <lastmod>2020-06-17T08:10:05+01:00</lastmod>
+    <lastmod>2020-06-19T08:10:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1220,7 +1237,7 @@
   
   <url>
     <loc>https://www.ilonacodes.com/tags/tips/</loc>
-    <lastmod>2020-05-15T08:10:05+01:00</lastmod>
+    <lastmod>2020-06-19T08:10:05+01:00</lastmod>
     <priority>0</priority>
   </url>
   
