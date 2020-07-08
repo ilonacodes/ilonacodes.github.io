@@ -37,7 +37,7 @@
     
     <meta property="og:tags" content="womenwhocode">
     
-    <meta name="generator" content="Hugo 0.44" />
+    <meta name="generator" content="Hugo 0.73.0" />
     <title>Front-end Shorts: Fetch List of Resources From REST-API &middot; Ilona Who Codes</title>
     
     
@@ -132,207 +132,301 @@
       <main>
       	<article>
       		<div class="post row">
-	<div class="post__meta-column col-3 d-none d-md-block">
-		<div class="row no-gutters post__meta-column__date">
-			
-			
-			
-			<div class="col text-center post__meta-column__day">
-				17
-			</div>
-			<div class="col">
-				<div class="post__meta-column__month">Mar</div>
-				<div class="post__meta-column__year">2018</div>
-			</div>
-		</div>
+    <div class="post__meta-column col-3 d-none d-md-block">
+        <div class="row no-gutters post__meta-column__date">
+            
+            
+            
+            <div class="col text-center post__meta-column__day">
+                17
+            </div>
+            <div class="col">
+                <div class="post__meta-column__month">Mar</div>
+                <div class="post__meta-column__year">2018</div>
+            </div>
+        </div>
 
-		<div class="row">
-			<div class="col post__meta-column__tags">
-				
-					
-					
-						<a href="/tags/react">
-							<div class="post__tag">
-								#react
-							</div>
-						</a>
-					
-						<a href="/tags/redux">
-							<div class="post__tag">
-								#redux
-							</div>
-						</a>
-					
-						<a href="/tags/fetch">
-							<div class="post__tag">
-								#fetch
-							</div>
-						</a>
-					
-						<a href="/tags/javascript">
-							<div class="post__tag">
-								#javascript
-							</div>
-						</a>
-					
-						<a href="/tags/frontend">
-							<div class="post__tag">
-								#frontend
-							</div>
-						</a>
-					
-						<a href="/tags/learntocode">
-							<div class="post__tag">
-								#learntocode
-							</div>
-						</a>
-					
-						<a href="/tags/coding">
-							<div class="post__tag">
-								#coding
-							</div>
-						</a>
-					
-						<a href="/tags/letsgetcoding">
-							<div class="post__tag">
-								#letsgetcoding
-							</div>
-						</a>
-					
-						<a href="/tags/womenwhocode">
-							<div class="post__tag">
-								#womenwhocode
-							</div>
-						</a>
-					
-				
-			</div>
-		</div>
+        <div class="row">
+            <div class="col post__meta-column__tags">
+                
+                    
+                    
+                        <a href="/tags/react">
+                            <div class="post__tag">
+                                #react
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/redux">
+                            <div class="post__tag">
+                                #redux
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/fetch">
+                            <div class="post__tag">
+                                #fetch
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/javascript">
+                            <div class="post__tag">
+                                #javascript
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/frontend">
+                            <div class="post__tag">
+                                #frontend
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/learntocode">
+                            <div class="post__tag">
+                                #learntocode
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/coding">
+                            <div class="post__tag">
+                                #coding
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/letsgetcoding">
+                            <div class="post__tag">
+                                #letsgetcoding
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/womenwhocode">
+                            <div class="post__tag">
+                                #womenwhocode
+                            </div>
+                        </a>
+                    
+                
+            </div>
+        </div>
 
-		
-		<div class="row justify-content-end">
-			<div class="col-auto">
-				<div class="post__reactions reactions-root" data-resource-id="https://www.ilonacodes.com/blog/front-end-shorts-fetch-list-of-resources-from-rest-api/">
+        
+            <div class="row justify-content-end">
+                <div class="col-auto">
+                    <div class="post__reactions reactions-root" data-resource-id="https://www.ilonacodes.com/blog/front-end-shorts-fetch-list-of-resources-from-rest-api/">
 </div>
 
-			</div>
-		</div>
-		
-	</div>
+                </div>
+            </div>
+        
+    </div>
 
-	<div class="post__primary-column col col-md-8 col-lg-9">
-		
-			<h1 class="post__title">
-				Front-end Shorts: Fetch List of Resources From REST-API
-			</h1>
-		
+    <div class="post__primary-column col col-md-8 col-lg-9">
+        
+            <h1 class="post__title">
+                Front-end Shorts: Fetch List of Resources From REST-API
+            </h1>
+        
 
-		<div class="post__date d-md-none">
-			17 Mar, 2018
-		</div>
+        <div class="post__date d-md-none">
+            17 Mar, 2018
+        </div>
 
-		
+        
 
-		<div class="post__body">
-      
-        <p>Today I am going to tell you how to get JSON data from the Rest-API to UI using React+Redux frameworks.</p>
-
-<p>In my case, the task looks like:</p>
-
-<p>I have a URL, for example: <code>https://api.com/v1/expenses/</code> which will give the following JSON data, and I want to get this data in my UI.</p>
-
-<p>To solve this task, I decided to use JavaScript’s <code>fetch</code> method. So in this way, I shouldn&rsquo;t rely on any external libraries (given my target browsers are remotely up-to-date).</p>
-
-<p>What is nice, that by default the fetch method uses <code>GET</code> and I don&rsquo;t have to specify any options, however, you can do all that if you want. For further reference: <a href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch#Response_objects">Fetch API reference</a>.</p>
-
-<p>Let&rsquo;s look at the following code snippet of my implementation:</p>
-
-<pre><code class="language-javascript">
-const loadExpenses = () =&gt; {
-       fetch('https://api.com/v1/expenses/')
-            .then(response =&gt; response.json())
-            .then(expenses =&gt; loadedExpenses(expenses))
-};
-
-</code></pre>
-
-<p>*loadedExpenses is a function that dispatches action to Redux and then reducer stores the data in the store.</p>
-
-<p>Thank you for reading and have a lovely weekend!</p>
-
-      
-		</div>
+        <div class="post__body">
+            <div class="blog__sharing row no-gutters align-items-center mt-4">
+    
+    
+    
+    
+    
+    
+    
+    
 
     
 
-		
-			<div class="post__reactions reactions-root" data-resource-id="https://www.ilonacodes.com/blog/front-end-shorts-fetch-list-of-resources-from-rest-api/">
+    
+
+    
+
+    <div class="col-auto mt-md-0 mt-2">
+        <a href="https://www.facebook.com/dialog/share?app_id=4028027083934101&amp;display=popup&amp;hashtag=dev&amp;href=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Ffront-end-shorts-fetch-list-of-resources-from-rest-api%2F"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--fb">
+            <div class="fab fa-facebook-f"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://twitter.com/intent/tweet?hashtags=dev&amp;original_referer=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Ffront-end-shorts-fetch-list-of-resources-from-rest-api%2F&amp;ref_src=twsrc%5Etfw&amp;related=ilonacodes&amp;text=Front-end&#43;Shorts%3A&#43;Fetch&#43;List&#43;of&#43;Resources&#43;From&#43;REST-API&amp;tw_p=tweetbutton&amp;url=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Ffront-end-shorts-fetch-list-of-resources-from-rest-api%2F&amp;via=ilonacodes"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--tw">
+            <div class="fab fa-twitter"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Ffront-end-shorts-fetch-list-of-resources-from-rest-api%2F"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--li">
+            <div class="fab fa-linkedin-in"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://ilonacodes.com/index.xml"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--rss">
+            <div class="fa fa-rss"></div>
+        </a>
+    </div>
+</div>
+        </div>
+
+        <div class="post__body">
+            
+                <p>Today I am going to tell you how to get JSON data from the Rest-API to UI using React+Redux frameworks.</p>
+<p>In my case, the task looks like:</p>
+<p>I have a URL, for example: <code>https://api.com/v1/expenses/</code> which will give the following JSON data, and I want to get this data in my UI.</p>
+<p>To solve this task, I decided to use JavaScript’s <code>fetch</code> method. So in this way, I shouldn&rsquo;t rely on any external libraries (given my target browsers are remotely up-to-date).</p>
+<p>What is nice, that by default the fetch method uses <code>GET</code> and I don&rsquo;t have to specify any options, however, you can do all that if you want. For further reference: <a href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch#Response_objects">Fetch API reference</a>.</p>
+<p>Let&rsquo;s look at the following code snippet of my implementation:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript">
+<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">loadExpenses</span> <span style="color:#f92672">=</span> () =&gt; {
+       <span style="color:#a6e22e">fetch</span>(<span style="color:#e6db74">&#39;https://api.com/v1/expenses/&#39;</span>)
+            .<span style="color:#a6e22e">then</span>(<span style="color:#a6e22e">response</span> =&gt; <span style="color:#a6e22e">response</span>.<span style="color:#a6e22e">json</span>())
+            .<span style="color:#a6e22e">then</span>(<span style="color:#a6e22e">expenses</span> =&gt; <span style="color:#a6e22e">loadedExpenses</span>(<span style="color:#a6e22e">expenses</span>))
+};
+
+</code></pre></div><p>*loadedExpenses is a function that dispatches action to Redux and then reducer stores the data in the store.</p>
+<p>Thank you for reading and have a lovely weekend!</p>
+
+            
+        </div>
+
+        
+
+        
+            <div class="post__reactions reactions-root" data-resource-id="https://www.ilonacodes.com/blog/front-end-shorts-fetch-list-of-resources-from-rest-api/">
 </div>
 
-		
+        
 
-		<div class="post__tags d-md-none">
-			
-				Tags |
-				
-				
-					<a href="/tags/react">
-						<span class="post__tag">
-							#react
-						</span>
-					</a>
-				
-					<a href="/tags/redux">
-						<span class="post__tag">
-							#redux
-						</span>
-					</a>
-				
-					<a href="/tags/fetch">
-						<span class="post__tag">
-							#fetch
-						</span>
-					</a>
-				
-					<a href="/tags/javascript">
-						<span class="post__tag">
-							#javascript
-						</span>
-					</a>
-				
-					<a href="/tags/frontend">
-						<span class="post__tag">
-							#frontend
-						</span>
-					</a>
-				
-					<a href="/tags/learntocode">
-						<span class="post__tag">
-							#learntocode
-						</span>
-					</a>
-				
-					<a href="/tags/coding">
-						<span class="post__tag">
-							#coding
-						</span>
-					</a>
-				
-					<a href="/tags/letsgetcoding">
-						<span class="post__tag">
-							#letsgetcoding
-						</span>
-					</a>
-				
-					<a href="/tags/womenwhocode">
-						<span class="post__tag">
-							#womenwhocode
-						</span>
-					</a>
-				
-			
-		</div>
-	</div>
+        <div class="post__tags d-md-none">
+            
+                Tags |
+                
+                
+                    <a href="/tags/react">
+                <span class="post__tag">
+            #react
+            </span>
+                    </a>
+                
+                    <a href="/tags/redux">
+                <span class="post__tag">
+            #redux
+            </span>
+                    </a>
+                
+                    <a href="/tags/fetch">
+                <span class="post__tag">
+            #fetch
+            </span>
+                    </a>
+                
+                    <a href="/tags/javascript">
+                <span class="post__tag">
+            #javascript
+            </span>
+                    </a>
+                
+                    <a href="/tags/frontend">
+                <span class="post__tag">
+            #frontend
+            </span>
+                    </a>
+                
+                    <a href="/tags/learntocode">
+                <span class="post__tag">
+            #learntocode
+            </span>
+                    </a>
+                
+                    <a href="/tags/coding">
+                <span class="post__tag">
+            #coding
+            </span>
+                    </a>
+                
+                    <a href="/tags/letsgetcoding">
+                <span class="post__tag">
+            #letsgetcoding
+            </span>
+                    </a>
+                
+                    <a href="/tags/womenwhocode">
+                <span class="post__tag">
+            #womenwhocode
+            </span>
+                    </a>
+                
+            
+        </div>
+
+        
+            <div class="blog__sharing row no-gutters align-items-center mt-4">
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <div class="col-auto mt-md-0 mt-2">
+        <a href="https://www.facebook.com/dialog/share?app_id=4028027083934101&amp;display=popup&amp;hashtag=dev&amp;href=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Ffront-end-shorts-fetch-list-of-resources-from-rest-api%2F"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--fb">
+            <div class="fab fa-facebook-f"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://twitter.com/intent/tweet?hashtags=dev&amp;original_referer=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Ffront-end-shorts-fetch-list-of-resources-from-rest-api%2F&amp;ref_src=twsrc%5Etfw&amp;related=ilonacodes&amp;text=Front-end&#43;Shorts%3A&#43;Fetch&#43;List&#43;of&#43;Resources&#43;From&#43;REST-API&amp;tw_p=tweetbutton&amp;url=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Ffront-end-shorts-fetch-list-of-resources-from-rest-api%2F&amp;via=ilonacodes"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--tw">
+            <div class="fab fa-twitter"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Ffront-end-shorts-fetch-list-of-resources-from-rest-api%2F"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--li">
+            <div class="fab fa-linkedin-in"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://ilonacodes.com/index.xml"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--rss">
+            <div class="fa fa-rss"></div>
+        </a>
+    </div>
+</div>
+        
+
+    </div>
 </div>
 
 

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Ilona Who Codes</title>
@@ -6,148 +6,58 @@
     <description>Recent content in Tags on Ilona Who Codes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 07 Apr 2020 18:10:05 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jul 2020 10:10:05 +0100</lastBuildDate>
     
 	<atom:link href="https://www.ilonacodes.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Agile</title>
-      <link>https://www.ilonacodes.com/tags/agile/</link>
-      <pubDate>Tue, 07 Apr 2020 18:10:05 +0100</pubDate>
+      <title>growthmindset</title>
+      <link>https://www.ilonacodes.com/tags/growthmindset/</link>
+      <pubDate>Fri, 03 Jul 2020 10:10:05 +0100</pubDate>
       
-      <guid>https://www.ilonacodes.com/tags/agile/</guid>
+      <guid>https://www.ilonacodes.com/tags/growthmindset/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Ai</title>
-      <link>https://www.ilonacodes.com/tags/ai/</link>
-      <pubDate>Fri, 19 Oct 2018 10:40:05 +0100</pubDate>
+      <title>motivation</title>
+      <link>https://www.ilonacodes.com/tags/motivation/</link>
+      <pubDate>Fri, 03 Jul 2020 10:10:05 +0100</pubDate>
       
-      <guid>https://www.ilonacodes.com/tags/ai/</guid>
+      <guid>https://www.ilonacodes.com/tags/motivation/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Animate</title>
-      <link>https://www.ilonacodes.com/tags/animate/</link>
-      <pubDate>Sat, 10 Mar 2018 20:45:05 +0100</pubDate>
+      <title>productivity</title>
+      <link>https://www.ilonacodes.com/tags/productivity/</link>
+      <pubDate>Fri, 03 Jul 2020 10:10:05 +0100</pubDate>
       
-      <guid>https://www.ilonacodes.com/tags/animate/</guid>
+      <guid>https://www.ilonacodes.com/tags/productivity/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Api</title>
-      <link>https://www.ilonacodes.com/tags/api/</link>
-      <pubDate>Mon, 10 Dec 2018 18:40:05 +0100</pubDate>
+      <title>startup</title>
+      <link>https://www.ilonacodes.com/tags/startup/</link>
+      <pubDate>Fri, 03 Jul 2020 10:10:05 +0100</pubDate>
       
-      <guid>https://www.ilonacodes.com/tags/api/</guid>
+      <guid>https://www.ilonacodes.com/tags/startup/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>App</title>
-      <link>https://www.ilonacodes.com/tags/app/</link>
-      <pubDate>Mon, 16 Dec 2019 10:10:05 +0100</pubDate>
+      <title>success</title>
+      <link>https://www.ilonacodes.com/tags/success/</link>
+      <pubDate>Fri, 03 Jul 2020 10:10:05 +0100</pubDate>
       
-      <guid>https://www.ilonacodes.com/tags/app/</guid>
+      <guid>https://www.ilonacodes.com/tags/success/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Backend</title>
-      <link>https://www.ilonacodes.com/tags/backend/</link>
-      <pubDate>Mon, 17 Jul 2017 21:45:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/backend/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Beginner</title>
-      <link>https://www.ilonacodes.com/tags/beginner/</link>
-      <pubDate>Sat, 21 Sep 2019 20:20:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/beginner/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Beginners</title>
-      <link>https://www.ilonacodes.com/tags/beginners/</link>
-      <pubDate>Tue, 10 Oct 2017 12:30:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/beginners/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Berlin</title>
-      <link>https://www.ilonacodes.com/tags/berlin/</link>
-      <pubDate>Mon, 23 Oct 2017 07:00:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/berlin/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Blog</title>
-      <link>https://www.ilonacodes.com/tags/blog/</link>
-      <pubDate>Sun, 15 Dec 2019 10:20:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/blog/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Blogger</title>
-      <link>https://www.ilonacodes.com/tags/blogger/</link>
-      <pubDate>Sat, 21 Sep 2019 20:20:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/blogger/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Blogging</title>
-      <link>https://www.ilonacodes.com/tags/blogging/</link>
-      <pubDate>Sun, 15 Dec 2019 10:20:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/blogging/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Bootstrap</title>
-      <link>https://www.ilonacodes.com/tags/bootstrap/</link>
-      <pubDate>Fri, 11 Jan 2019 10:40:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/bootstrap/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Brainstorming</title>
-      <link>https://www.ilonacodes.com/tags/brainstorming/</link>
-      <pubDate>Fri, 19 Jun 2020 08:10:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/brainstorming/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Business</title>
-      <link>https://www.ilonacodes.com/tags/business/</link>
-      <pubDate>Fri, 20 Jul 2018 07:00:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/business/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Career</title>
+      <title>career</title>
       <link>https://www.ilonacodes.com/tags/career/</link>
       <pubDate>Mon, 29 Jun 2020 08:10:05 +0100</pubDate>
       
@@ -156,7 +66,7 @@
     </item>
     
     <item>
-      <title>Careers</title>
+      <title>careers</title>
       <link>https://www.ilonacodes.com/tags/careers/</link>
       <pubDate>Thu, 25 Jun 2020 07:00:05 +0100</pubDate>
       
@@ -165,124 +75,34 @@
     </item>
     
     <item>
-      <title>Carousel</title>
-      <link>https://www.ilonacodes.com/tags/carousel/</link>
-      <pubDate>Sat, 06 Oct 2018 10:40:05 +0100</pubDate>
+      <title>leadership</title>
+      <link>https://www.ilonacodes.com/tags/leadership/</link>
+      <pubDate>Thu, 25 Jun 2020 07:00:05 +0100</pubDate>
       
-      <guid>https://www.ilonacodes.com/tags/carousel/</guid>
+      <guid>https://www.ilonacodes.com/tags/leadership/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Category</title>
-      <link>https://www.ilonacodes.com/tags/category/</link>
-      <pubDate>Fri, 06 Oct 2017 19:30:05 +0100</pubDate>
+      <title>learning</title>
+      <link>https://www.ilonacodes.com/tags/learning/</link>
+      <pubDate>Thu, 25 Jun 2020 07:00:05 +0100</pubDate>
       
-      <guid>https://www.ilonacodes.com/tags/category/</guid>
+      <guid>https://www.ilonacodes.com/tags/learning/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Chatbots</title>
-      <link>https://www.ilonacodes.com/tags/chatbots/</link>
-      <pubDate>Fri, 19 Oct 2018 10:40:05 +0100</pubDate>
+      <title>brainstorming</title>
+      <link>https://www.ilonacodes.com/tags/brainstorming/</link>
+      <pubDate>Fri, 19 Jun 2020 08:10:05 +0100</pubDate>
       
-      <guid>https://www.ilonacodes.com/tags/chatbots/</guid>
+      <guid>https://www.ilonacodes.com/tags/brainstorming/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Client</title>
-      <link>https://www.ilonacodes.com/tags/client/</link>
-      <pubDate>Mon, 17 Jul 2017 21:45:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/client/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Coach</title>
-      <link>https://www.ilonacodes.com/tags/coach/</link>
-      <pubDate>Sun, 27 Oct 2019 10:20:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/coach/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Codemotion</title>
-      <link>https://www.ilonacodes.com/tags/codemotion/</link>
-      <pubDate>Sat, 14 Oct 2017 22:30:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/codemotion/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Coding</title>
-      <link>https://www.ilonacodes.com/tags/coding/</link>
-      <pubDate>Mon, 23 Apr 2018 23:30:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/coding/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Color Theory</title>
-      <link>https://www.ilonacodes.com/tags/color-theory/</link>
-      <pubDate>Fri, 03 Jan 2020 18:10:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/color-theory/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Colors</title>
-      <link>https://www.ilonacodes.com/tags/colors/</link>
-      <pubDate>Sun, 20 May 2018 07:00:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/colors/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Conference</title>
-      <link>https://www.ilonacodes.com/tags/conference/</link>
-      <pubDate>Mon, 23 Oct 2017 07:00:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/conference/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Content</title>
-      <link>https://www.ilonacodes.com/tags/content/</link>
-      <pubDate>Mon, 16 Jul 2018 07:00:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/content/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Conversation</title>
-      <link>https://www.ilonacodes.com/tags/conversation/</link>
-      <pubDate>Wed, 15 Aug 2018 06:00:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/conversation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Corporation</title>
-      <link>https://www.ilonacodes.com/tags/corporation/</link>
-      <pubDate>Tue, 14 Apr 2020 18:10:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/corporation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Creativity</title>
+      <title>creativity</title>
       <link>https://www.ilonacodes.com/tags/creativity/</link>
       <pubDate>Fri, 19 Jun 2020 08:10:05 +0100</pubDate>
       
@@ -291,52 +111,16 @@
     </item>
     
     <item>
-      <title>Css</title>
-      <link>https://www.ilonacodes.com/tags/css/</link>
-      <pubDate>Sat, 08 Jul 2017 20:25:05 +0100</pubDate>
+      <title>tips</title>
+      <link>https://www.ilonacodes.com/tags/tips/</link>
+      <pubDate>Fri, 19 Jun 2020 08:10:05 +0100</pubDate>
       
-      <guid>https://www.ilonacodes.com/tags/css/</guid>
+      <guid>https://www.ilonacodes.com/tags/tips/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Css3</title>
-      <link>https://www.ilonacodes.com/tags/css3/</link>
-      <pubDate>Thu, 09 Aug 2018 07:00:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/css3/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Data</title>
-      <link>https://www.ilonacodes.com/tags/data/</link>
-      <pubDate>Tue, 02 Oct 2018 10:40:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/data/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Design</title>
-      <link>https://www.ilonacodes.com/tags/design/</link>
-      <pubDate>Tue, 26 May 2020 08:10:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/design/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Detox</title>
-      <link>https://www.ilonacodes.com/tags/detox/</link>
-      <pubDate>Sun, 14 Oct 2018 09:40:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/detox/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Developer</title>
+      <title>developer</title>
       <link>https://www.ilonacodes.com/tags/developer/</link>
       <pubDate>Wed, 17 Jun 2020 08:10:05 +0100</pubDate>
       
@@ -345,7 +129,7 @@
     </item>
     
     <item>
-      <title>Development</title>
+      <title>development</title>
       <link>https://www.ilonacodes.com/tags/development/</link>
       <pubDate>Wed, 17 Jun 2020 08:10:05 +0100</pubDate>
       
@@ -354,79 +138,52 @@
     </item>
     
     <item>
-      <title>Devlive</title>
-      <link>https://www.ilonacodes.com/tags/devlive/</link>
-      <pubDate>Sat, 03 Aug 2019 10:40:05 +0100</pubDate>
+      <title>programming</title>
+      <link>https://www.ilonacodes.com/tags/programming/</link>
+      <pubDate>Wed, 17 Jun 2020 08:10:05 +0100</pubDate>
       
-      <guid>https://www.ilonacodes.com/tags/devlive/</guid>
+      <guid>https://www.ilonacodes.com/tags/programming/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Devs</title>
-      <link>https://www.ilonacodes.com/tags/devs/</link>
-      <pubDate>Sun, 27 Oct 2019 10:20:05 +0100</pubDate>
+      <title>software</title>
+      <link>https://www.ilonacodes.com/tags/software/</link>
+      <pubDate>Wed, 17 Jun 2020 08:10:05 +0100</pubDate>
       
-      <guid>https://www.ilonacodes.com/tags/devs/</guid>
+      <guid>https://www.ilonacodes.com/tags/software/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Diet</title>
-      <link>https://www.ilonacodes.com/tags/diet/</link>
-      <pubDate>Tue, 21 Aug 2018 18:40:05 +0100</pubDate>
+      <title>design</title>
+      <link>https://www.ilonacodes.com/tags/design/</link>
+      <pubDate>Tue, 26 May 2020 08:10:05 +0100</pubDate>
       
-      <guid>https://www.ilonacodes.com/tags/diet/</guid>
+      <guid>https://www.ilonacodes.com/tags/design/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Diversity</title>
-      <link>https://www.ilonacodes.com/tags/diversity/</link>
-      <pubDate>Sun, 02 Jun 2019 10:40:05 +0100</pubDate>
+      <title>ui</title>
+      <link>https://www.ilonacodes.com/tags/ui/</link>
+      <pubDate>Tue, 26 May 2020 08:10:05 +0100</pubDate>
       
-      <guid>https://www.ilonacodes.com/tags/diversity/</guid>
+      <guid>https://www.ilonacodes.com/tags/ui/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Email</title>
-      <link>https://www.ilonacodes.com/tags/email/</link>
-      <pubDate>Wed, 15 Aug 2018 06:00:05 +0100</pubDate>
+      <title>ux</title>
+      <link>https://www.ilonacodes.com/tags/ux/</link>
+      <pubDate>Tue, 26 May 2020 08:10:05 +0100</pubDate>
       
-      <guid>https://www.ilonacodes.com/tags/email/</guid>
+      <guid>https://www.ilonacodes.com/tags/ux/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Emotion</title>
-      <link>https://www.ilonacodes.com/tags/emotion/</link>
-      <pubDate>Fri, 07 Sep 2018 18:40:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/emotion/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Entrepreneur</title>
-      <link>https://www.ilonacodes.com/tags/entrepreneur/</link>
-      <pubDate>Fri, 03 Jan 2020 18:10:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/entrepreneur/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Entrepreneurship</title>
-      <link>https://www.ilonacodes.com/tags/entrepreneurship/</link>
-      <pubDate>Sun, 22 Dec 2019 16:10:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/entrepreneurship/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Expert</title>
+      <title>expert</title>
       <link>https://www.ilonacodes.com/tags/expert/</link>
       <pubDate>Fri, 22 May 2020 08:10:05 +0100</pubDate>
       
@@ -435,7 +192,502 @@
     </item>
     
     <item>
-      <title>Fashion</title>
+      <title>corporation</title>
+      <link>https://www.ilonacodes.com/tags/corporation/</link>
+      <pubDate>Tue, 14 Apr 2020 18:10:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/corporation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>agile</title>
+      <link>https://www.ilonacodes.com/tags/agile/</link>
+      <pubDate>Tue, 07 Apr 2020 18:10:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/agile/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>scrum</title>
+      <link>https://www.ilonacodes.com/tags/scrum/</link>
+      <pubDate>Tue, 07 Apr 2020 18:10:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/scrum/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>team</title>
+      <link>https://www.ilonacodes.com/tags/team/</link>
+      <pubDate>Tue, 07 Apr 2020 18:10:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/team/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>color theory</title>
+      <link>https://www.ilonacodes.com/tags/color-theory/</link>
+      <pubDate>Fri, 03 Jan 2020 18:10:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/color-theory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>entrepreneur</title>
+      <link>https://www.ilonacodes.com/tags/entrepreneur/</link>
+      <pubDate>Fri, 03 Jan 2020 18:10:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/entrepreneur/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>maker</title>
+      <link>https://www.ilonacodes.com/tags/maker/</link>
+      <pubDate>Fri, 03 Jan 2020 18:10:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/maker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>entrepreneurship</title>
+      <link>https://www.ilonacodes.com/tags/entrepreneurship/</link>
+      <pubDate>Sun, 22 Dec 2019 16:10:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/entrepreneurship/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>app</title>
+      <link>https://www.ilonacodes.com/tags/app/</link>
+      <pubDate>Mon, 16 Dec 2019 10:10:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/app/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>launch</title>
+      <link>https://www.ilonacodes.com/tags/launch/</link>
+      <pubDate>Mon, 16 Dec 2019 10:10:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/launch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>product</title>
+      <link>https://www.ilonacodes.com/tags/product/</link>
+      <pubDate>Mon, 16 Dec 2019 10:10:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/product/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blog</title>
+      <link>https://www.ilonacodes.com/tags/blog/</link>
+      <pubDate>Sun, 15 Dec 2019 10:20:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blogging</title>
+      <link>https://www.ilonacodes.com/tags/blogging/</link>
+      <pubDate>Sun, 15 Dec 2019 10:20:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/blogging/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>newsletter</title>
+      <link>https://www.ilonacodes.com/tags/newsletter/</link>
+      <pubDate>Sun, 15 Dec 2019 10:20:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/newsletter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>writing</title>
+      <link>https://www.ilonacodes.com/tags/writing/</link>
+      <pubDate>Sun, 15 Dec 2019 10:20:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/writing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>coach</title>
+      <link>https://www.ilonacodes.com/tags/coach/</link>
+      <pubDate>Sun, 27 Oct 2019 10:20:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/coach/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>devs</title>
+      <link>https://www.ilonacodes.com/tags/devs/</link>
+      <pubDate>Sun, 27 Oct 2019 10:20:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/devs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mentee</title>
+      <link>https://www.ilonacodes.com/tags/mentee/</link>
+      <pubDate>Sun, 27 Oct 2019 10:20:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/mentee/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mentor</title>
+      <link>https://www.ilonacodes.com/tags/mentor/</link>
+      <pubDate>Sun, 27 Oct 2019 10:20:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/mentor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mentorship</title>
+      <link>https://www.ilonacodes.com/tags/mentorship/</link>
+      <pubDate>Sun, 27 Oct 2019 10:20:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/mentorship/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>onboarding</title>
+      <link>https://www.ilonacodes.com/tags/onboarding/</link>
+      <pubDate>Sat, 19 Oct 2019 10:20:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/onboarding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>users</title>
+      <link>https://www.ilonacodes.com/tags/users/</link>
+      <pubDate>Sat, 19 Oct 2019 10:20:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/users/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>web</title>
+      <link>https://www.ilonacodes.com/tags/web/</link>
+      <pubDate>Sat, 19 Oct 2019 10:20:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/web/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>beginner</title>
+      <link>https://www.ilonacodes.com/tags/beginner/</link>
+      <pubDate>Sat, 21 Sep 2019 20:20:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/beginner/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blogger</title>
+      <link>https://www.ilonacodes.com/tags/blogger/</link>
+      <pubDate>Sat, 21 Sep 2019 20:20:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/blogger/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>programmers</title>
+      <link>https://www.ilonacodes.com/tags/programmers/</link>
+      <pubDate>Sat, 21 Sep 2019 20:20:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/programmers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>goals</title>
+      <link>https://www.ilonacodes.com/tags/goals/</link>
+      <pubDate>Fri, 06 Sep 2019 10:40:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/goals/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>habits</title>
+      <link>https://www.ilonacodes.com/tags/habits/</link>
+      <pubDate>Sat, 10 Aug 2019 10:40:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/habits/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>devlive</title>
+      <link>https://www.ilonacodes.com/tags/devlive/</link>
+      <pubDate>Sat, 03 Aug 2019 10:40:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/devlive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>strengths</title>
+      <link>https://www.ilonacodes.com/tags/strengths/</link>
+      <pubDate>Sun, 23 Jun 2019 10:40:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/strengths/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>superpowers</title>
+      <link>https://www.ilonacodes.com/tags/superpowers/</link>
+      <pubDate>Sat, 15 Jun 2019 10:40:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/superpowers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>softskills</title>
+      <link>https://www.ilonacodes.com/tags/softskills/</link>
+      <pubDate>Sun, 09 Jun 2019 10:40:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/softskills/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>softwareedev</title>
+      <link>https://www.ilonacodes.com/tags/softwareedev/</link>
+      <pubDate>Sun, 09 Jun 2019 10:40:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/softwareedev/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>diversity</title>
+      <link>https://www.ilonacodes.com/tags/diversity/</link>
+      <pubDate>Sun, 02 Jun 2019 10:40:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/diversity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>javascript</title>
+      <link>https://www.ilonacodes.com/tags/javascript/</link>
+      <pubDate>Sat, 19 Jan 2019 10:40:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>reactjs</title>
+      <link>https://www.ilonacodes.com/tags/reactjs/</link>
+      <pubDate>Sat, 19 Jan 2019 10:40:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/reactjs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>storybook</title>
+      <link>https://www.ilonacodes.com/tags/storybook/</link>
+      <pubDate>Sat, 19 Jan 2019 10:40:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/storybook/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tech</title>
+      <link>https://www.ilonacodes.com/tags/tech/</link>
+      <pubDate>Sat, 19 Jan 2019 10:40:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/tech/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bootstrap</title>
+      <link>https://www.ilonacodes.com/tags/bootstrap/</link>
+      <pubDate>Fri, 11 Jan 2019 10:40:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/bootstrap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>reactstrap</title>
+      <link>https://www.ilonacodes.com/tags/reactstrap/</link>
+      <pubDate>Fri, 11 Jan 2019 10:40:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/reactstrap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>graphql</title>
+      <link>https://www.ilonacodes.com/tags/graphql/</link>
+      <pubDate>Fri, 04 Jan 2019 10:40:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/graphql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hooks</title>
+      <link>https://www.ilonacodes.com/tags/hooks/</link>
+      <pubDate>Fri, 28 Dec 2018 10:40:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/hooks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>API</title>
+      <link>https://www.ilonacodes.com/tags/api/</link>
+      <pubDate>Mon, 10 Dec 2018 18:40:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/api/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GitHub</title>
+      <link>https://www.ilonacodes.com/tags/github/</link>
+      <pubDate>Mon, 10 Dec 2018 18:40:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>react</title>
+      <link>https://www.ilonacodes.com/tags/react/</link>
+      <pubDate>Mon, 10 Dec 2018 18:40:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/react/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>inspiration</title>
+      <link>https://www.ilonacodes.com/tags/inspiration/</link>
+      <pubDate>Sun, 21 Oct 2018 08:40:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/inspiration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lifestyle</title>
+      <link>https://www.ilonacodes.com/tags/lifestyle/</link>
+      <pubDate>Sun, 21 Oct 2018 08:40:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/lifestyle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mentalhealth</title>
+      <link>https://www.ilonacodes.com/tags/mentalhealth/</link>
+      <pubDate>Sun, 21 Oct 2018 08:40:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/mentalhealth/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mindset</title>
+      <link>https://www.ilonacodes.com/tags/mindset/</link>
+      <pubDate>Sun, 21 Oct 2018 08:40:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/mindset/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ai</title>
+      <link>https://www.ilonacodes.com/tags/ai/</link>
+      <pubDate>Fri, 19 Oct 2018 10:40:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/ai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>chatbots</title>
+      <link>https://www.ilonacodes.com/tags/chatbots/</link>
+      <pubDate>Fri, 19 Oct 2018 10:40:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/chatbots/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>detox</title>
+      <link>https://www.ilonacodes.com/tags/detox/</link>
+      <pubDate>Sun, 14 Oct 2018 09:40:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/detox/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>health</title>
+      <link>https://www.ilonacodes.com/tags/health/</link>
+      <pubDate>Sun, 14 Oct 2018 09:40:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/health/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>life</title>
+      <link>https://www.ilonacodes.com/tags/life/</link>
+      <pubDate>Sun, 14 Oct 2018 09:40:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/life/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>props</title>
+      <link>https://www.ilonacodes.com/tags/props/</link>
+      <pubDate>Thu, 11 Oct 2018 10:40:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/props/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fashion</title>
       <link>https://www.ilonacodes.com/tags/fashion/</link>
       <pubDate>Sun, 07 Oct 2018 09:40:05 +0100</pubDate>
       
@@ -444,38 +696,74 @@
     </item>
     
     <item>
-      <title>Fetch</title>
-      <link>https://www.ilonacodes.com/tags/fetch/</link>
-      <pubDate>Sat, 17 Mar 2018 15:00:05 +0100</pubDate>
+      <title>trend</title>
+      <link>https://www.ilonacodes.com/tags/trend/</link>
+      <pubDate>Sun, 07 Oct 2018 09:40:05 +0100</pubDate>
       
-      <guid>https://www.ilonacodes.com/tags/fetch/</guid>
+      <guid>https://www.ilonacodes.com/tags/trend/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>File</title>
-      <link>https://www.ilonacodes.com/tags/file/</link>
-      <pubDate>Sat, 31 Mar 2018 18:30:05 +0100</pubDate>
+      <title>carousel</title>
+      <link>https://www.ilonacodes.com/tags/carousel/</link>
+      <pubDate>Sat, 06 Oct 2018 10:40:05 +0100</pubDate>
       
-      <guid>https://www.ilonacodes.com/tags/file/</guid>
+      <guid>https://www.ilonacodes.com/tags/carousel/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Food</title>
-      <link>https://www.ilonacodes.com/tags/food/</link>
-      <pubDate>Tue, 21 Aug 2018 18:40:05 +0100</pubDate>
+      <title>journey</title>
+      <link>https://www.ilonacodes.com/tags/journey/</link>
+      <pubDate>Wed, 03 Oct 2018 10:40:05 +0100</pubDate>
       
-      <guid>https://www.ilonacodes.com/tags/food/</guid>
+      <guid>https://www.ilonacodes.com/tags/journey/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Footer</title>
-      <link>https://www.ilonacodes.com/tags/footer/</link>
-      <pubDate>Sat, 08 Jul 2017 20:25:05 +0100</pubDate>
+      <title>lifestyles</title>
+      <link>https://www.ilonacodes.com/tags/lifestyles/</link>
+      <pubDate>Wed, 03 Oct 2018 10:40:05 +0100</pubDate>
       
-      <guid>https://www.ilonacodes.com/tags/footer/</guid>
+      <guid>https://www.ilonacodes.com/tags/lifestyles/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>travel</title>
+      <link>https://www.ilonacodes.com/tags/travel/</link>
+      <pubDate>Wed, 03 Oct 2018 10:40:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/travel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>data</title>
+      <link>https://www.ilonacodes.com/tags/data/</link>
+      <pubDate>Tue, 02 Oct 2018 10:40:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>redux</title>
+      <link>https://www.ilonacodes.com/tags/redux/</link>
+      <pubDate>Tue, 02 Oct 2018 10:40:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/redux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>power</title>
+      <link>https://www.ilonacodes.com/tags/power/</link>
+      <pubDate>Fri, 28 Sep 2018 18:40:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/power/</guid>
       <description></description>
     </item>
     
@@ -489,277 +777,34 @@
     </item>
     
     <item>
-      <title>Frontend</title>
-      <link>https://www.ilonacodes.com/tags/frontend/</link>
-      <pubDate>Mon, 23 Apr 2018 23:30:05 +0100</pubDate>
+      <title>Emotion</title>
+      <link>https://www.ilonacodes.com/tags/emotion/</link>
+      <pubDate>Fri, 07 Sep 2018 18:40:05 +0100</pubDate>
       
-      <guid>https://www.ilonacodes.com/tags/frontend/</guid>
+      <guid>https://www.ilonacodes.com/tags/emotion/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Github</title>
-      <link>https://www.ilonacodes.com/tags/github/</link>
-      <pubDate>Mon, 10 Dec 2018 18:40:05 +0100</pubDate>
+      <title>diet</title>
+      <link>https://www.ilonacodes.com/tags/diet/</link>
+      <pubDate>Tue, 21 Aug 2018 18:40:05 +0100</pubDate>
       
-      <guid>https://www.ilonacodes.com/tags/github/</guid>
+      <guid>https://www.ilonacodes.com/tags/diet/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Goals</title>
-      <link>https://www.ilonacodes.com/tags/goals/</link>
-      <pubDate>Fri, 06 Sep 2019 10:40:05 +0100</pubDate>
+      <title>food</title>
+      <link>https://www.ilonacodes.com/tags/food/</link>
+      <pubDate>Tue, 21 Aug 2018 18:40:05 +0100</pubDate>
       
-      <guid>https://www.ilonacodes.com/tags/goals/</guid>
+      <guid>https://www.ilonacodes.com/tags/food/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Graphql</title>
-      <link>https://www.ilonacodes.com/tags/graphql/</link>
-      <pubDate>Fri, 04 Jan 2019 10:40:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/graphql/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Growthmindset</title>
-      <link>https://www.ilonacodes.com/tags/growthmindset/</link>
-      <pubDate>Fri, 03 Jul 2020 10:10:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/growthmindset/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Habits</title>
-      <link>https://www.ilonacodes.com/tags/habits/</link>
-      <pubDate>Sat, 10 Aug 2019 10:40:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/habits/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Health</title>
-      <link>https://www.ilonacodes.com/tags/health/</link>
-      <pubDate>Sun, 14 Oct 2018 09:40:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/health/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Home Office</title>
-      <link>https://www.ilonacodes.com/tags/home-office/</link>
-      <pubDate>Mon, 20 Aug 2018 06:00:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/home-office/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hooks</title>
-      <link>https://www.ilonacodes.com/tags/hooks/</link>
-      <pubDate>Fri, 28 Dec 2018 10:40:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/hooks/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Html</title>
-      <link>https://www.ilonacodes.com/tags/html/</link>
-      <pubDate>Sat, 08 Jul 2017 20:25:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/html/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Impression</title>
-      <link>https://www.ilonacodes.com/tags/impression/</link>
-      <pubDate>Sat, 14 Oct 2017 22:30:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/impression/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Input</title>
-      <link>https://www.ilonacodes.com/tags/input/</link>
-      <pubDate>Sat, 31 Mar 2018 18:30:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/input/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Inspiration</title>
-      <link>https://www.ilonacodes.com/tags/inspiration/</link>
-      <pubDate>Sun, 21 Oct 2018 08:40:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/inspiration/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>It</title>
-      <link>https://www.ilonacodes.com/tags/it/</link>
-      <pubDate>Fri, 27 Jul 2018 07:00:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/it/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Javascript</title>
-      <link>https://www.ilonacodes.com/tags/javascript/</link>
-      <pubDate>Sat, 19 Jan 2019 10:40:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/javascript/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Journey</title>
-      <link>https://www.ilonacodes.com/tags/journey/</link>
-      <pubDate>Wed, 03 Oct 2018 10:40:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/journey/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Jquery</title>
-      <link>https://www.ilonacodes.com/tags/jquery/</link>
-      <pubDate>Thu, 08 Mar 2018 16:30:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/jquery/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Js</title>
-      <link>https://www.ilonacodes.com/tags/js/</link>
-      <pubDate>Thu, 09 Aug 2018 07:00:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/js/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Label</title>
-      <link>https://www.ilonacodes.com/tags/label/</link>
-      <pubDate>Thu, 09 Aug 2018 07:00:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/label/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Launch</title>
-      <link>https://www.ilonacodes.com/tags/launch/</link>
-      <pubDate>Mon, 16 Dec 2019 10:10:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/launch/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Layout</title>
-      <link>https://www.ilonacodes.com/tags/layout/</link>
-      <pubDate>Sat, 08 Jul 2017 20:25:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/layout/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Leadership</title>
-      <link>https://www.ilonacodes.com/tags/leadership/</link>
-      <pubDate>Thu, 25 Jun 2020 07:00:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/leadership/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Learning</title>
-      <link>https://www.ilonacodes.com/tags/learning/</link>
-      <pubDate>Thu, 25 Jun 2020 07:00:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Learntocode</title>
-      <link>https://www.ilonacodes.com/tags/learntocode/</link>
-      <pubDate>Wed, 18 Apr 2018 12:00:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/learntocode/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Letsgetcoding</title>
-      <link>https://www.ilonacodes.com/tags/letsgetcoding/</link>
-      <pubDate>Wed, 18 Apr 2018 12:00:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/letsgetcoding/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Library</title>
-      <link>https://www.ilonacodes.com/tags/library/</link>
-      <pubDate>Fri, 27 Jul 2018 07:00:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/library/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Life</title>
-      <link>https://www.ilonacodes.com/tags/life/</link>
-      <pubDate>Sun, 14 Oct 2018 09:40:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/life/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Lifestyle</title>
-      <link>https://www.ilonacodes.com/tags/lifestyle/</link>
-      <pubDate>Sun, 21 Oct 2018 08:40:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/lifestyle/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Lifestyles</title>
-      <link>https://www.ilonacodes.com/tags/lifestyles/</link>
-      <pubDate>Wed, 03 Oct 2018 10:40:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/lifestyles/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Localstorage</title>
-      <link>https://www.ilonacodes.com/tags/localstorage/</link>
-      <pubDate>Tue, 10 Oct 2017 12:30:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/localstorage/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Low Carb</title>
+      <title>low-carb</title>
       <link>https://www.ilonacodes.com/tags/low-carb/</link>
       <pubDate>Tue, 21 Aug 2018 18:40:05 +0100</pubDate>
       
@@ -768,88 +813,7 @@
     </item>
     
     <item>
-      <title>Maker</title>
-      <link>https://www.ilonacodes.com/tags/maker/</link>
-      <pubDate>Fri, 03 Jan 2020 18:10:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/maker/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Meetup</title>
-      <link>https://www.ilonacodes.com/tags/meetup/</link>
-      <pubDate>Mon, 23 Oct 2017 07:00:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/meetup/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mentalhealth</title>
-      <link>https://www.ilonacodes.com/tags/mentalhealth/</link>
-      <pubDate>Sun, 21 Oct 2018 08:40:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/mentalhealth/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mentee</title>
-      <link>https://www.ilonacodes.com/tags/mentee/</link>
-      <pubDate>Sun, 27 Oct 2019 10:20:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/mentee/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mentor</title>
-      <link>https://www.ilonacodes.com/tags/mentor/</link>
-      <pubDate>Sun, 27 Oct 2019 10:20:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/mentor/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mentorship</title>
-      <link>https://www.ilonacodes.com/tags/mentorship/</link>
-      <pubDate>Sun, 27 Oct 2019 10:20:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/mentorship/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mindset</title>
-      <link>https://www.ilonacodes.com/tags/mindset/</link>
-      <pubDate>Sun, 21 Oct 2018 08:40:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/mindset/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Motivation</title>
-      <link>https://www.ilonacodes.com/tags/motivation/</link>
-      <pubDate>Fri, 03 Jul 2020 10:10:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/motivation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Newsletter</title>
-      <link>https://www.ilonacodes.com/tags/newsletter/</link>
-      <pubDate>Sun, 15 Dec 2019 10:20:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/newsletter/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Nutrition</title>
+      <title>nutrition</title>
       <link>https://www.ilonacodes.com/tags/nutrition/</link>
       <pubDate>Tue, 21 Aug 2018 18:40:05 +0100</pubDate>
       
@@ -858,142 +822,16 @@
     </item>
     
     <item>
-      <title>Onboarding</title>
-      <link>https://www.ilonacodes.com/tags/onboarding/</link>
-      <pubDate>Sat, 19 Oct 2019 10:20:05 +0100</pubDate>
+      <title>home-office</title>
+      <link>https://www.ilonacodes.com/tags/home-office/</link>
+      <pubDate>Mon, 20 Aug 2018 06:00:05 +0100</pubDate>
       
-      <guid>https://www.ilonacodes.com/tags/onboarding/</guid>
+      <guid>https://www.ilonacodes.com/tags/home-office/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Opacity</title>
-      <link>https://www.ilonacodes.com/tags/opacity/</link>
-      <pubDate>Mon, 23 Apr 2018 23:30:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/opacity/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Parallax</title>
-      <link>https://www.ilonacodes.com/tags/parallax/</link>
-      <pubDate>Sat, 10 Mar 2018 20:45:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/parallax/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Power</title>
-      <link>https://www.ilonacodes.com/tags/power/</link>
-      <pubDate>Fri, 28 Sep 2018 18:40:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/power/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Product</title>
-      <link>https://www.ilonacodes.com/tags/product/</link>
-      <pubDate>Mon, 16 Dec 2019 10:10:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/product/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Productivity</title>
-      <link>https://www.ilonacodes.com/tags/productivity/</link>
-      <pubDate>Fri, 03 Jul 2020 10:10:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/productivity/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Programmers</title>
-      <link>https://www.ilonacodes.com/tags/programmers/</link>
-      <pubDate>Sat, 21 Sep 2019 20:20:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/programmers/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Programming</title>
-      <link>https://www.ilonacodes.com/tags/programming/</link>
-      <pubDate>Wed, 17 Jun 2020 08:10:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/programming/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Props</title>
-      <link>https://www.ilonacodes.com/tags/props/</link>
-      <pubDate>Thu, 11 Oct 2018 10:40:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/props/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>React</title>
-      <link>https://www.ilonacodes.com/tags/react/</link>
-      <pubDate>Mon, 10 Dec 2018 18:40:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/react/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>React Router</title>
-      <link>https://www.ilonacodes.com/tags/react-router/</link>
-      <pubDate>Sun, 19 Mar 2017 19:25:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/react-router/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>React Router Redux</title>
-      <link>https://www.ilonacodes.com/tags/react-router-redux/</link>
-      <pubDate>Wed, 14 Mar 2018 15:30:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/react-router-redux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Reactjs</title>
-      <link>https://www.ilonacodes.com/tags/reactjs/</link>
-      <pubDate>Sat, 19 Jan 2019 10:40:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/reactjs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Reactstrap</title>
-      <link>https://www.ilonacodes.com/tags/reactstrap/</link>
-      <pubDate>Fri, 11 Jan 2019 10:40:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/reactstrap/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Redux</title>
-      <link>https://www.ilonacodes.com/tags/redux/</link>
-      <pubDate>Tue, 02 Oct 2018 10:40:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/redux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Remote</title>
+      <title>remote</title>
       <link>https://www.ilonacodes.com/tags/remote/</link>
       <pubDate>Mon, 20 Aug 2018 06:00:05 +0100</pubDate>
       
@@ -1002,250 +840,52 @@
     </item>
     
     <item>
-      <title>Rest</title>
-      <link>https://www.ilonacodes.com/tags/rest/</link>
-      <pubDate>Mon, 17 Jul 2017 21:45:05 +0100</pubDate>
+      <title>conversation</title>
+      <link>https://www.ilonacodes.com/tags/conversation/</link>
+      <pubDate>Wed, 15 Aug 2018 06:00:05 +0100</pubDate>
       
-      <guid>https://www.ilonacodes.com/tags/rest/</guid>
+      <guid>https://www.ilonacodes.com/tags/conversation/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Ruby</title>
-      <link>https://www.ilonacodes.com/tags/ruby/</link>
-      <pubDate>Mon, 17 Jul 2017 21:45:05 +0100</pubDate>
+      <title>email</title>
+      <link>https://www.ilonacodes.com/tags/email/</link>
+      <pubDate>Wed, 15 Aug 2018 06:00:05 +0100</pubDate>
       
-      <guid>https://www.ilonacodes.com/tags/ruby/</guid>
+      <guid>https://www.ilonacodes.com/tags/email/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Scrolling</title>
-      <link>https://www.ilonacodes.com/tags/scrolling/</link>
-      <pubDate>Sat, 10 Mar 2018 20:45:05 +0100</pubDate>
+      <title>css3</title>
+      <link>https://www.ilonacodes.com/tags/css3/</link>
+      <pubDate>Thu, 09 Aug 2018 07:00:05 +0100</pubDate>
       
-      <guid>https://www.ilonacodes.com/tags/scrolling/</guid>
+      <guid>https://www.ilonacodes.com/tags/css3/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Scrum</title>
-      <link>https://www.ilonacodes.com/tags/scrum/</link>
-      <pubDate>Tue, 07 Apr 2020 18:10:05 +0100</pubDate>
+      <title>JS</title>
+      <link>https://www.ilonacodes.com/tags/js/</link>
+      <pubDate>Thu, 09 Aug 2018 07:00:05 +0100</pubDate>
       
-      <guid>https://www.ilonacodes.com/tags/scrum/</guid>
+      <guid>https://www.ilonacodes.com/tags/js/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Server</title>
-      <link>https://www.ilonacodes.com/tags/server/</link>
-      <pubDate>Mon, 17 Jul 2017 21:45:05 +0100</pubDate>
+      <title>label</title>
+      <link>https://www.ilonacodes.com/tags/label/</link>
+      <pubDate>Thu, 09 Aug 2018 07:00:05 +0100</pubDate>
       
-      <guid>https://www.ilonacodes.com/tags/server/</guid>
+      <guid>https://www.ilonacodes.com/tags/label/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Sinatra</title>
-      <link>https://www.ilonacodes.com/tags/sinatra/</link>
-      <pubDate>Mon, 17 Jul 2017 21:45:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/sinatra/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Softskills</title>
-      <link>https://www.ilonacodes.com/tags/softskills/</link>
-      <pubDate>Sun, 09 Jun 2019 10:40:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/softskills/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Software</title>
-      <link>https://www.ilonacodes.com/tags/software/</link>
-      <pubDate>Wed, 17 Jun 2020 08:10:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/software/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Softwareedev</title>
-      <link>https://www.ilonacodes.com/tags/softwareedev/</link>
-      <pubDate>Sun, 09 Jun 2019 10:40:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/softwareedev/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Startup</title>
-      <link>https://www.ilonacodes.com/tags/startup/</link>
-      <pubDate>Fri, 03 Jul 2020 10:10:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/startup/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Storybook</title>
-      <link>https://www.ilonacodes.com/tags/storybook/</link>
-      <pubDate>Sat, 19 Jan 2019 10:40:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/storybook/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Storytelling</title>
-      <link>https://www.ilonacodes.com/tags/storytelling/</link>
-      <pubDate>Sat, 21 Apr 2018 19:15:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/storytelling/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Strengths</title>
-      <link>https://www.ilonacodes.com/tags/strengths/</link>
-      <pubDate>Sun, 23 Jun 2019 10:40:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/strengths/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Success</title>
-      <link>https://www.ilonacodes.com/tags/success/</link>
-      <pubDate>Fri, 03 Jul 2020 10:10:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/success/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Superpowers</title>
-      <link>https://www.ilonacodes.com/tags/superpowers/</link>
-      <pubDate>Sat, 15 Jun 2019 10:40:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/superpowers/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Talk</title>
-      <link>https://www.ilonacodes.com/tags/talk/</link>
-      <pubDate>Mon, 23 Oct 2017 07:00:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/talk/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Team</title>
-      <link>https://www.ilonacodes.com/tags/team/</link>
-      <pubDate>Tue, 07 Apr 2020 18:10:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/team/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tech</title>
-      <link>https://www.ilonacodes.com/tags/tech/</link>
-      <pubDate>Sat, 19 Jan 2019 10:40:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/tech/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tips</title>
-      <link>https://www.ilonacodes.com/tags/tips/</link>
-      <pubDate>Fri, 19 Jun 2020 08:10:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/tips/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Travel</title>
-      <link>https://www.ilonacodes.com/tags/travel/</link>
-      <pubDate>Wed, 03 Oct 2018 10:40:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/travel/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Trend</title>
-      <link>https://www.ilonacodes.com/tags/trend/</link>
-      <pubDate>Sun, 07 Oct 2018 09:40:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/trend/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ui</title>
-      <link>https://www.ilonacodes.com/tags/ui/</link>
-      <pubDate>Tue, 26 May 2020 08:10:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/ui/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>User</title>
-      <link>https://www.ilonacodes.com/tags/user/</link>
-      <pubDate>Fri, 06 Oct 2017 19:30:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/user/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Users</title>
-      <link>https://www.ilonacodes.com/tags/users/</link>
-      <pubDate>Sat, 19 Oct 2019 10:20:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/users/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Userstory</title>
-      <link>https://www.ilonacodes.com/tags/userstory/</link>
-      <pubDate>Fri, 06 Oct 2017 19:30:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/userstory/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ux</title>
-      <link>https://www.ilonacodes.com/tags/ux/</link>
-      <pubDate>Tue, 26 May 2020 08:10:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/ux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Web</title>
-      <link>https://www.ilonacodes.com/tags/web/</link>
-      <pubDate>Sat, 19 Oct 2019 10:20:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/web/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Webdesign</title>
+      <title>webdesign</title>
       <link>https://www.ilonacodes.com/tags/webdesign/</link>
       <pubDate>Thu, 09 Aug 2018 07:00:05 +0100</pubDate>
       
@@ -1254,16 +894,34 @@
     </item>
     
     <item>
-      <title>Webdevelopment</title>
-      <link>https://www.ilonacodes.com/tags/webdevelopment/</link>
-      <pubDate>Sun, 13 May 2018 07:00:05 +0100</pubDate>
+      <title>IT</title>
+      <link>https://www.ilonacodes.com/tags/it/</link>
+      <pubDate>Fri, 27 Jul 2018 07:00:05 +0100</pubDate>
       
-      <guid>https://www.ilonacodes.com/tags/webdevelopment/</guid>
+      <guid>https://www.ilonacodes.com/tags/it/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Website</title>
+      <title>library</title>
+      <link>https://www.ilonacodes.com/tags/library/</link>
+      <pubDate>Fri, 27 Jul 2018 07:00:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/library/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>business</title>
+      <link>https://www.ilonacodes.com/tags/business/</link>
+      <pubDate>Fri, 20 Jul 2018 07:00:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/business/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>website</title>
       <link>https://www.ilonacodes.com/tags/website/</link>
       <pubDate>Fri, 20 Jul 2018 07:00:05 +0100</pubDate>
       
@@ -1272,16 +930,61 @@
     </item>
     
     <item>
-      <title>Womenintech</title>
-      <link>https://www.ilonacodes.com/tags/womenintech/</link>
-      <pubDate>Mon, 23 Oct 2017 07:00:05 +0100</pubDate>
+      <title>content</title>
+      <link>https://www.ilonacodes.com/tags/content/</link>
+      <pubDate>Mon, 16 Jul 2018 07:00:05 +0100</pubDate>
       
-      <guid>https://www.ilonacodes.com/tags/womenintech/</guid>
+      <guid>https://www.ilonacodes.com/tags/content/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Womenwhocode</title>
+      <title>colors</title>
+      <link>https://www.ilonacodes.com/tags/colors/</link>
+      <pubDate>Sun, 20 May 2018 07:00:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/colors/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>webdevelopment</title>
+      <link>https://www.ilonacodes.com/tags/webdevelopment/</link>
+      <pubDate>Sun, 13 May 2018 07:00:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/webdevelopment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>coding</title>
+      <link>https://www.ilonacodes.com/tags/coding/</link>
+      <pubDate>Mon, 23 Apr 2018 23:30:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/coding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>frontend</title>
+      <link>https://www.ilonacodes.com/tags/frontend/</link>
+      <pubDate>Mon, 23 Apr 2018 23:30:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/frontend/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>opacity</title>
+      <link>https://www.ilonacodes.com/tags/opacity/</link>
+      <pubDate>Mon, 23 Apr 2018 23:30:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/opacity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>womenwhocode</title>
       <link>https://www.ilonacodes.com/tags/womenwhocode/</link>
       <pubDate>Mon, 23 Apr 2018 23:30:05 +0100</pubDate>
       
@@ -1290,11 +993,308 @@
     </item>
     
     <item>
-      <title>Writing</title>
-      <link>https://www.ilonacodes.com/tags/writing/</link>
-      <pubDate>Sun, 15 Dec 2019 10:20:05 +0100</pubDate>
+      <title>storytelling</title>
+      <link>https://www.ilonacodes.com/tags/storytelling/</link>
+      <pubDate>Sat, 21 Apr 2018 19:15:05 +0100</pubDate>
       
-      <guid>https://www.ilonacodes.com/tags/writing/</guid>
+      <guid>https://www.ilonacodes.com/tags/storytelling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>learntocode</title>
+      <link>https://www.ilonacodes.com/tags/learntocode/</link>
+      <pubDate>Wed, 18 Apr 2018 12:00:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/learntocode/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>letsgetcoding</title>
+      <link>https://www.ilonacodes.com/tags/letsgetcoding/</link>
+      <pubDate>Wed, 18 Apr 2018 12:00:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/letsgetcoding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>file</title>
+      <link>https://www.ilonacodes.com/tags/file/</link>
+      <pubDate>Sat, 31 Mar 2018 18:30:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/file/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>input</title>
+      <link>https://www.ilonacodes.com/tags/input/</link>
+      <pubDate>Sat, 31 Mar 2018 18:30:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/input/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fetch</title>
+      <link>https://www.ilonacodes.com/tags/fetch/</link>
+      <pubDate>Sat, 17 Mar 2018 15:00:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/fetch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>react-router-redux</title>
+      <link>https://www.ilonacodes.com/tags/react-router-redux/</link>
+      <pubDate>Wed, 14 Mar 2018 15:30:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/react-router-redux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>animate</title>
+      <link>https://www.ilonacodes.com/tags/animate/</link>
+      <pubDate>Sat, 10 Mar 2018 20:45:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/animate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>parallax</title>
+      <link>https://www.ilonacodes.com/tags/parallax/</link>
+      <pubDate>Sat, 10 Mar 2018 20:45:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/parallax/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>scrolling</title>
+      <link>https://www.ilonacodes.com/tags/scrolling/</link>
+      <pubDate>Sat, 10 Mar 2018 20:45:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/scrolling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jquery</title>
+      <link>https://www.ilonacodes.com/tags/jquery/</link>
+      <pubDate>Thu, 08 Mar 2018 16:30:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/jquery/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>berlin</title>
+      <link>https://www.ilonacodes.com/tags/berlin/</link>
+      <pubDate>Mon, 23 Oct 2017 07:00:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/berlin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>conference</title>
+      <link>https://www.ilonacodes.com/tags/conference/</link>
+      <pubDate>Mon, 23 Oct 2017 07:00:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/conference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>meetup</title>
+      <link>https://www.ilonacodes.com/tags/meetup/</link>
+      <pubDate>Mon, 23 Oct 2017 07:00:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/meetup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>talk</title>
+      <link>https://www.ilonacodes.com/tags/talk/</link>
+      <pubDate>Mon, 23 Oct 2017 07:00:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/talk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>womenintech</title>
+      <link>https://www.ilonacodes.com/tags/womenintech/</link>
+      <pubDate>Mon, 23 Oct 2017 07:00:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/womenintech/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>codemotion</title>
+      <link>https://www.ilonacodes.com/tags/codemotion/</link>
+      <pubDate>Sat, 14 Oct 2017 22:30:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/codemotion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>impression</title>
+      <link>https://www.ilonacodes.com/tags/impression/</link>
+      <pubDate>Sat, 14 Oct 2017 22:30:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/impression/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>beginners</title>
+      <link>https://www.ilonacodes.com/tags/beginners/</link>
+      <pubDate>Tue, 10 Oct 2017 12:30:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/beginners/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>localstorage</title>
+      <link>https://www.ilonacodes.com/tags/localstorage/</link>
+      <pubDate>Tue, 10 Oct 2017 12:30:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/localstorage/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>category</title>
+      <link>https://www.ilonacodes.com/tags/category/</link>
+      <pubDate>Fri, 06 Oct 2017 19:30:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/category/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>user</title>
+      <link>https://www.ilonacodes.com/tags/user/</link>
+      <pubDate>Fri, 06 Oct 2017 19:30:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/user/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>userstory</title>
+      <link>https://www.ilonacodes.com/tags/userstory/</link>
+      <pubDate>Fri, 06 Oct 2017 19:30:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/userstory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>backend</title>
+      <link>https://www.ilonacodes.com/tags/backend/</link>
+      <pubDate>Mon, 17 Jul 2017 21:45:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/backend/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>client</title>
+      <link>https://www.ilonacodes.com/tags/client/</link>
+      <pubDate>Mon, 17 Jul 2017 21:45:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/client/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rest</title>
+      <link>https://www.ilonacodes.com/tags/rest/</link>
+      <pubDate>Mon, 17 Jul 2017 21:45:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/rest/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ruby</title>
+      <link>https://www.ilonacodes.com/tags/ruby/</link>
+      <pubDate>Mon, 17 Jul 2017 21:45:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/ruby/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>server</title>
+      <link>https://www.ilonacodes.com/tags/server/</link>
+      <pubDate>Mon, 17 Jul 2017 21:45:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/server/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sinatra</title>
+      <link>https://www.ilonacodes.com/tags/sinatra/</link>
+      <pubDate>Mon, 17 Jul 2017 21:45:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/sinatra/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>css</title>
+      <link>https://www.ilonacodes.com/tags/css/</link>
+      <pubDate>Sat, 08 Jul 2017 20:25:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/css/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>footer</title>
+      <link>https://www.ilonacodes.com/tags/footer/</link>
+      <pubDate>Sat, 08 Jul 2017 20:25:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/footer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>html</title>
+      <link>https://www.ilonacodes.com/tags/html/</link>
+      <pubDate>Sat, 08 Jul 2017 20:25:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/html/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>layout</title>
+      <link>https://www.ilonacodes.com/tags/layout/</link>
+      <pubDate>Sat, 08 Jul 2017 20:25:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/layout/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>react-router</title>
+      <link>https://www.ilonacodes.com/tags/react-router/</link>
+      <pubDate>Sun, 19 Mar 2017 19:25:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/react-router/</guid>
       <description></description>
     </item>
     

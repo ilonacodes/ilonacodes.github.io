@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Bootstrap on Ilona Who Codes</title>
+    <title>bootstrap on Ilona Who Codes</title>
     <link>https://www.ilonacodes.com/tags/bootstrap/</link>
-    <description>Recent content in Bootstrap on Ilona Who Codes</description>
+    <description>Recent content in bootstrap on Ilona Who Codes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 11 Jan 2019 10:40:05 +0100</lastBuildDate>
@@ -17,22 +17,13 @@
       <pubDate>Fri, 11 Jan 2019 10:40:05 +0100</pubDate>
       
       <guid>https://www.ilonacodes.com/blog/harnessing-the-power-of-bootstrap-in-react-with-reactstrap/</guid>
-      <description>&lt;p&gt;
-&lt;figure&gt;
-    
-        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/reactstrap.jpg&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;source: bit.ly/2TJDcVt&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
+      <description>&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;https://www.ilonacodes.com/blog/images/reactstrap.jpg&#34;/&gt; &lt;figcaption&gt;
+            &lt;h4&gt;source: bit.ly/2TJDcVt&lt;/h4&gt;
+        &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-Nowadays there are a lot of UI frameworks for React like Bootstrap, UIKit, Semantic UI and so on. Depending on the project complexity and requirements, you decide which front-end framework would be used because the main reason is to ease your development process.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+Nowadays there are a lot of UI frameworks for React like Bootstrap, UIKit, Semantic UI and so on. Depending on the project complexity and requirements, you decide which front-end framework would be used because the main reason is to ease your development process.&lt;/p&gt;</description>
     </item>
     
   </channel>

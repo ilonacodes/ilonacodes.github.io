@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Reactjs on Ilona Who Codes</title>
+    <title>reactjs on Ilona Who Codes</title>
     <link>https://www.ilonacodes.com/tags/reactjs/</link>
-    <description>Recent content in Reactjs on Ilona Who Codes</description>
+    <description>Recent content in reactjs on Ilona Who Codes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 19 Jan 2019 10:40:05 +0100</lastBuildDate>
@@ -17,22 +17,13 @@
       <pubDate>Sat, 19 Jan 2019 10:40:05 +0100</pubDate>
       
       <guid>https://www.ilonacodes.com/blog/styling-form-with-different-states-and-storybook/</guid>
-      <description>&lt;p&gt;
-&lt;figure&gt;
-    
-        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/styling-storybook.jpg&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;source: Photo by Goran Ivos on Unsplash&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
+      <description>&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;https://www.ilonacodes.com/blog/images/styling-storybook.jpg&#34;/&gt; &lt;figcaption&gt;
+            &lt;h4&gt;source: Photo by Goran Ivos on Unsplash&lt;/h4&gt;
+        &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-There are a lot of different and efficient ways how to improve web app development speed while implementing and testing new features. One of them is to be able to reuse UI components.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+There are a lot of different and efficient ways how to improve web app development speed while implementing and testing new features. One of them is to be able to reuse UI components.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -41,22 +32,13 @@ There are a lot of different and efficient ways how to improve web app developme
       <pubDate>Fri, 11 Jan 2019 10:40:05 +0100</pubDate>
       
       <guid>https://www.ilonacodes.com/blog/harnessing-the-power-of-bootstrap-in-react-with-reactstrap/</guid>
-      <description>&lt;p&gt;
-&lt;figure&gt;
-    
-        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/reactstrap.jpg&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;source: bit.ly/2TJDcVt&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
+      <description>&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;https://www.ilonacodes.com/blog/images/reactstrap.jpg&#34;/&gt; &lt;figcaption&gt;
+            &lt;h4&gt;source: bit.ly/2TJDcVt&lt;/h4&gt;
+        &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-Nowadays there are a lot of UI frameworks for React like Bootstrap, UIKit, Semantic UI and so on. Depending on the project complexity and requirements, you decide which front-end framework would be used because the main reason is to ease your development process.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+Nowadays there are a lot of UI frameworks for React like Bootstrap, UIKit, Semantic UI and so on. Depending on the project complexity and requirements, you decide which front-end framework would be used because the main reason is to ease your development process.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -65,22 +47,13 @@ Nowadays there are a lot of UI frameworks for React like Bootstrap, UIKit, Seman
       <pubDate>Fri, 04 Jan 2019 10:40:05 +0100</pubDate>
       
       <guid>https://www.ilonacodes.com/blog/what-are-graphql-and-its-schemas/</guid>
-      <description>&lt;p&gt;
-&lt;figure&gt;
-    
-        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/what-are-graphql-and-its-schemas.jpg&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;source: Photo by Daniel Cheung on Unsplash&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
+      <description>&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;https://www.ilonacodes.com/blog/images/what-are-graphql-and-its-schemas.jpg&#34;/&gt; &lt;figcaption&gt;
+            &lt;h4&gt;source: Photo by Daniel Cheung on Unsplash&lt;/h4&gt;
+        &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-The last days I am spending time on learning &lt;a href=&#34;https://graphql.org/&#34;&gt;GraphQL&lt;/a&gt; and how its clients communicate between frontend and backend application parts.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+The last days I am spending time on learning &lt;a href=&#34;https://graphql.org/&#34;&gt;GraphQL&lt;/a&gt; and how its clients communicate between frontend and backend application parts.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -89,22 +62,13 @@ The last days I am spending time on learning &lt;a href=&#34;https://graphql.org
       <pubDate>Fri, 28 Dec 2018 10:40:05 +0100</pubDate>
       
       <guid>https://www.ilonacodes.com/blog/progress-bar-with-react-hooks/</guid>
-      <description>&lt;p&gt;
-&lt;figure&gt;
-    
-        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/progress-bar-with-react-hooks.jpg&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;source: Photo by Roman Kraft on Unsplash&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
+      <description>&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;https://www.ilonacodes.com/blog/images/progress-bar-with-react-hooks.jpg&#34;/&gt; &lt;figcaption&gt;
+            &lt;h4&gt;source: Photo by Roman Kraft on Unsplash&lt;/h4&gt;
+        &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-After &lt;strong&gt;React Hooks&lt;/strong&gt; introduction at &lt;a href=&#34;https://www.youtube.com/watch?v=dpw9EHDh2bM&#34;&gt;React Conf October 2018&lt;/a&gt; I decided to learn this approach how to use state and side-effects in React functional components.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+After &lt;strong&gt;React Hooks&lt;/strong&gt; introduction at &lt;a href=&#34;https://www.youtube.com/watch?v=dpw9EHDh2bM&#34;&gt;React Conf October 2018&lt;/a&gt; I decided to learn this approach how to use state and side-effects in React functional components.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -113,22 +77,13 @@ After &lt;strong&gt;React Hooks&lt;/strong&gt; introduction at &lt;a href=&#34;h
       <pubDate>Mon, 24 Dec 2018 10:40:05 +0100</pubDate>
       
       <guid>https://www.ilonacodes.com/blog/hacking-user-testing-with-reactjs/</guid>
-      <description>&lt;p&gt;
-&lt;figure&gt;
-    
-        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/hacking-user-testing.jpeg&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;source: https://bit.ly/2T8OJxc&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
+      <description>&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;https://www.ilonacodes.com/blog/images/hacking-user-testing.jpeg&#34;/&gt; &lt;figcaption&gt;
+            &lt;h4&gt;source: https://bit.ly/2T8OJxc&lt;/h4&gt;
+        &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-There are many tools available for designers to create beautiful user interfaces and user experiences. And today I want to share another approach on how to build interactive design prototypes with ReactJS and why.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+There are many tools available for designers to create beautiful user interfaces and user experiences. And today I want to share another approach on how to build interactive design prototypes with ReactJS and why.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -160,7 +115,7 @@ But before moving on, if you are new here, please, have a look at the previous p
       <description>The most valuable feature set for our Daily ToDo is already done. Today we are going to make an app more functional, separating tasks by categories. We want to be able to categorize task by typing # and category after its title.
 For example: practice a coding kata #programming.
 As always, we start with the simple user story and the acceptance criteria:
-As Bob I want to categorize tasks by adding tag into input So I see which task belongs to which category ## Acceptance Criteria Given there are no tasks And I am on dashboard screen When I finish inputting a new task title And choose the category (tag) for a task And press Enter Then I see the categorized task by tag on the dashboard screen Tag examples: Programming, Sport, Languages, University, Reading, Routine  If you are a new reader of the tutorial series and don&amp;rsquo;t understand what is going on at the moment, then just check the previous posts starting with React For Very Very Beginners</description>
+As Bob I want to categorize tasks by adding tag into input So I see which task belongs to which category ## Acceptance Criteria Given there are no tasks And I am on dashboard screen When I finish inputting a new task title And choose the category (tag) for a task And press Enter Then I see the categorized task by tag on the dashboard screen Tag examples: Programming, Sport, Languages, University, Reading, Routine If you are a new reader of the tutorial series and don&amp;rsquo;t understand what is going on at the moment, then just check the previous posts starting with React For Very Very Beginners</description>
     </item>
     
     <item>

@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>App on Ilona Who Codes</title>
+    <title>app on Ilona Who Codes</title>
     <link>https://www.ilonacodes.com/tags/app/</link>
-    <description>Recent content in App on Ilona Who Codes</description>
+    <description>Recent content in app on Ilona Who Codes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 16 Dec 2019 10:10:05 +0100</lastBuildDate>
@@ -18,22 +18,14 @@
       
       <guid>https://www.ilonacodes.com/blog/quit-my-job-now-product-maker-full-time/</guid>
       <description>&lt;figure&gt;
-    
-        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/product-maker.jpg&#34; alt=&#34;Quit my job—now a product maker full-time!&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;source: Photo by Úrsula Madariaga from Pexels&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
+    &lt;img src=&#34;https://www.ilonacodes.com/blog/images/product-maker.jpg&#34;
+         alt=&#34;Quit my job—now a product maker full-time!&#34;/&gt; &lt;figcaption&gt;
+            &lt;h4&gt;source: Photo by Úrsula Madariaga from Pexels&lt;/h4&gt;
+        &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-
 &lt;p&gt;A while ago, I realized that working as a Software Engineer on the product that doesn&amp;rsquo;t belong to me, unfortunately, doesn&amp;rsquo;t drive and motivate me at all.&lt;/p&gt;
-
-&lt;p&gt;I may love the product, understand how it positively impacts people&amp;rsquo;s lives, and solve their problems, do my proper job so far, but not the best one as I can do.
-&lt;/p&gt;</description>
+&lt;p&gt;I may love the product, understand how it positively impacts people&amp;rsquo;s lives, and solve their problems, do my proper job so far, but not the best one as I can do.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -42,22 +34,14 @@
       <pubDate>Sat, 19 Oct 2019 10:20:05 +0100</pubDate>
       
       <guid>https://www.ilonacodes.com/blog/biggest-mistakes-app-user-onboarding/</guid>
-      <description>&lt;p&gt;
-&lt;figure&gt;
-    
-        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/biggest-mistakes-app-user-onboarding.jpg&#34; alt=&#34;Mistakes in App User Onboarding&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;source: Photo by Pixabay from Pexels&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
+      <description>&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;https://www.ilonacodes.com/blog/images/biggest-mistakes-app-user-onboarding.jpg&#34;
+         alt=&#34;Mistakes in App User Onboarding&#34;/&gt; &lt;figcaption&gt;
+            &lt;h4&gt;source: Photo by Pixabay from Pexels&lt;/h4&gt;
+        &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-As a developer and a user and a tech-savvy person, I use many web and mobile applications day after day and daily.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+As a developer and a user and a tech-savvy person, I use many web and mobile applications day after day and daily.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -66,24 +50,14 @@ As a developer and a user and a tech-savvy person, I use many web and mobile app
       <pubDate>Mon, 10 Dec 2018 18:40:05 +0100</pubDate>
       
       <guid>https://www.ilonacodes.com/blog/fetching-github-user-with-rest-api-and-reactjs/</guid>
-      <description>&lt;p&gt;
-&lt;figure&gt;
-    
-        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/fetching.jpeg&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;source: https://bit.ly/2rv4HpO&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
+      <description>&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;https://www.ilonacodes.com/blog/images/fetching.jpeg&#34;/&gt; &lt;figcaption&gt;
+            &lt;h4&gt;source: https://bit.ly/2rv4HpO&lt;/h4&gt;
+        &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 In this post, I explain how you can find any user on GitHub through GitHub API using ReactJS, Redux, Saga, Axios, and Formik.&lt;/p&gt;
-
-&lt;p&gt;Why do we need to use this technology stack? Here is the short description:&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;Why do we need to use this technology stack? Here is the short description:&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -92,24 +66,14 @@ In this post, I explain how you can find any user on GitHub through GitHub API u
       <pubDate>Sat, 15 Sep 2018 18:40:05 +0100</pubDate>
       
       <guid>https://www.ilonacodes.com/blog/why-formik-with-react/</guid>
-      <description>&lt;p&gt;
-&lt;figure&gt;
-    
-        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/why-formik-with-react-cover.jpeg&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;source: https://bit.ly/2paojyl&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
+      <description>&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;https://www.ilonacodes.com/blog/images/why-formik-with-react-cover.jpeg&#34;/&gt; &lt;figcaption&gt;
+            &lt;h4&gt;source: https://bit.ly/2paojyl&lt;/h4&gt;
+        &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 The way, how I try to understand the purpose of any framework is to use it and compare with the already implemented no-framework solution.&lt;/p&gt;
-
-&lt;p&gt;Sure, most of us, at first hear about a new library from tech media portals or from tech-dev influencers or from conferences/meetups or from coworkers, etc. then we are going to check out the source of it whether it is a software or open-source product. In the end, we are playing with it and trying to apply it to the existing product.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;Sure, most of us, at first hear about a new library from tech media portals or from tech-dev influencers or from conferences/meetups or from coworkers, etc. then we are going to check out the source of it whether it is a software or open-source product. In the end, we are playing with it and trying to apply it to the existing product.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -118,22 +82,13 @@ The way, how I try to understand the purpose of any framework is to use it and c
       <pubDate>Fri, 07 Sep 2018 18:40:05 +0100</pubDate>
       
       <guid>https://www.ilonacodes.com/blog/emotional-todo-list-with-react/</guid>
-      <description>&lt;p&gt;
-&lt;figure&gt;
-    
-        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/emotional-todo-list-cover.jpeg&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;source: https://bit.ly/2NXyGjE&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
+      <description>&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;https://www.ilonacodes.com/blog/images/emotional-todo-list-cover.jpeg&#34;/&gt; &lt;figcaption&gt;
+            &lt;h4&gt;source: https://bit.ly/2NXyGjE&lt;/h4&gt;
+        &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-From the title of the post, you understand that I am not only going to explain how to implement a traditional TODO-List with React, but also show you how I am applying &lt;a href=&#34;https://emotion.sh/&#34;&gt;emotion-js&lt;/a&gt; for this mini-project.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+From the title of the post, you understand that I am not only going to explain how to implement a traditional TODO-List with React, but also show you how I am applying &lt;a href=&#34;https://emotion.sh/&#34;&gt;emotion-js&lt;/a&gt; for this mini-project.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -143,21 +98,12 @@ From the title of the post, you understand that I am not only going to explain h
       
       <guid>https://www.ilonacodes.com/blog/creating-floating-label-placeholder-for-input-with-react/</guid>
       <description>&lt;figure&gt;
-    
-        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/creating-floating-label-cover.jpeg&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;source: https://www.pexels.com/photo/several-assorted-color-tags-697059/&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
+    &lt;img src=&#34;https://www.ilonacodes.com/blog/images/creating-floating-label-cover.jpeg&#34;/&gt; &lt;figcaption&gt;
+            &lt;h4&gt;source: https://www.pexels.com/photo/several-assorted-color-tags-697059/&lt;/h4&gt;
+        &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-
-&lt;p&gt;To make the application fancy, front-end web developers usually visualize it using animations or other effects. And now I am going to explain one of the methods how to apply the most famous floating label effect to the input field with React.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;To make the application fancy, front-end web developers usually visualize it using animations or other effects. And now I am going to explain one of the methods how to apply the most famous floating label effect to the input field with React.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -167,21 +113,12 @@ From the title of the post, you understand that I am not only going to explain h
       
       <guid>https://www.ilonacodes.com/blog/internationalize-your-app-with-react/</guid>
       <description>&lt;figure&gt;
-    
-        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/intl-your-app-with-react.jpeg&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;source: https://www.pexels.com/photo/ball-shaped-blur-close-up-focus-346885/&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
+    &lt;img src=&#34;https://www.ilonacodes.com/blog/images/intl-your-app-with-react.jpeg&#34;/&gt; &lt;figcaption&gt;
+            &lt;h4&gt;source: https://www.pexels.com/photo/ball-shaped-blur-close-up-focus-346885/&lt;/h4&gt;
+        &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-
-&lt;p&gt;Nowadays any viable product pursues the goal to grow globally. That means the successful online product is supposed to have minimum two language locales. One of them is english as an international language, and the other one depends on the spoken language of the target audience (usually domestic).&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;Nowadays any viable product pursues the goal to grow globally. That means the successful online product is supposed to have minimum two language locales. One of them is english as an international language, and the other one depends on the spoken language of the target audience (usually domestic).&lt;/p&gt;</description>
     </item>
     
   </channel>

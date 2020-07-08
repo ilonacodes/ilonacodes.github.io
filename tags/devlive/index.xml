@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Devlive on Ilona Who Codes</title>
+    <title>devlive on Ilona Who Codes</title>
     <link>https://www.ilonacodes.com/tags/devlive/</link>
-    <description>Recent content in Devlive on Ilona Who Codes</description>
+    <description>Recent content in devlive on Ilona Who Codes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 03 Aug 2019 10:40:05 +0100</lastBuildDate>
@@ -17,22 +17,13 @@
       <pubDate>Sat, 03 Aug 2019 10:40:05 +0100</pubDate>
       
       <guid>https://www.ilonacodes.com/blog/5-steps-in-programming-to-keep-you-from-getting-stuck/</guid>
-      <description>&lt;p&gt;
-&lt;figure&gt;
-    
-        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/5-steps-from-getting-stuck.jpg&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;source: Photo by Pixabay from Pexels&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
+      <description>&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;https://www.ilonacodes.com/blog/images/5-steps-from-getting-stuck.jpg&#34;/&gt; &lt;figcaption&gt;
+            &lt;h4&gt;source: Photo by Pixabay from Pexels&lt;/h4&gt;
+        &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-Getting stuck in a programming problem is a very common thing.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+Getting stuck in a programming problem is a very common thing.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -41,22 +32,13 @@ Getting stuck in a programming problem is a very common thing.&lt;/p&gt;
       <pubDate>Sat, 20 Jul 2019 10:40:05 +0100</pubDate>
       
       <guid>https://www.ilonacodes.com/blog/what-makes-you-a-great-programmer-on-the-team/</guid>
-      <description>&lt;p&gt;
-&lt;figure&gt;
-    
-        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/what-makes-you-a-great-programmer.jpg&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;source: Photo by Pixabay from Pexels&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
+      <description>&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;https://www.ilonacodes.com/blog/images/what-makes-you-a-great-programmer.jpg&#34;/&gt; &lt;figcaption&gt;
+            &lt;h4&gt;source: Photo by Pixabay from Pexels&lt;/h4&gt;
+        &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-Majority of software developers are aspired to be not only a competent professional but also a great one.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+Majority of software developers are aspired to be not only a competent professional but also a great one.&lt;/p&gt;</description>
     </item>
     
   </channel>

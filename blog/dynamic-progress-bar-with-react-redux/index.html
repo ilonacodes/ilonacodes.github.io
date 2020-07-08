@@ -39,7 +39,7 @@
     
     <meta property="og:tags" content="userstory">
     
-    <meta name="generator" content="Hugo 0.44" />
+    <meta name="generator" content="Hugo 0.73.0" />
     <title>Dynamic progress bar with React&#43;Redux &middot; Ilona Who Codes</title>
     
     
@@ -134,303 +134,392 @@
       <main>
       	<article>
       		<div class="post row">
-	<div class="post__meta-column col-3 d-none d-md-block">
-		<div class="row no-gutters post__meta-column__date">
-			
-			
-			
-			<div class="col text-center post__meta-column__day">
-				6
-			</div>
-			<div class="col">
-				<div class="post__meta-column__month">Oct</div>
-				<div class="post__meta-column__year">2017</div>
-			</div>
-		</div>
+    <div class="post__meta-column col-3 d-none d-md-block">
+        <div class="row no-gutters post__meta-column__date">
+            
+            
+            
+            <div class="col text-center post__meta-column__day">
+                6
+            </div>
+            <div class="col">
+                <div class="post__meta-column__month">Oct</div>
+                <div class="post__meta-column__year">2017</div>
+            </div>
+        </div>
 
-		<div class="row">
-			<div class="col post__meta-column__tags">
-				
-					
-					
-						<a href="/tags/react">
-							<div class="post__tag">
-								#react
-							</div>
-						</a>
-					
-						<a href="/tags/reactjs">
-							<div class="post__tag">
-								#reactjs
-							</div>
-						</a>
-					
-						<a href="/tags/redux">
-							<div class="post__tag">
-								#redux
-							</div>
-						</a>
-					
-						<a href="/tags/learntocode">
-							<div class="post__tag">
-								#learntocode
-							</div>
-						</a>
-					
-						<a href="/tags/beginners">
-							<div class="post__tag">
-								#beginners
-							</div>
-						</a>
-					
-						<a href="/tags/coding">
-							<div class="post__tag">
-								#coding
-							</div>
-						</a>
-					
-						<a href="/tags/letsgetcoding">
-							<div class="post__tag">
-								#letsgetcoding
-							</div>
-						</a>
-					
-						<a href="/tags/user">
-							<div class="post__tag">
-								#user
-							</div>
-						</a>
-					
-						<a href="/tags/category">
-							<div class="post__tag">
-								#category
-							</div>
-						</a>
-					
-						<a href="/tags/userstory">
-							<div class="post__tag">
-								#userstory
-							</div>
-						</a>
-					
-				
-			</div>
-		</div>
+        <div class="row">
+            <div class="col post__meta-column__tags">
+                
+                    
+                    
+                        <a href="/tags/react">
+                            <div class="post__tag">
+                                #react
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/reactjs">
+                            <div class="post__tag">
+                                #reactjs
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/redux">
+                            <div class="post__tag">
+                                #redux
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/learntocode">
+                            <div class="post__tag">
+                                #learntocode
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/beginners">
+                            <div class="post__tag">
+                                #beginners
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/coding">
+                            <div class="post__tag">
+                                #coding
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/letsgetcoding">
+                            <div class="post__tag">
+                                #letsgetcoding
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/user">
+                            <div class="post__tag">
+                                #user
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/category">
+                            <div class="post__tag">
+                                #category
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/userstory">
+                            <div class="post__tag">
+                                #userstory
+                            </div>
+                        </a>
+                    
+                
+            </div>
+        </div>
 
-		
-		<div class="row justify-content-end">
-			<div class="col-auto">
-				<div class="post__reactions reactions-root" data-resource-id="https://www.ilonacodes.com/blog/dynamic-progress-bar-with-react-redux/">
+        
+            <div class="row justify-content-end">
+                <div class="col-auto">
+                    <div class="post__reactions reactions-root" data-resource-id="https://www.ilonacodes.com/blog/dynamic-progress-bar-with-react-redux/">
 </div>
 
-			</div>
-		</div>
-		
-	</div>
+                </div>
+            </div>
+        
+    </div>
 
-	<div class="post__primary-column col col-md-8 col-lg-9">
-		
-			<h1 class="post__title">
-				Dynamic progress bar with React&#43;Redux
-			</h1>
-		
+    <div class="post__primary-column col col-md-8 col-lg-9">
+        
+            <h1 class="post__title">
+                Dynamic progress bar with React&#43;Redux
+            </h1>
+        
 
-		<div class="post__date d-md-none">
-			6 Oct, 2017
-		</div>
+        <div class="post__date d-md-none">
+            6 Oct, 2017
+        </div>
 
-		
+        
 
-		<div class="post__body">
-      
-        <p>Hi there! I am so happy that you continue developing our interactive Daily ToDo app with me. Today you are going to get to know how to implement a dynamic progress bar that will handle task completing status by percentage for every category.</p>
-
-<p><span style="color:red">But before moving on, if you are new here, please, have a look at the <a href="/blog/react-for-very-very-beginners/">previous posts</a>. You should start developing app there and then continue with us here.</span></p>
-
-<p>And now I would like to offer my approach how to add a simple but dynamic progress bar to every task category and finally, make our Daily ToDo app interactive.</p>
-
-<p>Let&rsquo;s change into <code>my-daily-todos</code> folder and start developing!</p>
-
-<p>Firstly, I recommend you to add a small library <code>w3.css</code> to our <code>index.html</code> where we store all style dependencies:</p>
-
-<pre><code class="language-html">
-// my-daily-todos/public/index.html
-
-&lt;!doctype html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-  &lt;head&gt;
-    &lt;meta charset=&quot;utf-8&quot;&gt;
-    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1, shrink-to-fit=no&quot;&gt;
-
-    &lt;link rel=&quot;manifest&quot; href=&quot;%PUBLIC_URL%/manifest.json&quot;&gt;
-
-// just add this library
-    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://www.w3schools.com/w3css/4/w3.css&quot;&gt;
-
-    &lt;title&gt;React App&lt;/title&gt;
-  &lt;/head&gt;
-  &lt;body&gt;
-    &lt;div id=&quot;root&quot;&gt;&lt;/div&gt;
-  &lt;/body&gt;
-&lt;/html&gt;
-
-</code></pre>
-
-<p><span style="color:red">If you open your <code>index.html</code> for the first time, you&rsquo;ll notice, that there lots of comments and some initial link tags. In this case, you can just rewrite your <code>index.html</code> in the way that I left above.</span></p>
-
-<p>The dynamic progress bar belongs to the <code>TaskCategory.js</code> component. That&rsquo;s why we have to open this file and step by step implement the new feature:</p>
-
-<ol>
-<li><p>To initialize <code>completed_tasks</code> constant, that will filter <code>tasks</code> by <code>completed</code> property and store them in;</p></li>
-
-<li><p>To initialize <code>percentage</code> constant to count the percentage of completed tasks with a simple formula and to round it with <code>floor</code> method;</p></li>
-
-<li><p>Apply classes from the <code>w3.css</code> library for tags inside the <code>TaskCategory.js</code> component and pass the value of <code>percentage</code>;</p></li>
-</ol>
-
-<pre><code class="language-javascript">
-// my-daily-todos/src/Tasks/TaskCategory.js
-
-...
-export const TaskCategory = ({category, tasks, completeTask}) =&gt; {
-
-// Step 1
-  const completed_tasks = tasks.filter(task =&gt; task.completed);
-
-// Step 2
-  const percentage = Math.floor(completed_tasks.length / tasks.length * 100);
-
-  return &lt;div&gt;
-    &lt;h2&gt;{category}&lt;/h2&gt;
-
-// Step 3
-      &lt;div className=&quot;w3-light-grey w3-round progress-bar&quot;&gt;
-       &lt;div className=&quot;w3-container w3-round w3-green progress-bar-indicator&quot;
-        style={{width: `${percentage}%`}}&gt;
-        {percentage}%
-       &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;ul&gt;
-    {tasks.map(task =&gt;
-      &lt;li key={task.id}&gt;
-        &lt;Task task={task} completeTask={completeTask} /&gt;
-      &lt;/li&gt;
-    )}
-    &lt;/ul&gt;
-  &lt;/div&gt;
-}
-
-</code></pre>
-
-<p>To make things look good, we should change into <code>App.js</code> and add styles to already created from the <code>w3.css</code> library <code>.progress-bar</code> and <code>.progress-bar-indicator</code> classes:</p>
-
-<pre><code class="language-css">
-// my-daily-todos/src/App.css
-
-...
-
-.taskslist-container .progress-bar {
-   width: 30%;
-   height: 25px;
-   text-align: center;
-   margin-bottom: 1rem;
-   font-size: 11px;
- }
-
- .taskslist-container .progress-bar-indicator {
-   height: 25px;
-   padding-top: 5px;
- }
-
-</code></pre>
-
-<p><span style="color:red">To check how it looks like, don&rsquo;t forget to run a local server by the <code>npm start</code> in the terminal in <code>my-daily-todos</code> folder.</span></p>
-
-<p>You should get something like that at the end:</p>
-
-<p><img src="/blog/images/progress-bar.png" alt="Progress bar" /></p>
-
-<p>Thank you for the reading. Happily, you are enjoying developing with React+Redux and waiting for the next feature description. Have a nice coding!</p>
-
-      
-		</div>
+        <div class="post__body">
+            <div class="blog__sharing row no-gutters align-items-center mt-4">
+    
+    
+    
+    
+    
+    
+    
+    
 
     
 
-		
-			<div class="post__reactions reactions-root" data-resource-id="https://www.ilonacodes.com/blog/dynamic-progress-bar-with-react-redux/">
+    
+
+    
+
+    <div class="col-auto mt-md-0 mt-2">
+        <a href="https://www.facebook.com/dialog/share?app_id=4028027083934101&amp;display=popup&amp;hashtag=dev&amp;href=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Fdynamic-progress-bar-with-react-redux%2F"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--fb">
+            <div class="fab fa-facebook-f"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://twitter.com/intent/tweet?hashtags=dev&amp;original_referer=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Fdynamic-progress-bar-with-react-redux%2F&amp;ref_src=twsrc%5Etfw&amp;related=ilonacodes&amp;text=Dynamic&#43;progress&#43;bar&#43;with&#43;React%2BRedux&amp;tw_p=tweetbutton&amp;url=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Fdynamic-progress-bar-with-react-redux%2F&amp;via=ilonacodes"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--tw">
+            <div class="fab fa-twitter"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Fdynamic-progress-bar-with-react-redux%2F"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--li">
+            <div class="fab fa-linkedin-in"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://ilonacodes.com/index.xml"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--rss">
+            <div class="fa fa-rss"></div>
+        </a>
+    </div>
+</div>
+        </div>
+
+        <div class="post__body">
+            
+                <p>Hi there! I am so happy that you continue developing our interactive Daily ToDo app with me. Today you are going to get to know how to implement a dynamic progress bar that will handle task completing status by percentage for every category.</p>
+<p><span style="color:red">But before moving on, if you are new here, please, have a look at the <a href="/blog/react-for-very-very-beginners/">previous posts</a>. You should start developing app there and then continue with us here.</span></p>
+<p>And now I would like to offer my approach how to add a simple but dynamic progress bar to every task category and finally, make our Daily ToDo app interactive.</p>
+<p>Let&rsquo;s change into <code>my-daily-todos</code> folder and start developing!</p>
+<p>Firstly, I recommend you to add a small library <code>w3.css</code> to our <code>index.html</code> where we store all style dependencies:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">
+// my-daily-todos/public/index.html
+
+<span style="color:#75715e">&lt;!doctype html&gt;</span>
+&lt;<span style="color:#f92672">html</span> <span style="color:#a6e22e">lang</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;en&#34;</span>&gt;
+  &lt;<span style="color:#f92672">head</span>&gt;
+    &lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">charset</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;utf-8&#34;</span>&gt;
+    &lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;viewport&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;width=device-width, initial-scale=1, shrink-to-fit=no&#34;</span>&gt;
+
+    &lt;<span style="color:#f92672">link</span> <span style="color:#a6e22e">rel</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;manifest&#34;</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;%PUBLIC_URL%/manifest.json&#34;</span>&gt;
+
+// just add this library
+    &lt;<span style="color:#f92672">link</span> <span style="color:#a6e22e">rel</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;stylesheet&#34;</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;https://www.w3schools.com/w3css/4/w3.css&#34;</span>&gt;
+
+    &lt;<span style="color:#f92672">title</span>&gt;React App&lt;/<span style="color:#f92672">title</span>&gt;
+  &lt;/<span style="color:#f92672">head</span>&gt;
+  &lt;<span style="color:#f92672">body</span>&gt;
+    &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;root&#34;</span>&gt;&lt;/<span style="color:#f92672">div</span>&gt;
+  &lt;/<span style="color:#f92672">body</span>&gt;
+&lt;/<span style="color:#f92672">html</span>&gt;
+
+</code></pre></div><p><span style="color:red">If you open your <code>index.html</code> for the first time, you&rsquo;ll notice, that there lots of comments and some initial link tags. In this case, you can just rewrite your <code>index.html</code> in the way that I left above.</span></p>
+<p>The dynamic progress bar belongs to the <code>TaskCategory.js</code> component. That&rsquo;s why we have to open this file and step by step implement the new feature:</p>
+<ol>
+<li>
+<p>To initialize <code>completed_tasks</code> constant, that will filter <code>tasks</code> by <code>completed</code> property and store them in;</p>
+</li>
+<li>
+<p>To initialize <code>percentage</code> constant to count the percentage of completed tasks with a simple formula and to round it with <code>floor</code> method;</p>
+</li>
+<li>
+<p>Apply classes from the <code>w3.css</code> library for tags inside the <code>TaskCategory.js</code> component and pass the value of <code>percentage</code>;</p>
+</li>
+</ol>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript">
+<span style="color:#75715e">// my-daily-todos/src/Tasks/TaskCategory.js
+</span><span style="color:#75715e"></span>
+...
+<span style="color:#66d9ef">export</span> <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">TaskCategory</span> <span style="color:#f92672">=</span> ({<span style="color:#a6e22e">category</span>, <span style="color:#a6e22e">tasks</span>, <span style="color:#a6e22e">completeTask</span>}) =&gt; {
+
+<span style="color:#75715e">// Step 1
+</span><span style="color:#75715e"></span>  <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">completed_tasks</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">tasks</span>.<span style="color:#a6e22e">filter</span>(<span style="color:#a6e22e">task</span> =&gt; <span style="color:#a6e22e">task</span>.<span style="color:#a6e22e">completed</span>);
+
+<span style="color:#75715e">// Step 2
+</span><span style="color:#75715e"></span>  <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">percentage</span> <span style="color:#f92672">=</span> Math.<span style="color:#a6e22e">floor</span>(<span style="color:#a6e22e">completed_tasks</span>.<span style="color:#a6e22e">length</span> <span style="color:#f92672">/</span> <span style="color:#a6e22e">tasks</span>.<span style="color:#a6e22e">length</span> <span style="color:#f92672">*</span> <span style="color:#ae81ff">100</span>);
+
+  <span style="color:#66d9ef">return</span> <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">div</span><span style="color:#f92672">&gt;</span>
+    <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">h2</span><span style="color:#f92672">&gt;</span>{<span style="color:#a6e22e">category</span>}<span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/h2&gt;</span>
+
+<span style="color:#75715e">// Step 3
+</span><span style="color:#75715e"></span>      <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">div</span> <span style="color:#a6e22e">className</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;w3-light-grey w3-round progress-bar&#34;</span><span style="color:#f92672">&gt;</span>
+       <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">div</span> <span style="color:#a6e22e">className</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;w3-container w3-round w3-green progress-bar-indicator&#34;</span>
+        <span style="color:#a6e22e">style</span><span style="color:#f92672">=</span>{{<span style="color:#a6e22e">width</span><span style="color:#f92672">:</span> <span style="color:#e6db74">`</span><span style="color:#e6db74">${</span><span style="color:#a6e22e">percentage</span><span style="color:#e6db74">}</span><span style="color:#e6db74">%`</span>}}<span style="color:#f92672">&gt;</span>
+        {<span style="color:#a6e22e">percentage</span>}<span style="color:#f92672">%</span>
+       <span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/div&gt;</span>
+      <span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/div&gt;</span>
+    <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">ul</span><span style="color:#f92672">&gt;</span>
+    {<span style="color:#a6e22e">tasks</span>.<span style="color:#a6e22e">map</span>(<span style="color:#a6e22e">task</span> =&gt;
+      <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">li</span> <span style="color:#a6e22e">key</span><span style="color:#f92672">=</span>{<span style="color:#a6e22e">task</span>.<span style="color:#a6e22e">id</span>}<span style="color:#f92672">&gt;</span>
+        <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">Task</span> <span style="color:#a6e22e">task</span><span style="color:#f92672">=</span>{<span style="color:#a6e22e">task</span>} <span style="color:#a6e22e">completeTask</span><span style="color:#f92672">=</span>{<span style="color:#a6e22e">completeTask</span>} <span style="color:#f92672">/&gt;</span>
+      <span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/li&gt;</span>
+    )}
+    <span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/ul&gt;</span>
+  <span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/div&gt;</span>
+}
+
+</code></pre></div><p>To make things look good, we should change into <code>App.js</code> and add styles to already created from the <code>w3.css</code> library <code>.progress-bar</code> and <code>.progress-bar-indicator</code> classes:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css">
+<span style="color:#f92672">//</span> <span style="color:#f92672">my-daily-todos</span><span style="color:#f92672">/</span><span style="color:#f92672">src</span><span style="color:#f92672">/</span><span style="color:#f92672">App</span>.<span style="color:#a6e22e">css</span>
+
+<span style="color:#f92672">...</span>
+
+.<span style="color:#a6e22e">taskslist-container</span> .<span style="color:#a6e22e">progress-bar</span> {
+   <span style="color:#66d9ef">width</span>: <span style="color:#ae81ff">30</span><span style="color:#66d9ef">%</span>;
+   <span style="color:#66d9ef">height</span>: <span style="color:#ae81ff">25</span><span style="color:#66d9ef">px</span>;
+   <span style="color:#66d9ef">text-align</span>: <span style="color:#66d9ef">center</span>;
+   <span style="color:#66d9ef">margin-bottom</span>: <span style="color:#ae81ff">1</span><span style="color:#66d9ef">rem</span>;
+   <span style="color:#66d9ef">font-size</span>: <span style="color:#ae81ff">11</span><span style="color:#66d9ef">px</span>;
+ }
+
+ .<span style="color:#a6e22e">taskslist-container</span> .<span style="color:#a6e22e">progress-bar-indicator</span> {
+   <span style="color:#66d9ef">height</span>: <span style="color:#ae81ff">25</span><span style="color:#66d9ef">px</span>;
+   <span style="color:#66d9ef">padding-top</span>: <span style="color:#ae81ff">5</span><span style="color:#66d9ef">px</span>;
+ }
+
+</code></pre></div><p><span style="color:red">To check how it looks like, don&rsquo;t forget to run a local server by the <code>npm start</code> in the terminal in <code>my-daily-todos</code> folder.</span></p>
+<p>You should get something like that at the end:</p>
+<p><img src="/blog/images/progress-bar.png" alt="Progress bar"></p>
+<p>Thank you for the reading. Happily, you are enjoying developing with React+Redux and waiting for the next feature description. Have a nice coding!</p>
+
+            
+        </div>
+
+        
+
+        
+            <div class="post__reactions reactions-root" data-resource-id="https://www.ilonacodes.com/blog/dynamic-progress-bar-with-react-redux/">
 </div>
 
-		
+        
 
-		<div class="post__tags d-md-none">
-			
-				Tags |
-				
-				
-					<a href="/tags/react">
-						<span class="post__tag">
-							#react
-						</span>
-					</a>
-				
-					<a href="/tags/reactjs">
-						<span class="post__tag">
-							#reactjs
-						</span>
-					</a>
-				
-					<a href="/tags/redux">
-						<span class="post__tag">
-							#redux
-						</span>
-					</a>
-				
-					<a href="/tags/learntocode">
-						<span class="post__tag">
-							#learntocode
-						</span>
-					</a>
-				
-					<a href="/tags/beginners">
-						<span class="post__tag">
-							#beginners
-						</span>
-					</a>
-				
-					<a href="/tags/coding">
-						<span class="post__tag">
-							#coding
-						</span>
-					</a>
-				
-					<a href="/tags/letsgetcoding">
-						<span class="post__tag">
-							#letsgetcoding
-						</span>
-					</a>
-				
-					<a href="/tags/user">
-						<span class="post__tag">
-							#user
-						</span>
-					</a>
-				
-					<a href="/tags/category">
-						<span class="post__tag">
-							#category
-						</span>
-					</a>
-				
-					<a href="/tags/userstory">
-						<span class="post__tag">
-							#userstory
-						</span>
-					</a>
-				
-			
-		</div>
-	</div>
+        <div class="post__tags d-md-none">
+            
+                Tags |
+                
+                
+                    <a href="/tags/react">
+                <span class="post__tag">
+            #react
+            </span>
+                    </a>
+                
+                    <a href="/tags/reactjs">
+                <span class="post__tag">
+            #reactjs
+            </span>
+                    </a>
+                
+                    <a href="/tags/redux">
+                <span class="post__tag">
+            #redux
+            </span>
+                    </a>
+                
+                    <a href="/tags/learntocode">
+                <span class="post__tag">
+            #learntocode
+            </span>
+                    </a>
+                
+                    <a href="/tags/beginners">
+                <span class="post__tag">
+            #beginners
+            </span>
+                    </a>
+                
+                    <a href="/tags/coding">
+                <span class="post__tag">
+            #coding
+            </span>
+                    </a>
+                
+                    <a href="/tags/letsgetcoding">
+                <span class="post__tag">
+            #letsgetcoding
+            </span>
+                    </a>
+                
+                    <a href="/tags/user">
+                <span class="post__tag">
+            #user
+            </span>
+                    </a>
+                
+                    <a href="/tags/category">
+                <span class="post__tag">
+            #category
+            </span>
+                    </a>
+                
+                    <a href="/tags/userstory">
+                <span class="post__tag">
+            #userstory
+            </span>
+                    </a>
+                
+            
+        </div>
+
+        
+            <div class="blog__sharing row no-gutters align-items-center mt-4">
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <div class="col-auto mt-md-0 mt-2">
+        <a href="https://www.facebook.com/dialog/share?app_id=4028027083934101&amp;display=popup&amp;hashtag=dev&amp;href=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Fdynamic-progress-bar-with-react-redux%2F"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--fb">
+            <div class="fab fa-facebook-f"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://twitter.com/intent/tweet?hashtags=dev&amp;original_referer=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Fdynamic-progress-bar-with-react-redux%2F&amp;ref_src=twsrc%5Etfw&amp;related=ilonacodes&amp;text=Dynamic&#43;progress&#43;bar&#43;with&#43;React%2BRedux&amp;tw_p=tweetbutton&amp;url=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Fdynamic-progress-bar-with-react-redux%2F&amp;via=ilonacodes"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--tw">
+            <div class="fab fa-twitter"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Fdynamic-progress-bar-with-react-redux%2F"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--li">
+            <div class="fab fa-linkedin-in"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://ilonacodes.com/index.xml"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--rss">
+            <div class="fa fa-rss"></div>
+        </a>
+    </div>
+</div>
+        
+
+    </div>
 </div>
 
 

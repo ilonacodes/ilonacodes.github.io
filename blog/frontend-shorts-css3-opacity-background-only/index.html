@@ -37,7 +37,7 @@
     
     <meta property="og:tags" content="womenwhocode">
     
-    <meta name="generator" content="Hugo 0.44" />
+    <meta name="generator" content="Hugo 0.73.0" />
     <title>Front-end Shorts: CSS3 Opacity - Background Only &middot; Ilona Who Codes</title>
     
     
@@ -132,225 +132,310 @@
       <main>
       	<article>
       		<div class="post row">
-	<div class="post__meta-column col-3 d-none d-md-block">
-		<div class="row no-gutters post__meta-column__date">
-			
-			
-			
-			<div class="col text-center post__meta-column__day">
-				23
-			</div>
-			<div class="col">
-				<div class="post__meta-column__month">Apr</div>
-				<div class="post__meta-column__year">2018</div>
-			</div>
-		</div>
+    <div class="post__meta-column col-3 d-none d-md-block">
+        <div class="row no-gutters post__meta-column__date">
+            
+            
+            
+            <div class="col text-center post__meta-column__day">
+                23
+            </div>
+            <div class="col">
+                <div class="post__meta-column__month">Apr</div>
+                <div class="post__meta-column__year">2018</div>
+            </div>
+        </div>
 
-		<div class="row">
-			<div class="col post__meta-column__tags">
-				
-					
-					
-						<a href="/tags/react">
-							<div class="post__tag">
-								#react
-							</div>
-						</a>
-					
-						<a href="/tags/css3">
-							<div class="post__tag">
-								#css3
-							</div>
-						</a>
-					
-						<a href="/tags/javascript">
-							<div class="post__tag">
-								#javascript
-							</div>
-						</a>
-					
-						<a href="/tags/frontend">
-							<div class="post__tag">
-								#frontend
-							</div>
-						</a>
-					
-						<a href="/tags/opacity">
-							<div class="post__tag">
-								#opacity
-							</div>
-						</a>
-					
-						<a href="/tags/coding">
-							<div class="post__tag">
-								#coding
-							</div>
-						</a>
-					
-						<a href="/tags/womenwhocode">
-							<div class="post__tag">
-								#womenwhocode
-							</div>
-						</a>
-					
-				
-			</div>
-		</div>
+        <div class="row">
+            <div class="col post__meta-column__tags">
+                
+                    
+                    
+                        <a href="/tags/react">
+                            <div class="post__tag">
+                                #react
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/css3">
+                            <div class="post__tag">
+                                #css3
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/javascript">
+                            <div class="post__tag">
+                                #javascript
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/frontend">
+                            <div class="post__tag">
+                                #frontend
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/opacity">
+                            <div class="post__tag">
+                                #opacity
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/coding">
+                            <div class="post__tag">
+                                #coding
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/womenwhocode">
+                            <div class="post__tag">
+                                #womenwhocode
+                            </div>
+                        </a>
+                    
+                
+            </div>
+        </div>
 
-		
-		<div class="row justify-content-end">
-			<div class="col-auto">
-				<div class="post__reactions reactions-root" data-resource-id="https://www.ilonacodes.com/blog/frontend-shorts-css3-opacity-background-only/">
+        
+            <div class="row justify-content-end">
+                <div class="col-auto">
+                    <div class="post__reactions reactions-root" data-resource-id="https://www.ilonacodes.com/blog/frontend-shorts-css3-opacity-background-only/">
 </div>
 
-			</div>
-		</div>
-		
-	</div>
+                </div>
+            </div>
+        
+    </div>
 
-	<div class="post__primary-column col col-md-8 col-lg-9">
-		
-			<h1 class="post__title">
-				Front-end Shorts: CSS3 Opacity - Background Only
-			</h1>
-		
+    <div class="post__primary-column col col-md-8 col-lg-9">
+        
+            <h1 class="post__title">
+                Front-end Shorts: CSS3 Opacity - Background Only
+            </h1>
+        
 
-		<div class="post__date d-md-none">
-			23 Apr, 2018
-		</div>
+        <div class="post__date d-md-none">
+            23 Apr, 2018
+        </div>
 
-		
+        
 
-		<div class="post__body">
-      
-        <p>Hi everyone! It&rsquo;s time for a new post.</p>
-
-<p>What we do (I mean front-end web developers) isn&rsquo;t all that unique.
-Often we face the problem that seems easy to solve. However, sometimes we spend hours on finding the solution.</p>
-
-<p>In this case, I wanted to change the opacity of the app teaser background color and don&rsquo;t change the opacity of links. I have tried some silly approaches that seemed logical to me, and they all have failed.</p>
-
-<p>In the end, I have found the right way to do that, and I&rsquo;m going to share it with you.</p>
-
-<p>My solution is to create three <code>&lt;div&gt;</code> elements.</p>
-
-<p>One will contain the other two.</p>
-
-<p>The first one is with the transparent background and the second one with the content.</p>
-
-<p>Then I make the container <code>&lt;div&gt;</code> position relative. For the <code>&lt;div&gt;</code> with the transparent background I set z-index with the negative number.</p>
-
-<p>Finally, I adjust the position of the content to fit over the transparent background.</p>
-
-<p>Voila, there is no issue with absolute positioning.</p>
-
-<pre><code class="language-html">&lt;!-- index.html --&gt;
-
-&lt;div class=&quot;container&quot;&gt;
-  &lt;div class=&quot;opacity&quot;&gt;&lt;/div&gt;
-  &lt;div class=&quot;content&quot;&gt;Hello, World!&lt;/div&gt;
-&lt;/div&gt;
-</code></pre>
-
-<pre><code class="language-css">/* index.css */
-
-.container {
-  position: relative;
-  width: 100px;
-  height: 100px;
-  margin: 0 auto;
-}
-
-.content {
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  z-index: 1;
-  top: 40%;
-  left: 5%;
-}
-
-.opacity {
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  z-index: -1;
-  background-color: green;
-  opacity: 0.2;
-}
-</code></pre>
-
-<p>The <code>&lt;div&gt;</code> element with the <code>container</code> class should have relative positioning, and absolute for others, so it&rsquo;s possible to move and to adjust them inside the parent <code>&lt;div&gt;</code>.</p>
-
-<p>Please keep in mind, that <code>&lt;div&gt;</code> with transparent background and the one with the content should not contain each other. These <code>&lt;div&gt;</code>&rsquo;s should be siblings and be children of the container <code>&lt;div&gt;</code> element.</p>
-
-<p>We apply the opacity to a separate <code>&lt;div&gt;</code> and position the text on top of it.</p>
-
-<p><img src="/blog/images/css3-opacity.png" alt="Result" /></p>
-
-<p>Thank you for reading. Hope these tips help you and your team balance the details with the big picture.</p>
-
-      
-		</div>
+        <div class="post__body">
+            <div class="blog__sharing row no-gutters align-items-center mt-4">
+    
+    
+    
+    
+    
+    
+    
+    
 
     
 
-		
-			<div class="post__reactions reactions-root" data-resource-id="https://www.ilonacodes.com/blog/frontend-shorts-css3-opacity-background-only/">
+    
+
+    
+
+    <div class="col-auto mt-md-0 mt-2">
+        <a href="https://www.facebook.com/dialog/share?app_id=4028027083934101&amp;display=popup&amp;hashtag=dev&amp;href=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Ffrontend-shorts-css3-opacity-background-only%2F"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--fb">
+            <div class="fab fa-facebook-f"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://twitter.com/intent/tweet?hashtags=dev&amp;original_referer=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Ffrontend-shorts-css3-opacity-background-only%2F&amp;ref_src=twsrc%5Etfw&amp;related=ilonacodes&amp;text=Front-end&#43;Shorts%3A&#43;CSS3&#43;Opacity&#43;-&#43;Background&#43;Only&amp;tw_p=tweetbutton&amp;url=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Ffrontend-shorts-css3-opacity-background-only%2F&amp;via=ilonacodes"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--tw">
+            <div class="fab fa-twitter"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Ffrontend-shorts-css3-opacity-background-only%2F"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--li">
+            <div class="fab fa-linkedin-in"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://ilonacodes.com/index.xml"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--rss">
+            <div class="fa fa-rss"></div>
+        </a>
+    </div>
+</div>
+        </div>
+
+        <div class="post__body">
+            
+                <p>Hi everyone! It&rsquo;s time for a new post.</p>
+<p>What we do (I mean front-end web developers) isn&rsquo;t all that unique.
+Often we face the problem that seems easy to solve. However, sometimes we spend hours on finding the solution.</p>
+<p>In this case, I wanted to change the opacity of the app teaser background color and don&rsquo;t change the opacity of links. I have tried some silly approaches that seemed logical to me, and they all have failed.</p>
+<p>In the end, I have found the right way to do that, and I&rsquo;m going to share it with you.</p>
+<p>My solution is to create three <code>&lt;div&gt;</code> elements.</p>
+<p>One will contain the other two.</p>
+<p>The first one is with the transparent background and the second one with the content.</p>
+<p>Then I make the container <code>&lt;div&gt;</code> position relative. For the <code>&lt;div&gt;</code> with the transparent background I set z-index with the negative number.</p>
+<p>Finally, I adjust the position of the content to fit over the transparent background.</p>
+<p>Voila, there is no issue with absolute positioning.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#75715e">&lt;!-- index.html --&gt;</span>
+
+&lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;container&#34;</span>&gt;
+  &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;opacity&#34;</span>&gt;&lt;/<span style="color:#f92672">div</span>&gt;
+  &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;content&#34;</span>&gt;Hello, World!&lt;/<span style="color:#f92672">div</span>&gt;
+&lt;/<span style="color:#f92672">div</span>&gt;
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css"><span style="color:#75715e">/* index.css */</span>
+
+.<span style="color:#a6e22e">container</span> {
+  <span style="color:#66d9ef">position</span>: <span style="color:#66d9ef">relative</span>;
+  <span style="color:#66d9ef">width</span>: <span style="color:#ae81ff">100</span><span style="color:#66d9ef">px</span>;
+  <span style="color:#66d9ef">height</span>: <span style="color:#ae81ff">100</span><span style="color:#66d9ef">px</span>;
+  <span style="color:#66d9ef">margin</span>: <span style="color:#ae81ff">0</span> <span style="color:#66d9ef">auto</span>;
+}
+
+.<span style="color:#a6e22e">content</span> {
+  <span style="color:#66d9ef">position</span>: <span style="color:#66d9ef">absolute</span>;
+  <span style="color:#66d9ef">width</span>: <span style="color:#ae81ff">100</span><span style="color:#66d9ef">px</span>;
+  <span style="color:#66d9ef">height</span>: <span style="color:#ae81ff">100</span><span style="color:#66d9ef">px</span>;
+  <span style="color:#66d9ef">z-index</span>: <span style="color:#ae81ff">1</span>;
+  <span style="color:#66d9ef">top</span>: <span style="color:#ae81ff">40</span><span style="color:#66d9ef">%</span>;
+  <span style="color:#66d9ef">left</span>: <span style="color:#ae81ff">5</span><span style="color:#66d9ef">%</span>;
+}
+
+.<span style="color:#a6e22e">opacity</span> {
+  <span style="color:#66d9ef">position</span>: <span style="color:#66d9ef">absolute</span>;
+  <span style="color:#66d9ef">width</span>: <span style="color:#ae81ff">100</span><span style="color:#66d9ef">px</span>;
+  <span style="color:#66d9ef">height</span>: <span style="color:#ae81ff">100</span><span style="color:#66d9ef">px</span>;
+  <span style="color:#66d9ef">z-index</span>: <span style="color:#ae81ff">-1</span>;
+  <span style="color:#66d9ef">background-color</span>: <span style="color:#66d9ef">green</span>;
+  <span style="color:#66d9ef">opacity</span>: <span style="color:#ae81ff">0.2</span>;
+}
+</code></pre></div><p>The <code>&lt;div&gt;</code> element with the <code>container</code> class should have relative positioning, and absolute for others, so it&rsquo;s possible to move and to adjust them inside the parent <code>&lt;div&gt;</code>.</p>
+<p>Please keep in mind, that <code>&lt;div&gt;</code> with transparent background and the one with the content should not contain each other. These <code>&lt;div&gt;</code>'s should be siblings and be children of the container <code>&lt;div&gt;</code> element.</p>
+<p>We apply the opacity to a separate <code>&lt;div&gt;</code> and position the text on top of it.</p>
+<p><img src="/blog/images/css3-opacity.png" alt="Result"></p>
+<p>Thank you for reading. Hope these tips help you and your team balance the details with the big picture.</p>
+
+            
+        </div>
+
+        
+
+        
+            <div class="post__reactions reactions-root" data-resource-id="https://www.ilonacodes.com/blog/frontend-shorts-css3-opacity-background-only/">
 </div>
 
-		
+        
 
-		<div class="post__tags d-md-none">
-			
-				Tags |
-				
-				
-					<a href="/tags/react">
-						<span class="post__tag">
-							#react
-						</span>
-					</a>
-				
-					<a href="/tags/css3">
-						<span class="post__tag">
-							#css3
-						</span>
-					</a>
-				
-					<a href="/tags/javascript">
-						<span class="post__tag">
-							#javascript
-						</span>
-					</a>
-				
-					<a href="/tags/frontend">
-						<span class="post__tag">
-							#frontend
-						</span>
-					</a>
-				
-					<a href="/tags/opacity">
-						<span class="post__tag">
-							#opacity
-						</span>
-					</a>
-				
-					<a href="/tags/coding">
-						<span class="post__tag">
-							#coding
-						</span>
-					</a>
-				
-					<a href="/tags/womenwhocode">
-						<span class="post__tag">
-							#womenwhocode
-						</span>
-					</a>
-				
-			
-		</div>
-	</div>
+        <div class="post__tags d-md-none">
+            
+                Tags |
+                
+                
+                    <a href="/tags/react">
+                <span class="post__tag">
+            #react
+            </span>
+                    </a>
+                
+                    <a href="/tags/css3">
+                <span class="post__tag">
+            #css3
+            </span>
+                    </a>
+                
+                    <a href="/tags/javascript">
+                <span class="post__tag">
+            #javascript
+            </span>
+                    </a>
+                
+                    <a href="/tags/frontend">
+                <span class="post__tag">
+            #frontend
+            </span>
+                    </a>
+                
+                    <a href="/tags/opacity">
+                <span class="post__tag">
+            #opacity
+            </span>
+                    </a>
+                
+                    <a href="/tags/coding">
+                <span class="post__tag">
+            #coding
+            </span>
+                    </a>
+                
+                    <a href="/tags/womenwhocode">
+                <span class="post__tag">
+            #womenwhocode
+            </span>
+                    </a>
+                
+            
+        </div>
+
+        
+            <div class="blog__sharing row no-gutters align-items-center mt-4">
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <div class="col-auto mt-md-0 mt-2">
+        <a href="https://www.facebook.com/dialog/share?app_id=4028027083934101&amp;display=popup&amp;hashtag=dev&amp;href=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Ffrontend-shorts-css3-opacity-background-only%2F"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--fb">
+            <div class="fab fa-facebook-f"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://twitter.com/intent/tweet?hashtags=dev&amp;original_referer=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Ffrontend-shorts-css3-opacity-background-only%2F&amp;ref_src=twsrc%5Etfw&amp;related=ilonacodes&amp;text=Front-end&#43;Shorts%3A&#43;CSS3&#43;Opacity&#43;-&#43;Background&#43;Only&amp;tw_p=tweetbutton&amp;url=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Ffrontend-shorts-css3-opacity-background-only%2F&amp;via=ilonacodes"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--tw">
+            <div class="fab fa-twitter"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Ffrontend-shorts-css3-opacity-background-only%2F"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--li">
+            <div class="fab fa-linkedin-in"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://ilonacodes.com/index.xml"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--rss">
+            <div class="fa fa-rss"></div>
+        </a>
+    </div>
+</div>
+        
+
+    </div>
 </div>
 
 

@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ux on Ilona Who Codes</title>
+    <title>ux on Ilona Who Codes</title>
     <link>https://www.ilonacodes.com/tags/ux/</link>
-    <description>Recent content in Ux on Ilona Who Codes</description>
+    <description>Recent content in ux on Ilona Who Codes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 26 May 2020 08:10:05 +0100</lastBuildDate>
@@ -17,22 +17,13 @@
       <pubDate>Tue, 26 May 2020 08:10:05 +0100</pubDate>
       
       <guid>https://www.ilonacodes.com/blog/how-to-design-great-software-products-in-small-startups/</guid>
-      <description>&lt;p&gt;
-&lt;figure&gt;
-    
-        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/how-to-design-great-software-products-in-small-startups.jpg&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;source: Photo by William Iven from Unsplash&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
+      <description>&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;https://www.ilonacodes.com/blog/images/how-to-design-great-software-products-in-small-startups.jpg&#34;/&gt; &lt;figcaption&gt;
+            &lt;h4&gt;source: Photo by William Iven from Unsplash&lt;/h4&gt;
+        &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-If you are aware of the values of carrying out the &lt;a href=&#34;https://www.smashingmagazine.com/2018/01/comprehensive-guide-product-design/&#34;&gt;Product Design Process&lt;/a&gt;, then you are halfway through the success!&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+If you are aware of the values of carrying out the &lt;a href=&#34;https://www.smashingmagazine.com/2018/01/comprehensive-guide-product-design/&#34;&gt;Product Design Process&lt;/a&gt;, then you are halfway through the success!&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -41,22 +32,14 @@ If you are aware of the values of carrying out the &lt;a href=&#34;https://www.s
       <pubDate>Sat, 19 Oct 2019 10:20:05 +0100</pubDate>
       
       <guid>https://www.ilonacodes.com/blog/biggest-mistakes-app-user-onboarding/</guid>
-      <description>&lt;p&gt;
-&lt;figure&gt;
-    
-        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/biggest-mistakes-app-user-onboarding.jpg&#34; alt=&#34;Mistakes in App User Onboarding&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;source: Photo by Pixabay from Pexels&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
+      <description>&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;https://www.ilonacodes.com/blog/images/biggest-mistakes-app-user-onboarding.jpg&#34;
+         alt=&#34;Mistakes in App User Onboarding&#34;/&gt; &lt;figcaption&gt;
+            &lt;h4&gt;source: Photo by Pixabay from Pexels&lt;/h4&gt;
+        &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-As a developer and a user and a tech-savvy person, I use many web and mobile applications day after day and daily.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+As a developer and a user and a tech-savvy person, I use many web and mobile applications day after day and daily.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -65,22 +48,13 @@ As a developer and a user and a tech-savvy person, I use many web and mobile app
       <pubDate>Mon, 24 Dec 2018 10:40:05 +0100</pubDate>
       
       <guid>https://www.ilonacodes.com/blog/hacking-user-testing-with-reactjs/</guid>
-      <description>&lt;p&gt;
-&lt;figure&gt;
-    
-        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/hacking-user-testing.jpeg&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;source: https://bit.ly/2T8OJxc&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
+      <description>&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;https://www.ilonacodes.com/blog/images/hacking-user-testing.jpeg&#34;/&gt; &lt;figcaption&gt;
+            &lt;h4&gt;source: https://bit.ly/2T8OJxc&lt;/h4&gt;
+        &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-There are many tools available for designers to create beautiful user interfaces and user experiences. And today I want to share another approach on how to build interactive design prototypes with ReactJS and why.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+There are many tools available for designers to create beautiful user interfaces and user experiences. And today I want to share another approach on how to build interactive design prototypes with ReactJS and why.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -90,21 +64,12 @@ There are many tools available for designers to create beautiful user interfaces
       
       <guid>https://www.ilonacodes.com/blog/why-should-we-create-conversational-experiences-for-our-applications/</guid>
       <description>&lt;figure&gt;
-    
-        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/why-chatbots.jpg&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;Photo by Alex Knight on Unsplash: https://bit.ly/2Irl4K1&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
+    &lt;img src=&#34;https://www.ilonacodes.com/blog/images/why-chatbots.jpg&#34;/&gt; &lt;figcaption&gt;
+            &lt;h4&gt;Photo by Alex Knight on Unsplash: https://bit.ly/2Irl4K1&lt;/h4&gt;
+        &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-
-&lt;p&gt;These days, we are bridging the communication gap between human and computer. The next big thing is a conversational interface — the era of natural language processing. To highlight the point, nowadays there are two kinds of a conversational interface — virtual assistants (Siri, Alexa) and chatbots (like Slackbot, Telegram), which through “human” experience help end user to complete the specific task.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;These days, we are bridging the communication gap between human and computer. The next big thing is a conversational interface — the era of natural language processing. To highlight the point, nowadays there are two kinds of a conversational interface — virtual assistants (Siri, Alexa) and chatbots (like Slackbot, Telegram), which through “human” experience help end user to complete the specific task.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -114,21 +79,12 @@ There are many tools available for designers to create beautiful user interfaces
       
       <guid>https://www.ilonacodes.com/blog/business-goals-and-user-needs/</guid>
       <description>&lt;figure&gt;
-    
-        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/business-goals-and-user-needs.jpeg&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;source: https://www.pexels.com/photo/woman-in-black-coat-1181346/&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
+    &lt;img src=&#34;https://www.ilonacodes.com/blog/images/business-goals-and-user-needs.jpeg&#34;/&gt; &lt;figcaption&gt;
+            &lt;h4&gt;source: https://www.pexels.com/photo/woman-in-black-coat-1181346/&lt;/h4&gt;
+        &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-
-&lt;p&gt;To understand the business goals is just as important as understanding user needs. Without that, the chances of creating useful and viable products are low. Here is why.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;To understand the business goals is just as important as understanding user needs. Without that, the chances of creating useful and viable products are low. Here is why.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -138,22 +94,13 @@ There are many tools available for designers to create beautiful user interfaces
       
       <guid>https://www.ilonacodes.com/blog/content-first-in-web-design/</guid>
       <description>&lt;figure&gt;
-    
-        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/content-first-in-web-design.jpeg&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;source: https://www.pexels.com/photo/startup-planning-notes-mac-book-7357/&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
+    &lt;img src=&#34;https://www.ilonacodes.com/blog/images/content-first-in-web-design.jpeg&#34;/&gt; &lt;figcaption&gt;
+            &lt;h4&gt;source: https://www.pexels.com/photo/startup-planning-notes-mac-book-7357/&lt;/h4&gt;
+        &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-
 &lt;p&gt;From the title, you already guessed that I am going to speak about the design of the product, app or website that starts with content first.
-In my opinion, there are many advantages to applying the content first approach.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+In my opinion, there are many advantages to applying the content first approach.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -163,22 +110,13 @@ In my opinion, there are many advantages to applying the content first approach.
       
       <guid>https://www.ilonacodes.com/blog/how-to-choose-the-best-color/</guid>
       <description>&lt;figure&gt;
-    
-        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/how-to-choose-the-best-color.jpeg&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;source: https://www.pexels.com/photo/low-angle-of-colorful-glass-panels-under-blue-sky-1048043/&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
+    &lt;img src=&#34;https://www.ilonacodes.com/blog/images/how-to-choose-the-best-color.jpeg&#34;/&gt; &lt;figcaption&gt;
+            &lt;h4&gt;source: https://www.pexels.com/photo/low-angle-of-colorful-glass-panels-under-blue-sky-1048043/&lt;/h4&gt;
+        &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-
 &lt;p&gt;If you really want to get better at color, start studying it.
-Picking the right colors is something that might seem easy at first. And when you are starting down a color wheel, you are going to wish you had some information on what you are looking for.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+Picking the right colors is something that might seem easy at first. And when you are starting down a color wheel, you are going to wish you had some information on what you are looking for.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -188,21 +126,12 @@ Picking the right colors is something that might seem easy at first. And when yo
       
       <guid>https://www.ilonacodes.com/blog/how-to-hack-your-front-end-career-with-ux/</guid>
       <description>&lt;figure&gt;
-    
-        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/hack-career-with-ux.jpeg&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;source: https://www.pexels.com/photo/pink-revolver-gun-1056555/&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
+    &lt;img src=&#34;https://www.ilonacodes.com/blog/images/hack-career-with-ux.jpeg&#34;/&gt; &lt;figcaption&gt;
+            &lt;h4&gt;source: https://www.pexels.com/photo/pink-revolver-gun-1056555/&lt;/h4&gt;
+        &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-
-&lt;p&gt;You must be thinking that as a front-end developer, you are developing websites / online products using HTML, CSS-styling, JavaScript and other different Frameworks to make them good looking by implementing user interfaces from the mockups.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;You must be thinking that as a front-end developer, you are developing websites / online products using HTML, CSS-styling, JavaScript and other different Frameworks to make them good looking by implementing user interfaces from the mockups.&lt;/p&gt;</description>
     </item>
     
     <item>

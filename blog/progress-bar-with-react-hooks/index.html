@@ -33,7 +33,7 @@
     
     <meta property="og:tags" content="tech">
     
-    <meta name="generator" content="Hugo 0.44" />
+    <meta name="generator" content="Hugo 0.73.0" />
     <title>Let’s implement: Progress Bar With React Hooks &middot; Ilona Who Codes</title>
     
     
@@ -128,403 +128,455 @@
       <main>
       	<article>
       		<div class="post row">
-	<div class="post__meta-column col-3 d-none d-md-block">
-		<div class="row no-gutters post__meta-column__date">
-			
-			
-			
-			<div class="col text-center post__meta-column__day">
-				28
-			</div>
-			<div class="col">
-				<div class="post__meta-column__month">Dec</div>
-				<div class="post__meta-column__year">2018</div>
-			</div>
-		</div>
+    <div class="post__meta-column col-3 d-none d-md-block">
+        <div class="row no-gutters post__meta-column__date">
+            
+            
+            
+            <div class="col text-center post__meta-column__day">
+                28
+            </div>
+            <div class="col">
+                <div class="post__meta-column__month">Dec</div>
+                <div class="post__meta-column__year">2018</div>
+            </div>
+        </div>
 
-		<div class="row">
-			<div class="col post__meta-column__tags">
-				
-					
-					
-						<a href="/tags/web">
-							<div class="post__tag">
-								#web
-							</div>
-						</a>
-					
-						<a href="/tags/reactjs">
-							<div class="post__tag">
-								#reactjs
-							</div>
-						</a>
-					
-						<a href="/tags/javascript">
-							<div class="post__tag">
-								#javascript
-							</div>
-						</a>
-					
-						<a href="/tags/hooks">
-							<div class="post__tag">
-								#hooks
-							</div>
-						</a>
-					
-						<a href="/tags/tech">
-							<div class="post__tag">
-								#tech
-							</div>
-						</a>
-					
-				
-			</div>
-		</div>
+        <div class="row">
+            <div class="col post__meta-column__tags">
+                
+                    
+                    
+                        <a href="/tags/web">
+                            <div class="post__tag">
+                                #web
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/reactjs">
+                            <div class="post__tag">
+                                #reactjs
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/javascript">
+                            <div class="post__tag">
+                                #javascript
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/hooks">
+                            <div class="post__tag">
+                                #hooks
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/tech">
+                            <div class="post__tag">
+                                #tech
+                            </div>
+                        </a>
+                    
+                
+            </div>
+        </div>
 
-		
-		<div class="row justify-content-end">
-			<div class="col-auto">
-				<div class="post__reactions reactions-root" data-resource-id="https://www.ilonacodes.com/blog/progress-bar-with-react-hooks/">
+        
+            <div class="row justify-content-end">
+                <div class="col-auto">
+                    <div class="post__reactions reactions-root" data-resource-id="https://www.ilonacodes.com/blog/progress-bar-with-react-hooks/">
 </div>
 
-			</div>
-		</div>
-		
-	</div>
-
-	<div class="post__primary-column col col-md-8 col-lg-9">
-		
-			<h1 class="post__title">
-				Let’s implement: Progress Bar With React Hooks
-			</h1>
-		
-
-		<div class="post__date d-md-none">
-			28 Dec, 2018
-		</div>
-
-		
-
-		<div class="post__body">
-      
-        <p>
-<figure>
-    
-        <img src="/blog/images/progress-bar-with-react-hooks.jpg" />
-    
-    
-    <figcaption>
-        <h4>source: Photo by Roman Kraft on Unsplash</h4>
+                </div>
+            </div>
         
-    </figcaption>
+    </div>
+
+    <div class="post__primary-column col col-md-8 col-lg-9">
+        
+            <h1 class="post__title">
+                Let’s implement: Progress Bar With React Hooks
+            </h1>
+        
+
+        <div class="post__date d-md-none">
+            28 Dec, 2018
+        </div>
+
+        
+
+        <div class="post__body">
+            <div class="blog__sharing row no-gutters align-items-center mt-4">
     
+    
+    
+    
+    
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <div class="col-auto mt-md-0 mt-2">
+        <a href="https://www.facebook.com/dialog/share?app_id=4028027083934101&amp;display=popup&amp;hashtag=dev&amp;href=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Fprogress-bar-with-react-hooks%2F"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--fb">
+            <div class="fab fa-facebook-f"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://twitter.com/intent/tweet?hashtags=dev&amp;original_referer=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Fprogress-bar-with-react-hooks%2F&amp;ref_src=twsrc%5Etfw&amp;related=ilonacodes&amp;text=Let%E2%80%99s&#43;implement%3A&#43;Progress&#43;Bar&#43;With&#43;React&#43;Hooks&amp;tw_p=tweetbutton&amp;url=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Fprogress-bar-with-react-hooks%2F&amp;via=ilonacodes"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--tw">
+            <div class="fab fa-twitter"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Fprogress-bar-with-react-hooks%2F"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--li">
+            <div class="fab fa-linkedin-in"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://ilonacodes.com/index.xml"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--rss">
+            <div class="fa fa-rss"></div>
+        </a>
+    </div>
+</div>
+        </div>
+
+        <div class="post__body">
+            
+                <p><figure>
+    <img src="/blog/images/progress-bar-with-react-hooks.jpg"/> <figcaption>
+            <h4>source: Photo by Roman Kraft on Unsplash</h4>
+        </figcaption>
 </figure>
 
 After <strong>React Hooks</strong> introduction at <a href="https://www.youtube.com/watch?v=dpw9EHDh2bM">React Conf October 2018</a> I decided to learn this approach how to use state and side-effects in React functional components.</p>
-
-<p></p>
-
 <p>Traditionally, any stateless component in ReactJS called functional component and now with <strong>React Hooks</strong> it is possible to store the state inside them.</p>
-
 <p>And today I am going to share my experience how I have tried to apply <strong>React Hooks</strong> for the simple Progress Bar implementation.</p>
-
 <p>The reason why <strong>React Hooks</strong> have been developed is to avoid the functional component refactor into the class component for using lifecycle methods. In this case, hook functions allow writing ReactJS application with functional components only by using side-effects and local state.</p>
-
 <p>Let’s see how it works with the following Progress Bar Example:</p>
-
 <p>I suggest installing a new <strong>&lsquo;create-react-app&rsquo;</strong> app called <strong>&lsquo;progress-bar-with-hooks&rsquo;</strong>. The detailed information on how you can do that find <a href="https://reactjs.org/docs/create-a-new-react-app.html">here</a>.</p>
-
 <p>After creating <strong>‘progress-bar-with-hooks’</strong> project, open it in your favorite text editor or IDE to check out its structure. I also advise deleting all unnecessary DOM-elements from the <code>&lt;App /&gt;</code> in <strong>App.js</strong>, so that at the beginning it looks like:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#75715e">// App.js
+</span><span style="color:#75715e"></span>
+<span style="color:#66d9ef">import</span> <span style="color:#a6e22e">React</span>, {<span style="color:#a6e22e">Component</span>} <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;react&#39;</span>;
 
-<pre><code class="language-javascript">// App.js
+<span style="color:#66d9ef">class</span> <span style="color:#a6e22e">App</span> <span style="color:#66d9ef">extends</span> <span style="color:#a6e22e">Component</span> {
+    <span style="color:#a6e22e">render</span>() {
+        <span style="color:#66d9ef">return</span> (
+            <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">div</span><span style="color:#f92672">&gt;</span>
 
-import React, {Component} from 'react';
-
-class App extends Component {
-    render() {
-        return (
-            &lt;div&gt;
-
-            &lt;/div&gt;
+            <span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/div&gt;</span>
         );
     }
 }
 
-export default App;
-</code></pre>
-
-<p>The next step is to create <strong>ProgressBar.js</strong> file in the <strong>&lsquo;src&rsquo;</strong> directory and
+<span style="color:#66d9ef">export</span> <span style="color:#66d9ef">default</span> <span style="color:#a6e22e">App</span>;
+</code></pre></div><p>The next step is to create <strong>ProgressBar.js</strong> file in the <strong>&lsquo;src&rsquo;</strong> directory and
 create the following functional components:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#75715e">// ProgressBar.js
+</span><span style="color:#75715e"></span>
+<span style="color:#66d9ef">import</span> <span style="color:#a6e22e">React</span> <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;react&#39;</span>;
 
-<pre><code class="language-javascript">// ProgressBar.js
-
-import React from 'react';
-
-const Range = (props) =&gt; {
-    return (
-        &lt;div/&gt;
+<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">Range</span> <span style="color:#f92672">=</span> (<span style="color:#a6e22e">props</span>) =&gt; {
+    <span style="color:#66d9ef">return</span> (
+        <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">div</span><span style="color:#f92672">/&gt;</span>
     );
 };
 
-const ProgressBar = (props) =&gt; {
-    return (
-        &lt;div className=&quot;progress-bar&quot;&gt;
-            &lt;Range/&gt;
-        &lt;/div&gt;
+<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">ProgressBar</span> <span style="color:#f92672">=</span> (<span style="color:#a6e22e">props</span>) =&gt; {
+    <span style="color:#66d9ef">return</span> (
+        <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">div</span> <span style="color:#a6e22e">className</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;progress-bar&#34;</span><span style="color:#f92672">&gt;</span>
+            <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">Range</span><span style="color:#f92672">/&gt;</span>
+        <span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/div&gt;</span>
     );
 };
 
-export const ProgressBarContainer = () =&gt; {
-    return (
-        &lt;div className=&quot;container&quot;&gt;
-            &lt;ProgressBar/&gt;
-        &lt;/div&gt;
+<span style="color:#66d9ef">export</span> <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">ProgressBarContainer</span> <span style="color:#f92672">=</span> () =&gt; {
+    <span style="color:#66d9ef">return</span> (
+        <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">div</span> <span style="color:#a6e22e">className</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;container&#34;</span><span style="color:#f92672">&gt;</span>
+            <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">ProgressBar</span><span style="color:#f92672">/&gt;</span>
+        <span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/div&gt;</span>
     );
 };
-</code></pre>
-
-<p><code>&lt;Range /&gt;</code> handles and render the current status of the progress bar.</p>
-
+</code></pre></div><p><code>&lt;Range /&gt;</code> handles and render the current status of the progress bar.</p>
 <p><code>&lt;ProgressBar /&gt;</code> represents the full progress bar border and wrap the <code>&lt;Range /&gt;</code> component, so the user sees how filled the whole progress bar is limit.</p>
-
 <p><code>&lt;ProgressBarContainer /&gt;</code> is the higher-order component and carries the whole app state using applied hook functions. This state also will be passing to the other app components through props.</p>
-
 <p>Let’s add state <strong>[percentRange, setProgress]</strong> to the <code>&lt;ProgressBarContainer/&gt;</code> using <strong>useState()</strong> hook and <strong>0</strong> as the initial state value:</p>
-
-<pre><code class="language-javascript">//ProgressBar.js;
-
-// import hook func from react
-import React, {useState} from 'react';
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#75715e">//ProgressBar.js;
+</span><span style="color:#75715e"></span>
+<span style="color:#75715e">// import hook func from react
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">import</span> <span style="color:#a6e22e">React</span>, {<span style="color:#a6e22e">useState</span>} <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;react&#39;</span>;
 
 ...
 
-export const ProgressBarContainer = () =&gt; {
-    // init state through hook func useState()
-    const [percentRange, setProgress] = useState(0);
+<span style="color:#66d9ef">export</span> <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">ProgressBarContainer</span> <span style="color:#f92672">=</span> () =&gt; {
+    <span style="color:#75715e">// init state through hook func useState()
+</span><span style="color:#75715e"></span>    <span style="color:#66d9ef">const</span> [<span style="color:#a6e22e">percentRange</span>, <span style="color:#a6e22e">setProgress</span>] <span style="color:#f92672">=</span> <span style="color:#a6e22e">useState</span>(<span style="color:#ae81ff">0</span>);
 
-    return (
-        &lt;div className=&quot;container&quot;&gt;
-            {/*pass the percentageRange state to other components*/}
-            &lt;ProgressBar percentRange={percentRange}/&gt;
-            &lt;div className=&quot;toggle-buttons&quot;&gt;
-                {/* call setProgress func on button click and bind the callback*/}
-                {/* depending on the percentageRange condition to decrease /*/}
-                {/* increase in 20% range and reset the progress bar status*/}
-                &lt;button onClick={() =&gt; setProgress(percentRange &gt; 0 ?
-                    percentRange - 20 : 0)}&gt;Decrease
-                &lt;/button&gt;
-                &lt;button onClick={() =&gt; setProgress(percentRange &lt; 100 ? percentRange + 20 : 100)}&gt;Increase&lt;/button&gt;
-                &lt;button onClick={() =&gt; setProgress(0)}&gt;Reset&lt;/button&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
+    <span style="color:#66d9ef">return</span> (
+        <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">div</span> <span style="color:#a6e22e">className</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;container&#34;</span><span style="color:#f92672">&gt;</span>
+            {<span style="color:#75715e">/*pass the percentageRange state to other components*/</span>}
+            <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">ProgressBar</span> <span style="color:#a6e22e">percentRange</span><span style="color:#f92672">=</span>{<span style="color:#a6e22e">percentRange</span>}<span style="color:#f92672">/&gt;</span>
+            <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">div</span> <span style="color:#a6e22e">className</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;toggle-buttons&#34;</span><span style="color:#f92672">&gt;</span>
+                {<span style="color:#75715e">/* call setProgress func on button click and bind the callback*/</span>}
+                {<span style="color:#75715e">/* depending on the percentageRange condition to decrease /*/</span>}
+                {<span style="color:#75715e">/* increase in 20% range and reset the progress bar status*/</span>}
+                <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">button</span> <span style="color:#a6e22e">onClick</span><span style="color:#f92672">=</span>{() =&gt; <span style="color:#a6e22e">setProgress</span>(<span style="color:#a6e22e">percentRange</span> <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">0</span> <span style="color:#f92672">?</span>
+                    <span style="color:#a6e22e">percentRange</span> <span style="color:#f92672">-</span> <span style="color:#ae81ff">20</span> <span style="color:#f92672">:</span> <span style="color:#ae81ff">0</span>)}<span style="color:#f92672">&gt;</span><span style="color:#a6e22e">Decrease</span>
+                <span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/button&gt;</span>
+                <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">button</span> <span style="color:#a6e22e">onClick</span><span style="color:#f92672">=</span>{() =&gt; <span style="color:#a6e22e">setProgress</span>(<span style="color:#a6e22e">percentRange</span> <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">100</span> <span style="color:#f92672">?</span> <span style="color:#a6e22e">percentRange</span> <span style="color:#f92672">+</span> <span style="color:#ae81ff">20</span> <span style="color:#f92672">:</span> <span style="color:#ae81ff">100</span>)}<span style="color:#f92672">&gt;</span><span style="color:#a6e22e">Increase</span><span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/button&gt;</span>
+                <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">button</span> <span style="color:#a6e22e">onClick</span><span style="color:#f92672">=</span>{() =&gt; <span style="color:#a6e22e">setProgress</span>(<span style="color:#ae81ff">0</span>)}<span style="color:#f92672">&gt;</span><span style="color:#a6e22e">Reset</span><span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/button&gt;</span>
+            <span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/div&gt;</span>
+        <span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/div&gt;</span>
     );
 };
-</code></pre>
-
-<p>To make the app work properly - to allow the progress bar’s range changing
+</code></pre></div><p>To make the app work properly - to allow the progress bar’s range changing
 in width dynamically - it’s necessary to pass <strong>percentageRange</strong> state through props features of ReactJS to the <code>&lt;ProgressBar /&gt;</code> and <code>&lt;Range /&gt;</code> functional components:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#75715e">// ProgressBar.js
+</span><span style="color:#75715e"></span>
+<span style="color:#66d9ef">import</span> <span style="color:#a6e22e">React</span> <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;react&#39;</span>;
+<span style="color:#75715e">// the custom styling for progress bar app
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">import</span> <span style="color:#e6db74">&#39;./progress-bar.css&#39;</span>;
 
-<pre><code class="language-javascript">// ProgressBar.js
-
-import React from 'react';
-// the custom styling for progress bar app
-import './progress-bar.css';
-
-// pass percentRange state through props to Range an ProgressBar components
-const Range = (props) =&gt; {
-    return (
-        // render current the filled range of progress bar along its width
-        &lt;div className=&quot;range&quot; style={{width: `${props.percentRange}%`}}/&gt;
+<span style="color:#75715e">// pass percentRange state through props to Range an ProgressBar components
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">Range</span> <span style="color:#f92672">=</span> (<span style="color:#a6e22e">props</span>) =&gt; {
+    <span style="color:#66d9ef">return</span> (
+        <span style="color:#75715e">// render current the filled range of progress bar along its width
+</span><span style="color:#75715e"></span>        <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">div</span> <span style="color:#a6e22e">className</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;range&#34;</span> <span style="color:#a6e22e">style</span><span style="color:#f92672">=</span>{{<span style="color:#a6e22e">width</span><span style="color:#f92672">:</span> <span style="color:#e6db74">`</span><span style="color:#e6db74">${</span><span style="color:#a6e22e">props</span>.<span style="color:#a6e22e">percentRange</span><span style="color:#e6db74">}</span><span style="color:#e6db74">%`</span>}}<span style="color:#f92672">/&gt;</span>
     );
 };
 
-const ProgressBar = (props) =&gt; {
-    return (
-        &lt;div className=&quot;progress-bar&quot;&gt;
-            {/*render available progress bar’s limit*/}
-            &lt;Range percentRange={props.percentRange}/&gt;
-        &lt;/div&gt;
+<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">ProgressBar</span> <span style="color:#f92672">=</span> (<span style="color:#a6e22e">props</span>) =&gt; {
+    <span style="color:#66d9ef">return</span> (
+        <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">div</span> <span style="color:#a6e22e">className</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;progress-bar&#34;</span><span style="color:#f92672">&gt;</span>
+            {<span style="color:#75715e">/*render available progress bar’s limit*/</span>}
+            <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">Range</span> <span style="color:#a6e22e">percentRange</span><span style="color:#f92672">=</span>{<span style="color:#a6e22e">props</span>.<span style="color:#a6e22e">percentRange</span>}<span style="color:#f92672">/&gt;</span>
+        <span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/div&gt;</span>
     );
 };
 
 ...
-</code></pre>
+</code></pre></div><p>As you noticed above, I have imported <strong>progress-bar.css</strong> at the top and below you will find the custom CSS-styles that I have used for the progress bar:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css">{<span style="color:#960050;background-color:#1e0010">*</span> <span style="color:#960050;background-color:#1e0010">progress-bar.css</span> <span style="color:#960050;background-color:#1e0010">*</span>}
 
-<p>As you noticed above, I have imported <strong>progress-bar.css</strong> at the top and below you will find the custom CSS-styles that I have used for the progress bar:</p>
-
-<pre><code class="language-css">{* progress-bar.css *}
-
-.container {
- 	display: flex;
- 	justify-content: center;
- 	align-items: center;
- 	flex-direction: column;
- 	width: 100%;
- 	height: 100vh;
+.<span style="color:#a6e22e">container</span> {
+ 	<span style="color:#66d9ef">display</span>: <span style="color:#66d9ef">flex</span>;
+ 	<span style="color:#66d9ef">justify-content</span>: <span style="color:#66d9ef">center</span>;
+ 	<span style="color:#66d9ef">align-items</span>: <span style="color:#66d9ef">center</span>;
+ 	<span style="color:#66d9ef">flex-direction</span>: <span style="color:#66d9ef">column</span>;
+ 	<span style="color:#66d9ef">width</span>: <span style="color:#ae81ff">100</span><span style="color:#66d9ef">%</span>;
+ 	<span style="color:#66d9ef">height</span>: <span style="color:#ae81ff">100</span><span style="color:#66d9ef">vh</span>;
 }
 
-.progress-bar {
- 	width: 350px;
- 	height: 35px;
- 	border-radius: 50px;
- 	border: 2px solid #666;
- 	margin-bottom: 40px;
+.<span style="color:#a6e22e">progress-bar</span> {
+ 	<span style="color:#66d9ef">width</span>: <span style="color:#ae81ff">350</span><span style="color:#66d9ef">px</span>;
+ 	<span style="color:#66d9ef">height</span>: <span style="color:#ae81ff">35</span><span style="color:#66d9ef">px</span>;
+ 	<span style="color:#66d9ef">border-radius</span>: <span style="color:#ae81ff">50</span><span style="color:#66d9ef">px</span>;
+ 	<span style="color:#66d9ef">border</span>: <span style="color:#ae81ff">2</span><span style="color:#66d9ef">px</span> <span style="color:#66d9ef">solid</span> <span style="color:#ae81ff">#666</span>;
+ 	<span style="color:#66d9ef">margin-bottom</span>: <span style="color:#ae81ff">40</span><span style="color:#66d9ef">px</span>;
 }
 
-.range {
- 	background: limegreen;
- 	height: 100%;
- 	border-radius: inherit;
- 	transition: width .3s ease-in;
+.<span style="color:#a6e22e">range</span> {
+ 	<span style="color:#66d9ef">background</span>: <span style="color:#66d9ef">limegreen</span>;
+ 	<span style="color:#66d9ef">height</span>: <span style="color:#ae81ff">100</span><span style="color:#66d9ef">%</span>;
+ 	<span style="color:#66d9ef">border-radius</span>: <span style="color:#66d9ef">inherit</span>;
+ 	<span style="color:#66d9ef">transition</span>: <span style="color:#66d9ef">width</span> <span style="color:#ae81ff">.3</span><span style="color:#66d9ef">s</span> <span style="color:#66d9ef">ease</span><span style="color:#f92672">-</span>in;
 }
 
-.toggle-buttons button {
- 	margin: 0 10px;
- 	padding: 7px 20px;
- 	border-radius: 5px;
- 	outline: 0;
- 	cursor: pointer;
+.<span style="color:#a6e22e">toggle-buttons</span> <span style="color:#f92672">button</span> {
+ 	<span style="color:#66d9ef">margin</span>: <span style="color:#ae81ff">0</span> <span style="color:#ae81ff">10</span><span style="color:#66d9ef">px</span>;
+ 	<span style="color:#66d9ef">padding</span>: <span style="color:#ae81ff">7</span><span style="color:#66d9ef">px</span> <span style="color:#ae81ff">20</span><span style="color:#66d9ef">px</span>;
+ 	<span style="color:#66d9ef">border-radius</span>: <span style="color:#ae81ff">5</span><span style="color:#66d9ef">px</span>;
+ 	<span style="color:#66d9ef">outline</span>: <span style="color:#ae81ff">0</span>;
+ 	<span style="color:#66d9ef">cursor</span>: <span style="color:#66d9ef">pointer</span>;
 }
 
-.toggle-buttons button:hover {
- 	color: white;
- 	background: #666;
+.<span style="color:#a6e22e">toggle-buttons</span> <span style="color:#f92672">button</span>:<span style="color:#a6e22e">hover</span> {
+ 	<span style="color:#66d9ef">color</span>: <span style="color:#66d9ef">white</span>;
+ 	<span style="color:#66d9ef">background</span>: <span style="color:#ae81ff">#666</span>;
 }
-</code></pre>
+</code></pre></div><p>Here you can see the finished version of <strong>ProgressBar.js</strong> with the fully implementation:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#75715e">// ProgressBar.js
+</span><span style="color:#75715e"></span>
+<span style="color:#66d9ef">import</span> <span style="color:#a6e22e">React</span>, {<span style="color:#a6e22e">useState</span>} <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;react&#39;</span>;
+<span style="color:#66d9ef">import</span> <span style="color:#e6db74">&#39;./progress-bar.css&#39;</span>;
 
-<p>Here you can see the finished version of <strong>ProgressBar.js</strong> with the fully implementation:</p>
-
-<pre><code class="language-javascript">// ProgressBar.js
-
-import React, {useState} from 'react';
-import './progress-bar.css';
-
-const Range = (props) =&gt; {
-    return (
-        &lt;div className=&quot;range&quot; style={{width: `${props.percentRange}%`}}/&gt;
+<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">Range</span> <span style="color:#f92672">=</span> (<span style="color:#a6e22e">props</span>) =&gt; {
+    <span style="color:#66d9ef">return</span> (
+        <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">div</span> <span style="color:#a6e22e">className</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;range&#34;</span> <span style="color:#a6e22e">style</span><span style="color:#f92672">=</span>{{<span style="color:#a6e22e">width</span><span style="color:#f92672">:</span> <span style="color:#e6db74">`</span><span style="color:#e6db74">${</span><span style="color:#a6e22e">props</span>.<span style="color:#a6e22e">percentRange</span><span style="color:#e6db74">}</span><span style="color:#e6db74">%`</span>}}<span style="color:#f92672">/&gt;</span>
     );
 };
 
-const ProgressBar = (props) =&gt; {
-    return (
-        &lt;div className=&quot;progress-bar&quot;&gt;
-            &lt;Range percentRange={props.percentRange}/&gt;
-        &lt;/div&gt;
+<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">ProgressBar</span> <span style="color:#f92672">=</span> (<span style="color:#a6e22e">props</span>) =&gt; {
+    <span style="color:#66d9ef">return</span> (
+        <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">div</span> <span style="color:#a6e22e">className</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;progress-bar&#34;</span><span style="color:#f92672">&gt;</span>
+            <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">Range</span> <span style="color:#a6e22e">percentRange</span><span style="color:#f92672">=</span>{<span style="color:#a6e22e">props</span>.<span style="color:#a6e22e">percentRange</span>}<span style="color:#f92672">/&gt;</span>
+        <span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/div&gt;</span>
     );
 };
 
-export const ProgressBarContainer = () =&gt; {
-    let [percentRange, setProgress] = useState(0);
+<span style="color:#66d9ef">export</span> <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">ProgressBarContainer</span> <span style="color:#f92672">=</span> () =&gt; {
+    <span style="color:#66d9ef">let</span> [<span style="color:#a6e22e">percentRange</span>, <span style="color:#a6e22e">setProgress</span>] <span style="color:#f92672">=</span> <span style="color:#a6e22e">useState</span>(<span style="color:#ae81ff">0</span>);
 
-    return (
-        &lt;div className=&quot;container&quot;&gt;
-            &lt;ProgressBar percentRange={percentRange}/&gt;
-            &lt;div className=&quot;toggle-buttons&quot;&gt;
-                &lt;button onClick={() =&gt; setProgress(percentRange &gt; 0 ?
-                    percentRange - 20 : 0)}&gt;Decrease
-                &lt;/button&gt;
-                &lt;button onClick={() =&gt; setProgress(percentRange &lt; 100 ? percentRange + 20 : 100)}&gt;Increase&lt;/button&gt;
-                &lt;button onClick={() =&gt; setProgress(0)}&gt;Reset&lt;/button&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
+    <span style="color:#66d9ef">return</span> (
+        <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">div</span> <span style="color:#a6e22e">className</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;container&#34;</span><span style="color:#f92672">&gt;</span>
+            <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">ProgressBar</span> <span style="color:#a6e22e">percentRange</span><span style="color:#f92672">=</span>{<span style="color:#a6e22e">percentRange</span>}<span style="color:#f92672">/&gt;</span>
+            <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">div</span> <span style="color:#a6e22e">className</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;toggle-buttons&#34;</span><span style="color:#f92672">&gt;</span>
+                <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">button</span> <span style="color:#a6e22e">onClick</span><span style="color:#f92672">=</span>{() =&gt; <span style="color:#a6e22e">setProgress</span>(<span style="color:#a6e22e">percentRange</span> <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">0</span> <span style="color:#f92672">?</span>
+                    <span style="color:#a6e22e">percentRange</span> <span style="color:#f92672">-</span> <span style="color:#ae81ff">20</span> <span style="color:#f92672">:</span> <span style="color:#ae81ff">0</span>)}<span style="color:#f92672">&gt;</span><span style="color:#a6e22e">Decrease</span>
+                <span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/button&gt;</span>
+                <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">button</span> <span style="color:#a6e22e">onClick</span><span style="color:#f92672">=</span>{() =&gt; <span style="color:#a6e22e">setProgress</span>(<span style="color:#a6e22e">percentRange</span> <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">100</span> <span style="color:#f92672">?</span> <span style="color:#a6e22e">percentRange</span> <span style="color:#f92672">+</span> <span style="color:#ae81ff">20</span> <span style="color:#f92672">:</span> <span style="color:#ae81ff">100</span>)}<span style="color:#f92672">&gt;</span><span style="color:#a6e22e">Increase</span><span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/button&gt;</span>
+                <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">button</span> <span style="color:#a6e22e">onClick</span><span style="color:#f92672">=</span>{() =&gt; <span style="color:#a6e22e">setProgress</span>(<span style="color:#ae81ff">0</span>)}<span style="color:#f92672">&gt;</span><span style="color:#a6e22e">Reset</span><span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/button&gt;</span>
+            <span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/div&gt;</span>
+        <span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/div&gt;</span>
     );
 };
-</code></pre>
+</code></pre></div><p>The last step to complete the web app is to import the functional <code>&lt;ProgressBarContainer /&gt;</code> component to the class <code>&lt;App /&gt;</code> component:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#75715e">// App.js
+</span><span style="color:#75715e"></span>
+<span style="color:#66d9ef">import</span> <span style="color:#a6e22e">React</span>, {<span style="color:#a6e22e">Component</span>} <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;react&#39;</span>;
+<span style="color:#66d9ef">import</span> {<span style="color:#a6e22e">ProgressBarContainer</span>} <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;./ProgressBar&#39;</span>;
+<span style="color:#66d9ef">import</span> <span style="color:#e6db74">&#39;./App.css&#39;</span>;
 
-<p>The last step to complete the web app is to import the functional <code>&lt;ProgressBarContainer /&gt;</code> component to the class <code>&lt;App /&gt;</code> component:</p>
-
-<pre><code class="language-javascript">// App.js
-
-import React, {Component} from 'react';
-import {ProgressBarContainer} from './ProgressBar';
-import './App.css';
-
-class App extends Component {
-    render() {
-        return (
-            &lt;div className=&quot;App&quot;&gt;
-                &lt;ProgressBarContainer/&gt;
-            &lt;/div&gt;
+<span style="color:#66d9ef">class</span> <span style="color:#a6e22e">App</span> <span style="color:#66d9ef">extends</span> <span style="color:#a6e22e">Component</span> {
+    <span style="color:#a6e22e">render</span>() {
+        <span style="color:#66d9ef">return</span> (
+            <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">div</span> <span style="color:#a6e22e">className</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;App&#34;</span><span style="color:#f92672">&gt;</span>
+                <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">ProgressBarContainer</span><span style="color:#f92672">/&gt;</span>
+            <span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/div&gt;</span>
         );
     }
 }
 
-export default App;
-</code></pre>
-
-<p>And then run the command <strong>&lsquo;npm start&rsquo;</strong> in the terminal inside the <strong>&lsquo;progress-bar-with-hooks&rsquo;</strong> project directory to check how it works. If you did everything right, the result would be appeared like:</p>
-
-
+<span style="color:#66d9ef">export</span> <span style="color:#66d9ef">default</span> <span style="color:#a6e22e">App</span>;
+</code></pre></div><p>And then run the command <strong>&lsquo;npm start&rsquo;</strong> in the terminal inside the <strong>&lsquo;progress-bar-with-hooks&rsquo;</strong> project directory to check how it works. If you did everything right, the result would be appeared like:</p>
 <figure>
-    
-        <img src="/blog/images/progress-bar-with-react-hooks-result.png" />
-    
-    
+    <img src="/blog/images/progress-bar-with-react-hooks-result.png"/> 
 </figure>
 
-
 <p><strong>That’s it! Thank you for reading!</strong></p>
-
 <p>Want to dive deeper into software development? Watch and subscribe for the upcoming <strong>“From Frontend to Fullstack Engineer”</strong> series on my <a href="https://www.youtube.com/channel/UCZHUFhQTMcJVekb6KAqqtkg">YouTube channel</a>.</p>
-
 <p>You can also check out official documentation to <a href="https://reactjs.org/docs/hooks-intro.html">React Hooks</a>, if you want to learn more about the state and effect hooks.</p>
-
 <p>I would like to hear your thoughts if you found the post helpful or not.</p>
-
 <p>Don’t forget to reach me through my <a href="mailto:ilona@ilonacodes.com">email</a> or my social media: <a href="https://www.twitter.com/ilonacodes">Twitter</a> &amp; <a href="https://www.instagram.com/ilonacodes">Instagram</a>.</p>
-
 <p>December is really hectic for all of us. Enjoy your holidays and Happy New Year!</p>
-
 <p>Cheers, ilonacodes</p>
-      
-		</div>
+            
+        </div>
+
+        
+
+        
+            <div class="post__reactions reactions-root" data-resource-id="https://www.ilonacodes.com/blog/progress-bar-with-react-hooks/">
+</div>
+
+        
+
+        <div class="post__tags d-md-none">
+            
+                Tags |
+                
+                
+                    <a href="/tags/web">
+                <span class="post__tag">
+            #web
+            </span>
+                    </a>
+                
+                    <a href="/tags/reactjs">
+                <span class="post__tag">
+            #reactjs
+            </span>
+                    </a>
+                
+                    <a href="/tags/javascript">
+                <span class="post__tag">
+            #javascript
+            </span>
+                    </a>
+                
+                    <a href="/tags/hooks">
+                <span class="post__tag">
+            #hooks
+            </span>
+                    </a>
+                
+                    <a href="/tags/tech">
+                <span class="post__tag">
+            #tech
+            </span>
+                    </a>
+                
+            
+        </div>
+
+        
+            <div class="blog__sharing row no-gutters align-items-center mt-4">
+    
+    
+    
+    
+    
+    
+    
+    
 
     
 
-		
-			<div class="post__reactions reactions-root" data-resource-id="https://www.ilonacodes.com/blog/progress-bar-with-react-hooks/">
+    
+
+    
+
+    <div class="col-auto mt-md-0 mt-2">
+        <a href="https://www.facebook.com/dialog/share?app_id=4028027083934101&amp;display=popup&amp;hashtag=dev&amp;href=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Fprogress-bar-with-react-hooks%2F"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--fb">
+            <div class="fab fa-facebook-f"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://twitter.com/intent/tweet?hashtags=dev&amp;original_referer=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Fprogress-bar-with-react-hooks%2F&amp;ref_src=twsrc%5Etfw&amp;related=ilonacodes&amp;text=Let%E2%80%99s&#43;implement%3A&#43;Progress&#43;Bar&#43;With&#43;React&#43;Hooks&amp;tw_p=tweetbutton&amp;url=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Fprogress-bar-with-react-hooks%2F&amp;via=ilonacodes"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--tw">
+            <div class="fab fa-twitter"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Fprogress-bar-with-react-hooks%2F"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--li">
+            <div class="fab fa-linkedin-in"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://ilonacodes.com/index.xml"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--rss">
+            <div class="fa fa-rss"></div>
+        </a>
+    </div>
 </div>
+        
 
-		
-
-		<div class="post__tags d-md-none">
-			
-				Tags |
-				
-				
-					<a href="/tags/web">
-						<span class="post__tag">
-							#web
-						</span>
-					</a>
-				
-					<a href="/tags/reactjs">
-						<span class="post__tag">
-							#reactjs
-						</span>
-					</a>
-				
-					<a href="/tags/javascript">
-						<span class="post__tag">
-							#javascript
-						</span>
-					</a>
-				
-					<a href="/tags/hooks">
-						<span class="post__tag">
-							#hooks
-						</span>
-					</a>
-				
-					<a href="/tags/tech">
-						<span class="post__tag">
-							#tech
-						</span>
-					</a>
-				
-			
-		</div>
-	</div>
+    </div>
 </div>
 
 

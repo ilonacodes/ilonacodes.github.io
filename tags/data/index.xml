@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Data on Ilona Who Codes</title>
+    <title>data on Ilona Who Codes</title>
     <link>https://www.ilonacodes.com/tags/data/</link>
-    <description>Recent content in Data on Ilona Who Codes</description>
+    <description>Recent content in data on Ilona Who Codes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 02 Oct 2018 10:40:05 +0100</lastBuildDate>
@@ -18,21 +18,12 @@
       
       <guid>https://www.ilonacodes.com/blog/simple-state-machine-with-redux/</guid>
       <description>&lt;figure&gt;
-    
-        &lt;img src=&#34;https://www.ilonacodes.com/blog/simple-state-machine-with-redux.jpeg&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;https://bit.ly/2wIeeNU&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
+    &lt;img src=&#34;https://www.ilonacodes.com/blog/simple-state-machine-with-redux.jpeg&#34;/&gt; &lt;figcaption&gt;
+            &lt;h4&gt;https://bit.ly/2wIeeNU&lt;/h4&gt;
+        &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-
-&lt;p&gt;The last days I am working on the project, which should include the state machine. Implementing this project with React, I decided to use the Redux framework to manage state in my React application. Moreover, thanks to redux store we can debug data (in one place) easily.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;The last days I am working on the project, which should include the state machine. Implementing this project with React, I decided to use the Redux framework to manage state in my React application. Moreover, thanks to redux store we can debug data (in one place) easily.&lt;/p&gt;</description>
     </item>
     
     <item>

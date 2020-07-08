@@ -37,7 +37,7 @@
     
     <meta property="og:tags" content="userstory">
     
-    <meta name="generator" content="Hugo 0.44" />
+    <meta name="generator" content="Hugo 0.73.0" />
     <title>The First User Story, The First Feature With React&#43;Redux &middot; Ilona Who Codes</title>
     
     
@@ -132,537 +132,598 @@
       <main>
       	<article>
       		<div class="post row">
-	<div class="post__meta-column col-3 d-none d-md-block">
-		<div class="row no-gutters post__meta-column__date">
-			
-			
-			
-			<div class="col text-center post__meta-column__day">
-				21
-			</div>
-			<div class="col">
-				<div class="post__meta-column__month">Sep</div>
-				<div class="post__meta-column__year">2017</div>
-			</div>
-		</div>
+    <div class="post__meta-column col-3 d-none d-md-block">
+        <div class="row no-gutters post__meta-column__date">
+            
+            
+            
+            <div class="col text-center post__meta-column__day">
+                21
+            </div>
+            <div class="col">
+                <div class="post__meta-column__month">Sep</div>
+                <div class="post__meta-column__year">2017</div>
+            </div>
+        </div>
 
-		<div class="row">
-			<div class="col post__meta-column__tags">
-				
-					
-					
-						<a href="/tags/react">
-							<div class="post__tag">
-								#react
-							</div>
-						</a>
-					
-						<a href="/tags/reactjs">
-							<div class="post__tag">
-								#reactjs
-							</div>
-						</a>
-					
-						<a href="/tags/redux">
-							<div class="post__tag">
-								#redux
-							</div>
-						</a>
-					
-						<a href="/tags/learntocode">
-							<div class="post__tag">
-								#learntocode
-							</div>
-						</a>
-					
-						<a href="/tags/beginners">
-							<div class="post__tag">
-								#beginners
-							</div>
-						</a>
-					
-						<a href="/tags/coding">
-							<div class="post__tag">
-								#coding
-							</div>
-						</a>
-					
-						<a href="/tags/letsgetcoding">
-							<div class="post__tag">
-								#letsgetcoding
-							</div>
-						</a>
-					
-						<a href="/tags/user">
-							<div class="post__tag">
-								#user
-							</div>
-						</a>
-					
-						<a href="/tags/userstory">
-							<div class="post__tag">
-								#userstory
-							</div>
-						</a>
-					
-				
-			</div>
-		</div>
+        <div class="row">
+            <div class="col post__meta-column__tags">
+                
+                    
+                    
+                        <a href="/tags/react">
+                            <div class="post__tag">
+                                #react
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/reactjs">
+                            <div class="post__tag">
+                                #reactjs
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/redux">
+                            <div class="post__tag">
+                                #redux
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/learntocode">
+                            <div class="post__tag">
+                                #learntocode
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/beginners">
+                            <div class="post__tag">
+                                #beginners
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/coding">
+                            <div class="post__tag">
+                                #coding
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/letsgetcoding">
+                            <div class="post__tag">
+                                #letsgetcoding
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/user">
+                            <div class="post__tag">
+                                #user
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/userstory">
+                            <div class="post__tag">
+                                #userstory
+                            </div>
+                        </a>
+                    
+                
+            </div>
+        </div>
 
-		
-		<div class="row justify-content-end">
-			<div class="col-auto">
-				<div class="post__reactions reactions-root" data-resource-id="https://www.ilonacodes.com/blog/the-first-user-story-the-first-feature/">
+        
+            <div class="row justify-content-end">
+                <div class="col-auto">
+                    <div class="post__reactions reactions-root" data-resource-id="https://www.ilonacodes.com/blog/the-first-user-story-the-first-feature/">
 </div>
 
-			</div>
-		</div>
-		
-	</div>
-
-	<div class="post__primary-column col col-md-8 col-lg-9">
-		
-			<h1 class="post__title">
-				The First User Story, The First Feature With React&#43;Redux
-			</h1>
-		
-
-		<div class="post__date d-md-none">
-			21 Sep, 2017
-		</div>
-
-		
-
-		<div class="post__body">
-      
-        <p>Hi, everyone! I guess you are pretty encouraged to start coding our app. Just to remind: it will be an interactive daily ToDo List. Today I am going to explain: what is a user story? Why do we need to write it before implementing a feature? How will we organize and structure an app? What is, actually, a new feature?</p>
-
-<p>Let&rsquo;s start with the first question. In my opinion, user stories are efficient things. To be more precise, we begin to write them from the perspective of the user and describe them in a very simple way with traditional structure. How it works:</p>
-
-<pre><code>As a (name of the user)
-I want to (some actions or feature)
-so that/because (reason and value for the user)
-</code></pre>
-
-<p>It&rsquo;s possible to add some acceptance criteria to user stories that will indicate what should happen, driven by context and other situations.
-In our case, the user story for the first feature will look like:</p>
-
-<pre><code class="language-javascript">As Bob
-I want to add a new task.
-So that I remember what I should do today
-
-## Acceptance Criteria:
-
-Given there are no tasks
-And I (Bob) am on the dashboard screen
-When I input a new task title
-And press enter
-Then I see the task on the dashboard screen
-</code></pre>
-
-<p>I guess, now you got an idea what the kind of functionality contains the first feature. I recommend writing user stories to understand clearly what the result we want to get and how it should work in the end.</p>
-
-<p>Coming back to our app, I want you to change into the directory <code>my-daily-todos</code> and there remove the whole code from the <code>index.js</code>, because now we are going to structure an app:</p>
-
-<ol>
-<li><p>Create a new folder <code>Tasks</code> into <code>src</code>.
-There we will store all our files for the task feature.</p></li>
-
-<li><p>Add new files <code>actions.js</code>, <code>reducers.js</code>, <code>NewTask.js</code>, <code>Task.js</code>, <code>TaskList.js</code> into <code>Tasks</code> folder.
-As you know, <code>actions.js</code> and <code>reducers.js</code> we need for handling states, state changes, and actions. <code>NewTask.js</code> will contain the component with the input form for a new task and will belong to the navigation bar. <code>Task.js</code> is a component that presents the <code>task</code> object with <code>id</code> and <code>title</code> properties. <code>TaskList</code> is a component that presents all the tasks we have created and will appear as the rest of the &ldquo;body&rdquo; of the page.</p></li>
-</ol>
-
-<p><span style="color:red">Notice! We still use <code>index.js</code> to render the whole app <code>App.js</code> in the browser; <code>App.js</code> to connect <code>NewTask.js</code> and <code>TaskList.js</code>, and <code>App.css</code> to make a basic design for our app.</span></p>
-
-<p>3&hellip;2&hellip;1&hellip; And now. Finally, let&rsquo;s start coding!
-To refer to the app structure, I advise you to start developing with the components and then add redux functionalities and properties such as actions and reducers with states. As I mentioned above, at the beginning I write the <code>NewTask.js</code> component, so switch to there and begin your coding journey. I added some comment to make it easy to understand the basic principle how it works. Now you see what we have here:</p>
-
-<pre><code class="language-javascript">// my-daily-todos/src/Tasks/NewTask.js
-
-import React, { Component } from 'react';
-import { connect } from 'react-redux';
-
-import { actions } from './actions';
-
-// here we create a component that will connect to NewTask component
-
-const NewTaskComponent = ({addTask}) =&gt; {
-
-// this function is in charge of handling Enter key on a new task submit
-
-function handleKeyPress (e) {
-  if (e.key === 'Enter') {
-    addTask(e.target.value);
-    e.target.value = '';      // make an input field empty after pressing Enter
-    e.preventDefault();
-  }
-}
-
-// what UI component contains
-  return &lt;div&gt;
-    &lt;input
-      type='text'
-      placeholder='Add a new task...'
-      onKeyPress={handleKeyPress}
-    /&gt;
-  &lt;/div&gt;
-}
-
-const mapStateToProps = (state) =&gt; {
-  return {
-
-  }
-}
-
-// which actions dispatch to reducer
-const mapDispatchToProps = (dispatch) =&gt; {
-  return {
-    addTask: (title) =&gt; dispatch(actions.addTask(title))
-  }
-}
-
-// export the NewTaks component to App.js
-export const NewTask = connect(
-  mapStateToProps,
-  mapDispatchToProps
-)(NewTaskComponent);
-
-</code></pre>
-
-<p>The next <code>Task.js</code> component renders the <code>task</code> object in the browser:</p>
-
-<pre><code class="language-javascript">// my-daily-todos/src/Tasks/Task.js
-
-import React from 'react';
-
-// the argument is a task object that return the title task
-export const Task = ({task}) =&gt; {
-  return &lt;div&gt;
-    {task.title}
-  &lt;/div&gt;
-}
-</code></pre>
-
-<p>We also need a component <code>TaskList.js</code> that will render all tasks that we have added/created through the input:</p>
-
-<pre><code class="language-javascript">// my-daily-todos/src/Tasks/TaskList.js
-
-import React, { Component } from 'react';
-import { connect } from 'react-redux';
-
-// import Task component
-import { Task } from './Task.js';
-
-const TaskListComponent = ({tasks}) =&gt; {
-  return &lt;div&gt;
-    &lt;ul&gt;
- // create a dynamic task list with javascript inside html and pass properties to the Task component
-      {tasks.map(task =&gt;
-        // key={.. something unique ..} is important when rendering lists in react
-        &lt;li key={task.id}&gt;
-          &lt;Task task={task} /&gt;
-        &lt;/li&gt;
-      )}
-    &lt;/ul&gt;
-  &lt;/div&gt;
-}
-
-// collect the tasks state that would be passing to the store of states
-const mapStateToProps = (state) =&gt; {
-  return {
-    tasks: state.tasks
-  }
-}
-
-const mapDispatchToProps = (dispatch) =&gt; {
-  return {
-
-  }
-}
-
-// export the TaskList component to App.js
-export const TaskList = connect(
-  mapStateToProps,
-  mapDispatchToProps
-)(TaskListComponent);
-
-</code></pre>
-
-<p>We still should make a couple of steps to make our app work. Also, the next step is to write action <code>addTask</code> to <code>actions.js</code>:</p>
-
-<pre><code class="language-javascript">// my-daily-todos/src/Tasks/actions.js
-
-// create t const to define a list actions
-export const t = {
-  ADD_TASK: 'ADD_TASK'
-}
-
-// export actions with addTask action creator passing title as argument to component NewTask.js and reducers
-
-export const actions = {
-  addTask: title =&gt; ({
-    type: t.ADD_TASK,
-    title
-  })
-}
-
-</code></pre>
-
-<p>Good job! As you noticed, we still don&rsquo;t have any reducer. That&rsquo;s why we open <code>reducers.js</code> file and write a reducer:</p>
-
-<pre><code class="language-javascript">// my-daily-todos/src/Tasks/reducers.js
-
-import { t } from './actions';
-
-// create initial state. In our case, it is an empty list of tasks
-const initState = []
-
-// create a function that generates ID for every task randomly
-function generateID () {
-  return '_' + Math.random().toString(36).substr(2,9);
-}
-
-// create tasksReducer with state as initState and action as arguments
-
-export const tasksReducer = (state = initState, action) =&gt; {
-
-  switch (action.type) {
-
-// the ADD_TASK action has to return all previous state and a new task with generated ID and typed title
-
-    case t.ADD_TASK:
-      return [
-        ...state,
-        {
-          id: generateID(),
-          title: action.title
-        }
-      ]
-
-// otherwise, return just previous state that is initState
-    default:
-      return state;
-  }
-}
-
-</code></pre>
-
-<p>To store and to change states, it&rsquo;s necessary to have a store with reducers and provide that states to render in the browser. All of that we should apply into <code>index.js</code>:</p>
-
-<pre><code class="language-javascript">// my-daily-todos/src/index.js
-
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { createStore, combineReducers } from 'redux';
-import { Provider } from 'react-redux';
-
-// all custom imports
-import './index.css';
-import { App } from './App.js';
-import { tasksReducer } from './Tasks/reducers.js';
-
-// create store using createStore() including combineReducers() to pass the taskReducer with name &quot;tasks&quot;
-
-let store = createStore(
-  combineReducers({
-    tasks: tasksReducer
-  }),
-);
-
-ReactDOM.render(
-// apply store to store states and make them available to dispatch in components
-
-  &lt;Provider store={store}&gt;
-    &lt;App /&gt;
-  &lt;/Provider&gt;,
-  document.getElementById('root')
-);
-
-</code></pre>
-
-<p>Finally, we can connect all above components (apart from <code>Task.js</code> that is already used inside of <code>TaskList.js</code> component) in one component - <code>App.js</code>:</p>
-
-<pre><code class="language-javascript">// my-daily-todos/src/App.js
-
-import React, { Component } from 'react';
-
-import './App.css';
-// import both components
-import { NewTask } from './Tasks/NewTask.js';
-import { TaskList } from './Tasks/TaskList.js';
-
-export const App = () =&gt; {
-// pass both components to App.js
-  return &lt;div&gt;
-    &lt;NewTask /&gt;
-    &lt;TaskList /&gt;
-  &lt;/div&gt;
-}
-
-</code></pre>
-
-<p>That&rsquo;s it. Just change into <code>my-daily-todos</code> directory and run your local server using <code>npm start</code> command in the terminal.</p>
-
-<p>If you want, to make your app fancy, then you can apply some CSS styles to classes that I assign in tags below. Just come back to <code>App.js</code> component:</p>
-
-<pre><code class="language-javascript">// my-daily-todos/src/App.js
-
-import React, { Component } from 'react';
-import { connect } from 'react-redux';
-
-// we have already imported App.css to make things look good
-import './App.css';
-import { NewTask } from './Tasks/NewTask.js'
-import { TasksList } from './Tasks/TasksList';
-
-export const App = () =&gt; {
-// add one more div tag and assign the classes
-  return &lt;div className='container'&gt;
-      &lt;div className='navbar'&gt;
-        &lt;div className='logo'&gt;
-          &lt;h1&gt;ToDoDaily&lt;/h1&gt;
-        &lt;/div&gt;
-        &lt;NewTask /&gt;
-      &lt;/div&gt;
-      &lt;TasksList /&gt;
-    &lt;/div&gt;
-}
-
-</code></pre>
-
-<p>The same thing we are doing for the <code>TaskList.js</code> component. Just adding the <code>tasklist-container</code> class to the div tag after return:</p>
-
-<pre><code class="language-javascript">my-daily-todos/src/Tasks/TaskList.js
-...
-export const TasksListComponent = ({tasks, completeTask}) =&gt; {
-  return &lt;div className=&quot;taskslist-container&quot;&gt;
-    &lt;ul&gt;
-    {tasks.map(task =&gt;
-      &lt;li&gt;
-...
-
-</code></pre>
-
-<p><span style="color:red">If you take a look at <code>index.js</code>, you will notice, that <code>App.js</code> is already imported.</span></p>
-
-<p>All that remains is to design our app. As you noticed, we have already Logo, which with input field belongs to the navigation bar according to the idea how the app will look at the end. Now we are going to App.css and style our app with simple CSS rules:</p>
-
-<pre><code class="language-css">/* my-daily-todos/src/App.css */
-
-.container {
-  padding: 0;
-  margin: 0;
-}
-
-.navbar {
-  background-color: #333;
-  overflow: hidden;
-  display: block;
-  width: 100%;
-  height: 80px;
-}
-
-.logo {
-  float: left;
-  color: white;
-  margin-left: 2rem;
-}
-
-input {
-  float: none;
-  color: black;
-  padding: 5px 25px;
-  margin: 1.8rem;
-  border-radius: 3px;
-  border-width: 1px;
-}
-
-.taskslist-container {
-  margin-top: 1rem;
-  margin-left: 1rem;
-}
-
-</code></pre>
-
-<p>Now we have completed the first feature for our app and can move forward to increase the functionality of the app by adding new features using React+Redux and their dependencies.</p>
-
-<p>If you still have any questions how it works or why something doesn&rsquo;t work for you, don&rsquo;t hesitate and find me via my <a href="mailto:demiluri@gmail.com">email</a> or on my <a href="https://www.instagram.com/ilonacodes/">Instagram profile</a>.</p>
-
-<p>Thank you for your reading and wish you the best luck by learning React+Redux frameworks!</p>
-
-      
-		</div>
+                </div>
+            </div>
+        
+    </div>
+
+    <div class="post__primary-column col col-md-8 col-lg-9">
+        
+            <h1 class="post__title">
+                The First User Story, The First Feature With React&#43;Redux
+            </h1>
+        
+
+        <div class="post__date d-md-none">
+            21 Sep, 2017
+        </div>
+
+        
+
+        <div class="post__body">
+            <div class="blog__sharing row no-gutters align-items-center mt-4">
+    
+    
+    
+    
+    
+    
+    
+    
 
     
 
-		
-			<div class="post__reactions reactions-root" data-resource-id="https://www.ilonacodes.com/blog/the-first-user-story-the-first-feature/">
+    
+
+    
+
+    <div class="col-auto mt-md-0 mt-2">
+        <a href="https://www.facebook.com/dialog/share?app_id=4028027083934101&amp;display=popup&amp;hashtag=dev&amp;href=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Fthe-first-user-story-the-first-feature%2F"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--fb">
+            <div class="fab fa-facebook-f"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://twitter.com/intent/tweet?hashtags=dev&amp;original_referer=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Fthe-first-user-story-the-first-feature%2F&amp;ref_src=twsrc%5Etfw&amp;related=ilonacodes&amp;text=The&#43;First&#43;User&#43;Story%2C&#43;The&#43;First&#43;Feature&#43;With&#43;React%2BRedux&amp;tw_p=tweetbutton&amp;url=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Fthe-first-user-story-the-first-feature%2F&amp;via=ilonacodes"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--tw">
+            <div class="fab fa-twitter"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Fthe-first-user-story-the-first-feature%2F"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--li">
+            <div class="fab fa-linkedin-in"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://ilonacodes.com/index.xml"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--rss">
+            <div class="fa fa-rss"></div>
+        </a>
+    </div>
+</div>
+        </div>
+
+        <div class="post__body">
+            
+                <p>Hi, everyone! I guess you are pretty encouraged to start coding our app. Just to remind: it will be an interactive daily ToDo List. Today I am going to explain: what is a user story? Why do we need to write it before implementing a feature? How will we organize and structure an app? What is, actually, a new feature?</p>
+<p>Let&rsquo;s start with the first question. In my opinion, user stories are efficient things. To be more precise, we begin to write them from the perspective of the user and describe them in a very simple way with traditional structure. How it works:</p>
+<pre><code>As a (name of the user)
+I want to (some actions or feature)
+so that/because (reason and value for the user)
+</code></pre><p>It&rsquo;s possible to add some acceptance criteria to user stories that will indicate what should happen, driven by context and other situations.
+In our case, the user story for the first feature will look like:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#a6e22e">As</span> <span style="color:#a6e22e">Bob</span>
+<span style="color:#a6e22e">I</span> <span style="color:#a6e22e">want</span> <span style="color:#a6e22e">to</span> <span style="color:#a6e22e">add</span> <span style="color:#a6e22e">a</span> <span style="color:#66d9ef">new</span> <span style="color:#a6e22e">task</span>.
+<span style="color:#a6e22e">So</span> <span style="color:#a6e22e">that</span> <span style="color:#a6e22e">I</span> <span style="color:#a6e22e">remember</span> <span style="color:#a6e22e">what</span> <span style="color:#a6e22e">I</span> <span style="color:#a6e22e">should</span> <span style="color:#66d9ef">do</span> <span style="color:#a6e22e">today</span>
+
+<span style="color:#960050;background-color:#1e0010">##</span> <span style="color:#a6e22e">Acceptance</span> <span style="color:#a6e22e">Criteria</span><span style="color:#f92672">:</span>
+
+<span style="color:#a6e22e">Given</span> <span style="color:#a6e22e">there</span> <span style="color:#a6e22e">are</span> <span style="color:#a6e22e">no</span> <span style="color:#a6e22e">tasks</span>
+<span style="color:#a6e22e">And</span> <span style="color:#a6e22e">I</span> (<span style="color:#a6e22e">Bob</span>) <span style="color:#a6e22e">am</span> <span style="color:#a6e22e">on</span> <span style="color:#a6e22e">the</span> <span style="color:#a6e22e">dashboard</span> <span style="color:#a6e22e">screen</span>
+<span style="color:#a6e22e">When</span> <span style="color:#a6e22e">I</span> <span style="color:#a6e22e">input</span> <span style="color:#a6e22e">a</span> <span style="color:#66d9ef">new</span> <span style="color:#a6e22e">task</span> <span style="color:#a6e22e">title</span>
+<span style="color:#a6e22e">And</span> <span style="color:#a6e22e">press</span> <span style="color:#a6e22e">enter</span>
+<span style="color:#a6e22e">Then</span> <span style="color:#a6e22e">I</span> <span style="color:#a6e22e">see</span> <span style="color:#a6e22e">the</span> <span style="color:#a6e22e">task</span> <span style="color:#a6e22e">on</span> <span style="color:#a6e22e">the</span> <span style="color:#a6e22e">dashboard</span> <span style="color:#a6e22e">screen</span>
+</code></pre></div><p>I guess, now you got an idea what the kind of functionality contains the first feature. I recommend writing user stories to understand clearly what the result we want to get and how it should work in the end.</p>
+<p>Coming back to our app, I want you to change into the directory <code>my-daily-todos</code> and there remove the whole code from the <code>index.js</code>, because now we are going to structure an app:</p>
+<ol>
+<li>
+<p>Create a new folder <code>Tasks</code> into <code>src</code>.
+There we will store all our files for the task feature.</p>
+</li>
+<li>
+<p>Add new files <code>actions.js</code>, <code>reducers.js</code>, <code>NewTask.js</code>, <code>Task.js</code>, <code>TaskList.js</code> into <code>Tasks</code> folder.
+As you know, <code>actions.js</code> and <code>reducers.js</code> we need for handling states, state changes, and actions. <code>NewTask.js</code> will contain the component with the input form for a new task and will belong to the navigation bar. <code>Task.js</code> is a component that presents the <code>task</code> object with <code>id</code> and <code>title</code> properties. <code>TaskList</code> is a component that presents all the tasks we have created and will appear as the rest of the &ldquo;body&rdquo; of the page.</p>
+</li>
+</ol>
+<p><span style="color:red">Notice! We still use <code>index.js</code> to render the whole app <code>App.js</code> in the browser; <code>App.js</code> to connect <code>NewTask.js</code> and <code>TaskList.js</code>, and <code>App.css</code> to make a basic design for our app.</span></p>
+<p>3&hellip;2&hellip;1&hellip; And now. Finally, let&rsquo;s start coding!
+To refer to the app structure, I advise you to start developing with the components and then add redux functionalities and properties such as actions and reducers with states. As I mentioned above, at the beginning I write the <code>NewTask.js</code> component, so switch to there and begin your coding journey. I added some comment to make it easy to understand the basic principle how it works. Now you see what we have here:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#75715e">// my-daily-todos/src/Tasks/NewTask.js
+</span><span style="color:#75715e"></span>
+<span style="color:#66d9ef">import</span> <span style="color:#a6e22e">React</span>, { <span style="color:#a6e22e">Component</span> } <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;react&#39;</span>;
+<span style="color:#66d9ef">import</span> { <span style="color:#a6e22e">connect</span> } <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;react-redux&#39;</span>;
+
+<span style="color:#66d9ef">import</span> { <span style="color:#a6e22e">actions</span> } <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;./actions&#39;</span>;
+
+<span style="color:#75715e">// here we create a component that will connect to NewTask component
+</span><span style="color:#75715e"></span>
+<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">NewTaskComponent</span> <span style="color:#f92672">=</span> ({<span style="color:#a6e22e">addTask</span>}) =&gt; {
+
+<span style="color:#75715e">// this function is in charge of handling Enter key on a new task submit
+</span><span style="color:#75715e"></span>
+<span style="color:#66d9ef">function</span> <span style="color:#a6e22e">handleKeyPress</span> (<span style="color:#a6e22e">e</span>) {
+  <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">e</span>.<span style="color:#a6e22e">key</span> <span style="color:#f92672">===</span> <span style="color:#e6db74">&#39;Enter&#39;</span>) {
+    <span style="color:#a6e22e">addTask</span>(<span style="color:#a6e22e">e</span>.<span style="color:#a6e22e">target</span>.<span style="color:#a6e22e">value</span>);
+    <span style="color:#a6e22e">e</span>.<span style="color:#a6e22e">target</span>.<span style="color:#a6e22e">value</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;&#39;</span>;      <span style="color:#75715e">// make an input field empty after pressing Enter
+</span><span style="color:#75715e"></span>    <span style="color:#a6e22e">e</span>.<span style="color:#a6e22e">preventDefault</span>();
+  }
+}
+
+<span style="color:#75715e">// what UI component contains
+</span><span style="color:#75715e"></span>  <span style="color:#66d9ef">return</span> <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">div</span><span style="color:#f92672">&gt;</span>
+    <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">input</span>
+      <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#39;text&#39;</span>
+      <span style="color:#a6e22e">placeholder</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#39;Add a new task...&#39;</span>
+      <span style="color:#a6e22e">onKeyPress</span><span style="color:#f92672">=</span>{<span style="color:#a6e22e">handleKeyPress</span>}
+    <span style="color:#f92672">/&gt;</span>
+  <span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/div&gt;</span>
+}
+
+<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">mapStateToProps</span> <span style="color:#f92672">=</span> (<span style="color:#a6e22e">state</span>) =&gt; {
+  <span style="color:#66d9ef">return</span> {
+
+  }
+}
+
+<span style="color:#75715e">// which actions dispatch to reducer
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">mapDispatchToProps</span> <span style="color:#f92672">=</span> (<span style="color:#a6e22e">dispatch</span>) =&gt; {
+  <span style="color:#66d9ef">return</span> {
+    <span style="color:#a6e22e">addTask</span><span style="color:#f92672">:</span> (<span style="color:#a6e22e">title</span>) =&gt; <span style="color:#a6e22e">dispatch</span>(<span style="color:#a6e22e">actions</span>.<span style="color:#a6e22e">addTask</span>(<span style="color:#a6e22e">title</span>))
+  }
+}
+
+<span style="color:#75715e">// export the NewTaks component to App.js
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">export</span> <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">NewTask</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">connect</span>(
+  <span style="color:#a6e22e">mapStateToProps</span>,
+  <span style="color:#a6e22e">mapDispatchToProps</span>
+)(<span style="color:#a6e22e">NewTaskComponent</span>);
+
+</code></pre></div><p>The next <code>Task.js</code> component renders the <code>task</code> object in the browser:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#75715e">// my-daily-todos/src/Tasks/Task.js
+</span><span style="color:#75715e"></span>
+<span style="color:#66d9ef">import</span> <span style="color:#a6e22e">React</span> <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;react&#39;</span>;
+
+<span style="color:#75715e">// the argument is a task object that return the title task
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">export</span> <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">Task</span> <span style="color:#f92672">=</span> ({<span style="color:#a6e22e">task</span>}) =&gt; {
+  <span style="color:#66d9ef">return</span> <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">div</span><span style="color:#f92672">&gt;</span>
+    {<span style="color:#a6e22e">task</span>.<span style="color:#a6e22e">title</span>}
+  <span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/div&gt;</span>
+}
+</code></pre></div><p>We also need a component <code>TaskList.js</code> that will render all tasks that we have added/created through the input:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#75715e">// my-daily-todos/src/Tasks/TaskList.js
+</span><span style="color:#75715e"></span>
+<span style="color:#66d9ef">import</span> <span style="color:#a6e22e">React</span>, { <span style="color:#a6e22e">Component</span> } <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;react&#39;</span>;
+<span style="color:#66d9ef">import</span> { <span style="color:#a6e22e">connect</span> } <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;react-redux&#39;</span>;
+
+<span style="color:#75715e">// import Task component
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">import</span> { <span style="color:#a6e22e">Task</span> } <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;./Task.js&#39;</span>;
+
+<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">TaskListComponent</span> <span style="color:#f92672">=</span> ({<span style="color:#a6e22e">tasks</span>}) =&gt; {
+  <span style="color:#66d9ef">return</span> <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">div</span><span style="color:#f92672">&gt;</span>
+    <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">ul</span><span style="color:#f92672">&gt;</span>
+ <span style="color:#75715e">// create a dynamic task list with javascript inside html and pass properties to the Task component
+</span><span style="color:#75715e"></span>      {<span style="color:#a6e22e">tasks</span>.<span style="color:#a6e22e">map</span>(<span style="color:#a6e22e">task</span> =&gt;
+        <span style="color:#75715e">// key={.. something unique ..} is important when rendering lists in react
+</span><span style="color:#75715e"></span>        <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">li</span> <span style="color:#a6e22e">key</span><span style="color:#f92672">=</span>{<span style="color:#a6e22e">task</span>.<span style="color:#a6e22e">id</span>}<span style="color:#f92672">&gt;</span>
+          <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">Task</span> <span style="color:#a6e22e">task</span><span style="color:#f92672">=</span>{<span style="color:#a6e22e">task</span>} <span style="color:#f92672">/&gt;</span>
+        <span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/li&gt;</span>
+      )}
+    <span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/ul&gt;</span>
+  <span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/div&gt;</span>
+}
+
+<span style="color:#75715e">// collect the tasks state that would be passing to the store of states
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">mapStateToProps</span> <span style="color:#f92672">=</span> (<span style="color:#a6e22e">state</span>) =&gt; {
+  <span style="color:#66d9ef">return</span> {
+    <span style="color:#a6e22e">tasks</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">state</span>.<span style="color:#a6e22e">tasks</span>
+  }
+}
+
+<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">mapDispatchToProps</span> <span style="color:#f92672">=</span> (<span style="color:#a6e22e">dispatch</span>) =&gt; {
+  <span style="color:#66d9ef">return</span> {
+
+  }
+}
+
+<span style="color:#75715e">// export the TaskList component to App.js
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">export</span> <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">TaskList</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">connect</span>(
+  <span style="color:#a6e22e">mapStateToProps</span>,
+  <span style="color:#a6e22e">mapDispatchToProps</span>
+)(<span style="color:#a6e22e">TaskListComponent</span>);
+
+</code></pre></div><p>We still should make a couple of steps to make our app work. Also, the next step is to write action <code>addTask</code> to <code>actions.js</code>:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#75715e">// my-daily-todos/src/Tasks/actions.js
+</span><span style="color:#75715e"></span>
+<span style="color:#75715e">// create t const to define a list actions
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">export</span> <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">t</span> <span style="color:#f92672">=</span> {
+  <span style="color:#a6e22e">ADD_TASK</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;ADD_TASK&#39;</span>
+}
+
+<span style="color:#75715e">// export actions with addTask action creator passing title as argument to component NewTask.js and reducers
+</span><span style="color:#75715e"></span>
+<span style="color:#66d9ef">export</span> <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">actions</span> <span style="color:#f92672">=</span> {
+  <span style="color:#a6e22e">addTask</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">title</span> =&gt; ({
+    <span style="color:#a6e22e">type</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">t</span>.<span style="color:#a6e22e">ADD_TASK</span>,
+    <span style="color:#a6e22e">title</span>
+  })
+}
+
+</code></pre></div><p>Good job! As you noticed, we still don&rsquo;t have any reducer. That&rsquo;s why we open <code>reducers.js</code> file and write a reducer:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#75715e">// my-daily-todos/src/Tasks/reducers.js
+</span><span style="color:#75715e"></span>
+<span style="color:#66d9ef">import</span> { <span style="color:#a6e22e">t</span> } <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;./actions&#39;</span>;
+
+<span style="color:#75715e">// create initial state. In our case, it is an empty list of tasks
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">initState</span> <span style="color:#f92672">=</span> []
+
+<span style="color:#75715e">// create a function that generates ID for every task randomly
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">generateID</span> () {
+  <span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#39;_&#39;</span> <span style="color:#f92672">+</span> Math.<span style="color:#a6e22e">random</span>().<span style="color:#a6e22e">toString</span>(<span style="color:#ae81ff">36</span>).<span style="color:#a6e22e">substr</span>(<span style="color:#ae81ff">2</span>,<span style="color:#ae81ff">9</span>);
+}
+
+<span style="color:#75715e">// create tasksReducer with state as initState and action as arguments
+</span><span style="color:#75715e"></span>
+<span style="color:#66d9ef">export</span> <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">tasksReducer</span> <span style="color:#f92672">=</span> (<span style="color:#a6e22e">state</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">initState</span>, <span style="color:#a6e22e">action</span>) =&gt; {
+
+  <span style="color:#66d9ef">switch</span> (<span style="color:#a6e22e">action</span>.<span style="color:#a6e22e">type</span>) {
+
+<span style="color:#75715e">// the ADD_TASK action has to return all previous state and a new task with generated ID and typed title
+</span><span style="color:#75715e"></span>
+    <span style="color:#66d9ef">case</span> <span style="color:#a6e22e">t</span>.<span style="color:#a6e22e">ADD_TASK</span><span style="color:#f92672">:</span>
+      <span style="color:#66d9ef">return</span> [
+        ...<span style="color:#a6e22e">state</span>,
+        {
+          <span style="color:#a6e22e">id</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">generateID</span>(),
+          <span style="color:#a6e22e">title</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">action</span>.<span style="color:#a6e22e">title</span>
+        }
+      ]
+
+<span style="color:#75715e">// otherwise, return just previous state that is initState
+</span><span style="color:#75715e"></span>    <span style="color:#66d9ef">default</span><span style="color:#f92672">:</span>
+      <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">state</span>;
+  }
+}
+
+</code></pre></div><p>To store and to change states, it&rsquo;s necessary to have a store with reducers and provide that states to render in the browser. All of that we should apply into <code>index.js</code>:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#75715e">// my-daily-todos/src/index.js
+</span><span style="color:#75715e"></span>
+<span style="color:#66d9ef">import</span> <span style="color:#a6e22e">React</span> <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;react&#39;</span>;
+<span style="color:#66d9ef">import</span> <span style="color:#a6e22e">ReactDOM</span> <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;react-dom&#39;</span>;
+<span style="color:#66d9ef">import</span> { <span style="color:#a6e22e">createStore</span>, <span style="color:#a6e22e">combineReducers</span> } <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;redux&#39;</span>;
+<span style="color:#66d9ef">import</span> { <span style="color:#a6e22e">Provider</span> } <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;react-redux&#39;</span>;
+
+<span style="color:#75715e">// all custom imports
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">import</span> <span style="color:#e6db74">&#39;./index.css&#39;</span>;
+<span style="color:#66d9ef">import</span> { <span style="color:#a6e22e">App</span> } <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;./App.js&#39;</span>;
+<span style="color:#66d9ef">import</span> { <span style="color:#a6e22e">tasksReducer</span> } <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;./Tasks/reducers.js&#39;</span>;
+
+<span style="color:#75715e">// create store using createStore() including combineReducers() to pass the taskReducer with name &#34;tasks&#34;
+</span><span style="color:#75715e"></span>
+<span style="color:#66d9ef">let</span> <span style="color:#a6e22e">store</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">createStore</span>(
+  <span style="color:#a6e22e">combineReducers</span>({
+    <span style="color:#a6e22e">tasks</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">tasksReducer</span>
+  }),
+);
+
+<span style="color:#a6e22e">ReactDOM</span>.<span style="color:#a6e22e">render</span>(
+<span style="color:#75715e">// apply store to store states and make them available to dispatch in components
+</span><span style="color:#75715e"></span>
+  <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">Provider</span> <span style="color:#a6e22e">store</span><span style="color:#f92672">=</span>{<span style="color:#a6e22e">store</span>}<span style="color:#f92672">&gt;</span>
+    <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">App</span> <span style="color:#f92672">/&gt;</span>
+  <span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/Provider&gt;,</span>
+  document.<span style="color:#a6e22e">getElementById</span>(<span style="color:#e6db74">&#39;root&#39;</span>)
+);
+
+</code></pre></div><p>Finally, we can connect all above components (apart from <code>Task.js</code> that is already used inside of <code>TaskList.js</code> component) in one component - <code>App.js</code>:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#75715e">// my-daily-todos/src/App.js
+</span><span style="color:#75715e"></span>
+<span style="color:#66d9ef">import</span> <span style="color:#a6e22e">React</span>, { <span style="color:#a6e22e">Component</span> } <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;react&#39;</span>;
+
+<span style="color:#66d9ef">import</span> <span style="color:#e6db74">&#39;./App.css&#39;</span>;
+<span style="color:#75715e">// import both components
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">import</span> { <span style="color:#a6e22e">NewTask</span> } <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;./Tasks/NewTask.js&#39;</span>;
+<span style="color:#66d9ef">import</span> { <span style="color:#a6e22e">TaskList</span> } <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;./Tasks/TaskList.js&#39;</span>;
+
+<span style="color:#66d9ef">export</span> <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">App</span> <span style="color:#f92672">=</span> () =&gt; {
+<span style="color:#75715e">// pass both components to App.js
+</span><span style="color:#75715e"></span>  <span style="color:#66d9ef">return</span> <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">div</span><span style="color:#f92672">&gt;</span>
+    <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">NewTask</span> <span style="color:#f92672">/&gt;</span>
+    <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">TaskList</span> <span style="color:#f92672">/&gt;</span>
+  <span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/div&gt;</span>
+}
+
+</code></pre></div><p>That&rsquo;s it. Just change into <code>my-daily-todos</code> directory and run your local server using <code>npm start</code> command in the terminal.</p>
+<p>If you want, to make your app fancy, then you can apply some CSS styles to classes that I assign in tags below. Just come back to <code>App.js</code> component:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#75715e">// my-daily-todos/src/App.js
+</span><span style="color:#75715e"></span>
+<span style="color:#66d9ef">import</span> <span style="color:#a6e22e">React</span>, { <span style="color:#a6e22e">Component</span> } <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;react&#39;</span>;
+<span style="color:#66d9ef">import</span> { <span style="color:#a6e22e">connect</span> } <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;react-redux&#39;</span>;
+
+<span style="color:#75715e">// we have already imported App.css to make things look good
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">import</span> <span style="color:#e6db74">&#39;./App.css&#39;</span>;
+<span style="color:#66d9ef">import</span> { <span style="color:#a6e22e">NewTask</span> } <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;./Tasks/NewTask.js&#39;</span>
+<span style="color:#66d9ef">import</span> { <span style="color:#a6e22e">TasksList</span> } <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;./Tasks/TasksList&#39;</span>;
+
+<span style="color:#66d9ef">export</span> <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">App</span> <span style="color:#f92672">=</span> () =&gt; {
+<span style="color:#75715e">// add one more div tag and assign the classes
+</span><span style="color:#75715e"></span>  <span style="color:#66d9ef">return</span> <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">div</span> <span style="color:#a6e22e">className</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#39;container&#39;</span><span style="color:#f92672">&gt;</span>
+      <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">div</span> <span style="color:#a6e22e">className</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#39;navbar&#39;</span><span style="color:#f92672">&gt;</span>
+        <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">div</span> <span style="color:#a6e22e">className</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#39;logo&#39;</span><span style="color:#f92672">&gt;</span>
+          <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">h1</span><span style="color:#f92672">&gt;</span><span style="color:#a6e22e">ToDoDaily</span><span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/h1&gt;</span>
+        <span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/div&gt;</span>
+        <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">NewTask</span> <span style="color:#f92672">/&gt;</span>
+      <span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/div&gt;</span>
+      <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">TasksList</span> <span style="color:#f92672">/&gt;</span>
+    <span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/div&gt;</span>
+}
+
+</code></pre></div><p>The same thing we are doing for the <code>TaskList.js</code> component. Just adding the <code>tasklist-container</code> class to the div tag after return:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#a6e22e">my</span><span style="color:#f92672">-</span><span style="color:#a6e22e">daily</span><span style="color:#f92672">-</span><span style="color:#a6e22e">todos</span><span style="color:#f92672">/</span><span style="color:#a6e22e">src</span><span style="color:#f92672">/</span><span style="color:#a6e22e">Tasks</span><span style="color:#f92672">/</span><span style="color:#a6e22e">TaskList</span>.<span style="color:#a6e22e">js</span>
+...
+<span style="color:#66d9ef">export</span> <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">TasksListComponent</span> <span style="color:#f92672">=</span> ({<span style="color:#a6e22e">tasks</span>, <span style="color:#a6e22e">completeTask</span>}) =&gt; {
+  <span style="color:#66d9ef">return</span> <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">div</span> <span style="color:#a6e22e">className</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;taskslist-container&#34;</span><span style="color:#f92672">&gt;</span>
+    <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">ul</span><span style="color:#f92672">&gt;</span>
+    {<span style="color:#a6e22e">tasks</span>.<span style="color:#a6e22e">map</span>(<span style="color:#a6e22e">task</span> =&gt;
+      <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">li</span><span style="color:#f92672">&gt;</span>
+...
+
+</code></pre></div><p><span style="color:red">If you take a look at <code>index.js</code>, you will notice, that <code>App.js</code> is already imported.</span></p>
+<p>All that remains is to design our app. As you noticed, we have already Logo, which with input field belongs to the navigation bar according to the idea how the app will look at the end. Now we are going to App.css and style our app with simple CSS rules:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css"><span style="color:#75715e">/* my-daily-todos/src/App.css */</span>
+
+.<span style="color:#a6e22e">container</span> {
+  <span style="color:#66d9ef">padding</span>: <span style="color:#ae81ff">0</span>;
+  <span style="color:#66d9ef">margin</span>: <span style="color:#ae81ff">0</span>;
+}
+
+.<span style="color:#a6e22e">navbar</span> {
+  <span style="color:#66d9ef">background-color</span>: <span style="color:#ae81ff">#333</span>;
+  <span style="color:#66d9ef">overflow</span>: <span style="color:#66d9ef">hidden</span>;
+  <span style="color:#66d9ef">display</span>: <span style="color:#66d9ef">block</span>;
+  <span style="color:#66d9ef">width</span>: <span style="color:#ae81ff">100</span><span style="color:#66d9ef">%</span>;
+  <span style="color:#66d9ef">height</span>: <span style="color:#ae81ff">80</span><span style="color:#66d9ef">px</span>;
+}
+
+.<span style="color:#a6e22e">logo</span> {
+  <span style="color:#66d9ef">float</span>: <span style="color:#66d9ef">left</span>;
+  <span style="color:#66d9ef">color</span>: <span style="color:#66d9ef">white</span>;
+  <span style="color:#66d9ef">margin-left</span>: <span style="color:#ae81ff">2</span><span style="color:#66d9ef">rem</span>;
+}
+
+<span style="color:#f92672">input</span> {
+  <span style="color:#66d9ef">float</span>: <span style="color:#66d9ef">none</span>;
+  <span style="color:#66d9ef">color</span>: <span style="color:#66d9ef">black</span>;
+  <span style="color:#66d9ef">padding</span>: <span style="color:#ae81ff">5</span><span style="color:#66d9ef">px</span> <span style="color:#ae81ff">25</span><span style="color:#66d9ef">px</span>;
+  <span style="color:#66d9ef">margin</span>: <span style="color:#ae81ff">1.8</span><span style="color:#66d9ef">rem</span>;
+  <span style="color:#66d9ef">border-radius</span>: <span style="color:#ae81ff">3</span><span style="color:#66d9ef">px</span>;
+  <span style="color:#66d9ef">border-width</span>: <span style="color:#ae81ff">1</span><span style="color:#66d9ef">px</span>;
+}
+
+.<span style="color:#a6e22e">taskslist-container</span> {
+  <span style="color:#66d9ef">margin-top</span>: <span style="color:#ae81ff">1</span><span style="color:#66d9ef">rem</span>;
+  <span style="color:#66d9ef">margin-left</span>: <span style="color:#ae81ff">1</span><span style="color:#66d9ef">rem</span>;
+}
+
+</code></pre></div><p>Now we have completed the first feature for our app and can move forward to increase the functionality of the app by adding new features using React+Redux and their dependencies.</p>
+<p>If you still have any questions how it works or why something doesn&rsquo;t work for you, don&rsquo;t hesitate and find me via my <a href="mailto:demiluri@gmail.com">email</a> or on my <a href="https://www.instagram.com/ilonacodes/">Instagram profile</a>.</p>
+<p>Thank you for your reading and wish you the best luck by learning React+Redux frameworks!</p>
+
+            
+        </div>
+
+        
+
+        
+            <div class="post__reactions reactions-root" data-resource-id="https://www.ilonacodes.com/blog/the-first-user-story-the-first-feature/">
 </div>
 
-		
+        
 
-		<div class="post__tags d-md-none">
-			
-				Tags |
-				
-				
-					<a href="/tags/react">
-						<span class="post__tag">
-							#react
-						</span>
-					</a>
-				
-					<a href="/tags/reactjs">
-						<span class="post__tag">
-							#reactjs
-						</span>
-					</a>
-				
-					<a href="/tags/redux">
-						<span class="post__tag">
-							#redux
-						</span>
-					</a>
-				
-					<a href="/tags/learntocode">
-						<span class="post__tag">
-							#learntocode
-						</span>
-					</a>
-				
-					<a href="/tags/beginners">
-						<span class="post__tag">
-							#beginners
-						</span>
-					</a>
-				
-					<a href="/tags/coding">
-						<span class="post__tag">
-							#coding
-						</span>
-					</a>
-				
-					<a href="/tags/letsgetcoding">
-						<span class="post__tag">
-							#letsgetcoding
-						</span>
-					</a>
-				
-					<a href="/tags/user">
-						<span class="post__tag">
-							#user
-						</span>
-					</a>
-				
-					<a href="/tags/userstory">
-						<span class="post__tag">
-							#userstory
-						</span>
-					</a>
-				
-			
-		</div>
-	</div>
+        <div class="post__tags d-md-none">
+            
+                Tags |
+                
+                
+                    <a href="/tags/react">
+                <span class="post__tag">
+            #react
+            </span>
+                    </a>
+                
+                    <a href="/tags/reactjs">
+                <span class="post__tag">
+            #reactjs
+            </span>
+                    </a>
+                
+                    <a href="/tags/redux">
+                <span class="post__tag">
+            #redux
+            </span>
+                    </a>
+                
+                    <a href="/tags/learntocode">
+                <span class="post__tag">
+            #learntocode
+            </span>
+                    </a>
+                
+                    <a href="/tags/beginners">
+                <span class="post__tag">
+            #beginners
+            </span>
+                    </a>
+                
+                    <a href="/tags/coding">
+                <span class="post__tag">
+            #coding
+            </span>
+                    </a>
+                
+                    <a href="/tags/letsgetcoding">
+                <span class="post__tag">
+            #letsgetcoding
+            </span>
+                    </a>
+                
+                    <a href="/tags/user">
+                <span class="post__tag">
+            #user
+            </span>
+                    </a>
+                
+                    <a href="/tags/userstory">
+                <span class="post__tag">
+            #userstory
+            </span>
+                    </a>
+                
+            
+        </div>
+
+        
+            <div class="blog__sharing row no-gutters align-items-center mt-4">
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <div class="col-auto mt-md-0 mt-2">
+        <a href="https://www.facebook.com/dialog/share?app_id=4028027083934101&amp;display=popup&amp;hashtag=dev&amp;href=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Fthe-first-user-story-the-first-feature%2F"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--fb">
+            <div class="fab fa-facebook-f"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://twitter.com/intent/tweet?hashtags=dev&amp;original_referer=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Fthe-first-user-story-the-first-feature%2F&amp;ref_src=twsrc%5Etfw&amp;related=ilonacodes&amp;text=The&#43;First&#43;User&#43;Story%2C&#43;The&#43;First&#43;Feature&#43;With&#43;React%2BRedux&amp;tw_p=tweetbutton&amp;url=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Fthe-first-user-story-the-first-feature%2F&amp;via=ilonacodes"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--tw">
+            <div class="fab fa-twitter"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Fthe-first-user-story-the-first-feature%2F"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--li">
+            <div class="fab fa-linkedin-in"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://ilonacodes.com/index.xml"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--rss">
+            <div class="fa fa-rss"></div>
+        </a>
+    </div>
+</div>
+        
+
+    </div>
 </div>
 
 

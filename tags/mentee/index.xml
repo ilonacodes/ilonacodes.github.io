@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mentee on Ilona Who Codes</title>
+    <title>mentee on Ilona Who Codes</title>
     <link>https://www.ilonacodes.com/tags/mentee/</link>
-    <description>Recent content in Mentee on Ilona Who Codes</description>
+    <description>Recent content in mentee on Ilona Who Codes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 27 Oct 2019 10:20:05 +0100</lastBuildDate>
@@ -17,21 +17,14 @@
       <pubDate>Sun, 27 Oct 2019 10:20:05 +0100</pubDate>
       
       <guid>https://www.ilonacodes.com/blog/3-reasons-why-you-should-become-mentor-today/</guid>
-      <description>&lt;p&gt;
-&lt;figure&gt;
-    
-        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/reasons-why-you-should-become-mentor-today.jpg&#34; alt=&#34;Reasons Why You Should Become a Mentor Today&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;source: Photo by Joshua Ness on Unsplash&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
+      <description>&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;https://www.ilonacodes.com/blog/images/reasons-why-you-should-become-mentor-today.jpg&#34;
+         alt=&#34;Reasons Why You Should Become a Mentor Today&#34;/&gt; &lt;figcaption&gt;
+            &lt;h4&gt;source: Photo by Joshua Ness on Unsplash&lt;/h4&gt;
+        &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-Today a lot of professionals say that mentoring or coaching is too time-consuming. They have already a lot on their plate, or they just do not know enough to mentor someone.
-&lt;/p&gt;</description>
+Today a lot of professionals say that mentoring or coaching is too time-consuming. They have already a lot on their plate, or they just do not know enough to mentor someone.&lt;/p&gt;</description>
     </item>
     
   </channel>

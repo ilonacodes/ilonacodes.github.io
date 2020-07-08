@@ -33,7 +33,7 @@
     
     <meta property="og:tags" content="letsgetcoding">
     
-    <meta name="generator" content="Hugo 0.44" />
+    <meta name="generator" content="Hugo 0.73.0" />
     <title>Simple Usage of React&#43;Redux &middot; Ilona Who Codes</title>
     
     
@@ -128,442 +128,502 @@
       <main>
       	<article>
       		<div class="post row">
-	<div class="post__meta-column col-3 d-none d-md-block">
-		<div class="row no-gutters post__meta-column__date">
-			
-			
-			
-			<div class="col text-center post__meta-column__day">
-				17
-			</div>
-			<div class="col">
-				<div class="post__meta-column__month">Sep</div>
-				<div class="post__meta-column__year">2017</div>
-			</div>
-		</div>
+    <div class="post__meta-column col-3 d-none d-md-block">
+        <div class="row no-gutters post__meta-column__date">
+            
+            
+            
+            <div class="col text-center post__meta-column__day">
+                17
+            </div>
+            <div class="col">
+                <div class="post__meta-column__month">Sep</div>
+                <div class="post__meta-column__year">2017</div>
+            </div>
+        </div>
 
-		<div class="row">
-			<div class="col post__meta-column__tags">
-				
-					
-					
-						<a href="/tags/react">
-							<div class="post__tag">
-								#react
-							</div>
-						</a>
-					
-						<a href="/tags/reactjs">
-							<div class="post__tag">
-								#reactjs
-							</div>
-						</a>
-					
-						<a href="/tags/redux">
-							<div class="post__tag">
-								#redux
-							</div>
-						</a>
-					
-						<a href="/tags/learntocode">
-							<div class="post__tag">
-								#learntocode
-							</div>
-						</a>
-					
-						<a href="/tags/beginners">
-							<div class="post__tag">
-								#beginners
-							</div>
-						</a>
-					
-						<a href="/tags/coding">
-							<div class="post__tag">
-								#coding
-							</div>
-						</a>
-					
-						<a href="/tags/letsgetcoding">
-							<div class="post__tag">
-								#letsgetcoding
-							</div>
-						</a>
-					
-				
-			</div>
-		</div>
+        <div class="row">
+            <div class="col post__meta-column__tags">
+                
+                    
+                    
+                        <a href="/tags/react">
+                            <div class="post__tag">
+                                #react
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/reactjs">
+                            <div class="post__tag">
+                                #reactjs
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/redux">
+                            <div class="post__tag">
+                                #redux
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/learntocode">
+                            <div class="post__tag">
+                                #learntocode
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/beginners">
+                            <div class="post__tag">
+                                #beginners
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/coding">
+                            <div class="post__tag">
+                                #coding
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/letsgetcoding">
+                            <div class="post__tag">
+                                #letsgetcoding
+                            </div>
+                        </a>
+                    
+                
+            </div>
+        </div>
 
-		
-		<div class="row justify-content-end">
-			<div class="col-auto">
-				<div class="post__reactions reactions-root" data-resource-id="https://www.ilonacodes.com/blog/simple-usage-of-react-redux/">
+        
+            <div class="row justify-content-end">
+                <div class="col-auto">
+                    <div class="post__reactions reactions-root" data-resource-id="https://www.ilonacodes.com/blog/simple-usage-of-react-redux/">
 </div>
 
-			</div>
-		</div>
-		
-	</div>
-
-	<div class="post__primary-column col col-md-8 col-lg-9">
-		
-			<h1 class="post__title">
-				Simple Usage of React&#43;Redux
-			</h1>
-		
-
-		<div class="post__date d-md-none">
-			17 Sep, 2017
-		</div>
-
-		
-
-		<div class="post__body">
-      
-        <p>As I promised in <a href="/blog/react-for-very-very-beginners/">my previous post</a>, today I am going to tell you about Redux, why and how we need to use them in common.
-Let me introduce React+Redux co-working through the simple input change that should render <code>Hello, {any name / text}!</code> at the end and manage by redux states.</p>
-
-<p>Redux? What is it?
-Redux is a predictable state container for managing both UI-state and data-state in JavaScript applications. It helps you create applications that behave consistently and run in different environments like client, server, and native. To add Redux dependencies to your application type and run in a command line:</p>
-
-<pre><code>npm install --save redux
-npm install --save react-redux
-npm install --save-dev redux-devtools
-</code></pre>
-
-<p>You can read more about that <a href="http://redux.js.org/">here</a>.</p>
-
-<p>Let&rsquo;s come back to the <code>my-daily-todos</code> directory in the <code>workspace</code> that we set up in my previous post and change into <code>my-daily-todos/src/index.js</code> file.</p>
-
-<p><span style="color:red">It&rsquo;s not a good style to write all code parts in one file, and I do that only for this example.</span></p>
-
-<p>I recommend you to remove all code inside and just replace that with:</p>
-
-<pre><code class="language-javascript">import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-
-const Hello = () =&gt; {
-  return &lt;div&gt;
-    &lt;input type='text' /&gt;
-    &lt;p&gt;Hello, World!&lt;/p&gt;
-  &lt;/div&gt;
-}
-
-ReactDOM.render(&lt;Hello /&gt;,
-  document.getElementById('root')
-);
-</code></pre>
-
-<p>As you noticed, now we are going to render the <code>Hello</code> component in the browser.</p>
-
-<p><span style="color:red">Don&rsquo;t forget run local server on your computer from the <code>my-daily-todos</code> directory using <code>npm start</code> in the command line.</span></p>
-
-<p>What you should see in the browser is an input field and the simple message <code>Hello, World!</code>.</p>
-
-<p>Now I am going to add some props to our code, which could make you confused, but don&rsquo;t worry I will explain that below:</p>
-
-<pre><code class="language-javascript">import React from 'react';
-import ReactDOM from 'react-dom';
-import { connect, Provider } from 'react-redux';
-
-import './index.css';
-
-const HelloComponent = ({name, updateName}) =&gt; {
-  return &lt;div&gt;
-    &lt;input type='text'
-           value={name}
-           onChange={e =&gt; updateName(e.target.value)}
-    /&gt;
-    &lt;p&gt;Hello, World!&lt;/p&gt;
-  &lt;/div&gt;
-}
-
-const mapStateToProps = (state) =&gt; {
-  return {
-
-  }
-}
-
-const mapDispatchToProps = (dispatch) =&gt; {
-  return {
-
-  }
-}
-
-const Hello = connect(
-  mapStateToProps,
-  mapDispatchToProps
-)(HelloComponent);
-
-ReactDOM.render(
-  &lt;Provider&gt;
-    &lt;Hello /&gt;
-  &lt;/Provider&gt;,
-  document.getElementById('root')
-);
-</code></pre>
-
-<p>Yeah, it doesn&rsquo;t render anymore, does it? ;) First of all, you see some values inside the <code>Hello</code> component and don&rsquo;t have any idea from where they come. Secondly, you noticed three new constants <code>mapStateToProps</code>,  <code>mapDispatchToProps</code> and <code>Hello</code>. As you guess, the last one connects two previous via <code>HelloComponent</code> connector and all these elements with all props should be rendering in &ldquo;Hello&rdquo; component via <code>Provider</code> component. That is where Redux comes in: <code>mapStateToProps</code> allows to read any application state, and <code>mapDispatchToProps</code> allows to dispatch state changes.
-Right now, the logical question: &ldquo;Where should it manage state and dispatch actions?&rdquo;</p>
-
-<p>The answer is into the store:</p>
-
-<pre><code class="language-javascript">import { connect, Provider } from 'react-redux';
-import { createStore, combineReducers } from 'redux';
-
-// ...
-
-const Hello = connect(
-  mapStateToProps,
-  mapDispatchToProps
-)(HelloComponent);
-
-let store = createStore(
-  combineReducers({}),
-);
-
-ReactDOM.render(
-  &lt;Provider store={store}&gt;
-    &lt;Hello /&gt;
-  &lt;/Provider&gt;,
-  document.getElementById('root')
-);
-</code></pre>
-
-<p>We created a store variable using <code>createStore</code> function to create a store and combineReducers function to add reducers (we will speak about that a bit later).</p>
-
-<p><span style="color:red">Notice! All components and functions that belong to React and Redux must be imported at the beginning of the file.</span></p>
-
-<p>Finally, it renders correctly in the browser, and still, nothing changed. As I mentioned above, we need to add a reducer, but I would like to start from the action creating:</p>
-
-<pre><code class="language-javascript">// ...
-
-const Hello = connect(
-  mapStateToProps,
-  mapDispatchToProps
-)(HelloComponent);
-
-/* Action */
-// create action type
-const UPDATE_NAME = 'UPDATE_NAME'
-
-// action creators
-function updateName(name) {
-  return { type: UPDATE_NAME, name }
-}
-
-// ...
-</code></pre>
-
-<p>We are using the action to send data from the application to the store via dispatch function that notifies store about the current state that the store gets from the reducer:</p>
-
-<pre><code class="language-javascript">/* Reducer */
-
-//create an initial state with empty name as a value
-const initState = { name: '' }
-
-// create a reducer
-const greetingReducer = (state = initState, action) =&gt; {
-  switch (action.type) {
-    case UPDATE_NAME:
-      return Object.assign({}, state, {
-        name: action.name
-      })
-
-    default:
-      return state;
-  }
-}
-
-</code></pre>
-
-<p>These are action cases that are responsible for the defined behavior for the dispatched action. In our case, our goal is to update the name by input = change the input value and see results on the screen in the browser. After creating the reducer, we have to combine it via <code>combineReducers</code> in the store and give it a name to use:</p>
-
-<pre><code class="language-javascript">// ...
-
-let store = createStore(
-  combineReducers({
-    greeting: greetingReducer
-  }),
-);
-
-//...
-</code></pre>
-
-<p>Finally, we are ready to provide all states and all actions (for this feature we have only one state and one action) adding them to
-<code>mapStateToProps</code> and <code>mapDispatchToProps</code>:</p>
-
-<pre><code class="language-javascript">const mapStateToProps = (state) =&gt; {
-  return {
-    name: state.greeting.name
-  }
-}
-
-const mapDispatchToProps = (dispatch) =&gt; {
-  return {
-    updateName: (name) =&gt; dispatch(updateName(name))
-  }
-}
-</code></pre>
-
-<p>And all these props are already used in <code>HelloComponent</code>. Just check this component and find them.</p>
-
-<p>The last step is to make things work properly and see the results on the screen in the browser. So, we have to add <code>{name}</code> property instead of the &ldquo;World&rdquo; inside the &ldquo;Hello, World!&rdquo;:</p>
-
-<pre><code class="language-javascript">const HelloComponent = ({name, updateName}) =&gt; {
-  return &lt;div&gt;
-    &lt;input type='text'
-           value={name}
-           onChange={e =&gt; updateName(e.target.value)}
-    /&gt;
-    &lt;p&gt;Hello, {name}!&lt;/p&gt;
-  &lt;/div&gt;
-}
-</code></pre>
-
-<p>That&rsquo;s it. It should work. If you have any questions, you can reach me through the <a href="mailto:demiluri@gmail.com">email</a> or in direct messages on <a href="https://www.instagram.com/ilonacodes/">Instagram</a>.</p>
-
-<p>The whole code is below:</p>
-
-<pre><code class="language-javascript">import React from 'react';
-import ReactDOM from 'react-dom';
-import { connect, Provider } from 'react-redux';
-import { createStore, combineReducers } from 'redux';
-
-import './index.css';
-
-/* Component */
-const HelloComponent = ({name, updateName}) =&gt; {
-  return &lt;div&gt;
-    &lt;input type='text'
-           value={name}
-           onChange={e =&gt; updateName(e.target.value)}
-    /&gt;
-    &lt;p&gt;Hello, {name}!&lt;/p&gt;
-  &lt;/div&gt;
-}
-
-const mapStateToProps = (state) =&gt; {
-  return {
-    name: state.greeting.name
-  }
-}
-
-const mapDispatchToProps = (dispatch) =&gt; {
-  return {
-    updateName: (name) =&gt; dispatch(updateName(name))
-  }
-}
-
-const Hello = connect(
-  mapStateToProps,
-  mapDispatchToProps
-)(HelloComponent);
-
-/* Action */
-const UPDATE_NAME = 'UPDATE_NAME'
-
-function updateName(name) {
-  return { type: UPDATE_NAME, name }
-}
-
-/* Reducer */
-const initState = { name: '' }
-
-const greetingReducer = (state = initState, action) =&gt; {
-  switch (action.type) {
-    case UPDATE_NAME:
-      return Object.assign({}, state, {
-        name: action.name
-      })
-
-    default:
-      return state;
-  }
-}
-
-/* store */
-let store = createStore(
-  combineReducers({
-    greeting: greetingReducer
-  }),
-);
-
-/* Provider using store */
-ReactDOM.render(
-  &lt;Provider store={store}&gt;
-    &lt;Hello /&gt;
-  &lt;/Provider&gt;,
-  document.getElementById('root')
-);
-
-</code></pre>
-
-<p>In the next post, we will start writing an interactive TODO list with user stories step by step using React+Redux technologies stack.</p>
-
-<p>Thank you for reading! Happily, you got the basic idea of React+Redux &ldquo;co-working&rdquo; and became ready to start your journey within.</p>
-
-      
-		</div>
+                </div>
+            </div>
+        
+    </div>
+
+    <div class="post__primary-column col col-md-8 col-lg-9">
+        
+            <h1 class="post__title">
+                Simple Usage of React&#43;Redux
+            </h1>
+        
+
+        <div class="post__date d-md-none">
+            17 Sep, 2017
+        </div>
+
+        
+
+        <div class="post__body">
+            <div class="blog__sharing row no-gutters align-items-center mt-4">
+    
+    
+    
+    
+    
+    
+    
+    
 
     
 
-		
-			<div class="post__reactions reactions-root" data-resource-id="https://www.ilonacodes.com/blog/simple-usage-of-react-redux/">
+    
+
+    
+
+    <div class="col-auto mt-md-0 mt-2">
+        <a href="https://www.facebook.com/dialog/share?app_id=4028027083934101&amp;display=popup&amp;hashtag=dev&amp;href=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Fsimple-usage-of-react-redux%2F"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--fb">
+            <div class="fab fa-facebook-f"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://twitter.com/intent/tweet?hashtags=dev&amp;original_referer=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Fsimple-usage-of-react-redux%2F&amp;ref_src=twsrc%5Etfw&amp;related=ilonacodes&amp;text=Simple&#43;Usage&#43;of&#43;React%2BRedux&amp;tw_p=tweetbutton&amp;url=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Fsimple-usage-of-react-redux%2F&amp;via=ilonacodes"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--tw">
+            <div class="fab fa-twitter"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Fsimple-usage-of-react-redux%2F"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--li">
+            <div class="fab fa-linkedin-in"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://ilonacodes.com/index.xml"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--rss">
+            <div class="fa fa-rss"></div>
+        </a>
+    </div>
+</div>
+        </div>
+
+        <div class="post__body">
+            
+                <p>As I promised in <a href="/blog/react-for-very-very-beginners/">my previous post</a>, today I am going to tell you about Redux, why and how we need to use them in common.
+Let me introduce React+Redux co-working through the simple input change that should render <code>Hello, {any name / text}!</code> at the end and manage by redux states.</p>
+<p>Redux? What is it?
+Redux is a predictable state container for managing both UI-state and data-state in JavaScript applications. It helps you create applications that behave consistently and run in different environments like client, server, and native. To add Redux dependencies to your application type and run in a command line:</p>
+<pre><code>npm install --save redux
+npm install --save react-redux
+npm install --save-dev redux-devtools
+</code></pre><p>You can read more about that <a href="http://redux.js.org/">here</a>.</p>
+<p>Let&rsquo;s come back to the <code>my-daily-todos</code> directory in the <code>workspace</code> that we set up in my previous post and change into <code>my-daily-todos/src/index.js</code> file.</p>
+<p><span style="color:red">It&rsquo;s not a good style to write all code parts in one file, and I do that only for this example.</span></p>
+<p>I recommend you to remove all code inside and just replace that with:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">import</span> <span style="color:#a6e22e">React</span> <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;react&#39;</span>;
+<span style="color:#66d9ef">import</span> <span style="color:#a6e22e">ReactDOM</span> <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;react-dom&#39;</span>;
+<span style="color:#66d9ef">import</span> <span style="color:#e6db74">&#39;./index.css&#39;</span>;
+
+<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">Hello</span> <span style="color:#f92672">=</span> () =&gt; {
+  <span style="color:#66d9ef">return</span> <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">div</span><span style="color:#f92672">&gt;</span>
+    <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">input</span> <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#39;text&#39;</span> <span style="color:#f92672">/&gt;</span>
+    <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">p</span><span style="color:#f92672">&gt;</span><span style="color:#a6e22e">Hello</span>, <span style="color:#a6e22e">World</span><span style="color:#f92672">!&lt;</span><span style="color:#960050;background-color:#1e0010">/p&gt;</span>
+  <span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/div&gt;</span>
+}
+
+<span style="color:#a6e22e">ReactDOM</span>.<span style="color:#a6e22e">render</span>(<span style="color:#f92672">&lt;</span><span style="color:#a6e22e">Hello</span> <span style="color:#f92672">/&gt;</span>,
+  document.<span style="color:#a6e22e">getElementById</span>(<span style="color:#e6db74">&#39;root&#39;</span>)
+);
+</code></pre></div><p>As you noticed, now we are going to render the <code>Hello</code> component in the browser.</p>
+<p><span style="color:red">Don&rsquo;t forget run local server on your computer from the <code>my-daily-todos</code> directory using <code>npm start</code> in the command line.</span></p>
+<p>What you should see in the browser is an input field and the simple message <code>Hello, World!</code>.</p>
+<p>Now I am going to add some props to our code, which could make you confused, but don&rsquo;t worry I will explain that below:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">import</span> <span style="color:#a6e22e">React</span> <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;react&#39;</span>;
+<span style="color:#66d9ef">import</span> <span style="color:#a6e22e">ReactDOM</span> <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;react-dom&#39;</span>;
+<span style="color:#66d9ef">import</span> { <span style="color:#a6e22e">connect</span>, <span style="color:#a6e22e">Provider</span> } <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;react-redux&#39;</span>;
+
+<span style="color:#66d9ef">import</span> <span style="color:#e6db74">&#39;./index.css&#39;</span>;
+
+<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">HelloComponent</span> <span style="color:#f92672">=</span> ({<span style="color:#a6e22e">name</span>, <span style="color:#a6e22e">updateName</span>}) =&gt; {
+  <span style="color:#66d9ef">return</span> <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">div</span><span style="color:#f92672">&gt;</span>
+    <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">input</span> <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#39;text&#39;</span>
+           <span style="color:#a6e22e">value</span><span style="color:#f92672">=</span>{<span style="color:#a6e22e">name</span>}
+           <span style="color:#a6e22e">onChange</span><span style="color:#f92672">=</span>{<span style="color:#a6e22e">e</span> =&gt; <span style="color:#a6e22e">updateName</span>(<span style="color:#a6e22e">e</span>.<span style="color:#a6e22e">target</span>.<span style="color:#a6e22e">value</span>)}
+    <span style="color:#f92672">/&gt;</span>
+    <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">p</span><span style="color:#f92672">&gt;</span><span style="color:#a6e22e">Hello</span>, <span style="color:#a6e22e">World</span><span style="color:#f92672">!&lt;</span><span style="color:#960050;background-color:#1e0010">/p&gt;</span>
+  <span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/div&gt;</span>
+}
+
+<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">mapStateToProps</span> <span style="color:#f92672">=</span> (<span style="color:#a6e22e">state</span>) =&gt; {
+  <span style="color:#66d9ef">return</span> {
+
+  }
+}
+
+<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">mapDispatchToProps</span> <span style="color:#f92672">=</span> (<span style="color:#a6e22e">dispatch</span>) =&gt; {
+  <span style="color:#66d9ef">return</span> {
+
+  }
+}
+
+<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">Hello</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">connect</span>(
+  <span style="color:#a6e22e">mapStateToProps</span>,
+  <span style="color:#a6e22e">mapDispatchToProps</span>
+)(<span style="color:#a6e22e">HelloComponent</span>);
+
+<span style="color:#a6e22e">ReactDOM</span>.<span style="color:#a6e22e">render</span>(
+  <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">Provider</span><span style="color:#f92672">&gt;</span>
+    <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">Hello</span> <span style="color:#f92672">/&gt;</span>
+  <span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/Provider&gt;,</span>
+  document.<span style="color:#a6e22e">getElementById</span>(<span style="color:#e6db74">&#39;root&#39;</span>)
+);
+</code></pre></div><p>Yeah, it doesn&rsquo;t render anymore, does it? ;) First of all, you see some values inside the <code>Hello</code> component and don&rsquo;t have any idea from where they come. Secondly, you noticed three new constants <code>mapStateToProps</code>,  <code>mapDispatchToProps</code> and <code>Hello</code>. As you guess, the last one connects two previous via <code>HelloComponent</code> connector and all these elements with all props should be rendering in &ldquo;Hello&rdquo; component via <code>Provider</code> component. That is where Redux comes in: <code>mapStateToProps</code> allows to read any application state, and <code>mapDispatchToProps</code> allows to dispatch state changes.
+Right now, the logical question: &ldquo;Where should it manage state and dispatch actions?&rdquo;</p>
+<p>The answer is into the store:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">import</span> { <span style="color:#a6e22e">connect</span>, <span style="color:#a6e22e">Provider</span> } <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;react-redux&#39;</span>;
+<span style="color:#66d9ef">import</span> { <span style="color:#a6e22e">createStore</span>, <span style="color:#a6e22e">combineReducers</span> } <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;redux&#39;</span>;
+
+<span style="color:#75715e">// ...
+</span><span style="color:#75715e"></span>
+<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">Hello</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">connect</span>(
+  <span style="color:#a6e22e">mapStateToProps</span>,
+  <span style="color:#a6e22e">mapDispatchToProps</span>
+)(<span style="color:#a6e22e">HelloComponent</span>);
+
+<span style="color:#66d9ef">let</span> <span style="color:#a6e22e">store</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">createStore</span>(
+  <span style="color:#a6e22e">combineReducers</span>({}),
+);
+
+<span style="color:#a6e22e">ReactDOM</span>.<span style="color:#a6e22e">render</span>(
+  <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">Provider</span> <span style="color:#a6e22e">store</span><span style="color:#f92672">=</span>{<span style="color:#a6e22e">store</span>}<span style="color:#f92672">&gt;</span>
+    <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">Hello</span> <span style="color:#f92672">/&gt;</span>
+  <span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/Provider&gt;,</span>
+  document.<span style="color:#a6e22e">getElementById</span>(<span style="color:#e6db74">&#39;root&#39;</span>)
+);
+</code></pre></div><p>We created a store variable using <code>createStore</code> function to create a store and combineReducers function to add reducers (we will speak about that a bit later).</p>
+<p><span style="color:red">Notice! All components and functions that belong to React and Redux must be imported at the beginning of the file.</span></p>
+<p>Finally, it renders correctly in the browser, and still, nothing changed. As I mentioned above, we need to add a reducer, but I would like to start from the action creating:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#75715e">// ...
+</span><span style="color:#75715e"></span>
+<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">Hello</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">connect</span>(
+  <span style="color:#a6e22e">mapStateToProps</span>,
+  <span style="color:#a6e22e">mapDispatchToProps</span>
+)(<span style="color:#a6e22e">HelloComponent</span>);
+
+<span style="color:#75715e">/* Action */</span>
+<span style="color:#75715e">// create action type
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">UPDATE_NAME</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;UPDATE_NAME&#39;</span>
+
+<span style="color:#75715e">// action creators
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">updateName</span>(<span style="color:#a6e22e">name</span>) {
+  <span style="color:#66d9ef">return</span> { <span style="color:#a6e22e">type</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">UPDATE_NAME</span>, <span style="color:#a6e22e">name</span> }
+}
+
+<span style="color:#75715e">// ...
+</span></code></pre></div><p>We are using the action to send data from the application to the store via dispatch function that notifies store about the current state that the store gets from the reducer:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#75715e">/* Reducer */</span>
+
+<span style="color:#75715e">//create an initial state with empty name as a value
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">initState</span> <span style="color:#f92672">=</span> { <span style="color:#a6e22e">name</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;&#39;</span> }
+
+<span style="color:#75715e">// create a reducer
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">greetingReducer</span> <span style="color:#f92672">=</span> (<span style="color:#a6e22e">state</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">initState</span>, <span style="color:#a6e22e">action</span>) =&gt; {
+  <span style="color:#66d9ef">switch</span> (<span style="color:#a6e22e">action</span>.<span style="color:#a6e22e">type</span>) {
+    <span style="color:#66d9ef">case</span> <span style="color:#a6e22e">UPDATE_NAME</span><span style="color:#f92672">:</span>
+      <span style="color:#66d9ef">return</span> Object.<span style="color:#a6e22e">assign</span>({}, <span style="color:#a6e22e">state</span>, {
+        <span style="color:#a6e22e">name</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">action</span>.<span style="color:#a6e22e">name</span>
+      })
+
+    <span style="color:#66d9ef">default</span><span style="color:#f92672">:</span>
+      <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">state</span>;
+  }
+}
+
+</code></pre></div><p>These are action cases that are responsible for the defined behavior for the dispatched action. In our case, our goal is to update the name by input = change the input value and see results on the screen in the browser. After creating the reducer, we have to combine it via <code>combineReducers</code> in the store and give it a name to use:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#75715e">// ...
+</span><span style="color:#75715e"></span>
+<span style="color:#66d9ef">let</span> <span style="color:#a6e22e">store</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">createStore</span>(
+  <span style="color:#a6e22e">combineReducers</span>({
+    <span style="color:#a6e22e">greeting</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">greetingReducer</span>
+  }),
+);
+
+<span style="color:#75715e">//...
+</span></code></pre></div><p>Finally, we are ready to provide all states and all actions (for this feature we have only one state and one action) adding them to
+<code>mapStateToProps</code> and <code>mapDispatchToProps</code>:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">mapStateToProps</span> <span style="color:#f92672">=</span> (<span style="color:#a6e22e">state</span>) =&gt; {
+  <span style="color:#66d9ef">return</span> {
+    <span style="color:#a6e22e">name</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">state</span>.<span style="color:#a6e22e">greeting</span>.<span style="color:#a6e22e">name</span>
+  }
+}
+
+<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">mapDispatchToProps</span> <span style="color:#f92672">=</span> (<span style="color:#a6e22e">dispatch</span>) =&gt; {
+  <span style="color:#66d9ef">return</span> {
+    <span style="color:#a6e22e">updateName</span><span style="color:#f92672">:</span> (<span style="color:#a6e22e">name</span>) =&gt; <span style="color:#a6e22e">dispatch</span>(<span style="color:#a6e22e">updateName</span>(<span style="color:#a6e22e">name</span>))
+  }
+}
+</code></pre></div><p>And all these props are already used in <code>HelloComponent</code>. Just check this component and find them.</p>
+<p>The last step is to make things work properly and see the results on the screen in the browser. So, we have to add <code>{name}</code> property instead of the &ldquo;World&rdquo; inside the &ldquo;Hello, World!&quot;:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">HelloComponent</span> <span style="color:#f92672">=</span> ({<span style="color:#a6e22e">name</span>, <span style="color:#a6e22e">updateName</span>}) =&gt; {
+  <span style="color:#66d9ef">return</span> <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">div</span><span style="color:#f92672">&gt;</span>
+    <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">input</span> <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#39;text&#39;</span>
+           <span style="color:#a6e22e">value</span><span style="color:#f92672">=</span>{<span style="color:#a6e22e">name</span>}
+           <span style="color:#a6e22e">onChange</span><span style="color:#f92672">=</span>{<span style="color:#a6e22e">e</span> =&gt; <span style="color:#a6e22e">updateName</span>(<span style="color:#a6e22e">e</span>.<span style="color:#a6e22e">target</span>.<span style="color:#a6e22e">value</span>)}
+    <span style="color:#f92672">/&gt;</span>
+    <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">p</span><span style="color:#f92672">&gt;</span><span style="color:#a6e22e">Hello</span>, {<span style="color:#a6e22e">name</span>}<span style="color:#f92672">!&lt;</span><span style="color:#960050;background-color:#1e0010">/p&gt;</span>
+  <span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/div&gt;</span>
+}
+</code></pre></div><p>That&rsquo;s it. It should work. If you have any questions, you can reach me through the <a href="mailto:demiluri@gmail.com">email</a> or in direct messages on <a href="https://www.instagram.com/ilonacodes/">Instagram</a>.</p>
+<p>The whole code is below:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">import</span> <span style="color:#a6e22e">React</span> <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;react&#39;</span>;
+<span style="color:#66d9ef">import</span> <span style="color:#a6e22e">ReactDOM</span> <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;react-dom&#39;</span>;
+<span style="color:#66d9ef">import</span> { <span style="color:#a6e22e">connect</span>, <span style="color:#a6e22e">Provider</span> } <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;react-redux&#39;</span>;
+<span style="color:#66d9ef">import</span> { <span style="color:#a6e22e">createStore</span>, <span style="color:#a6e22e">combineReducers</span> } <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;redux&#39;</span>;
+
+<span style="color:#66d9ef">import</span> <span style="color:#e6db74">&#39;./index.css&#39;</span>;
+
+<span style="color:#75715e">/* Component */</span>
+<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">HelloComponent</span> <span style="color:#f92672">=</span> ({<span style="color:#a6e22e">name</span>, <span style="color:#a6e22e">updateName</span>}) =&gt; {
+  <span style="color:#66d9ef">return</span> <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">div</span><span style="color:#f92672">&gt;</span>
+    <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">input</span> <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#39;text&#39;</span>
+           <span style="color:#a6e22e">value</span><span style="color:#f92672">=</span>{<span style="color:#a6e22e">name</span>}
+           <span style="color:#a6e22e">onChange</span><span style="color:#f92672">=</span>{<span style="color:#a6e22e">e</span> =&gt; <span style="color:#a6e22e">updateName</span>(<span style="color:#a6e22e">e</span>.<span style="color:#a6e22e">target</span>.<span style="color:#a6e22e">value</span>)}
+    <span style="color:#f92672">/&gt;</span>
+    <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">p</span><span style="color:#f92672">&gt;</span><span style="color:#a6e22e">Hello</span>, {<span style="color:#a6e22e">name</span>}<span style="color:#f92672">!&lt;</span><span style="color:#960050;background-color:#1e0010">/p&gt;</span>
+  <span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/div&gt;</span>
+}
+
+<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">mapStateToProps</span> <span style="color:#f92672">=</span> (<span style="color:#a6e22e">state</span>) =&gt; {
+  <span style="color:#66d9ef">return</span> {
+    <span style="color:#a6e22e">name</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">state</span>.<span style="color:#a6e22e">greeting</span>.<span style="color:#a6e22e">name</span>
+  }
+}
+
+<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">mapDispatchToProps</span> <span style="color:#f92672">=</span> (<span style="color:#a6e22e">dispatch</span>) =&gt; {
+  <span style="color:#66d9ef">return</span> {
+    <span style="color:#a6e22e">updateName</span><span style="color:#f92672">:</span> (<span style="color:#a6e22e">name</span>) =&gt; <span style="color:#a6e22e">dispatch</span>(<span style="color:#a6e22e">updateName</span>(<span style="color:#a6e22e">name</span>))
+  }
+}
+
+<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">Hello</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">connect</span>(
+  <span style="color:#a6e22e">mapStateToProps</span>,
+  <span style="color:#a6e22e">mapDispatchToProps</span>
+)(<span style="color:#a6e22e">HelloComponent</span>);
+
+<span style="color:#75715e">/* Action */</span>
+<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">UPDATE_NAME</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;UPDATE_NAME&#39;</span>
+
+<span style="color:#66d9ef">function</span> <span style="color:#a6e22e">updateName</span>(<span style="color:#a6e22e">name</span>) {
+  <span style="color:#66d9ef">return</span> { <span style="color:#a6e22e">type</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">UPDATE_NAME</span>, <span style="color:#a6e22e">name</span> }
+}
+
+<span style="color:#75715e">/* Reducer */</span>
+<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">initState</span> <span style="color:#f92672">=</span> { <span style="color:#a6e22e">name</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;&#39;</span> }
+
+<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">greetingReducer</span> <span style="color:#f92672">=</span> (<span style="color:#a6e22e">state</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">initState</span>, <span style="color:#a6e22e">action</span>) =&gt; {
+  <span style="color:#66d9ef">switch</span> (<span style="color:#a6e22e">action</span>.<span style="color:#a6e22e">type</span>) {
+    <span style="color:#66d9ef">case</span> <span style="color:#a6e22e">UPDATE_NAME</span><span style="color:#f92672">:</span>
+      <span style="color:#66d9ef">return</span> Object.<span style="color:#a6e22e">assign</span>({}, <span style="color:#a6e22e">state</span>, {
+        <span style="color:#a6e22e">name</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">action</span>.<span style="color:#a6e22e">name</span>
+      })
+
+    <span style="color:#66d9ef">default</span><span style="color:#f92672">:</span>
+      <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">state</span>;
+  }
+}
+
+<span style="color:#75715e">/* store */</span>
+<span style="color:#66d9ef">let</span> <span style="color:#a6e22e">store</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">createStore</span>(
+  <span style="color:#a6e22e">combineReducers</span>({
+    <span style="color:#a6e22e">greeting</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">greetingReducer</span>
+  }),
+);
+
+<span style="color:#75715e">/* Provider using store */</span>
+<span style="color:#a6e22e">ReactDOM</span>.<span style="color:#a6e22e">render</span>(
+  <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">Provider</span> <span style="color:#a6e22e">store</span><span style="color:#f92672">=</span>{<span style="color:#a6e22e">store</span>}<span style="color:#f92672">&gt;</span>
+    <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">Hello</span> <span style="color:#f92672">/&gt;</span>
+  <span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/Provider&gt;,</span>
+  document.<span style="color:#a6e22e">getElementById</span>(<span style="color:#e6db74">&#39;root&#39;</span>)
+);
+
+</code></pre></div><p>In the next post, we will start writing an interactive TODO list with user stories step by step using React+Redux technologies stack.</p>
+<p>Thank you for reading! Happily, you got the basic idea of React+Redux &ldquo;co-working&rdquo; and became ready to start your journey within.</p>
+
+            
+        </div>
+
+        
+
+        
+            <div class="post__reactions reactions-root" data-resource-id="https://www.ilonacodes.com/blog/simple-usage-of-react-redux/">
 </div>
 
-		
+        
 
-		<div class="post__tags d-md-none">
-			
-				Tags |
-				
-				
-					<a href="/tags/react">
-						<span class="post__tag">
-							#react
-						</span>
-					</a>
-				
-					<a href="/tags/reactjs">
-						<span class="post__tag">
-							#reactjs
-						</span>
-					</a>
-				
-					<a href="/tags/redux">
-						<span class="post__tag">
-							#redux
-						</span>
-					</a>
-				
-					<a href="/tags/learntocode">
-						<span class="post__tag">
-							#learntocode
-						</span>
-					</a>
-				
-					<a href="/tags/beginners">
-						<span class="post__tag">
-							#beginners
-						</span>
-					</a>
-				
-					<a href="/tags/coding">
-						<span class="post__tag">
-							#coding
-						</span>
-					</a>
-				
-					<a href="/tags/letsgetcoding">
-						<span class="post__tag">
-							#letsgetcoding
-						</span>
-					</a>
-				
-			
-		</div>
-	</div>
+        <div class="post__tags d-md-none">
+            
+                Tags |
+                
+                
+                    <a href="/tags/react">
+                <span class="post__tag">
+            #react
+            </span>
+                    </a>
+                
+                    <a href="/tags/reactjs">
+                <span class="post__tag">
+            #reactjs
+            </span>
+                    </a>
+                
+                    <a href="/tags/redux">
+                <span class="post__tag">
+            #redux
+            </span>
+                    </a>
+                
+                    <a href="/tags/learntocode">
+                <span class="post__tag">
+            #learntocode
+            </span>
+                    </a>
+                
+                    <a href="/tags/beginners">
+                <span class="post__tag">
+            #beginners
+            </span>
+                    </a>
+                
+                    <a href="/tags/coding">
+                <span class="post__tag">
+            #coding
+            </span>
+                    </a>
+                
+                    <a href="/tags/letsgetcoding">
+                <span class="post__tag">
+            #letsgetcoding
+            </span>
+                    </a>
+                
+            
+        </div>
+
+        
+            <div class="blog__sharing row no-gutters align-items-center mt-4">
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <div class="col-auto mt-md-0 mt-2">
+        <a href="https://www.facebook.com/dialog/share?app_id=4028027083934101&amp;display=popup&amp;hashtag=dev&amp;href=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Fsimple-usage-of-react-redux%2F"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--fb">
+            <div class="fab fa-facebook-f"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://twitter.com/intent/tweet?hashtags=dev&amp;original_referer=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Fsimple-usage-of-react-redux%2F&amp;ref_src=twsrc%5Etfw&amp;related=ilonacodes&amp;text=Simple&#43;Usage&#43;of&#43;React%2BRedux&amp;tw_p=tweetbutton&amp;url=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Fsimple-usage-of-react-redux%2F&amp;via=ilonacodes"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--tw">
+            <div class="fab fa-twitter"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Fsimple-usage-of-react-redux%2F"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--li">
+            <div class="fab fa-linkedin-in"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://ilonacodes.com/index.xml"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--rss">
+            <div class="fa fa-rss"></div>
+        </a>
+    </div>
+</div>
+        
+
+    </div>
 </div>
 
 

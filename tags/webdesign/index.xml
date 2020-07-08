@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Webdesign on Ilona Who Codes</title>
+    <title>webdesign on Ilona Who Codes</title>
     <link>https://www.ilonacodes.com/tags/webdesign/</link>
-    <description>Recent content in Webdesign on Ilona Who Codes</description>
+    <description>Recent content in webdesign on Ilona Who Codes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 09 Aug 2018 07:00:05 +0100</lastBuildDate>
@@ -18,21 +18,12 @@
       
       <guid>https://www.ilonacodes.com/blog/creating-floating-label-placeholder-for-input-with-react/</guid>
       <description>&lt;figure&gt;
-    
-        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/creating-floating-label-cover.jpeg&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;source: https://www.pexels.com/photo/several-assorted-color-tags-697059/&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
+    &lt;img src=&#34;https://www.ilonacodes.com/blog/images/creating-floating-label-cover.jpeg&#34;/&gt; &lt;figcaption&gt;
+            &lt;h4&gt;source: https://www.pexels.com/photo/several-assorted-color-tags-697059/&lt;/h4&gt;
+        &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-
-&lt;p&gt;To make the application fancy, front-end web developers usually visualize it using animations or other effects. And now I am going to explain one of the methods how to apply the most famous floating label effect to the input field with React.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;To make the application fancy, front-end web developers usually visualize it using animations or other effects. And now I am going to explain one of the methods how to apply the most famous floating label effect to the input field with React.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -42,21 +33,12 @@
       
       <guid>https://www.ilonacodes.com/blog/internationalize-your-app-with-react/</guid>
       <description>&lt;figure&gt;
-    
-        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/intl-your-app-with-react.jpeg&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;source: https://www.pexels.com/photo/ball-shaped-blur-close-up-focus-346885/&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
+    &lt;img src=&#34;https://www.ilonacodes.com/blog/images/intl-your-app-with-react.jpeg&#34;/&gt; &lt;figcaption&gt;
+            &lt;h4&gt;source: https://www.pexels.com/photo/ball-shaped-blur-close-up-focus-346885/&lt;/h4&gt;
+        &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-
-&lt;p&gt;Nowadays any viable product pursues the goal to grow globally. That means the successful online product is supposed to have minimum two language locales. One of them is english as an international language, and the other one depends on the spoken language of the target audience (usually domestic).&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;Nowadays any viable product pursues the goal to grow globally. That means the successful online product is supposed to have minimum two language locales. One of them is english as an international language, and the other one depends on the spoken language of the target audience (usually domestic).&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -66,21 +48,12 @@
       
       <guid>https://www.ilonacodes.com/blog/business-goals-and-user-needs/</guid>
       <description>&lt;figure&gt;
-    
-        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/business-goals-and-user-needs.jpeg&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;source: https://www.pexels.com/photo/woman-in-black-coat-1181346/&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
+    &lt;img src=&#34;https://www.ilonacodes.com/blog/images/business-goals-and-user-needs.jpeg&#34;/&gt; &lt;figcaption&gt;
+            &lt;h4&gt;source: https://www.pexels.com/photo/woman-in-black-coat-1181346/&lt;/h4&gt;
+        &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-
-&lt;p&gt;To understand the business goals is just as important as understanding user needs. Without that, the chances of creating useful and viable products are low. Here is why.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;To understand the business goals is just as important as understanding user needs. Without that, the chances of creating useful and viable products are low. Here is why.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -90,22 +63,13 @@
       
       <guid>https://www.ilonacodes.com/blog/content-first-in-web-design/</guid>
       <description>&lt;figure&gt;
-    
-        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/content-first-in-web-design.jpeg&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;source: https://www.pexels.com/photo/startup-planning-notes-mac-book-7357/&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
+    &lt;img src=&#34;https://www.ilonacodes.com/blog/images/content-first-in-web-design.jpeg&#34;/&gt; &lt;figcaption&gt;
+            &lt;h4&gt;source: https://www.pexels.com/photo/startup-planning-notes-mac-book-7357/&lt;/h4&gt;
+        &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-
 &lt;p&gt;From the title, you already guessed that I am going to speak about the design of the product, app or website that starts with content first.
-In my opinion, there are many advantages to applying the content first approach.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+In my opinion, there are many advantages to applying the content first approach.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -115,22 +79,13 @@ In my opinion, there are many advantages to applying the content first approach.
       
       <guid>https://www.ilonacodes.com/blog/how-to-choose-the-best-color/</guid>
       <description>&lt;figure&gt;
-    
-        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/how-to-choose-the-best-color.jpeg&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;source: https://www.pexels.com/photo/low-angle-of-colorful-glass-panels-under-blue-sky-1048043/&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
+    &lt;img src=&#34;https://www.ilonacodes.com/blog/images/how-to-choose-the-best-color.jpeg&#34;/&gt; &lt;figcaption&gt;
+            &lt;h4&gt;source: https://www.pexels.com/photo/low-angle-of-colorful-glass-panels-under-blue-sky-1048043/&lt;/h4&gt;
+        &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-
 &lt;p&gt;If you really want to get better at color, start studying it.
-Picking the right colors is something that might seem easy at first. And when you are starting down a color wheel, you are going to wish you had some information on what you are looking for.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+Picking the right colors is something that might seem easy at first. And when you are starting down a color wheel, you are going to wish you had some information on what you are looking for.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -140,21 +95,12 @@ Picking the right colors is something that might seem easy at first. And when yo
       
       <guid>https://www.ilonacodes.com/blog/how-to-hack-your-front-end-career-with-ux/</guid>
       <description>&lt;figure&gt;
-    
-        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/hack-career-with-ux.jpeg&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;source: https://www.pexels.com/photo/pink-revolver-gun-1056555/&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
+    &lt;img src=&#34;https://www.ilonacodes.com/blog/images/hack-career-with-ux.jpeg&#34;/&gt; &lt;figcaption&gt;
+            &lt;h4&gt;source: https://www.pexels.com/photo/pink-revolver-gun-1056555/&lt;/h4&gt;
+        &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-
-&lt;p&gt;You must be thinking that as a front-end developer, you are developing websites / online products using HTML, CSS-styling, JavaScript and other different Frameworks to make them good looking by implementing user interfaces from the mockups.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;You must be thinking that as a front-end developer, you are developing websites / online products using HTML, CSS-styling, JavaScript and other different Frameworks to make them good looking by implementing user interfaces from the mockups.&lt;/p&gt;</description>
     </item>
     
   </channel>

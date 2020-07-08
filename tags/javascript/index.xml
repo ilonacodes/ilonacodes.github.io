@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Javascript on Ilona Who Codes</title>
+    <title>javascript on Ilona Who Codes</title>
     <link>https://www.ilonacodes.com/tags/javascript/</link>
-    <description>Recent content in Javascript on Ilona Who Codes</description>
+    <description>Recent content in javascript on Ilona Who Codes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 19 Jan 2019 10:40:05 +0100</lastBuildDate>
@@ -17,22 +17,13 @@
       <pubDate>Sat, 19 Jan 2019 10:40:05 +0100</pubDate>
       
       <guid>https://www.ilonacodes.com/blog/styling-form-with-different-states-and-storybook/</guid>
-      <description>&lt;p&gt;
-&lt;figure&gt;
-    
-        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/styling-storybook.jpg&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;source: Photo by Goran Ivos on Unsplash&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
+      <description>&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;https://www.ilonacodes.com/blog/images/styling-storybook.jpg&#34;/&gt; &lt;figcaption&gt;
+            &lt;h4&gt;source: Photo by Goran Ivos on Unsplash&lt;/h4&gt;
+        &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-There are a lot of different and efficient ways how to improve web app development speed while implementing and testing new features. One of them is to be able to reuse UI components.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+There are a lot of different and efficient ways how to improve web app development speed while implementing and testing new features. One of them is to be able to reuse UI components.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -41,22 +32,13 @@ There are a lot of different and efficient ways how to improve web app developme
       <pubDate>Fri, 04 Jan 2019 10:40:05 +0100</pubDate>
       
       <guid>https://www.ilonacodes.com/blog/what-are-graphql-and-its-schemas/</guid>
-      <description>&lt;p&gt;
-&lt;figure&gt;
-    
-        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/what-are-graphql-and-its-schemas.jpg&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;source: Photo by Daniel Cheung on Unsplash&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
+      <description>&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;https://www.ilonacodes.com/blog/images/what-are-graphql-and-its-schemas.jpg&#34;/&gt; &lt;figcaption&gt;
+            &lt;h4&gt;source: Photo by Daniel Cheung on Unsplash&lt;/h4&gt;
+        &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-The last days I am spending time on learning &lt;a href=&#34;https://graphql.org/&#34;&gt;GraphQL&lt;/a&gt; and how its clients communicate between frontend and backend application parts.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+The last days I am spending time on learning &lt;a href=&#34;https://graphql.org/&#34;&gt;GraphQL&lt;/a&gt; and how its clients communicate between frontend and backend application parts.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -65,22 +47,13 @@ The last days I am spending time on learning &lt;a href=&#34;https://graphql.org
       <pubDate>Fri, 28 Dec 2018 10:40:05 +0100</pubDate>
       
       <guid>https://www.ilonacodes.com/blog/progress-bar-with-react-hooks/</guid>
-      <description>&lt;p&gt;
-&lt;figure&gt;
-    
-        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/progress-bar-with-react-hooks.jpg&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;source: Photo by Roman Kraft on Unsplash&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
+      <description>&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;https://www.ilonacodes.com/blog/images/progress-bar-with-react-hooks.jpg&#34;/&gt; &lt;figcaption&gt;
+            &lt;h4&gt;source: Photo by Roman Kraft on Unsplash&lt;/h4&gt;
+        &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-After &lt;strong&gt;React Hooks&lt;/strong&gt; introduction at &lt;a href=&#34;https://www.youtube.com/watch?v=dpw9EHDh2bM&#34;&gt;React Conf October 2018&lt;/a&gt; I decided to learn this approach how to use state and side-effects in React functional components.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+After &lt;strong&gt;React Hooks&lt;/strong&gt; introduction at &lt;a href=&#34;https://www.youtube.com/watch?v=dpw9EHDh2bM&#34;&gt;React Conf October 2018&lt;/a&gt; I decided to learn this approach how to use state and side-effects in React functional components.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -89,22 +62,13 @@ After &lt;strong&gt;React Hooks&lt;/strong&gt; introduction at &lt;a href=&#34;h
       <pubDate>Mon, 24 Dec 2018 10:40:05 +0100</pubDate>
       
       <guid>https://www.ilonacodes.com/blog/hacking-user-testing-with-reactjs/</guid>
-      <description>&lt;p&gt;
-&lt;figure&gt;
-    
-        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/hacking-user-testing.jpeg&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;source: https://bit.ly/2T8OJxc&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
+      <description>&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;https://www.ilonacodes.com/blog/images/hacking-user-testing.jpeg&#34;/&gt; &lt;figcaption&gt;
+            &lt;h4&gt;source: https://bit.ly/2T8OJxc&lt;/h4&gt;
+        &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-There are many tools available for designers to create beautiful user interfaces and user experiences. And today I want to share another approach on how to build interactive design prototypes with ReactJS and why.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+There are many tools available for designers to create beautiful user interfaces and user experiences. And today I want to share another approach on how to build interactive design prototypes with ReactJS and why.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -113,24 +77,14 @@ There are many tools available for designers to create beautiful user interfaces
       <pubDate>Mon, 10 Dec 2018 18:40:05 +0100</pubDate>
       
       <guid>https://www.ilonacodes.com/blog/fetching-github-user-with-rest-api-and-reactjs/</guid>
-      <description>&lt;p&gt;
-&lt;figure&gt;
-    
-        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/fetching.jpeg&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;source: https://bit.ly/2rv4HpO&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
+      <description>&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;https://www.ilonacodes.com/blog/images/fetching.jpeg&#34;/&gt; &lt;figcaption&gt;
+            &lt;h4&gt;source: https://bit.ly/2rv4HpO&lt;/h4&gt;
+        &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 In this post, I explain how you can find any user on GitHub through GitHub API using ReactJS, Redux, Saga, Axios, and Formik.&lt;/p&gt;
-
-&lt;p&gt;Why do we need to use this technology stack? Here is the short description:&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;Why do we need to use this technology stack? Here is the short description:&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -140,21 +94,12 @@ In this post, I explain how you can find any user on GitHub through GitHub API u
       
       <guid>https://www.ilonacodes.com/blog/how-to-avoid-duplication-of-common-wrapper-behavior-in-react-using-children-prop/</guid>
       <description>&lt;figure&gt;
-    
-        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/react-children-prop.jpeg&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;source: bit.ly/2xzBpaF&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
+    &lt;img src=&#34;https://www.ilonacodes.com/blog/images/react-children-prop.jpeg&#34;/&gt; &lt;figcaption&gt;
+            &lt;h4&gt;source: bit.ly/2xzBpaF&lt;/h4&gt;
+        &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-
-&lt;p&gt;When I was learning React there were a couple things that I couldn&amp;rsquo;t clearly understand and one of them was &lt;strong&gt;children prop&lt;/strong&gt;. That is until I faced the problem similar to the following one.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;When I was learning React there were a couple things that I couldn&amp;rsquo;t clearly understand and one of them was &lt;strong&gt;children prop&lt;/strong&gt;. That is until I faced the problem similar to the following one.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -164,21 +109,12 @@ In this post, I explain how you can find any user on GitHub through GitHub API u
       
       <guid>https://www.ilonacodes.com/blog/simple-image-carousel-with-react/</guid>
       <description>&lt;figure&gt;
-    
-        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/simple-image-carousel-with-react.jpeg&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;source: bit.ly/2CtMqAO&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
+    &lt;img src=&#34;https://www.ilonacodes.com/blog/images/simple-image-carousel-with-react.jpeg&#34;/&gt; &lt;figcaption&gt;
+            &lt;h4&gt;source: bit.ly/2CtMqAO&lt;/h4&gt;
+        &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-
-&lt;p&gt;Here we are! Due to my master thesis at the university, one of the requirements is the implementation of an interactive mockup for the university WebTV platform. So, I decided to make it with React.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;Here we are! Due to my master thesis at the university, one of the requirements is the implementation of an interactive mockup for the university WebTV platform. So, I decided to make it with React.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -188,21 +124,12 @@ In this post, I explain how you can find any user on GitHub through GitHub API u
       
       <guid>https://www.ilonacodes.com/blog/simple-state-machine-with-redux/</guid>
       <description>&lt;figure&gt;
-    
-        &lt;img src=&#34;https://www.ilonacodes.com/blog/simple-state-machine-with-redux.jpeg&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;https://bit.ly/2wIeeNU&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
+    &lt;img src=&#34;https://www.ilonacodes.com/blog/simple-state-machine-with-redux.jpeg&#34;/&gt; &lt;figcaption&gt;
+            &lt;h4&gt;https://bit.ly/2wIeeNU&lt;/h4&gt;
+        &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-
-&lt;p&gt;The last days I am working on the project, which should include the state machine. Implementing this project with React, I decided to use the Redux framework to manage state in my React application. Moreover, thanks to redux store we can debug data (in one place) easily.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;The last days I am working on the project, which should include the state machine. Implementing this project with React, I decided to use the Redux framework to manage state in my React application. Moreover, thanks to redux store we can debug data (in one place) easily.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -211,24 +138,14 @@ In this post, I explain how you can find any user on GitHub through GitHub API u
       <pubDate>Sat, 15 Sep 2018 18:40:05 +0100</pubDate>
       
       <guid>https://www.ilonacodes.com/blog/why-formik-with-react/</guid>
-      <description>&lt;p&gt;
-&lt;figure&gt;
-    
-        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/why-formik-with-react-cover.jpeg&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;source: https://bit.ly/2paojyl&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
+      <description>&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;https://www.ilonacodes.com/blog/images/why-formik-with-react-cover.jpeg&#34;/&gt; &lt;figcaption&gt;
+            &lt;h4&gt;source: https://bit.ly/2paojyl&lt;/h4&gt;
+        &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 The way, how I try to understand the purpose of any framework is to use it and compare with the already implemented no-framework solution.&lt;/p&gt;
-
-&lt;p&gt;Sure, most of us, at first hear about a new library from tech media portals or from tech-dev influencers or from conferences/meetups or from coworkers, etc. then we are going to check out the source of it whether it is a software or open-source product. In the end, we are playing with it and trying to apply it to the existing product.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;Sure, most of us, at first hear about a new library from tech media portals or from tech-dev influencers or from conferences/meetups or from coworkers, etc. then we are going to check out the source of it whether it is a software or open-source product. In the end, we are playing with it and trying to apply it to the existing product.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -237,22 +154,13 @@ The way, how I try to understand the purpose of any framework is to use it and c
       <pubDate>Fri, 07 Sep 2018 18:40:05 +0100</pubDate>
       
       <guid>https://www.ilonacodes.com/blog/emotional-todo-list-with-react/</guid>
-      <description>&lt;p&gt;
-&lt;figure&gt;
-    
-        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/emotional-todo-list-cover.jpeg&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;source: https://bit.ly/2NXyGjE&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
+      <description>&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;https://www.ilonacodes.com/blog/images/emotional-todo-list-cover.jpeg&#34;/&gt; &lt;figcaption&gt;
+            &lt;h4&gt;source: https://bit.ly/2NXyGjE&lt;/h4&gt;
+        &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-From the title of the post, you understand that I am not only going to explain how to implement a traditional TODO-List with React, but also show you how I am applying &lt;a href=&#34;https://emotion.sh/&#34;&gt;emotion-js&lt;/a&gt; for this mini-project.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+From the title of the post, you understand that I am not only going to explain how to implement a traditional TODO-List with React, but also show you how I am applying &lt;a href=&#34;https://emotion.sh/&#34;&gt;emotion-js&lt;/a&gt; for this mini-project.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -312,7 +220,7 @@ const ImportFromFileBodyComponent = () =&amp;gt; { let fileReader; const handleF
       <description>There are many possibilities how to remove multiple items from the array with JavaScript. So in this tutorial, I am going to share my approach to delete function with React+Redux.
 It&amp;rsquo;s front-end shorts, and I am trying to highlight the most important information. Thus, just let’s have a look at the significant code snippets with explanations:
 I have created the action:
-// expenseActions.js export const t = { ... DELETE_EXPENSE: &#39;DELETE_EXPENSE&#39;, .</description>
+// expenseActions.js  export const t = { ... DELETE_EXPENSE: &amp;#39;DELETE_EXPENSE&amp;#39;, .</description>
     </item>
     
     <item>

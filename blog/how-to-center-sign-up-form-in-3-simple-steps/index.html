@@ -23,7 +23,7 @@
     
     <meta property="og:tags" content="html">
     
-    <meta name="generator" content="Hugo 0.44" />
+    <meta name="generator" content="Hugo 0.73.0" />
     <title>How to Center Sign Up Form in 3 Simple Steps &middot; Ilona Who Codes</title>
     
     
@@ -118,175 +118,251 @@
       <main>
       	<article>
       		<div class="post row">
-	<div class="post__meta-column col-3 d-none d-md-block">
-		<div class="row no-gutters post__meta-column__date">
-			
-			
-			
-			<div class="col text-center post__meta-column__day">
-				12
-			</div>
-			<div class="col">
-				<div class="post__meta-column__month">Mar</div>
-				<div class="post__meta-column__year">2017</div>
-			</div>
-		</div>
+    <div class="post__meta-column col-3 d-none d-md-block">
+        <div class="row no-gutters post__meta-column__date">
+            
+            
+            
+            <div class="col text-center post__meta-column__day">
+                12
+            </div>
+            <div class="col">
+                <div class="post__meta-column__month">Mar</div>
+                <div class="post__meta-column__year">2017</div>
+            </div>
+        </div>
 
-		<div class="row">
-			<div class="col post__meta-column__tags">
-				
-					
-					
-						<a href="/tags/css">
-							<div class="post__tag">
-								#css
-							</div>
-						</a>
-					
-						<a href="/tags/html">
-							<div class="post__tag">
-								#html
-							</div>
-						</a>
-					
-				
-			</div>
-		</div>
+        <div class="row">
+            <div class="col post__meta-column__tags">
+                
+                    
+                    
+                        <a href="/tags/css">
+                            <div class="post__tag">
+                                #css
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/html">
+                            <div class="post__tag">
+                                #html
+                            </div>
+                        </a>
+                    
+                
+            </div>
+        </div>
 
-		
-		<div class="row justify-content-end">
-			<div class="col-auto">
-				<div class="post__reactions reactions-root" data-resource-id="https://www.ilonacodes.com/blog/how-to-center-sign-up-form-in-3-simple-steps/">
+        
+            <div class="row justify-content-end">
+                <div class="col-auto">
+                    <div class="post__reactions reactions-root" data-resource-id="https://www.ilonacodes.com/blog/how-to-center-sign-up-form-in-3-simple-steps/">
 </div>
 
-			</div>
-		</div>
-		
-	</div>
+                </div>
+            </div>
+        
+    </div>
 
-	<div class="post__primary-column col col-md-8 col-lg-9">
-		
-			<h1 class="post__title">
-				How to Center Sign Up Form in 3 Simple Steps
-			</h1>
-		
-
-		<div class="post__date d-md-none">
-			12 Mar, 2017
-		</div>
-
-		
-
-		<div class="post__body">
-      
+    <div class="post__primary-column col col-md-8 col-lg-9">
+        
+            <h1 class="post__title">
+                How to Center Sign Up Form in 3 Simple Steps
+            </h1>
         
 
-<p>Hi, everyone!</p>
+        <div class="post__date d-md-none">
+            12 Mar, 2017
+        </div>
 
-<p>I am very happy to welcome you on my blog. A couple of days ago I started creating my new project (that I will have presented to you in a couple of weeks). And I have faced the following problem: I wanted to build a page with Sign Up form, and this page doesn&rsquo;t have any other content.  In that case, it made a lot of sense to center the form, both horizontally and vertically. First of all, I have done some research, tried some solutions, and I want to present what worked for me.</p>
+        
 
-<h2 id="step-1-set-up-correct-markup-structure">Step 1:  Set up correct markup structure</h2>
-
-<p>My form had both header and form elements, so I had to wrap it in a &ldquo;div&rdquo; container with a particular class so that I can style it:</p>
-
-<pre><code class="language-html">&lt;div class=&quot;sign-up-form&quot;&gt;
-    &lt;h1 class=&quot;sign-up-title&quot;&gt;Sign Up&lt;/h1&gt;
-    &lt;form&gt;
-        &lt;input type=&quot;email&quot; placeholder=&quot;Email&quot; name=&quot;email&quot;/&gt;
-        &lt;input type=&quot;password&quot; placeholder=&quot;Password&quot; name=&quot;password&quot;/&gt;
-        &lt;input type=&quot;submit&quot; value=&quot;Continue&quot;/&gt;
-    &lt;/form&gt;
-&lt;/div&gt;
-</code></pre>
-
-<p>This container (with class &ldquo;sign-up-form&rdquo;) is the one that we want to center. Therefore, we need also to wrap it in another container (with class &ldquo;center-container&rdquo;) inside which we are centering:</p>
-
-<pre><code class="language-html">&lt;div class=&quot;center-container&quot;&gt;
-    &lt;div class=&quot;sign-up-form&quot;&gt;
-            ...
-    &lt;/div&gt;
-&lt;/div&gt;
-</code></pre>
-
-<h2 id="step-2-preparing-the-page-for-centering">Step 2: Preparing the page for centering</h2>
-
-<p>The page should occupy the full screen so that we can center the form. That means we need give the page correct size, margins, and paddings:</p>
-
-<pre><code class="language-css">html, body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-}
-</code></pre>
-
-<p>To be able to center the form container we can add &ldquo;display: table&rdquo;:</p>
-
-<pre><code class="language-css">html, body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-    display: table;
-}
-</code></pre>
-
-<h2 id="step-3-center-the-form-container">Step 3: Center the form container</h2>
-
-<p>Now we are going to center the form vertically and horizontally:</p>
-
-<pre><code class="language-css">.center-container {
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
-}
-</code></pre>
-
-<p>Also, we have to make the form container of the same size as its content. For that, we can use &ldquo;display: table&rdquo; and &ldquo;margin: 0 auto&rdquo;:</p>
-
-<pre><code class="language-css">.sign-up-form {
-    display: table;
-    margin: 0 auto;
-}
-</code></pre>
-
-<h2 id="conclusion">Conclusion</h2>
-
-<p>That&rsquo;s it. Now we can center our sign up form.</p>
-
-<p>Thank you for reading.</p>
-
-      
-		</div>
+        <div class="post__body">
+            <div class="blog__sharing row no-gutters align-items-center mt-4">
+    
+    
+    
+    
+    
+    
+    
+    
 
     
 
-		
-			<div class="post__reactions reactions-root" data-resource-id="https://www.ilonacodes.com/blog/how-to-center-sign-up-form-in-3-simple-steps/">
+    
+
+    
+
+    <div class="col-auto mt-md-0 mt-2">
+        <a href="https://www.facebook.com/dialog/share?app_id=4028027083934101&amp;display=popup&amp;hashtag=dev&amp;href=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Fhow-to-center-sign-up-form-in-3-simple-steps%2F"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--fb">
+            <div class="fab fa-facebook-f"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://twitter.com/intent/tweet?hashtags=dev&amp;original_referer=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Fhow-to-center-sign-up-form-in-3-simple-steps%2F&amp;ref_src=twsrc%5Etfw&amp;related=ilonacodes&amp;text=How&#43;to&#43;Center&#43;Sign&#43;Up&#43;Form&#43;in&#43;3&#43;Simple&#43;Steps&amp;tw_p=tweetbutton&amp;url=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Fhow-to-center-sign-up-form-in-3-simple-steps%2F&amp;via=ilonacodes"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--tw">
+            <div class="fab fa-twitter"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Fhow-to-center-sign-up-form-in-3-simple-steps%2F"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--li">
+            <div class="fab fa-linkedin-in"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://ilonacodes.com/index.xml"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--rss">
+            <div class="fa fa-rss"></div>
+        </a>
+    </div>
+</div>
+        </div>
+
+        <div class="post__body">
+            
+                <p>Hi, everyone!</p>
+<p>I am very happy to welcome you on my blog. A couple of days ago I started creating my new project (that I will have presented to you in a couple of weeks). And I have faced the following problem: I wanted to build a page with Sign Up form, and this page doesn&rsquo;t have any other content.  In that case, it made a lot of sense to center the form, both horizontally and vertically. First of all, I have done some research, tried some solutions, and I want to present what worked for me.</p>
+<h2 id="step-1--set-up-correct-markup-structure">Step 1:  Set up correct markup structure</h2>
+<p>My form had both header and form elements, so I had to wrap it in a &ldquo;div&rdquo; container with a particular class so that I can style it:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;sign-up-form&#34;</span>&gt;
+    &lt;<span style="color:#f92672">h1</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;sign-up-title&#34;</span>&gt;Sign Up&lt;/<span style="color:#f92672">h1</span>&gt;
+    &lt;<span style="color:#f92672">form</span>&gt;
+        &lt;<span style="color:#f92672">input</span> <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;email&#34;</span> <span style="color:#a6e22e">placeholder</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Email&#34;</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;email&#34;</span>/&gt;
+        &lt;<span style="color:#f92672">input</span> <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;password&#34;</span> <span style="color:#a6e22e">placeholder</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Password&#34;</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;password&#34;</span>/&gt;
+        &lt;<span style="color:#f92672">input</span> <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;submit&#34;</span> <span style="color:#a6e22e">value</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Continue&#34;</span>/&gt;
+    &lt;/<span style="color:#f92672">form</span>&gt;
+&lt;/<span style="color:#f92672">div</span>&gt;
+</code></pre></div><p>This container (with class &ldquo;sign-up-form&rdquo;) is the one that we want to center. Therefore, we need also to wrap it in another container (with class &ldquo;center-container&rdquo;) inside which we are centering:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;center-container&#34;</span>&gt;
+    &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;sign-up-form&#34;</span>&gt;
+            ...
+    &lt;/<span style="color:#f92672">div</span>&gt;
+&lt;/<span style="color:#f92672">div</span>&gt;
+</code></pre></div><h2 id="step-2-preparing-the-page-for-centering">Step 2: Preparing the page for centering</h2>
+<p>The page should occupy the full screen so that we can center the form. That means we need give the page correct size, margins, and paddings:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css"><span style="color:#f92672">html</span><span style="color:#f92672">,</span> <span style="color:#f92672">body</span> {
+    <span style="color:#66d9ef">margin</span>: <span style="color:#ae81ff">0</span>;
+    <span style="color:#66d9ef">padding</span>: <span style="color:#ae81ff">0</span>;
+    <span style="color:#66d9ef">width</span>: <span style="color:#ae81ff">100</span><span style="color:#66d9ef">%</span>;
+    <span style="color:#66d9ef">height</span>: <span style="color:#ae81ff">100</span><span style="color:#66d9ef">%</span>;
+}
+</code></pre></div><p>To be able to center the form container we can add &ldquo;display: table&rdquo;:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css"><span style="color:#f92672">html</span><span style="color:#f92672">,</span> <span style="color:#f92672">body</span> {
+    <span style="color:#66d9ef">margin</span>: <span style="color:#ae81ff">0</span>;
+    <span style="color:#66d9ef">padding</span>: <span style="color:#ae81ff">0</span>;
+    <span style="color:#66d9ef">width</span>: <span style="color:#ae81ff">100</span><span style="color:#66d9ef">%</span>;
+    <span style="color:#66d9ef">height</span>: <span style="color:#ae81ff">100</span><span style="color:#66d9ef">%</span>;
+    <span style="color:#66d9ef">display</span>: <span style="color:#66d9ef">table</span>;
+}
+</code></pre></div><h2 id="step-3-center-the-form-container">Step 3: Center the form container</h2>
+<p>Now we are going to center the form vertically and horizontally:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css">.<span style="color:#a6e22e">center-container</span> {
+    <span style="color:#66d9ef">display</span>: <span style="color:#66d9ef">table</span><span style="color:#f92672">-</span><span style="color:#66d9ef">cell</span>;
+    <span style="color:#66d9ef">text-align</span>: <span style="color:#66d9ef">center</span>;
+    <span style="color:#66d9ef">vertical-align</span>: <span style="color:#66d9ef">middle</span>;
+}
+</code></pre></div><p>Also, we have to make the form container of the same size as its content. For that, we can use &ldquo;display: table&rdquo; and &ldquo;margin: 0 auto&rdquo;:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css">.<span style="color:#a6e22e">sign-up-form</span> {
+    <span style="color:#66d9ef">display</span>: <span style="color:#66d9ef">table</span>;
+    <span style="color:#66d9ef">margin</span>: <span style="color:#ae81ff">0</span> <span style="color:#66d9ef">auto</span>;
+}
+</code></pre></div><h2 id="conclusion">Conclusion</h2>
+<p>That&rsquo;s it. Now we can center our sign up form.</p>
+<p>Thank you for reading.</p>
+
+            
+        </div>
+
+        
+
+        
+            <div class="post__reactions reactions-root" data-resource-id="https://www.ilonacodes.com/blog/how-to-center-sign-up-form-in-3-simple-steps/">
 </div>
 
-		
+        
 
-		<div class="post__tags d-md-none">
-			
-				Tags |
-				
-				
-					<a href="/tags/css">
-						<span class="post__tag">
-							#css
-						</span>
-					</a>
-				
-					<a href="/tags/html">
-						<span class="post__tag">
-							#html
-						</span>
-					</a>
-				
-			
-		</div>
-	</div>
+        <div class="post__tags d-md-none">
+            
+                Tags |
+                
+                
+                    <a href="/tags/css">
+                <span class="post__tag">
+            #css
+            </span>
+                    </a>
+                
+                    <a href="/tags/html">
+                <span class="post__tag">
+            #html
+            </span>
+                    </a>
+                
+            
+        </div>
+
+        
+            <div class="blog__sharing row no-gutters align-items-center mt-4">
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <div class="col-auto mt-md-0 mt-2">
+        <a href="https://www.facebook.com/dialog/share?app_id=4028027083934101&amp;display=popup&amp;hashtag=dev&amp;href=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Fhow-to-center-sign-up-form-in-3-simple-steps%2F"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--fb">
+            <div class="fab fa-facebook-f"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://twitter.com/intent/tweet?hashtags=dev&amp;original_referer=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Fhow-to-center-sign-up-form-in-3-simple-steps%2F&amp;ref_src=twsrc%5Etfw&amp;related=ilonacodes&amp;text=How&#43;to&#43;Center&#43;Sign&#43;Up&#43;Form&#43;in&#43;3&#43;Simple&#43;Steps&amp;tw_p=tweetbutton&amp;url=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Fhow-to-center-sign-up-form-in-3-simple-steps%2F&amp;via=ilonacodes"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--tw">
+            <div class="fab fa-twitter"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Fhow-to-center-sign-up-form-in-3-simple-steps%2F"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--li">
+            <div class="fab fa-linkedin-in"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://ilonacodes.com/index.xml"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--rss">
+            <div class="fa fa-rss"></div>
+        </a>
+    </div>
+</div>
+        
+
+    </div>
 </div>
 
 

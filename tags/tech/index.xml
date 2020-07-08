@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tech on Ilona Who Codes</title>
+    <title>tech on Ilona Who Codes</title>
     <link>https://www.ilonacodes.com/tags/tech/</link>
-    <description>Recent content in Tech on Ilona Who Codes</description>
+    <description>Recent content in tech on Ilona Who Codes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 19 Jan 2019 10:40:05 +0100</lastBuildDate>
@@ -17,22 +17,13 @@
       <pubDate>Sat, 19 Jan 2019 10:40:05 +0100</pubDate>
       
       <guid>https://www.ilonacodes.com/blog/styling-form-with-different-states-and-storybook/</guid>
-      <description>&lt;p&gt;
-&lt;figure&gt;
-    
-        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/styling-storybook.jpg&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;source: Photo by Goran Ivos on Unsplash&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
+      <description>&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;https://www.ilonacodes.com/blog/images/styling-storybook.jpg&#34;/&gt; &lt;figcaption&gt;
+            &lt;h4&gt;source: Photo by Goran Ivos on Unsplash&lt;/h4&gt;
+        &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-There are a lot of different and efficient ways how to improve web app development speed while implementing and testing new features. One of them is to be able to reuse UI components.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+There are a lot of different and efficient ways how to improve web app development speed while implementing and testing new features. One of them is to be able to reuse UI components.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -41,22 +32,13 @@ There are a lot of different and efficient ways how to improve web app developme
       <pubDate>Fri, 11 Jan 2019 10:40:05 +0100</pubDate>
       
       <guid>https://www.ilonacodes.com/blog/harnessing-the-power-of-bootstrap-in-react-with-reactstrap/</guid>
-      <description>&lt;p&gt;
-&lt;figure&gt;
-    
-        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/reactstrap.jpg&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;source: bit.ly/2TJDcVt&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
+      <description>&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;https://www.ilonacodes.com/blog/images/reactstrap.jpg&#34;/&gt; &lt;figcaption&gt;
+            &lt;h4&gt;source: bit.ly/2TJDcVt&lt;/h4&gt;
+        &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-Nowadays there are a lot of UI frameworks for React like Bootstrap, UIKit, Semantic UI and so on. Depending on the project complexity and requirements, you decide which front-end framework would be used because the main reason is to ease your development process.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+Nowadays there are a lot of UI frameworks for React like Bootstrap, UIKit, Semantic UI and so on. Depending on the project complexity and requirements, you decide which front-end framework would be used because the main reason is to ease your development process.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -65,22 +47,13 @@ Nowadays there are a lot of UI frameworks for React like Bootstrap, UIKit, Seman
       <pubDate>Fri, 04 Jan 2019 10:40:05 +0100</pubDate>
       
       <guid>https://www.ilonacodes.com/blog/what-are-graphql-and-its-schemas/</guid>
-      <description>&lt;p&gt;
-&lt;figure&gt;
-    
-        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/what-are-graphql-and-its-schemas.jpg&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;source: Photo by Daniel Cheung on Unsplash&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
+      <description>&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;https://www.ilonacodes.com/blog/images/what-are-graphql-and-its-schemas.jpg&#34;/&gt; &lt;figcaption&gt;
+            &lt;h4&gt;source: Photo by Daniel Cheung on Unsplash&lt;/h4&gt;
+        &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-The last days I am spending time on learning &lt;a href=&#34;https://graphql.org/&#34;&gt;GraphQL&lt;/a&gt; and how its clients communicate between frontend and backend application parts.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+The last days I am spending time on learning &lt;a href=&#34;https://graphql.org/&#34;&gt;GraphQL&lt;/a&gt; and how its clients communicate between frontend and backend application parts.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -89,22 +62,13 @@ The last days I am spending time on learning &lt;a href=&#34;https://graphql.org
       <pubDate>Fri, 28 Dec 2018 10:40:05 +0100</pubDate>
       
       <guid>https://www.ilonacodes.com/blog/progress-bar-with-react-hooks/</guid>
-      <description>&lt;p&gt;
-&lt;figure&gt;
-    
-        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/progress-bar-with-react-hooks.jpg&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;source: Photo by Roman Kraft on Unsplash&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
+      <description>&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;https://www.ilonacodes.com/blog/images/progress-bar-with-react-hooks.jpg&#34;/&gt; &lt;figcaption&gt;
+            &lt;h4&gt;source: Photo by Roman Kraft on Unsplash&lt;/h4&gt;
+        &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-After &lt;strong&gt;React Hooks&lt;/strong&gt; introduction at &lt;a href=&#34;https://www.youtube.com/watch?v=dpw9EHDh2bM&#34;&gt;React Conf October 2018&lt;/a&gt; I decided to learn this approach how to use state and side-effects in React functional components.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+After &lt;strong&gt;React Hooks&lt;/strong&gt; introduction at &lt;a href=&#34;https://www.youtube.com/watch?v=dpw9EHDh2bM&#34;&gt;React Conf October 2018&lt;/a&gt; I decided to learn this approach how to use state and side-effects in React functional components.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -113,22 +77,13 @@ After &lt;strong&gt;React Hooks&lt;/strong&gt; introduction at &lt;a href=&#34;h
       <pubDate>Mon, 24 Dec 2018 10:40:05 +0100</pubDate>
       
       <guid>https://www.ilonacodes.com/blog/hacking-user-testing-with-reactjs/</guid>
-      <description>&lt;p&gt;
-&lt;figure&gt;
-    
-        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/hacking-user-testing.jpeg&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;source: https://bit.ly/2T8OJxc&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
+      <description>&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;https://www.ilonacodes.com/blog/images/hacking-user-testing.jpeg&#34;/&gt; &lt;figcaption&gt;
+            &lt;h4&gt;source: https://bit.ly/2T8OJxc&lt;/h4&gt;
+        &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-There are many tools available for designers to create beautiful user interfaces and user experiences. And today I want to share another approach on how to build interactive design prototypes with ReactJS and why.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+There are many tools available for designers to create beautiful user interfaces and user experiences. And today I want to share another approach on how to build interactive design prototypes with ReactJS and why.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -138,21 +93,12 @@ There are many tools available for designers to create beautiful user interfaces
       
       <guid>https://www.ilonacodes.com/blog/why-should-we-create-conversational-experiences-for-our-applications/</guid>
       <description>&lt;figure&gt;
-    
-        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/why-chatbots.jpg&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;Photo by Alex Knight on Unsplash: https://bit.ly/2Irl4K1&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
+    &lt;img src=&#34;https://www.ilonacodes.com/blog/images/why-chatbots.jpg&#34;/&gt; &lt;figcaption&gt;
+            &lt;h4&gt;Photo by Alex Knight on Unsplash: https://bit.ly/2Irl4K1&lt;/h4&gt;
+        &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-
-&lt;p&gt;These days, we are bridging the communication gap between human and computer. The next big thing is a conversational interface — the era of natural language processing. To highlight the point, nowadays there are two kinds of a conversational interface — virtual assistants (Siri, Alexa) and chatbots (like Slackbot, Telegram), which through “human” experience help end user to complete the specific task.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;These days, we are bridging the communication gap between human and computer. The next big thing is a conversational interface — the era of natural language processing. To highlight the point, nowadays there are two kinds of a conversational interface — virtual assistants (Siri, Alexa) and chatbots (like Slackbot, Telegram), which through “human” experience help end user to complete the specific task.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -162,21 +108,12 @@ There are many tools available for designers to create beautiful user interfaces
       
       <guid>https://www.ilonacodes.com/blog/how-to-avoid-duplication-of-common-wrapper-behavior-in-react-using-children-prop/</guid>
       <description>&lt;figure&gt;
-    
-        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/react-children-prop.jpeg&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;source: bit.ly/2xzBpaF&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
+    &lt;img src=&#34;https://www.ilonacodes.com/blog/images/react-children-prop.jpeg&#34;/&gt; &lt;figcaption&gt;
+            &lt;h4&gt;source: bit.ly/2xzBpaF&lt;/h4&gt;
+        &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-
-&lt;p&gt;When I was learning React there were a couple things that I couldn&amp;rsquo;t clearly understand and one of them was &lt;strong&gt;children prop&lt;/strong&gt;. That is until I faced the problem similar to the following one.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;When I was learning React there were a couple things that I couldn&amp;rsquo;t clearly understand and one of them was &lt;strong&gt;children prop&lt;/strong&gt;. That is until I faced the problem similar to the following one.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -186,21 +123,12 @@ There are many tools available for designers to create beautiful user interfaces
       
       <guid>https://www.ilonacodes.com/blog/simple-image-carousel-with-react/</guid>
       <description>&lt;figure&gt;
-    
-        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/simple-image-carousel-with-react.jpeg&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;source: bit.ly/2CtMqAO&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
+    &lt;img src=&#34;https://www.ilonacodes.com/blog/images/simple-image-carousel-with-react.jpeg&#34;/&gt; &lt;figcaption&gt;
+            &lt;h4&gt;source: bit.ly/2CtMqAO&lt;/h4&gt;
+        &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-
-&lt;p&gt;Here we are! Due to my master thesis at the university, one of the requirements is the implementation of an interactive mockup for the university WebTV platform. So, I decided to make it with React.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;Here we are! Due to my master thesis at the university, one of the requirements is the implementation of an interactive mockup for the university WebTV platform. So, I decided to make it with React.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -210,21 +138,12 @@ There are many tools available for designers to create beautiful user interfaces
       
       <guid>https://www.ilonacodes.com/blog/simple-state-machine-with-redux/</guid>
       <description>&lt;figure&gt;
-    
-        &lt;img src=&#34;https://www.ilonacodes.com/blog/simple-state-machine-with-redux.jpeg&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;https://bit.ly/2wIeeNU&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
+    &lt;img src=&#34;https://www.ilonacodes.com/blog/simple-state-machine-with-redux.jpeg&#34;/&gt; &lt;figcaption&gt;
+            &lt;h4&gt;https://bit.ly/2wIeeNU&lt;/h4&gt;
+        &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-
-&lt;p&gt;The last days I am working on the project, which should include the state machine. Implementing this project with React, I decided to use the Redux framework to manage state in my React application. Moreover, thanks to redux store we can debug data (in one place) easily.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;The last days I am working on the project, which should include the state machine. Implementing this project with React, I decided to use the Redux framework to manage state in my React application. Moreover, thanks to redux store we can debug data (in one place) easily.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -234,21 +153,12 @@ There are many tools available for designers to create beautiful user interfaces
       
       <guid>https://www.ilonacodes.com/blog/creating-floating-label-placeholder-for-input-with-react/</guid>
       <description>&lt;figure&gt;
-    
-        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/creating-floating-label-cover.jpeg&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;source: https://www.pexels.com/photo/several-assorted-color-tags-697059/&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
+    &lt;img src=&#34;https://www.ilonacodes.com/blog/images/creating-floating-label-cover.jpeg&#34;/&gt; &lt;figcaption&gt;
+            &lt;h4&gt;source: https://www.pexels.com/photo/several-assorted-color-tags-697059/&lt;/h4&gt;
+        &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-
-&lt;p&gt;To make the application fancy, front-end web developers usually visualize it using animations or other effects. And now I am going to explain one of the methods how to apply the most famous floating label effect to the input field with React.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;To make the application fancy, front-end web developers usually visualize it using animations or other effects. And now I am going to explain one of the methods how to apply the most famous floating label effect to the input field with React.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -258,21 +168,12 @@ There are many tools available for designers to create beautiful user interfaces
       
       <guid>https://www.ilonacodes.com/blog/internationalize-your-app-with-react/</guid>
       <description>&lt;figure&gt;
-    
-        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/intl-your-app-with-react.jpeg&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;source: https://www.pexels.com/photo/ball-shaped-blur-close-up-focus-346885/&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
+    &lt;img src=&#34;https://www.ilonacodes.com/blog/images/intl-your-app-with-react.jpeg&#34;/&gt; &lt;figcaption&gt;
+            &lt;h4&gt;source: https://www.pexels.com/photo/ball-shaped-blur-close-up-focus-346885/&lt;/h4&gt;
+        &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-
-&lt;p&gt;Nowadays any viable product pursues the goal to grow globally. That means the successful online product is supposed to have minimum two language locales. One of them is english as an international language, and the other one depends on the spoken language of the target audience (usually domestic).&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;Nowadays any viable product pursues the goal to grow globally. That means the successful online product is supposed to have minimum two language locales. One of them is english as an international language, and the other one depends on the spoken language of the target audience (usually domestic).&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -282,21 +183,12 @@ There are many tools available for designers to create beautiful user interfaces
       
       <guid>https://www.ilonacodes.com/blog/business-goals-and-user-needs/</guid>
       <description>&lt;figure&gt;
-    
-        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/business-goals-and-user-needs.jpeg&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;source: https://www.pexels.com/photo/woman-in-black-coat-1181346/&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
+    &lt;img src=&#34;https://www.ilonacodes.com/blog/images/business-goals-and-user-needs.jpeg&#34;/&gt; &lt;figcaption&gt;
+            &lt;h4&gt;source: https://www.pexels.com/photo/woman-in-black-coat-1181346/&lt;/h4&gt;
+        &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-
-&lt;p&gt;To understand the business goals is just as important as understanding user needs. Without that, the chances of creating useful and viable products are low. Here is why.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;To understand the business goals is just as important as understanding user needs. Without that, the chances of creating useful and viable products are low. Here is why.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -306,22 +198,13 @@ There are many tools available for designers to create beautiful user interfaces
       
       <guid>https://www.ilonacodes.com/blog/content-first-in-web-design/</guid>
       <description>&lt;figure&gt;
-    
-        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/content-first-in-web-design.jpeg&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;source: https://www.pexels.com/photo/startup-planning-notes-mac-book-7357/&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
+    &lt;img src=&#34;https://www.ilonacodes.com/blog/images/content-first-in-web-design.jpeg&#34;/&gt; &lt;figcaption&gt;
+            &lt;h4&gt;source: https://www.pexels.com/photo/startup-planning-notes-mac-book-7357/&lt;/h4&gt;
+        &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-
 &lt;p&gt;From the title, you already guessed that I am going to speak about the design of the product, app or website that starts with content first.
-In my opinion, there are many advantages to applying the content first approach.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+In my opinion, there are many advantages to applying the content first approach.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -331,22 +214,13 @@ In my opinion, there are many advantages to applying the content first approach.
       
       <guid>https://www.ilonacodes.com/blog/how-to-choose-the-best-color/</guid>
       <description>&lt;figure&gt;
-    
-        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/how-to-choose-the-best-color.jpeg&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;source: https://www.pexels.com/photo/low-angle-of-colorful-glass-panels-under-blue-sky-1048043/&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
+    &lt;img src=&#34;https://www.ilonacodes.com/blog/images/how-to-choose-the-best-color.jpeg&#34;/&gt; &lt;figcaption&gt;
+            &lt;h4&gt;source: https://www.pexels.com/photo/low-angle-of-colorful-glass-panels-under-blue-sky-1048043/&lt;/h4&gt;
+        &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-
 &lt;p&gt;If you really want to get better at color, start studying it.
-Picking the right colors is something that might seem easy at first. And when you are starting down a color wheel, you are going to wish you had some information on what you are looking for.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+Picking the right colors is something that might seem easy at first. And when you are starting down a color wheel, you are going to wish you had some information on what you are looking for.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -356,21 +230,12 @@ Picking the right colors is something that might seem easy at first. And when yo
       
       <guid>https://www.ilonacodes.com/blog/how-to-hack-your-front-end-career-with-ux/</guid>
       <description>&lt;figure&gt;
-    
-        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/hack-career-with-ux.jpeg&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;source: https://www.pexels.com/photo/pink-revolver-gun-1056555/&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
+    &lt;img src=&#34;https://www.ilonacodes.com/blog/images/hack-career-with-ux.jpeg&#34;/&gt; &lt;figcaption&gt;
+            &lt;h4&gt;source: https://www.pexels.com/photo/pink-revolver-gun-1056555/&lt;/h4&gt;
+        &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-
-&lt;p&gt;You must be thinking that as a front-end developer, you are developing websites / online products using HTML, CSS-styling, JavaScript and other different Frameworks to make them good looking by implementing user interfaces from the mockups.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;You must be thinking that as a front-end developer, you are developing websites / online products using HTML, CSS-styling, JavaScript and other different Frameworks to make them good looking by implementing user interfaces from the mockups.&lt;/p&gt;</description>
     </item>
     
   </channel>

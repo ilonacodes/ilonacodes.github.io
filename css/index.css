@@ -6386,6 +6386,31 @@ img {
       font-size: 28px !important; }
     .post .post__body i {
       font-weight: 200; }
+  .post .post__sharing-item {
+    text-align: center;
+    font-size: 80%;
+    padding: .6rem 2rem;
+    line-height: 1;
+    cursor: pointer;
+    min-width: 80px;
+    display: block;
+    color: white; }
+    .post .post__sharing-item--fb {
+      background-color: #698acc; }
+    .post .post__sharing-item--fb:hover {
+      background-color: #436cbf; }
+    .post .post__sharing-item--tw {
+      background-color: #36c6f4; }
+    .post .post__sharing-item--tw:hover {
+      background-color: #0db5ea; }
+    .post .post__sharing-item--li {
+      background-color: #409cdb; }
+    .post .post__sharing-item--li:hover {
+      background-color: #2583c3; }
+    .post .post__sharing-item--rss {
+      background-color: indianred; }
+    .post .post__sharing-item--rss:hover {
+      background-color: #bc3a3a; }
   .post .post__reactions {
     margin-bottom: 15px; }
   .post .post__read-full {

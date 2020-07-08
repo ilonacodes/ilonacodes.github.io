@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Womenwhocode on Ilona Who Codes</title>
+    <title>womenwhocode on Ilona Who Codes</title>
     <link>https://www.ilonacodes.com/tags/womenwhocode/</link>
-    <description>Recent content in Womenwhocode on Ilona Who Codes</description>
+    <description>Recent content in womenwhocode on Ilona Who Codes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 23 Apr 2018 23:30:05 +0100</lastBuildDate>
@@ -68,7 +68,7 @@ const ImportFromFileBodyComponent = () =&amp;gt; { let fileReader; const handleF
       <description>There are many possibilities how to remove multiple items from the array with JavaScript. So in this tutorial, I am going to share my approach to delete function with React+Redux.
 It&amp;rsquo;s front-end shorts, and I am trying to highlight the most important information. Thus, just let’s have a look at the significant code snippets with explanations:
 I have created the action:
-// expenseActions.js export const t = { ... DELETE_EXPENSE: &#39;DELETE_EXPENSE&#39;, .</description>
+// expenseActions.js  export const t = { ... DELETE_EXPENSE: &amp;#39;DELETE_EXPENSE&amp;#39;, .</description>
     </item>
     
     <item>

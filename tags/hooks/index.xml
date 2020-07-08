@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hooks on Ilona Who Codes</title>
+    <title>hooks on Ilona Who Codes</title>
     <link>https://www.ilonacodes.com/tags/hooks/</link>
-    <description>Recent content in Hooks on Ilona Who Codes</description>
+    <description>Recent content in hooks on Ilona Who Codes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 28 Dec 2018 10:40:05 +0100</lastBuildDate>
@@ -17,22 +17,13 @@
       <pubDate>Fri, 28 Dec 2018 10:40:05 +0100</pubDate>
       
       <guid>https://www.ilonacodes.com/blog/progress-bar-with-react-hooks/</guid>
-      <description>&lt;p&gt;
-&lt;figure&gt;
-    
-        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/progress-bar-with-react-hooks.jpg&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;source: Photo by Roman Kraft on Unsplash&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
+      <description>&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;https://www.ilonacodes.com/blog/images/progress-bar-with-react-hooks.jpg&#34;/&gt; &lt;figcaption&gt;
+            &lt;h4&gt;source: Photo by Roman Kraft on Unsplash&lt;/h4&gt;
+        &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-After &lt;strong&gt;React Hooks&lt;/strong&gt; introduction at &lt;a href=&#34;https://www.youtube.com/watch?v=dpw9EHDh2bM&#34;&gt;React Conf October 2018&lt;/a&gt; I decided to learn this approach how to use state and side-effects in React functional components.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+After &lt;strong&gt;React Hooks&lt;/strong&gt; introduction at &lt;a href=&#34;https://www.youtube.com/watch?v=dpw9EHDh2bM&#34;&gt;React Conf October 2018&lt;/a&gt; I decided to learn this approach how to use state and side-effects in React functional components.&lt;/p&gt;</description>
     </item>
     
   </channel>

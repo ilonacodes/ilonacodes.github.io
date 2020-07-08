@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Webdevelopment on Ilona Who Codes</title>
+    <title>webdevelopment on Ilona Who Codes</title>
     <link>https://www.ilonacodes.com/tags/webdevelopment/</link>
-    <description>Recent content in Webdevelopment on Ilona Who Codes</description>
+    <description>Recent content in webdevelopment on Ilona Who Codes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 13 May 2018 07:00:05 +0100</lastBuildDate>
@@ -18,21 +18,12 @@
       
       <guid>https://www.ilonacodes.com/blog/how-to-hack-your-front-end-career-with-ux/</guid>
       <description>&lt;figure&gt;
-    
-        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/hack-career-with-ux.jpeg&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;source: https://www.pexels.com/photo/pink-revolver-gun-1056555/&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
+    &lt;img src=&#34;https://www.ilonacodes.com/blog/images/hack-career-with-ux.jpeg&#34;/&gt; &lt;figcaption&gt;
+            &lt;h4&gt;source: https://www.pexels.com/photo/pink-revolver-gun-1056555/&lt;/h4&gt;
+        &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-
-&lt;p&gt;You must be thinking that as a front-end developer, you are developing websites / online products using HTML, CSS-styling, JavaScript and other different Frameworks to make them good looking by implementing user interfaces from the mockups.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;You must be thinking that as a front-end developer, you are developing websites / online products using HTML, CSS-styling, JavaScript and other different Frameworks to make them good looking by implementing user interfaces from the mockups.&lt;/p&gt;</description>
     </item>
     
   </channel>

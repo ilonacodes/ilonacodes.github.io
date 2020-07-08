@@ -37,7 +37,7 @@
     
     <meta property="og:tags" content="localstorage">
     
-    <meta name="generator" content="Hugo 0.44" />
+    <meta name="generator" content="Hugo 0.73.0" />
     <title>Persisting data using local storage with React&#43;Redux &middot; Ilona Who Codes</title>
     
     
@@ -132,290 +132,374 @@
       <main>
       	<article>
       		<div class="post row">
-	<div class="post__meta-column col-3 d-none d-md-block">
-		<div class="row no-gutters post__meta-column__date">
-			
-			
-			
-			<div class="col text-center post__meta-column__day">
-				10
-			</div>
-			<div class="col">
-				<div class="post__meta-column__month">Oct</div>
-				<div class="post__meta-column__year">2017</div>
-			</div>
-		</div>
+    <div class="post__meta-column col-3 d-none d-md-block">
+        <div class="row no-gutters post__meta-column__date">
+            
+            
+            
+            <div class="col text-center post__meta-column__day">
+                10
+            </div>
+            <div class="col">
+                <div class="post__meta-column__month">Oct</div>
+                <div class="post__meta-column__year">2017</div>
+            </div>
+        </div>
 
-		<div class="row">
-			<div class="col post__meta-column__tags">
-				
-					
-					
-						<a href="/tags/react">
-							<div class="post__tag">
-								#react
-							</div>
-						</a>
-					
-						<a href="/tags/reactjs">
-							<div class="post__tag">
-								#reactjs
-							</div>
-						</a>
-					
-						<a href="/tags/redux">
-							<div class="post__tag">
-								#redux
-							</div>
-						</a>
-					
-						<a href="/tags/learntocode">
-							<div class="post__tag">
-								#learntocode
-							</div>
-						</a>
-					
-						<a href="/tags/beginners">
-							<div class="post__tag">
-								#beginners
-							</div>
-						</a>
-					
-						<a href="/tags/coding">
-							<div class="post__tag">
-								#coding
-							</div>
-						</a>
-					
-						<a href="/tags/letsgetcoding">
-							<div class="post__tag">
-								#letsgetcoding
-							</div>
-						</a>
-					
-						<a href="/tags/data">
-							<div class="post__tag">
-								#data
-							</div>
-						</a>
-					
-						<a href="/tags/localstorage">
-							<div class="post__tag">
-								#localstorage
-							</div>
-						</a>
-					
-				
-			</div>
-		</div>
+        <div class="row">
+            <div class="col post__meta-column__tags">
+                
+                    
+                    
+                        <a href="/tags/react">
+                            <div class="post__tag">
+                                #react
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/reactjs">
+                            <div class="post__tag">
+                                #reactjs
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/redux">
+                            <div class="post__tag">
+                                #redux
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/learntocode">
+                            <div class="post__tag">
+                                #learntocode
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/beginners">
+                            <div class="post__tag">
+                                #beginners
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/coding">
+                            <div class="post__tag">
+                                #coding
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/letsgetcoding">
+                            <div class="post__tag">
+                                #letsgetcoding
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/data">
+                            <div class="post__tag">
+                                #data
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/localstorage">
+                            <div class="post__tag">
+                                #localstorage
+                            </div>
+                        </a>
+                    
+                
+            </div>
+        </div>
 
-		
-		<div class="row justify-content-end">
-			<div class="col-auto">
-				<div class="post__reactions reactions-root" data-resource-id="https://www.ilonacodes.com/blog/persisting-data-using-local-storage-react-redux/">
+        
+            <div class="row justify-content-end">
+                <div class="col-auto">
+                    <div class="post__reactions reactions-root" data-resource-id="https://www.ilonacodes.com/blog/persisting-data-using-local-storage-react-redux/">
 </div>
 
-			</div>
-		</div>
-		
-	</div>
+                </div>
+            </div>
+        
+    </div>
 
-	<div class="post__primary-column col col-md-8 col-lg-9">
-		
-			<h1 class="post__title">
-				Persisting data using local storage with React&#43;Redux
-			</h1>
-		
+    <div class="post__primary-column col col-md-8 col-lg-9">
+        
+            <h1 class="post__title">
+                Persisting data using local storage with React&#43;Redux
+            </h1>
+        
 
-		<div class="post__date d-md-none">
-			10 Oct, 2017
-		</div>
+        <div class="post__date d-md-none">
+            10 Oct, 2017
+        </div>
 
-		
+        
 
-		<div class="post__body">
-      
-        <p>Let&rsquo;s continue developing an Interactive ToDo List. Refer to the <a href="/blog/react-for-very-very-beginners/">previous posts</a> you notice that we are almost done with the basic functionality of the application. And today I would like to start the topic about persisting the data and restoring it after refreshing the page or starting a new session on the local machine with React+Redux.</p>
-
-<p>Changing into the <code>my-daily-todos</code> project, then to <code>src</code> folder where you find <code>index.js</code>. Here we store all the app’s state in the <code>store</code> variable. Now we are also going to add a new variable that will keep the initial state and a new constant <code>persistedState</code> that allows us to get the persisted state from store passing to method <code>getItem</code> of <code>localStorage</code> =&gt; <code>localStorage.getItem('reduxState')</code>:</p>
-
-<p>So, the <code>initState</code> variable has the default value – empty <code>{}</code>. If there is no persisted state in the local storage, it is going to stay empty.</p>
-
-<p>On the other hand, when there is some persisted state in the local storage, we are going to load that state and set <code>initState</code> to value, that we have just loaded.</p>
-
-<pre><code class="language-javascript">// my-daily-todos/src/index.js
-
-...
-
-import { App } from './App.js';
-import { tasksReducer } from './Tasks/reducers.js';
-import './index.css';
-
-let initState = {}
-const persistedState = localStorage.getItem('reduxState')
-
-// if persistedState is not empty then assign parsed persistedState to initState
-if (persistedState) {
-  initState = JSON.parse(persistedState)
-}
-
-...
-
-</code></pre>
-
-<p><span style="color:red">Notice that we are passing the second parameter <code>initState</code> to <code>createStore</code> method in <code>store</code>. The second parameter of <code>createStore</code> function is for setting the initial state of the store when the application is launched:</span></p>
-
-<pre><code class="language-javascript">// my-daily-todos/src/index.js
-
-...
-
-let store = createStore(
-  combineReducers({
-    tasks: tasksReducer,
-  }),
-  initState
-);
-
-...
-
-</code></pre>
-
-<p>Onward!</p>
-
-<p>We are going to use <code>subscribe</code> method of our <code>store</code>. That method will trigger the function we provide every time there is any change to the application state.</p>
-
-<p>We are going to supply a function that will get the whole state from the store using <code>getState()</code> method of <code>store</code>. Then it is going to convert that state object to a string using <code>JSON.stringify()</code>. Finally, it is going to persist that state using <code>localStorage.setItem()</code>:</p>
-
-<pre><code class="language-javascript">// my-daily-todos/src/index.js
-
-...
-
-store.subscribe(() =&gt; {
-  localStorage.setItem('reduxState', JSON.stringify(store.getState()))
-})
-
-...
-
-</code></pre>
-
-<p>That&rsquo;s it.</p>
-
-<p>To check how it works run the local server on your computer in the project folder with the <code>npm start</code> command. Afterwards, try to add and categorize some tasks by tags, then close the tab with the application or refresh the page to see that the data is stored successfully.</p>
-
-<p>Did you find another way how to implement it in our project? Let me know by <a href="mailto:demiluri@gmail.com">email</a> or write me a direct message on <a href="https://www.instagram.com/ilonacodes/">Instagram</a>. That is how the <code>index.js</code> should look like now:</p>
-
-<pre><code class="language-javascript">// my-daily-todos/src/index.js
-
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { Provider } from 'react-redux';
-import { createStore, combineReducers } from 'redux';
-
-import { App } from './App.js';
-import { tasksReducer } from './Tasks/reducers.js';
-import './index.css';
-
-let initState = {}
-const persistedState = localStorage.getItem('reduxState')
-if (persistedState) {
-  initState = JSON.parse(persistedState)
-}
-
-let store = createStore(
-  combineReducers({
-    tasks: tasksReducer,
-  }),
-  initState
-);
-
-store.subscribe(() =&gt; {
-  localStorage.setItem('reduxState', JSON.stringify(store.getState()))
-})
-
-ReactDOM.render(
-  &lt;Provider store={store}&gt;
-    &lt;App /&gt;
-  &lt;/Provider&gt;,
-  document.getElementById('root')
-);
-
-</code></pre>
-
-<p>If you enjoyed this post, I would be very grateful if you would help me spread the word by emailing it to a friend or sharing it on social networks. Thank you!</p>
-
-      
-		</div>
+        <div class="post__body">
+            <div class="blog__sharing row no-gutters align-items-center mt-4">
+    
+    
+    
+    
+    
+    
+    
+    
 
     
 
-		
-			<div class="post__reactions reactions-root" data-resource-id="https://www.ilonacodes.com/blog/persisting-data-using-local-storage-react-redux/">
+    
+
+    
+
+    <div class="col-auto mt-md-0 mt-2">
+        <a href="https://www.facebook.com/dialog/share?app_id=4028027083934101&amp;display=popup&amp;hashtag=dev&amp;href=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Fpersisting-data-using-local-storage-react-redux%2F"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--fb">
+            <div class="fab fa-facebook-f"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://twitter.com/intent/tweet?hashtags=dev&amp;original_referer=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Fpersisting-data-using-local-storage-react-redux%2F&amp;ref_src=twsrc%5Etfw&amp;related=ilonacodes&amp;text=Persisting&#43;data&#43;using&#43;local&#43;storage&#43;with&#43;React%2BRedux&amp;tw_p=tweetbutton&amp;url=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Fpersisting-data-using-local-storage-react-redux%2F&amp;via=ilonacodes"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--tw">
+            <div class="fab fa-twitter"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Fpersisting-data-using-local-storage-react-redux%2F"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--li">
+            <div class="fab fa-linkedin-in"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://ilonacodes.com/index.xml"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--rss">
+            <div class="fa fa-rss"></div>
+        </a>
+    </div>
+</div>
+        </div>
+
+        <div class="post__body">
+            
+                <p>Let&rsquo;s continue developing an Interactive ToDo List. Refer to the <a href="/blog/react-for-very-very-beginners/">previous posts</a> you notice that we are almost done with the basic functionality of the application. And today I would like to start the topic about persisting the data and restoring it after refreshing the page or starting a new session on the local machine with React+Redux.</p>
+<p>Changing into the <code>my-daily-todos</code> project, then to <code>src</code> folder where you find <code>index.js</code>. Here we store all the app’s state in the <code>store</code> variable. Now we are also going to add a new variable that will keep the initial state and a new constant <code>persistedState</code> that allows us to get the persisted state from store passing to method <code>getItem</code> of <code>localStorage</code> =&gt; <code>localStorage.getItem('reduxState')</code>:</p>
+<p>So, the <code>initState</code> variable has the default value – empty <code>{}</code>. If there is no persisted state in the local storage, it is going to stay empty.</p>
+<p>On the other hand, when there is some persisted state in the local storage, we are going to load that state and set <code>initState</code> to value, that we have just loaded.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#75715e">// my-daily-todos/src/index.js
+</span><span style="color:#75715e"></span>
+...
+
+<span style="color:#66d9ef">import</span> { <span style="color:#a6e22e">App</span> } <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;./App.js&#39;</span>;
+<span style="color:#66d9ef">import</span> { <span style="color:#a6e22e">tasksReducer</span> } <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;./Tasks/reducers.js&#39;</span>;
+<span style="color:#66d9ef">import</span> <span style="color:#e6db74">&#39;./index.css&#39;</span>;
+
+<span style="color:#66d9ef">let</span> <span style="color:#a6e22e">initState</span> <span style="color:#f92672">=</span> {}
+<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">persistedState</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">localStorage</span>.<span style="color:#a6e22e">getItem</span>(<span style="color:#e6db74">&#39;reduxState&#39;</span>)
+
+<span style="color:#75715e">// if persistedState is not empty then assign parsed persistedState to initState
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">persistedState</span>) {
+  <span style="color:#a6e22e">initState</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">JSON</span>.<span style="color:#a6e22e">parse</span>(<span style="color:#a6e22e">persistedState</span>)
+}
+
+...
+
+</code></pre></div><p><span style="color:red">Notice that we are passing the second parameter <code>initState</code> to <code>createStore</code> method in <code>store</code>. The second parameter of <code>createStore</code> function is for setting the initial state of the store when the application is launched:</span></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#75715e">// my-daily-todos/src/index.js
+</span><span style="color:#75715e"></span>
+...
+
+<span style="color:#66d9ef">let</span> <span style="color:#a6e22e">store</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">createStore</span>(
+  <span style="color:#a6e22e">combineReducers</span>({
+    <span style="color:#a6e22e">tasks</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">tasksReducer</span>,
+  }),
+  <span style="color:#a6e22e">initState</span>
+);
+
+...
+
+</code></pre></div><p>Onward!</p>
+<p>We are going to use <code>subscribe</code> method of our <code>store</code>. That method will trigger the function we provide every time there is any change to the application state.</p>
+<p>We are going to supply a function that will get the whole state from the store using <code>getState()</code> method of <code>store</code>. Then it is going to convert that state object to a string using <code>JSON.stringify()</code>. Finally, it is going to persist that state using <code>localStorage.setItem()</code>:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#75715e">// my-daily-todos/src/index.js
+</span><span style="color:#75715e"></span>
+...
+
+<span style="color:#a6e22e">store</span>.<span style="color:#a6e22e">subscribe</span>(() =&gt; {
+  <span style="color:#a6e22e">localStorage</span>.<span style="color:#a6e22e">setItem</span>(<span style="color:#e6db74">&#39;reduxState&#39;</span>, <span style="color:#a6e22e">JSON</span>.<span style="color:#a6e22e">stringify</span>(<span style="color:#a6e22e">store</span>.<span style="color:#a6e22e">getState</span>()))
+})
+
+...
+
+</code></pre></div><p>That&rsquo;s it.</p>
+<p>To check how it works run the local server on your computer in the project folder with the <code>npm start</code> command. Afterwards, try to add and categorize some tasks by tags, then close the tab with the application or refresh the page to see that the data is stored successfully.</p>
+<p>Did you find another way how to implement it in our project? Let me know by <a href="mailto:demiluri@gmail.com">email</a> or write me a direct message on <a href="https://www.instagram.com/ilonacodes/">Instagram</a>. That is how the <code>index.js</code> should look like now:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#75715e">// my-daily-todos/src/index.js
+</span><span style="color:#75715e"></span>
+<span style="color:#66d9ef">import</span> <span style="color:#a6e22e">React</span> <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;react&#39;</span>;
+<span style="color:#66d9ef">import</span> <span style="color:#a6e22e">ReactDOM</span> <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;react-dom&#39;</span>;
+<span style="color:#66d9ef">import</span> { <span style="color:#a6e22e">Provider</span> } <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;react-redux&#39;</span>;
+<span style="color:#66d9ef">import</span> { <span style="color:#a6e22e">createStore</span>, <span style="color:#a6e22e">combineReducers</span> } <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;redux&#39;</span>;
+
+<span style="color:#66d9ef">import</span> { <span style="color:#a6e22e">App</span> } <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;./App.js&#39;</span>;
+<span style="color:#66d9ef">import</span> { <span style="color:#a6e22e">tasksReducer</span> } <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;./Tasks/reducers.js&#39;</span>;
+<span style="color:#66d9ef">import</span> <span style="color:#e6db74">&#39;./index.css&#39;</span>;
+
+<span style="color:#66d9ef">let</span> <span style="color:#a6e22e">initState</span> <span style="color:#f92672">=</span> {}
+<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">persistedState</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">localStorage</span>.<span style="color:#a6e22e">getItem</span>(<span style="color:#e6db74">&#39;reduxState&#39;</span>)
+<span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">persistedState</span>) {
+  <span style="color:#a6e22e">initState</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">JSON</span>.<span style="color:#a6e22e">parse</span>(<span style="color:#a6e22e">persistedState</span>)
+}
+
+<span style="color:#66d9ef">let</span> <span style="color:#a6e22e">store</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">createStore</span>(
+  <span style="color:#a6e22e">combineReducers</span>({
+    <span style="color:#a6e22e">tasks</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">tasksReducer</span>,
+  }),
+  <span style="color:#a6e22e">initState</span>
+);
+
+<span style="color:#a6e22e">store</span>.<span style="color:#a6e22e">subscribe</span>(() =&gt; {
+  <span style="color:#a6e22e">localStorage</span>.<span style="color:#a6e22e">setItem</span>(<span style="color:#e6db74">&#39;reduxState&#39;</span>, <span style="color:#a6e22e">JSON</span>.<span style="color:#a6e22e">stringify</span>(<span style="color:#a6e22e">store</span>.<span style="color:#a6e22e">getState</span>()))
+})
+
+<span style="color:#a6e22e">ReactDOM</span>.<span style="color:#a6e22e">render</span>(
+  <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">Provider</span> <span style="color:#a6e22e">store</span><span style="color:#f92672">=</span>{<span style="color:#a6e22e">store</span>}<span style="color:#f92672">&gt;</span>
+    <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">App</span> <span style="color:#f92672">/&gt;</span>
+  <span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/Provider&gt;,</span>
+  document.<span style="color:#a6e22e">getElementById</span>(<span style="color:#e6db74">&#39;root&#39;</span>)
+);
+
+</code></pre></div><p>If you enjoyed this post, I would be very grateful if you would help me spread the word by emailing it to a friend or sharing it on social networks. Thank you!</p>
+
+            
+        </div>
+
+        
+
+        
+            <div class="post__reactions reactions-root" data-resource-id="https://www.ilonacodes.com/blog/persisting-data-using-local-storage-react-redux/">
 </div>
 
-		
+        
 
-		<div class="post__tags d-md-none">
-			
-				Tags |
-				
-				
-					<a href="/tags/react">
-						<span class="post__tag">
-							#react
-						</span>
-					</a>
-				
-					<a href="/tags/reactjs">
-						<span class="post__tag">
-							#reactjs
-						</span>
-					</a>
-				
-					<a href="/tags/redux">
-						<span class="post__tag">
-							#redux
-						</span>
-					</a>
-				
-					<a href="/tags/learntocode">
-						<span class="post__tag">
-							#learntocode
-						</span>
-					</a>
-				
-					<a href="/tags/beginners">
-						<span class="post__tag">
-							#beginners
-						</span>
-					</a>
-				
-					<a href="/tags/coding">
-						<span class="post__tag">
-							#coding
-						</span>
-					</a>
-				
-					<a href="/tags/letsgetcoding">
-						<span class="post__tag">
-							#letsgetcoding
-						</span>
-					</a>
-				
-					<a href="/tags/data">
-						<span class="post__tag">
-							#data
-						</span>
-					</a>
-				
-					<a href="/tags/localstorage">
-						<span class="post__tag">
-							#localstorage
-						</span>
-					</a>
-				
-			
-		</div>
-	</div>
+        <div class="post__tags d-md-none">
+            
+                Tags |
+                
+                
+                    <a href="/tags/react">
+                <span class="post__tag">
+            #react
+            </span>
+                    </a>
+                
+                    <a href="/tags/reactjs">
+                <span class="post__tag">
+            #reactjs
+            </span>
+                    </a>
+                
+                    <a href="/tags/redux">
+                <span class="post__tag">
+            #redux
+            </span>
+                    </a>
+                
+                    <a href="/tags/learntocode">
+                <span class="post__tag">
+            #learntocode
+            </span>
+                    </a>
+                
+                    <a href="/tags/beginners">
+                <span class="post__tag">
+            #beginners
+            </span>
+                    </a>
+                
+                    <a href="/tags/coding">
+                <span class="post__tag">
+            #coding
+            </span>
+                    </a>
+                
+                    <a href="/tags/letsgetcoding">
+                <span class="post__tag">
+            #letsgetcoding
+            </span>
+                    </a>
+                
+                    <a href="/tags/data">
+                <span class="post__tag">
+            #data
+            </span>
+                    </a>
+                
+                    <a href="/tags/localstorage">
+                <span class="post__tag">
+            #localstorage
+            </span>
+                    </a>
+                
+            
+        </div>
+
+        
+            <div class="blog__sharing row no-gutters align-items-center mt-4">
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <div class="col-auto mt-md-0 mt-2">
+        <a href="https://www.facebook.com/dialog/share?app_id=4028027083934101&amp;display=popup&amp;hashtag=dev&amp;href=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Fpersisting-data-using-local-storage-react-redux%2F"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--fb">
+            <div class="fab fa-facebook-f"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://twitter.com/intent/tweet?hashtags=dev&amp;original_referer=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Fpersisting-data-using-local-storage-react-redux%2F&amp;ref_src=twsrc%5Etfw&amp;related=ilonacodes&amp;text=Persisting&#43;data&#43;using&#43;local&#43;storage&#43;with&#43;React%2BRedux&amp;tw_p=tweetbutton&amp;url=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Fpersisting-data-using-local-storage-react-redux%2F&amp;via=ilonacodes"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--tw">
+            <div class="fab fa-twitter"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Fpersisting-data-using-local-storage-react-redux%2F"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--li">
+            <div class="fab fa-linkedin-in"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://ilonacodes.com/index.xml"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--rss">
+            <div class="fa fa-rss"></div>
+        </a>
+    </div>
+</div>
+        
+
+    </div>
 </div>
 
 

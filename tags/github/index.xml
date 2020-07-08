@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Github on Ilona Who Codes</title>
+    <title>GitHub on Ilona Who Codes</title>
     <link>https://www.ilonacodes.com/tags/github/</link>
-    <description>Recent content in Github on Ilona Who Codes</description>
+    <description>Recent content in GitHub on Ilona Who Codes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 10 Dec 2018 18:40:05 +0100</lastBuildDate>
@@ -17,24 +17,14 @@
       <pubDate>Mon, 10 Dec 2018 18:40:05 +0100</pubDate>
       
       <guid>https://www.ilonacodes.com/blog/fetching-github-user-with-rest-api-and-reactjs/</guid>
-      <description>&lt;p&gt;
-&lt;figure&gt;
-    
-        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/fetching.jpeg&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;source: https://bit.ly/2rv4HpO&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
+      <description>&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;https://www.ilonacodes.com/blog/images/fetching.jpeg&#34;/&gt; &lt;figcaption&gt;
+            &lt;h4&gt;source: https://bit.ly/2rv4HpO&lt;/h4&gt;
+        &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 In this post, I explain how you can find any user on GitHub through GitHub API using ReactJS, Redux, Saga, Axios, and Formik.&lt;/p&gt;
-
-&lt;p&gt;Why do we need to use this technology stack? Here is the short description:&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;Why do we need to use this technology stack? Here is the short description:&lt;/p&gt;</description>
     </item>
     
   </channel>

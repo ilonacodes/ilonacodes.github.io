@@ -31,7 +31,7 @@
     
     <meta property="og:tags" content="letsgetcoding">
     
-    <meta name="generator" content="Hugo 0.44" />
+    <meta name="generator" content="Hugo 0.73.0" />
     <title>React For Very Very Beginners &middot; Ilona Who Codes</title>
     
     
@@ -126,255 +126,327 @@
       <main>
       	<article>
       		<div class="post row">
-	<div class="post__meta-column col-3 d-none d-md-block">
-		<div class="row no-gutters post__meta-column__date">
-			
-			
-			
-			<div class="col text-center post__meta-column__day">
-				15
-			</div>
-			<div class="col">
-				<div class="post__meta-column__month">Sep</div>
-				<div class="post__meta-column__year">2017</div>
-			</div>
-		</div>
+    <div class="post__meta-column col-3 d-none d-md-block">
+        <div class="row no-gutters post__meta-column__date">
+            
+            
+            
+            <div class="col text-center post__meta-column__day">
+                15
+            </div>
+            <div class="col">
+                <div class="post__meta-column__month">Sep</div>
+                <div class="post__meta-column__year">2017</div>
+            </div>
+        </div>
 
-		<div class="row">
-			<div class="col post__meta-column__tags">
-				
-					
-					
-						<a href="/tags/react">
-							<div class="post__tag">
-								#react
-							</div>
-						</a>
-					
-						<a href="/tags/reactjs">
-							<div class="post__tag">
-								#reactjs
-							</div>
-						</a>
-					
-						<a href="/tags/learntocode">
-							<div class="post__tag">
-								#learntocode
-							</div>
-						</a>
-					
-						<a href="/tags/beginners">
-							<div class="post__tag">
-								#beginners
-							</div>
-						</a>
-					
-						<a href="/tags/coding">
-							<div class="post__tag">
-								#coding
-							</div>
-						</a>
-					
-						<a href="/tags/letsgetcoding">
-							<div class="post__tag">
-								#letsgetcoding
-							</div>
-						</a>
-					
-				
-			</div>
-		</div>
+        <div class="row">
+            <div class="col post__meta-column__tags">
+                
+                    
+                    
+                        <a href="/tags/react">
+                            <div class="post__tag">
+                                #react
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/reactjs">
+                            <div class="post__tag">
+                                #reactjs
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/learntocode">
+                            <div class="post__tag">
+                                #learntocode
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/beginners">
+                            <div class="post__tag">
+                                #beginners
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/coding">
+                            <div class="post__tag">
+                                #coding
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/letsgetcoding">
+                            <div class="post__tag">
+                                #letsgetcoding
+                            </div>
+                        </a>
+                    
+                
+            </div>
+        </div>
 
-		
-		<div class="row justify-content-end">
-			<div class="col-auto">
-				<div class="post__reactions reactions-root" data-resource-id="https://www.ilonacodes.com/blog/react-for-very-very-beginners/">
+        
+            <div class="row justify-content-end">
+                <div class="col-auto">
+                    <div class="post__reactions reactions-root" data-resource-id="https://www.ilonacodes.com/blog/react-for-very-very-beginners/">
 </div>
 
-			</div>
-		</div>
-		
-	</div>
+                </div>
+            </div>
+        
+    </div>
 
-	<div class="post__primary-column col col-md-8 col-lg-9">
-		
-			<h1 class="post__title">
-				React For Very Very Beginners
-			</h1>
-		
+    <div class="post__primary-column col col-md-8 col-lg-9">
+        
+            <h1 class="post__title">
+                React For Very Very Beginners
+            </h1>
+        
 
-		<div class="post__date d-md-none">
-			15 Sep, 2017
-		</div>
+        <div class="post__date d-md-none">
+            15 Sep, 2017
+        </div>
 
-		
+        
 
-		<div class="post__body">
-      
-        <p>The biggest challenge for beginners not only in front end development but also in the whole web development world is to find the answer to the question: How / Where should I start to learn web development? Some of these questions I have already received via private messages on social networks, and that encouraged me to create a series of small posts to write and complete the first app using JS (ECMA6) with React-Redux frameworks on which technologies I specialize.</p>
-
-<p>Our goal for the first application is to write an interactive daily TODO list application. In particular, by finishing this series, you should be able to understand the basic concepts, structures and &ldquo;communication&rdquo; between React-Redux in use.</p>
-
-<p>No more talking and let&rsquo;s start. I am sure my readers are pretty curious about how to manage and control operation flow on the computer and already familiar with some Unix commands to manage their stuff in command line. However, I am going to write down some of them that we will use. First, we should make a workspace directory for the app and then change into this directory.</p>
-
-<p>Type in the command line:</p>
-
-<pre><code>cd
-mkdir workspace
-cd workspace
-</code></pre>
-
-<p>And voilà! We are already inside the directory for our app!</p>
-
-<p>The next step is to install npm. It is a package manager for Node.js that creates some of your directory structure/organization. Also, helps with installing various packages and resolving their dependencies.</p>
-
-<p><span style="color:red"> If you didn&rsquo;t use Node.js before, you should install it. Just visit this link <a href="https://nodejs.org/en/download/">https://nodejs.org/en/download/</a> and install it. </span></p>
-
-<p>It will be enough for our app to type this command in the Unix command line:</p>
-
-<pre><code>npm install npm@latest -g
-</code></pre>
-
-<p>Don&rsquo;t forget to check the version of npm (double-check if it has been installed correctly) running this command in your terminal:</p>
-
-<pre><code>npm -v
-</code></pre>
-
-<p>Finally, we are ready to create our first React-App! Notice that we are still in the workspace directory and continue typing in the terminal the commands below:</p>
-
-<pre><code>npm install -g create-react-app
-create-react-app my-daily-todos
-</code></pre>
-
-<p>Yeah, here we are getting started with React. The first line allows us to install the global package and the second one to use it to create a new React App with the name &ldquo;my-daily-todos&rdquo;.</p>
-
-<p>Congratulations! You have installed your first React-App. And to see the results, how it looks like, we have to launch the development server:</p>
-
-<pre><code>npm start
-</code></pre>
-
-<p>And the browser will automatically open URL of the created React application on the random localhost address.
-Sure, you are encouraged to learn more about the React structure.</p>
-
-<p>So now we are moving to the next step: open our app and take a look at the code in your favorite text/code editor.
-Don&rsquo;t forget that the local server is still working and we could check our changes in the code by refreshing the page with the localhost address. Now I am going to render &ldquo;Oh, hi there!&rdquo; message. In our case, we have to open App.js (my-daily-todos/src/App.js). What should you see on the screen:</p>
-
-<pre><code class="language-javascript">import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
-
-class App extends Component {
-  render() {
-    return (
-      &lt;div className=&quot;App&quot;&gt;
-        &lt;div className=&quot;App-header&quot;&gt;
-          &lt;img src={logo} className=&quot;App-logo&quot; alt=&quot;logo&quot; /&gt;
-          &lt;h2&gt;Welcome to React&lt;/h2&gt;
-        &lt;/div&gt;
-        &lt;p className=&quot;App-intro&quot;&gt;
-          To get started, edit &lt;code&gt;src/App.js&lt;/code&gt; and save to reload.
-        &lt;/p&gt;
-      &lt;/div&gt;
-    );
-  }
-}
-
-export default App;
-
-</code></pre>
-
-<p>And then just to add a new paragraph-tag with the text: &ldquo;Oh, hi there!&rdquo; inside the <code>className</code> &ldquo;App&rdquo;, after the <code>className</code> &ldquo;App-intro&rdquo;:</p>
-
-<pre><code class="language-javascript">import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
-
-class App extends Component {
-  render() {
-    return (
-      &lt;div className=&quot;App&quot;&gt;
-        &lt;div className=&quot;App-header&quot;&gt;
-          &lt;img src={logo} className=&quot;App-logo&quot; alt=&quot;logo&quot; /&gt;
-          &lt;h2&gt;Welcome to React&lt;/h2&gt;
-        &lt;/div&gt;
-        &lt;p className=&quot;App-intro&quot;&gt;
-          To get started, edit &lt;code&gt;src/App.js&lt;/code&gt; and save to reload.
-        &lt;/p&gt;
-
-        &lt;p&gt;
-          Oh, hi there!
-        &lt;/p&gt;
-
-      &lt;/div&gt;
-    );
-  }
-}
-
-export default App;
-
-</code></pre>
-
-<p>After refreshing the localhost page, you should see the added text below the previous content.</p>
-
-<p>Hopefully,  you enjoyed my explanation how to start with React and would like to know more about the launching Redux, why we need it and look closer to all our dependencies in one file.</p>
-
-<p>Thank you for reading and your kind interest in my post!</p>
-
-      
-		</div>
+        <div class="post__body">
+            <div class="blog__sharing row no-gutters align-items-center mt-4">
+    
+    
+    
+    
+    
+    
+    
+    
 
     
 
-		
-			<div class="post__reactions reactions-root" data-resource-id="https://www.ilonacodes.com/blog/react-for-very-very-beginners/">
+    
+
+    
+
+    <div class="col-auto mt-md-0 mt-2">
+        <a href="https://www.facebook.com/dialog/share?app_id=4028027083934101&amp;display=popup&amp;hashtag=dev&amp;href=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Freact-for-very-very-beginners%2F"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--fb">
+            <div class="fab fa-facebook-f"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://twitter.com/intent/tweet?hashtags=dev&amp;original_referer=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Freact-for-very-very-beginners%2F&amp;ref_src=twsrc%5Etfw&amp;related=ilonacodes&amp;text=React&#43;For&#43;Very&#43;Very&#43;Beginners&amp;tw_p=tweetbutton&amp;url=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Freact-for-very-very-beginners%2F&amp;via=ilonacodes"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--tw">
+            <div class="fab fa-twitter"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Freact-for-very-very-beginners%2F"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--li">
+            <div class="fab fa-linkedin-in"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://ilonacodes.com/index.xml"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--rss">
+            <div class="fa fa-rss"></div>
+        </a>
+    </div>
+</div>
+        </div>
+
+        <div class="post__body">
+            
+                <p>The biggest challenge for beginners not only in front end development but also in the whole web development world is to find the answer to the question: How / Where should I start to learn web development? Some of these questions I have already received via private messages on social networks, and that encouraged me to create a series of small posts to write and complete the first app using JS (ECMA6) with React-Redux frameworks on which technologies I specialize.</p>
+<p>Our goal for the first application is to write an interactive daily TODO list application. In particular, by finishing this series, you should be able to understand the basic concepts, structures and &ldquo;communication&rdquo; between React-Redux in use.</p>
+<p>No more talking and let&rsquo;s start. I am sure my readers are pretty curious about how to manage and control operation flow on the computer and already familiar with some Unix commands to manage their stuff in command line. However, I am going to write down some of them that we will use. First, we should make a workspace directory for the app and then change into this directory.</p>
+<p>Type in the command line:</p>
+<pre><code>cd
+mkdir workspace
+cd workspace
+</code></pre><p>And voilà! We are already inside the directory for our app!</p>
+<p>The next step is to install npm. It is a package manager for Node.js that creates some of your directory structure/organization. Also, helps with installing various packages and resolving their dependencies.</p>
+<p><span style="color:red"> If you didn&rsquo;t use Node.js before, you should install it. Just visit this link <a href="https://nodejs.org/en/download/">https://nodejs.org/en/download/</a> and install it. </span></p>
+<p>It will be enough for our app to type this command in the Unix command line:</p>
+<pre><code>npm install npm@latest -g
+</code></pre><p>Don&rsquo;t forget to check the version of npm (double-check if it has been installed correctly) running this command in your terminal:</p>
+<pre><code>npm -v
+</code></pre><p>Finally, we are ready to create our first React-App! Notice that we are still in the workspace directory and continue typing in the terminal the commands below:</p>
+<pre><code>npm install -g create-react-app
+create-react-app my-daily-todos
+</code></pre><p>Yeah, here we are getting started with React. The first line allows us to install the global package and the second one to use it to create a new React App with the name &ldquo;my-daily-todos&rdquo;.</p>
+<p>Congratulations! You have installed your first React-App. And to see the results, how it looks like, we have to launch the development server:</p>
+<pre><code>npm start
+</code></pre><p>And the browser will automatically open URL of the created React application on the random localhost address.
+Sure, you are encouraged to learn more about the React structure.</p>
+<p>So now we are moving to the next step: open our app and take a look at the code in your favorite text/code editor.
+Don&rsquo;t forget that the local server is still working and we could check our changes in the code by refreshing the page with the localhost address. Now I am going to render &ldquo;Oh, hi there!&rdquo; message. In our case, we have to open App.js (my-daily-todos/src/App.js). What should you see on the screen:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">import</span> <span style="color:#a6e22e">React</span>, { <span style="color:#a6e22e">Component</span> } <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;react&#39;</span>;
+<span style="color:#66d9ef">import</span> <span style="color:#a6e22e">logo</span> <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;./logo.svg&#39;</span>;
+<span style="color:#66d9ef">import</span> <span style="color:#e6db74">&#39;./App.css&#39;</span>;
+
+<span style="color:#66d9ef">class</span> <span style="color:#a6e22e">App</span> <span style="color:#66d9ef">extends</span> <span style="color:#a6e22e">Component</span> {
+  <span style="color:#a6e22e">render</span>() {
+    <span style="color:#66d9ef">return</span> (
+      <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">div</span> <span style="color:#a6e22e">className</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;App&#34;</span><span style="color:#f92672">&gt;</span>
+        <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">div</span> <span style="color:#a6e22e">className</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;App-header&#34;</span><span style="color:#f92672">&gt;</span>
+          <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">img</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span>{<span style="color:#a6e22e">logo</span>} <span style="color:#a6e22e">className</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;App-logo&#34;</span> <span style="color:#a6e22e">alt</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;logo&#34;</span> <span style="color:#f92672">/&gt;</span>
+          <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">h2</span><span style="color:#f92672">&gt;</span><span style="color:#a6e22e">Welcome</span> <span style="color:#a6e22e">to</span> <span style="color:#a6e22e">React</span><span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/h2&gt;</span>
+        <span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/div&gt;</span>
+        <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">p</span> <span style="color:#a6e22e">className</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;App-intro&#34;</span><span style="color:#f92672">&gt;</span>
+          <span style="color:#a6e22e">To</span> <span style="color:#a6e22e">get</span> <span style="color:#a6e22e">started</span>, <span style="color:#a6e22e">edit</span> <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">code</span><span style="color:#f92672">&gt;</span><span style="color:#a6e22e">src</span><span style="color:#f92672">/</span><span style="color:#a6e22e">App</span>.<span style="color:#a6e22e">js</span><span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/code&gt; and save to reload.</span>
+        <span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/p&gt;</span>
+      <span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/div&gt;</span>
+    );
+  }
+}
+
+<span style="color:#66d9ef">export</span> <span style="color:#66d9ef">default</span> <span style="color:#a6e22e">App</span>;
+
+</code></pre></div><p>And then just to add a new paragraph-tag with the text: &ldquo;Oh, hi there!&rdquo; inside the <code>className</code> &ldquo;App&rdquo;, after the <code>className</code> &ldquo;App-intro&rdquo;:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">import</span> <span style="color:#a6e22e">React</span>, { <span style="color:#a6e22e">Component</span> } <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;react&#39;</span>;
+<span style="color:#66d9ef">import</span> <span style="color:#a6e22e">logo</span> <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;./logo.svg&#39;</span>;
+<span style="color:#66d9ef">import</span> <span style="color:#e6db74">&#39;./App.css&#39;</span>;
+
+<span style="color:#66d9ef">class</span> <span style="color:#a6e22e">App</span> <span style="color:#66d9ef">extends</span> <span style="color:#a6e22e">Component</span> {
+  <span style="color:#a6e22e">render</span>() {
+    <span style="color:#66d9ef">return</span> (
+      <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">div</span> <span style="color:#a6e22e">className</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;App&#34;</span><span style="color:#f92672">&gt;</span>
+        <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">div</span> <span style="color:#a6e22e">className</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;App-header&#34;</span><span style="color:#f92672">&gt;</span>
+          <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">img</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span>{<span style="color:#a6e22e">logo</span>} <span style="color:#a6e22e">className</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;App-logo&#34;</span> <span style="color:#a6e22e">alt</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;logo&#34;</span> <span style="color:#f92672">/&gt;</span>
+          <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">h2</span><span style="color:#f92672">&gt;</span><span style="color:#a6e22e">Welcome</span> <span style="color:#a6e22e">to</span> <span style="color:#a6e22e">React</span><span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/h2&gt;</span>
+        <span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/div&gt;</span>
+        <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">p</span> <span style="color:#a6e22e">className</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;App-intro&#34;</span><span style="color:#f92672">&gt;</span>
+          <span style="color:#a6e22e">To</span> <span style="color:#a6e22e">get</span> <span style="color:#a6e22e">started</span>, <span style="color:#a6e22e">edit</span> <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">code</span><span style="color:#f92672">&gt;</span><span style="color:#a6e22e">src</span><span style="color:#f92672">/</span><span style="color:#a6e22e">App</span>.<span style="color:#a6e22e">js</span><span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/code&gt; and save to reload.</span>
+        <span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/p&gt;</span>
+
+        <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">p</span><span style="color:#f92672">&gt;</span>
+          <span style="color:#a6e22e">Oh</span>, <span style="color:#a6e22e">hi</span> <span style="color:#a6e22e">there</span><span style="color:#f92672">!</span>
+        <span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/p&gt;</span>
+
+      <span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/div&gt;</span>
+    );
+  }
+}
+
+<span style="color:#66d9ef">export</span> <span style="color:#66d9ef">default</span> <span style="color:#a6e22e">App</span>;
+
+</code></pre></div><p>After refreshing the localhost page, you should see the added text below the previous content.</p>
+<p>Hopefully,  you enjoyed my explanation how to start with React and would like to know more about the launching Redux, why we need it and look closer to all our dependencies in one file.</p>
+<p>Thank you for reading and your kind interest in my post!</p>
+
+            
+        </div>
+
+        
+
+        
+            <div class="post__reactions reactions-root" data-resource-id="https://www.ilonacodes.com/blog/react-for-very-very-beginners/">
 </div>
 
-		
+        
 
-		<div class="post__tags d-md-none">
-			
-				Tags |
-				
-				
-					<a href="/tags/react">
-						<span class="post__tag">
-							#react
-						</span>
-					</a>
-				
-					<a href="/tags/reactjs">
-						<span class="post__tag">
-							#reactjs
-						</span>
-					</a>
-				
-					<a href="/tags/learntocode">
-						<span class="post__tag">
-							#learntocode
-						</span>
-					</a>
-				
-					<a href="/tags/beginners">
-						<span class="post__tag">
-							#beginners
-						</span>
-					</a>
-				
-					<a href="/tags/coding">
-						<span class="post__tag">
-							#coding
-						</span>
-					</a>
-				
-					<a href="/tags/letsgetcoding">
-						<span class="post__tag">
-							#letsgetcoding
-						</span>
-					</a>
-				
-			
-		</div>
-	</div>
+        <div class="post__tags d-md-none">
+            
+                Tags |
+                
+                
+                    <a href="/tags/react">
+                <span class="post__tag">
+            #react
+            </span>
+                    </a>
+                
+                    <a href="/tags/reactjs">
+                <span class="post__tag">
+            #reactjs
+            </span>
+                    </a>
+                
+                    <a href="/tags/learntocode">
+                <span class="post__tag">
+            #learntocode
+            </span>
+                    </a>
+                
+                    <a href="/tags/beginners">
+                <span class="post__tag">
+            #beginners
+            </span>
+                    </a>
+                
+                    <a href="/tags/coding">
+                <span class="post__tag">
+            #coding
+            </span>
+                    </a>
+                
+                    <a href="/tags/letsgetcoding">
+                <span class="post__tag">
+            #letsgetcoding
+            </span>
+                    </a>
+                
+            
+        </div>
+
+        
+            <div class="blog__sharing row no-gutters align-items-center mt-4">
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <div class="col-auto mt-md-0 mt-2">
+        <a href="https://www.facebook.com/dialog/share?app_id=4028027083934101&amp;display=popup&amp;hashtag=dev&amp;href=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Freact-for-very-very-beginners%2F"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--fb">
+            <div class="fab fa-facebook-f"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://twitter.com/intent/tweet?hashtags=dev&amp;original_referer=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Freact-for-very-very-beginners%2F&amp;ref_src=twsrc%5Etfw&amp;related=ilonacodes&amp;text=React&#43;For&#43;Very&#43;Very&#43;Beginners&amp;tw_p=tweetbutton&amp;url=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Freact-for-very-very-beginners%2F&amp;via=ilonacodes"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--tw">
+            <div class="fab fa-twitter"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Freact-for-very-very-beginners%2F"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--li">
+            <div class="fab fa-linkedin-in"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://ilonacodes.com/index.xml"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--rss">
+            <div class="fa fa-rss"></div>
+        </a>
+    </div>
+</div>
+        
+
+    </div>
 </div>
 
 

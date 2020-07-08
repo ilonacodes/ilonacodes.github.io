@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Devs on Ilona Who Codes</title>
+    <title>devs on Ilona Who Codes</title>
     <link>https://www.ilonacodes.com/tags/devs/</link>
-    <description>Recent content in Devs on Ilona Who Codes</description>
+    <description>Recent content in devs on Ilona Who Codes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 27 Oct 2019 10:20:05 +0100</lastBuildDate>
@@ -17,21 +17,14 @@
       <pubDate>Sun, 27 Oct 2019 10:20:05 +0100</pubDate>
       
       <guid>https://www.ilonacodes.com/blog/3-reasons-why-you-should-become-mentor-today/</guid>
-      <description>&lt;p&gt;
-&lt;figure&gt;
-    
-        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/reasons-why-you-should-become-mentor-today.jpg&#34; alt=&#34;Reasons Why You Should Become a Mentor Today&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;source: Photo by Joshua Ness on Unsplash&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
+      <description>&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;https://www.ilonacodes.com/blog/images/reasons-why-you-should-become-mentor-today.jpg&#34;
+         alt=&#34;Reasons Why You Should Become a Mentor Today&#34;/&gt; &lt;figcaption&gt;
+            &lt;h4&gt;source: Photo by Joshua Ness on Unsplash&lt;/h4&gt;
+        &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-Today a lot of professionals say that mentoring or coaching is too time-consuming. They have already a lot on their plate, or they just do not know enough to mentor someone.
-&lt;/p&gt;</description>
+Today a lot of professionals say that mentoring or coaching is too time-consuming. They have already a lot on their plate, or they just do not know enough to mentor someone.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -40,22 +33,14 @@ Today a lot of professionals say that mentoring or coaching is too time-consumin
       <pubDate>Fri, 06 Sep 2019 10:40:05 +0100</pubDate>
       
       <guid>https://www.ilonacodes.com/blog/the-best-way-to-achieve-your-life-goals/</guid>
-      <description>&lt;p&gt;
-&lt;figure&gt;
-    
-        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/the-best-way-to-achieve-your-life-goals.jpg&#34; alt=&#34;Achieve Life Goals&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;source: Photo by Balázs Utasi from Pexels&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
+      <description>&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;https://www.ilonacodes.com/blog/images/the-best-way-to-achieve-your-life-goals.jpg&#34;
+         alt=&#34;Achieve Life Goals&#34;/&gt; &lt;figcaption&gt;
+            &lt;h4&gt;source: Photo by Balázs Utasi from Pexels&lt;/h4&gt;
+        &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-Do you know what is one of the best things about being a woman who codes? That you can achieve your goals through code: build a career, become an entrepreneur, create a community, teach people, etc.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+Do you know what is one of the best things about being a woman who codes? That you can achieve your goals through code: build a career, become an entrepreneur, create a community, teach people, etc.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -64,22 +49,14 @@ Do you know what is one of the best things about being a woman who codes? That y
       <pubDate>Sat, 10 Aug 2019 10:40:05 +0100</pubDate>
       
       <guid>https://www.ilonacodes.com/blog/5-bad-habits-of-software-developers/</guid>
-      <description>&lt;p&gt;
-&lt;figure&gt;
-    
-        &lt;img src=&#34;https://www.ilonacodes.com/blog/images/5-bad-habits-of-software-developers.jpg&#34; alt=&#34;5 Bad Habits of Software Developers&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;source: Photo by Basil MK from Pexels&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
+      <description>&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;https://www.ilonacodes.com/blog/images/5-bad-habits-of-software-developers.jpg&#34;
+         alt=&#34;5 Bad Habits of Software Developers&#34;/&gt; &lt;figcaption&gt;
+            &lt;h4&gt;source: Photo by Basil MK from Pexels&lt;/h4&gt;
+        &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-There is no hard and fast rule as to how a programmer should program. So, there is nothing wrong if you have your own style of programming.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+There is no hard and fast rule as to how a programmer should program. So, there is nothing wrong if you have your own style of programming.&lt;/p&gt;</description>
     </item>
     
   </channel>

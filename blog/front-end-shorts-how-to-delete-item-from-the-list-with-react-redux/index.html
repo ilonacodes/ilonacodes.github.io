@@ -35,7 +35,7 @@
     
     <meta property="og:tags" content="womenwhocode">
     
-    <meta name="generator" content="Hugo 0.44" />
+    <meta name="generator" content="Hugo 0.73.0" />
     <title>Front-end Shorts: How to Delete Item From The List With React&#43;Redux &middot; Ilona Who Codes</title>
     
     
@@ -130,270 +130,361 @@
       <main>
       	<article>
       		<div class="post row">
-	<div class="post__meta-column col-3 d-none d-md-block">
-		<div class="row no-gutters post__meta-column__date">
-			
-			
-			
-			<div class="col text-center post__meta-column__day">
-				22
-			</div>
-			<div class="col">
-				<div class="post__meta-column__month">Mar</div>
-				<div class="post__meta-column__year">2018</div>
-			</div>
-		</div>
+    <div class="post__meta-column col-3 d-none d-md-block">
+        <div class="row no-gutters post__meta-column__date">
+            
+            
+            
+            <div class="col text-center post__meta-column__day">
+                22
+            </div>
+            <div class="col">
+                <div class="post__meta-column__month">Mar</div>
+                <div class="post__meta-column__year">2018</div>
+            </div>
+        </div>
 
-		<div class="row">
-			<div class="col post__meta-column__tags">
-				
-					
-					
-						<a href="/tags/react">
-							<div class="post__tag">
-								#react
-							</div>
-						</a>
-					
-						<a href="/tags/redux">
-							<div class="post__tag">
-								#redux
-							</div>
-						</a>
-					
-						<a href="/tags/javascript">
-							<div class="post__tag">
-								#javascript
-							</div>
-						</a>
-					
-						<a href="/tags/frontend">
-							<div class="post__tag">
-								#frontend
-							</div>
-						</a>
-					
-						<a href="/tags/learntocode">
-							<div class="post__tag">
-								#learntocode
-							</div>
-						</a>
-					
-						<a href="/tags/coding">
-							<div class="post__tag">
-								#coding
-							</div>
-						</a>
-					
-						<a href="/tags/letsgetcoding">
-							<div class="post__tag">
-								#letsgetcoding
-							</div>
-						</a>
-					
-						<a href="/tags/womenwhocode">
-							<div class="post__tag">
-								#womenwhocode
-							</div>
-						</a>
-					
-				
-			</div>
-		</div>
+        <div class="row">
+            <div class="col post__meta-column__tags">
+                
+                    
+                    
+                        <a href="/tags/react">
+                            <div class="post__tag">
+                                #react
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/redux">
+                            <div class="post__tag">
+                                #redux
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/javascript">
+                            <div class="post__tag">
+                                #javascript
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/frontend">
+                            <div class="post__tag">
+                                #frontend
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/learntocode">
+                            <div class="post__tag">
+                                #learntocode
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/coding">
+                            <div class="post__tag">
+                                #coding
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/letsgetcoding">
+                            <div class="post__tag">
+                                #letsgetcoding
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/womenwhocode">
+                            <div class="post__tag">
+                                #womenwhocode
+                            </div>
+                        </a>
+                    
+                
+            </div>
+        </div>
 
-		
-		<div class="row justify-content-end">
-			<div class="col-auto">
-				<div class="post__reactions reactions-root" data-resource-id="https://www.ilonacodes.com/blog/front-end-shorts-how-to-delete-item-from-the-list-with-react-redux/">
+        
+            <div class="row justify-content-end">
+                <div class="col-auto">
+                    <div class="post__reactions reactions-root" data-resource-id="https://www.ilonacodes.com/blog/front-end-shorts-how-to-delete-item-from-the-list-with-react-redux/">
 </div>
 
-			</div>
-		</div>
-		
-	</div>
+                </div>
+            </div>
+        
+    </div>
 
-	<div class="post__primary-column col col-md-8 col-lg-9">
-		
-			<h1 class="post__title">
-				Front-end Shorts: How to Delete Item From The List With React&#43;Redux
-			</h1>
-		
+    <div class="post__primary-column col col-md-8 col-lg-9">
+        
+            <h1 class="post__title">
+                Front-end Shorts: How to Delete Item From The List With React&#43;Redux
+            </h1>
+        
 
-		<div class="post__date d-md-none">
-			22 Mar, 2018
-		</div>
+        <div class="post__date d-md-none">
+            22 Mar, 2018
+        </div>
 
-		
+        
 
-		<div class="post__body">
-      
-        <p>There are many possibilities how to remove multiple items from the array with JavaScript. So in this tutorial, I am going to share my approach to delete function with React+Redux.</p>
-
-<p>It&rsquo;s front-end shorts, and I am trying to highlight the most important information. Thus, just let’s have a look at the significant code snippets with explanations:</p>
-
-<p>I have created the action:</p>
-
-<pre><code class="language-javascript">// expenseActions.js
-
-export const t = {
-    ...
-    DELETE_EXPENSE: 'DELETE_EXPENSE',
-    ...
-};
-
-export const actions = {
-  ...
-
-    deleteExpense: payload =&gt; ({
-        type: t.DELETE_EXPENSE,
-        payload
-    }),
-...
-};
-
-</code></pre>
-
-<p>The second step is using action in <code>expensesReducer</code>. Here I am using <code>filter</code> method comparing id of the current object &lsquo;expense&rsquo; and the object dispatched from the store. All changes are made to the original array:</p>
-
-<pre><code class="language-javascript">// expensesReducer.js
-
-export const expensesReducer = (state = initState, action) =&gt; {
-    switch (action.type) {
-    ...
-
-        case t.DELETE_EXPENSE:
-            return state.filter(expense =&gt; expense.id !== action.payload.id);
-
-      ...
-
-        default:
-            return state;
-    }
-};
-
-</code></pre>
-
-<p>Last but not least, I pass <code>deleteExpense</code> to props of the <code>Expenses</code> component and provide it for a button’s <code>onClick</code> event listener:</p>
-
-<pre><code class="language-javascript">// Dashboard.js
-
-const Expense = ({expense, deleteExpense}) =&gt; {
-return (
-        &lt;div className='expense-container'&gt;
-...
-          &lt;div className='delete-container' onClick={() =&gt; deleteExpense(expense)}&gt;
-                &lt;div&gt;&lt;a className='delete-button'&gt;
-                    -
-                &lt;/a&gt;&lt;/div&gt;
-          &lt;/div&gt;
-...
-        &lt;/div&gt;
-      );
-}
-
-const ExpensesComponent = ({expenses, deleteExpense}) =&gt; {
-...
-return (
-        &lt;div&gt;
-            {
-                expenses.map(expense =&gt; {
-                    return &lt;Expense
-                                   ...
-                                    expense={expense}
-                                    deleteExpense={deleteExpense}
-                    /&gt;
-                })
-            }
-        &lt;/div&gt;
-    )
-}
-
-const Expenses = connect(
-    (state) =&gt; ({
-        expenses: state.expenses,
-    }),
-
-    (dispatch) =&gt; ({
-        deleteExpense: (expense) =&gt; {
-            dispatch(actions.deleteExpense(expense))
-        },
-...
-)(ExpensesComponent);
-
-</code></pre>
-
-<p>That&rsquo;s it.
-Thank you for reading! Also, if you’ve made this far, feel free to connect with me on <a href="https://twitter.com/ilonacodes">Twitter</a> or <a href="https://www.instagram.com/ilonacodes/">Instagram</a>.</p>
-
-<p>Happy coding!</p>
-
-      
-		</div>
+        <div class="post__body">
+            <div class="blog__sharing row no-gutters align-items-center mt-4">
+    
+    
+    
+    
+    
+    
+    
+    
 
     
 
-		
-			<div class="post__reactions reactions-root" data-resource-id="https://www.ilonacodes.com/blog/front-end-shorts-how-to-delete-item-from-the-list-with-react-redux/">
+    
+
+    
+
+    <div class="col-auto mt-md-0 mt-2">
+        <a href="https://www.facebook.com/dialog/share?app_id=4028027083934101&amp;display=popup&amp;hashtag=dev&amp;href=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Ffront-end-shorts-how-to-delete-item-from-the-list-with-react-redux%2F"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--fb">
+            <div class="fab fa-facebook-f"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://twitter.com/intent/tweet?hashtags=dev&amp;original_referer=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Ffront-end-shorts-how-to-delete-item-from-the-list-with-react-redux%2F&amp;ref_src=twsrc%5Etfw&amp;related=ilonacodes&amp;text=Front-end&#43;Shorts%3A&#43;How&#43;to&#43;Delete&#43;Item&#43;From&#43;The&#43;List&#43;With&#43;React%2BRedux&amp;tw_p=tweetbutton&amp;url=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Ffront-end-shorts-how-to-delete-item-from-the-list-with-react-redux%2F&amp;via=ilonacodes"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--tw">
+            <div class="fab fa-twitter"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Ffront-end-shorts-how-to-delete-item-from-the-list-with-react-redux%2F"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--li">
+            <div class="fab fa-linkedin-in"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://ilonacodes.com/index.xml"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--rss">
+            <div class="fa fa-rss"></div>
+        </a>
+    </div>
+</div>
+        </div>
+
+        <div class="post__body">
+            
+                <p>There are many possibilities how to remove multiple items from the array with JavaScript. So in this tutorial, I am going to share my approach to delete function with React+Redux.</p>
+<p>It&rsquo;s front-end shorts, and I am trying to highlight the most important information. Thus, just let’s have a look at the significant code snippets with explanations:</p>
+<p>I have created the action:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#75715e">// expenseActions.js
+</span><span style="color:#75715e"></span>
+<span style="color:#66d9ef">export</span> <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">t</span> <span style="color:#f92672">=</span> {
+    ...
+    <span style="color:#a6e22e">DELETE_EXPENSE</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;DELETE_EXPENSE&#39;</span>,
+    ...
+};
+
+<span style="color:#66d9ef">export</span> <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">actions</span> <span style="color:#f92672">=</span> {
+  ...
+
+    <span style="color:#a6e22e">deleteExpense</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">payload</span> =&gt; ({
+        <span style="color:#a6e22e">type</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">t</span>.<span style="color:#a6e22e">DELETE_EXPENSE</span>,
+        <span style="color:#a6e22e">payload</span>
+    }),
+...
+};
+
+</code></pre></div><p>The second step is using action in <code>expensesReducer</code>. Here I am using <code>filter</code> method comparing id of the current object &lsquo;expense&rsquo; and the object dispatched from the store. All changes are made to the original array:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#75715e">// expensesReducer.js
+</span><span style="color:#75715e"></span>
+<span style="color:#66d9ef">export</span> <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">expensesReducer</span> <span style="color:#f92672">=</span> (<span style="color:#a6e22e">state</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">initState</span>, <span style="color:#a6e22e">action</span>) =&gt; {
+    <span style="color:#66d9ef">switch</span> (<span style="color:#a6e22e">action</span>.<span style="color:#a6e22e">type</span>) {
+    ...
+
+        <span style="color:#66d9ef">case</span> <span style="color:#a6e22e">t</span>.<span style="color:#a6e22e">DELETE_EXPENSE</span><span style="color:#f92672">:</span>
+            <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">state</span>.<span style="color:#a6e22e">filter</span>(<span style="color:#a6e22e">expense</span> =&gt; <span style="color:#a6e22e">expense</span>.<span style="color:#a6e22e">id</span> <span style="color:#f92672">!==</span> <span style="color:#a6e22e">action</span>.<span style="color:#a6e22e">payload</span>.<span style="color:#a6e22e">id</span>);
+
+      ...
+
+        <span style="color:#66d9ef">default</span><span style="color:#f92672">:</span>
+            <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">state</span>;
+    }
+};
+
+</code></pre></div><p>Last but not least, I pass <code>deleteExpense</code> to props of the <code>Expenses</code> component and provide it for a button’s <code>onClick</code> event listener:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#75715e">// Dashboard.js
+</span><span style="color:#75715e"></span>
+<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">Expense</span> <span style="color:#f92672">=</span> ({<span style="color:#a6e22e">expense</span>, <span style="color:#a6e22e">deleteExpense</span>}) =&gt; {
+<span style="color:#66d9ef">return</span> (
+        <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">div</span> <span style="color:#a6e22e">className</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#39;expense-container&#39;</span><span style="color:#f92672">&gt;</span>
+...
+          <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">div</span> <span style="color:#a6e22e">className</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#39;delete-container&#39;</span> <span style="color:#a6e22e">onClick</span><span style="color:#f92672">=</span>{() =&gt; <span style="color:#a6e22e">deleteExpense</span>(<span style="color:#a6e22e">expense</span>)}<span style="color:#f92672">&gt;</span>
+                <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">div</span><span style="color:#f92672">&gt;&lt;</span><span style="color:#a6e22e">a</span> <span style="color:#a6e22e">className</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#39;delete-button&#39;</span><span style="color:#f92672">&gt;</span>
+                    <span style="color:#f92672">-</span>
+                <span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/a&gt;&lt;/div&gt;</span>
+          <span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/div&gt;</span>
+...
+        <span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/div&gt;</span>
+      );
+}
+
+<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">ExpensesComponent</span> <span style="color:#f92672">=</span> ({<span style="color:#a6e22e">expenses</span>, <span style="color:#a6e22e">deleteExpense</span>}) =&gt; {
+...
+<span style="color:#66d9ef">return</span> (
+        <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">div</span><span style="color:#f92672">&gt;</span>
+            {
+                <span style="color:#a6e22e">expenses</span>.<span style="color:#a6e22e">map</span>(<span style="color:#a6e22e">expense</span> =&gt; {
+                    <span style="color:#66d9ef">return</span> <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">Expense</span>
+                                   ...
+                                    <span style="color:#a6e22e">expense</span><span style="color:#f92672">=</span>{<span style="color:#a6e22e">expense</span>}
+                                    <span style="color:#a6e22e">deleteExpense</span><span style="color:#f92672">=</span>{<span style="color:#a6e22e">deleteExpense</span>}
+                    <span style="color:#f92672">/&gt;</span>
+                })
+            }
+        <span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/div&gt;</span>
+    )
+}
+
+<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">Expenses</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">connect</span>(
+    (<span style="color:#a6e22e">state</span>) =&gt; ({
+        <span style="color:#a6e22e">expenses</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">state</span>.<span style="color:#a6e22e">expenses</span>,
+    }),
+
+    (<span style="color:#a6e22e">dispatch</span>) =&gt; ({
+        <span style="color:#a6e22e">deleteExpense</span><span style="color:#f92672">:</span> (<span style="color:#a6e22e">expense</span>) =&gt; {
+            <span style="color:#a6e22e">dispatch</span>(<span style="color:#a6e22e">actions</span>.<span style="color:#a6e22e">deleteExpense</span>(<span style="color:#a6e22e">expense</span>))
+        },
+...
+)(<span style="color:#a6e22e">ExpensesComponent</span>);
+
+</code></pre></div><p>That&rsquo;s it.
+Thank you for reading! Also, if you’ve made this far, feel free to connect with me on <a href="https://twitter.com/ilonacodes">Twitter</a> or <a href="https://www.instagram.com/ilonacodes/">Instagram</a>.</p>
+<p>Happy coding!</p>
+
+            
+        </div>
+
+        
+
+        
+            <div class="post__reactions reactions-root" data-resource-id="https://www.ilonacodes.com/blog/front-end-shorts-how-to-delete-item-from-the-list-with-react-redux/">
 </div>
 
-		
+        
 
-		<div class="post__tags d-md-none">
-			
-				Tags |
-				
-				
-					<a href="/tags/react">
-						<span class="post__tag">
-							#react
-						</span>
-					</a>
-				
-					<a href="/tags/redux">
-						<span class="post__tag">
-							#redux
-						</span>
-					</a>
-				
-					<a href="/tags/javascript">
-						<span class="post__tag">
-							#javascript
-						</span>
-					</a>
-				
-					<a href="/tags/frontend">
-						<span class="post__tag">
-							#frontend
-						</span>
-					</a>
-				
-					<a href="/tags/learntocode">
-						<span class="post__tag">
-							#learntocode
-						</span>
-					</a>
-				
-					<a href="/tags/coding">
-						<span class="post__tag">
-							#coding
-						</span>
-					</a>
-				
-					<a href="/tags/letsgetcoding">
-						<span class="post__tag">
-							#letsgetcoding
-						</span>
-					</a>
-				
-					<a href="/tags/womenwhocode">
-						<span class="post__tag">
-							#womenwhocode
-						</span>
-					</a>
-				
-			
-		</div>
-	</div>
+        <div class="post__tags d-md-none">
+            
+                Tags |
+                
+                
+                    <a href="/tags/react">
+                <span class="post__tag">
+            #react
+            </span>
+                    </a>
+                
+                    <a href="/tags/redux">
+                <span class="post__tag">
+            #redux
+            </span>
+                    </a>
+                
+                    <a href="/tags/javascript">
+                <span class="post__tag">
+            #javascript
+            </span>
+                    </a>
+                
+                    <a href="/tags/frontend">
+                <span class="post__tag">
+            #frontend
+            </span>
+                    </a>
+                
+                    <a href="/tags/learntocode">
+                <span class="post__tag">
+            #learntocode
+            </span>
+                    </a>
+                
+                    <a href="/tags/coding">
+                <span class="post__tag">
+            #coding
+            </span>
+                    </a>
+                
+                    <a href="/tags/letsgetcoding">
+                <span class="post__tag">
+            #letsgetcoding
+            </span>
+                    </a>
+                
+                    <a href="/tags/womenwhocode">
+                <span class="post__tag">
+            #womenwhocode
+            </span>
+                    </a>
+                
+            
+        </div>
+
+        
+            <div class="blog__sharing row no-gutters align-items-center mt-4">
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <div class="col-auto mt-md-0 mt-2">
+        <a href="https://www.facebook.com/dialog/share?app_id=4028027083934101&amp;display=popup&amp;hashtag=dev&amp;href=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Ffront-end-shorts-how-to-delete-item-from-the-list-with-react-redux%2F"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--fb">
+            <div class="fab fa-facebook-f"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://twitter.com/intent/tweet?hashtags=dev&amp;original_referer=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Ffront-end-shorts-how-to-delete-item-from-the-list-with-react-redux%2F&amp;ref_src=twsrc%5Etfw&amp;related=ilonacodes&amp;text=Front-end&#43;Shorts%3A&#43;How&#43;to&#43;Delete&#43;Item&#43;From&#43;The&#43;List&#43;With&#43;React%2BRedux&amp;tw_p=tweetbutton&amp;url=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Ffront-end-shorts-how-to-delete-item-from-the-list-with-react-redux%2F&amp;via=ilonacodes"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--tw">
+            <div class="fab fa-twitter"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Ffront-end-shorts-how-to-delete-item-from-the-list-with-react-redux%2F"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--li">
+            <div class="fab fa-linkedin-in"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://ilonacodes.com/index.xml"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--rss">
+            <div class="fa fa-rss"></div>
+        </a>
+    </div>
+</div>
+        
+
+    </div>
 </div>
 
 

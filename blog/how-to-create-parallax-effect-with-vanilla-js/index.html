@@ -37,7 +37,7 @@
     
     <meta property="og:tags" content="womenwhocode">
     
-    <meta name="generator" content="Hugo 0.44" />
+    <meta name="generator" content="Hugo 0.73.0" />
     <title>Front-end Shorts: How to Create Parallax Effect With Vanilla JS &middot; Ilona Who Codes</title>
     
     
@@ -132,215 +132,306 @@
       <main>
       	<article>
       		<div class="post row">
-	<div class="post__meta-column col-3 d-none d-md-block">
-		<div class="row no-gutters post__meta-column__date">
-			
-			
-			
-			<div class="col text-center post__meta-column__day">
-				10
-			</div>
-			<div class="col">
-				<div class="post__meta-column__month">Mar</div>
-				<div class="post__meta-column__year">2018</div>
-			</div>
-		</div>
+    <div class="post__meta-column col-3 d-none d-md-block">
+        <div class="row no-gutters post__meta-column__date">
+            
+            
+            
+            <div class="col text-center post__meta-column__day">
+                10
+            </div>
+            <div class="col">
+                <div class="post__meta-column__month">Mar</div>
+                <div class="post__meta-column__year">2018</div>
+            </div>
+        </div>
 
-		<div class="row">
-			<div class="col post__meta-column__tags">
-				
-					
-					
-						<a href="/tags/scrolling">
-							<div class="post__tag">
-								#scrolling
-							</div>
-						</a>
-					
-						<a href="/tags/parallax">
-							<div class="post__tag">
-								#parallax
-							</div>
-						</a>
-					
-						<a href="/tags/javascript">
-							<div class="post__tag">
-								#javascript
-							</div>
-						</a>
-					
-						<a href="/tags/frontend">
-							<div class="post__tag">
-								#frontend
-							</div>
-						</a>
-					
-						<a href="/tags/learntocode">
-							<div class="post__tag">
-								#learntocode
-							</div>
-						</a>
-					
-						<a href="/tags/animate">
-							<div class="post__tag">
-								#animate
-							</div>
-						</a>
-					
-						<a href="/tags/coding">
-							<div class="post__tag">
-								#coding
-							</div>
-						</a>
-					
-						<a href="/tags/letsgetcoding">
-							<div class="post__tag">
-								#letsgetcoding
-							</div>
-						</a>
-					
-						<a href="/tags/womenwhocode">
-							<div class="post__tag">
-								#womenwhocode
-							</div>
-						</a>
-					
-				
-			</div>
-		</div>
+        <div class="row">
+            <div class="col post__meta-column__tags">
+                
+                    
+                    
+                        <a href="/tags/scrolling">
+                            <div class="post__tag">
+                                #scrolling
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/parallax">
+                            <div class="post__tag">
+                                #parallax
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/javascript">
+                            <div class="post__tag">
+                                #javascript
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/frontend">
+                            <div class="post__tag">
+                                #frontend
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/learntocode">
+                            <div class="post__tag">
+                                #learntocode
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/animate">
+                            <div class="post__tag">
+                                #animate
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/coding">
+                            <div class="post__tag">
+                                #coding
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/letsgetcoding">
+                            <div class="post__tag">
+                                #letsgetcoding
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/womenwhocode">
+                            <div class="post__tag">
+                                #womenwhocode
+                            </div>
+                        </a>
+                    
+                
+            </div>
+        </div>
 
-		
-		<div class="row justify-content-end">
-			<div class="col-auto">
-				<div class="post__reactions reactions-root" data-resource-id="https://www.ilonacodes.com/blog/how-to-create-parallax-effect-with-vanilla-js/">
+        
+            <div class="row justify-content-end">
+                <div class="col-auto">
+                    <div class="post__reactions reactions-root" data-resource-id="https://www.ilonacodes.com/blog/how-to-create-parallax-effect-with-vanilla-js/">
 </div>
 
-			</div>
-		</div>
-		
-	</div>
+                </div>
+            </div>
+        
+    </div>
 
-	<div class="post__primary-column col col-md-8 col-lg-9">
-		
-			<h1 class="post__title">
-				Front-end Shorts: How to Create Parallax Effect With Vanilla JS
-			</h1>
-		
+    <div class="post__primary-column col col-md-8 col-lg-9">
+        
+            <h1 class="post__title">
+                Front-end Shorts: How to Create Parallax Effect With Vanilla JS
+            </h1>
+        
 
-		<div class="post__date d-md-none">
-			10 Mar, 2018
-		</div>
+        <div class="post__date d-md-none">
+            10 Mar, 2018
+        </div>
 
-		
+        
 
-		<div class="post__body">
-      
-        <p>Hi, there! I hope you enjoy your weekend, and ready for a new post.</p>
-
-<p>Recently there are a lot of sites, which have featured with parallax scrolling effect, that represents them in more interactive &ldquo;professionally-made&rdquo; way.</p>
-
-<p>This fact made me recreate the effect using Vanilla JavaScript, an example of which you can see below.</p>
-
-<p>Let&rsquo;s a look at the implementation of <code>parallax effect in Vanilla JavaScript</code>.</p>
-
-<p>I have used a &lsquo;scroll&rsquo; event on browser &lsquo;window,&rsquo; and retrieved the number of pixels the document is currently scrolled along the vertical axis from &lsquo;window.pageYOffset&rsquo;.</p>
-
-<p>The constant &lsquo;background&rsquo; consists of the image for which we are going to apply the parallax effect.</p>
-
-<p>Finally, I compute the scrolling interval in pixels for the &lsquo;top&rsquo; attribute.</p>
-
-<pre><code class="language-javascript">
-    window.addEventListener('scroll', function (e) {
-        // will not work on IE &lt; 9
-        var scrolled = window.pageYOffset;
-        // will not work on IE &lt; 8
-        const background = document.querySelector('.background');
-        background.style.top = - (scrolled * 0.2) + 'px';
-    });
-
-</code></pre>
-
-<p>Tune the coefficient &lsquo;0.2&rsquo; to your liking.</p>
-
-<p>If you liked the article, it would make me happy if you shared it on your favourite social networks!</p>
-
-<p>If you have any questions, suggestions or recommendations feel free to reach out to me <a href="https://twitter.com/ilonacodes">on Twitter</a>.</p>
-
-<p>Happy coding!</p>
-
-      
-		</div>
+        <div class="post__body">
+            <div class="blog__sharing row no-gutters align-items-center mt-4">
+    
+    
+    
+    
+    
+    
+    
+    
 
     
 
-		
-			<div class="post__reactions reactions-root" data-resource-id="https://www.ilonacodes.com/blog/how-to-create-parallax-effect-with-vanilla-js/">
+    
+
+    
+
+    <div class="col-auto mt-md-0 mt-2">
+        <a href="https://www.facebook.com/dialog/share?app_id=4028027083934101&amp;display=popup&amp;hashtag=dev&amp;href=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Fhow-to-create-parallax-effect-with-vanilla-js%2F"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--fb">
+            <div class="fab fa-facebook-f"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://twitter.com/intent/tweet?hashtags=dev&amp;original_referer=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Fhow-to-create-parallax-effect-with-vanilla-js%2F&amp;ref_src=twsrc%5Etfw&amp;related=ilonacodes&amp;text=Front-end&#43;Shorts%3A&#43;How&#43;to&#43;Create&#43;Parallax&#43;Effect&#43;With&#43;Vanilla&#43;JS&amp;tw_p=tweetbutton&amp;url=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Fhow-to-create-parallax-effect-with-vanilla-js%2F&amp;via=ilonacodes"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--tw">
+            <div class="fab fa-twitter"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Fhow-to-create-parallax-effect-with-vanilla-js%2F"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--li">
+            <div class="fab fa-linkedin-in"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://ilonacodes.com/index.xml"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--rss">
+            <div class="fa fa-rss"></div>
+        </a>
+    </div>
+</div>
+        </div>
+
+        <div class="post__body">
+            
+                <p>Hi, there! I hope you enjoy your weekend, and ready for a new post.</p>
+<p>Recently there are a lot of sites, which have featured with parallax scrolling effect, that represents them in more interactive &ldquo;professionally-made&rdquo; way.</p>
+<p>This fact made me recreate the effect using Vanilla JavaScript, an example of which you can see below.</p>
+<p>Let&rsquo;s a look at the implementation of <code>parallax effect in Vanilla JavaScript</code>.</p>
+<p>I have used a &lsquo;scroll&rsquo; event on browser &lsquo;window,&rsquo; and retrieved the number of pixels the document is currently scrolled along the vertical axis from &lsquo;window.pageYOffset&rsquo;.</p>
+<p>The constant &lsquo;background&rsquo; consists of the image for which we are going to apply the parallax effect.</p>
+<p>Finally, I compute the scrolling interval in pixels for the &lsquo;top&rsquo; attribute.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript">
+    window.<span style="color:#a6e22e">addEventListener</span>(<span style="color:#e6db74">&#39;scroll&#39;</span>, <span style="color:#66d9ef">function</span> (<span style="color:#a6e22e">e</span>) {
+        <span style="color:#75715e">// will not work on IE &lt; 9
+</span><span style="color:#75715e"></span>        <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">scrolled</span> <span style="color:#f92672">=</span> window.<span style="color:#a6e22e">pageYOffset</span>;
+        <span style="color:#75715e">// will not work on IE &lt; 8
+</span><span style="color:#75715e"></span>        <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">background</span> <span style="color:#f92672">=</span> document.<span style="color:#a6e22e">querySelector</span>(<span style="color:#e6db74">&#39;.background&#39;</span>);
+        <span style="color:#a6e22e">background</span>.<span style="color:#a6e22e">style</span>.<span style="color:#a6e22e">top</span> <span style="color:#f92672">=</span> <span style="color:#f92672">-</span> (<span style="color:#a6e22e">scrolled</span> <span style="color:#f92672">*</span> <span style="color:#ae81ff">0.2</span>) <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;px&#39;</span>;
+    });
+
+</code></pre></div><p>Tune the coefficient &lsquo;0.2&rsquo; to your liking.</p>
+<p>If you liked the article, it would make me happy if you shared it on your favourite social networks!</p>
+<p>If you have any questions, suggestions or recommendations feel free to reach out to me <a href="https://twitter.com/ilonacodes">on Twitter</a>.</p>
+<p>Happy coding!</p>
+
+            
+        </div>
+
+        
+
+        
+            <div class="post__reactions reactions-root" data-resource-id="https://www.ilonacodes.com/blog/how-to-create-parallax-effect-with-vanilla-js/">
 </div>
 
-		
+        
 
-		<div class="post__tags d-md-none">
-			
-				Tags |
-				
-				
-					<a href="/tags/scrolling">
-						<span class="post__tag">
-							#scrolling
-						</span>
-					</a>
-				
-					<a href="/tags/parallax">
-						<span class="post__tag">
-							#parallax
-						</span>
-					</a>
-				
-					<a href="/tags/javascript">
-						<span class="post__tag">
-							#javascript
-						</span>
-					</a>
-				
-					<a href="/tags/frontend">
-						<span class="post__tag">
-							#frontend
-						</span>
-					</a>
-				
-					<a href="/tags/learntocode">
-						<span class="post__tag">
-							#learntocode
-						</span>
-					</a>
-				
-					<a href="/tags/animate">
-						<span class="post__tag">
-							#animate
-						</span>
-					</a>
-				
-					<a href="/tags/coding">
-						<span class="post__tag">
-							#coding
-						</span>
-					</a>
-				
-					<a href="/tags/letsgetcoding">
-						<span class="post__tag">
-							#letsgetcoding
-						</span>
-					</a>
-				
-					<a href="/tags/womenwhocode">
-						<span class="post__tag">
-							#womenwhocode
-						</span>
-					</a>
-				
-			
-		</div>
-	</div>
+        <div class="post__tags d-md-none">
+            
+                Tags |
+                
+                
+                    <a href="/tags/scrolling">
+                <span class="post__tag">
+            #scrolling
+            </span>
+                    </a>
+                
+                    <a href="/tags/parallax">
+                <span class="post__tag">
+            #parallax
+            </span>
+                    </a>
+                
+                    <a href="/tags/javascript">
+                <span class="post__tag">
+            #javascript
+            </span>
+                    </a>
+                
+                    <a href="/tags/frontend">
+                <span class="post__tag">
+            #frontend
+            </span>
+                    </a>
+                
+                    <a href="/tags/learntocode">
+                <span class="post__tag">
+            #learntocode
+            </span>
+                    </a>
+                
+                    <a href="/tags/animate">
+                <span class="post__tag">
+            #animate
+            </span>
+                    </a>
+                
+                    <a href="/tags/coding">
+                <span class="post__tag">
+            #coding
+            </span>
+                    </a>
+                
+                    <a href="/tags/letsgetcoding">
+                <span class="post__tag">
+            #letsgetcoding
+            </span>
+                    </a>
+                
+                    <a href="/tags/womenwhocode">
+                <span class="post__tag">
+            #womenwhocode
+            </span>
+                    </a>
+                
+            
+        </div>
+
+        
+            <div class="blog__sharing row no-gutters align-items-center mt-4">
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <div class="col-auto mt-md-0 mt-2">
+        <a href="https://www.facebook.com/dialog/share?app_id=4028027083934101&amp;display=popup&amp;hashtag=dev&amp;href=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Fhow-to-create-parallax-effect-with-vanilla-js%2F"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--fb">
+            <div class="fab fa-facebook-f"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://twitter.com/intent/tweet?hashtags=dev&amp;original_referer=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Fhow-to-create-parallax-effect-with-vanilla-js%2F&amp;ref_src=twsrc%5Etfw&amp;related=ilonacodes&amp;text=Front-end&#43;Shorts%3A&#43;How&#43;to&#43;Create&#43;Parallax&#43;Effect&#43;With&#43;Vanilla&#43;JS&amp;tw_p=tweetbutton&amp;url=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Fhow-to-create-parallax-effect-with-vanilla-js%2F&amp;via=ilonacodes"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--tw">
+            <div class="fab fa-twitter"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Fhow-to-create-parallax-effect-with-vanilla-js%2F"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--li">
+            <div class="fab fa-linkedin-in"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://ilonacodes.com/index.xml"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--rss">
+            <div class="fa fa-rss"></div>
+        </a>
+    </div>
+</div>
+        
+
+    </div>
 </div>
 
 

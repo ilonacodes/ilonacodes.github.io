@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Category on Ilona Who Codes</title>
+    <title>category on Ilona Who Codes</title>
     <link>https://www.ilonacodes.com/tags/category/</link>
-    <description>Recent content in Category on Ilona Who Codes</description>
+    <description>Recent content in category on Ilona Who Codes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 06 Oct 2017 19:30:05 +0100</lastBuildDate>
@@ -30,7 +30,7 @@ But before moving on, if you are new here, please, have a look at the previous p
       <description>The most valuable feature set for our Daily ToDo is already done. Today we are going to make an app more functional, separating tasks by categories. We want to be able to categorize task by typing # and category after its title.
 For example: practice a coding kata #programming.
 As always, we start with the simple user story and the acceptance criteria:
-As Bob I want to categorize tasks by adding tag into input So I see which task belongs to which category ## Acceptance Criteria Given there are no tasks And I am on dashboard screen When I finish inputting a new task title And choose the category (tag) for a task And press Enter Then I see the categorized task by tag on the dashboard screen Tag examples: Programming, Sport, Languages, University, Reading, Routine  If you are a new reader of the tutorial series and don&amp;rsquo;t understand what is going on at the moment, then just check the previous posts starting with React For Very Very Beginners</description>
+As Bob I want to categorize tasks by adding tag into input So I see which task belongs to which category ## Acceptance Criteria Given there are no tasks And I am on dashboard screen When I finish inputting a new task title And choose the category (tag) for a task And press Enter Then I see the categorized task by tag on the dashboard screen Tag examples: Programming, Sport, Languages, University, Reading, Routine If you are a new reader of the tutorial series and don&amp;rsquo;t understand what is going on at the moment, then just check the previous posts starting with React For Very Very Beginners</description>
     </item>
     
   </channel>

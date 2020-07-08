@@ -44,11 +44,54 @@ $C: post;
     }
 
     b, strong {
-      // font-weight: 500; 
+      // font-weight: 500;
     }
 
     i {
       font-weight: 200;
+    }
+  }
+
+  .#{$C}__sharing-item {
+    text-align: center;
+    font-size: 80%;
+    padding: .6rem 2rem;
+    line-height: 1;
+    cursor: pointer;
+    min-width: 80px;
+    display: block;
+    color: white;
+
+    &--fb {
+      background-color: #698acc;
+    }
+
+    &--fb:hover {
+      background-color: #436cbf;
+    }
+
+    &--tw {
+      background-color: #36c6f4;
+    }
+
+    &--tw:hover {
+      background-color: #0db5ea;
+    }
+
+    &--li {
+      background-color: #409cdb;
+    }
+
+    &--li:hover {
+      background-color: #2583c3;
+    }
+
+    &--rss {
+      background-color: indianred;
+    }
+
+    &--rss:hover {
+      background-color: darken(indianred, 10%);
     }
   }
 

@@ -37,7 +37,7 @@
     
     <meta property="og:tags" content="womenwhocode">
     
-    <meta name="generator" content="Hugo 0.44" />
+    <meta name="generator" content="Hugo 0.73.0" />
     <title>Front-end Shorts: Storybook With React &middot; Ilona Who Codes</title>
     
     
@@ -132,234 +132,321 @@
       <main>
       	<article>
       		<div class="post row">
-	<div class="post__meta-column col-3 d-none d-md-block">
-		<div class="row no-gutters post__meta-column__date">
-			
-			
-			
-			<div class="col text-center post__meta-column__day">
-				18
-			</div>
-			<div class="col">
-				<div class="post__meta-column__month">Apr</div>
-				<div class="post__meta-column__year">2018</div>
-			</div>
-		</div>
+    <div class="post__meta-column col-3 d-none d-md-block">
+        <div class="row no-gutters post__meta-column__date">
+            
+            
+            
+            <div class="col text-center post__meta-column__day">
+                18
+            </div>
+            <div class="col">
+                <div class="post__meta-column__month">Apr</div>
+                <div class="post__meta-column__year">2018</div>
+            </div>
+        </div>
 
-		<div class="row">
-			<div class="col post__meta-column__tags">
-				
-					
-					
-						<a href="/tags/react">
-							<div class="post__tag">
-								#react
-							</div>
-						</a>
-					
-						<a href="/tags/redux">
-							<div class="post__tag">
-								#redux
-							</div>
-						</a>
-					
-						<a href="/tags/javascript">
-							<div class="post__tag">
-								#javascript
-							</div>
-						</a>
-					
-						<a href="/tags/storybook">
-							<div class="post__tag">
-								#storybook
-							</div>
-						</a>
-					
-						<a href="/tags/frontend">
-							<div class="post__tag">
-								#frontend
-							</div>
-						</a>
-					
-						<a href="/tags/learntocode">
-							<div class="post__tag">
-								#learntocode
-							</div>
-						</a>
-					
-						<a href="/tags/coding">
-							<div class="post__tag">
-								#coding
-							</div>
-						</a>
-					
-						<a href="/tags/letsgetcoding">
-							<div class="post__tag">
-								#letsgetcoding
-							</div>
-						</a>
-					
-						<a href="/tags/womenwhocode">
-							<div class="post__tag">
-								#womenwhocode
-							</div>
-						</a>
-					
-				
-			</div>
-		</div>
+        <div class="row">
+            <div class="col post__meta-column__tags">
+                
+                    
+                    
+                        <a href="/tags/react">
+                            <div class="post__tag">
+                                #react
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/redux">
+                            <div class="post__tag">
+                                #redux
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/javascript">
+                            <div class="post__tag">
+                                #javascript
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/storybook">
+                            <div class="post__tag">
+                                #storybook
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/frontend">
+                            <div class="post__tag">
+                                #frontend
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/learntocode">
+                            <div class="post__tag">
+                                #learntocode
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/coding">
+                            <div class="post__tag">
+                                #coding
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/letsgetcoding">
+                            <div class="post__tag">
+                                #letsgetcoding
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/womenwhocode">
+                            <div class="post__tag">
+                                #womenwhocode
+                            </div>
+                        </a>
+                    
+                
+            </div>
+        </div>
 
-		
-		<div class="row justify-content-end">
-			<div class="col-auto">
-				<div class="post__reactions reactions-root" data-resource-id="https://www.ilonacodes.com/blog/frontend-shorts-storybook-with-react/">
+        
+            <div class="row justify-content-end">
+                <div class="col-auto">
+                    <div class="post__reactions reactions-root" data-resource-id="https://www.ilonacodes.com/blog/frontend-shorts-storybook-with-react/">
 </div>
 
-			</div>
-		</div>
-		
-	</div>
+                </div>
+            </div>
+        
+    </div>
 
-	<div class="post__primary-column col col-md-8 col-lg-9">
-		
-			<h1 class="post__title">
-				Front-end Shorts: Storybook With React
-			</h1>
-		
+    <div class="post__primary-column col col-md-8 col-lg-9">
+        
+            <h1 class="post__title">
+                Front-end Shorts: Storybook With React
+            </h1>
+        
 
-		<div class="post__date d-md-none">
-			18 Apr, 2018
-		</div>
+        <div class="post__date d-md-none">
+            18 Apr, 2018
+        </div>
 
-		
+        
 
-		<div class="post__body">
-      
-        <p>Hey there, that’s me again and a new post from me!</p>
-
-<p>Lately, I worked on the project that generates live documentation of the front-end components for apps built with create-react-app, and this UI development environment is called <a href="https://storybook.js.org">Storybook</a>.</p>
-
-<p>What is the significant purpose for using this tool?</p>
-
-<p>First of all, it helps to avoid code duplications and to make it easy to know which components there are already, what they are doing and how they are being used.</p>
-
-<p>Secondly, it allows to display and to test component behavior by showcase, which is very useful in getting quick feedback on everything we develop.</p>
-
-<p>Another fantastic thing, <code>React Storybook</code> is an isolated app.
-After declaring stories, you can start to create components in isolation with quick iteration, and that allows us to create component documentation (style guide) without explicitly doing so, and keeps it up-to-date.</p>
-
-<p>Now it’s time to show you how it works and which components are involved.</p>
-
-<p>But before trying my example, you have to install and run Storybook with React. You can read about that <a href="https://storybook.js.org/basics/guide-react/">here</a>.</p>
-
-<p>After you installed <code>React Storybook</code>, let&rsquo;s have a look at my footer implementation:</p>
-
-<pre><code class="language-javascript">// ./components/footer/Footer.js
-
-import React from 'react';
-import DisplayFooter from './DisplayFooter';
-import ResponsiveFooter from './ResponsiveFooter';
-
-const Footer = props =&gt; (
-  &lt;div className='footer'&gt;
-    &lt;DisplayFooter {...props} /&gt;
-    &lt;ResponsiveFooter {...props} /&gt;
-  &lt;/div&gt;
-)
-
-export default Footer
-</code></pre>
-
-<p>Above you see standard React component. The next step is creating <code>Footer.stories.js</code> file and to add <code>Footer</code> component to stories:</p>
-
-<pre><code class="language-javascript">// ./components/footer/Footer.stories.js
-
-import React from 'react';
-import { storiesOf } from '@storybook/react'
-import Footer from './Footer'
-
-storiesOf('Footer', module).add('default', () =&gt; &lt;Footer /&gt;)
-</code></pre>
-
-<p>To see the result, you have to type this command <code>npm run storybook</code> in your project path in the console line, what will run that on your localhost.</p>
-
-<p>It might work with apps that have a similar Webpack configuration to create-react-app, for example, for Angular or Vue web apps.</p>
-
-<p>Let me know what you think about using <code>Storybook with React</code>. Thank you for reading!</p>
-
-      
-		</div>
+        <div class="post__body">
+            <div class="blog__sharing row no-gutters align-items-center mt-4">
+    
+    
+    
+    
+    
+    
+    
+    
 
     
 
-		
-			<div class="post__reactions reactions-root" data-resource-id="https://www.ilonacodes.com/blog/frontend-shorts-storybook-with-react/">
+    
+
+    
+
+    <div class="col-auto mt-md-0 mt-2">
+        <a href="https://www.facebook.com/dialog/share?app_id=4028027083934101&amp;display=popup&amp;hashtag=dev&amp;href=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Ffrontend-shorts-storybook-with-react%2F"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--fb">
+            <div class="fab fa-facebook-f"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://twitter.com/intent/tweet?hashtags=dev&amp;original_referer=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Ffrontend-shorts-storybook-with-react%2F&amp;ref_src=twsrc%5Etfw&amp;related=ilonacodes&amp;text=Front-end&#43;Shorts%3A&#43;Storybook&#43;With&#43;React&amp;tw_p=tweetbutton&amp;url=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Ffrontend-shorts-storybook-with-react%2F&amp;via=ilonacodes"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--tw">
+            <div class="fab fa-twitter"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Ffrontend-shorts-storybook-with-react%2F"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--li">
+            <div class="fab fa-linkedin-in"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://ilonacodes.com/index.xml"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--rss">
+            <div class="fa fa-rss"></div>
+        </a>
+    </div>
+</div>
+        </div>
+
+        <div class="post__body">
+            
+                <p>Hey there, that’s me again and a new post from me!</p>
+<p>Lately, I worked on the project that generates live documentation of the front-end components for apps built with create-react-app, and this UI development environment is called <a href="https://storybook.js.org">Storybook</a>.</p>
+<p>What is the significant purpose for using this tool?</p>
+<p>First of all, it helps to avoid code duplications and to make it easy to know which components there are already, what they are doing and how they are being used.</p>
+<p>Secondly, it allows to display and to test component behavior by showcase, which is very useful in getting quick feedback on everything we develop.</p>
+<p>Another fantastic thing, <code>React Storybook</code> is an isolated app.
+After declaring stories, you can start to create components in isolation with quick iteration, and that allows us to create component documentation (style guide) without explicitly doing so, and keeps it up-to-date.</p>
+<p>Now it’s time to show you how it works and which components are involved.</p>
+<p>But before trying my example, you have to install and run Storybook with React. You can read about that <a href="https://storybook.js.org/basics/guide-react/">here</a>.</p>
+<p>After you installed <code>React Storybook</code>, let&rsquo;s have a look at my footer implementation:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#75715e">// ./components/footer/Footer.js
+</span><span style="color:#75715e"></span>
+<span style="color:#66d9ef">import</span> <span style="color:#a6e22e">React</span> <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;react&#39;</span>;
+<span style="color:#66d9ef">import</span> <span style="color:#a6e22e">DisplayFooter</span> <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;./DisplayFooter&#39;</span>;
+<span style="color:#66d9ef">import</span> <span style="color:#a6e22e">ResponsiveFooter</span> <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;./ResponsiveFooter&#39;</span>;
+
+<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">Footer</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">props</span> =&gt; (
+  <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">div</span> <span style="color:#a6e22e">className</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#39;footer&#39;</span><span style="color:#f92672">&gt;</span>
+    <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">DisplayFooter</span> {...<span style="color:#a6e22e">props</span>} <span style="color:#f92672">/&gt;</span>
+    <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">ResponsiveFooter</span> {...<span style="color:#a6e22e">props</span>} <span style="color:#f92672">/&gt;</span>
+  <span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/div&gt;</span>
+)
+
+<span style="color:#66d9ef">export</span> <span style="color:#66d9ef">default</span> <span style="color:#a6e22e">Footer</span>
+</code></pre></div><p>Above you see standard React component. The next step is creating <code>Footer.stories.js</code> file and to add <code>Footer</code> component to stories:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#75715e">// ./components/footer/Footer.stories.js
+</span><span style="color:#75715e"></span>
+<span style="color:#66d9ef">import</span> <span style="color:#a6e22e">React</span> <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;react&#39;</span>;
+<span style="color:#66d9ef">import</span> { <span style="color:#a6e22e">storiesOf</span> } <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;@storybook/react&#39;</span>
+<span style="color:#66d9ef">import</span> <span style="color:#a6e22e">Footer</span> <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;./Footer&#39;</span>
+
+<span style="color:#a6e22e">storiesOf</span>(<span style="color:#e6db74">&#39;Footer&#39;</span>, <span style="color:#a6e22e">module</span>).<span style="color:#a6e22e">add</span>(<span style="color:#e6db74">&#39;default&#39;</span>, () =&gt; <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">Footer</span> <span style="color:#f92672">/&gt;</span>)
+</code></pre></div><p>To see the result, you have to type this command <code>npm run storybook</code> in your project path in the console line, what will run that on your localhost.</p>
+<p>It might work with apps that have a similar Webpack configuration to create-react-app, for example, for Angular or Vue web apps.</p>
+<p>Let me know what you think about using <code>Storybook with React</code>. Thank you for reading!</p>
+
+            
+        </div>
+
+        
+
+        
+            <div class="post__reactions reactions-root" data-resource-id="https://www.ilonacodes.com/blog/frontend-shorts-storybook-with-react/">
 </div>
 
-		
+        
 
-		<div class="post__tags d-md-none">
-			
-				Tags |
-				
-				
-					<a href="/tags/react">
-						<span class="post__tag">
-							#react
-						</span>
-					</a>
-				
-					<a href="/tags/redux">
-						<span class="post__tag">
-							#redux
-						</span>
-					</a>
-				
-					<a href="/tags/javascript">
-						<span class="post__tag">
-							#javascript
-						</span>
-					</a>
-				
-					<a href="/tags/storybook">
-						<span class="post__tag">
-							#storybook
-						</span>
-					</a>
-				
-					<a href="/tags/frontend">
-						<span class="post__tag">
-							#frontend
-						</span>
-					</a>
-				
-					<a href="/tags/learntocode">
-						<span class="post__tag">
-							#learntocode
-						</span>
-					</a>
-				
-					<a href="/tags/coding">
-						<span class="post__tag">
-							#coding
-						</span>
-					</a>
-				
-					<a href="/tags/letsgetcoding">
-						<span class="post__tag">
-							#letsgetcoding
-						</span>
-					</a>
-				
-					<a href="/tags/womenwhocode">
-						<span class="post__tag">
-							#womenwhocode
-						</span>
-					</a>
-				
-			
-		</div>
-	</div>
+        <div class="post__tags d-md-none">
+            
+                Tags |
+                
+                
+                    <a href="/tags/react">
+                <span class="post__tag">
+            #react
+            </span>
+                    </a>
+                
+                    <a href="/tags/redux">
+                <span class="post__tag">
+            #redux
+            </span>
+                    </a>
+                
+                    <a href="/tags/javascript">
+                <span class="post__tag">
+            #javascript
+            </span>
+                    </a>
+                
+                    <a href="/tags/storybook">
+                <span class="post__tag">
+            #storybook
+            </span>
+                    </a>
+                
+                    <a href="/tags/frontend">
+                <span class="post__tag">
+            #frontend
+            </span>
+                    </a>
+                
+                    <a href="/tags/learntocode">
+                <span class="post__tag">
+            #learntocode
+            </span>
+                    </a>
+                
+                    <a href="/tags/coding">
+                <span class="post__tag">
+            #coding
+            </span>
+                    </a>
+                
+                    <a href="/tags/letsgetcoding">
+                <span class="post__tag">
+            #letsgetcoding
+            </span>
+                    </a>
+                
+                    <a href="/tags/womenwhocode">
+                <span class="post__tag">
+            #womenwhocode
+            </span>
+                    </a>
+                
+            
+        </div>
+
+        
+            <div class="blog__sharing row no-gutters align-items-center mt-4">
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <div class="col-auto mt-md-0 mt-2">
+        <a href="https://www.facebook.com/dialog/share?app_id=4028027083934101&amp;display=popup&amp;hashtag=dev&amp;href=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Ffrontend-shorts-storybook-with-react%2F"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--fb">
+            <div class="fab fa-facebook-f"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://twitter.com/intent/tweet?hashtags=dev&amp;original_referer=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Ffrontend-shorts-storybook-with-react%2F&amp;ref_src=twsrc%5Etfw&amp;related=ilonacodes&amp;text=Front-end&#43;Shorts%3A&#43;Storybook&#43;With&#43;React&amp;tw_p=tweetbutton&amp;url=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Ffrontend-shorts-storybook-with-react%2F&amp;via=ilonacodes"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--tw">
+            <div class="fab fa-twitter"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Ffrontend-shorts-storybook-with-react%2F"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--li">
+            <div class="fab fa-linkedin-in"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://ilonacodes.com/index.xml"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--rss">
+            <div class="fa fa-rss"></div>
+        </a>
+    </div>
+</div>
+        
+
+    </div>
 </div>
 
 

@@ -27,7 +27,7 @@
     
     <meta property="og:tags" content="layout">
     
-    <meta name="generator" content="Hugo 0.44" />
+    <meta name="generator" content="Hugo 0.73.0" />
     <title>CSS Sticky Footer &middot; Ilona Who Codes</title>
     
     
@@ -122,161 +122,252 @@
       <main>
       	<article>
       		<div class="post row">
-	<div class="post__meta-column col-3 d-none d-md-block">
-		<div class="row no-gutters post__meta-column__date">
-			
-			
-			
-			<div class="col text-center post__meta-column__day">
-				8
-			</div>
-			<div class="col">
-				<div class="post__meta-column__month">Jul</div>
-				<div class="post__meta-column__year">2017</div>
-			</div>
-		</div>
+    <div class="post__meta-column col-3 d-none d-md-block">
+        <div class="row no-gutters post__meta-column__date">
+            
+            
+            
+            <div class="col text-center post__meta-column__day">
+                8
+            </div>
+            <div class="col">
+                <div class="post__meta-column__month">Jul</div>
+                <div class="post__meta-column__year">2017</div>
+            </div>
+        </div>
 
-		<div class="row">
-			<div class="col post__meta-column__tags">
-				
-					
-					
-						<a href="/tags/html">
-							<div class="post__tag">
-								#html
-							</div>
-						</a>
-					
-						<a href="/tags/css">
-							<div class="post__tag">
-								#css
-							</div>
-						</a>
-					
-						<a href="/tags/footer">
-							<div class="post__tag">
-								#footer
-							</div>
-						</a>
-					
-						<a href="/tags/layout">
-							<div class="post__tag">
-								#layout
-							</div>
-						</a>
-					
-				
-			</div>
-		</div>
+        <div class="row">
+            <div class="col post__meta-column__tags">
+                
+                    
+                    
+                        <a href="/tags/html">
+                            <div class="post__tag">
+                                #html
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/css">
+                            <div class="post__tag">
+                                #css
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/footer">
+                            <div class="post__tag">
+                                #footer
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/layout">
+                            <div class="post__tag">
+                                #layout
+                            </div>
+                        </a>
+                    
+                
+            </div>
+        </div>
 
-		
-		<div class="row justify-content-end">
-			<div class="col-auto">
-				<div class="post__reactions reactions-root" data-resource-id="https://www.ilonacodes.com/blog/css-sticky-footer/">
+        
+            <div class="row justify-content-end">
+                <div class="col-auto">
+                    <div class="post__reactions reactions-root" data-resource-id="https://www.ilonacodes.com/blog/css-sticky-footer/">
 </div>
 
-			</div>
-		</div>
-		
-	</div>
+                </div>
+            </div>
+        
+    </div>
 
-	<div class="post__primary-column col col-md-8 col-lg-9">
-		
-			<h1 class="post__title">
-				CSS Sticky Footer
-			</h1>
-		
+    <div class="post__primary-column col col-md-8 col-lg-9">
+        
+            <h1 class="post__title">
+                CSS Sticky Footer
+            </h1>
+        
 
-		<div class="post__date d-md-none">
-			8 Jul, 2017
-		</div>
+        <div class="post__date d-md-none">
+            8 Jul, 2017
+        </div>
 
-		
+        
 
-		<div class="post__body">
-      
-        <p>Hi there!</p>
-
-<p>There are a lot of ways how to implement a sticky footer on the page that will always remain at a fixed position on the screen no matter whether the user scroll or not. It will be visible all the time at that specific place (often on bottom).</p>
-
-<p>I would like to share my way how I added the sticky footer on my site.</p>
-
-<p>Firstly, I added two separated <div> tags inside the body in index.html and thereby assigning two classes .container and .footer to them:</p>
-
-<pre><code class="language-html">&lt;body&gt;
-  &lt;div class=&quot;container&quot;&gt;
-    ...
-  &lt;/div&gt;
-
-  &lt;div class=&quot;footer&quot;&gt;
-    ...
-  &lt;/div&gt;
-&lt;/body&gt;
-</code></pre>
-
-<p>The next step is creating the CSS styles in the index.css file and styling these two containers from index.html, where .container will get a margin-bottom with the value equal to the size of the .footer:</p>
-
-<pre><code class="language-css">.container {
-  margin-bottom: 60px;
-}
-</code></pre>
-
-<p>And then .footer styles will be consisted of the following properties:</p>
-
-<pre><code class="language-css">.footer {
-  width: 100%;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  margin: 0 auto;
-}
-</code></pre>
-
-<p>That&rsquo;s it. I hope this post helped you added a sticky (floating) footer to your site.</p>
-
-      
-		</div>
+        <div class="post__body">
+            <div class="blog__sharing row no-gutters align-items-center mt-4">
+    
+    
+    
+    
+    
+    
+    
+    
 
     
 
-		
-			<div class="post__reactions reactions-root" data-resource-id="https://www.ilonacodes.com/blog/css-sticky-footer/">
+    
+
+    
+
+    <div class="col-auto mt-md-0 mt-2">
+        <a href="https://www.facebook.com/dialog/share?app_id=4028027083934101&amp;display=popup&amp;hashtag=dev&amp;href=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Fcss-sticky-footer%2F"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--fb">
+            <div class="fab fa-facebook-f"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://twitter.com/intent/tweet?hashtags=dev&amp;original_referer=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Fcss-sticky-footer%2F&amp;ref_src=twsrc%5Etfw&amp;related=ilonacodes&amp;text=CSS&#43;Sticky&#43;Footer&amp;tw_p=tweetbutton&amp;url=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Fcss-sticky-footer%2F&amp;via=ilonacodes"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--tw">
+            <div class="fab fa-twitter"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Fcss-sticky-footer%2F"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--li">
+            <div class="fab fa-linkedin-in"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://ilonacodes.com/index.xml"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--rss">
+            <div class="fa fa-rss"></div>
+        </a>
+    </div>
+</div>
+        </div>
+
+        <div class="post__body">
+            
+                <p>Hi there!</p>
+<p>There are a lot of ways how to implement a sticky footer on the page that will always remain at a fixed position on the screen no matter whether the user scroll or not. It will be visible all the time at that specific place (often on bottom).</p>
+<p>I would like to share my way how I added the sticky footer on my site.</p>
+<p>Firstly, I added two separated <div> tags inside the body in index.html and thereby assigning two classes .container and .footer to them:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">body</span>&gt;
+  &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;container&#34;</span>&gt;
+    ...
+  &lt;/<span style="color:#f92672">div</span>&gt;
+
+  &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;footer&#34;</span>&gt;
+    ...
+  &lt;/<span style="color:#f92672">div</span>&gt;
+&lt;/<span style="color:#f92672">body</span>&gt;
+</code></pre></div><p>The next step is creating the CSS styles in the index.css file and styling these two containers from index.html, where .container will get a margin-bottom with the value equal to the size of the .footer:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css">.<span style="color:#a6e22e">container</span> {
+  <span style="color:#66d9ef">margin-bottom</span>: <span style="color:#ae81ff">60</span><span style="color:#66d9ef">px</span>;
+}
+</code></pre></div><p>And then .footer styles will be consisted of the following properties:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css">.<span style="color:#a6e22e">footer</span> {
+  <span style="color:#66d9ef">width</span>: <span style="color:#ae81ff">100</span><span style="color:#66d9ef">%</span>;
+  <span style="color:#66d9ef">position</span>: <span style="color:#66d9ef">fixed</span>;
+  <span style="color:#66d9ef">left</span>: <span style="color:#ae81ff">0</span>;
+  <span style="color:#66d9ef">bottom</span>: <span style="color:#ae81ff">0</span>;
+  <span style="color:#66d9ef">margin</span>: <span style="color:#ae81ff">0</span> <span style="color:#66d9ef">auto</span>;
+}
+</code></pre></div><p>That&rsquo;s it. I hope this post helped you added a sticky (floating) footer to your site.</p>
+
+            
+        </div>
+
+        
+
+        
+            <div class="post__reactions reactions-root" data-resource-id="https://www.ilonacodes.com/blog/css-sticky-footer/">
 </div>
 
-		
+        
 
-		<div class="post__tags d-md-none">
-			
-				Tags |
-				
-				
-					<a href="/tags/html">
-						<span class="post__tag">
-							#html
-						</span>
-					</a>
-				
-					<a href="/tags/css">
-						<span class="post__tag">
-							#css
-						</span>
-					</a>
-				
-					<a href="/tags/footer">
-						<span class="post__tag">
-							#footer
-						</span>
-					</a>
-				
-					<a href="/tags/layout">
-						<span class="post__tag">
-							#layout
-						</span>
-					</a>
-				
-			
-		</div>
-	</div>
+        <div class="post__tags d-md-none">
+            
+                Tags |
+                
+                
+                    <a href="/tags/html">
+                <span class="post__tag">
+            #html
+            </span>
+                    </a>
+                
+                    <a href="/tags/css">
+                <span class="post__tag">
+            #css
+            </span>
+                    </a>
+                
+                    <a href="/tags/footer">
+                <span class="post__tag">
+            #footer
+            </span>
+                    </a>
+                
+                    <a href="/tags/layout">
+                <span class="post__tag">
+            #layout
+            </span>
+                    </a>
+                
+            
+        </div>
+
+        
+            <div class="blog__sharing row no-gutters align-items-center mt-4">
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <div class="col-auto mt-md-0 mt-2">
+        <a href="https://www.facebook.com/dialog/share?app_id=4028027083934101&amp;display=popup&amp;hashtag=dev&amp;href=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Fcss-sticky-footer%2F"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--fb">
+            <div class="fab fa-facebook-f"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://twitter.com/intent/tweet?hashtags=dev&amp;original_referer=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Fcss-sticky-footer%2F&amp;ref_src=twsrc%5Etfw&amp;related=ilonacodes&amp;text=CSS&#43;Sticky&#43;Footer&amp;tw_p=tweetbutton&amp;url=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Fcss-sticky-footer%2F&amp;via=ilonacodes"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--tw">
+            <div class="fab fa-twitter"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Fcss-sticky-footer%2F"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--li">
+            <div class="fab fa-linkedin-in"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://ilonacodes.com/index.xml"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--rss">
+            <div class="fa fa-rss"></div>
+        </a>
+    </div>
+</div>
+        
+
+    </div>
 </div>
 
 
