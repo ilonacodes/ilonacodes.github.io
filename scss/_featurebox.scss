@@ -7,13 +7,17 @@ $featurebox-content: white;
   margin: 0.5rem 0 2.5rem;
   padding-bottom: 1rem;
   border-bottom: 1px solid $border-color;
-  background-size: 280px;
+  background-size: 380px;
   background-repeat: no-repeat;
-  background-position: right 4rem;
+  background-position: right 1rem;
+  
+  @include media-breakpoint-up(md) {
+    background-position: right 0rem;
+  }
 
   @include media-breakpoint-down(md) {
     margin-top: 1rem;
-    background-position: right 2rem;
+    background-position: right 1rem;
   }
 
   @include media-breakpoint-down(sm) {
@@ -46,15 +50,19 @@ $featurebox-content: white;
     font-weight: 400;
 
     @include media-breakpoint-down(md) {
+      font-size: 0.9rem;
+    }
+    
+    @include media-breakpoint-down(sm) {
       padding-right: 0;
-      font-size: 16px;
+      font-size: 0.9rem;
     }
   }
 
   &__button {
     display: block;
-    margin: 0 auto 1rem;
-    width: 400px;
+    margin: 2rem 0 1rem 0;
+    width: 50%;
     background-color: $primary-color;
     color: $featurebox-button-color;
     font-weight: 700;
@@ -64,10 +72,23 @@ $featurebox-content: white;
       color: $featurebox-button-color;
       background-color: lighten($primary-color, 10%);
     }
+    
+    @include media-breakpoint-down(lg) {
+      width: 60%;
+    }
 
     @include media-breakpoint-down(md) {
-      font-size: 20px;
-      width: 260px;
+      font-size: 0.9rem;
+      width: 60%;
+      padding: 0.5rem 0;
+      margin: 1.5rem 0 1rem;
+    }
+    
+    @include media-breakpoint-down(sm) {
+      width: 100%;
+      font-size: 0.9rem;
+      margin: 1.5rem 0 1rem;
+      padding: 0.5rem 0;
     }
   }
 }

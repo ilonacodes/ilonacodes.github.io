@@ -6666,13 +6666,16 @@ figure h4 {
   margin: 0.5rem 0 2.5rem;
   padding-bottom: 1rem;
   border-bottom: 1px solid #E5E5E5;
-  background-size: 280px;
+  background-size: 380px;
   background-repeat: no-repeat;
-  background-position: right 4rem; }
+  background-position: right 1rem; }
+  @media (min-width: 768px) {
+    .featurebox {
+      background-position: right 0rem; } }
   @media (max-width: 991.98px) {
     .featurebox {
       margin-top: 1rem;
-      background-position: right 2rem; } }
+      background-position: right 1rem; } }
   @media (max-width: 767.98px) {
     .featurebox {
       margin-top: -1rem;
@@ -6697,12 +6700,15 @@ figure h4 {
     font-weight: 400; }
     @media (max-width: 991.98px) {
       .featurebox__content {
+        font-size: 0.9rem; } }
+    @media (max-width: 767.98px) {
+      .featurebox__content {
         padding-right: 0;
-        font-size: 16px; } }
+        font-size: 0.9rem; } }
   .featurebox__button {
     display: block;
-    margin: 0 auto 1rem;
-    width: 400px;
+    margin: 2rem 0 1rem 0;
+    width: 50%;
     background-color: #F20094;
     color: white;
     font-weight: 700;
@@ -6710,10 +6716,21 @@ figure h4 {
     .featurebox__button:hover {
       color: white;
       background-color: #ff26ab; }
+    @media (max-width: 1199.98px) {
+      .featurebox__button {
+        width: 60%; } }
     @media (max-width: 991.98px) {
       .featurebox__button {
-        font-size: 20px;
-        width: 260px; } }
+        font-size: 0.9rem;
+        width: 60%;
+        padding: 0.5rem 0;
+        margin: 1.5rem 0 1rem; } }
+    @media (max-width: 767.98px) {
+      .featurebox__button {
+        width: 100%;
+        font-size: 0.9rem;
+        margin: 1.5rem 0 1rem;
+        padding: 0.5rem 0; } }
 
 .sidebar-bio {
   font-size: 14px !important; }
