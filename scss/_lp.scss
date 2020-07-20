@@ -20,11 +20,18 @@ $lp-primary-font: comic sans ms, marker felt-thin, arial, sans-serif;
 
 .#{$C} {
   background-color: $lp-background;
-  max-width: 780px;
   text-align: center;
   line-height: 1.5;
   letter-spacing: normal;
   padding: 36px;
+
+  &--narrow {
+    max-width: 780px;
+  }
+
+  &--wide {
+    // noop
+  }
 
   &__emoji-logo {
     font-size: 46px;

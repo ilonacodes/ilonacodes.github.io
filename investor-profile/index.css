@@ -1,0 +1,83 @@
+body {
+    font-family: "Raleway", sans-serif;
+}
+
+header {
+    text-align: center;
+    text-transform: uppercase;
+    color: #2dceb1;
+    line-height: 1.4;
+    font-weight: 400;
+    letter-spacing: 4px;
+    padding: 15px 0;
+    background: #fbfbfb;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.result {
+    color: white;
+    background-color: #2dceb1;
+    padding: 15px;
+    text-align: center;
+    /*display: none;*/
+}
+
+/*.result .is-visible {*/
+/*    display: block;*/
+/*}*/
+
+.result .inv-type {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.result a {
+    color: #333;
+    font-weight: 200;
+    font-size: 1.2rem;
+    text-decoration: underline;
+}
+
+.question {
+    background: #fbfbfb;
+}
+
+.title {
+    color: #333;
+    font-weight: 800;
+    font-size: 1.2rem;
+    margin: 1rem;
+}
+
+.options {
+    color: #666;
+    margin-bottom: 1.5rem;
+}
+
+.option {
+    background: white;
+    border: 1px solid #f2f2f2;
+    margin: .5rem;
+    padding: 1rem .5rem;
+    cursor: pointer;
+}
+
+.selected, .option:hover {
+    color: white;
+    background-color: #2dceb1;
+}
+
+.submit {
+    text-transform: uppercase;
+    background-color: #2dceb1;
+    color: white;
+    line-height: 1.4;
+    font-weight: 400;
+    letter-spacing: 4px;
+    padding: 0.8rem 1rem;
+    border: 0;
+}
+
+.submit:disabled {
+    background-color: #777;
+}

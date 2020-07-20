@@ -3278,7 +3278,6 @@ input[type="button"].btn-block {
 
 .page-link {
   position: relative;
-  font-size: 16px;
   display: block;
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
@@ -6550,11 +6549,12 @@ figure h4 {
 
 .lp {
   background-color: white;
-  max-width: 780px;
   text-align: center;
   line-height: 1.5;
   letter-spacing: normal;
   padding: 36px; }
+  .lp--narrow {
+    max-width: 780px; }
   .lp__emoji-logo {
     font-size: 46px; }
   .lp__headline {
