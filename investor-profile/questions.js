@@ -170,7 +170,7 @@ const questions = [
                 letter: 'C',
             },
             {
-                answer: 'D) Low market rate base salary + variable bonus + 1% in stock options',
+                answer: 'D) Very low base salary + variable bonus + 1% in stock options',
                 letter: 'D',
             },
         ]
