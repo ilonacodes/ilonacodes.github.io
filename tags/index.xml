@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Ilona Who Codes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 25 Jul 2020 11:10:05 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jul 2020 07:10:05 +0100</lastBuildDate>
     
 	<atom:link href="https://www.ilonacodes.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,45 @@
     <item>
       <title>developer</title>
       <link>https://www.ilonacodes.com/tags/developer/</link>
-      <pubDate>Sat, 25 Jul 2020 11:10:05 +0100</pubDate>
+      <pubDate>Wed, 29 Jul 2020 07:10:05 +0100</pubDate>
       
       <guid>https://www.ilonacodes.com/tags/developer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>investment</title>
+      <link>https://www.ilonacodes.com/tags/investment/</link>
+      <pubDate>Wed, 29 Jul 2020 07:10:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/investment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>javascript</title>
+      <link>https://www.ilonacodes.com/tags/javascript/</link>
+      <pubDate>Wed, 29 Jul 2020 07:10:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>motivation</title>
+      <link>https://www.ilonacodes.com/tags/motivation/</link>
+      <pubDate>Wed, 29 Jul 2020 07:10:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/motivation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wealth</title>
+      <link>https://www.ilonacodes.com/tags/wealth/</link>
+      <pubDate>Wed, 29 Jul 2020 07:10:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/wealth/</guid>
       <description></description>
     </item>
     
@@ -26,33 +62,6 @@
       <pubDate>Sat, 25 Jul 2020 11:10:05 +0100</pubDate>
       
       <guid>https://www.ilonacodes.com/tags/growth/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>investment</title>
-      <link>https://www.ilonacodes.com/tags/investment/</link>
-      <pubDate>Sat, 25 Jul 2020 11:10:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/investment/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>motivation</title>
-      <link>https://www.ilonacodes.com/tags/motivation/</link>
-      <pubDate>Sat, 25 Jul 2020 11:10:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/motivation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>wealth</title>
-      <link>https://www.ilonacodes.com/tags/wealth/</link>
-      <pubDate>Sat, 25 Jul 2020 11:10:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/wealth/</guid>
       <description></description>
     </item>
     
@@ -566,15 +575,6 @@
       <pubDate>Sun, 02 Jun 2019 10:40:05 +0100</pubDate>
       
       <guid>https://www.ilonacodes.com/tags/diversity/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>javascript</title>
-      <link>https://www.ilonacodes.com/tags/javascript/</link>
-      <pubDate>Sat, 19 Jan 2019 10:40:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/javascript/</guid>
       <description></description>
     </item>
     
