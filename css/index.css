@@ -6335,7 +6335,7 @@ a.text-dark:hover, a.text-dark:focus {
     font-size: 16px; }
     @media (max-width: 991.98px) {
       .navlink .navlink__link {
-        font-size: 14px; } }
+        font-size: 12px; } }
   .navlink--main {
     margin-bottom: -10px;
     margin-top: 10px; }
