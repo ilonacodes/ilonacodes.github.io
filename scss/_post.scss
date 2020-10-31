@@ -43,6 +43,14 @@ $C: post;
       font-size: 28px !important;
     }
 
+    table {
+      width: 100%;
+
+      th[align="center"] {
+        text-align: center;
+      }
+    }
+
     b, strong {
       // font-weight: 500;
     }

@@ -6383,6 +6383,10 @@ img {
       margin-top: 3rem;
       margin-bottom: 1.5rem;
       font-size: 28px !important; }
+    .post .post__body table {
+      width: 100%; }
+      .post .post__body table th[align="center"] {
+        text-align: center; }
     .post .post__body i {
       font-weight: 200; }
   .post .post__sharing-item {

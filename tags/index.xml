@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Ilona Who Codes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 19 Oct 2020 10:10:05 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2020 10:10:05 +0100</lastBuildDate>
     
 	<atom:link href="https://www.ilonacodes.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>developer</title>
       <link>https://www.ilonacodes.com/tags/developer/</link>
-      <pubDate>Mon, 19 Oct 2020 10:10:05 +0100</pubDate>
+      <pubDate>Sat, 31 Oct 2020 10:10:05 +0100</pubDate>
       
       <guid>https://www.ilonacodes.com/tags/developer/</guid>
       <description></description>
@@ -23,9 +23,54 @@
     <item>
       <title>finance</title>
       <link>https://www.ilonacodes.com/tags/finance/</link>
-      <pubDate>Mon, 19 Oct 2020 10:10:05 +0100</pubDate>
+      <pubDate>Sat, 31 Oct 2020 10:10:05 +0100</pubDate>
       
       <guid>https://www.ilonacodes.com/tags/finance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>investing</title>
+      <link>https://www.ilonacodes.com/tags/investing/</link>
+      <pubDate>Sat, 31 Oct 2020 10:10:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/investing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>investment</title>
+      <link>https://www.ilonacodes.com/tags/investment/</link>
+      <pubDate>Sat, 31 Oct 2020 10:10:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/investment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>motivation</title>
+      <link>https://www.ilonacodes.com/tags/motivation/</link>
+      <pubDate>Sat, 31 Oct 2020 10:10:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/motivation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>https://www.ilonacodes.com/tags/python/</link>
+      <pubDate>Sat, 31 Oct 2020 10:10:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>time</title>
+      <link>https://www.ilonacodes.com/tags/time/</link>
+      <pubDate>Sat, 31 Oct 2020 10:10:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/time/</guid>
       <description></description>
     </item>
     
@@ -35,15 +80,6 @@
       <pubDate>Mon, 19 Oct 2020 10:10:05 +0100</pubDate>
       
       <guid>https://www.ilonacodes.com/tags/financialgoals/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>motivation</title>
-      <link>https://www.ilonacodes.com/tags/motivation/</link>
-      <pubDate>Mon, 19 Oct 2020 10:10:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/motivation/</guid>
       <description></description>
     </item>
     
@@ -62,15 +98,6 @@
       <pubDate>Mon, 19 Oct 2020 10:10:05 +0100</pubDate>
       
       <guid>https://www.ilonacodes.com/tags/savings/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>investment</title>
-      <link>https://www.ilonacodes.com/tags/investment/</link>
-      <pubDate>Sat, 17 Oct 2020 10:10:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/investment/</guid>
       <description></description>
     </item>
     
