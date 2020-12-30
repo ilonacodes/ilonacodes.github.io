@@ -6415,7 +6415,8 @@ img {
     .post .post__sharing-item--rss:hover {
       background-color: #bc3a3a; }
   .post .post__reactions {
-    margin-bottom: 15px; }
+    margin-bottom: 15px;
+    display: none; }
   .post .post__read-full {
     margin-top: 20px;
     margin-bottom: 20px; }
