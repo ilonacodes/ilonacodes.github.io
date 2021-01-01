@@ -39,52 +39,374 @@
     
 </head>
 <body>
-    <div class='lp__outer'
-         style="background-image: url('/img/financial-tips-sheet-background.jpg')">
-        <div class="lp__wrapper">
-            <div class="lp lp--narrow  container">
-                <div class="lp__emoji-logo">
-<p>👨‍💻📊👩‍💻</p>
-</div>
-<h1 class="lp__headline">
-<p>Get my 15 Tips to Invest <br/> More Cash Monthly TODAY!</p>
-</h1>
-<div class="lp__subheadline">
-<p>Those tips worked 💯 and still work for me. They helped me to free extra monthly cash to begin my investment journey.</p>
-</div>
-<div class='lp__question lp__question'>
-<p>Are you up to build your wealth and <br/>passive income along with me together?</p>
-</div>
-<form class="lp__form" action='https://ilonacodes.us20.list-manage.com/subscribe/post?u=f3043c8723447a7954d8dfd17&amp;amp;id=3985d138eb' method="post">
-<div class="lp__field">
-  <label class="lp__label" for='field_FNAME'>First Name</label>
-  <input class="lp__input form-control" required
-         type='text' id='field_FNAME' name='FNAME' />
-</div>
-<div class="lp__field">
-  <label class="lp__label" for='field_EMAIL'>Email Address</label>
-  <input class="lp__input form-control" required
-         type='email' id='field_EMAIL' name='EMAIL' />
-</div>
-<div style="position: absolute; left: -5000px;" aria-hidden="true">
-  <input type="text" name='b_f3043c8723447a7954d8dfd17_3985d138eb' tabindex="-1" value="">
-</div>
-<div class="lp__field">
-  <input class="lp__input lp__input--submit form-control btn"
-         type="submit" name='subscribe' value='Download Cheat Sheet' />
-</div>
-<div class="lp__legal">
-  <p>By clicking this button you agree with my <a href="/legal/privacy_policy">privacy policy</a> and join my email list</p>
-</div>
-</form>
+      <div class="lp__wrapper">
+          <div class="blank">
+            <style>
+              .lp__wrapper {
+                padding-bottom: 0 !important;
+              }
 
+              .lp2021 {
+                font-family: "Roboto", sans-serif;
+                width: 100%;
+              }
+
+              h1 {
+                font-size: 30px;
+                font-weight: 800;
+                text-align: center;
+              }
+
+              @media screen and (max-width: 576px) {
+                h1 {
+                  font-size: 24px;
+                }
+              }
+
+              @media screen and (max-width: 576px) {
+                .description p {
+                  font-size: 18px;
+                  margin-right: 6px;
+                  margin-left: 6px;
+                }
+              }
+
+              h2 {
+                font-size: 26px;
+                font-weight: 800;
+                text-align: center;
+                margin-top: 40px;
+              }
+
+              @media screen and (max-width: 576px) {
+                h2 {
+                  font-size: 22px;
+                }
+              }
+
+              p {
+                margin-top: 15px;
+                text-align: center;
+                font-weight: 400;
+                font-size: 22px;
+              }
+
+              .pros p {
+                text-align: left;
+                color: black;
+                font-weight: 400;
+                font-size: 22px;
+              }
+
+              @media screen and (max-width: 576px) {
+                .pros p {
+                  font-size: 18px;
+                }
+              }
+
+              .form, .form-2 {
+                background-color: black;
+                margin-top: 15px;
+              }
+
+              @media screen and (max-width: 576px) {
+                .form-2 img {
+                  margin-top: 25px;
+                }
+              }
+
+              @media screen and (max-width: 768px) {
+                .form .pic {
+                  margin-top: 45px !important;
+                }
+              }
+
+              @media screen and (max-width: 576px) {
+                .form-wrapper {
+                  margin-left: 0 !important;
+                }
+              }
+
+              @media screen and (max-width: 1200px) {
+                .form-wrapper {
+                  margin-bottom: 30px;
+                }
+              }
+
+              .form-2 .title {
+                text-align: left;
+              }
+
+              .form-2 p {
+                text-align: left;
+                color: white;
+                font-weight: 200;
+                font-size: 22px;
+              }
+
+              @media screen and (max-width: 768px) {
+                .form-2 .title {
+                  font-size: 14px !important;
+                }
+              }
+
+              @media screen and (max-width: 768px) {
+                .form-2 p {
+                  font-size: 14px !important;
+                }
+              }
+
+              @media screen and (max-width: 1200px) {
+                .form-2 p {
+                  font-size: 18px;
+                }
+              }
+
+              @media screen and (max-width: 768px) {
+                .form-2 a.btn {
+                  font-size: 12px !important;
+                  margin-top: -15px;
+                }
+              }
+
+              @media screen and (max-width: 1200px) {
+                .form-2 a.btn {
+                  font-size: 16px;
+                }
+              }
+
+              .about-me p {
+                font-size: 18px;
+                text-align: left;
+              }
+
+              @media screen and (max-width: 1200px) {
+                .about-me p {
+                  font-size: 14px;
+                }
+              }
+
+              .about-me img {
+                max-height: 350px;
+                margin-top: 25px;
+              }
+
+              @media screen and (max-width: 576px) {
+                .about-me img {
+                  max-height: 250px;
+                  margin-top: -45px;
+                }
+              }
+
+              input:not([type="submit"]) {
+                width: 100%;
+                height: 46px;
+                padding: 0 15px;
+                border: 0;
+                outline: 0;
+              }
+
+              @media screen and (max-width: 768px) {
+                input {
+                  height: 40px;
+                  font-size: 16px;
+                }
+              }
+
+              a.btn, input[type="submit"] {
+                color: white;
+                background-color: #F20094;
+                font-size: 20px;
+                width: 100%;
+              }
+
+              @media screen and (max-width: 768px) {
+                a.btn, input[type="submit"] {
+                  font-size: 16px !important;
+                }
+              }
+
+              a.btn:hover, input[type="submit"]:hover {
+                color: white;
+                background-color: #CA057E;
+              }
+
+              a.btn, input[type="submit"].btn {
+                font-weight: 500;
+              }
+
+              .title {
+                color: white;
+                font-weight: 500;
+                font-size: 23px;
+              }
+
+              @media screen and (max-width: 768px) {
+                .title {
+                  font-size: 16px !important;
+                }
+              }
+
+              @media screen and (max-width: 1200px) {
+                .title {
+                  font-size: 18px;
+                }
+              }
+
+              .lp__footer {
+                background-color: black !important;
+                max-width: 100% !important;
+                margin: auto 0 !important;
+                opacity: 1 !important;
+                border-radius: 0;
+                color: white;
+                font-size: 14px;
+              }
+
+              .lp__footer a {
+                background-color: black;
+                color: white;
+                font-size: 14px;
+              }
+
+              small {
+                font-size: 12px;
+                color: white;
+                display: block;
+                text-align: center;
+                margin-top: 0.5rem;
+              }
+            </style>
+
+            <div class="lp2021">
+              <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-12 col-md-8">
+                  <h1>ARE YOU UP TO BUILD YOUR WEALTH AND PASSIVE INCOME  ALONG WITH ME TOGETHER?
+                    <hr/>
+                      GET MY TOP-15 CASH-FREEING TIPS TODAY!
+                  </h1>
+                  </div>
+                </div>
+
+                <div class="row justify-content-center description">
+                  <div class="col-12 col-xl-7 col-lg-9">
+                    <p>Those tips worked 💯 and still work for me. They helped me to free extra monthly cash to begin my investment journey.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+
+             <div class="form container-fluid" id="form">
+               <div class="row">
+                 <div class="col">
+                   <div class="container">
+                     <div class="row justify-content-center">
+                       <div class="col-12 col-md-5 mt-4 pic">
+                         <img src="/blog/images/15-tips-fin-cheat-sheet.svg" alt="15 cash-freeing tips">
+                       </div>
+                       <form class="col-12 col-md-5 mt-4 ml-4 form-wrapper"
+                             action="https://ilonacodes.us20.list-manage.com/subscribe/post?u=f3043c8723447a7954d8dfd17&amp;id=3985d138eb"
+                             method="post">
+                         <div class=title>LEARN HOW TO EASILY FREE EXTRA CASH FROM YOUR DEV-SALARY FOR MONTHLY INVESTMENTS 👇</div>
+                         <div><input type="text" class="mt-4" name="FNAME" placeholder="First Name" /></div>
+                         <div><input type="text" class="mt-2" name="EMAIL" placeholder="Email Address" /></div>
+                         <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                           <input type="text" name="b_f3043c8723447a7954d8dfd17_3985d138eb" tabindex="-1" value="">
+                         </div>
+                         <input type="submit" name="subscribe" value="DOWNLOAD CHEAT SHEET" class="btn py-2 mt-4">
+                         <small>
+                           By clicking this button you agree with my <a href="/legal/privacy_policy/">privacy policy</a> and join my email list
+                         </small>
+                       </form>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+             </div>
+
+             <div class="container">
+               <div class="row justify-content-center">
+                 <div class="col-12 col-md-9 mt-3">
+                   <h2>ADDITIONALLY, YOU WILL GET ACCESS TO FINANCIAL AND INVESTMENT EDUCATION FOR DEVELOPERS AND PEOPLE IN TECH</h2>
+                 </div>
+                 <div class="col-12 col-md-8 justify-content-center pros mt-3">
+                   <p>✔ <b>Turn your financial goals into an investment plan:</b> find out how risk, returns and time are related.</p>
+                   <p>✔ <b>Take control over your finances:</b> no credits, no consumer debts, more cash.</p>
+                   <p>✔ <b>Understand the critical concepts of asset allocation and diversification</b> to protect and grow your investment portfolio.</p>
+                   <p>✔ <b>Learn how to invest passively, easily, and with low risk.</b></p>
+                   <p>✔ <b>Become confident in your investment choices.</b> Decide yourself what to invest in: stocks, bonds, cash, or other types of investments.</p>
+                   <p>✔ <b>Find out what costs you’ll face</b> for the type of investments you choose.</p>
+                   <p>✔ <b>Understand the different kinds of securities’ trading</b> like stocks, ETFs, mutual funds, and other financial tools: plan, sell, hold, buy, go short or long.</p>
+                   <p>✔ <b>Develop personal investment strategies</b> and stay up to date with new trends.</p>
+                   <p>✔ <b>Manage your taxes:</b> different types of earnings are subject to different tax treatment in different countries.</p>
+                   <p>✔ <b>Use my financial tools, read my e-books, receive my courses on investment.</b></p>
+                 </div>
+               </div>
+             </div>
+
+             <div class="form-2 container-fluid mt-5">
+               <div class="row">
+                 <div class="col">
+                   <div class="container">
+                     <div class="row justify-content-center">
+                       <div class="col-12 col-md-9">
+                         <div class="row justify-content-center">
+                           <div class="col-12">
+                             <div class="title mt-4">SAVE EXTRA MONEY FROM YOUR PAYCHECK TO START INVESTING MONTHLY:</div>
+                             <p>There are so many different ways to free money for investments without thinking of getting another job! If you are struggling with it, you need this 👇</p>
+                           </div>
+                         </div>
+                         <div class="row justify-content-center">
+                           <div class="col-12 col-md-7 mt-3">
+                             <a href="#form" class="btn">GET 15 TIPS TO INVEST MORE CASH MONTHLY</a>
+                           </div>
+                           <div class="col-12 col-md-5">
+                             <img src="/blog/images/15-tips-fin-cheat-sheet-2.svg" alt="15 cash-freeing tips">
+                           </div>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+             </div>
+
+            <div class="container about-me mt-4">
+              <div class="row">
+                <div class="col">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-12 col-md-7 my-3">
+                        <p>My name is Ilona, and I am a software engineer, co-founder of Foundsiders, and blogger who is passionate about startups, finance, and investment.</p>
+
+                        <p>My personal starting shot for investment came in the last year after quitting my job and working for myself. Later that even motivated me to take a degree course on finance at one of the top-ranking UK universities!</p>
+
+                        <p><b>My mission is to provide developers with actionable information that enables them to create financial wealth.</b></p>
+
+                        <p>I know, learning how to invest money might seem scary. Still, it’s easier than you think, and you can begin no matter how much you have saved before!</p>
+
+                        <p>&nbsp;</p>
+                      </div>
+                      <div class="col-12 col-md-5 mt-4">
+                        <img src="/blog/images/my-pic.svg" alt="pic">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
 
             <div class="lp__footer">
-                Copyright 2020 &copy; Ilona Codes |
-                <a href='/legal/imprint/'>Impressum </a>
+                Copyright 2021 &copy; Ilona Codes |
+                <a href="/legal/imprint/">Impressum </a>
             </div>
-        </div>
-    </div>
+
+            </div>
+
+          </div>
+      </div>
+<noscript><img src="https://shynet.tddfellow.com/ingress/a5752e3d-4630-44b0-b7c3-706f4defdc30/pixel.gif"></noscript> <script src="https://shynet.tddfellow.com/ingress/a5752e3d-4630-44b0-b7c3-706f4defdc30/script.js"></script>
 </body>
 </html>
