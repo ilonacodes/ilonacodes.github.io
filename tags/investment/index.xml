@@ -6,10 +6,25 @@
     <description>Recent content in investment on Ilona | Dev Invests 📊</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 28 Dec 2020 10:10:05 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 06 Jan 2021 10:10:05 +0100</lastBuildDate>
     
 	<atom:link href="https://www.ilonacodes.com/tags/investment/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Bitcoin Profit Calculator For Developers</title>
+      <link>https://www.ilonacodes.com/blog/bitcoin-profit-calculator-for-developers/</link>
+      <pubDate>Wed, 06 Jan 2021 10:10:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/blog/bitcoin-profit-calculator-for-developers/</guid>
+      <description>&lt;figure&gt;
+    &lt;img src=&#34;https://www.ilonacodes.com/blog/images/bitcoin-profit-calculator-for-developers.jpg&#34;/&gt; &lt;figcaption&gt;
+            &lt;h4&gt;source: Photo by Karolina Grabowska from Pexels&lt;/h4&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;What would your profit be today if you invested in Bitcoin years or a few months ago?&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>How to Invest in a Volatile Stock Market: 5 Investment Strategies for Developers</title>

@@ -6,15 +6,42 @@
     <description>Recent content in Tags on Ilona | Dev Invests 📊</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 28 Dec 2020 10:10:05 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 06 Jan 2021 10:10:05 +0100</lastBuildDate>
     
 	<atom:link href="https://www.ilonacodes.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>bitcoin</title>
+      <link>https://www.ilonacodes.com/tags/bitcoin/</link>
+      <pubDate>Wed, 06 Jan 2021 10:10:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/bitcoin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>calculator</title>
+      <link>https://www.ilonacodes.com/tags/calculator/</link>
+      <pubDate>Wed, 06 Jan 2021 10:10:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/calculator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>crypto</title>
+      <link>https://www.ilonacodes.com/tags/crypto/</link>
+      <pubDate>Wed, 06 Jan 2021 10:10:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/crypto/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>developer</title>
       <link>https://www.ilonacodes.com/tags/developer/</link>
-      <pubDate>Mon, 28 Dec 2020 10:10:05 +0100</pubDate>
+      <pubDate>Wed, 06 Jan 2021 10:10:05 +0100</pubDate>
       
       <guid>https://www.ilonacodes.com/tags/developer/</guid>
       <description></description>
@@ -23,9 +50,18 @@
     <item>
       <title>investment</title>
       <link>https://www.ilonacodes.com/tags/investment/</link>
-      <pubDate>Mon, 28 Dec 2020 10:10:05 +0100</pubDate>
+      <pubDate>Wed, 06 Jan 2021 10:10:05 +0100</pubDate>
       
       <guid>https://www.ilonacodes.com/tags/investment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>javascript</title>
+      <link>https://www.ilonacodes.com/tags/javascript/</link>
+      <pubDate>Wed, 06 Jan 2021 10:10:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/tags/javascript/</guid>
       <description></description>
     </item>
     
@@ -188,15 +224,6 @@
       <pubDate>Wed, 05 Aug 2020 08:10:05 +0100</pubDate>
       
       <guid>https://www.ilonacodes.com/tags/finances/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>javascript</title>
-      <link>https://www.ilonacodes.com/tags/javascript/</link>
-      <pubDate>Wed, 29 Jul 2020 07:10:05 +0100</pubDate>
-      
-      <guid>https://www.ilonacodes.com/tags/javascript/</guid>
       <description></description>
     </item>
     
