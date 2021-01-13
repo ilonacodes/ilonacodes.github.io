@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html><head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# website: http://ogp.me/ns/website#">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+    
+    <link rel="canonical" href="https://www.ilonacodes.com/blog/how-developers-can-get-symbols-from-stock-indexes-with-python/">
+    
+    
+    <meta name="p:domain_verify" content="65b76f5080543fd61af6ac7b8d05424f"/>
+    <meta name="description" content="Web scrape a list of stocks with Python.">
+    <meta property="og:title" content="How Developers Can Get Symbols From Stock Indexes With Python">
+    
+    <meta property="og:type" content="article">
+    <meta property="article:published_time" content="2021-01-13">
+    
+    <meta property="og:description" content="Web scrape a list of stocks with Python.">
+    <meta property="og:url" content="https://www.ilonacodes.com/blog/how-developers-can-get-symbols-from-stock-indexes-with-python/">
+    <meta property="og:site_name" content="Ilona | Dev Invests 📊">
+    
+    <meta property="og:image" content="https://www.ilonacodes.com/blog/images/indexes.jpg">
+    <meta name="twitter:image" content="https://www.ilonacodes.com/blog/images/indexes.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    
+    
+    <meta property="og:tags" content="python">
+    
+    <meta property="og:tags" content="developer">
+    
+    <meta property="og:tags" content="investment">
+    
+    <meta property="og:tags" content="trading">
+    
+    <meta property="og:tags" content="stocks">
+    
+    <meta property="og:tags" content="s&amp;p500">
+    
+    <meta name="generator" content="Hugo 0.73.0" />
+    <title>How Developers Can Get Symbols From Stock Indexes With Python &middot; Ilona | Dev Invests 📊</title>
+    
+    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/styles/default.min.css">
+    
+    <link rel="stylesheet" href="https://www.ilonacodes.com/css/index.css">
+    
+    <link rel="icon" href="https://www.ilonacodes.com//img/favicon.png" />
+    
+
+    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
+    
+    
+</head>
+<body>
+      <div class="footer-wrapper">
+        <div class="container" id="content"><div class="navigation">
+	<div class="container">
+		<div class="row">
+			
+				
+
+
+  
+
+
+<div class="navlink col-12 col-md-6 navlink--main">
+  <a class="navlink__link" href="/">
+    ilonacodes
+  </a>
+</div>
+
+			
+				
+
+
+  
+
+
+<div class="navlink col">
+  <a class="navlink__link" href="https://www.patreon.com/ilonacodes/?r=ic">
+    Patreon
+  </a>
+</div>
+
+			
+				
+
+
+  
+
+
+<div class="navlink col">
+  <a class="navlink__link" href="https://ilonacodes.com/investor-profile/?r=ic">
+    Investor Profile
+  </a>
+</div>
+
+			
+				
+
+
+  
+
+
+<div class="navlink col">
+  <a class="navlink__link" href="mailto:ilona@ilonacodes.com">
+    Contact
+  </a>
+</div>
+
+			
+		</div>
+	</div>
+</div>
+<div class="featurebox" style="background-image: url('/img/fin-tips-image-preview.jpg')">
+  <h2 class="featurebox__headline">
+    <div class="featurebox__subheadline">Financial tips and advice on investment for developers:</div>
+    "Learn how to free extra monthly cash from your dev-salary for investment"
+  </h2>
+  <div class="featurebox__content">
+    <p>There are so many different ways to free money for investments without thinking of getting another job. Download my Top-15 cash-freeing tips cheat sheet.</p>
+  </div>
+  <a href="/financial-tips-for-freeing-extra-money-for-investment" class="featurebox__button btn">
+    Get my 15 Tips to Invest More Cash Monthly!
+  </a>
+</div>
+  <div class="row">
+    <div class="col col-md-9">
+      <main>
+      	<article>
+      		<div class="post row">
+    <div class="post__meta-column col-3 d-none d-md-block">
+        <div class="row no-gutters post__meta-column__date">
+            
+            
+            
+            <div class="col text-center post__meta-column__day">
+                13
+            </div>
+            <div class="col">
+                <div class="post__meta-column__month">Jan</div>
+                <div class="post__meta-column__year">2021</div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col post__meta-column__tags">
+                
+                    
+                    
+                        <a href="/tags/python">
+                            <div class="post__tag">
+                                #python
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/developer">
+                            <div class="post__tag">
+                                #developer
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/investment">
+                            <div class="post__tag">
+                                #investment
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/trading">
+                            <div class="post__tag">
+                                #trading
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/stocks">
+                            <div class="post__tag">
+                                #stocks
+                            </div>
+                        </a>
+                    
+                        <a href="/tags/sp500">
+                            <div class="post__tag">
+                                #s&amp;p500
+                            </div>
+                        </a>
+                    
+                
+            </div>
+        </div>
+
+        
+            <div class="row justify-content-end">
+                <div class="col-auto">
+                    <div class="post__reactions reactions-root" data-resource-id="https://www.ilonacodes.com/blog/how-developers-can-get-symbols-from-stock-indexes-with-python/">
+</div>
+
+                </div>
+            </div>
+        
+    </div>
+
+    <div class="post__primary-column col col-md-8 col-lg-9">
+        
+            <h1 class="post__title">
+                How Developers Can Get Symbols From Stock Indexes With Python
+            </h1>
+        
+
+        <div class="post__date d-md-none">
+            13 Jan, 2021
+        </div>
+
+        
+
+        <div class="post__body">
+            <div class="blog__sharing row no-gutters align-items-center mt-4">
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <div class="col-auto mt-md-0 mt-2">
+        <a href="https://www.facebook.com/dialog/share?app_id=4028027083934101&amp;display=popup&amp;hashtag=dev&amp;href=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Fhow-developers-can-get-symbols-from-stock-indexes-with-python%2F"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--fb">
+            <div class="fab fa-facebook-f"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://twitter.com/intent/tweet?hashtags=dev&amp;original_referer=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Fhow-developers-can-get-symbols-from-stock-indexes-with-python%2F&amp;ref_src=twsrc%5Etfw&amp;related=ilonacodes&amp;text=How&#43;Developers&#43;Can&#43;Get&#43;Symbols&#43;From&#43;Stock&#43;Indexes&#43;With&#43;Python&amp;tw_p=tweetbutton&amp;url=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Fhow-developers-can-get-symbols-from-stock-indexes-with-python%2F&amp;via=ilonacodes"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--tw">
+            <div class="fab fa-twitter"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Fhow-developers-can-get-symbols-from-stock-indexes-with-python%2F"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--li">
+            <div class="fab fa-linkedin-in"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://ilonacodes.com/index.xml"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--rss">
+            <div class="fa fa-rss"></div>
+        </a>
+    </div>
+</div>
+        </div>
+
+        <div class="post__body">
+            
+                <figure>
+    <img src="/blog/images/indexes.jpg"/> <figcaption>
+            <h4>source: Photo by Nataliya Vaitkevich from Pexels</h4>
+        </figcaption>
+</figure>
+
+<p>If you are a software developer who is interested in day trading and stock investment, then you are definitely the one who is also looking for efficient ways to automate stock analysis and even develop your tools for custom trading or investment strategies.</p>
+<p>With a software engineering background, I&rsquo;m not an exception for this!</p>
+<p><strong>These days accurate data is the most precious asset for financial market participants. Hence, it&rsquo;s not cheap.</strong></p>
+<p>No longer Yahoo Finance and Google Finance allow developers to access their full APIs. So, now when dealing with financial reference data, a significant part of the struggle is to get decent constituent data of stock indexes. For example, for my purposes, I can&rsquo;t easily pull the list of stock symbols of the US indexes below anymore:</p>
+<p><img src="/blog/images/list-of-indexes.png" alt="List of Indexes"></p>
+<p>If you day trade regularly or from time to time or use more advanced trading strategies with derivatives, you understand how it&rsquo;s important to screen the market daily and view the list of companies in the major stock indexes for analysis.</p>
+<p>In my case, <strong>I need the tickers/symbols of US stocks to implement my stock screener.</strong> That will allow me to select the best stocks in play for the upcoming intraday. The problem with the existing solutions:</p>
+<p>‣ they are usually pricey (from $95 per month)</p>
+<p>‣ they have lots of data that my strategies do not require</p>
+<p>Unfortunately, there are very few free real-time data providers left. Still, Alpha Vantage is one of the data providers that allows sending 500 requests via their API per day before going premium, and it&rsquo;s enough for me to implement the tools I needed.</p>
+<p>If you want to learn more about what kind of tools I will implement or purchase for my investment and trading strategies, you can <a href="https://ilonacodes.com/financial-tips-for-freeing-extra-money-for-investment/">join my regular newsletter (+bonus: Top-15 tips to free more cash monthly).</a></p>
+<p>My stock screener is a program that can filter stocks based on specific criteria. To loop through all stocks, I need to fetch the list of most US stock symbols.</p>
+<p>There are several ways to scrape this data from financial websites, keeping it hardcoded as a list, or simply requesting the index data from Wikipedia or other index websites. Before fetching from web-pages, I inspected where the data is present in their HTML tags to find enclosed table tags inside. Despite that, I decided to make it easier and just downloaded the <code>.html</code> pages of S&amp;P500, NASDAQ, etc., with the stock symbols into the tables:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> pandas <span style="color:#f92672">as</span> pd
+
+sp_table <span style="color:#f92672">=</span> pd<span style="color:#f92672">.</span>read_html(<span style="color:#e6db74">&#39;sp500.html&#39;</span>)
+sp <span style="color:#f92672">=</span> sp_table[<span style="color:#ae81ff">0</span>]
+sp<span style="color:#f92672">.</span>to_csv(<span style="color:#e6db74">&#39;sp500-symbols.csv&#39;</span>, columns<span style="color:#f92672">=</span>[<span style="color:#e6db74">&#39;Symbol&#39;</span>])
+
+sp <span style="color:#f92672">=</span> pd<span style="color:#f92672">.</span>read_csv(<span style="color:#e6db74">&#39;sp500-symbols.csv&#39;</span>)
+sp_symbols <span style="color:#f92672">=</span> sp[<span style="color:#e6db74">&#39;Symbol&#39;</span>]<span style="color:#f92672">.</span>to_list()
+<span style="color:#66d9ef">print</span>(sp_symbols)  
+</code></pre></div><p><img src="/blog/images/output-1.png" alt="Output"></p>
+<p>The <code>read_html</code> function is scraping the stored web-page related to the S&amp;P500 data and return a list of DataFrame objects. In my case, I am only willing to get the data from the &ldquo;Symbol&rdquo; column: the DataFrame object at index 0. Then I extract the table with results to my project directory using the <code>to_csv</code> function. Next, the <code>to_list</code> function converts the table&rsquo;s data to the list type.</p>
+<p>Do the same for the list of stocks in the NASDAQ:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">nasdaq_table <span style="color:#f92672">=</span> pd<span style="color:#f92672">.</span>read_html(<span style="color:#e6db74">&#39;nasdaq.html&#39;</span>)
+nasdaq <span style="color:#f92672">=</span> nasdaq_table[<span style="color:#ae81ff">0</span>]
+nasdaq<span style="color:#f92672">.</span>to_csv(<span style="color:#e6db74">&#39;nasdaq-symbols.csv&#39;</span>, columns<span style="color:#f92672">=</span>[<span style="color:#e6db74">&#39;Symbol&#39;</span>])
+
+nasdaq <span style="color:#f92672">=</span> pd<span style="color:#f92672">.</span>read_csv(<span style="color:#e6db74">&#39;nasdaq-symbols.csv&#39;</span>)
+nasdaq_symbols <span style="color:#f92672">=</span> nasdaq[<span style="color:#e6db74">&#39;Symbol&#39;</span>]<span style="color:#f92672">.</span>to_list()
+<span style="color:#66d9ef">print</span>(nasdaq_symbols)
+</code></pre></div><p><img src="/blog/images/output-2.png" alt="Output"></p>
+<p>You can continue pulling symbols of different stock indexes from the stored web-pages. The last step is to concatenate the stock symbols into one list:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">all_symbols <span style="color:#f92672">=</span> sp_symbols <span style="color:#f92672">+</span> nasdaq_symbols
+<span style="color:#66d9ef">print</span>(all_symbols)
+</code></pre></div><p><img src="/blog/images/output-3.png" alt="Output"></p>
+<p>This code should be capable of scraping the details of most symbols in the stock indexes.</p>
+<p>The concatenated data could be saved as a CSV or a JSON file. Instead of writing the data to any file, you can also connect it to a MySQL database.</p>
+<p>If you are in the world of trading, investment, and finance, you probably should keep an eye on thousands of stocks on various stock markets. Sometimes getting the <em>&ldquo;stock symbol for the company ABC&rdquo;</em> is not what you only need and that most APIs allow you to do for free.</p>
+<p>In the next post, I will show you how the fetched stock symbols from the indexes have been applied to the tool I have implemented to find well-defined entry and exit points for one of my trading strategies.</p>
+<hr>
+<p><em>Disclaimer: Author’s opinions are their own and do not constitute financial advice in any way whatsoever. Nothing published by Author constitutes an investment recommendation, nor should any data or content published by Author be relied upon for any investment activities.</em></p>
+            
+        </div>
+
+        
+
+        
+            <div class="post__reactions reactions-root" data-resource-id="https://www.ilonacodes.com/blog/how-developers-can-get-symbols-from-stock-indexes-with-python/">
+</div>
+
+        
+
+        <div class="post__tags d-md-none">
+            
+                Tags |
+                
+                
+                    <a href="/tags/python">
+                <span class="post__tag">
+            #python
+            </span>
+                    </a>
+                
+                    <a href="/tags/developer">
+                <span class="post__tag">
+            #developer
+            </span>
+                    </a>
+                
+                    <a href="/tags/investment">
+                <span class="post__tag">
+            #investment
+            </span>
+                    </a>
+                
+                    <a href="/tags/trading">
+                <span class="post__tag">
+            #trading
+            </span>
+                    </a>
+                
+                    <a href="/tags/stocks">
+                <span class="post__tag">
+            #stocks
+            </span>
+                    </a>
+                
+                    <a href="/tags/sp500">
+                <span class="post__tag">
+            #s&amp;p500
+            </span>
+                    </a>
+                
+            
+        </div>
+
+        
+            <div class="blog__sharing row no-gutters align-items-center mt-4">
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <div class="col-auto mt-md-0 mt-2">
+        <a href="https://www.facebook.com/dialog/share?app_id=4028027083934101&amp;display=popup&amp;hashtag=dev&amp;href=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Fhow-developers-can-get-symbols-from-stock-indexes-with-python%2F"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--fb">
+            <div class="fab fa-facebook-f"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://twitter.com/intent/tweet?hashtags=dev&amp;original_referer=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Fhow-developers-can-get-symbols-from-stock-indexes-with-python%2F&amp;ref_src=twsrc%5Etfw&amp;related=ilonacodes&amp;text=How&#43;Developers&#43;Can&#43;Get&#43;Symbols&#43;From&#43;Stock&#43;Indexes&#43;With&#43;Python&amp;tw_p=tweetbutton&amp;url=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Fhow-developers-can-get-symbols-from-stock-indexes-with-python%2F&amp;via=ilonacodes"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--tw">
+            <div class="fab fa-twitter"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.ilonacodes.com%2Fblog%2Fhow-developers-can-get-symbols-from-stock-indexes-with-python%2F"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--li">
+            <div class="fab fa-linkedin-in"></div>
+        </a>
+    </div>
+
+    <div class="col-auto ml-2 mt-md-0 mt-2">
+        <a href="https://ilonacodes.com/index.xml"
+           target="_blank"
+           class="post__sharing-item post__sharing-item--rss">
+            <div class="fa fa-rss"></div>
+        </a>
+    </div>
+</div>
+        
+
+    </div>
+</div>
+
+
+      	</article>
+
+        <div class="next-article">
+          
+            <a href="https://www.ilonacodes.com/blog/bitcoin-profit-calculator-for-developers/">
+              Next: Bitcoin Profit Calculator For Developers
+            </a>
+          
+        </div>
+      </main>
+    </div>
+
+    <div class="col-md-3 col-12 ">
+  <div class="row">
+	<div class="profile-photo offset-1 col-10">
+		<a href="/">
+			<img class="profile-photo__image" src="/img/ilona_2.jpg" />
+		</a>
+	</div>
+</div>
+
+
+  <br/>
+  <div class="sidebar-bio">
+    <b>My name is Ilona, and I'm a software engineer, founder, and blogger who is (besides programming) also passionate about startups, finance and investment</b>
+    <br/>
+    <br/>
+    <i>&#34;I like to work hard for things that are worth it.&#34;</i>
+  </div>
+
+  <ins class="adsbycontextcue" data-cc-site="ed1c8d1f-8fd9-4089-9cdd-82323f03f76b" data-cc-slot="9TA4NxSkZ" style="display:block;"></ins>
+
+  <div class="latest-articles">
+    <div class="latest-articles__title">
+      The latest articles:
+    </div>
+
+    
+      <div class="latest-articles__article">
+        <a class="latest-articles__link" href="https://www.ilonacodes.com/blog/how-developers-can-get-symbols-from-stock-indexes-with-python/">
+          How Developers Can Get Symbols From Stock Indexes With Python
+        </a>
+      </div>
+    
+      <div class="latest-articles__article">
+        <a class="latest-articles__link" href="https://www.ilonacodes.com/blog/bitcoin-profit-calculator-for-developers/">
+          Bitcoin Profit Calculator For Developers
+        </a>
+      </div>
+    
+      <div class="latest-articles__article">
+        <a class="latest-articles__link" href="https://www.ilonacodes.com/blog/how-can-developers-invest-in-a-volatile-stock-market/">
+          How to Invest in a Volatile Stock Market: 5 Investment Strategies for Developers
+        </a>
+      </div>
+    
+  </div>
+  <br/>
+
+</div>
+
+  </div>
+
+        </div><div class="footer">
+  <div class="container footer__container">
+    <div class="row">
+      <div class="col-8 footer__center d-md-none">
+  <div class="row no-gutters footer__row">
+    
+      <div class="col text-center">
+        <a class="footer__socialLink" href="https://github.com/ilonacodes">
+          <i class="footer__socialIcon fab fa-github"></i>
+        </a>
+      </div>
+    
+      <div class="col text-center">
+        <a class="footer__socialLink" href="https://instagram.com/ilonacodes">
+          <i class="footer__socialIcon fab fa-instagram"></i>
+        </a>
+      </div>
+    
+      <div class="col text-center">
+        <a class="footer__socialLink" href="https://twitter.com/ilonacodes">
+          <i class="footer__socialIcon fab fa-twitter-square"></i>
+        </a>
+      </div>
+    
+  </div>
+
+  <div class="row no-gutters footer__row">
+    
+      
+        <div class="footer-navlink col">
+  <a class="footer-navlink__link" href="/legal/imprint">
+    Imprint
+  </a>
+</div>
+
+      
+    
+      
+        <div class="footer-navlink col">
+  <a class="footer-navlink__link" href="/legal/privacy_policy">
+    Privacy Policy
+  </a>
+</div>
+
+      
+    
+  </div>
+
+  <div class="row footer__row footer__copy">
+    <div class="col text-center">
+      &copy; 2021 ilonacodes
+    </div>
+  </div>
+</div>
+
+      <div class="col-12 d-none d-md-block">
+  <div class="row">
+    <div class="col">
+      <div class="row no-gutters">
+        
+          <div class="col text-center">
+            <a class="footer__socialLink" href="https://github.com/ilonacodes">
+              <i class="footer__socialIcon fab fa-github"></i>
+            </a>
+          </div>
+        
+          <div class="col text-center">
+            <a class="footer__socialLink" href="https://instagram.com/ilonacodes">
+              <i class="footer__socialIcon fab fa-instagram"></i>
+            </a>
+          </div>
+        
+          <div class="col text-center">
+            <a class="footer__socialLink" href="https://twitter.com/ilonacodes">
+              <i class="footer__socialIcon fab fa-twitter-square"></i>
+            </a>
+          </div>
+        
+      </div>
+    </div>
+
+    <div class="col footer__copy text-center">
+      &copy; 2021 ilonacodes
+    </div>
+
+    <div class="col footer__navlinks">
+      <div class="row">
+        
+          
+            <div class="footer-navlink col">
+  <a class="footer-navlink__link" href="/legal/imprint">
+    Imprint
+  </a>
+</div>
+
+          
+        
+          
+            <div class="footer-navlink col">
+  <a class="footer-navlink__link" href="/legal/privacy_policy">
+    Privacy Policy
+  </a>
+</div>
+
+          
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+    </div>
+  </div>
+</div>
+
+
+<link href="/reactions/css/main.5b828649.chunk.css" rel="stylesheet">
+
+
+<script>!function(l){function e(e){for(var r,t,n=e[0],o=e[1],u=e[2],f=0,i=[];f<n.length;f++)t=n[f],p[t]&&i.push(p[t][0]),p[t]=0;for(r in o)Object.prototype.hasOwnProperty.call(o,r)&&(l[r]=o[r]);for(s&&s(e);i.length;)i.shift()();return c.push.apply(c,u||[]),a()}function a(){for(var e,r=0;r<c.length;r++){for(var t=c[r],n=!0,o=1;o<t.length;o++){var u=t[o];0!==p[u]&&(n=!1)}n&&(c.splice(r--,1),e=f(f.s=t[0]))}return e}var t={},p={2:0},c=[];function f(e){if(t[e])return t[e].exports;var r=t[e]={i:e,l:!1,exports:{}};return l[e].call(r.exports,r,r.exports,f),r.l=!0,r.exports}f.m=l,f.c=t,f.d=function(e,r,t){f.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},f.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},f.t=function(r,e){if(1&e&&(r=f(r)),8&e)return r;if(4&e&&"object"==typeof r&&r&&r.__esModule)return r;var t=Object.create(null);if(f.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:r}),2&e&&"string"!=typeof r)for(var n in r)f.d(t,n,function(e){return r[e]}.bind(null,n));return t},f.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return f.d(r,"a",r),r},f.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},f.p="/";var r=window.webpackJsonp=window.webpackJsonp||[],n=r.push.bind(r);r.push=e,r=r.slice();for(var o=0;o<r.length;o++)e(r[o]);var s=n;a()}([])</script>
+
+
+<script src="/reactions/js/1.5d638bf5.chunk.js"></script>
+<script src="/reactions/js/main.0cd9b968.chunk.js"></script>
+
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+</div><noscript><img src="https://shynet.tddfellow.com/ingress/a5752e3d-4630-44b0-b7c3-706f4defdc30/pixel.gif"></noscript> <script src="https://shynet.tddfellow.com/ingress/a5752e3d-4630-44b0-b7c3-706f4defdc30/script.js"></script>
+</body>
+</html>

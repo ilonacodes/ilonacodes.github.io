@@ -3,17 +3,62 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.ilonacodes.com/blog/</loc>
+    <lastmod>2021-01-13T08:10:05+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.ilonacodes.com/tags/developer/</loc>
+    <lastmod>2021-01-13T08:10:05+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.ilonacodes.com/blog/how-developers-can-get-symbols-from-stock-indexes-with-python/</loc>
+    <lastmod>2021-01-13T08:10:05+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.ilonacodes.com/</loc>
+    <lastmod>2021-01-13T08:10:05+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.ilonacodes.com/tags/investment/</loc>
+    <lastmod>2021-01-13T08:10:05+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.ilonacodes.com/tags/python/</loc>
+    <lastmod>2021-01-13T08:10:05+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.ilonacodes.com/tags/sp500/</loc>
+    <lastmod>2021-01-13T08:10:05+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.ilonacodes.com/tags/stocks/</loc>
+    <lastmod>2021-01-13T08:10:05+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.ilonacodes.com/tags/</loc>
+    <lastmod>2021-01-13T08:10:05+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.ilonacodes.com/tags/trading/</loc>
+    <lastmod>2021-01-13T08:10:05+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.ilonacodes.com/tags/bitcoin/</loc>
     <lastmod>2021-01-06T10:10:05+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.ilonacodes.com/blog/bitcoin-profit-calculator-for-developers/</loc>
-    <lastmod>2021-01-06T10:10:05+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.ilonacodes.com/blog/</loc>
     <lastmod>2021-01-06T10:10:05+01:00</lastmod>
   </url>
   
@@ -28,27 +73,7 @@
   </url>
   
   <url>
-    <loc>https://www.ilonacodes.com/tags/developer/</loc>
-    <lastmod>2021-01-06T10:10:05+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.ilonacodes.com/</loc>
-    <lastmod>2021-01-06T10:10:05+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.ilonacodes.com/tags/investment/</loc>
-    <lastmod>2021-01-06T10:10:05+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.ilonacodes.com/tags/javascript/</loc>
-    <lastmod>2021-01-06T10:10:05+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.ilonacodes.com/tags/</loc>
     <lastmod>2021-01-06T10:10:05+01:00</lastmod>
   </url>
   
@@ -64,11 +89,6 @@
   
   <url>
     <loc>https://www.ilonacodes.com/tags/portfolio/</loc>
-    <lastmod>2020-12-28T10:10:05+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.ilonacodes.com/tags/stocks/</loc>
     <lastmod>2020-12-28T10:10:05+01:00</lastmod>
   </url>
   
@@ -89,11 +109,6 @@
   
   <url>
     <loc>https://www.ilonacodes.com/tags/investing/</loc>
-    <lastmod>2020-10-31T10:10:05+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.ilonacodes.com/tags/python/</loc>
     <lastmod>2020-10-31T10:10:05+01:00</lastmod>
   </url>
   

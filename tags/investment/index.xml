@@ -6,10 +6,25 @@
     <description>Recent content in investment on Ilona | Dev Invests 📊</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 06 Jan 2021 10:10:05 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 13 Jan 2021 08:10:05 +0100</lastBuildDate>
     
 	<atom:link href="https://www.ilonacodes.com/tags/investment/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How Developers Can Get Symbols From Stock Indexes With Python</title>
+      <link>https://www.ilonacodes.com/blog/how-developers-can-get-symbols-from-stock-indexes-with-python/</link>
+      <pubDate>Wed, 13 Jan 2021 08:10:05 +0100</pubDate>
+      
+      <guid>https://www.ilonacodes.com/blog/how-developers-can-get-symbols-from-stock-indexes-with-python/</guid>
+      <description>&lt;figure&gt;
+    &lt;img src=&#34;https://www.ilonacodes.com/blog/images/indexes.jpg&#34;/&gt; &lt;figcaption&gt;
+            &lt;h4&gt;source: Photo by Nataliya Vaitkevich from Pexels&lt;/h4&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;If you are a software developer who is interested in day trading and stock investment, then you are definitely the one who is also looking for efficient ways to automate stock analysis and even develop your tools for custom trading or investment strategies.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Bitcoin Profit Calculator For Developers</title>
