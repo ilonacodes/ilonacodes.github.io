@@ -43,6 +43,13 @@ $C: post;
       font-size: 28px !important;
     }
 
+    h3 {
+      font-weight: 500;
+      margin-top: 2.4rem;
+      margin-bottom: 1.5rem;
+      font-size: 24px !important; 
+    }
+
     table {
       width: 100%;
 
@@ -105,7 +112,7 @@ $C: post;
 
   .#{$C}__reactions {
     margin-bottom: 15px;
-    display: none; 
+    display: none;
   }
 
   .#{$C}__read-full {

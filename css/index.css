@@ -6383,6 +6383,11 @@ img {
       margin-top: 3rem;
       margin-bottom: 1.5rem;
       font-size: 28px !important; }
+    .post .post__body h3 {
+      font-weight: 500;
+      margin-top: 2.4rem;
+      margin-bottom: 1.5rem;
+      font-size: 24px !important; }
     .post .post__body table {
       width: 100%; }
       .post .post__body table th[align="center"] {
